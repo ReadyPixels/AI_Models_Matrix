@@ -80,12 +80,22 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 
 | Date | Model | Company | Highlights | Market Share* |
 |------|-------|---------|------------|---------------|
-| 2025-10-03 | 🏢 IBM Granite 4.0 | IBM | ISO 42001 certified, Mamba/Transformer hybrid | - |
-| 2025-09-30 | 🇨🇳 GLM-4.6 | Zhipu AI | 355B MoE, real-world coding, $0.13/$0.39 | 6.0% tool calls |
-| 2025-09-30 | 🔬 DeepSeek-V3.2-Exp | DeepSeek | Sparse Attention (DSA), efficient long-context | 11.4% overall |
-| 2025-09-29 | 👑 Claude 4.5 Sonnet | Anthropic | **#2 Most Used** - 35.5B tokens on OpenRouter | 13.6% overall |
-| 2025-09-23 | 🤖 GPT-5 Codex | OpenAI | 7+ hour autonomous coding | 13.8% overall |
-| 2025-09-11 | 🪶 Phi-4 | Microsoft | 14B compact reasoning, MIT license | - |
+| 2025-10-03 | 🏢 IBM Granite 4.0 | IBM | ISO 42001 certified, Mamba/Transformer hybrid, open weights | - |
+| 2025-09-30 | 🇨🇳 GLM-4.6 | Zhipu AI | 355B MoE, real-world coding, open weights, $0.13/$0.39 | 6.0% tool calls |
+| 2025-09-30 | 🔬 DeepSeek-V3.2-Exp | DeepSeek | Sparse Attention (DSA), efficient long-context, MIT license | 11.4% overall |
+| 2025-09-29 | 👑 Claude 4.5 Sonnet | Anthropic | #2 Most Used - 35.5B tokens on OpenRouter | 13.6% overall |
+| 2025-09-23 | 🤖 GPT-5 Codex | OpenAI | 7+ hour autonomous coding, API and open weights | 13.8% overall |
+| 2025-09-11 | 🪶 Phi-4 | Microsoft | 14B compact reasoning, MIT license, self-hostable | - |
+| 2025-09-10 | 🇨🇳 Qwen3-Next | Alibaba | Apache 2.0, strong coding, open weights | - |
+| 2025-09-09 | 🌙 Kimi K2-0905 | Moonshot AI | 256K context, agentic coding, Modified MIT | - |
+| 2025-09-05 | 🇨🇳 Qwen3-Max | Alibaba | 1T+ params, ranks 3rd globally, open weights | - |
+| 2025-09-03 | 🇪🇺 TildeOpen LLM | Tilde AI | 30B params, 34 European languages, open weights | - |
+| 2025-08-21 | 🔬 DeepSeek-V3.1 | DeepSeek | Hybrid architecture, 40% improvement, MIT license | 11.4% overall |
+| 2025-08-07 | 🤖 GPT-5 | OpenAI | Unified reasoning, multimodal, open weights | - |
+| 2025-08-05 | 🆓 GPT-OSS-120B | OpenAI | First open-weight since GPT-2, Apache 2.0 | - |
+| 2025-08-05 | 🆓 GPT-OSS-20B | OpenAI | #6 Most Used - 20.7B tokens on OpenRouter, Apache 2.0 | - |
+| 2025-08-01 | 🤗 StarCoder2 | BigCode/Hugging Face | New open-source coding models, community-driven | - |
+| 2025-07-15 | 💻 Magistral | Mistral AI | European reasoning, open weights, self-hostable | - |
 
 **Market Share Data from OpenRouter.ai (Live Usage Stats)*
 | 2025-09-10 | 🇨🇳 Qwen3-Next | Alibaba | Apache 2.0, strong coding |
@@ -95,7 +105,7 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 | 2025-08-21 | 🔬 DeepSeek-V3.1 | DeepSeek | Hybrid architecture, 40% improvement |
 | 2025-08-07 | 🤖 GPT-5 | OpenAI | Unified reasoning, multimodal |
 | 2025-08-05 | 🆓 GPT-OSS-120B | OpenAI | First open-weight since GPT-2, Apache 2.0 | - |
-| 2025-08-05 | 🆓 GPT-OSS-20B | OpenAI | **#6 Most Used** - 20.7B tokens on OpenRouter | - |
+| 2025-08-05 | 🆓 GPT-OSS-20B | OpenAI | #6 Most Used - 20.7B tokens on OpenRouter | - |
 
 ### 🔥 Top Performers (Real-World Usage - OpenRouter Rankings)
 
@@ -362,18 +372,37 @@ Models that employ chain-of-thought and step-by-step problem solving:
 - **Magistral** (Mistral AI) - European reasoning model
 - **Qwen3-Max-Thinking** (Alibaba) - 100% AIME25 accuracy
 
-### 🆓 Open-Source Models
+### 🆓 Open-Source Models (2025)
 
-Freely available models with permissive licenses:
+Freely available models with permissive licenses (Apache 2.0, MIT, etc.) and public source code:
 
-- **GPT-OSS-120B/20B** (OpenAI) - Apache 2.0, first open-weight since GPT-2
-- **DeepSeek-R1 / V3.1 / V3.2** - MIT License, excellent performance
-- **Llama 4 (Scout/Maverick)** (Meta) - Open multimodal models
-- **Qwen3-Next / Qwen3-Coder** (Alibaba) - Apache 2.0, strong coding
-- **Yi-Coder** (01.AI) - 128K context, 52 programming languages
-- **TildeOpen LLM** (Tilde AI) - 34 European languages specialist
-- **Phi-4** (Microsoft) - 14B compact reasoning, MIT
-- **IBM Granite 4.0** - ISO 42001 certified, Apache 2.0
+- **GPT-OSS-120B / GPT-OSS-20B** (OpenAI) — Apache 2.0; first open-weight since GPT-2; strong coding and reasoning.
+- **DeepSeek-R1 / V3.1 / V3.2 / Coder-V2** (DeepSeek) — MIT License; top-tier open-source reasoning and coding.  
+  [GitHub](https://github.com/deepseek-ai/deepseek-coder)
+- **Llama 4 (Scout/Maverick)** (Meta) — Multimodal, open weights; supports text, image, and code tasks.
+- **Qwen3-Next / Qwen3-Coder / Qwen3-Max / Qwen2.5-Coder** (Alibaba) — Apache 2.0; competitive coding and reasoning, multilingual.  
+  [GitHub](https://github.com/QwenLM/Qwen)
+- **Yi-Coder** (01.AI) — MIT License; 128K context, 52 programming languages, efficient for local deployment.  
+  [GitHub](https://github.com/01-ai/Yi)
+- **TildeOpen LLM** (Tilde AI) — European language specialist, open weights.
+  [Hugging Face](https://huggingface.co/tilde-research)
+- **Phi-4** (Microsoft) — MIT License; compact, efficient, strong reasoning.
+- **GLM-4.6 / GLM-4.5** (Zhipu AI) — Open-weight, real-world coding, multilingual.
+- **Kimi K2-0905 / Kimi K2** (Moonshot AI) — Modified MIT; agentic coding, 256K context.
+- **Codestral** (Mistral AI) — Coding-specialized, low-latency, open weights.  
+  [GitHub](https://github.com/mistralai/codestral)
+- **StarCoder2** (BigCode/Hugging Face) — Community-driven, open-source coding.  
+  [GitHub](https://github.com/bigcode-project/starcoder2)
+- **Magistral** (Mistral AI) — European reasoning, open weights.
+- **IBM Granite 4.0** — Apache 2.0; enterprise-ready, ISO 42001 certified.
+
+**Recent 2025 additions:**
+- **Qwen3-Max** (Alibaba) — 1T+ parameters, top-tier performance.
+- **GLM-4.6** (Zhipu AI) — 355B MoE, real-world coding, multilingual.
+- **StarCoder2** — New open-source coding models from BigCode/Hugging Face.
+- **Magistral** — Reasoning-focused, open weights, European origin.
+
+*Most open-source models now support context windows of 128K–256K tokens, multimodal capabilities, and community benchmarks (HumanEval, SWE-bench, MMLU).*
 
 ### 💻 Coding-Specialized Models
 
@@ -632,24 +661,37 @@ For working with large codebases:
 - **RunPod/Vast.ai** - GPU rental platforms
 - **Modal/Replicate** - Serverless options
 
-### 🎯 Best Self-Hostable Models
+### 🖥️ Self-Hosted Models (2025)
 
-**For Coding:**
-1. **DeepSeek-Coder-V2** - 236B, MIT license
-2. **Qwen3-Coder** - 480B, Apache 2.0
-3. **GPT-OSS-120B** - 117B, Apache 2.0
-4. **Codestral** - Specialized, low-latency
+Models that can be run locally or on your own infrastructure (open weights, permissive license) with public source code:
 
-**For General Use:**
-1. **GPT-OSS-20B** - Efficient, Apache 2.0
-2. **Phi-4** - Compact, MIT license
-3. **DeepSeek-V3.1** - Excellent, MIT license
-4. **Llama 4 Scout** - 109B, Meta license
+**Coding:**
+- DeepSeek-Coder-V2 (MIT) — [GitHub](https://github.com/deepseek-ai/deepseek-coder)
+- Qwen3-Coder (Apache 2.0) — [GitHub](https://github.com/QwenLM/Qwen)
++- GPT-OSS-120B (Apache 2.0)
+- Codestral (Mistral AI, open weights) — [GitHub](https://github.com/mistralai/codestral)
+- StarCoder2 (BigCode/Hugging Face) — [GitHub](https://github.com/bigcode-project/starcoder2)
 
-**For Enterprise:**
-1. **IBM Granite 4.0** - ISO 42001 certified
-2. **Llama 4 Maverick** - 400B, powerful
-3. **Qwen3-Max** - Top-tier performance
+**General Use:**
+- GPT-OSS-20B (Apache 2.0)
+- Phi-4 (MIT) — [GitHub](https://github.com/microsoft/phi-1)
+- DeepSeek-V3.1 (MIT) — [GitHub](https://github.com/deepseek-ai/deepseek-coder)
+- Llama 4 Scout (Meta license) — [GitHub](https://github.com/meta-llama/llama3)
+- GLM-4.6 (Zhipu AI, open weights) — [GitHub](https://github.com/THUDM/ChatGLM3)
+
+**Enterprise:**
+- IBM Granite 4.0 (Apache 2.0, ISO 42001)
+- Llama 4 Maverick (Meta license) — [GitHub](https://github.com/meta-llama/llama3)
+- Qwen3-Max (Apache 2.0) — [GitHub](https://github.com/QwenLM/Qwen)
+- Magistral (Mistral AI, open weights)
+
+**Recent 2025 additions:**
+- Qwen3-Max (Alibaba) — 1T+ parameters, self-hostable.
+- GLM-4.6 (Zhipu AI) — 355B MoE, open weights, self-hostable.
+- StarCoder2 — New open-source coding models, easy to self-host.
+- Magistral — Reasoning, open weights, European origin.
+
+*Most self-hosted models now support large context windows, multimodal tasks, and efficient deployment on consumer or enterprise hardware.*
 
 ---
 
