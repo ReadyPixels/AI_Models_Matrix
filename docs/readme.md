@@ -1,5 +1,9 @@
 # Awesome AI Models Matrix [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+## Resources
+- Explore the curated IDE list: [Awesome AI IDEs](./awesome-ai-ides.md)
+
+
 > 🚀 A curated awesome list of top AI models and Large Language Models (LLMs) with comprehensive specifications, benchmarks, pricing, and official resources.
 
 > **A comprehensive, community-driven resource meticulously curated to help developers, researchers, and organizations navigate the rapidly evolving landscape of artificial intelligence. This matrix provides transparent, up-to-date comparisons of 48+ leading AI models across performance benchmarks, pricing structures, deployment options, and licensing terms.**
