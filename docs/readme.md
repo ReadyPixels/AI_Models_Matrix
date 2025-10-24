@@ -29,6 +29,7 @@
 - [💰 Cost Analysis](#-cost-analysis)
 - [🖥️ Self-Hosting Guide](#️-self-hosting-guide)
 - [🔍 Model Selection Guide](#-model-selection-guide)
+- [🎯 Awesome AI IDEs](#-awesome-ai-ides)
 - [🤝 Contributing](#-contributing)
 - [📜 License](#-license)
 
@@ -748,6 +749,12 @@ Models that can be run locally or on your own infrastructure (open weights, perm
 
 **Balanced:**
 - Claude Sonnet 4.5, GPT-5, DeepSeek-V3.1
+
+---
+
+## 🎯 Awesome AI IDEs
+
+[Awesome AI IDEs](docs/awesome-ai-ides.md) - A comprehensive list of AI-powered IDEs with categories and details.
 
 ---
 
