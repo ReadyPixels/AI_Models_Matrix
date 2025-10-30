@@ -1,4 +1,4 @@
-Last updated: 2025-10-24
+Last updated: 2025-10-30
 
 ## Open-Source AI-Powered IDEs 🧠🔓
 
@@ -33,6 +33,22 @@ Last updated: 2025-10-24
 - 🌐 **Platforms**: Server + editor plugins (VS Code, JetBrains).
 - 💰 **Pricing Model**: Free (open-source); commercial support available.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Self-hosting, data control. Cons: Requires infra. Unique: Model governance.
+
+### Claude Code 🧠
+- 📝 **Description**: Anthropic's CLI tool for AI-assisted coding with Claude.
+- 🧠 **Key AI Features**: Chat, code generation, editing, refactoring.
+- 💻 **Supported Programming Languages**: Broad (major languages).
+- 🌐 **Platforms**: Command-line; cross-platform.
+- 💰 **Pricing Model**: Free (uses Claude API; user pays API costs).
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Direct Claude integration. Cons: CLI-only, requires API key. Unique: Seamless AI chat in terminal.
+
+### Qwen Code 🧠
+- 📝 **Description**: Alibaba's open-source AI coding assistant based on Qwen models.
+- 🧠 **Key AI Features**: Code generation, completion, explanations.
+- 💻 **Supported Programming Languages**: Broad (major languages).
+- 🌐 **Platforms**: CLI/API; cross-platform.
+- 💰 **Pricing Model**: Free (open-source).
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Open-source, customizable. Cons: Less mainstream. Unique: Based on Qwen large language models.
 
 ## Proprietary AI-Powered IDEs 🧠💼
 
@@ -101,12 +117,38 @@ Last updated: 2025-10-24
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Fast agent loops. Cons: Newer ecosystem. Unique: Plan-and-apply UX.
 
 ### Google Gemini Code Assist 🌟
-- 📝 **Description**: Google’s AI coding assistant integrated with popular IDEs.
+- 📝 **Description**: Google's AI coding assistant integrated with popular IDEs.
 - 🧠 **Key AI Features**: Completion, code explanations, cloud-API guidance.
 - 💻 **Supported Programming Languages**: Major languages.
 - 🌐 **Platforms**: VS Code, JetBrains; Google Cloud integration.
 - 💰 **Pricing Model**: Enterprise; trials may be available.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Strong language models. Cons: Enterprise focus. Unique: Cloud-native workflows.
+
+### RooCode 🚀
+- 📝 **Description**: AI-powered coding assistant for VS Code with advanced chat and automation.
+- 🧠 **Key AI Features**: Code completion, chat, refactoring, multi-file edits.
+- 💻 **Supported Programming Languages**: Broad (editor-supported).
+- 🌐 **Platforms**: VS Code; cross-platform.
+- 💰 **Pricing Model**: Freemium; pro features available.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Seamless VS Code integration. Cons: Proprietary. Unique: Agentic coding workflows.
+
+### Trae 🌟
+- 📝 **Description**: ByteDance's AI-first IDE with built-in coding assistance.
+- 🧠 **Key AI Features**: Chat, code generation, debugging, multi-language support.
+- 💻 **Supported Programming Languages**: Major languages.
+- 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 💰 **Pricing Model**: Freemium; premium plans.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Fast AI responses. Cons: Newer ecosystem. Unique: Integrated AI chat interface.
+
+## CLI AI-Powered Tools 🧠💻
+
+### Gemini CLI 🌟
+- 📝 **Description**: Google's command-line interface for Gemini AI coding assistance.
+- 🧠 **Key AI Features**: Code generation, chat, explanations.
+- 💻 **Supported Programming Languages**: Broad (major languages).
+- 🌐 **Platforms**: Command-line; cross-platform.
+- 💰 **Pricing Model**: Free (requires Google account/API).
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Access to Gemini models. Cons: Requires setup. Unique: Direct CLI integration with Google AI.
 
 ## Web-Based AI-Powered IDEs 🧠🌐
 
