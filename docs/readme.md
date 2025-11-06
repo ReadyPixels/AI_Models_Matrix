@@ -10,9 +10,13 @@
 >
 > Whether you're building the next breakthrough application, conducting cutting-edge research, or making strategic technology decisions for your enterprise, this guide empowers you with the critical information needed to choose the perfect AI model for your specific needs.
 >
-**Last Updated:** 🗓️ October 7, 2025
+Last updated: 2025-11-06 07:03 UTC
 **Total Models:** 48+ models from 15+ companies
 **Data Sources:** OpenRouter Rankings, LLM-Stats.com, Official Documentation
+
+## Revision History
+
+- 2025-11-06 07:03 UTC — Updated document last updated timestamp to UTC format.
 
 ---
 

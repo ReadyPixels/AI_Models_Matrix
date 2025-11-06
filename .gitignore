@@ -17,6 +17,7 @@ Desktop.ini
 .vscode/
 .kiro/
 .idea/
+.trae/
 *.swp
 *.swo
 *~
