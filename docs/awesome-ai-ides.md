@@ -158,6 +158,17 @@ Last updated: 2025-11-06 07:03 UTC
 - 🔗 **Sources**: https://windsurf.ai, https://windsurf.ai/pricing
 - 🕒 **Verified**: 2025-11-06 07:03 UTC
 
+### Kiro 🧭
+- 📝 **Description**: Agentic desktop IDE with spec-driven development and automation.
+- 🧠 **Key AI Features**: Spec generation, agent hooks, multimodal context, VS Code compatibility.
+- 💻 **Supported Programming Languages**: Broad (editor-level, multi-language support).
+- 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 📅 **Release**: 2025 (public preview)
+- 💰 **Pricing Model**: Free tier; paid tiers (Pro, Pro+, Power) via credits.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Lifecycle automation on save. Cons: New ecosystem. Unique: Spec-driven workflow with agent hooks.
+- 🔗 **Sources**: https://kiro.dev/, https://kiro.dev/pricing/
+- 🕒 **Verified**: 2025-11-06 07:52 UTC
+
 ### Google Gemini Code Assist 🌟
 - 📝 **Description**: Google's AI coding assistant integrated with popular IDEs.
 - 🧠 **Key AI Features**: Completion, code explanations, cloud-API guidance.

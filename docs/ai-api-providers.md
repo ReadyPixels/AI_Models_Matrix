@@ -49,14 +49,40 @@ This document provides an overview of API providers that offer unified access to
 - Unified APIs reduce complexity versus many separate integrations
 - Many support OpenAI-compatible endpoints for easier migration
 
+## Official Pricing and Rate Limit Docs
+
+- OpenAI — Pricing: https://openai.com/api/pricing — Rate limits: https://platform.openai.com/docs/guides/rate-limits
+- Anthropic — Pricing: https://www.anthropic.com/pricing — Rate limits: https://docs.anthropic.com/claude/docs/rate-limits
+- Google Vertex AI — Pricing: https://cloud.google.com/vertex-ai/pricing — Quotas: https://cloud.google.com/vertex-ai/docs/generative-ai/quotas
+- Azure OpenAI — Pricing: https://azure.microsoft.com/pricing/details/cognitive-services/openai-service/ — Quotas: https://learn.microsoft.com/azure/ai-services/openai/quotas-limits
+- Amazon Bedrock — Pricing: https://aws.amazon.com/bedrock/pricing/ — Quotas: https://docs.aws.amazon.com/bedrock/latest/userguide/quotas.html
+- Cohere — Pricing: https://cohere.com/pricing — Rate limits: https://docs.cohere.com/docs/rate-limits
+- Mistral AI — Pricing: https://mistral.ai/pricing/ — Rate limits: https://docs.mistral.ai/getting-started/ratelimits/
+- xAI (Grok) — Pricing: https://x.ai/api/pricing — Rate limits: https://docs.x.ai/guides/rate-limits
+- Hugging Face — Pricing: https://huggingface.co/inference-api/pricing — Rate limits: https://huggingface.co/docs/hub/en/security-and-limits#rate-limits
+- Groq — Pricing: https://groq.com/pricing/ — Rate limits: https://wow.groq.com/docs/limits-and-rate-limits
+- Together AI — Pricing: https://www.together.ai/pricing — Rate limits: https://docs.together.ai/docs/rate-limits
+- OpenRouter — Pricing: https://openrouter.ai/pricing — Rate limits: https://openrouter.ai/docs#rate-limits
+- Fireworks AI — Pricing: https://fireworks.ai/pricing — Rate limits: https://docs.fireworks.ai/quickstart/rate-limits
+
+
 ## Endpoint Changes and Notes
 
-- OpenAI: Responses API supports multimodal, tool use, and structured output. See docs.
-- Anthropic: Messages API supports tools, system prompts, and caching.
+- OpenAI: Responses API supports multimodal, tool use, and structured output.
 - Google Vertex AI: Gemini models are available on Vertex AI with enterprise controls.
 - AWS Bedrock: New models added often. Guardrails and agents available.
 - Azure OpenAI: API versions change. Check `api-version` in requests.
 - OpenRouter and Together: Provide OpenAI-compatible routes for easier adoption.
+
+### Deprecations and Migrations
+- Anthropic: Text Completions API deprecated, migrate to Messages API.
+- OpenAI: Assistants API deprecated, migrate to Responses and Conversations APIs.
+- OpenAI: Legacy GPT model snapshots have shutdown schedules; use current models.
+- OpenAI: Text Moderation models deprecated, migrate to `omni-moderation`.
+- OpenAI: Some Realtime preview endpoints deprecated; check current realtime docs.
+- Azure OpenAI: Assistants API deprecation does not affect Azure service routes.
+- Groq: Batch API has separate, higher limits; 429 returned when exceeding limits.
+- Together AI: Rate limits increase automatically with usage and paid tiers.
 
 Sources for endpoint details are listed below with verification.
 
@@ -84,23 +110,53 @@ Review status pages for incidents, uptime, and maintenance windows.
 ## Sources and Verification
 
 - OpenAI docs: https://platform.openai.com/docs/overview — Verified: 2025-11-06 07:03 UTC
+- OpenAI pricing: https://openai.com/api/pricing — Verified: 2025-11-06 07:52 UTC
+- OpenAI rate limits: https://platform.openai.com/docs/guides/rate-limits — Verified: 2025-11-06 07:52 UTC
 - Anthropic docs: https://docs.anthropic.com/claude — Verified: 2025-11-06 07:03 UTC
+- Anthropic pricing: https://www.anthropic.com/pricing — Verified: 2025-11-06 07:52 UTC
+- Anthropic rate limits: https://docs.anthropic.com/claude/docs/rate-limits — Verified: 2025-11-06 07:52 UTC
 - Google Vertex AI docs: https://cloud.google.com/vertex-ai/docs/generative-ai — Verified: 2025-11-06 07:03 UTC
+- Vertex pricing: https://cloud.google.com/vertex-ai/pricing — Verified: 2025-11-06 07:52 UTC
+- Vertex quotas: https://cloud.google.com/vertex-ai/docs/generative-ai/quotas — Verified: 2025-11-06 07:52 UTC
 - Azure OpenAI docs: https://learn.microsoft.com/azure/ai-services/openai/ — Verified: 2025-11-06 07:03 UTC
+- Azure OpenAI pricing: https://azure.microsoft.com/pricing/details/cognitive-services/openai-service/ — Verified: 2025-11-06 07:52 UTC
+- Azure OpenAI quotas: https://learn.microsoft.com/azure/ai-services/openai/quotas-limits — Verified: 2025-11-06 07:52 UTC
 - Amazon Bedrock: https://aws.amazon.com/bedrock/ — Verified: 2025-11-06 07:03 UTC
+- Bedrock pricing: https://aws.amazon.com/bedrock/pricing/ — Verified: 2025-11-06 07:52 UTC
+- Bedrock quotas: https://docs.aws.amazon.com/bedrock/latest/userguide/quotas.html — Verified: 2025-11-06 07:52 UTC
 - Cohere docs: https://docs.cohere.com/docs — Verified: 2025-11-06 07:03 UTC
+- Cohere pricing: https://cohere.com/pricing — Verified: 2025-11-06 07:52 UTC
+- Cohere rate limits: https://docs.cohere.com/docs/rate-limits — Verified: 2025-11-06 07:52 UTC
 - Mistral docs: https://docs.mistral.ai/ — Verified: 2025-11-06 07:03 UTC
+- Mistral pricing: https://mistral.ai/pricing/ — Verified: 2025-11-06 07:52 UTC
+- Mistral rate limits: https://docs.mistral.ai/getting-started/ratelimits/ — Verified: 2025-11-06 07:52 UTC
 - xAI docs: https://docs.x.ai/ — Verified: 2025-11-06 07:03 UTC
+- xAI pricing: https://x.ai/api/pricing — Verified: 2025-11-06 07:52 UTC
+- xAI rate limits: https://docs.x.ai/guides/rate-limits — Verified: 2025-11-06 07:52 UTC
 - Hugging Face Inference API: https://huggingface.co/inference-api — Verified: 2025-11-06 07:03 UTC
+- HF pricing: https://huggingface.co/inference-api/pricing — Verified: 2025-11-06 07:52 UTC
+- HF rate limits: https://huggingface.co/docs/hub/en/security-and-limits#rate-limits — Verified: 2025-11-06 07:52 UTC
 - RunPod: https://runpod.io — Verified: 2025-11-06 07:03 UTC
 - Replicate: https://replicate.com — Verified: 2025-11-06 07:03 UTC
 - Together AI: https://together.ai — Verified: 2025-11-06 07:03 UTC
+- Together pricing: https://www.together.ai/pricing — Verified: 2025-11-06 07:52 UTC
+- Together rate limits: https://docs.together.ai/docs/rate-limits — Verified: 2025-11-06 07:52 UTC
 - Fireworks AI: https://fireworks.ai — Verified: 2025-11-06 07:03 UTC
+- Fireworks pricing: https://fireworks.ai/pricing — Verified: 2025-11-06 07:52 UTC
+- Fireworks rate limits: https://docs.fireworks.ai/quickstart/rate-limits — Verified: 2025-11-06 07:52 UTC
 - OpenRouter: https://openrouter.ai — Verified: 2025-11-06 07:03 UTC
+- OpenRouter pricing: https://openrouter.ai/pricing — Verified: 2025-11-06 07:52 UTC
+- OpenRouter rate limits: https://openrouter.ai/docs#rate-limits — Verified: 2025-11-06 07:52 UTC
 - Modal: https://modal.com — Verified: 2025-11-06 07:03 UTC
 - Anyscale: https://anyscale.com — Verified: 2025-11-06 07:03 UTC
 - Groq: https://groq.com — Verified: 2025-11-06 07:03 UTC
+- Groq rate limits: https://wow.groq.com/docs/limits-and-rate-limits — Verified: 2025-11-06 07:52 UTC
 - Cerebras: https://cerebras.net — Verified: 2025-11-06 07:03 UTC
+
+### Deprecation Sources
+- Anthropic Completions → Messages: https://docs.anthropic.com/claude/docs/migrate-from-text-completions — Verified: 2025-11-06 07:52 UTC
+- OpenAI deprecations overview: https://platform.openai.com/docs/deprecations — Verified: 2025-11-06 07:52 UTC
+- OpenAI Assistants API deprecation: https://platform.openai.com/docs/deprecations/assistants — Verified: 2025-11-06 07:52 UTC
 
 ## Revision History
 

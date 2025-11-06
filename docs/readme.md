@@ -824,8 +824,8 @@ For full license terms, see: [GNU GPL v3.0](https://www.gnu.org/licenses/gpl-3.0
 ### 📊 Data Sources Attribution
 
 This project aggregates information from:
-- **OpenRouter Rankings** - [openrouter.ai](https://openrouter.ai) - Real-world usage statistics
-- **LLM-Stats.com** - [llm-stats.com](https://llm-stats.com) - Benchmark aggregation
+- **OpenRouter Rankings** - [openrouter.ai](https://openrouter.ai) - Real-world usage statistics — Verified: 2025-11-06 07:52 UTC
+- **LLM-Stats.com** - [llm-stats.com](https://llm-stats.com) - Benchmark aggregation — Verified: 2025-11-06 07:52 UTC
 - **Official Documentation** - Direct from model providers
 - **Community Contributions** - GitHub contributors
 
@@ -840,8 +840,8 @@ Each AI model listed has its own license. Please refer to official documentation
 
 ## 🔗 Quick Links
 
-- 📊 [OpenRouter Rankings](https://openrouter.ai/rankings) - Live usage data
-- 📈 [LLM-Stats.com](https://llm-stats.com) - Benchmark comparisons
+- 📊 [OpenRouter Rankings](https://openrouter.ai/rankings) - Live usage data — Verified: 2025-11-06 07:52 UTC
+- 📈 [LLM-Stats.com](https://llm-stats.com) - Benchmark comparisons — Verified: 2025-11-06 07:52 UTC
 - 🤗 [Hugging Face](https://huggingface.co/models) - Model repository
 - 📖 [Awesome Lists](https://github.com/sindresorhus/awesome) - Curated lists
 
@@ -861,8 +861,8 @@ Each AI model listed has its own license. Please refer to official documentation
 
 ## 📚 Additional Resources
 
-- **OpenRouter Rankings** - [openrouter.ai/rankings](https://openrouter.ai/rankings)
-- **LLM-Stats** - [llm-stats.com](https://llm-stats.com)
+- **OpenRouter Rankings** - [openrouter.ai/rankings](https://openrouter.ai/rankings) — Verified: 2025-11-06 07:52 UTC
+- **LLM-Stats** - [llm-stats.com](https://llm-stats.com) — Verified: 2025-11-06 07:52 UTC
 - **HuggingFace Leaderboard** - [huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - **Awesome LLM** - [github.com/Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)
 
