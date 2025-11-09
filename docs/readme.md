@@ -10,13 +10,13 @@
 >
 > Whether you're building the next breakthrough application, conducting cutting-edge research, or making strategic technology decisions for your enterprise, this guide empowers you with the critical information needed to choose the perfect AI model for your specific needs.
 >
-Last updated: 2025-11-06 07:03 UTC
+Last updated: 2025-11-09 00:58 UTC
 **Total Models:** 48+ models from 15+ companies
 **Data Sources:** OpenRouter Rankings, LLM-Stats.com, Official Documentation
 
 ## Revision History
 
-- 2025-11-06 07:03 UTC — Updated document last updated timestamp to UTC format.
+- 2025-11-09 00:58 UTC — Updated document last updated timestamp to UTC format.
 
 ---
 
@@ -90,7 +90,9 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 | Date | Model | Company | Highlights | Market Share* |
 |------|-------|---------|------------|---------------|
 | 2025-10-03 | 🏢 IBM Granite 4.0 | IBM | ISO 42001 certified, Mamba/Transformer hybrid, open weights | - |
+| 2025-10-01 | 🚀 Grok-3 | xAI | Released October 2025, advanced reasoning | - |
 | 2025-09-30 | 🇨🇳 GLM-4.6 | Zhipu AI | 355B MoE, real-world coding, open weights, $0.13/$0.39 | 6.0% tool calls |
+| 2025-08-01 | 🤖 GPT-5 | OpenAI | Released August 2025, unified reasoning, multimodal, open weights | - |
 | 2025-09-30 | 🔬 DeepSeek-V3.2-Exp | DeepSeek | Sparse Attention (DSA), efficient long-context, MIT license | 11.4% overall |
 | 2025-09-29 | 👑 Claude 4.5 Sonnet | Anthropic | #2 Most Used - 35.5B tokens on OpenRouter | 13.6% overall |
 | 2025-09-23 | 🤖 GPT-5 Codex | OpenAI | 7+ hour autonomous coding, API and open weights | 13.8% overall |
@@ -144,6 +146,7 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 | 🏢 Company | 🤖 Model | 📦 Version | 📅 Release | 🔄 Last Updated | 💻 Coding | 📊 Benchmarks | 💰 Price ($/1M) | 🖥️ Self-Host | 🌟 Usage Rank | 🔗 Link |
 |-----------|---------|----------|-----------|----------------|----------|--------------|----------------|-------------|---------------|---------|
 | 🏢 **IBM** | Granite 4.0 | 4.0 Small | 2025-10-03 | **2025-10-03** ⭐ | ✅ Good | ~70% / ~75% | 🆓 Free | ✅ Apache 2.0 | - | [🔗](https://www.ibm.com/granite) |
+| 🚀 **xAI** | Grok-3 | Grok-3 | 2025-10 | **2025-10** ⭐ | ✅ Excellent | ~85% / ~87% | $3.00 / $15.00 | ❌ | - | [🔗](https://x.ai) |
 | 🇨🇳 **Zhipu AI** | GLM-4.6 | GLM-4.6 | 2025-09-30 | **2025-09-30** ⭐ | ✅ Excellent | ~85% / ~84% | $0.13 / $0.39 | ✅ Open-weight | #4 Tool Calls | [🔗](https://chatglm.cn) |
 | 🔬 **DeepSeek** | DeepSeek-V3.2-Exp | V3.2-Exp | 2025-09-29 | **2025-09-30** ⭐ | ✅ Excellent | Experimental DSA | $0.27 / $0.41 | ✅ MIT | #3 Coding | [🔗](https://www.deepseek.com) |
 | 🤖 **Anthropic** | Claude 4.5 Sonnet | Sonnet 4.5 | 2025-09-29 | **2025-09-29** ⭐ | ✅ Best-in-class | SWE-bench leader | $3.00 / $15.00 | ❌ | 🥈 #2 Overall | [🔗](https://www.anthropic.com) |
@@ -163,7 +166,9 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 | 🚀 **xAI** | Grok 4 | Grok 4 | 2025-07-09 | **2025-07-09** | ✅ Excellent | ~85% / ~87% | $3.00 / $15.00 | ❌ | [🔗](https://x.ai) |
 | 🇨🇳 **Zhipu AI** | GLM-4.5 | GLM-4.5 | 2025-07 | **2025-07** | ✅ Good | ~82% / ~82% | $0.15 / $0.45 | ✅ Open-weight | [🔗](https://chatglm.cn) |
 | 🌙 **Moonshot AI** | Kimi K2 | K2 | 2025-07 | **2025-07** | ✅ Excellent | ~85% / ~83% | Varies | ✅ Modified MIT | [🔗](https://kimi.moonshot.cn) |
+| 💻 **Mistral AI** | Mixtral 9x7B | 9x7B | 2025-07 | **2025-07** | ✅ Excellent | Coding-specialized | $0.30 / $0.90 | ❌ | - | [🔗](https://mistral.ai) |
 | 💻 **Mistral AI** | Magistral | Magistral | 2025-06 | **2025-06** | ✅ Good | Reasoning | Varies | ❌ | [🔗](https://mistral.ai) |
+| 🏢 **Cohere** | Command-R+ | Command-R+ | 2025-06 | **2025-06** | ✅ Good | Enterprise RAG | Varies | ❌ | - | [🔗](https://cohere.com) |
 | 🔬 **DeepSeek** | DeepSeek-R1 | R1-0528 | 2025-05-28 | **2025-05-28** | ✅ Excellent | 81% / 85% | $0.50 / $2.15 | ✅ MIT | [🔗](https://www.deepseek.com) |
 
 ---
@@ -224,6 +229,16 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 </details>
 
 <details>
+<summary><b>🏢 Cohere Models (2 models)</b></summary>
+
+| Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
+|-------|---------|---------|--------------|--------|------------|-------|-----------|
+| Command-R+ | Command-R+ | 2025-06 | 2025-06 | ✅ Good | Enterprise RAG | Varies | ❌ |
+| Command A | Command A | 2024 | 2024 | ✅ Good | Enterprise RAG | Varies | ❌ |
+
+</details>
+
+<details>
 <summary><b>🇨🇳 Zhipu AI (Z.ai) Models (2 models)</b></summary>
 
 | Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
@@ -247,9 +262,9 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 <summary><b>Other Companies (10+ models)</b></summary>
 
 **🌐 Google DeepMind** - Gemini 2.5 Pro, Gemini 2.5 Flash
-**🚀 xAI** - Grok 4, Grok 4 Fast, Grok 3
+**🚀 xAI** - Grok-3, Grok 4, Grok 4 Fast
 **🦙 Meta** - Llama 4 Maverick, Llama 4 Scout
-**💻 Mistral AI** - Codestral, Magistral, Medium 3, Pixtral Large, Large 2
+**💻 Mistral AI** - Codestral, Mixtral 9x7B, Magistral, Medium 3, Pixtral Large, Large 2
 **🏢 IBM** - Granite 4.0
 **🪶 Microsoft** - Phi-4
 **🇪🇺 Tilde AI** - TildeOpen LLM
@@ -353,6 +368,7 @@ The most advanced, cutting-edge models with state-of-the-art capabilities:
 - **🥈 Claude 4.5 Sonnet** (Anthropic) - **#2 Overall** - Best coding, 35.5B tokens
 - **GPT-5** (OpenAI) - Unified reasoning and multimodal, $1.25/$10
 - **Gemini 2.5 Pro** (Google) - Leading multimodal reasoning, 99% HumanEval
+- **Grok-3** (xAI) - Released October 2025, advanced reasoning
 - **Grok 4** (xAI) - First-principles reasoning, 26.8% company market share
 - **Qwen3-Max** (Alibaba) - 1T+ parameters, ranks 3rd globally
 - **GPT-OSS-120B** (OpenAI) - First open-weight since GPT-2, Apache 2.0
@@ -361,6 +377,7 @@ The most advanced, cutting-edge models with state-of-the-art capabilities:
 - **Claude Sonnet 4.5** (Anthropic) - SWE-bench Verified leader
 - **GPT-5 Codex** (OpenAI) - 7+ hour autonomous coding
 - **Codestral** (Mistral AI) - Low-latency, fill-in-middle
+- **Mixtral 9x7B** (Mistral AI) - Coding-specialized, $0.30/$0.90
 - **Grok 4 Fast** (xAI) - Cost-efficient at $0.20/$1.50
 
 #### Open-Source Coding Models
@@ -447,6 +464,7 @@ Designed for business and production deployments:
 
 - **Claude Opus 4.1** (Anthropic) - ASL-3 safety, highest capability
 - **Gemini 2.5 Pro** (Google) - Google Cloud integration
+- **Command-R+** (Cohere) - Enterprise RAG, 10+ languages
 - **Command A** (Cohere) - Enterprise RAG, 10+ languages
 - **Jamba 1.6** (AI21 Labs) - Private deployment, hybrid architecture
 - **IBM Granite 4.0** - ISO 42001 certified, auditable
@@ -824,8 +842,8 @@ For full license terms, see: [GNU GPL v3.0](https://www.gnu.org/licenses/gpl-3.0
 ### 📊 Data Sources Attribution
 
 This project aggregates information from:
-- **OpenRouter Rankings** - [openrouter.ai](https://openrouter.ai) - Real-world usage statistics — Verified: 2025-11-06 07:52 UTC
-- **LLM-Stats.com** - [llm-stats.com](https://llm-stats.com) - Benchmark aggregation — Verified: 2025-11-06 07:52 UTC
+- **OpenRouter Rankings** - [openrouter.ai](https://openrouter.ai) - Real-world usage statistics — Verified: 2025-11-09 00:58 UTC
+- **LLM-Stats.com** - [llm-stats.com](https://llm-stats.com) - Benchmark aggregation — Verified: 2025-11-09 00:58 UTC
 - **Official Documentation** - Direct from model providers
 - **Community Contributions** - GitHub contributors
 
@@ -840,8 +858,8 @@ Each AI model listed has its own license. Please refer to official documentation
 
 ## 🔗 Quick Links
 
-- 📊 [OpenRouter Rankings](https://openrouter.ai/rankings) - Live usage data — Verified: 2025-11-06 07:52 UTC
-- 📈 [LLM-Stats.com](https://llm-stats.com) - Benchmark comparisons — Verified: 2025-11-06 07:52 UTC
+- 📊 [OpenRouter Rankings](https://openrouter.ai/rankings) - Live usage data — Verified: 2025-11-09 00:58 UTC
+- 📈 [LLM-Stats.com](https://llm-stats.com) - Benchmark comparisons — Verified: 2025-11-09 00:58 UTC
 - 🤗 [Hugging Face](https://huggingface.co/models) - Model repository
 - 📖 [Awesome Lists](https://github.com/sindresorhus/awesome) - Curated lists
 
@@ -853,7 +871,7 @@ Each AI model listed has its own license. Please refer to official documentation
 
 **⭐ Star this repository if you find it helpful! ⭐**
 
-*Last Updated: October 7, 2025*
+*Last Updated: November 9, 2025*
 
 </div>
 
@@ -861,8 +879,8 @@ Each AI model listed has its own license. Please refer to official documentation
 
 ## 📚 Additional Resources
 
-- **OpenRouter Rankings** - [openrouter.ai/rankings](https://openrouter.ai/rankings) — Verified: 2025-11-06 07:52 UTC
-- **LLM-Stats** - [llm-stats.com](https://llm-stats.com) — Verified: 2025-11-06 07:52 UTC
+- **OpenRouter Rankings** - [openrouter.ai/rankings](https://openrouter.ai/rankings) — Verified: 2025-11-09 00:58 UTC
+- **LLM-Stats** - [llm-stats.com](https://llm-stats.com) — Verified: 2025-11-09 00:58 UTC
 - **HuggingFace Leaderboard** - [huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - **Awesome LLM** - [github.com/Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)
 
@@ -871,4 +889,4 @@ Each AI model listed has its own license. Please refer to official documentation
 
 **🚀 The most comprehensive AI models matrix on the internet!**
 *Made with ❤️ by [ReadyPixels](https://readypixels.com) for the global AI community*
-*Last Updated: October 7, 2025*
+*Last Updated: November 9, 2025*

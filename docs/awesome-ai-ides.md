@@ -1,4 +1,4 @@
-Last updated: 2025-11-06 07:03 UTC
+Last updated: 2025-11-09 00:58 UTC
 
 ## Open-Source AI-Powered IDEs 🧠🔓
 
@@ -11,7 +11,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Free (open-source).
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Local + remote LLMs, fully customizable. Cons: Setup requires model/provider configuration. Unique: Strong local-model support (e.g., Llama family).
 - 🔗 **Sources**: https://continue.dev, https://github.com/ContinueDev/continue
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### Cody (Sourcegraph) 🔍
 - 📝 **Description**: Open-source AI coding assistant focused on code search and codebase understanding.
@@ -22,7 +22,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Free tier; paid plans for teams.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Excellent navigation/search. Cons: Advanced features benefit from Sourcegraph backend. Unique: Deep repo-scale context.
 - 🔗 **Sources**: https://sourcegraph.com/blog/open-sourcing-cody, https://docs.sourcegraph.com/cody
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### Aider 🛠️
 - 📝 **Description**: Open-source CLI assistant that edits code directly via chat.
@@ -33,7 +33,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Free (uses external LLM APIs; user pays API costs).
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Precise diffs, repo-aware. Cons: Requires API keys/config. Unique: Terminal-first automation.
 - 🔗 **Sources**: https://aider.chat, https://github.com/paul-gauthier/aider
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### Tabby 🗃️
 - 📝 **Description**: Open-source, self-hosted AI code completion server.
@@ -44,7 +44,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Free (open-source); commercial support available.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Self-hosting, data control. Cons: Requires infra. Unique: Model governance.
 - 🔗 **Sources**: https://github.com/TabbyML/tabby, https://tabbyml.github.io
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### Claude Code 🧠
 - 📝 **Description**: Anthropic's CLI tool for AI-assisted coding with Claude.
@@ -55,7 +55,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Free (uses Claude API; user pays API costs).
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Direct Claude integration. Cons: CLI-only, requires API key. Unique: Seamless AI chat in terminal.
 - 🔗 **Sources**: https://www.anthropic.com, https://docs.anthropic.com
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### Qwen Code 🧠
 - 📝 **Description**: Alibaba's open-source AI coding assistant based on Qwen models.
@@ -66,7 +66,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Free (open-source).
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Open-source, customizable. Cons: Less mainstream. Unique: Based on Qwen large language models.
 - 🔗 **Sources**: https://github.com/QwenLM, https://qwenlm.github.io
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ## Proprietary AI-Powered IDEs 🧠💼
 
@@ -79,7 +79,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Subscription (individual/business tiers).
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Strong quality, GitHub ecosystem. Cons: Paid. Unique: PR/issues/repo context integration.
 - 🔗 **Sources**: https://github.com/features/copilot, https://github.com/pricing
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### Cursor ⚡
 - 📝 **Description**: AI-first editor built on VS Code, integrating chat, plans, and refactors.
@@ -90,7 +90,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Freemium; Pro tier available.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Seamless AI UX. Cons: Proprietary editor. Unique: Inline code transforms.
 - 🔗 **Sources**: https://cursor.sh, https://cursor.sh/pricing
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### Codeium 🚀
 - 📝 **Description**: Fast AI code completion and chat for editors.
@@ -101,7 +101,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Free for individuals; paid plans for teams.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Speed, breadth of languages. Cons: Closed-source. Unique: Enterprise features.
 - 🔗 **Sources**: https://codeium.com, https://codeium.com/pricing
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### Tabnine 🤝
 - 📝 **Description**: AI-assisted code completion with team knowledge.
@@ -112,7 +112,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Freemium; enterprise tiers.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Stable completion. Cons: Focused on autocomplete. Unique: Team-aware suggestions.
 - 🔗 **Sources**: https://www.tabnine.com, https://www.tabnine.com/pricing
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### Amazon Q Developer (formerly CodeWhisperer) 🛡️
 - 📝 **Description**: AWS’s developer assistant with secure suggestions and remediation.
@@ -123,7 +123,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Free tier; enterprise plans.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Security emphasis. Cons: AWS-centric workflows. Unique: Cloud service context.
 - 🔗 **Sources**: https://aws.amazon.com/q/developer/
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### IntelliCode (Microsoft) 🎯
 - 📝 **Description**: ML-enhanced IntelliSense for Visual Studio/VS Code.
@@ -134,7 +134,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Free.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Native integration. Cons: Narrow scope vs chat assistants.
 - 🔗 **Sources**: https://visualstudio.microsoft.com/services/intellicode/
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### JetBrains AI Assistant 🧠
 - 📝 **Description**: Built-in AI assistant across JetBrains IDEs.
@@ -145,29 +145,29 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Subscription (add-on).
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Deep IDE integration. Cons: Paid add-on. Unique: Language-aware tooling.
 - 🔗 **Sources**: https://www.jetbrains.com/ai/
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### Windsurf 🌬️
 - 📝 **Description**: AI-first desktop IDE focused on agentic coding workflows.
-- 🧠 **Key AI Features**: Chat, task planning, code transforms, multi-file edits.
+- 🧠 **Key AI Features**: Chat, task planning, code transforms, multi-file edits, plugin system.
 - 💻 **Supported Programming Languages**: Broad (editor-level).
 - 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
 - 📅 **Release**: 2024
 - 💰 **Pricing Model**: Freemium; pro plans.
-- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Fast agent loops. Cons: Newer ecosystem. Unique: Plan-and-apply UX.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Fast agent loops. Cons: Newer ecosystem. Unique: Plan-and-apply UX, plugin system.
 - 🔗 **Sources**: https://windsurf.ai, https://windsurf.ai/pricing
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### Kiro 🧭
 - 📝 **Description**: Agentic desktop IDE with spec-driven development and automation.
 - 🧠 **Key AI Features**: Spec generation, agent hooks, multimodal context, VS Code compatibility.
 - 💻 **Supported Programming Languages**: Broad (editor-level, multi-language support).
 - 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
-- 📅 **Release**: 2025 (public preview)
+- 📅 **Release**: 2025 (public release)
 - 💰 **Pricing Model**: Free tier; paid tiers (Pro, Pro+, Power) via credits.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Lifecycle automation on save. Cons: New ecosystem. Unique: Spec-driven workflow with agent hooks.
 - 🔗 **Sources**: https://kiro.dev/, https://kiro.dev/pricing/
-- 🕒 **Verified**: 2025-11-06 07:52 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### Google Gemini Code Assist 🌟
 - 📝 **Description**: Google's AI coding assistant integrated with popular IDEs.
@@ -178,7 +178,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Enterprise; trials may be available.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Strong language models. Cons: Enterprise focus. Unique: Cloud-native workflows.
 - 🔗 **Sources**: https://cloud.google.com/code-assist, https://cloud.google.com/code-assist/pricing
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### RooCode 🚀
 - 📝 **Description**: AI-powered coding assistant for VS Code with advanced chat and automation.
@@ -188,7 +188,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 📅 **Release**: 2024
 - 💰 **Pricing Model**: Freemium; pro features available.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Seamless VS Code integration. Cons: Proprietary. Unique: Agentic coding workflows.
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### Trae 🌟
 - 📝 **Description**: ByteDance's AI-first IDE with built-in coding assistance.
@@ -198,7 +198,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 📅 **Release**: 2024
 - 💰 **Pricing Model**: Freemium; premium plans.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Fast AI responses. Cons: Newer ecosystem. Unique: Integrated AI chat interface.
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ## CLI AI-Powered Tools 🧠💻
 
@@ -210,7 +210,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Free (requires Google account/API).
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Access to Gemini models. Cons: Requires setup. Unique: Direct CLI integration with Google AI.
 - 🔗 **Sources**: https://ai.google.dev
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ## Web-Based AI-Powered IDEs 🧠🌐
 
@@ -223,7 +223,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Freemium; paid team plans.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Zero setup. Cons: Web-only. Unique: Built-in hosting.
 - 🔗 **Sources**: https://replit.com
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### Gitpod ☁️⚙️
 - 📝 **Description**: Cloud IDE with AI via extensions (e.g., Copilot).
@@ -234,7 +234,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Freemium; resource-based tiers.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Instant environments. Cons: Extension-dependent. Unique: Pre-configured workspaces.
 - 🔗 **Sources**: https://gitpod.io, https://gitpod.io/pricing
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### GitHub Codespaces ☁️
 - 📝 **Description**: Cloud dev environments with Copilot integration.
@@ -245,7 +245,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Usage-based billing.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Repo-native. Cons: Cost for heavy use. Unique: GitHub-first workflow.
 - 🔗 **Sources**: https://github.com/features/codespaces, https://docs.github.com/en/codespaces/billing-for-codespaces
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ## Desktop AI-Powered IDEs 🧠💻
 
@@ -258,7 +258,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Paid (Community free, Ultimate paid + AI add-on).
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Powerful refactoring. Cons: Resource-intensive. Unique: Deep language support.
 - 🔗 **Sources**: https://www.jetbrains.com/idea/, https://www.jetbrains.com/ai/
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### PyCharm with AI 🐍
 - 📝 **Description**: Python IDE with AI assistance features.
@@ -269,7 +269,7 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Freemium (Community free; Professional paid + AI add-on).
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Python-focused. Cons: Paid for advanced features. Unique: Python tooling depth.
 - 🔗 **Sources**: https://www.jetbrains.com/pycharm/, https://www.jetbrains.com/ai/
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### VS Code with Copilot Chat 💬
 - 📝 **Description**: Widely used editor with Copilot Chat and extensions.
@@ -280,17 +280,17 @@ Last updated: 2025-11-06 07:03 UTC
 - 💰 **Pricing Model**: Editor free; Copilot subscription.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Huge ecosystem. Cons: Requires subscriptions for AI. Unique: Rich extension marketplace.
 - 🔗 **Sources**: https://code.visualstudio.com, https://github.com/features/copilot
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ### Zed with Copilot 🧩
 - 📝 **Description**: Fast, collaborative editor with AI assistance.
 - 🧠 **Key AI Features**: Completion, chat (via Copilot).
 - 💻 **Supported Programming Languages**: Major languages.
-- 🌐 **Platforms**: Desktop (macOS; Windows/Linux in progress).
+- 🌐 **Platforms**: Desktop (macOS; Windows/Linux stable release 2025).
 - 💰 **Pricing Model**: Editor free; Copilot subscription.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Speed and collaboration. Cons: Platform availability. Unique: Low-latency UX.
 - 🔗 **Sources**: https://zed.dev
-- 🕒 **Verified**: 2025-11-06 07:03 UTC
+- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 ## By Primary AI Features 🧠🧭
 
