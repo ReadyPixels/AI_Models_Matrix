@@ -1,7 +1,7 @@
 # 📋 Update Rules & Guidelines
 
 > **Document Version:** 1.1  
-> **Last Updated:** October 7, 2025  
+> **Last Updated:** November 9, 2025  
 > **Purpose:** Guidelines for maintaining and updating the Awesome AI Models Matrix
 
 ---
@@ -499,7 +499,7 @@ If you have questions about these rules:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.1 | 2025-12-07 | Added OpenRouter.ai and LLM-Stats.com as data sources, updated dates |
+| 1.1 | 2025-11-09 | Added OpenRouter.ai and LLM-Stats.com as data sources, updated dates |
 | 1.0 | 2025-10-30 | Initial creation of UPDATE_RULES.md |
 
 ---
@@ -508,4 +508,4 @@ If you have questions about these rules:
 
 **Data Sources:** OpenRouter Rankings, LLM-Stats.com, Official Documentation
 
-*Last Updated: December 7, 2025*
+*Last Updated: November 9, 2025*

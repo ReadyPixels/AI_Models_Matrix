@@ -281,7 +281,7 @@ Contributors who make significant contributions will be:
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under the same license as the project (CC0 1.0 Universal).
+By contributing, you agree that your contributions will be licensed under the same license as the project (GPL-3.0).
 
 ---
 

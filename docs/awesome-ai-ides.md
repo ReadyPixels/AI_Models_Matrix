@@ -314,3 +314,5 @@ Last updated: 2025-11-09 00:58 UTC
 - 🧹 **Cody**: Refactoring with semantic search context.
 
 This list reflects major AI IDEs and assistants across 2024–2025. Availability and features evolve rapidly; verify pricing and platform support before adoption.
+
+Made with ❤️ by ReadyPixels LLC

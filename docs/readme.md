@@ -695,7 +695,7 @@ Models that can be run locally or on your own infrastructure (open weights, perm
 **Coding:**
 - DeepSeek-Coder-V2 (MIT) — [GitHub](https://github.com/deepseek-ai/deepseek-coder)
 - Qwen3-Coder (Apache 2.0) — [GitHub](https://github.com/QwenLM/Qwen)
-+- GPT-OSS-120B (Apache 2.0)
+- GPT-OSS-120B (Apache 2.0)
 - Codestral (Mistral AI, open weights) — [GitHub](https://github.com/mistralai/codestral)
 - StarCoder2 (BigCode/Hugging Face) — [GitHub](https://github.com/bigcode-project/starcoder2)
 
@@ -833,7 +833,7 @@ Special thanks to all contributors who help keep this matrix up-to-date!
 
 This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
 
-**Copyright (c) 2025 ReadyPixels**
+**Copyright (c) 2025 ReadyPixels LLC**
 
 For full license terms, see: [GNU GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
@@ -893,5 +893,5 @@ Each AI model listed has its own license. Please refer to official documentation
 ---
 
 **🚀 The most comprehensive AI models matrix on the internet!**
-*Made with ❤️ by [ReadyPixels](https://readypixels.com) for the global AI community*
+*Made with ❤️ by [ReadyPixels LLC](https://readypixels.com) for the global AI community*
 *Last Updated: November 9, 2025*
