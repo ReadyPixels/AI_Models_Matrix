@@ -91,7 +91,9 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 |------|-------|---------|------------|---------------|
 | 2025-10-03 | 🏢 IBM Granite 4.0 | IBM | ISO 42001 certified, Mamba/Transformer hybrid, open weights | - |
 | 2025-10-01 | 🚀 Grok-3 | xAI | Released October 2025, advanced reasoning | - |
+| 2025-09-19 | ⚡ Grok 4 Fast | xAI | Cost-efficient reasoning, 2M context, unified modes | - |
 | 2025-09-30 | 🇨🇳 GLM-4.6 | Zhipu AI | 355B MoE, real-world coding, open weights, $0.13/$0.39 | 6.0% tool calls |
+| 2025-10-01 | 🤖 Claude Haiku 4.5 | Anthropic | Near-frontier coding quality, faster and cost-efficient | - |
 | 2025-08-01 | 🤖 GPT-5 | OpenAI | Released August 2025, unified reasoning, multimodal, open weights | - |
 | 2025-09-30 | 🔬 DeepSeek-V3.2-Exp | DeepSeek | Sparse Attention (DSA), efficient long-context, MIT license | 11.4% overall |
 | 2025-09-29 | 👑 Claude 4.5 Sonnet | Anthropic | #2 Most Used - 35.5B tokens on OpenRouter | 13.6% overall |
@@ -842,9 +844,9 @@ For full license terms, see: [GNU GPL v3.0](https://www.gnu.org/licenses/gpl-3.0
 ### 📊 Data Sources Attribution
 
 This project aggregates information from:
-- **OpenRouter Rankings** - [openrouter.ai](https://openrouter.ai) - Real-world usage statistics — Verified: 2025-11-09 00:58 UTC
-- **LLM-Stats.com** - [llm-stats.com](https://llm-stats.com) - Benchmark aggregation — Verified: 2025-11-09 00:58 UTC
-- **Artificial Analysis** - [artificialanalysis.ai](https://artificialanalysis.ai) - AI industry insights and reports — Verified: 2025-11-09 00:58 UTC
+- **OpenRouter Rankings** - [openrouter.ai](https://openrouter.ai) - Real-world usage statistics — Verified: 2025-11-14 22:07 UTC
+- **LLM-Stats.com** - [llm-stats.com](https://llm-stats.com) - Benchmark aggregation — Verified: 2025-11-14 22:07 UTC
+- **Artificial Analysis** - [artificialanalysis.ai](https://artificialanalysis.ai) - AI industry insights and reports — Verified: 2025-11-14 22:07 UTC
 - **Official Documentation** - Direct from model providers
 - **Community Contributions** - GitHub contributors
 
@@ -859,8 +861,8 @@ Each AI model listed has its own license. Please refer to official documentation
 
 ## 🔗 Quick Links
 
-- 📊 [OpenRouter Rankings](https://openrouter.ai/rankings) - Live usage data — Verified: 2025-11-09 00:58 UTC
-- 📈 [LLM-Stats.com](https://llm-stats.com) - Benchmark comparisons — Verified: 2025-11-09 00:58 UTC
+ - 📊 [OpenRouter Rankings](https://openrouter.ai/rankings) - Live usage data — Verified: 2025-11-14 22:07 UTC
+ - 📈 [LLM-Stats.com](https://llm-stats.com) - Benchmark comparisons — Verified: 2025-11-14 22:07 UTC
 - 🤗 [Hugging Face](https://huggingface.co/models) - Model repository
 - 📖 [Awesome Lists](https://github.com/sindresorhus/awesome) - Curated lists
 
@@ -880,12 +882,12 @@ Each AI model listed has its own license. Please refer to official documentation
 
 ## 📚 Additional Resources
 
-- **OpenRouter Rankings** - [openrouter.ai/rankings](https://openrouter.ai/rankings) — Verified: 2025-11-09 00:58 UTC
-- **LLM-Stats** - [llm-stats.com](https://llm-stats.com) — Verified: 2025-11-09 00:58 UTC
-- **Artificial Analysis** - [artificialanalysis.ai](https://artificialanalysis.ai) — AI industry insights and reports — Verified: 2025-11-09 00:58 UTC
-- **Artificial Analysis Agentic Index** - [artificialanalysis.ai/?intelligence=agentic-index](https://artificialanalysis.ai/?intelligence=agentic-index&intelligence-category=open-weights-vs-proprietary#summary) — Agentic capabilities comparison — Verified: 2025-11-09 00:58 UTC
-- **Artificial Analysis Q3 2025 Report** - [artificialanalysis.ai/downloads/state-of-ai/2025/Q3-2025-Artificial-Analysis-State-of-AI-Highlights-Report.pdf](https://artificialanalysis.ai/downloads/state-of-ai/2025/Q3-2025-Artificial-Analysis-State-of-AI-Highlights-Report.pdf) — Quarterly AI highlights — Verified: 2025-11-09 00:58 UTC
-- **Moonshot AI Kimi K2** - [moonshotai.github.io/Kimi-K2/](https://moonshotai.github.io/Kimi-K2/) — Kimi K2 model documentation — Verified: 2025-11-09 00:58 UTC
+ - **OpenRouter Rankings** - [openrouter.ai/rankings](https://openrouter.ai/rankings) — Verified: 2025-11-14 22:07 UTC
+ - **LLM-Stats** - [llm-stats.com](https://llm-stats.com) — Verified: 2025-11-14 22:07 UTC
+ - **Artificial Analysis** - [artificialanalysis.ai](https://artificialanalysis.ai) — AI industry insights and reports — Verified: 2025-11-14 22:07 UTC
+ - **Artificial Analysis Agentic Index** - [artificialanalysis.ai/?intelligence=agentic-index](https://artificialanalysis.ai/?intelligence=agentic-index&intelligence-category=open-weights-vs-proprietary#summary) — Agentic capabilities comparison — Verified: 2025-11-14 22:07 UTC
+ - **Artificial Analysis Q3 2025 Report** - [artificialanalysis.ai/downloads/state-of-ai/2025/Q3-2025-Artificial-Analysis-State-of-AI-Highlights-Report.pdf](https://artificialanalysis.ai/downloads/state-of-ai/2025/Q3-2025-Artificial-Analysis-State-of-AI-Highlights-Report.pdf) — Quarterly AI highlights — Verified: 2025-11-14 22:07 UTC
+ - **Moonshot AI Kimi K2** - [moonshotai.github.io/Kimi-K2/](https://moonshotai.github.io/Kimi-K2/) — Kimi K2 model documentation — Verified: 2025-11-14 22:07 UTC
 - **HuggingFace Leaderboard** - [huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - **Awesome LLM** - [github.com/Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)
 

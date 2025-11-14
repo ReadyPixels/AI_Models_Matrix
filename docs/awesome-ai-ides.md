@@ -53,7 +53,7 @@ Last updated: 2025-11-09 00:58 UTC
 - 🌐 **Platforms**: Command-line; cross-platform.
 - 📅 **Release**: 2024
 - 💰 **Pricing Model**: Free (uses Claude API; user pays API costs).
-- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Direct Claude integration. Cons: CLI-only, requires API key. Unique: Seamless AI chat in terminal.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Direct Claude integration; checkpoints for autonomous operation and instant rewind. Cons: CLI-only, requires API key. Unique: Seamless AI chat in terminal.
 - 🔗 **Sources**: https://www.anthropic.com, https://docs.anthropic.com
 - 🕒 **Verified**: 2025-11-09 00:58 UTC
 
