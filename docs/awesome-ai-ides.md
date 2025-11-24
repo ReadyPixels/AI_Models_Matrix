@@ -68,6 +68,17 @@ Last updated: 2025-11-24 22:53 UTC
 - 🔗 **Sources**: https://github.com/QwenLM, https://qwenlm.github.io
 - 🕒 **Verified**: 2025-11-09 00:58 UTC
 
+### Void Editor 🌀
+- 📝 **Description**: Open-source VS Code fork with Agent Mode and Gather Mode; privacy-focused AI coding.
+- 🧠 **Key AI Features**: Inline edits, agent workflows, model-agnostic; VS Code extension compatibility.
+- 💻 **Supported Programming Languages**: Broad (editor-level).
+- 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 📅 **Release**: 2025 (beta)
+- 💰 **Pricing Model**: Free (open-source).
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: OSS, data control. Cons: Early-stage polish. Unique: VS Code fork with built-in agent modes.
+- 🔗 **Sources**: https://voideditor.com/, https://github.com/voideditor/void, https://www.infoq.com/news/2025/06/void-ide-beta-release/
+- 🕒 **Verified**: 2025-11-24 22:53 UTC
+
 ## Proprietary AI-Powered IDEs 🧠💼
 
 ### GitHub Copilot ✈️
@@ -158,6 +169,17 @@ Last updated: 2025-11-24 22:53 UTC
 - 🔗 **Sources**: https://windsurf.ai, https://windsurf.ai/pricing
 - 🕒 **Verified**: 2025-11-09 00:58 UTC
 
+### JetBrains Claude Agent 🧠
+- 📝 **Description**: Agent integrated into JetBrains IDEs via AI Assistant; agentic coding inside the IDE.
+- 🧠 **Key AI Features**: Deep project context, planning/execution, terminal integration.
+- 💻 **Supported Programming Languages**: Broad (IDE-specific).
+- 🌐 **Platforms**: JetBrains IDEs (Windows, macOS, Linux).
+- 📅 **Release**: 2025
+- 💰 **Pricing Model**: Subscription (JetBrains AI).
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Native JetBrains integration. Cons: Paid add-on. Unique: First third‑party agent in JetBrains.
+- 🔗 **Sources**: https://blog.jetbrains.com/ai/2025/09/introducing-claude-agent-in-jetbrains-ides/, https://docs.claude.com/en/docs/claude-code/jetbrains
+- 🕒 **Verified**: 2025-11-24 22:53 UTC
+
 ### Google Antigravity 🚀
 - 📝 **Description**: Agent-first AI IDE with artifacts and a Manager view orchestrating multiple agents across editor, terminal, and browser.
 - 🧠 **Key AI Features**: Multi-agent planning/execution, verification artifacts (plans/screenshots/recordings), cross-surface control, tab autocompletion, natural language commands.
@@ -179,6 +201,17 @@ Last updated: 2025-11-24 22:53 UTC
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Lifecycle automation on save. Cons: New ecosystem. Unique: Spec-driven workflow with agent hooks.
 - 🔗 **Sources**: https://kiro.dev/, https://kiro.dev/pricing/
 - 🕒 **Verified**: 2025-11-09 00:58 UTC
+
+### GitHub Copilot Agent Mode 🤖
+- 📝 **Description**: Agent mode in VS Code enabling autonomous multi-file changes, tests, refactors, and self-healing.
+- 🧠 **Key AI Features**: MCP tools, background tasks, terminal command execution, documentation generation.
+- 💻 **Supported Programming Languages**: Broad (VS Code ecosystem).
+- 🌐 **Platforms**: VS Code (Desktop, Codespaces).
+- 📅 **Release**: 2025 (preview → GA rollouts)
+- 💰 **Pricing Model**: Copilot subscription; Pro+ tier available.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Strong agent tooling in VS Code. Cons: Preview limitations/rate caps. Unique: Issue→agent PR flow.
+- 🔗 **Sources**: https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode, https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode, https://github.blog/changelog/2025-02-06-next-edit-suggestions-agent-mode-and-prompts-files-for-github-copilot-in-vs-code-january-release-v0-24/
+- 🕒 **Verified**: 2025-11-24 22:53 UTC
 
 ### Google Gemini Code Assist 🌟
 - 📝 **Description**: Google's AI coding assistant integrated with popular IDEs.
@@ -221,6 +254,17 @@ Last updated: 2025-11-24 22:53 UTC
 - 💰 **Pricing Model**: Free (requires Google account/API).
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Access to Gemini models. Cons: Requires setup. Unique: Direct CLI integration with Google AI.
 - 🔗 **Sources**: https://ai.google.dev
+- 🕒 **Verified**: 2025-11-24 22:53 UTC
+
+### Cline (VS Code) 🧩
+- 📝 **Description**: Open-source autonomous coding agent extension for VS Code with MCP integration.
+- 🧠 **Key AI Features**: Create/edit files, run commands, browser use with permissions.
+- 💻 **Supported Programming Languages**: Broad (editor-level).
+- 🌐 **Platforms**: VS Code (Desktop).
+- 📅 **Release**: 2024→2025
+- 💰 **Pricing Model**: Free (OSS); BYO model/API.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Transparent OSS agent. Cons: Requires setup/keys. Unique: Strong MCP tooling.
+- 🔗 **Sources**: https://github.com/cline/cline, https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev
 - 🕒 **Verified**: 2025-11-24 22:53 UTC
 
 ## Web-Based AI-Powered IDEs 🧠🌐
@@ -379,6 +423,14 @@ Last updated: 2025-11-24 22:53 UTC
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Speed and collaboration. Cons: Platform availability. Unique: Low-latency UX.
 - 🔗 **Sources**: https://zed.dev
 - 🕒 **Verified**: 2025-11-09 00:58 UTC
+
+## Agentic Features Summary
+
+- Multi‑agent orchestration: **Antigravity**, **Copilot Agent Mode** (background tasks), **Replit Agent**.
+- Browser‑in‑loop: **Antigravity** (artifacts/screenshots), **Cline** (with permission), **Replit Agent**.
+- Verification artifacts: **Antigravity**.
+- Long context support: IDE-dependent; model‑driven (e.g., **Claude Sonnet 4.5**, **Gemini 3 Pro**).
+- MCP/extensibility: **Gemini CLI**, **Cline**, **Copilot Agent Mode** (tools).
 
 ### Memex 🧪
 - 📝 **Description**: Desktop agentic environment enabling vibe coding from natural language with browser↔desktop continuity.

@@ -95,6 +95,7 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 | 2025-09-19 | ⚡ Grok 4 Fast | xAI | Cost-efficient reasoning, 2M context, unified modes | - |
 | 2025-09-30 | 🇨🇳 GLM-4.6 | Zhipu AI | 355B MoE, real-world coding, open weights, $0.13/$0.39 | 6.0% tool calls |
 | 2025-10-01 | 🤖 Claude Haiku 4.5 | Anthropic | Near-frontier coding quality, faster and cost-efficient | - |
+| 2025-11-18 | 🌐 Gemini 3 Pro | Google | New reasoning/agentic capabilities; Antigravity integration | - |
 | 2025-08-01 | 🤖 GPT-5 | OpenAI | Released August 2025, unified reasoning, multimodal, open weights | - |
 | 2025-09-30 | 🔬 DeepSeek-V3.2-Exp | DeepSeek | Sparse Attention (DSA), efficient long-context, MIT license | 11.4% overall |
 | 2025-09-29 | 👑 Claude 4.5 Sonnet | Anthropic | #2 Most Used - 35.5B tokens on OpenRouter | 13.6% overall |
@@ -613,11 +614,10 @@ For working with large codebases:
 10. **Phi-4** - Compact reasoning
 
 ### 🧮 Reasoning Benchmarks (AIME 2025)
-
-1. 🥇 **Qwen3-Max-Thinking** - 100% accuracy
-2. 🥈 **o1-Pro** - Advanced reasoning
-3. 🥉 **GPT-OSS-120B** - 91.4%
-4. **GPT-5** - ~90%
+1. 🥇 **Qwen3-Max-Thinking** - 100% accuracy (AIME25/HMMT)
+2. 🥈 **GPT-5 Pro (tools)** - 100% with Python tools enabled (reported)
+3. 🥉 **Gemini 3 Pro** - Frontier agentic reasoning (preview)
+4. **GPT-OSS-120B** - 91.4%
 5. **DeepSeek-R1** - 81%
 6. **Grok 4** - ~85%
 
