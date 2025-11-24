@@ -10,13 +10,14 @@
 >
 > Whether you're building the next breakthrough application, conducting cutting-edge research, or making strategic technology decisions for your enterprise, this guide empowers you with the critical information needed to choose the perfect AI model for your specific needs.
 >
-Last updated: 2025-11-09 00:58 UTC
+Last updated: 2025-11-24 22:53 UTC
 **Total Models:** 48+ models from 15+ companies
 **Data Sources:** OpenRouter Rankings, LLM-Stats.com, Official Documentation, Artificial Analysis
 
 ## Revision History
 
-- 2025-11-09 00:58 UTC — Updated document last updated timestamp to UTC format.
+ - 2025-11-24 22:53 UTC — Updated documents with new IDE findings and provider entries.
+ - 2025-11-09 00:58 UTC — Updated document last updated timestamp to UTC format.
 
 ---
 
@@ -874,7 +875,7 @@ Each AI model listed has its own license. Please refer to official documentation
 
 **⭐ Star this repository if you find it helpful! ⭐**
 
-*Last Updated: November 9, 2025*
+*Last Updated: November 24, 2025*
 
 </div>
 

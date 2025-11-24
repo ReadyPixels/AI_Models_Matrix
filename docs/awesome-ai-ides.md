@@ -1,4 +1,4 @@
-Last updated: 2025-11-09 00:58 UTC
+Last updated: 2025-11-24 22:53 UTC
 
 ## Open-Source AI-Powered IDEs 🧠🔓
 
@@ -158,6 +158,17 @@ Last updated: 2025-11-09 00:58 UTC
 - 🔗 **Sources**: https://windsurf.ai, https://windsurf.ai/pricing
 - 🕒 **Verified**: 2025-11-09 00:58 UTC
 
+### Google Antigravity 🚀
+- 📝 **Description**: Agent-first AI IDE with artifacts and a Manager view orchestrating multiple agents across editor, terminal, and browser.
+- 🧠 **Key AI Features**: Multi-agent planning/execution, verification artifacts (plans/screenshots/recordings), cross-surface control, tab autocompletion, natural language commands.
+- 💻 **Supported Programming Languages**: Broad (editor-level).
+- 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 📅 **Release**: 2025 (public preview)
+- 💰 **Pricing Model**: Free public preview (Gemini usage rate limits).
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Trust via artifacts, multi-surface orchestration. Cons: Preview rate limits. Unique: Agent-first Manager surface.
+- 🔗 **Sources**: https://antigravity.google/, https://www.theverge.com/news/822833/google-antigravity-ide-coding-agent-gemini-3-pro, https://thenewstack.io/antigravity-is-googles-new-agentic-development-platform/
+- 🕒 **Verified**: 2025-11-24 22:53 UTC
+
 ### Kiro 🧭
 - 📝 **Description**: Agentic desktop IDE with spec-driven development and automation.
 - 🧠 **Key AI Features**: Spec generation, agent hooks, multimodal context, VS Code compatibility.
@@ -210,7 +221,7 @@ Last updated: 2025-11-09 00:58 UTC
 - 💰 **Pricing Model**: Free (requires Google account/API).
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Access to Gemini models. Cons: Requires setup. Unique: Direct CLI integration with Google AI.
 - 🔗 **Sources**: https://ai.google.dev
-- 🕒 **Verified**: 2025-11-09 00:58 UTC
+- 🕒 **Verified**: 2025-11-24 22:53 UTC
 
 ## Web-Based AI-Powered IDEs 🧠🌐
 
@@ -223,7 +234,84 @@ Last updated: 2025-11-09 00:58 UTC
 - 💰 **Pricing Model**: Freemium; paid team plans.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Zero setup. Cons: Web-only. Unique: Built-in hosting.
 - 🔗 **Sources**: https://replit.com
-- 🕒 **Verified**: 2025-11-09 00:58 UTC
+- 🕒 **Verified**: 2025-11-24 22:53 UTC
+
+### Firebase Studio (Project IDX) ☁️🧠
+- 📝 **Description**: Agentic cloud-based development environment evolving Project IDX with Gemini in Firebase.
+- 🧠 **Key AI Features**: AI-assisted coding, agents, cloud emulators, prototype→publish workflows.
+- 💻 **Supported Programming Languages**: Broad (VS Code–based foundation).
+- 🌐 **Platforms**: Web.
+- 📅 **Release**: 2025 (transition from IDX)
+- 💰 **Pricing Model**: Freemium; Firebase usage applies.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Tight Firebase integration. Cons: Cloud-dependency. Unique: Unified prototype→deploy workspace.
+- 🔗 **Sources**: https://firebase.google.com/docs/studio, https://idx.dev/
+- 🕒 **Verified**: 2025-11-24 22:53 UTC
+
+### v0 by Vercel 🎨
+- 📝 **Description**: Generative UI builder from prompts with design system integration and Platform API.
+- 🧠 **Key AI Features**: Prompt→React/Tailwind UI, refine with design systems, API for text-to-app.
+- 💻 **Supported Programming Languages**: Frontend frameworks (React/Vue/Svelte/etc.).
+- 🌐 **Platforms**: Web.
+- 📅 **Release**: 2024→2025 evolution
+- 💰 **Pricing Model**: Freemium.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Rapid UI generation. Cons: UI-focused scope. Unique: Platform API for automation.
+- 🔗 **Sources**: https://v0.app/, https://vercel.com/blog/build-your-own-ai-app-builder-with-the-v0-platform-api
+- 🕒 **Verified**: 2025-11-24 22:53 UTC
+
+### Bolt.new (StackBlitz) ⚡
+- 📝 **Description**: AI agent plus WebContainers to build full-stack apps in the browser; Figma import and deploy.
+- 🧠 **Key AI Features**: Prompt→code, browser Node runtime, inline edits, deploy.
+- 💻 **Supported Programming Languages**: Web stacks (Node/Next.js/etc.).
+- 🌐 **Platforms**: Web.
+- 📅 **Release**: 2024→2025
+- 💰 **Pricing Model**: Freemium.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: No local setup. Cons: Browser resource limits. Unique: WebContainers runtime.
+- 🔗 **Sources**: https://bolt.new/, https://github.com/stackblitz/bolt.new
+- 🕒 **Verified**: 2025-11-24 22:53 UTC
+
+### Tempo Labs 🧭
+- 📝 **Description**: Visual AI app builder generating PRDs, user flows, and full-stack apps; Stripe/Supabase integrations.
+- 🧠 **Key AI Features**: PRD and diagrams from prompts, visual editor, component library.
+- 💻 **Supported Programming Languages**: React/Next.js stacks.
+- 🌐 **Platforms**: Web.
+- 📅 **Release**: 2024→2025
+- 💰 **Pricing Model**: Freemium; plans available.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Planning artifacts upfront. Cons: Import-from-GitHub still maturing. Unique: PRD+flows generation.
+- 🔗 **Sources**: https://www.tempo.new/, https://www.tempo.new/blog/tempo-ai-copilot-for-product-managers
+- 🕒 **Verified**: 2025-11-24 22:53 UTC
+
+### Lovable 💖
+- 📝 **Description**: Idea-to-app generator producing full-stack codebases for fast iteration and deployment.
+- 🧠 **Key AI Features**: Prompt→app, UI editor, deploy.
+- 💻 **Supported Programming Languages**: Web stacks.
+- 🌐 **Platforms**: Web.
+- 📅 **Release**: 2024→2025
+- 💰 **Pricing Model**: Freemium; paid plans.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Beginner-friendly. Cons: External integrations may require paid APIs. Unique: Fast prototype-to-live flow.
+- 🔗 **Sources**: https://lovable.dev/, https://uibakery.io/blog/what-is-lovable-ai
+- 🕒 **Verified**: 2025-11-24 22:53 UTC
+
+### Base44 🧱
+- 📝 **Description**: No-code/low-code AI builder with integrated UI, database, auth, and hosting.
+- 🧠 **Key AI Features**: Prompt-first builder, instant app scaffolding.
+- 💻 **Supported Programming Languages**: Platform-managed.
+- 🌐 **Platforms**: Web.
+- 📅 **Release**: 2024→2025
+- 💰 **Pricing Model**: Freemium; paid tiers.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: All-in-one stack. Cons: Opinionated platform. Unique: Speed of idea→live app.
+- 🔗 **Sources**: https://base44.com/, https://www.nocode.mba/articles/base44-review
+- 🕒 **Verified**: 2025-11-24 22:53 UTC
+
+### Replit Agent 🤖🛠️
+- 📝 **Description**: Autonomous agent inside Replit to build, test, and fix full-stack apps from prompts.
+- 🧠 **Key AI Features**: Visual prototyping→build continuation, error fixing, integrations.
+- 💻 **Supported Programming Languages**: Full-stack web.
+- 🌐 **Platforms**: Web.
+- 📅 **Release**: 2025
+- 💰 **Pricing Model**: Free tier; paid plans.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: End-to-end within browser. Cons: Checkpoints/limits on free tier. Unique: Visual flow into autonomous builds.
+- 🔗 **Sources**: https://docs.replit.com/replitai/agent, https://replit.com/
+- 🕒 **Verified**: 2025-11-24 22:53 UTC
 
 ### Gitpod ☁️⚙️
 - 📝 **Description**: Cloud IDE with AI via extensions (e.g., Copilot).
@@ -291,6 +379,17 @@ Last updated: 2025-11-09 00:58 UTC
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Speed and collaboration. Cons: Platform availability. Unique: Low-latency UX.
 - 🔗 **Sources**: https://zed.dev
 - 🕒 **Verified**: 2025-11-09 00:58 UTC
+
+### Memex 🧪
+- 📝 **Description**: Desktop agentic environment enabling vibe coding from natural language with browser↔desktop continuity.
+- 🧠 **Key AI Features**: Project understanding, agentic edits, best practices for vibe coding.
+- 💻 **Supported Programming Languages**: Broad (environment-level).
+- 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 📅 **Release**: 2024→2025
+- 💰 **Pricing Model**: Freemium; team tiers.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Flexible workflows. Cons: Less prescriptive than IDEs. Unique: Continuity between browser and desktop builds.
+- 🔗 **Sources**: https://memex.tech/, https://docs.memex.tech/transitioning-from-traditional-coding-to-vibe-coding
+- 🕒 **Verified**: 2025-11-24 22:53 UTC
 
 ## By Primary AI Features 🧠🧭
 

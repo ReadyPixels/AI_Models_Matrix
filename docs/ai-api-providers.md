@@ -1,6 +1,6 @@
 # AI API Providers
 
-Last updated: 2025-11-09 00:58 UTC
+Last updated: 2025-11-24 22:53 UTC
 
 ## Introduction
 
@@ -13,6 +13,7 @@ This document provides an overview of API providers that offer unified access to
 | OpenAI                    | APIs for GPT models, embeddings, images, and responses                    | https://platform.openai.com/docs/overview | Broad model set, structured output, fine-tuning, batch, safety | Pay-per-token |
 | Anthropic                | Claude models with long context and tool use                              | https://docs.anthropic.com/claude | Long context, tools, caching, policies            | Pay-per-token |
 | Google Vertex AI         | Gemini models on Vertex AI                                                 | https://cloud.google.com/vertex-ai/docs/generative-ai | Enterprise controls, governance, extensions       | Per 1k tokens |
+| Google AI Studio         | Gemini API in AI Studio                                                    | https://ai.google.dev              | Fast prototyping, API keys, client SDKs           | $2/$12 per 1M (preview) |
 | Azure OpenAI Service     | OpenAI models on Azure with enterprise controls                           | https://learn.microsoft.com/azure/ai-services/openai/ | Azure compliance, quotas, regional deployment     | Pay-per-token |
 | Amazon Bedrock           | Foundation models from multiple providers on AWS                           | https://aws.amazon.com/bedrock/   | Multi-model access, guardrails, agents, KBs       | Per model pricing |
 | Cohere                   | Command, Embed, and Rerank APIs                                            | https://docs.cohere.com/docs      | Embeddings, rerank, safety                        | Pay-per-token |
@@ -56,6 +57,7 @@ This document provides an overview of API providers that offer unified access to
 - OpenAI — Pricing: https://openai.com/api/pricing — Rate limits: https://platform.openai.com/docs/guides/rate-limits
 - Anthropic — Pricing: https://www.anthropic.com/pricing — Rate limits: https://docs.anthropic.com/claude/docs/rate-limits
 - Google Vertex AI — Pricing: https://cloud.google.com/vertex-ai/pricing — Quotas: https://cloud.google.com/vertex-ai/docs/generative-ai/quotas
+- Google AI Studio — Gemini 3 pricing: https://blog.google/technology/developers/gemini-3-developers/ — Verified: 2025-11-24 22:53 UTC
 - Azure OpenAI — Pricing: https://azure.microsoft.com/pricing/details/cognitive-services/openai-service/ — Quotas: https://learn.microsoft.com/azure/ai-services/openai/quotas-limits
 - Amazon Bedrock — Pricing: https://aws.amazon.com/bedrock/pricing/ — Quotas: https://docs.aws.amazon.com/bedrock/latest/userguide/quotas.html
 - Cohere — Pricing: https://cohere.com/pricing — Rate limits: https://docs.cohere.com/docs/rate-limits
@@ -77,6 +79,10 @@ This document provides an overview of API providers that offer unified access to
 - Azure OpenAI: API versions change. Check `api-version` in requests.
 - OpenRouter and Together: Provide OpenAI-compatible routes for easier adoption.
 - xAI: Live Search API deprecated by December 15, 2025; use agentic tool calling API. Pricing $25 per 1,000 sources. — Verified: 2025-11-14 22:07 UTC
+
+### Supplementary APIs (Search & Discovery)
+
+- Brave Search API — Programmatic web search suitable for discovery and cross-validation; supports pagination and freshness filters. Pricing and docs: https://brave.com/search/api/ — Verified: 2025-11-24 22:53 UTC
 
 ### Deprecations and Migrations
 - Anthropic: Text Completions API deprecated, migrate to Messages API.
@@ -164,6 +170,7 @@ Review status pages for incidents, uptime, and maintenance windows.
 
 ## Revision History
 
+- 2025-11-24 22:53 UTC — Added Google AI Studio provider, Brave Search API section, updated pricing sources.
 - 2025-11-09 00:58 UTC — Expanded provider table, added sources, status links, and endpoint notes.
 
 Made with ❤️ by ReadyPixels LLC
