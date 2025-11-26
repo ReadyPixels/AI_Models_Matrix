@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing to the Awesome AI Models Matrix! This document provides guidelines and instructions for contributing to this project.
 
-## Table of Contents
+## Contents
 
 - [How to Contribute](#how-to-contribute)
 - [Types of Contributions](#types-of-contributions)

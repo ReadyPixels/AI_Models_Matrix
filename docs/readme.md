@@ -1,7 +1,35 @@
-# Awesome AI Models Matrix [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome AI Models Matrix — Comprehensive Research Project for AI Model Comparison and IDE Evaluation [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 ## Resources
-- Explore the curated IDE list: [Awesome AI IDEs](./awesome-ai-ides.md)
+
+## 📂 Project Files Index
+
+- [Awesome AI IDEs](./awesome-ai-ides.md) — AI IDEs catalog
+- [Awesome AI Add-ons](./awesome-ai-addons.md) — IDE add-ons catalog
+- [Awesome Browser Automation](./awesome-browser-automation.md) — Browser automation tools
+- [Awesome Desktop Automation](./awesome-desktop-automation.md) — Desktop automation tools
+- [AI API Providers](./ai-api-providers.md) — Unified APIs, pricing, rate limits
+- [CONTRIBUTING](./CONTRIBUTING.md) — Contribution guide
+
+## Contents
+
+- [🎯 About This Matrix](#-about-this-matrix)
+- [🧠 Understanding LLMs](#-understanding-llms)
+- [🆕 Latest Updates](#-latest-updates)
+- [📊 Model Comparison Tables](#-model-comparison-tables)
+  - [🔄 Sort by Latest Update](#-sort-by-latest-update)
+  - [🏢 Sort by Company](#-sort-by-company)
+  - [🖥️ Sort by Self-Hosting](#️-sort-by-self-hosting)
+  - [💰 Sort by Price](#-sort-by-price)
+- [🎯 Models by Category](#-models-by-category)
+- [💻 Coding Models Deep Dive](#-coding-models-deep-dive)
+- [🔗 Official Resources](#-official-resources)
+- [📈 Performance Benchmarks](#-performance-benchmarks)
+- [💰 Cost Analysis](#-cost-analysis)
+- [🖥️ Self-Hosting Guide](#️-self-hosting-guide)
+- [🔍 Model Selection Guide](#-model-selection-guide)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
 
 
 > 🚀 A curated awesome list of top AI models and Large Language Models (LLMs) with comprehensive specifications, benchmarks, pricing, and official resources.
@@ -20,27 +48,6 @@ Last updated: 2025-11-24 22:53 UTC
  - 2025-11-09 00:58 UTC — Updated document last updated timestamp to UTC format.
 
 ---
-
-## 📋 Table of Contents
-
-- [🎯 About This Matrix](#-about-this-matrix)
-- [🧠 Understanding LLMs](#-understanding-llms)
-- [🆕 Latest Updates](#-latest-updates)
-- [📊 Model Comparison Tables](#-model-comparison-tables)
-  - [🔄 Sort by Latest Update](#-sort-by-latest-update)
-  - [🏢 Sort by Company](#-sort-by-company)
-  - [🖥️ Sort by Self-Hosting](#️-sort-by-self-hosting)
-  - [💰 Sort by Price](#-sort-by-price)
-- [🎯 Models by Category](#-models-by-category)
-- [💻 Coding Models Deep Dive](#-coding-models-deep-dive)
-- [🔗 Official Resources](#-official-resources)
-- [📈 Performance Benchmarks](#-performance-benchmarks)
-- [💰 Cost Analysis](#-cost-analysis)
-- [🖥️ Self-Hosting Guide](#️-self-hosting-guide)
-- [🔍 Model Selection Guide](#-model-selection-guide)
-- [🎯 Awesome AI IDEs](#-awesome-ai-ides)
-- [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
 
 ---
 
@@ -781,11 +788,6 @@ Models that can be run locally or on your own infrastructure (open weights, perm
 
 ---
 
-## 🎯 Awesome AI IDEs
-
-[Awesome AI IDEs](docs/awesome-ai-ides.md) - A comprehensive list of AI-powered IDEs with categories and details.
-
----
 
 ## 🤝 Contributing
 

@@ -2,6 +2,25 @@
 
 Last updated: 2025-11-24 22:53 UTC
 
+## Contents
+
+- [Introduction](#introduction)
+- [List of Providers](#list-of-providers)
+- [Comparison](#comparison)
+  - [Pricing Models](#pricing-models-)
+  - [Model Coverage](#model-coverage-)
+  - [Performance Focus](#performance-focus-)
+  - [Ease of Integration](#ease-of-integration-)
+- [Official Pricing and Rate Limit Docs](#official-pricing-and-rate-limit-docs)
+- [Endpoint Changes and Notes](#endpoint-changes-and-notes)
+- [Supplementary APIs (Search & Discovery)](#supplementary-apis-search--discovery)
+- [Deprecations and Migrations](#deprecations-and-migrations)
+- [Notes](#notes-)
+- [Reliability and Uptime](#reliability-and-uptime)
+- [Sources and Verification](#sources-and-verification)
+- [Deprecation Sources](#deprecation-sources)
+- [Revision History](#revision-history)
+
 ## Introduction
 
 This document provides an overview of API providers that offer unified access to multiple AI language models, similar to OpenRouter.ai. These platforms aggregate models from various companies, providing developers with a single API interface for accessing diverse AI capabilities. They often include features like load balancing, automatic fallbacks, and competitive pricing 💰 to simplify AI integration.

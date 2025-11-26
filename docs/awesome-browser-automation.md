@@ -2,6 +2,11 @@
 
 _Last updated: 2025-11-26 20:20 UTC_
 
+## Contents
+
+- [Open-Source AI Browser Agents](#open-source-ai-browser-agents-)
+- [Browser‑Integrated AI](#browser%E2%80%91integrated-ai-)
+
 ## Open-Source AI Browser Agents 🌐🤖
 
 ### OpenWebUI + Browser Use 🚀

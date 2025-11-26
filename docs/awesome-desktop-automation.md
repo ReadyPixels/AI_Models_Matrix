@@ -2,6 +2,10 @@
 
 _Last updated: 2025-11-26 19:45 UTC_
 
+## Contents
+
+- [Windows Desktop Automation](#windows-desktop-automation-%EF%B8%8F%F0%9F%A4%96)
+
 ## Windows Desktop Automation 🖥️🤖
 
 ### AutoGPTQ 🧠
