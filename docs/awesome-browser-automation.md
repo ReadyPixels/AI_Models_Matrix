@@ -1,6 +1,6 @@
 # Awesome Browser Automation
 
-_Last updated: 2025-11-26 19:45 UTC_
+_Last updated: 2025-11-26 20:20 UTC_
 
 ## Open-Source AI Browser Agents 🌐🤖
 
@@ -51,6 +51,22 @@ _Last updated: 2025-11-26 19:45 UTC_
 - **Pricing**: Free (open‑source).
 - **Pros/Cons**: Low barrier; still requires Node environment.
 - **Sources**: https://github.com/StagehandAI/stagehand
+
+### BrowserOS 🌐
+- **Description**: Open‑source Chromium‑based agentic browser with native AI agents and MCP server integration.
+- **Key AI Features**: Local/bring‑your‑own models, agentic browsing, form filling, scraping, MCP server for use from agents like Claude Code/Gemini CLI.
+- **Supported Platforms**: Windows, macOS, Linux.
+- **Pricing**: Free (open‑source, AGPL‑3.0).
+- **Pros/Cons**: Privacy‑first, local agents; early‑stage, evolving feature set.
+- **Sources**: https://github.com/browseros-ai/BrowserOS, https://www.browseros.com/
+
+### Deta Surf 🗒️
+- **Description**: Open‑source personal AI notebook that brings files and the web into structured notes with citations and applets.
+- **Key AI Features**: Web search integration, citations/deeplinks, Surflets (code‑generated applets), BYO/local models.
+- **Supported Platforms**: Windows, macOS, Linux.
+- **Pricing**: Free (open‑source; Apache‑2.0).
+- **Pros/Cons**: Local‑first data and openness; not a full browser, focused on research/notes.
+- **Sources**: https://github.com/deta/surf, https://deta.surf/
 
 ## Browser‑Integrated AI 🌐🧠
 

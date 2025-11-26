@@ -1,4 +1,4 @@
-Last updated: 2025-11-24 22:53 UTC
+Last updated: 2025-11-26 20:20 UTC
 
 ## Open-Source AI-Powered IDEs 🧠🔓
 
@@ -258,13 +258,13 @@ Last updated: 2025-11-24 22:53 UTC
 
 ### Cline (VS Code) 🧩
 - 📝 **Description**: Open-source autonomous coding agent extension for VS Code with MCP integration.
-- 🧠 **Key AI Features**: Create/edit files, run commands, browser use with permissions.
+- 🧠 **Key AI Features**: Create/edit files, run commands, browser use with permissions; add custom MCP tools from chat; auto-create MCP servers via "add a tool".
 - 💻 **Supported Programming Languages**: Broad (editor-level).
 - 🌐 **Platforms**: VS Code (Desktop).
 - 📅 **Release**: 2024→2025
 - 💰 **Pricing Model**: Free (OSS); BYO model/API.
-- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Transparent OSS agent. Cons: Requires setup/keys. Unique: Strong MCP tooling.
-- 🔗 **Sources**: https://github.com/cline/cline, https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Transparent OSS agent; project-aware tooling. Cons: Requires setup/keys. Unique: "Add a tool" builds and installs MCP servers, saved for reuse.
+- 🔗 **Sources**: https://github.com/cline/cline, https://github.com/cline/cline/releases/tag/v2.2.0, https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev
 - 🕒 **Verified**: 2025-11-24 22:53 UTC
 
 ## Web-Based AI-Powered IDEs 🧠🌐
@@ -279,6 +279,17 @@ Last updated: 2025-11-24 22:53 UTC
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Zero setup. Cons: Web-only. Unique: Built-in hosting.
 - 🔗 **Sources**: https://replit.com
 - 🕒 **Verified**: 2025-11-24 22:53 UTC
+
+### Replit Agent 3 🚀
+- 📝 **Description**: Replit’s most autonomous agent to date; self-tests apps in-browser, fixes issues, and can generate other agents and automations.
+- 🧠 **Key AI Features**: App Testing (browser automation with verification loops), Max Autonomy sessions (~200 minutes), Agent Generation (build Slack/Telegram bots, time-based automations), framework-agnostic builds, live monitoring.
+- 💻 **Supported Programming Languages**: Broad (supports any language/framework, including imports from GitHub).
+- 🌐 **Platforms**: Web.
+- 📅 **Release**: 2025-09-10 (blog announcement).
+- 💰 **Pricing Model**: Available to free and paid users; enterprise options.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Self-testing, long autonomous runtimes, builds other agents; connectors for external apps. Cons: Max Autonomy in beta; autonomy requires careful oversight.
+- 🔗 **Sources**: https://blog.replit.com/introducing-agent-3-our-most-autonomous-agent-yet, https://replit.com/agent3, https://blog.replit.com/agent-on-any-framework, https://replit.com/news/funding-announcement
+- 🕒 **Verified**: 2025-11-26 20:20 UTC
 
 ### Firebase Studio (Project IDX) ☁️🧠
 - 📝 **Description**: Agentic cloud-based development environment evolving Project IDX with Gemini in Firebase.
