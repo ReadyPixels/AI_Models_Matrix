@@ -18,6 +18,7 @@ Desktop.ini
 .kiro/
 .idea/
 .trae/
+!.trae/logs/
 *.swp
 *.swo
 *~
