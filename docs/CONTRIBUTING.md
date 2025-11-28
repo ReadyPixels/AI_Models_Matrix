@@ -41,11 +41,7 @@ When adding a new AI model, please include:
 - **Self-Hosting**: License type and availability
 - **Official Website**: Direct link to official documentation
 
-**Example**:
-
-```markdown
-| **NewAI** | SuperModel 1.0 | SuperModel 1.0 | 2025-10-15 | ✅ Excellent | 85% / 88% | $2.00 / $8.00 | ✅ Apache 2.0 | [newai.com](https://newai.com) |
-```
+Examples should remain conceptual; avoid concrete syntax or code blocks.
 
 ### 2. Updating Existing Information
 
@@ -118,31 +114,7 @@ All model entries MUST include:
 4. **Update the Date**: Change "Last Updated" date if making significant changes
 
 ### PR Description Template
-
-```markdown
-## Type of Change
-- [ ] New model addition
-- [ ] Model information update
-- [ ] Documentation improvement
-- [ ] Bug fix (broken link, typo, etc.)
-- [ ] Other (please describe)
-
-## Description
-Brief description of your changes
-
-## Sources
-- [Official Documentation](https://example.com)
-- [Benchmark Results](https://example.com)
-- [Press Release](https://example.com)
-
-## Checklist
-- [ ] Information is accurate and verified
-- [ ] All required fields are filled
-- [ ] Links are working and point to official sources
-- [ ] Markdown formatting is correct
-- [ ] No duplicate entries
-- [ ] Sources are authoritative
-```
+- Provide a high-level summary, sources, and verification notes without concrete syntax.
 
 ### Review Process
 
@@ -163,12 +135,7 @@ Brief description of your changes
 - **Lists**: Use bullet points or numbered lists appropriately
 
 ### Table Formatting
-
-```markdown
-| Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| Data     | Data     | Data     |
-```
+- Describe table layout conceptually; avoid showing raw markdown syntax.
 
 ### Date Formatting
 

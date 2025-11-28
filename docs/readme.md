@@ -4,7 +4,9 @@
 
 ## 📂 Project Files Index
 
+- [Awesome AI Models](./awesome-ai-models.md) — LLMs & Image Models catalog
 - [Awesome AI IDEs](./awesome-ai-ides.md) — AI IDEs catalog
+- [Awesome AI CLI Tools](./awesome-ai-cli-tools.md) — CLI AI tools catalog
 - [Awesome AI Add-ons](./awesome-ai-addons.md) — IDE add-ons catalog
 - [Awesome Browser Automation](./awesome-browser-automation.md) — Browser automation tools
 - [Awesome Desktop Automation](./awesome-desktop-automation.md) — Desktop automation tools
@@ -274,7 +276,7 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 
 **🌐 Google DeepMind** - Gemini 2.5 Pro, Gemini 2.5 Flash
 **🚀 xAI** - Grok-3, Grok 4, Grok 4 Fast
-**🦙 Meta** - Llama 4 Maverick, Llama 4 Scout
+**🦙 Meta** - Llama 4 Maverick, Llama 4 Scout, Llama 3.3, Llama 3.2
 **💻 Mistral AI** - Codestral, Mixtral 9x7B, Magistral, Medium 3, Pixtral Large, Large 2
 **🏢 IBM** - Granite 4.0
 **🪶 Microsoft** - Phi-4
@@ -469,8 +471,17 @@ Process text, images, audio, and video:
 - **Pixtral Large** (Mistral AI) - 124B params, image understanding
 - **Llama 4 Maverick** (Meta) - Native multimodality
 
-### 🏢 Enterprise Models
+### 🎨 Image Generation Models
 
+Models specialized for generating high-quality images from text prompts:
+
+- **Flux.1** (Black Forest Labs) - State-of-the-art open-weights model with exceptional prompt adherence and text rendering. Variants include Flux.1 [dev] (12B parameters, non-commercial license), Flux.1 [schnell] (Apache 2.0, optimized for speed), and Flux.1 [pro] (closed source API). Use cases: high-fidelity art, graphic design, photorealism. Integration: ComfyUI, Forge WebUI, Replicate API. License: Non-Commercial (Dev), Apache 2.0 (Schnell).
+
+- **Stable Diffusion 3.5** (Stability AI) - Powerful open model series improving upon SD3 Medium. Variants: SD 3.5 Large (8B parameters, flagship quality), SD 3.5 Large Turbo (distilled for speed), SD 3.5 Medium (2.5B parameters, consumer-friendly). Architecture: Multimodal Diffusion Transformer (MMDiT). Use cases: general image generation, fine-tuning with LoRA support, commercial applications. Integration: ComfyUI, SwarmUI, Diffusers library. License: Stability AI Community License.
+
+---
+
+### 🏢 Enterprise Models
 Designed for business and production deployments:
 
 - **Claude Opus 4.1** (Anthropic) - ASL-3 safety, highest capability

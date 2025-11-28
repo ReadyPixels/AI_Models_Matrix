@@ -1,54 +1,15 @@
-Last updated: 2025-11-26 20:50 UTC
+Last updated: 2025-11-28 17:21 UTC
 
-Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
+Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools](./awesome-ai-cli-tools.md)
 
 ## Contents
 
-- [Open-Source AI-Powered IDEs](#open-source-ai-powered-ides-)
 - [Proprietary AI-Powered IDEs](#proprietary-ai-powered-ides-)
-- [CLI AI-Powered Tools](#cli-ai-powered-tools-)
 - [Web-Based AI-Powered IDEs](#web-based-ai-powered-ides-)
 - [VS Code Forks (Agentic)](#vs-code-forks-agentic-)
 - [Desktop AI-Powered IDEs](#desktop-ai-powered-ides-)
 
-## Open-Source AI-Powered IDEs 🧠🔓
 
-
-
-### Aider 🛠️
-- 📝 **Description**: Open-source CLI assistant that edits code directly via chat.
-- 🧠 **Key AI Features**: Code editing, refactoring, bug fixing with file diffs.
-- 💻 **Supported Programming Languages**: Python, JavaScript, plus many via connected LLMs.
-- 🌐 **Platforms**: Command-line; cross-platform.
-- 📅 **Release**: 2023
-- 💰 **Pricing Model**: Free (uses external LLM APIs; user pays API costs).
-- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Precise diffs, repo-aware. Cons: Requires API keys/config. Unique: Terminal-first automation.
-- 🔗 **Sources**: https://aider.chat, https://github.com/paul-gauthier/aider
-- 🕒 **Verified**: 2025-11-09 00:58 UTC
-
-
-
-### Claude Code 🧠
-- 📝 **Description**: Anthropic's CLI tool for AI-assisted coding with Claude.
-- 🧠 **Key AI Features**: Chat, code generation, editing, refactoring.
-- 💻 **Supported Programming Languages**: Broad (major languages).
-- 🌐 **Platforms**: Command-line; cross-platform.
-- 📅 **Release**: 2024
-- 💰 **Pricing Model**: Free (uses Claude API; user pays API costs).
-- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Direct Claude integration; checkpoints for autonomous operation and instant rewind. Cons: CLI-only, requires API key. Unique: Seamless AI chat in terminal.
-- 🔗 **Sources**: https://www.anthropic.com, https://docs.anthropic.com
-- 🕒 **Verified**: 2025-11-09 00:58 UTC
-
-### Qwen Code 🧠
-- 📝 **Description**: Alibaba's open-source AI coding assistant based on Qwen models.
-- 🧠 **Key AI Features**: Code generation, completion, explanations.
-- 💻 **Supported Programming Languages**: Broad (major languages).
-- 🌐 **Platforms**: CLI/API; cross-platform.
-- 📅 **Release**: 2024
-- 💰 **Pricing Model**: Free (open-source).
-- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Open-source, customizable. Cons: Less mainstream. Unique: Based on Qwen large language models.
-- 🔗 **Sources**: https://github.com/QwenLM, https://qwenlm.github.io
-- 🕒 **Verified**: 2025-11-09 00:58 UTC
 
 
 
@@ -61,6 +22,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Completion, structured code changes, debugging assistance.
 - 💻 **Supported Programming Languages**: All supported by VS Code.
 - 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 🧱 **Underlying Platform**: VS Code fork (regularly rebased onto upstream VS Code)
 - 📅 **Release**: 2023
 - 💰 **Pricing Model**: Freemium; Pro tier available.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Seamless AI UX. Cons: Proprietary editor. Unique: Inline code transforms.
@@ -76,6 +38,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Code completion, security insights, troubleshooting.
 - 💻 **Supported Programming Languages**: Python, Java, JavaScript, and more.
 - 🌐 **Platforms**: VS Code, JetBrains; AWS cloud-integrated.
+- 🧱 **Underlying Platform**: Extensions for VS Code and JetBrains
 - 📅 **Release**: 2023 (CodeWhisperer), rebrand 2024
 - 💰 **Pricing Model**: Free tier; enterprise plans.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Security emphasis. Cons: AWS-centric workflows. Unique: Cloud service context.
@@ -87,6 +50,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Context-aware completions.
 - 💻 **Supported Programming Languages**: C#, Python, JavaScript, etc.
 - 🌐 **Platforms**: Visual Studio, VS Code; cross-platform.
+- 🧱 **Underlying Platform**: Extensions for Visual Studio and VS Code
 - 📅 **Release**: 2018
 - 💰 **Pricing Model**: Free.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Native integration. Cons: Narrow scope vs chat assistants.
@@ -100,6 +64,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Chat, task planning, code transforms, multi-file edits, plugin system.
 - 💻 **Supported Programming Languages**: Broad (editor-level).
 - 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 🧱 **Underlying Platform**: VS Code fork (Code OSS)
 - 📅 **Release**: 2024
 - 💰 **Pricing Model**: Freemium; pro plans.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Fast agent loops. Cons: Newer ecosystem. Unique: Plan-and-apply UX, plugin system.
@@ -113,6 +78,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Multi-agent planning/execution, verification artifacts (plans/screenshots/recordings), cross-surface control, tab autocompletion, natural language commands.
 - 💻 **Supported Programming Languages**: Broad (editor-level).
 - 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 🧱 **Underlying Platform**: VS Code fork (Code OSS based)
 - 📅 **Release**: 2025 (public preview)
 - 💰 **Pricing Model**: Free public preview (Gemini usage rate limits).
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Trust via artifacts, multi-surface orchestration. Cons: Preview rate limits. Unique: Agent-first Manager surface.
@@ -124,6 +90,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Spec generation, agent hooks, multimodal context, VS Code compatibility.
 - 💻 **Supported Programming Languages**: Broad (editor-level, multi-language support).
 - 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 🧱 **Underlying Platform**: Code OSS (VS Code open-source)
 - 📅 **Release**: 2025 (public release)
 - 💰 **Pricing Model**: Free tier; paid tiers (Pro, Pro+, Power) via credits.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Lifecycle automation on save. Cons: New ecosystem. Unique: Spec-driven workflow with agent hooks.
@@ -137,6 +104,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Completion, code explanations, cloud-API guidance.
 - 💻 **Supported Programming Languages**: Major languages.
 - 🌐 **Platforms**: VS Code, JetBrains; Google Cloud integration.
+- 🧱 **Underlying Platform**: Extensions for VS Code and JetBrains
 - 📅 **Release**: 2024
 - 💰 **Pricing Model**: Enterprise; trials may be available.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Strong language models. Cons: Enterprise focus. Unique: Cloud-native workflows.
@@ -150,22 +118,13 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Chat, code generation, debugging, multi-language support.
 - 💻 **Supported Programming Languages**: Major languages.
 - 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 🧱 **Underlying Platform**: VS Code fork (Code OSS)
 - 📅 **Release**: 2024
 - 💰 **Pricing Model**: Freemium; premium plans.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Fast AI responses. Cons: Newer ecosystem. Unique: Integrated AI chat interface.
 - 🕒 **Verified**: 2025-11-09 00:58 UTC
 
-## CLI AI-Powered Tools 🧠💻
 
-### Gemini CLI 🌟
-- 📝 **Description**: Google's command-line interface for Gemini AI coding assistance.
-- 🧠 **Key AI Features**: Code generation, chat, explanations.
-- 💻 **Supported Programming Languages**: Broad (major languages).
-- 🌐 **Platforms**: Command-line; cross-platform.
-- 💰 **Pricing Model**: Free (requires Google account/API).
-- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Access to Gemini models. Cons: Requires setup. Unique: Direct CLI integration with Google AI.
-- 🔗 **Sources**: https://ai.google.dev
-- 🕒 **Verified**: 2025-11-24 22:53 UTC
 
 ## Web-Based AI-Powered IDEs 🧠🌐
 
@@ -174,6 +133,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Completion, AI chat, debugging help.
 - 💻 **Supported Programming Languages**: 50+ languages.
 - 🌐 **Platforms**: Web.
+- 🧱 **Underlying Platform**: Custom web IDE (not VS Code)
 - 📅 **Release**: 2023 (AI features)
 - 💰 **Pricing Model**: Freemium; paid team plans.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Zero setup. Cons: Web-only. Unique: Built-in hosting.
@@ -185,6 +145,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: App Testing (browser automation with verification loops), Max Autonomy sessions (~200 minutes), Agent Generation (build Slack/Telegram bots, time-based automations), framework-agnostic builds, live monitoring.
 - 💻 **Supported Programming Languages**: Broad (supports any language/framework, including imports from GitHub).
 - 🌐 **Platforms**: Web.
+- 🧱 **Underlying Platform**: Operates within Replit web IDE
 - 📅 **Release**: 2025-09-10 (blog announcement).
 - 💰 **Pricing Model**: Available to free and paid users; enterprise options.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Self-testing, long autonomous runtimes, builds other agents; connectors for external apps. Cons: Max Autonomy in beta; autonomy requires careful oversight.
@@ -196,6 +157,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: AI-assisted coding, agents, cloud emulators, prototype→publish workflows.
 - 💻 **Supported Programming Languages**: Broad (VS Code–based foundation).
 - 🌐 **Platforms**: Web.
+- 🧱 **Underlying Platform**: Upstream VS Code (web)
 - 📅 **Release**: 2025 (transition from IDX)
 - 💰 **Pricing Model**: Freemium; Firebase usage applies.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Tight Firebase integration. Cons: Cloud-dependency. Unique: Unified prototype→deploy workspace.
@@ -207,6 +169,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Prompt→React/Tailwind UI, refine with design systems, API for text-to-app.
 - 💻 **Supported Programming Languages**: Frontend frameworks (React/Vue/Svelte/etc.).
 - 🌐 **Platforms**: Web.
+- 🧱 **Underlying Platform**: Custom web builder (not VS Code)
 - 📅 **Release**: 2024→2025 evolution
 - 💰 **Pricing Model**: Freemium.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Rapid UI generation. Cons: UI-focused scope. Unique: Platform API for automation.
@@ -218,6 +181,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Prompt→code, browser Node runtime, inline edits, deploy.
 - 💻 **Supported Programming Languages**: Web stacks (Node/Next.js/etc.).
 - 🌐 **Platforms**: Web.
+- 🧱 **Underlying Platform**: WebContainers runtime (not VS Code)
 - 📅 **Release**: 2024→2025
 - 💰 **Pricing Model**: Freemium.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: No local setup. Cons: Browser resource limits. Unique: WebContainers runtime.
@@ -229,6 +193,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: PRD and diagrams from prompts, visual editor, component library.
 - 💻 **Supported Programming Languages**: React/Next.js stacks.
 - 🌐 **Platforms**: Web.
+- 🧱 **Underlying Platform**: Custom web IDE (not VS Code)
 - 📅 **Release**: 2024→2025
 - 💰 **Pricing Model**: Freemium; plans available.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Planning artifacts upfront. Cons: Import-from-GitHub still maturing. Unique: PRD+flows generation.
@@ -237,11 +202,36 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 
 ## VS Code Forks (Agentic) 🧩
 
+### PearAI 🍐
+- 📝 **Description**: Open-source AI-first code editor forked from VS Code, designed to reduce coding time with integrated AI tools.
+- 🧠 **Key AI Features**: Context-aware chat, "PearAI Creator" agent for full-feature implementation, unified subscription for top models (Claude 3.5, GPT-4o), and search integration.
+- 💻 **Supported Programming Languages**: Broad (VS Code ecosystem).
+- 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 🧱 **Underlying Platform**: VS Code fork
+- 📅 **Release**: 2024
+- 💰 **Pricing Model**: Free (Open Source); Subscription for managed API access/credits.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Open-source, YC-backed, unified model access. Cons: Newer ecosystem. Unique: "Creator" agent and curated AI tools.
+- 🔗 **Sources**: https://trypear.ai/, https://github.com/trypear/pearai-app
+- 🕒 **Verified**: 2025-11-28 17:20 UTC
+
+### Melty 🫠
+- 📝 **Description**: Open-source "chat-first" code editor that understands terminal output, git diffs, and project context.
+- 🧠 **Key AI Features**: Context-aware chat, refactoring, terminal integration, and commit message generation; designed to understand developer intent from actions.
+- 💻 **Supported Programming Languages**: Broad (VS Code ecosystem).
+- 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 🧱 **Underlying Platform**: VS Code fork
+- 📅 **Release**: 2024
+- 💰 **Pricing Model**: Open Source (Free).
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Deep context awareness (terminal/git), open-source. Cons: Early stage (beta). Unique: "Chat-first" UX philosophy.
+- 🔗 **Sources**: https://melty.sh/, https://github.com/meltylabs/melty
+- 🕒 **Verified**: 2025-11-28 17:20 UTC
+
 ### Void Editor 🌀
 - 📝 **Description**: Open-source VS Code fork with Agent Mode and Gather Mode; privacy-focused AI coding.
 - 🧠 **Key AI Features**: Inline edits, agent workflows, model-agnostic; VS Code extension compatibility.
 - 💻 **Supported Programming Languages**: Broad (editor-level).
 - 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 🧱 **Underlying Platform**: VS Code fork
 - 📅 **Release**: 2025 (beta)
 - 💰 **Pricing Model**: Free (open-source).
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: OSS, data control. Cons: Early-stage polish. Unique: VS Code fork with built-in agent modes.
@@ -253,6 +243,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Not AI-first; supports AI via extensions from Open VSX.
 - 💻 **Supported Programming Languages**: All languages supported by VS Code.
 - 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 🧱 **Underlying Platform**: Upstream VS Code (binaries)
 - 📅 **Release**: Ongoing builds (MIT-licensed VS Code binaries).
 - 💰 **Pricing Model**: Free (open-source).
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Privacy-first, no telemetry. Cons: Marketplace restrictions; use Open VSX. Unique: Clean builds of VS Code.
@@ -264,6 +255,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Not AI-first; enables web-based coding; AI via extensions (Open VSX).
 - 💻 **Supported Programming Languages**: All languages supported by VS Code.
 - 🌐 **Platforms**: Web (self-hosted/remote server).
+- 🧱 **Underlying Platform**: Upstream VS Code (server/web)
 - 📅 **Release**: Continuous releases.
 - 💰 **Pricing Model**: Free (open-source).
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Web IDE anywhere; docker images, guides. Cons: Requires server hosting; browser limitations for some extensions.
@@ -275,6 +267,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Not AI-first; supports AI via extensions (Open VSX).
 - 💻 **Supported Programming Languages**: All languages supported by VS Code.
 - 🌐 **Platforms**: Web (self-hosted or cloud VM).
+- 🧱 **Underlying Platform**: Upstream VS Code (server/web)
 - 📅 **Release**: Continuous releases.
 - 💰 **Pricing Model**: Free (open-source); managed team offering via `coder/coder`.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Consistent dev envs across devices. Cons: Requires hosting/network config.
@@ -288,6 +281,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Prompt→app, UI editor, deploy.
 - 💻 **Supported Programming Languages**: Web stacks.
 - 🌐 **Platforms**: Web.
+- 🧱 **Underlying Platform**: Custom web builder (not VS Code)
 - 📅 **Release**: 2024→2025
 - 💰 **Pricing Model**: Freemium; paid plans.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Beginner-friendly. Cons: External integrations may require paid APIs. Unique: Fast prototype-to-live flow.
@@ -299,6 +293,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Prompt-first builder, instant app scaffolding.
 - 💻 **Supported Programming Languages**: Platform-managed.
 - 🌐 **Platforms**: Web.
+- 🧱 **Underlying Platform**: Custom web platform
 - 📅 **Release**: 2024→2025
 - 💰 **Pricing Model**: Freemium; paid tiers.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: All-in-one stack. Cons: Opinionated platform. Unique: Speed of idea→live app.
@@ -310,6 +305,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Visual prototyping→build continuation, error fixing, integrations.
 - 💻 **Supported Programming Languages**: Full-stack web.
 - 🌐 **Platforms**: Web.
+- 🧱 **Underlying Platform**: Operates within Replit web IDE
 - 📅 **Release**: 2025
 - 💰 **Pricing Model**: Free tier; paid plans.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: End-to-end within browser. Cons: Checkpoints/limits on free tier. Unique: Visual flow into autonomous builds.
@@ -321,6 +317,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: AI-assisted dev through plugins.
 - 💻 **Supported Programming Languages**: All via extensions.
 - 🌐 **Platforms**: Web.
+- 🧱 **Underlying Platform**: Web IDE; extension-based (OpenVSCode Server)
 - 📅 **Release**: 2021 (platform)
 - 💰 **Pricing Model**: Freemium; resource-based tiers.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Instant environments. Cons: Extension-dependent. Unique: Pre-configured workspaces.
@@ -332,6 +329,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Completion/chat via Copilot.
 - 💻 **Supported Programming Languages**: All supported by VS Code.
 - 🌐 **Platforms**: Web and VS Code client.
+- 🧱 **Underlying Platform**: VS Code (cloud-hosted dev env)
 - 📅 **Release**: 2021
 - 💰 **Pricing Model**: Usage-based billing.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Repo-native. Cons: Cost for heavy use. Unique: GitHub-first workflow.
@@ -345,6 +343,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Completion, refactoring, debugging assistance.
 - 💻 **Supported Programming Languages**: Java, Kotlin, Python, etc.
 - 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 🧱 **Underlying Platform**: JetBrains (not VS Code)
 - 📅 **Release**: 2023 (AI Assistant add-on)
 - 💰 **Pricing Model**: Paid (Community free, Ultimate paid + AI add-on).
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Powerful refactoring. Cons: Resource-intensive. Unique: Deep language support.
@@ -356,6 +355,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Completion, debugging, refactoring.
 - 💻 **Supported Programming Languages**: Python primarily; others via plugins.
 - 🌐 **Platforms**: Desktop (cross-platform).
+- 🧱 **Underlying Platform**: JetBrains (not VS Code)
 - 📅 **Release**: 2023 (AI Assistant add-on)
 - 💰 **Pricing Model**: Freemium (Community free; Professional paid + AI add-on).
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Python-focused. Cons: Paid for advanced features. Unique: Python tooling depth.
@@ -367,6 +367,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Completion, chat, inline edits.
 - 💻 **Supported Programming Languages**: Extensive via extensions.
 - 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 🧱 **Underlying Platform**: VS Code
 - 📅 **Release**: 2023 (Chat)
 - 💰 **Pricing Model**: Editor free; Copilot subscription.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Huge ecosystem. Cons: Requires subscriptions for AI. Unique: Rich extension marketplace.
@@ -378,6 +379,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Completion, chat (via Copilot).
 - 💻 **Supported Programming Languages**: Major languages.
 - 🌐 **Platforms**: Desktop (macOS; Windows/Linux stable release 2025).
+- 🧱 **Underlying Platform**: Custom editor (not VS Code)
 - 💰 **Pricing Model**: Editor free; Copilot subscription.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Speed and collaboration. Cons: Platform availability. Unique: Low-latency UX.
 - 🔗 **Sources**: https://zed.dev
@@ -396,6 +398,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md)
 - 🧠 **Key AI Features**: Project understanding, agentic edits, best practices for vibe coding.
 - 💻 **Supported Programming Languages**: Broad (environment-level).
 - 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 🧱 **Underlying Platform**: Custom desktop environment (not VS Code)
 - 📅 **Release**: 2024→2025
 - 💰 **Pricing Model**: Freemium; team tiers.
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Flexible workflows. Cons: Less prescriptive than IDEs. Unique: Continuity between browser and desktop builds.
