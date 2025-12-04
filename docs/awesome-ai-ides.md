@@ -1,4 +1,4 @@
-Last updated: 2025-11-28 17:21 UTC
+Last updated: 2025-12-04 01:50 UTC
 
 Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools](./awesome-ai-cli-tools.md)
 
@@ -336,6 +336,18 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 - 🔗 **Sources**: https://github.com/features/codespaces, https://docs.github.com/en/codespaces/billing-for-codespaces
 - 🕒 **Verified**: 2025-11-09 00:58 UTC
 
+### Jupyter AI 🪐
+- 📝 **Description**: Official generative AI extension for JupyterLab.
+- 🧠 **Key AI Features**: Chat interface, magic commands (`%%ai`), code generation within notebooks.
+- 💻 **Supported Programming Languages**: Python, R, Julia, etc.
+- 🌐 **Platforms**: Web (JupyterLab).
+- 🧱 **Underlying Platform**: JupyterLab extension
+- 📅 **Release**: 2023
+- 💰 **Pricing Model**: Free (open-source).
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Native notebook integration. Cons: Requires BYO model keys. Unique: Magic commands for AI.
+- 🔗 **Sources**: https://github.com/jupyterlab/jupyter-ai
+- 🕒 **Verified**: 2025-12-04 01:50 UTC
+
 ## Desktop AI-Powered IDEs 🧠💻
 
 ### IntelliJ IDEA with AI Plugins 🧩
@@ -373,6 +385,18 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Huge ecosystem. Cons: Requires subscriptions for AI. Unique: Rich extension marketplace.
 - 🔗 **Sources**: https://code.visualstudio.com, https://github.com/features/copilot
 - 🕒 **Verified**: 2025-11-09 00:58 UTC
+
+### Dyad 🧬
+- 📝 **Description**: Free, local, open-source AI app builder prioritizing speed and privacy.
+- 🧠 **Key AI Features**: Local generation, BYO keys, cross-platform.
+- 💻 **Supported Programming Languages**: Full-stack web.
+- 🌐 **Platforms**: Desktop (Windows, macOS, Linux).
+- 🧱 **Underlying Platform**: Custom
+- 📅 **Release**: 2025
+- 💰 **Pricing Model**: Free (open-source).
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Local alternative to v0/Bolt. Cons: Newer ecosystem. Unique: Privacy-first app builder.
+- 🔗 **Sources**: https://dyad.sh, https://github.com/dyad-sh/dyad
+- 🕒 **Verified**: 2025-12-04 01:50 UTC
 
 ### Zed with Copilot 🧩
 - 📝 **Description**: Fast, collaborative editor with AI assistance.
