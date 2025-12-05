@@ -39,6 +39,7 @@ This document provides an overview of API providers that offer unified access to
 | Mistral AI               | Mistral models via hosted platform                                         | https://docs.mistral.ai/          | Fast endpoints, open weights options               | Pay-per-token |
 | DeepSeek                 | DeepSeek V3/V3.2 models API                                                | https://deepseek.com              | Extremely low cost, high reasoning performance     | Pay-per-token |
 | xAI                      | Grok models API                                                            | https://docs.x.ai/                | Fast chat, web integration                         | Pay-per-token |
+| MiniMax                  | Multimodal models (Text, Speech, Vision)                                   | https://minimax.io                | Advanced MoE (M2), music/video gen                 | Pay-per-token |
 | Hugging Face Inference API | API access to open-source models hosted by the community                  | https://huggingface.co/inference-api | Wide OSS coverage, flexible deployment            | Free tier, pay-per-request |
 | RunPod                   | GPU cloud platform for inference and training                              | https://runpod.io                 | Low cost GPUs, serverless jobs, APIs               | Pay-per-GPU-hour |
 | Replicate                | Cloud platform to run models with simple APIs                              | https://replicate.com             | Model marketplace, quick deploy, streaming         | Pay-per-second |
@@ -114,6 +115,7 @@ This document provides an overview of API providers that offer unified access to
 - Groq: Batch API has separate, higher limits; 429 returned when exceeding limits.
 - Together AI: Rate limits increase automatically with usage and paid tiers.
 - DeepSeek: V3 API pricing released Dec 26, 2024; V3.2 added Dec 2025.
+- MiniMax: Pay-per-token ($0.3/$1.2 per 1M for M2) + subscription tiers for high volume.
 
 ### New Model Pricing (2025)
 - **OpenAI O1**: $15/1M input, $60/1M output.

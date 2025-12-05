@@ -1,6 +1,6 @@
 # Awesome AI Models Matrix — Comprehensive Research Project for AI Model Comparison and IDE Evaluation [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-## Resources
+
 
 ## 📂 Project Files Index
 
@@ -40,7 +40,7 @@
 >
 > Whether you're building the next breakthrough application, conducting cutting-edge research, or making strategic technology decisions for your enterprise, this guide empowers you with the critical information needed to choose the perfect AI model for your specific needs.
 >
-Last updated: 2025-11-24 22:53 UTC
+Last updated: 2025-12-05 08:45 UTC
 **Total Models:** 48+ models from 15+ companies
 **Data Sources:** OpenRouter Rankings, LLM-Stats.com, Official Documentation, Artificial Analysis
 
@@ -122,31 +122,25 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 | 2025-07-15 | 💻 Magistral | Mistral AI | European reasoning, open weights, self-hostable | - |
 
 **Market Share Data from OpenRouter.ai (Live Usage Stats)*
-| 2025-09-10 | 🇨🇳 Qwen3-Next | Alibaba | Apache 2.0, strong coding |
-| 2025-09-09 | 🌙 Kimi K2-0905 | Moonshot AI | 256K context, agentic coding |
-| 2025-09-05 | 🇨🇳 Qwen3-Max | Alibaba | 1T+ params, ranks 3rd globally |
-| 2025-09-03 | 🇪🇺 TildeOpen LLM | Tilde AI | 30B params, 34 European languages |
-| 2025-08-21 | 🔬 DeepSeek-V3.1 | DeepSeek | Hybrid architecture, 40% improvement |
-| 2025-08-07 | 🤖 GPT-5 | OpenAI | Unified reasoning, multimodal |
-| 2025-08-05 | 🆓 GPT-OSS-120B | OpenAI | First open-weight since GPT-2, Apache 2.0 | - |
-| 2025-08-05 | 🆓 GPT-OSS-20B | OpenAI | #6 Most Used - 20.7B tokens on OpenRouter | - |
+
 
 ### 🔥 Top Performers (Real-World Usage - OpenRouter Rankings)
 
-| Rank | Model | Company | Usage | Market Position |
-|------|-------|---------|-------|-----------------|
-| 🥇 #1 | **Grok Code Fast** | xAI | 174B tokens | 50% of coding category |
-| 🥈 #2 | **Claude 4.5 Sonnet** | Anthropic | 35.5B tokens | 10.2% overall usage |
-| 🥉 #3 | **Qwen3-Coder 30B** | Alibaba | 21.6B tokens | 6.2% coding market |
-| #4 | **Claude 4 Sonnet** | Anthropic | 20.8B tokens | 6.0% overall |
-| #5 | **GPT-OSS-20B** | OpenAI | 20.7B tokens | 6.0% overall |
+| Rank | Model | Company | Highlights | Market Position |
+|------|-------|---------|------------|-----------------|
+| 🥇 #1 | **Grok Code Fast 1** | xAI | Coding specialist | Leading coding model |
+| 🥈 #2 | **Claude Sonnet 4.5** | Anthropic | General purpose | #1 General Use |
+| 🥉 #3 | **Gemini 2.5 Flash** | Google | Speed/Reasoning | High volume adoption |
+| #4 | **MiniMax M2** | MiniMax | Balanced | Rising star |
+| #5 | **DeepSeek V3** | DeepSeek | Cost efficiency | Top budget choice |
 
-**Market Share by Company (OpenRouter Live Stats):**
-- 🥇 xAI: **26.8%** (426B tokens)
-- 🥈 Google: **18.9%** (301B tokens)
-- 🥉 OpenAI: **13.8%** (220B tokens)
-- 🏅 Anthropic: **13.6%** (217B tokens)
-- 🏅 DeepSeek: **11.4%** (181B tokens)
+**Market Share by Company (OpenRouter Live Stats - Nov 2025):**
+
+- 🥇 Google: **22.5%** (Gemini 2.5 Flash/Pro)
+- 🥈 Anthropic: **22.3%** (Claude Sonnet 4.5)
+- 🥉 DeepSeek: **14.8%** (DeepSeek V3/R1)
+- 🏅 Alibaba (Qwen): **11.5%** (Qwen3)
+- 🏅 OpenAI: **6.0%** (GPT-5/o3)
 
 ---
 
@@ -193,6 +187,7 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 <details>
 <summary><b>🤖 OpenAI Models (7 models)</b></summary>
 
+
 | Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
 |-------|---------|---------|--------------|--------|------------|-------|-----------|
 | GPT-5 Codex | Codex | 2025-09-23 | 2025-09-23 | ✅ Best | Coding-optimized | API | ❌ |
@@ -208,6 +203,7 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 <details>
 <summary><b>🤖 Anthropic Models (3 models)</b></summary>
 
+
 | Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
 |-------|---------|---------|--------------|--------|------------|-------|-----------|
 | Claude Sonnet 4.5 | Sonnet 4.5 | 2025-09-29 | 2025-09-29 | ✅ Best | SWE-bench leader | $3 / $15 | ❌ |
@@ -218,6 +214,7 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 
 <details>
 <summary><b>🔬 DeepSeek Models (4 models)</b></summary>
+
 
 | Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
 |-------|---------|---------|--------------|--------|------------|-------|-----------|
@@ -230,6 +227,8 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 
 <details>
 <summary><b>🇨🇳 Alibaba/Qwen Models (5 models)</b></summary>
+
+
 
 | Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
 |-------|---------|---------|--------------|--------|------------|-------|-----------|
@@ -244,6 +243,8 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 <details>
 <summary><b>🏢 Cohere Models (2 models)</b></summary>
 
+
+
 | Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
 |-------|---------|---------|--------------|--------|------------|-------|-----------|
 | Command-R+ | Command-R+ | 2025-06 | 2025-06 | ✅ Good | Enterprise RAG | Varies | ❌ |
@@ -253,6 +254,8 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 
 <details>
 <summary><b>🇨🇳 Zhipu AI (Z.ai) Models (2 models)</b></summary>
+
+
 
 | Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
 |-------|---------|---------|--------------|--------|------------|-------|-----------|
@@ -264,15 +267,19 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 <details>
 <summary><b>🌙 Moonshot AI Models (2 models)</b></summary>
 
+
+
 | Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
 |-------|---------|---------|--------------|--------|------------|-------|-----------|
-| Kimi K2-0905 | K2-0905 | 2025-09-09 | 2025-09-09 | ✅ Excellent | 256K context | Varies | ✅ Modified MIT |
-| Kimi K2 | K2 | 2025-07 | 2025-07 | ✅ Excellent | ~85% / ~83% | Varies | ✅ Modified MIT |
+| Kimi K2-Instruct-0905 | K2-0905 | 2025-09-09 | 2025-09-09 | ✅ Excellent | 256K context, 1T params (MoE) | Varies | ✅ Modified MIT |
+| Kimi K2 | K2 | 2025-07 | 2025-07 | ✅ Excellent | 128K context, Agentic | Varies | ✅ Modified MIT |
 
 </details>
 
 <details>
 <summary><b>Other Companies (10+ models)</b></summary>
+
+
 
 **🌐 Google DeepMind** - Gemini 2.5 Pro, Gemini 2.5 Flash
 **🚀 xAI** - Grok-3, Grok 4, Grok 4 Fast
@@ -587,6 +594,7 @@ For working with large codebases:
 ### 🌙 Moonshot AI
 - **Website:** [moonshot.cn](https://www.moonshot.cn)
 - **Chat:** [kimi.moonshot.cn](https://kimi.moonshot.cn)
+- **Kimi K2 Docs:** [moonshotai.github.io/Kimi-K2/](https://moonshotai.github.io/Kimi-K2/) — Verified: 2025-11-14 22:07 UTC
 - **Models:** Kimi K2-0905, Kimi K2
 
 ### 🦙 Meta AI
@@ -614,6 +622,8 @@ For working with large codebases:
 - **Hugging Face:** [huggingface.co/tilde-research](https://huggingface.co/tilde-research)
 - **Models:** TildeOpen LLM
 
+
+
 ---
 
 ## 📈 Performance Benchmarks
@@ -639,13 +649,18 @@ For working with large codebases:
 5. **DeepSeek-R1** - 81%
 6. **Grok 4** - ~85%
 
-### 📚 General Knowledge (MMLU)
+### 📚 General Knowledge (MMLU) & Intelligence Index (Artificial Analysis Q3 2025)
 
-1. 🥇 **GPT-5** - ~92%
+1. 🥇 **GPT-5** - Highest score on Intelligence Index
 2. 🥈 **o3** - ~88%
 3. 🥉 **Gemini 2.5 Pro** - 86.4%
 4. **DeepSeek-V3.1** - 85%+
 5. **Claude Opus 4.1** - ~85%
+
+> **Q3 2025 Highlights:**
+> - **Agentic Capabilities**: Major focus on autonomous systems.
+> - **Visual AI**: Chinese labs leading in video generation.
+> - **Open Weights**: Explosion of new models (OpenAI, DeepSeek, Qwen).
 
 ---
 
