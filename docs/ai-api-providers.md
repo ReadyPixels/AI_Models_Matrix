@@ -1,6 +1,6 @@
 # AI API Providers
 
-Last updated: 2025-11-24 22:53 UTC
+Last updated: 2025-12-05 08:30 UTC
 
 ## Contents
 
@@ -37,6 +37,7 @@ This document provides an overview of API providers that offer unified access to
 | Amazon Bedrock           | Foundation models from multiple providers on AWS                           | https://aws.amazon.com/bedrock/   | Multi-model access, guardrails, agents, KBs       | Per model pricing |
 | Cohere                   | Command, Embed, and Rerank APIs                                            | https://docs.cohere.com/docs      | Embeddings, rerank, safety                        | Pay-per-token |
 | Mistral AI               | Mistral models via hosted platform                                         | https://docs.mistral.ai/          | Fast endpoints, open weights options               | Pay-per-token |
+| DeepSeek                 | DeepSeek V3/V3.2 models API                                                | https://deepseek.com              | Extremely low cost, high reasoning performance     | Pay-per-token |
 | xAI                      | Grok models API                                                            | https://docs.x.ai/                | Fast chat, web integration                         | Pay-per-token |
 | Hugging Face Inference API | API access to open-source models hosted by the community                  | https://huggingface.co/inference-api | Wide OSS coverage, flexible deployment            | Free tier, pay-per-request |
 | RunPod                   | GPU cloud platform for inference and training                              | https://runpod.io                 | Low cost GPUs, serverless jobs, APIs               | Pay-per-GPU-hour |
@@ -112,6 +113,15 @@ This document provides an overview of API providers that offer unified access to
 - Azure OpenAI: Assistants API deprecation does not affect Azure service routes.
 - Groq: Batch API has separate, higher limits; 429 returned when exceeding limits.
 - Together AI: Rate limits increase automatically with usage and paid tiers.
+- DeepSeek: V3 API pricing released Dec 26, 2024; V3.2 added Dec 2025.
+
+### New Model Pricing (2025)
+- **OpenAI O1**: $15/1M input, $60/1M output.
+- **OpenAI O1 Pro**: $150/1M input, $600/1M output.
+- **OpenAI O3**: $2/1M input, $8/1M output.
+- **Claude 3.5 Haiku**: $1.00/1M input, $5.00/1M output.
+- **Gemini 2.0 Flash**: GA Feb 2025, simplified pricing.
+- **Gemini 3 Pro**: Preview Nov 2025, context-tiered rates.
 
 Sources for endpoint details are listed below with verification.
 
@@ -189,6 +199,7 @@ Review status pages for incidents, uptime, and maintenance windows.
 
 ## Revision History
 
+- 2025-12-05 08:30 UTC — Added Gemini 2.0/3.0, OpenAI O1/O3, DeepSeek V3, and updated Claude 3.5 Haiku pricing.
 - 2025-11-24 22:53 UTC — Added Google AI Studio provider, Brave Search API section, updated pricing sources.
 - 2025-11-09 00:58 UTC — Expanded provider table, added sources, status links, and endpoint notes.
 

@@ -1,6 +1,6 @@
 # Awesome AI Add-ons
 
-Last updated: 2025-11-28 17:38 UTC
+Last updated: 2025-12-05 08:35 UTC
 
 ## Contents
 
@@ -156,6 +156,24 @@ Last updated: 2025-11-28 17:38 UTC
 - 💰 **Pricing Model**: Free (open-source); commercial support.
 - 🔗 **Sources**: https://github.com/TabbyML/tabby, https://tabbyml.github.io
 - 🕒 **Verified**: 2025-11-28 17:38 UTC
+
+### Keploy 🐰
+- 📝 **Description**: Open-source AI-powered API testing platform that auto-generates test cases.
+- 🧠 **Key AI Features**: Auto-generates tests from API traffic, mocks dependencies, regression testing.
+- ⚙️ **Configuration**:
+  - Install extension and follow setup to capture traffic.
+  - **Record Mode**: Run app with Keploy to record API calls.
+  - **Test Mode**: Replay traffic to verify API behavior.
+- 💡 **Usage Examples**:
+  - **Auto-Test**: "Generate tests for the user login flow."
+  - **Mocking**: Automatically mocks database/external service calls during testing.
+- 🔧 **Troubleshooting**:
+  - **Connection**: Ensure Keploy server is running locally.
+  - **Docker**: Check Docker permissions if running in container mode.
+- 🌐 **Platforms**: VS Code.
+- 💰 **Pricing Model**: Free (open-source); enterprise cloud.
+- 🔗 **Sources**: https://keploy.io, https://github.com/keploy/keploy
+- 🕒 **Verified**: 2025-12-05 08:35 UTC
 
 ## JetBrains Add-ons 🧠
 

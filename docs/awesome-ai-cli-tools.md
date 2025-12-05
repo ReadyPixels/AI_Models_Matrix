@@ -1,6 +1,6 @@
 # Awesome AI CLI Tools
 
-Last updated: 2025-11-28 17:40 UTC
+Last updated: 2025-12-05 08:40 UTC
 
 Quick link: [Awesome AI IDEs](./awesome-ai-ides.md)
 
@@ -99,3 +99,42 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md)
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Direct Claude integration; checkpoints for autonomous operation and instant rewind. Cons: CLI-only, requires API key. Unique: Seamless AI chat in terminal.
 - 🔗 **Sources**: https://www.anthropic.com, https://docs.anthropic.com
 - 🕒 **Verified**: 2025-11-28 17:40 UTC
+### Amazon Q CLI ☁️
+- 📝 **Description**: AWS command-line assistant for cloud infrastructure and scripting.
+- 🧠 **Key AI Features**: Shell script generation, AWS resource management, best practice suggestions.
+- ⚙️ **Configuration**:
+  - **Install**: `brew install amazon-q` or via AWS CLI v2.
+  - **Auth**: `q login` with AWS Builder ID.
+- 💡 **Usage Examples**:
+  - **Scripting**: "Write a script to list all S3 buckets older than 30 days."
+  - **Explain**: "Explain this IAM policy."
+- 🔧 **Troubleshooting**:
+  - **Auth**: Ensure AWS Builder ID is active.
+- 💻 **Supported Programming Languages**: Shell, Python, etc.
+- 🌐 **Platforms**: Command-line (macOS, Linux, Windows).
+- 🧱 **Underlying Platform**: CLI tool
+- 📅 **Release**: 2024
+- 💰 **Pricing Model**: Free tier; Pro subscription.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Deep AWS integration. Cons: AWS-focused. Unique: Infrastructure-as-Code assistance.
+- 🔗 **Sources**: https://aws.amazon.com/q/
+- 🕒 **Verified**: 2025-12-05 08:40 UTC
+
+### Warp Terminal ⚡
+- 📝 **Description**: AI-powered terminal emulator (Rust-based) with integrated AI assistant.
+- 🧠 **Key AI Features**: Natural language to command, error explanation, workflow automation.
+- ⚙️ **Configuration**:
+  - **AI Access**: Enabled by default (Warp AI).
+  - **Agent**: Warp Drive allows sharing workflows.
+- 💡 **Usage Examples**:
+  - **Command Gen**: Type "undo last git commit" -> Warp suggests `git reset --soft HEAD~1`.
+  - **Error Fix**: Click "Explain" on any error output.
+- 🔧 **Troubleshooting**:
+  - **Login**: Requires login to use AI features.
+- 💻 **Supported Programming Languages**: Shell/Terminal.
+- 🌐 **Platforms**: macOS, Linux (Windows in beta).
+- 🧱 **Underlying Platform**: Terminal Emulator
+- 📅 **Release**: 2023
+- 💰 **Pricing Model**: Free for individuals; Team plans.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Modern UI, fast. Cons: Requires login. Unique: Terminal as an IDE.
+- 🔗 **Sources**: https://www.warp.dev
+- 🕒 **Verified**: 2025-12-05 08:40 UTC
