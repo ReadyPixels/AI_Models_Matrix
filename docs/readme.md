@@ -4,14 +4,21 @@
 
 ## 📂 Project Files Index
 
+### 📚 Core Matrices
 - [Awesome AI Models](./awesome-ai-models.md) — LLMs & Image Models catalog
-- [Awesome AI IDEs](./awesome-ai-ides.md) — AI IDEs catalog
-- [Awesome AI CLI Tools](./awesome-ai-cli-tools.md) — CLI AI tools catalog
-- [Awesome AI Add-ons](./awesome-ai-addons.md) — IDE add-ons catalog
-- [Awesome Browser Automation](./awesome-browser-automation.md) — Browser automation tools
-- [Awesome Desktop Automation](./awesome-desktop-automation.md) — Desktop automation tools
 - [AI API Providers](./ai-api-providers.md) — Unified APIs, pricing, rate limits
-- [CONTRIBUTING](./CONTRIBUTING.md) — Contribution guide
+
+### 🛠️ Tools & IDEs
+- [Awesome AI IDEs](./awesome-ai-ides.md) — Native & VS Code Fork IDEs
+- [Awesome AI CLI Tools](./awesome-ai-cli-tools.md) — Agents & Terminal Tools
+- [Awesome AI Add-ons](./awesome-ai-addons.md) — Plugins for VS Code/JetBrains
+
+### 🤖 Automation
+- [Awesome Browser Automation](./awesome-browser-automation.md) — Browsers & Scrapers
+- [Awesome Desktop Automation](./awesome-desktop-automation.md) — RPA & Computer Use
+
+### ℹ️ Meta
+- [CONTRIBUTING](./CONTRIBUTING.md) — How to update this matrix
 
 ## Contents
 
@@ -447,23 +454,7 @@ Freely available models with permissive licenses (Apache 2.0, MIT, etc.) and pub
 
 *Most open-source models now support context windows of 128K–256K tokens, multimodal capabilities, and community benchmarks (HumanEval, SWE-bench, MMLU).*
 
-### 💻 Coding-Specialized Models
 
-Optimized for software development tasks:
-
-#### Commercial Coding Models
-- **Claude Sonnet 4.5** (Anthropic) - SWE-bench Verified leader
-- **GPT-5 Codex** (OpenAI) - 7+ hour autonomous coding
-- **Codestral** (Mistral AI) - Low-latency, fill-in-middle
-- **Grok 4 Fast** (xAI) - Cost-efficient at $0.20/$1.50
-
-#### Open-Source Coding Models
-- **GPT-OSS-120B** (OpenAI) - 91.4% AIME, Apache 2.0
-- **Qwen3-Coder** (Alibaba) - 480B params, autonomous coding
-- **DeepSeek-Coder-V2** (DeepSeek) - 236B params, MIT
-- **Kimi K2-0905** (Moonshot AI) - 256K context, agentic tasks
-- **GLM-4.6** (Zhipu AI) - Real-world coding, $0.13/$0.39
-- **IBM Granite 4.0** - Enterprise-ready, ISO 42001
 
 ### 🎨 Multimodal Models
 

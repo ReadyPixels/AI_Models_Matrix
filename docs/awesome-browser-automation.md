@@ -4,88 +4,16 @@ _Last updated: 2025-12-20 15:00 UTC_
 
 ## Contents
 
-- [Open-Source AI Browser Agents](#open-source-ai-browser-agents-)
-- [Browser‑Integrated AI](#browser%E2%80%91integrated-ai-)
+- [Standalone AI Browsers](#standalone-ai-browsers-)
+- [Browser Extensions & Co-Pilots](#browser-extensions--co-pilots-)
+- [Developer Libraries & Frameworks](#developer-libraries--frameworks-)
+- [Cloud & API Automation](#cloud--api-automation-)
 
-## Open-Source AI Browser Agents 🌐🤖
+---
 
-### OpenWebUI + Browser Use 🚀
-- **Description**: A powerful combination of a user‑friendly AI interface (OpenWebUI) and an autonomous web agent (Browser Use). Allows a local or cloud LLM to control a headless browser for complex web tasks.
-- **Key AI Features**: Autonomous browsing, form filling, data extraction, multi‑step reasoning, works with any LLM.
-- **Supported Platforms**: Windows, macOS, Linux (Docker/Python).
-- **Pricing**: Free (open‑source).
-- **Pros/Cons**: No limits, full control; requires technical setup.
-- **Sources**: https://github.com/OpenWebUI/OpenWebUI, https://github.com/browser-use/browser-use
-- **Cross-Browser**: Uses Playwright under the hood (Chromium, Firefox, WebKit).
+## Standalone AI Browsers 🌐
 
-### Playwright 🎭
-- **Description**: Industry‑standard browser automation engine used by many AI agents.
-- **Key AI Features**: Script generation via LLMs, visual regression, headless browsing.
-- **Supported Platforms**: Windows, macOS, Linux.
-- **Pricing**: Free (open‑source).
-- **Pros/Cons**: Highly reliable; requires coding or an agent wrapper.
-- **Sources**: https://github.com/microsoft/playwright
-- **Cross-Browser**: Excellent support for Chromium (Chrome/Edge), WebKit (Safari), and Firefox.
-
-### Selenium 🧪
-- **Description**: Classic cross‑browser automation framework supporting many languages.
-- **Key AI Features**: Can be driven by LLM‑generated scripts for UI actions.
-- **Supported Platforms**: Windows, macOS, Linux.
-- **Pricing**: Free (open‑source).
-- **Pros/Cons**: Mature ecosystem; more boilerplate than Playwright.
-- **Sources**: https://github.com/SeleniumHQ/selenium
-- **Cross-Browser**: Widest support (Chrome, Firefox, Safari, Edge, IE).
-
-### Cypress ⚡
-- **Description**: Modern JavaScript‑first end‑to‑end testing tool with a powerful UI.
-- **Key AI Features**: LLM‑generated test code, automatic waiting, time‑travel debugging.
-- **Supported Platforms**: Windows, macOS, Linux.
-- **Pricing**: Free (open‑source core).
-- **Pros/Cons**: Great developer experience; limited to Chromium‑based browsers (and Firefox).
-- **Sources**: https://github.com/cypress-io/cypress
-- **Cross-Browser**: Chrome, Edge, Electron, Firefox. No native Safari (WebKit) support.
-
-### Skyvern 🤖
-- **Description**: AI-powered web automation using LLMs and computer vision. Resilient to website layout changes without code selectors.
-- **Key AI Features**: LLM-driven navigation, visual element mapping, self-healing flows, 2FA handling.
-- **Supported Platforms**: Cloud service (open-source SDK available).
-- **Pricing**: Free tier, paid for heavy usage.
-- **Pros/Cons**: Minimal code, adapts to site changes; depends on external service.
-- **Sources**: https://github.com/Skyvern-AI/skyvern, https://skyvern.com
-
-### Browser-use 🌐
-- **Description**: Python library and service for browser automation using AI agents and Chrome DevTools Protocol.
-- **Key AI Features**: Agentic browsing, complex task automation, deep research, login/CAPTCHA handling.
-- **Supported Platforms**: Windows, macOS, Linux (Python).
-- **Pricing**: Free (open-source).
-- **Pros/Cons**: Handles complex workflows; requires Python setup.
-- **Sources**: https://github.com/browser-use/browser-use, https://browser-use.com
-
-
-### Stagehand 🛠️
-- **Description**: Natural-language driven automation built on Playwright. Combines AI with code for flexible automation.
-- **Key AI Features**: `act()` for NL interactions, `extract()` for structured data, `observe()` for action discovery, cached repeatable actions.
-- **Supported Platforms**: Windows, macOS, Linux.
-- **Pricing**: Free (open-source).
-- **Pros/Cons**: Low barrier, resilient to layout changes; requires Node environment.
-- **Sources**: https://github.com/browserbase/stagehand, https://stagehand.dev
-
-
-### LaVague 🌊
-- **Description**: Open-source Large Action Model (LAM) framework for creating AI web agents.
-- **Key AI Features**: Converts natural language into executable browser actions, tailored for agentic workflows.
-- **Supported Platforms**: Windows, macOS, Linux (Python).
-- **Pricing**: Free (open-source MIT).
-- **Pros/Cons**: Highly customizable frame work; requires developer setup.
-- **Sources**: https://lavague.ai, https://github.com/lavague-ai/LaVague
-
-### NanoBrowser 🔬
-- **Description**: Open-source Chrome extension for AI web automation, supporting local and cloud LLMs.
-- **Key AI Features**: Multi-agent support, flexible LLM integration, "Run" button for instant automation.
-- **Supported Platforms**: Chrome Extension (Cross-platform).
-- **Pricing**: Free (open-source).
-- **Pros/Cons**: Lightweight extension format; limited by extension sandboxing compared to headless browsers.
-- **Sources**: https://github.com/Start-Nano/NanoBrowser
+> **Full-fledged web browsers reimagined with native AI integration and agentic capabilities.**
 
 ### BrowserOS 🌐
 - **Description**: Open‑source Chromium‑based agentic browser with native AI agents and MCP server integration.
@@ -95,50 +23,140 @@ _Last updated: 2025-12-20 15:00 UTC_
 - **Pros/Cons**: Privacy‑first, local agents; early‑stage, evolving feature set.
 - **Sources**: https://github.com/browseros-ai/BrowserOS, https://www.browseros.com/
 
-### Deta Surf 🗒️
-- **Description**: Open‑source personal AI notebook that brings files and the web into structured notes with citations and applets.
-- **Key AI Features**: Web search integration, citations/deeplinks, Surflets (code‑generated applets), BYO/local models.
-- **Supported Platforms**: Windows, macOS, Linux.
-- **Pricing**: Free (open‑source; Apache‑2.0).
-- **Pros/Cons**: Local‑first data and openness; not a full browser, focused on research/notes.
-- **Sources**: https://github.com/deta/surf, https://deta.surf/
-
-## Browser‑Integrated AI 🌐🧠
-
-### Microsoft Edge Copilot 🟦
-- **Description**: Built‑in AI assistant in Edge with deep Windows integration.
-- **Key AI Features**: Page summarization, content generation, browser control.
-- **Supported Platforms**: Windows, macOS, Linux, Mobile.
-- **Pricing**: Free.
-- **Pros/Cons**: Native integration; proprietary.
-- **Sources**: https://www.microsoft.com/edge
-
-### ChatGPT Atlas (macOS) 🍎
-- **Description**: AI‑focused browser with integrated ChatGPT.
-- **Key AI Features**: Agent mode, side‑by‑side browsing.
-- **Supported Platforms**: macOS (Windows version planned).
-- **Pricing**: Free.
-- **Pros/Cons**: Innovative UX; macOS‑only for now.
-- **Sources**: https://openai.com
-
-
 ### Perplexity Comet 🚀
 - **Description**: AI‑powered web browser with an embedded assistant that automates tasks across tabs and apps, provides page‑aware chat, and organizes research.
 - **Key AI Features**: Agentic browsing, cross‑tab actions (forms, email, calendar), page content understanding, task automation, tab management.
 - **Supported Platforms**: Windows, macOS.
 - **Pricing**: Free.
 - **Pros/Cons**: Powerful agentic workflows; desktop‑focused availability.
-- **Sources**: https://www.perplexity.ai/comet, https://www.ghacks.net/2025/10/03/perplexity-releases-comet-browser-for-free-on-windows-and-macos/, https://en.wikipedia.org/wiki/Comet_(browser)
+- **Sources**: https://www.perplexity.ai/comet
 - **Verified**: 2025-11-28 23:05 UTC
 
+### ChatGPT Atlas (macOS) 🍎
+- **Description**: AI‑focused browser for macOS with deep ChatGPT integration.
+- **Key AI Features**: Agent mode, side‑by‑side browsing, context-aware assistance.
+- **Supported Platforms**: macOS (Windows planned).
+- **Pricing**: Free.
+- **Pros/Cons**: Innovative UX; macOS‑only currently.
+- **Sources**: https://openai.com
+
+### Deta Surf 🗒️
+- **Description**: Open‑source personal AI notebook/browser that brings web content into structured notes.
+- **Key AI Features**: Web search integration, citations/deeplinks, Surflets (generated applets).
+- **Supported Platforms**: Windows, macOS, Linux.
+- **Pricing**: Free (Apache‑2.0).
+- **Pros/Cons**: Local‑first research tool; not a general-purpose browser.
+- **Sources**: https://github.com/deta/surf
+
 ### OpenAI Operator / ChatGPT Agent Mode 🧠
-- **Description**: Agent integrated into ChatGPT that can browse the web, interact with pages (click, type, scroll), and deliver artifacts like slides and spreadsheets.
-- **Key AI Features**: Autonomous browsing, secure login prompts, code execution, artifact generation, unified agentic system.
-- **Supported Platforms**: Web (within ChatGPT), cross‑platform via browser.
-- **Pricing**: Requires ChatGPT Pro; availability and features may vary.
-- **Pros/Cons**: Broad automation capabilities; evolving rollout details.
-- **Sources**: https://openai.com/index/introducing-operator/, https://openai.com/index/introducing-chatgpt-agent/, https://www.theverge.com/2025/1/23/24350395/openai-chatgpt-operator-agent-control-computer
-- **Verified**: 2025-11-28 23:05 UTC
+- **Description**: Unified agentic system integrated into ChatGPT (and likely a browser frame) that can browse, interact, and generate artifacts.
+- **Key AI Features**: Autonomous browsing, secure login prompts, code execution, artifact generation.
+- **Supported Platforms**: Web/Browser-based.
+- **Pricing**: Requires ChatGPT Pro (varies).
+- **Pros/Cons**: Massive scale and capability; specific availability rolling out.
+- **Sources**: https://openai.com
+
+---
+
+## Browser Extensions & Co-Pilots 🧩
+
+> **Extensions that add agentic powers to Chrome, Edge, and other standard browsers.**
+
+### MultiOn 🚀
+- **Description**: Autonomous AI agent extension that acts as a "personal intern" to complete web tasks.
+- **Key AI Features**: Handles complex multi-step workflows (booking flights, ordering food, filling forms), API for developers.
+- **Supported Platforms**: Chrome Extension, Mobile App.
+- **Pricing**: Free tier, Paid tiers (API per-request pricing for devs).
+- **Pros/Cons**: highly capable "do it for me" agent; requires trust with accounts.
+- **Sources**: https://www.multion.ai
+
+### Harpa AI 🦸‍♂️
+- **Description**: Hybrid AI co-pilot and automation agent for Chrome, integrating multiple LLMs (GPT, Claude, Gemini).
+- **Key AI Features**: Page monitoring, data extraction, IFTTT-style automation recipes, write-for-me, SEO analysis.
+- **Supported Platforms**: Chrome Extension.
+- **Pricing**: Freemium (Free tier + S1/S2 subscriptions).
+- **Pros/Cons**: Huge library of pre-built automations; runs locally in browser.
+- **Sources**: https://harpa.ai
+
+### HyperWrite Personal Assistant ✍️
+- **Description**: AI writing and productivity assistant with an "Agent" mode for browser tasks.
+- **Key AI Features**: "Write Anywhere", autonomous research, email drafting, travel booking.
+- **Supported Platforms**: Chrome Extension.
+- **Pricing**: Freemium ($19.99/mo for Premium).
+- **Pros/Cons**: Excellent for writing-heavy workflows; strong agent capabilities.
+- **Sources**: https://hyperwriteai.com
+
+### NanoBrowser 🔬
+- **Description**: Open-source Chrome extension for AI web automation, supporting local and cloud LLMs.
+- **Key AI Features**: Multi-agent support, flexible LLM integration, "Run" button customization.
+- **Supported Platforms**: Chrome Extension.
+- **Pricing**: Free (Open Source).
+- **Pros/Cons**: Lightweight, fully control your model; limited by extension sandbox.
+- **Sources**: https://github.com/Start-Nano/NanoBrowser
+
+### Microsoft Edge Copilot 🟦
+- **Description**: Built-in AI sidebar in Edge with deep OS integration.
+- **Key AI Features**: Page summarization, rewrite, browser control.
+- **Supported Platforms**: Pre-installed in Edge.
+- **Pricing**: Free.
+- **Sources**: https://www.microsoft.com/edge
+
+---
+
+## Developer Libraries & Frameworks 🛠️
+
+> **SDKs and engines for building custom browser agents and scrapers.**
+
+### Browser-use 🐍
+- **Description**: Python library for agentic automation using LangChain/AI agents and Chrome DevTools Protocol.
+- **Key AI Features**: Self-correcting agents, vision capabilities, handling of complex dynamic sites.
+- **Supported Platforms**: Python (Windows, macOS, Linux).
+- **Pricing**: Free (Open Source).
+- **Sources**: https://github.com/browser-use/browser-use
+
+### LaVague 🌊
+- **Description**: Large Action Model (LAM) framework designed to translate natural language into Selenium/Playwright code.
+- **Key AI Features**: Dedicated alignment for "World Model" -> Action, strictly for agentic use.
+- **Supported Platforms**: Python.
+- **Pricing**: Free (MIT).
+- **Sources**: https://lavague.ai
+
+### Stagehand 🎭
+- **Description**: AI-first automation framework built on top of Playwright.
+- **Key AI Features**: `act()`, `extract()`, and `observe()` primitives powered by LLMs.
+- **Supported Platforms**: Node.js/TypeScript.
+- **Pricing**: Free (Open Source).
+- **Sources**: https://stagehand.dev
+
+### Skyvern (Library) ☁️
+- **Description**: Automates browser workflows using LLMs and Computer Vision, resilient to layout changes.
+- **Supported Platforms**: Python SDK / Cloud API.
+- **Sources**: https://github.com/Skyvern-AI/skyvern
+
+### OpenWebUI + Browser Use 🤝
+- **Description**: The specific integration of Browser-use inside the OpenWebUI interface.
+- **Key AI Features**: UI-based agent control, local LLM support (Ollama).
+- **Sources**: https://github.com/OpenWebUI/OpenWebUI
+
+### Standard Engines (Playwright / Selenium / Cypress)
+- **Playwright**: Best modern headless browser engine. Supports all major browsers.
+- **Selenium**: The classic standard, compatible with almost everything.
+- **Cypress**: Great for testing, less so for general purpose agentic automation due to architecture.
+
+---
+
+## Cloud & API Automation 🌩️
+
+> **Managed services that run browser agents in the cloud.**
+
+### Skyvern Cloud
+- **Description**: Managed version of Skyvern Project.
+- **Pricing**: Usage-based.
+
+### Browserbase
+- **Description**: Serverless browser infrastructure for AI agents.
+- **Key Features**: Stealth mode, session recording, debug access.
+- **Sources**: https://browserbase.com
 
 ---
 
