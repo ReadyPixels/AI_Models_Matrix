@@ -1,6 +1,6 @@
 # Awesome AI Add-ons
 
-Last updated: 2025-12-05 08:35 UTC
+Last updated: 2025-12-20 15:00 UTC
 
 ## Contents
 
@@ -47,7 +47,72 @@ Last updated: 2025-12-05 08:35 UTC
 - 🌐 **Platforms**: VS Code (Desktop).
 - 💰 **Pricing Model**: Free (OSS); BYO model/API.
 - 🔗 **Sources**: https://github.com/cline/cline, https://github.com/cline/cline/releases/tag/v2.2.0
-- 🕒 **Verified**: 2025-11-28 17:38 UTC
+- 🕒 **Verified**: 2025-12-20 14:40 UTC
+
+### Supermaven ⚡
+- 📝 **Description**: Ultra-fast AI code completions with 1M token context window.
+- 🧠 **Key AI Features**: Real-time suggestions, massive context, chat with GPT-4o/Claude 3.5 Sonnet.
+- ⚙️ **Configuration**:
+  - Install from VS Code marketplace.
+  - Sign in for Pro features (optional).
+- 💡 **Usage Examples**:
+  - **Completion**: Ghost text while typing, `Tab` to accept.
+  - **Chat**: Open Supermaven panel for AI conversations.
+- 🔧 **Troubleshooting**:
+  - **Slow?**: Check internet connection. Large context may have brief delays.
+- 🌐 **Platforms**: VS Code, JetBrains, Vim/Neovim.
+- 💰 **Pricing Model**: Free tier; Pro $10/month.
+- 🔗 **Sources**: https://supermaven.com
+- 🕒 **Verified**: 2025-12-20 14:40 UTC
+
+### Blackbox AI 📦
+- 📝 **Description**: Specialized AI code generator with high accuracy and OCR capabilities.
+- 🧠 **Key AI Features**: Code from images (OCR), natural language to code, high speed (96% on repetitive tasks).
+- ⚙️ **Configuration**:
+  - **Install**: VS Code / JetBrains extension.
+  - **Auth**: Blackbox account login.
+- 💡 **Usage Examples**:
+  - **OCR**: Paste an image of code to get text.
+  - **Chat**: "Write a Python script to parse this CSV."
+- 🔧 **Troubleshooting**:
+  - **OCR**: Ensure image is high resolution.
+- 💻 **Supported Programming Languages**: 20+.
+- 🌐 **Platforms**: VS Code, JetBrains, Web.
+- 💰 **Pricing Model**: Freemium.
+- 🔗 **Sources**: https://www.blackbox.ai
+- 🕒 **Verified**: 2025-12-20 15:00 UTC
+
+### Bito AI 🛡️
+- 📝 **Description**: AI Code Review Agent focusing on privacy and security.
+- 🧠 **Key AI Features**: Automated Line-by-line code review, security vulnerability detection, performance checks.
+- ⚙️ **Configuration**:
+  - **Install**: VS Code / JetBrains extension.
+  - **Models**: Uses Claude Sonnet 3.5 / GPT-4.
+- 💡 **Usage Examples**:
+  - **Review**: Auto-runs on PR or manual trigger to find code smells.
+- 🔧 **Troubleshooting**:
+  - **Privacy**: Check enterprise settings for data retention policies.
+- 💻 **Supported Programming Languages**: Major languages.
+- 🌐 **Platforms**: VS Code, JetBrains, CLI.
+- 💰 **Pricing Model**: Free / Enterprise.
+- 🔗 **Sources**: https://bito.ai
+- 🕒 **Verified**: 2025-12-20 15:00 UTC
+
+### Mutable.ai 🔮
+- 📝 **Description**: AI coding assistant focused on refactoring and maintenance ("Auto-Wiki").
+- 🧠 **Key AI Features**: Semantic search, multi-file transformations, "Auto-Wiki" documentation generation.
+- ⚙️ **Configuration**:
+  - **Install**: VS Code / JetBrains extension.
+- 💡 **Usage Examples**:
+  - **Refactor**: "Convert this entire module to TypeScript."
+  - **Docs**: Auto-generate repo documentation.
+- 🔧 **Troubleshooting**:
+  - **Indexing**: Large repos make take time to index.
+- 💻 **Supported Programming Languages**: Major languages.
+- 🌐 **Platforms**: VS Code, JetBrains.
+- 💰 **Pricing Model**: Subscription.
+- 🔗 **Sources**: https://mutable.ai
+- 🕒 **Verified**: 2025-12-20 15:00 UTC
 
 ### Continue (VS Code & JetBrains) 🔄
 - 📝 **Description**: Open-source AI coding assistant that brings chat and autocomplete to editors.
@@ -208,3 +273,7 @@ Last updated: 2025-12-05 08:35 UTC
 - 💰 **Pricing Model**: Subscription (JetBrains AI).
 - 🔗 **Sources**: https://blog.jetbrains.com/ai/2025/09/introducing-claude-agent-in-jetbrains-ides/, https://docs.claude.com/en/docs/claude-code/jetbrains
 - 🕒 **Verified**: 2025-11-28 17:38 UTC
+
+---
+
+Made with ❤️ by ReadyPixels LLC

@@ -1,6 +1,6 @@
 # AI API Providers
 
-Last updated: 2025-12-05 08:30 UTC
+Last updated: 2025-12-20 15:00 UTC
 
 ## Contents
 
@@ -48,10 +48,14 @@ This document provides an overview of API providers that offer unified access to
 | OpenRouter               | Unified API to many models across providers                                | https://openrouter.ai             | Load balance, fallbacks, routing                   | Pay-per-token |
 | Modal                    | Serverless platform for GPU workloads                                      | https://modal.com                 | Python native, autoscale, GPU acceleration         | Pay-per-compute |
 | Anyscale                 | Ray-based platform for scalable model serving                              | https://anyscale.com              | Scalable inference, deployments, cloud native      | Pay-per-usage |
-| Groq                     | Inference on custom LPU hardware                                           | https://groq.com                  | High speed, low latency, API                       | Pay-per-token |
-| Cerebras                 | Inference on custom wafer-scale hardware                                   | https://cerebras.net              | Large models, energy efficient                      | Custom pricing |
-| Modal                    | Serverless platform for GPU workloads (beta tool enhancements)            | https://modal.com                 | Python native, autoscale, GPU acceleration         | Pay-per-compute |
-| Anyscale                 | Ray-based platform for scalable model serving (beta statuses)             | https://anyscale.com              | Scalable inference, deployments, cloud native      | Pay-per-usage |
+| Groq                     | Inference on custom LPU hardware (Gartner Cool Vendor 2025)               | https://groq.com                  | Ultra-low latency, 1000+ models, OpenAI-compatible | Pay-per-token |
+| Cerebras                 | Inference on wafer-scale engines (70x faster than GPUs)                   | https://cerebras.ai               | 40M+ tokens/sec, global datacenter expansion       | Custom pricing |
+| Together AI              | 200+ open models via unified API                                           | https://together.ai               | Fine-tuning, H100 clusters, high throughput         | Pay-per-token |
+| Fireworks AI             | Fast inference with FireAttention engine                                   | https://fireworks.ai              | Low latency, fine-tuning, voice agents              | Pay-per-token |
+| Novita AI                | 100+ APIs & GPU Cloud (Llama/Mistral/Image)                                | https://novita.ai                 | Low-cost, serverless GPU, 100+ models               | Pay-as-you-go |
+| Nebius AI Studio         | Full-stack AI cloud with NVIDIA Blackwell Ultra                            | https://nebius.com                | High-performance Token Factory, flexible cloud      | Competitive   |
+| Hyperbolic               | Decentralized AI cloud & GPU marketplace                                   | https://hyperbolic.xyz            | Decentralized, DeepSeek R1 support                  | Crypto/Fiat   |
+| Vultr Inference          | Global serverless inference                                                | https://vultr.com                 | Global reach, simple API, Llama 2/Mixtral           | Pay-per-token |
 
 ## Comparison
 
@@ -123,7 +127,12 @@ This document provides an overview of API providers that offer unified access to
 - **OpenAI O3**: $2/1M input, $8/1M output.
 - **Claude 3.5 Haiku**: $1.00/1M input, $5.00/1M output.
 - **Gemini 2.0 Flash**: GA Feb 2025, simplified pricing.
-- **Gemini 3 Pro**: Preview Nov 2025, context-tiered rates.
+- **Gemini 3 Pro**: 1M context, 1501 Elo on LMArena, Nov 2025.
+- **Gemini 3 Flash**: Default model Dec 2025, frontier performance.
+- **GPT-5.2**: 400K context, Dec 2025. Instant/Thinking/Pro variants.
+- **GPT-5.2-Codex**: Agentic coding optimized, Dec 2025.
+- **Claude Opus 4.5**: 200K context, 80.9% SWE-bench, Nov 2025.
+- **DeepSeek-V3.2**: Comparable to GPT-5, IMO gold medal, Dec 2025.
 
 Sources for endpoint details are listed below with verification.
 
@@ -201,6 +210,7 @@ Review status pages for incidents, uptime, and maintenance windows.
 
 ## Revision History
 
+- 2025-12-20 14:40 UTC — Added GPT-5.2, Gemini 3 Flash, Claude Opus 4.5, DeepSeek-V3.2. Updated Groq/Cerebras/Fireworks/Together descriptions.
 - 2025-12-05 08:30 UTC — Added Gemini 2.0/3.0, OpenAI O1/O3, DeepSeek V3, and updated Claude 3.5 Haiku pricing.
 - 2025-11-24 22:53 UTC — Added Google AI Studio provider, Brave Search API section, updated pricing sources.
 - 2025-11-09 00:58 UTC — Expanded provider table, added sources, status links, and endpoint notes.

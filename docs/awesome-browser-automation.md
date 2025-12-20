@@ -1,6 +1,6 @@
 # Awesome Browser Automation
 
-_Last updated: 2025-11-28 17:42 UTC_
+_Last updated: 2025-12-20 15:00 UTC_
 
 ## Contents
 
@@ -46,22 +46,46 @@ _Last updated: 2025-11-28 17:42 UTC_
 - **Cross-Browser**: Chrome, Edge, Electron, Firefox. No native Safari (WebKit) support.
 
 ### Skyvern 🤖
-- **Description**: AI‑powered web automation that adapts to site changes without scripting.
-- **Key AI Features**: LLM‑driven navigation, self‑healing flows.
-- **Supported Platforms**: Cloud service (open‑source SDK available).
+- **Description**: AI-powered web automation using LLMs and computer vision. Resilient to website layout changes without code selectors.
+- **Key AI Features**: LLM-driven navigation, visual element mapping, self-healing flows, 2FA handling.
+- **Supported Platforms**: Cloud service (open-source SDK available).
 - **Pricing**: Free tier, paid for heavy usage.
-- **Pros/Cons**: Minimal code; depends on external service.
-- **Sources**: https://github.com/skyvern-ai/skyvern
+- **Pros/Cons**: Minimal code, adapts to site changes; depends on external service.
+- **Sources**: https://github.com/Skyvern-AI/skyvern, https://skyvern.com
+
+### Browser-use 🌐
+- **Description**: Python library and service for browser automation using AI agents and Chrome DevTools Protocol.
+- **Key AI Features**: Agentic browsing, complex task automation, deep research, login/CAPTCHA handling.
+- **Supported Platforms**: Windows, macOS, Linux (Python).
+- **Pricing**: Free (open-source).
+- **Pros/Cons**: Handles complex workflows; requires Python setup.
+- **Sources**: https://github.com/browser-use/browser-use, https://browser-use.com
 
 
 ### Stagehand 🛠️
-- **Description**: Natural‑language driven automation built on top of Playwright.
-- **Key AI Features**: Write tasks in plain English, LLM translates to Playwright scripts.
+- **Description**: Natural-language driven automation built on Playwright. Combines AI with code for flexible automation.
+- **Key AI Features**: `act()` for NL interactions, `extract()` for structured data, `observe()` for action discovery, cached repeatable actions.
 - **Supported Platforms**: Windows, macOS, Linux.
-- **Pricing**: Free (open‑source).
-- **Pros/Cons**: Low barrier; still requires Node environment.
-- **Sources**: https://github.com/StagehandAI/stagehand
+- **Pricing**: Free (open-source).
+- **Pros/Cons**: Low barrier, resilient to layout changes; requires Node environment.
+- **Sources**: https://github.com/browserbase/stagehand, https://stagehand.dev
 
+
+### LaVague 🌊
+- **Description**: Open-source Large Action Model (LAM) framework for creating AI web agents.
+- **Key AI Features**: Converts natural language into executable browser actions, tailored for agentic workflows.
+- **Supported Platforms**: Windows, macOS, Linux (Python).
+- **Pricing**: Free (open-source MIT).
+- **Pros/Cons**: Highly customizable frame work; requires developer setup.
+- **Sources**: https://lavague.ai, https://github.com/lavague-ai/LaVague
+
+### NanoBrowser 🔬
+- **Description**: Open-source Chrome extension for AI web automation, supporting local and cloud LLMs.
+- **Key AI Features**: Multi-agent support, flexible LLM integration, "Run" button for instant automation.
+- **Supported Platforms**: Chrome Extension (Cross-platform).
+- **Pricing**: Free (open-source).
+- **Pros/Cons**: Lightweight extension format; limited by extension sandboxing compared to headless browsers.
+- **Sources**: https://github.com/Start-Nano/NanoBrowser
 
 ### BrowserOS 🌐
 - **Description**: Open‑source Chromium‑based agentic browser with native AI agents and MCP server integration.
@@ -97,10 +121,7 @@ _Last updated: 2025-11-28 17:42 UTC_
 - **Pros/Cons**: Innovative UX; macOS‑only for now.
 - **Sources**: https://openai.com
 
----
 
-Made with ❤️ by ReadyPixels LLC
- 
 ### Perplexity Comet 🚀
 - **Description**: AI‑powered web browser with an embedded assistant that automates tasks across tabs and apps, provides page‑aware chat, and organizes research.
 - **Key AI Features**: Agentic browsing, cross‑tab actions (forms, email, calendar), page content understanding, task automation, tab management.
@@ -118,3 +139,7 @@ Made with ❤️ by ReadyPixels LLC
 - **Pros/Cons**: Broad automation capabilities; evolving rollout details.
 - **Sources**: https://openai.com/index/introducing-operator/, https://openai.com/index/introducing-chatgpt-agent/, https://www.theverge.com/2025/1/23/24350395/openai-chatgpt-operator-agent-control-computer
 - **Verified**: 2025-11-28 23:05 UTC
+
+---
+
+Made with ❤️ by ReadyPixels LLC

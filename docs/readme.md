@@ -40,12 +40,14 @@
 >
 > Whether you're building the next breakthrough application, conducting cutting-edge research, or making strategic technology decisions for your enterprise, this guide empowers you with the critical information needed to choose the perfect AI model for your specific needs.
 >
-Last updated: 2025-12-05 08:45 UTC
-**Total Models:** 48+ models from 15+ companies
+Last updated: 2025-12-20 15:00 UTC
+**Total Models:** 55+ models from 18+ companies
 **Data Sources:** OpenRouter Rankings, LLM-Stats.com, Official Documentation, Artificial Analysis
 
 ## Revision History
 
+ - 2025-12-20 15:00 UTC — Added Mistral Large 3, Vultr/Nebius/Novita providers, LaVague, Mentat, Refact.ai, and more.
+ - 2025-12-20 14:40 UTC — Added GPT-5.2, Gemini 3 Flash, Claude Opus 4.5, DeepSeek-V3.2. Expanded browser/CLI/add-on docs.
  - 2025-11-24 22:53 UTC — Updated documents with new IDE findings and provider entries.
  - 2025-11-09 00:58 UTC — Updated document last updated timestamp to UTC format.
 
@@ -99,27 +101,21 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 
 | Date | Model | Company | Highlights | Market Share* |
 |------|-------|---------|------------|---------------|
-| 2025-10-03 | 🏢 IBM Granite 4.0 | IBM | ISO 42001 certified, Mamba/Transformer hybrid, open weights | - |
-| 2025-10-01 | 🚀 Grok-3 | xAI | Released October 2025, advanced reasoning | - |
-| 2025-09-19 | ⚡ Grok 4 Fast | xAI | Cost-efficient reasoning, 2M context, unified modes | - |
-| 2025-09-30 | 🇨🇳 GLM-4.6 | Zhipu AI | 355B MoE, real-world coding, open weights, $0.13/$0.39 | 6.0% tool calls |
-| 2025-10-01 | 🤖 Claude Haiku 4.5 | Anthropic | Near-frontier coding quality, faster and cost-efficient | - |
-| 2025-11-18 | 🌐 Gemini 3 Pro | Google | New reasoning/agentic capabilities; Antigravity integration | - |
-| 2025-08-01 | 🤖 GPT-5 | OpenAI | Released August 2025, unified reasoning, multimodal, open weights | - |
-| 2025-09-30 | 🔬 DeepSeek-V3.2-Exp | DeepSeek | Sparse Attention (DSA), efficient long-context, MIT license | 11.4% overall |
-| 2025-09-29 | 👑 Claude 4.5 Sonnet | Anthropic | #2 Most Used - 35.5B tokens on OpenRouter | 13.6% overall |
-| 2025-09-23 | 🤖 GPT-5 Codex | OpenAI | 7+ hour autonomous coding, API and open weights | 13.8% overall |
-| 2025-09-11 | 🪶 Phi-4 | Microsoft | 14B compact reasoning, MIT license, self-hostable | - |
-| 2025-09-10 | 🇨🇳 Qwen3-Next | Alibaba | Apache 2.0, strong coding, open weights | - |
-| 2025-09-09 | 🌙 Kimi K2-0905 | Moonshot AI | 256K context, agentic coding, Modified MIT | - |
-| 2025-09-05 | 🇨🇳 Qwen3-Max | Alibaba | 1T+ params, ranks 3rd globally, open weights | - |
-| 2025-09-03 | 🇪🇺 TildeOpen LLM | Tilde AI | 30B params, 34 European languages, open weights | - |
-| 2025-08-21 | 🔬 DeepSeek-V3.1 | DeepSeek | Hybrid architecture, 40% improvement, MIT license | 11.4% overall |
-| 2025-08-07 | 🤖 GPT-5 | OpenAI | Unified reasoning, multimodal, open weights | - |
+| 2025-12-18 | 🤖 GPT-5.2-Codex | OpenAI | Agentic coding, cybersecurity optimized | - |
+| 2025-12-02 | 🆓 Mistral Large 3 | Mistral | 675B params, open-weight, general purpose | - |
+| 2025-12-17 | 🌟 Gemini 3 Flash | Google | Default model, frontier performance | - |
+| 2025-12-11 | 🤖 GPT-5.2 | OpenAI | 400K context, Instant/Thinking/Pro variants | - |
+| 2025-12-01 | 🔬 DeepSeek-V3.2 | DeepSeek | IMO gold medal, comparable to GPT-5 | - |
+| 2025-11-24 | 🤖 Claude Opus 4.5 | Anthropic | 80.9% SWE-bench, 200K context | - |
+| 2025-11-18 | 🌐 Gemini 3 Pro | Google | 1501 Elo, 1M context, agentic | - |
+| 2025-10-15 | 🤖 Claude Haiku 4.5 | Anthropic | Near-frontier coding, cost-efficient | - |
+| 2025-10-03 | 🏢 IBM Granite 4.0 | IBM | ISO 42001 certified, Mamba/Transformer hybrid | - |
+| 2025-10-01 | 🚀 Grok-3 | xAI | Advanced reasoning | - |
+| 2025-09-30 | 🇨🇳 GLM-4.6 | Zhipu AI | 355B MoE, $0.13/$0.39 | 6.0% tool calls |
+| 2025-09-29 | 👑 Claude 4.5 Sonnet | Anthropic | #2 Most Used - 35.5B tokens | 13.6% overall |
+| 2025-09-23 | 🤖 GPT-5 Codex | OpenAI | 7+ hour autonomous coding | 13.8% overall |
+| 2025-09-09 | 🌙 Kimi K2-0905 | Moonshot AI | 1T params (MoE), 256K context | - |
 | 2025-08-05 | 🆓 GPT-OSS-120B | OpenAI | First open-weight since GPT-2, Apache 2.0 | - |
-| 2025-08-05 | 🆓 GPT-OSS-20B | OpenAI | #6 Most Used - 20.7B tokens on OpenRouter, Apache 2.0 | - |
-| 2025-08-01 | 🤗 StarCoder2 | BigCode/Hugging Face | New open-source coding models, community-driven | - |
-| 2025-07-15 | 💻 Magistral | Mistral AI | European reasoning, open weights, self-hostable | - |
 
 **Market Share Data from OpenRouter.ai (Live Usage Stats)*
 
@@ -134,13 +130,13 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 | #4 | **MiniMax M2** | MiniMax | Balanced | Rising star |
 | #5 | **DeepSeek V3** | DeepSeek | Cost efficiency | Top budget choice |
 
-**Market Share by Company (OpenRouter Live Stats - Nov 2025):**
+**Market Share by Company (OpenRouter Live Stats - Dec 2025):**
 
-- 🥇 Google: **22.5%** (Gemini 2.5 Flash/Pro)
-- 🥈 Anthropic: **22.3%** (Claude Sonnet 4.5)
-- 🥉 DeepSeek: **14.8%** (DeepSeek V3/R1)
-- 🏅 Alibaba (Qwen): **11.5%** (Qwen3)
-- 🏅 OpenAI: **6.0%** (GPT-5/o3)
+- 🥇 Google: **24.1%** (Gemini 3 Flash/Pro)
+- 🥈 Anthropic: **21.8%** (Claude 4.5/Opus 4.5)
+- 🥉 OpenAI: **18.5%** (GPT-5.2/Codex)
+- 🏅 DeepSeek: **12.3%** (DeepSeek-V3.2)
+- 🏅 Alibaba (Qwen): **10.2%** (Qwen3)
 
 ---
 
@@ -152,6 +148,7 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 
 | 🏢 Company | 🤖 Model | 📦 Version | 📅 Release | 🔄 Last Updated | 💻 Coding | 📊 Benchmarks | 💰 Price ($/1M) | 🖥️ Self-Host | 🌟 Usage Rank | 🔗 Link |
 |-----------|---------|----------|-----------|----------------|----------|--------------|----------------|-------------|---------------|---------|
+| 🏢 **Mistral AI** | Mistral Large 3 | Large 3 | 2025-12-02 | **2025-12-02** ⭐ | ✅ Excellent | 675B Params | Varies | ✅ Apache 2.0 | #5 Overall | [🔗](https://mistral.ai) |
 | 🏢 **IBM** | Granite 4.0 | 4.0 Small | 2025-10-03 | **2025-10-03** ⭐ | ✅ Good | ~70% / ~75% | 🆓 Free | ✅ Apache 2.0 | - | [🔗](https://www.ibm.com/granite) |
 | 🚀 **xAI** | Grok-3 | Grok-3 | 2025-10 | **2025-10** ⭐ | ✅ Excellent | ~85% / ~87% | $3.00 / $15.00 | ❌ | - | [🔗](https://x.ai) |
 | 🇨🇳 **Zhipu AI** | GLM-4.6 | GLM-4.6 | 2025-09-30 | **2025-09-30** ⭐ | ✅ Excellent | ~85% / ~84% | $0.13 / $0.39 | ✅ Open-weight | #4 Tool Calls | [🔗](https://chatglm.cn) |

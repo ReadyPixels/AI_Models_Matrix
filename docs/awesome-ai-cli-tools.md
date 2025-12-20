@@ -1,6 +1,6 @@
 # Awesome AI CLI Tools
 
-Last updated: 2025-12-05 08:40 UTC
+Last updated: 2025-12-20 15:00 UTC
 
 Quick link: [Awesome AI IDEs](./awesome-ai-ides.md)
 
@@ -75,6 +75,45 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md)
 - 🔗 **Sources**: https://github.com/google-gemini/gemini-cli, https://ai.google.dev
 - 🕒 **Verified**: 2025-11-28 17:40 UTC
 
+### Mentat 🧠
+- 📝 **Description**: Open-source coding agent that coordinates edits across multiple files.
+- 🧠 **Key AI Features**: Context-aware editing, file coordination, "cloud-native" agent capabilities for CI fixes.
+- ⚙️ **Configuration**:
+  - **Install**: `pip install mentat`.
+  - **API Keys**: Requires OpenAI/Anthropic keys.
+- 💡 **Usage Examples**:
+  - **Run**: `mentat <files>` to start session.
+  - **Prompt**: "Refactor class X to use the singleton pattern."
+- 🔧 **Troubleshooting**:
+  - **Git**: Works best in a clean git repo.
+- 💻 **Supported Programming Languages**: Python, JS, etc.
+- 🌐 **Platforms**: CLI; cross-platform.
+- 🧱 **Underlying Platform**: CLI tool
+- 📅 **Release**: 2023
+- 💰 **Pricing Model**: Free (open-source).
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Excellent multi-file handling. Cons: Setup required. Unique: "Cloud-native" focus.
+- 🔗 **Sources**: https://github.com/AbanteAI/mentat, https://mentat.ai
+- 🕒 **Verified**: 2025-12-20 15:00 UTC
+
+### GPT-Pilot ✈️
+- 📝 **Description**: AI developer tool that writes scalable apps from scratch.
+- 🧠 **Key AI Features**: Simulates a dev team (Planner, Designer, Architect), writes 95% of code autonomously.
+- ⚙️ **Configuration**:
+  - **Install**: `pip install gpt-pilot`.
+  - **Setup**: `python main.py` triggers the wizard.
+- 💡 **Usage Examples**:
+  - **New App**: "Build a real-time chat app with Node.js and Socket.io." (Wizard guides the rest).
+- 🔧 **Troubleshooting**:
+  - **Database**: Ensure local DB services are running as requested by Pilot.
+- 💻 **Supported Programming Languages**: Node, Python, PHP, etc.
+- 🌐 **Platforms**: CLI; cross-platform.
+- 🧱 **Underlying Platform**: CLI tool
+- 📅 **Release**: 2023
+- 💰 **Pricing Model**: Free (open-source).
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Generates full apps. Cons: Can be expensive on API costs for large apps. Unique: "Pythagora" engine.
+- 🔗 **Sources**: https://github.com/Pythagora-io/gpt-pilot, https://www.pythagora.ai
+- 🕒 **Verified**: 2025-12-20 15:00 UTC
+
 ## Proprietary CLI Tools 🧠💼
 
 ### Claude Code 🧠
@@ -95,10 +134,69 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md)
 - 🌐 **Platforms**: Command-line; cross-platform.
 - 🧱 **Underlying Platform**: CLI tool
 - 📅 **Release**: 2024
-- 💰 **Pricing Model**: Free (uses Claude API; user pays API costs).
-- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Direct Claude integration; checkpoints for autonomous operation and instant rewind. Cons: CLI-only, requires API key. Unique: Seamless AI chat in terminal.
-- 🔗 **Sources**: https://www.anthropic.com, https://docs.anthropic.com
-- 🕒 **Verified**: 2025-11-28 17:40 UTC
+- 💰 **Pricing Model**: Free (uses Claude API; user pays API costs via Anthropic Max plan or API).
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Deep codebase understanding, autonomous editing, CI integration. Cons: CLI-only, requires API key. Unique: Seamless AI chat in terminal with checkpoints.
+- 🔗 **Sources**: https://claude.ai/code, https://docs.anthropic.com
+- 🕒 **Verified**: 2025-12-20 14:40 UTC
+
+### Cursor CLI 💻
+- 📝 **Description**: Terminal-based AI assistant from Cursor for coding without leaving the command line.
+- 🧠 **Key AI Features**: Multi-model support (GPT-5, Claude 4, Gemini), context-aware suggestions, interactive and headless modes.
+- ⚙️ **Configuration**:
+  - **Install**: Download from Cursor website or use `curl`.
+  - **Models**: Configure preferred AI model via settings.
+- 💡 **Usage Examples**:
+  - **Chat**: `cursor chat` (interactive session).
+  - **Task**: `cursor "refactor this function"` with file context.
+- 🔧 **Troubleshooting**:
+  - **Auth**: Ensure Cursor account is linked.
+- 💻 **Supported Programming Languages**: Broad (major languages).
+- 🌐 **Platforms**: Command-line; cross-platform.
+- 🧱 **Underlying Platform**: CLI tool
+- 📅 **Release**: 2025
+- 💰 **Pricing Model**: Free tier; Pro for advanced models.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Multi-model, IDE integration. Cons: Subscription for full features. Unique: Terminal meets AI IDE.
+- 🔗 **Sources**: https://cursor.com
+- 🕒 **Verified**: 2025-12-20 14:40 UTC
+
+### Refact.ai CLI 🔧
+- 📝 **Description**: CLI integration for Refact.ai's Autonomous AI Agent.
+- 🧠 **Key AI Features**: End-to-end task execution, planning, deployment, SWE-bench verified.
+- ⚙️ **Configuration**:
+  - **Install**: Via Refact plugin or standalone.
+  - **API**: Connects to Refact Cloud or self-hosted enterprise server.
+- 💡 **Usage Examples**:
+  - **Agent**: Let the agent run shell commands, run tests, and fix code iteratively.
+- 🔧 **Troubleshooting**:
+  - **Permissions**: Grant explicit permission for shell execution.
+- 💻 **Supported Programming Languages**: Broad.
+- 🌐 **Platforms**: CLI; cross-platform.
+- 🧱 **Underlying Platform**: CLI tool
+- 📅 **Release**: 2025
+- 💰 **Pricing Model**: Free tier / Enterprise.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Autonomous agent in CLI. Cons: Enterprise focus. Unique: SWE-bench verified performance.
+- 🔗 **Sources**: https://refact.ai
+- 🕒 **Verified**: 2025-12-20 15:00 UTC
+
+### Qodo CLI 🧰
+- 📝 **Description**: AI agent framework for injecting purpose-specific agents into development workflows.
+- 🧠 **Key AI Features**: Custom agent creation, workflow automation, testing focus.
+- ⚙️ **Configuration**:
+  - **Install**: `pip install qodo` or via npm.
+  - **Agents**: Define custom agents for specific tasks.
+- 💡 **Usage Examples**:
+  - **Test**: `qodo test --generate` (auto-generate tests).
+  - **Review**: `qodo review src/` (code review).
+- 🔧 **Troubleshooting**:
+  - **Config**: Ensure agent definitions are valid.
+- 💻 **Supported Programming Languages**: Broad (major languages).
+- 🌐 **Platforms**: Command-line; cross-platform.
+- 🧱 **Underlying Platform**: CLI tool
+- 📅 **Release**: 2024
+- 💰 **Pricing Model**: Free tier; Enterprise plans.
+- ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Flexible agent framework. Cons: Learning curve. Unique: Invent purpose-specific agents.
+- 🔗 **Sources**: https://qodo.ai
+- 🕒 **Verified**: 2025-12-20 14:40 UTC
 ### Amazon Q CLI ☁️
 - 📝 **Description**: AWS command-line assistant for cloud infrastructure and scripting.
 - 🧠 **Key AI Features**: Shell script generation, AWS resource management, best practice suggestions.
@@ -138,3 +236,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md)
 - ⚖️ **Notable Pros/Cons or Unique Aspects**: Pros: Modern UI, fast. Cons: Requires login. Unique: Terminal as an IDE.
 - 🔗 **Sources**: https://www.warp.dev
 - 🕒 **Verified**: 2025-12-05 08:40 UTC
+
+---
+
+Made with ❤️ by ReadyPixels LLC
