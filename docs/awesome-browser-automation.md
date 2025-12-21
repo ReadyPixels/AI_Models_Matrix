@@ -23,6 +23,13 @@ _Last updated: 2025-12-20 15:00 UTC_
 - **Pros/Cons**: Privacy‑first, local agents; early‑stage, evolving feature set.
 - **Sources**: https://github.com/browseros-ai/BrowserOS, https://www.browseros.com/
 
+### Browser Operator 🤖
+- **Description**: Open-source AI browser with built-in multi-agent platform.
+- **Key AI Features**: Multi-agent coordination, locally hosted alternative to proprietary "Atlas" style browsers.
+- **Supported Platforms**: Windows, macOS, Linux.
+- **Pricing**: Free (Open Source).
+- **Sources**: https://github.com/BrowserOperator/browser-operator-core
+
 ### Perplexity Comet 🚀
 - **Description**: AI‑powered web browser with an embedded assistant that automates tasks across tabs and apps, provides page‑aware chat, and organizes research.
 - **Key AI Features**: Agentic browsing, cross‑tab actions (forms, email, calendar), page content understanding, task automation, tab management.
@@ -142,6 +149,13 @@ _Last updated: 2025-12-20 15:00 UTC_
 - **Playwright**: Best modern headless browser engine. Supports all major browsers.
 - **Selenium**: The classic standard, compatible with almost everything.
 - **Cypress**: Great for testing, less so for general purpose agentic automation due to architecture.
+
+### Steel Browser 🛡️
+- **Description**: Open-source browser API and infrastructure designed for building AI agents.
+- **Key AI Features**: High-fidelity browser control, built for agentic reliability.
+- **Supported Platforms**: Cloud/Self-hosted.
+- **Pricing**: Open Source core / Cloud pricing.
+- **Sources**: https://github.com/steel-dev/steel-browser
 
 ---
 
