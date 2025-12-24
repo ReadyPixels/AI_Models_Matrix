@@ -33,7 +33,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 ### Codeium 🚀
 - **Description**: Free, fast alternative to Copilot for individuals.
 - **Key Features**: Autocomplete, chat, "Command" search.
-- **Support**: VS Code, JetBrains, Vim, Eclipse.
+- **Support**: VS Code, JetBrains, Vim, Eclipse, Web Editors (Chrome Extension).
 - **Pricing**: Free (Individuals); Enterprise.
 - **Sources**: https://codeium.com
 
@@ -47,7 +47,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 ### Cody (Sourcegraph) 🔍
 - **Description**: Best-in-class codebase search and understanding.
 - **Key Features**: Semantic repo search, enterprise context.
-- **Support**: VS Code, JetBrains.
+- **Support**: VS Code, JetBrains, Web Design (Sourcegraph.com).
 - **Pricing**: Free tier; Enterprise.
 - **Sources**: https://sourcegraph.com/cody
 
@@ -85,18 +85,21 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 ### Cline 🧩
 - **Description**: Autonomous coding agent with MCP tool creation.
 - **Key Features**: Browser use, terminal execution, self-improving tool library.
+- **Support**: VS Code (Open Source).
 - **Pricing**: Free (OSS).
 - **Sources**: https://github.com/cline/cline
 
 ### RooCode 🚀
 - **Description**: Fork of Cline/Claude Dev with "Custom Modes".
 - **Key Features**: "Architect" vs "Code" modes for switching agent personas.
+- **Support**: VS Code.
 - **Pricing**: Freemium.
 - **Sources**: https://github.com/RooVetGit/Roo-Code
 
 ### Keploy 🐰
 - **Description**: Test generation platform for API testing.
 - **Key Features**: Auto-mocks dependencies, records traffic.
+- **Support**: VS Code (Extension).
 - **Pricing**: Free (OSS).
 - **Sources**: https://keploy.io
 
@@ -109,11 +112,13 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 ### JetBrains AI Assistant 🧠
 - **Description**: Native AI deeply integrated into JetBrains IDEs.
 - **Key Features**: Refactoring awareness, commit generation, diff explanations.
+- **Support**: JetBrains IDEs (IntelliJ, PyCharm, WebStorm, etc.).
 - **Pricing**: Subscription.
 - **Sources**: https://jetbrains.com/ai
 
 ### JetBrains Junie (TBA 2025) 🤖
 - **Description**: Upcoming agentic coding companion.
+- **Support**: JetBrains IDEs (Planned).
 - **Sources**: https://blog.jetbrains.com
 
 ---

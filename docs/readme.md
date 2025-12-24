@@ -47,12 +47,13 @@
 >
 > Whether you're building the next breakthrough application, conducting cutting-edge research, or making strategic technology decisions for your enterprise, this guide empowers you with the critical information needed to choose the perfect AI model for your specific needs.
 >
-Last updated: 2025-12-20 15:00 UTC
+Last updated: 2025-12-24 18:00 UTC
 **Total Models:** 55+ models from 18+ companies
 **Data Sources:** OpenRouter Rankings, LLM-Stats.com, Official Documentation, Artificial Analysis
 
 ## Revision History
 
+ - 2025-12-24 18:00 UTC — Added Visual Studio 2026, Kiro IDE, Goose Agent, Dia Browser. Removed discontinued JetBrains Fleet.
  - 2025-12-20 15:00 UTC — Added Mistral Large 3, Vultr/Nebius/Novita providers, LaVague, Mentat, Refact.ai, and more.
  - 2025-12-20 14:40 UTC — Added GPT-5.2, Gemini 3 Flash, Claude Opus 4.5, DeepSeek-V3.2. Expanded browser/CLI/add-on docs.
  - 2025-11-24 22:53 UTC — Updated documents with new IDE findings and provider entries.
@@ -108,6 +109,9 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 
 | Date | Model | Company | Highlights | Market Share* |
 |------|-------|---------|------------|---------------|
+| 2025-12-24 | 💎 Dia AI Browser | The Browser Co | AI-native browser (Arc creators), context-aware | - |
+| 2025-12-19 | 🦢 Goose Agent | Block | Open-source autonomous developer agent | - |
+| 2025-12-17 | ♾️ Visual Studio 2026 | Microsoft | First "AI-Native" VS release, deep integration | - |
 | 2025-12-18 | 🤖 GPT-5.2-Codex | OpenAI | Agentic coding, cybersecurity optimized | - |
 | 2025-12-02 | 🆓 Mistral Large 3 | Mistral | 675B params, open-weight, general purpose | - |
 | 2025-12-17 | 🌟 Gemini 3 Flash | Google | Default model, frontier performance | - |
@@ -155,6 +159,9 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 
 | 🏢 Company | 🤖 Model | 📦 Version | 📅 Release | 🔄 Last Updated | 💻 Coding | 📊 Benchmarks | 💰 Price ($/1M) | 🖥️ Self-Host | 🌟 Usage Rank | 🔗 Link |
 |-----------|---------|----------|-----------|----------------|----------|--------------|----------------|-------------|---------------|---------|
+| 🤖 **OpenAI** | GPT-5.2-Codex | 5.2-Codex | 2025-12-18 | **2025-12-18** ⭐ | ✅ Best-in-class | Cybersec/Refactoring | API | ❌ | - | [🔗](https://openai.com) |
+| 🌐 **Google** | Gemini 3 Flash | 3 Flash | 2025-12-17 | **2025-12-17** ⭐ | ✅ Excellent | Default Model | Free/API | ❌ | - | [🔗](https://ai.google.dev) |
+| 🤖 **OpenAI** | GPT-5.2 | 5.2 | 2025-12-11 | **2025-12-11** ⭐ | ✅ Excellent | 400K Context | API | ❌ | - | [🔗](https://openai.com) |
 | 🏢 **Mistral AI** | Mistral Large 3 | Large 3 | 2025-12-02 | **2025-12-02** ⭐ | ✅ Excellent | 675B Params | Varies | ✅ Apache 2.0 | #5 Overall | [🔗](https://mistral.ai) |
 | 🏢 **IBM** | Granite 4.0 | 4.0 Small | 2025-10-03 | **2025-10-03** ⭐ | ✅ Good | ~70% / ~75% | 🆓 Free | ✅ Apache 2.0 | - | [🔗](https://www.ibm.com/granite) |
 | 🚀 **xAI** | Grok-3 | Grok-3 | 2025-10 | **2025-10** ⭐ | ✅ Excellent | ~85% / ~87% | $3.00 / $15.00 | ❌ | - | [🔗](https://x.ai) |
@@ -194,6 +201,8 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 
 | Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
 |-------|---------|---------|--------------|--------|------------|-------|-----------|
+| GPT-5.2-Codex | 5.2-Codex | 2025-12-18 | 2025-12-18 | ✅ Best | Cybersec/Refactor | API | ❌ |
+| GPT-5.2 | 5.2 | 2025-12-11 | 2025-12-11 | ✅ Excellent | 400K Context | API | ❌ |
 | GPT-5 Codex | Codex | 2025-09-23 | 2025-09-23 | ✅ Best | Coding-optimized | API | ❌ |
 | GPT-5 | GPT-5 | 2025-08-07 | 2025-08-07 | ✅ Excellent | ~90%+ / ~92% | $1.25 / $10 | ❌ |
 | 🆓 GPT-OSS-120B | OSS-120B | 2025-08-05 | 2025-08-05 | ✅ Excellent | 91.4% / ~89% | Free | ✅ Apache 2.0 |
@@ -222,6 +231,7 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 
 | Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
 |-------|---------|---------|--------------|--------|------------|-------|-----------|
+| DeepSeek-V3.2 | V3.2 | 2025-12-01 | 2025-12-01 | ✅ Excellent | Sparse Attention | MIT | ✅ MIT |
 | DeepSeek-V3.2-Exp | V3.2-Exp | 2025-09-29 | 2025-09-30 | ✅ Excellent | Experimental DSA | $0.27 / $0.41 | ✅ MIT |
 | DeepSeek-V3.1 | V3.1 | 2025-08-21 | 2025-08-21 | ✅ Excellent | 82%+ / 85%+ | $0.27 / $0.41 | ✅ MIT |
 | DeepSeek-R1 | R1-0528 | 2025-05-28 | 2025-05-28 | ✅ Excellent | 81% / 85% | $0.50 / $2.15 | ✅ MIT |
@@ -285,10 +295,10 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 
 
 
-**🌐 Google DeepMind** - Gemini 2.5 Pro, Gemini 2.5 Flash
+**🌐 Google DeepMind** - Gemini 3 Flash, Gemini 3 Pro, Gemini 2.5 Pro
 **🚀 xAI** - Grok-3, Grok 4, Grok 4 Fast
 **🦙 Meta** - Llama 4 Maverick, Llama 4 Scout, Llama 3.3, Llama 3.2
-**💻 Mistral AI** - Codestral, Mixtral 9x7B, Magistral, Medium 3, Pixtral Large, Large 2
+**💻 Mistral AI** - Mistral Large 3, Codestral, Mixtral 9x7B, Magistral
 **🏢 IBM** - Granite 4.0
 **🪶 Microsoft** - Phi-4
 **🇪🇺 Tilde AI** - TildeOpen LLM

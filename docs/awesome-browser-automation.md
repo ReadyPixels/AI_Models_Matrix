@@ -37,7 +37,23 @@ _Last updated: 2025-12-20 15:00 UTC_
 - **Pricing**: Free.
 - **Pros/Cons**: Powerful agentic workflows; desktop‑focused availability.
 - **Sources**: https://www.perplexity.ai/comet
-- **Verified**: 2025-11-28 23:05 UTC
+- **Verified**: 2025-12-24
+
+### Dia AI Browser 💎
+- **Description**: AI-powered context-aware browser from the creators of Arc.
+- **Key AI Features**: Conversational AI, cross-tab reasoning, drafting, summarization.
+- **Supported Platforms**: macOS (M1+), Windows (Planned).
+- **Pricing**: Free.
+- **Sources**: https://diabrowser.com
+- **Verified**: 2025-12-24
+
+### Opera Neon / Opera One AI ⭕
+- **Description**: Experimental AI concept browser with native "Aria" assistant.
+- **Key AI Features**: Split screen, AI-generated "Surflets", deeply integrated chat.
+- **Supported Platforms**: Windows, macOS.
+- **Pricing**: Free.
+- **Sources**: https://www.opera.com
+- **Verified**: 2025-12-24
 
 ### ChatGPT Atlas (macOS) 🍎
 - **Description**: AI‑focused browser for macOS with deep ChatGPT integration.
@@ -55,10 +71,19 @@ _Last updated: 2025-12-20 15:00 UTC_
 - **Pros/Cons**: Local‑first research tool; not a general-purpose browser.
 - **Sources**: https://github.com/deta/surf
 
+### Open DeepResearch (Hugging Face) 🔬
+- **Description**: Open-source agentic framework for deep web research and browsing.
+- **Key AI Features**: Autonomous browsing, summarization, Q&A, attempting to replicate OpenAI Deep Research.
+- **Supported Platforms**: Cross-platform (Python environment).
+- **Status**: Open Source.
+- **Sources**: https://huggingface.co/posts/open-deep-research
+
+
+
 ### OpenAI Operator / ChatGPT Agent Mode 🧠
 - **Description**: Unified agentic system integrated into ChatGPT (and likely a browser frame) that can browse, interact, and generate artifacts.
 - **Key AI Features**: Autonomous browsing, secure login prompts, code execution, artifact generation.
-- **Supported Platforms**: Web/Browser-based.
+- **Supported Platforms**: Web/Browser-based (All modern browsers).
 - **Pricing**: Requires ChatGPT Pro (varies).
 - **Pros/Cons**: Massive scale and capability; specific availability rolling out.
 - **Sources**: https://openai.com
@@ -72,7 +97,7 @@ _Last updated: 2025-12-20 15:00 UTC_
 ### MultiOn 🚀
 - **Description**: Autonomous AI agent extension that acts as a "personal intern" to complete web tasks.
 - **Key AI Features**: Handles complex multi-step workflows (booking flights, ordering food, filling forms), API for developers.
-- **Supported Platforms**: Chrome Extension, Mobile App.
+- **Supported Platforms**: Chrome Extension (Chromium), Mobile App.
 - **Pricing**: Free tier, Paid tiers (API per-request pricing for devs).
 - **Pros/Cons**: highly capable "do it for me" agent; requires trust with accounts.
 - **Sources**: https://www.multion.ai
@@ -80,7 +105,7 @@ _Last updated: 2025-12-20 15:00 UTC_
 ### Harpa AI 🦸‍♂️
 - **Description**: Hybrid AI co-pilot and automation agent for Chrome, integrating multiple LLMs (GPT, Claude, Gemini).
 - **Key AI Features**: Page monitoring, data extraction, IFTTT-style automation recipes, write-for-me, SEO analysis.
-- **Supported Platforms**: Chrome Extension.
+- **Supported Platforms**: Chrome Extension (Chrome, Edge, Brave, Opera).
 - **Pricing**: Freemium (Free tier + S1/S2 subscriptions).
 - **Pros/Cons**: Huge library of pre-built automations; runs locally in browser.
 - **Sources**: https://harpa.ai
@@ -88,7 +113,7 @@ _Last updated: 2025-12-20 15:00 UTC_
 ### HyperWrite Personal Assistant ✍️
 - **Description**: AI writing and productivity assistant with an "Agent" mode for browser tasks.
 - **Key AI Features**: "Write Anywhere", autonomous research, email drafting, travel booking.
-- **Supported Platforms**: Chrome Extension.
+- **Supported Platforms**: Chrome Extension (Chromium Browsers).
 - **Pricing**: Freemium ($19.99/mo for Premium).
 - **Pros/Cons**: Excellent for writing-heavy workflows; strong agent capabilities.
 - **Sources**: https://hyperwriteai.com
@@ -96,7 +121,7 @@ _Last updated: 2025-12-20 15:00 UTC_
 ### NanoBrowser 🔬
 - **Description**: Open-source Chrome extension for AI web automation, supporting local and cloud LLMs.
 - **Key AI Features**: Multi-agent support, flexible LLM integration, "Run" button customization.
-- **Supported Platforms**: Chrome Extension.
+- **Supported Platforms**: Chrome Extension (Chromium).
 - **Pricing**: Free (Open Source).
 - **Pros/Cons**: Lightweight, fully control your model; limited by extension sandbox.
 - **Sources**: https://github.com/Start-Nano/NanoBrowser
@@ -104,7 +129,7 @@ _Last updated: 2025-12-20 15:00 UTC_
 ### Microsoft Edge Copilot 🟦
 - **Description**: Built-in AI sidebar in Edge with deep OS integration.
 - **Key AI Features**: Page summarization, rewrite, browser control.
-- **Supported Platforms**: Pre-installed in Edge.
+- **Supported Platforms**: Microsoft Edge (Built-in Sidebar).
 - **Pricing**: Free.
 - **Sources**: https://www.microsoft.com/edge
 
@@ -143,11 +168,12 @@ _Last updated: 2025-12-20 15:00 UTC_
 ### OpenWebUI + Browser Use 🤝
 - **Description**: The specific integration of Browser-use inside the OpenWebUI interface.
 - **Key AI Features**: UI-based agent control, local LLM support (Ollama).
+- **Supported Platforms**: Web-based (Docker/Self-hosted).
 - **Sources**: https://github.com/OpenWebUI/OpenWebUI
 
 ### Standard Engines (Playwright / Selenium / Cypress)
-- **Playwright**: Best modern headless browser engine. Supports all major browsers.
-- **Selenium**: The classic standard, compatible with almost everything.
+- **Playwright**: Best modern headless browser engine. Supports all major browsers (Windows, Linux, macOS).
+- **Selenium**: The classic standard, compatible with almost everything (Cross-platform).
 - **Cypress**: Great for testing, less so for general purpose agentic automation due to architecture.
 
 ### Steel Browser 🛡️
@@ -157,6 +183,13 @@ _Last updated: 2025-12-20 15:00 UTC_
 - **Pricing**: Open Source core / Cloud pricing.
 - **Sources**: https://github.com/steel-dev/steel-browser
 
+### toMCP 🔌
+- **Description**: Middleware that converts public websites into Model Context Protocol (MCP) servers.
+- **Key AI Features**: Clean context extraction for agents.
+- **Supported Platforms**: Local Server.
+- **Pricing**: Open Source.
+- **Sources**: https://github.com/Ami3466/tomcp
+
 ---
 
 ## Cloud & API Automation 🌩️
@@ -165,10 +198,12 @@ _Last updated: 2025-12-20 15:00 UTC_
 
 ### Skyvern Cloud
 - **Description**: Managed version of Skyvern Project.
+- **Supported Platforms**: Cloud API.
 - **Pricing**: Usage-based.
 
 ### Browserbase
 - **Description**: Serverless browser infrastructure for AI agents.
+- **Supported Platforms**: Cloud API (Connect via Puppeteer/Playwright).
 - **Key Features**: Stealth mode, session recording, debug access.
 - **Sources**: https://browserbase.com
 
