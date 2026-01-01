@@ -6,20 +6,24 @@
 
 | Model | Company | Release | Context | Key Features | License |
 |-------|---------|---------|---------|--------------|---------|
-| **GPT-5.2** | OpenAI | Dec 2025 | 400K | Agentic tool-use, "Thinking" & "Instant" variants | Proprietary |
-| **Gemini 3 Flash** | Google | Dec 2025 | 2M | Default model, sub-second reasoning, multimodal | Proprietary |
-| **Mistral Large 3** | Mistral AI | Dec 2025 | 128K | 675B params, MoE, Open-weight | Apache 2.0 |
-| **Claude Opus 4.5** | Anthropic | Nov 2025 | 200K | 80.9% SWE-bench, complex reasoning | Proprietary |
-| **Grok 4.1** | xAI | Nov 2025 | 1M | Reduced hallucinations, creative reasoning | Proprietary |
-| **DeepSeek-V3.2** | DeepSeek | Dec 2025 | 128K | IMO gold medal level, sparse attention | MIT |
+| **Gemini 3** | Google | Dec 17, 2025 | 10M | Strong reasoning, multimodel agentic | Proprietary |
+| **GPT-5.2** | OpenAI | Dec 11, 2025 | 400K | Thinking & Instant variants, $1.75/1M | Proprietary |
+| **GPT-5 mini** | OpenAI | Dec 2025 | 128K | Cheap reasoning, $0.25/1M | Proprietary |
+| **Mistral Large 3** | Mistral AI | Dec 2, 2025 | 128K | 675B params, MoE, Open-weight | Apache 2.0 |
+| **Claude Opus 4.5** | Anthropic | Nov 2025 | 200K | Leading reasoning accuracy | Proprietary |
+| **Llama 4 Scout** | Meta | Dec 2025 | 10M | Open-weight context king | Community |
+| **DeepSeek-V3.2** | DeepSeek | Dec 2025 | 128K | sparse attention, extremely fast | MIT |
 
 ## 🔓 Open-Source / Open-Weight Models
 
 ### 🏢 Enterprise / General Purpose
 - **Llama 4 (Scout/Maverick)** (Meta)
-    - *Specs*: 400B (Maverick) / 109B (Scout)
+    - *Specs*: 10M Token Context (Scout), 400B (Maverick)
     - *License*: Meta Community License
-    - *Note*: Native multimodal, industry standard for self-hosting.
+    - *Note*: Native multimodal, 10M context standard for RAG.
+- **GLM-4.7** (Z.ai)
+    - *Specs*: Open-source Enterprise focus
+    - *Note*: Launched Dec 2025.
 - **Mistral Large 3** (Mistral AI)
     - *Specs*: 675B (MoE)
     - *License*: Apache 2.0

@@ -31,11 +31,18 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Sources**: https://github.com/block/goose
 
 ### GPT-Pilot ✈️
-- **Description**: "Pythagora" engine that simulates a full dev team to write scalable apps.
-- **Key AI Features**: Planner/Architect/Dev roles, 95% autonomous code generation.
+- **Description**: "Pythagora" engine that simulates a full dev team.
+- **Key AI Features**: Planner/Architect/Dev roles, 95%+ autonomous (v2.0 integration).
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free (open-source).
 - **Sources**: https://github.com/Pythagora-io/gpt-pilot
+- **Verified**: 2026-01-01
+- 
+- ### Agent Lightning ⚡
+- **Description**: Microsoft's RL-enabled agent context builder compatible with LangChain/CrewAI.
+- **Key AI Features**: Self-correcting logic, reinforces successful workflows.
+- **Supported Platforms**: Cross-platform.
+- **Sources**: https://github.com/microsoft/agent-lightning
 
 ### Aider 🛠️
 - **Description**: The gold standard for CLI chat-to-code.

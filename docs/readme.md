@@ -47,12 +47,14 @@
 >
 > Whether you're building the next breakthrough application, conducting cutting-edge research, or making strategic technology decisions for your enterprise, this guide empowers you with the critical information needed to choose the perfect AI model for your specific needs.
 >
-Last updated: 2025-12-24 18:00 UTC
+Last updated: 2026-01-01 22:00 UTC
 **Total Models:** 55+ models from 18+ companies
 **Data Sources:** OpenRouter Rankings, LLM-Stats.com, Official Documentation, Artificial Analysis
 
 ## Revision History
 
+ - 2026-01-01 22:00 UTC — Round 14: New Year 2026 Update. Added Gemini 3, GPT-5.2 pricing, Cursor 2.3.9, Zed 0.217.3, Windsurf Wave 13.
+ - 2026-01-01 22:00 UTC — Round 14: New Year 2026 Update. Added Gemini 3, GPT-5.2 pricing, Cursor 2.3.9, Zed 0.217.3, Windsurf Wave 13.
  - 2025-12-24 18:00 UTC — Added Visual Studio 2026, Kiro IDE, Goose Agent, Dia Browser. Removed discontinued JetBrains Fleet.
  - 2025-12-20 15:00 UTC — Added Mistral Large 3, Vultr/Nebius/Novita providers, LaVague, Mentat, Refact.ai, and more.
  - 2025-12-20 14:40 UTC — Added GPT-5.2, Gemini 3 Flash, Claude Opus 4.5, DeepSeek-V3.2. Expanded browser/CLI/add-on docs.
@@ -160,8 +162,9 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 | 🏢 Company | 🤖 Model | 📦 Version | 📅 Release | 🔄 Last Updated | 💻 Coding | 📊 Benchmarks | 💰 Price ($/1M) | 🖥️ Self-Host | 🌟 Usage Rank | 🔗 Link |
 |-----------|---------|----------|-----------|----------------|----------|--------------|----------------|-------------|---------------|---------|
 | 🤖 **OpenAI** | GPT-5.2-Codex | 5.2-Codex | 2025-12-18 | **2025-12-18** ⭐ | ✅ Best-in-class | Cybersec/Refactoring | API | ❌ | - | [🔗](https://openai.com) |
-| 🌐 **Google** | Gemini 3 Flash | 3 Flash | 2025-12-17 | **2025-12-17** ⭐ | ✅ Excellent | Default Model | Free/API | ❌ | - | [🔗](https://ai.google.dev) |
+| 🌐 **Google** | Gemini 3 | 3 | 2025-12-17 | **2025-12-17** ⭐ | ✅ Excellent | 10M Context | API | ❌ | - | [🔗](https://ai.google.dev) |
 | 🤖 **OpenAI** | GPT-5.2 | 5.2 | 2025-12-11 | **2025-12-11** ⭐ | ✅ Excellent | 400K Context | API | ❌ | - | [🔗](https://openai.com) |
+| 🤖 **OpenAI** | GPT-5 mini | 5 mini | 2025-12 | **2025-12** ⭐ | ✅ Good | $0.25/1M | API | ❌ | - | [🔗](https://openai.com) |
 | 🏢 **Mistral AI** | Mistral Large 3 | Large 3 | 2025-12-02 | **2025-12-02** ⭐ | ✅ Excellent | 675B Params | Varies | ✅ Apache 2.0 | #5 Overall | [🔗](https://mistral.ai) |
 | 🏢 **IBM** | Granite 4.0 | 4.0 Small | 2025-10-03 | **2025-10-03** ⭐ | ✅ Good | ~70% / ~75% | 🆓 Free | ✅ Apache 2.0 | - | [🔗](https://www.ibm.com/granite) |
 | 🚀 **xAI** | Grok-3 | Grok-3 | 2025-10 | **2025-10** ⭐ | ✅ Excellent | ~85% / ~87% | $3.00 / $15.00 | ❌ | - | [🔗](https://x.ai) |
@@ -203,6 +206,7 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 |-------|---------|---------|--------------|--------|------------|-------|-----------|
 | GPT-5.2-Codex | 5.2-Codex | 2025-12-18 | 2025-12-18 | ✅ Best | Cybersec/Refactor | API | ❌ |
 | GPT-5.2 | 5.2 | 2025-12-11 | 2025-12-11 | ✅ Excellent | 400K Context | API | ❌ |
+| GPT-5 mini | 5 mini | 2025-12 | 2025-12 | ✅ Good | Cheap ($0.25) | API | ❌ |
 | GPT-5 Codex | Codex | 2025-09-23 | 2025-09-23 | ✅ Best | Coding-optimized | API | ❌ |
 | GPT-5 | GPT-5 | 2025-08-07 | 2025-08-07 | ✅ Excellent | ~90%+ / ~92% | $1.25 / $10 | ❌ |
 | 🆓 GPT-OSS-120B | OSS-120B | 2025-08-05 | 2025-08-05 | ✅ Excellent | 91.4% / ~89% | Free | ✅ Apache 2.0 |

@@ -22,7 +22,7 @@ Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./aw
 |----------|-------------|---------|--------------|---------|
 | **OpenAI** | Creator of GPT models | [platform.openai.com](https://platform.openai.com) | GPT-5, o1/o3, Assistants API | Pay-per-token |
 | **Anthropic** | Creator of Claude models | [console.anthropic.com](https://console.anthropic.com) | Claude 3.5/4.5 (200k context), Caching | Pay-per-token |
-| **Google AI Studio** | Gemini direct access | [ai.google.dev](https://ai.google.dev) | Gemini 2.5/3 Pro/Flash, Free tier | Free / Pay |
+| **Google AI Studio** | Gemini direct access | [ai.google.dev](https://ai.google.dev) | Gemini 2.5/3 Pro/Flash, 50% New Year discount | Free / Pay |
 | **DeepSeek** | DeepSeek Labs | [deepseek.com](https://deepseek.com) | DeepSeek-V3/R1, Extremely cheap | Pay-per-token |
 | **Mistral AI** | European Open-Weight Leader | [console.mistral.ai](https://console.mistral.ai) | Codestral, Pixtral, Mistral Large | Pay-per-token |
 | **xAI** | Elon Musk's AI Lab | [x.ai](https://x.ai) | Grok models, real-time web search | Pay-per-token |

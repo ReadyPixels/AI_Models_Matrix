@@ -1,6 +1,6 @@
 # Awesome AI Add-ons
 
-_Last updated: 2025-12-20 17:10 UTC_
+_Last updated: 2026-01-01 22:40 UTC_
 
 Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./awesome-ai-cli-tools.md)
 

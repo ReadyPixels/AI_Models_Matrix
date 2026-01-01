@@ -19,8 +19,8 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 
 ### Zed with Copilot 🧩
 - **Description**: Fast, collaborative editor with AI assistance.
-- **Key AI Features**: Completion, chat (via Copilot).
-- **Supported Platforms**: macOS; Windows/Linux (2025).
+- **Key AI Features**: Completion, chat (via Copilot), Gemini 3 Flash and Grok 4.1 support (v0.217.3).
+- **Supported Platforms**: macOS; Windows (v0.217.3+), Linux (2025).
 - **Pricing**: Editor free; Copilot subscription.
 - **Sources**: https://zed.dev
 
@@ -40,7 +40,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 
 ### Kiro 🏗️
 - **Description**: AI IDE designed for prototype-to-production workflows with subagents.
-- **Key AI Features**: Web tools, deep hooks, subagents for parallel execution (v0.8.0).
+- **Key AI Features**: Web tools, deep hooks, subagents for parallel execution (v0.8.5+).
 - **Supported Platforms**: Desktop (Windows, macOS, Linux).
 - **Sources**: https://kiro.dev
 
@@ -51,11 +51,11 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 > **Specialized versions of VS Code reworked to be "AI-First" with deep integration.**
 
 ### Cursor ⚡
-- **Description**: The leading AI-first editor. Deeply integrates chat, diffs, and "Tab" auto-edits.
+- **Description**: The leading AI-first editor. Deeply integrates chat, diffs, and "Tab" auto-edits (v2.3.9).
 - **Key AI Features**: Shadow workspace, prediction, codebase indexing, "Composer" agent.
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Freemium; Pro tier ($20/mo).
-- **Sources**: https://cursor.sh
+- **Sources**: https://cursor.com
 
 ### Google Antigravity 🚀
 - **Description**: Agent-first IDE orchestrating multiple agents across editor, terminal, and browser.
@@ -65,7 +65,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 - **Sources**: https://antigravity.google/
 
 ### Windsurf 🌬️
-- **Description**: "Flow" state IDE with "Cascade" agent that knows context deeply.
+- **Description**: "Flow" state IDE with "Cascade" agent (Wave 13 / SWE-1.5 default).
 - **Key AI Features**: Multi-file edits, deep context awareness, frictionless agent handoff.
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Freemium.

@@ -31,21 +31,21 @@ _Last updated: 2025-12-20 15:00 UTC_
 - **Sources**: https://github.com/BrowserOperator/browser-operator-core
 
 ### Perplexity Comet 🚀
-- **Description**: AI‑powered web browser with an embedded assistant that automates tasks across tabs and apps, provides page‑aware chat, and organizes research.
-- **Key AI Features**: Agentic browsing, cross‑tab actions (forms, email, calendar), page content understanding, task automation, tab management.
-- **Supported Platforms**: Windows, macOS.
+- **Description**: AI‑powered web browser with an embedded assistant that automates tasks across tabs and apps.
+- **Key AI Features**: Agentic browsing, cross‑tab actions (forms, email, calendar), page content understanding.
+- **Supported Platforms**: Windows, macOS, Android (v1.5+).
 - **Pricing**: Free.
-- **Pros/Cons**: Powerful agentic workflows; desktop‑focused availability.
+- **Pros/Cons**: Powerful agentic workflows; widespread availability.
 - **Sources**: https://www.perplexity.ai/comet
-- **Verified**: 2025-12-24
+- **Verified**: 2026-01-01
 
 ### Dia AI Browser 💎
-- **Description**: AI-powered context-aware browser from the creators of Arc.
-- **Key AI Features**: Conversational AI, cross-tab reasoning, drafting, summarization.
-- **Supported Platforms**: macOS (M1+), Windows (Planned).
+- **Description**: AI-powered context-aware browser from the creators of Arc. Primary focus of The Browser Company in 2026.
+- **Key AI Features**: Conversational AI, cross-tab reasoning, shopping cart automation, sidebar mode.
+- **Supported Platforms**: macOS (M1+), Windows, iOS, Android (Planned 2026).
 - **Pricing**: Free.
 - **Sources**: https://diabrowser.com
-- **Verified**: 2025-12-24
+- **Verified**: 2026-01-01
 
 ### Opera Neon / Opera One AI ⭕
 - **Description**: Experimental AI concept browser with native "Aria" assistant.
