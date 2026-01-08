@@ -19,32 +19,40 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 ### Mentat 🧠
 - **Description**: Open-source coding agent that coordinates edits across multiple files.
 - **Key AI Features**: Context-aware editing, file coordination, "cloud-native" agent capabilities.
+- **Latest Version**: -
 - **Supported Platforms**: Windows, macOS, Linux (Python).
 - **Pricing**: Free (open-source).
 - **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://mentat.ai
 
-### Goose �
+### Goose 🪿
 - **Description**: Open-source, extensible AI agent from Block that automates dev tasks (build, test, debug).
 - **Key AI Features**: MCP integration, fully autonomous execution, multi-LLM support, slash commands, recipe management.
 - **Latest Version**: v1.18.0 (Dec 19, 2025)
 - **Supported Platforms**: Windows, macOS, Linux (CLI & Desktop).
 - **Pricing**: Free (Apache-2.0).
 - **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://github.com/block/goose
 
 ### GPT-Pilot ✈️
 - **Description**: "Pythagora" engine that simulates a full dev team.
 - **Key AI Features**: Planner/Architect/Dev roles, 95%+ autonomous (v2.0 integration).
+- **Latest Version**: -
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free (open-source).
 - **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://github.com/Pythagora-io/gpt-pilot
  
 ### Agent Lightning ⚡
 - **Description**: Microsoft's RL-enabled agent optimizer compatible with LangChain, CrewAI, OpenAI, and more.
 - **Key AI Features**: Self-correcting trajectories, LLM Proxy, Lightning Store, zero or minimal code changes.
+- **Latest Version**: -
 - **Supported Platforms**: Cross-platform.
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://github.com/microsoft/agent-lightning
 
 ### Aider 🛠️
@@ -54,6 +62,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Supported Platforms**: Windows, macOS, Linux (Python).
 - **Pricing**: Free (open-source).
 - **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://aider.chat
 
 ### Claude Code 🧠
@@ -63,13 +72,17 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Supported Platforms**: macOS, Linux, Windows.
 - **Pricing**: Free tool (Users pay API).
 - **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://claude.ai/code
 
 ### Refact.ai CLI 🔧
 - **Description**: CLI for Refact's autonomous agent.
 - **Key AI Features**: End-to-end task execution, SWE-bench verified.
+- **Latest Version**: -
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free tier / Enterprise.
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://refact.ai
 
 ---
@@ -85,34 +98,47 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free.
 - **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://github.com/google-gemini/gemini-cli
 
 ### Cursor CLI 💻
 - **Description**: Bridge between terminal and Cursor IDE features.
 - **Key AI Features**: Interactive chat, headless edits.
+- **Latest Version**: -
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free tier.
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://cursor.com
 
 ### Amazon Q CLI ☁️
 - **Description**: AWS command-line assistant.
 - **Key AI Features**: Shell script generation, infrastructure planning.
+- **Latest Version**: -
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free tier.
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://aws.amazon.com/q/
 
 ### Qodo CLI 🧰
 - **Description**: Agent framework for testing and review.
 - **Key AI Features**: `qodo test`, `qodo review`.
+- **Latest Version**: -
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free tier.
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://qodo.ai
 
 ### Qwen Code 🧠
 - **Description**: Alibaba's open-source assistant.
 - **Key AI Features**: Optimized for Qwen models.
+- **Latest Version**: -
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free (open-source).
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://github.com/QwenLM/qwen-code
 
 ---
@@ -124,8 +150,11 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 ### Warp Terminal ⚡
 - **Description**: Rust-based AI terminal.
 - **Key AI Features**: Parameter suggestions, error debugging, workflow sharing.
+- **Latest Version**: -
 - **Supported Platforms**: macOS, Linux (Beta), Windows (Beta).
 - **Pricing**: Free for individuals.
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://www.warp.dev
 
 ---

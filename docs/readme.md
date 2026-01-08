@@ -53,7 +53,7 @@ Last updated: 2026-01-08 08:40 UTC
 
 ## Revision History
 
- - 2026-01-08 08:40 UTC — Round 15: January 2026 Update. Added DeepSeek V4, updated Cursor 2.3.29, Zed 0.218.6, Windsurf Wave 13, Claude Code v2.1.1, Gemini CLI v0.22.4, Agent S3 (72.6% OSWorld). Updated all maintenance statuses.
+ - 2026-01-08 08:40 UTC — Round 15: January 2026 Update. Added DeepSeek V4, updated Cursor 2.3.29, Zed 0.218.6, Windsurf Wave 13, Claude Code v2.1.1, Gemini CLI v0.22.4, Agent S3 (72.6% OSWorld). Melty renamed to Conductor. Updated maintenance/verification fields across IDE/CLI/automation docs.
  - 2026-01-01 22:00 UTC — Round 14: New Year 2026 Update. Added Gemini 3, GPT-5.2 pricing, Cursor 2.3.9, Zed 0.217.3, Windsurf Wave 13.
  - 2025-12-24 18:00 UTC — Added Visual Studio 2026, Kiro IDE, Goose Agent, Dia Browser. Removed discontinued JetBrains Fleet.
  - 2025-12-20 15:00 UTC — Added Mistral Large 3, Vultr/Nebius/Novita providers, LaVague, Mentat, Refact.ai, and more.

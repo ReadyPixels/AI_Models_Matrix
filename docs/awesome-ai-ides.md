@@ -24,20 +24,27 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 - **Supported Platforms**: macOS, Windows (v0.217.3+), Linux.
 - **Pricing**: Editor free; Copilot subscription.
 - **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://zed.dev
 
 ### Dyad 🧬
 - **Description**: Free, local, open-source AI app builder prioritizing speed and privacy.
 - **Key AI Features**: Local generation, BYO keys, cross-platform.
+- **Latest Version**: -
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free (open-source).
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://dyad.sh
 
 ### Memex 🧪
 - **Description**: Desktop agentic environment enabling vibe coding from natural language.
 - **Key AI Features**: Project understanding, agentic edits, browser↔desktop continuity.
+- **Latest Version**: -
 - **Supported Platforms**: macOS, Windows.
 - **Pricing**: Freemium.
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://memex.tech/
 
 ### Kiro 🏗️
@@ -46,6 +53,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 - **Latest Version**: v0.8.5+ IDE, v1.23.0 CLI (Dec 18, 2025)
 - **Supported Platforms**: Desktop (Windows, macOS, Linux).
 - **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://kiro.dev
 
 ---
@@ -61,13 +69,17 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Freemium; Pro tier ($20/mo).
 - **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://cursor.com
 
 ### Google Antigravity 🚀
 - **Description**: Agent-first IDE orchestrating multiple agents across editor, terminal, and browser.
 - **Key AI Features**: Multi-agent planning, verification artifacts, cross-surface control.
+- **Latest Version**: -
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Public Preview.
+- **Status**: ✅ Active Development
+- **Verified**: 2026-01-08
 - **Sources**: https://antigravity.google/
 
 ### Windsurf 🌬️
@@ -77,34 +89,47 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Freemium.
 - **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://windsurf.ai
 
 ### Trae 🌟
 - **Description**: ByteDance's AI-first IDE with built-in coding assistance.
 - **Key AI Features**: Chat, code generation, debugging, multi-language support.
+- **Latest Version**: -
 - **Supported Platforms**: macOS, Windows.
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://trae.ai
 
 ### PearAI 🍐
 - **Description**: Open-source AI-first editor, YC-backed.
 - **Key AI Features**: "PearAI Creator" agent, unified model access.
+- **Latest Version**: -
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Open Source (Free).
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://trypear.ai/
 
 ### Void Editor 🌀
 - **Description**: Open-source, privacy-focused fork with Agent Mode.
 - **Key AI Features**: Inline edits, agent workflows, full data control.
+- **Latest Version**: -
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free (Open Source).
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://voideditor.com/
 
-### Melty 🫠
-- **Description**: "Chat-first" editor that understands terminal & git context.
-- **Key AI Features**: Commit generation, terminal awareness.
+### Conductor 🪄 (formerly Melty)
+- **Description**: macOS app for running multiple coding agents in parallel using isolated git workspaces.
+- **Key AI Features**: Parallel Claude Code + Codex agents, isolated workspaces (git worktrees), review/merge flows.
+- **Latest Version**: v0.29.0 (Verified Jan 2026)
 - **Supported Platforms**: macOS.
-- **Pricing**: Open Source (Free).
-- **Sources**: https://melty.sh/
+- **Pricing**: Free.
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
+- **Sources**: https://melty.sh/ | https://www.conductor.build/
 
 ---
 
@@ -115,41 +140,62 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 ### Replit Agent / Replit 3 🚀
 - **Description**: Autonomous agent that builds, fixes, and deploys apps.
 - **Key AI Features**: "Agent" mode that plans, builds, and verifies in-browser.
+- **Latest Version**: -
 - **Supported Platforms**: Web/Browser (All Modern Browsers).
 - **Pricing**: Freemium; Core/Teams plans.
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://replit.com
 
 ### Bolt.new (StackBlitz) ⚡
 - **Description**: WebContainer-powered full-stack builder.
 - **Key AI Features**: Prompt-to-full-stack app, instant preview, deploy.
+- **Latest Version**: -
 - **Supported Platforms**: Web/Browser (All Modern Browsers).
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://bolt.new/
 
 ### Lovable 💖
 - **Description**: Idea-to-app generator for rapid UI/Full-stack iteration.
 - **Key AI Features**: Visual editing + Code gen sync.
+- **Latest Version**: -
 - **Supported Platforms**: Web/Browser (All Modern Browsers).
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://lovable.dev/
 
 ### v0 by Vercel 🎨
 - **Description**: Generative UI builder for React/Tailwind.
+- **Latest Version**: -
 - **Supported Platforms**: Web/Browser (All Modern Browsers).
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://v0.app/
 
 ### Firebase Studio (formerly Project IDX) ☁️
 - **Description**: Google's agentic cloud-based full-stack workspace (Code OSS-based).
 - **Key AI Features**: Gemini in Firebase assistance, App Prototyper agent, deeper Firebase service integration.
+- **Latest Version**: -
 - **Supported Platforms**: Web/Browser (All Modern Browsers).
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://firebase.google.com/docs/studio/ | https://idx.dev/
 
 ### Gitpod ☁️
 - **Description**: Cloud dev environments (CDEs) with AI extensions.
+- **Latest Version**: -
 - **Supported Platforms**: Web/Browser (All Modern Browsers).
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://gitpod.io
 
 ### GitHub Codespaces ☁️
 - **Description**: Instant dev environments hosted by GitHub.
+- **Latest Version**: -
 - **Supported Platforms**: Web/Browser (All Modern Browsers).
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://github.com/features/codespaces
 
 ---
@@ -161,29 +207,43 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 ### VS Code with Copilot 🟦
 - **Description**: The standard editor + standard AI.
 - **Key AI Features**: Copilot Chat, Inline Chat, Agents.
+- **Latest Version**: -
 - **Supported Platforms**: Windows, macOS, Linux (VS Code).
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://code.visualstudio.com
 
 ### Visual Studio 2026 ♾️
 - **Description**: The first AI-native release of Visual Studio with C# 14 and .NET 10 support; Insiders/GA builds and Cloud Agent (Preview).
 - **Key AI Features**: Deep Copilot integration, context-aware renames, AI performance tools, All-in-One Search with "Did You Mean".
+- **Latest Version**: Visual Studio 2026
 - **Supported Platforms**: Windows (Exclusive).
 - **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://visualstudio.microsoft.com/ | https://devblogs.microsoft.com/visualstudio/
 
 ### IntelliJ IDEA / PyCharm (JetBrains) 🧩
 - **Description**: Powerful enterprise IDEs with JetBrains AI Assistant.
 - **Key AI Features**: Refactoring, test generation, deep code analysis.
+- **Latest Version**: -
 - **Supported Platforms**: Windows, macOS, Linux.
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://www.jetbrains.com/ai/
 
 ### Amazon Q Developer (VS Code/JetBrains) 🛡️
 - **Description**: AWS's assistant, great for cloud/security.
+- **Latest Version**: -
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://aws.amazon.com/q/developer/
 
 ### Jupyter AI 🪐
 - **Description**: Official AI extension for JupyterLab.
 - **Key AI Features**: Magic commands (`%%ai`), notebook generation.
+- **Latest Version**: -
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-08
 - **Sources**: https://github.com/jupyterlab/jupyter-ai
 
 ---
