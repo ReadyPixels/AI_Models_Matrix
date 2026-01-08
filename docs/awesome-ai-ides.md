@@ -1,6 +1,6 @@
 # Awesome AI IDEs
 
-_Last updated: 2025-12-20 16:50 UTC_
+ _Last updated: 2026-01-08 08:40 UTC_
 
 Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools](./awesome-ai-cli-tools.md)
 
@@ -19,9 +19,11 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 
 ### Zed with Copilot 🧩
 - **Description**: Fast, collaborative editor with AI assistance.
-- **Key AI Features**: Completion, chat (via Copilot), Gemini 3 Flash and Grok 4.1 support (v0.217.3).
-- **Supported Platforms**: macOS; Windows (v0.217.3+), Linux (2025).
+- **Key AI Features**: Completion, chat (via Copilot), Gemini 3 Flash and Grok 4.1 support, Dev Container support (Jan 2026).
+- **Latest Version**: v0.218.6 (Jan 8, 2026)
+- **Supported Platforms**: macOS, Windows (v0.217.3+), Linux.
 - **Pricing**: Editor free; Copilot subscription.
+- **Status**: ✅ Active Maintenance
 - **Sources**: https://zed.dev
 
 ### Dyad 🧬
@@ -40,8 +42,10 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 
 ### Kiro 🏗️
 - **Description**: AI IDE designed for prototype-to-production workflows with subagents.
-- **Key AI Features**: Web tools, deep hooks, subagents for parallel execution (v0.8.5+).
+- **Key AI Features**: Web tools, deep hooks, subagents for parallel execution, Claude Opus 4.5 support, supervised mode.
+- **Latest Version**: v0.8.5+ IDE, v1.23.0 CLI (Dec 18, 2025)
 - **Supported Platforms**: Desktop (Windows, macOS, Linux).
+- **Status**: ✅ Active Maintenance
 - **Sources**: https://kiro.dev
 
 ---
@@ -51,10 +55,12 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 > **Specialized versions of VS Code reworked to be "AI-First" with deep integration.**
 
 ### Cursor ⚡
-- **Description**: The leading AI-first editor. Deeply integrates chat, diffs, and "Tab" auto-edits (v2.3.9).
-- **Key AI Features**: Shadow workspace, prediction, codebase indexing, "Composer" agent.
+- **Description**: The leading AI-first editor. Deeply integrates chat, diffs, and "Tab" auto-edits; adds Composer coding model and multi-agent interface.
+- **Key AI Features**: Shadow workspace, prediction, codebase indexing, Composer, parallel agent workflows.
+- **Latest Version**: v2.3.29 (Jan 8, 2026)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Freemium; Pro tier ($20/mo).
+- **Status**: ✅ Active Maintenance
 - **Sources**: https://cursor.com
 
 ### Google Antigravity 🚀
@@ -65,10 +71,12 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 - **Sources**: https://antigravity.google/
 
 ### Windsurf 🌬️
-- **Description**: "Flow" state IDE with "Cascade" agent (Wave 13 / SWE-1.5 default).
-- **Key AI Features**: Multi-file edits, deep context awareness, frictionless agent handoff.
+- **Description**: "Flow" state IDE with Cascade agent; GPT-5.2 default, Gemini 3 Flash support; Lifeguard bug-finding tool.
+- **Key AI Features**: Multi-file edits, deep context awareness, frictionless agent handoff, worktrees support, SWE-1.5 Free, Multi-Cascade Panes.
+- **Latest Version**: Wave 13 (Dec 23, 2025)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Freemium.
+- **Status**: ✅ Active Maintenance
 - **Sources**: https://windsurf.ai
 
 ### Trae 🌟
@@ -128,11 +136,11 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 - **Supported Platforms**: Web/Browser (All Modern Browsers).
 - **Sources**: https://v0.app/
 
-### Firebase Studio (Project IDX) ☁️
-- **Description**: Google's cloud-based full-stack workspace.
-- **Key AI Features**: Gemini integration, multi-platform emulators (Android/iOS/Web).
-- **Supported Platforms**: Web/Browser (Chrome Recommended).
-- **Sources**: https://idx.dev/
+### Firebase Studio (formerly Project IDX) ☁️
+- **Description**: Google's agentic cloud-based full-stack workspace (Code OSS-based).
+- **Key AI Features**: Gemini in Firebase assistance, App Prototyper agent, deeper Firebase service integration.
+- **Supported Platforms**: Web/Browser (All Modern Browsers).
+- **Sources**: https://firebase.google.com/docs/studio/ | https://idx.dev/
 
 ### Gitpod ☁️
 - **Description**: Cloud dev environments (CDEs) with AI extensions.
@@ -157,10 +165,11 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 - **Sources**: https://code.visualstudio.com
 
 ### Visual Studio 2026 ♾️
-- **Description**: The first "AI-native" release of the flagship Visual Studio IDE.
-- **Key AI Features**: Deep Copilot integration, context-aware renames, AI performance tools.
+- **Description**: The first AI-native release of Visual Studio with C# 14 and .NET 10 support; Insiders/GA builds and Cloud Agent (Preview).
+- **Key AI Features**: Deep Copilot integration, context-aware renames, AI performance tools, All-in-One Search with "Did You Mean".
 - **Supported Platforms**: Windows (Exclusive).
-- **Sources**: https://visualstudio.microsoft.com/
+- **Status**: ✅ Active Maintenance
+- **Sources**: https://visualstudio.microsoft.com/ | https://devblogs.microsoft.com/visualstudio/
 
 ### IntelliJ IDEA / PyCharm (JetBrains) 🧩
 - **Description**: Powerful enterprise IDEs with JetBrains AI Assistant.

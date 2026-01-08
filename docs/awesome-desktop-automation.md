@@ -1,6 +1,6 @@
 # Awesome AI Desktop Automation
 
-_Last updated: 2026-01-01 22:30 UTC_
+_Last updated: 2026-01-08 08:40 UTC_
 
 Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 
@@ -20,14 +20,15 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Description**: Beta capability of Claude 3.5 Sonnet to control mouse/keyboard via screenshot analysis.
 - **Key AI Features**: Vision-based planning, direct tool execution, reasoning loop.
 - **Supported Platforms**: API (Client-side Cross-platform); Docker (Reference implementation).
-- **Status**: Public Beta (API).
+- **Status**: ✅ Public Beta (API)
 - **Sources**: https://docs.anthropic.com/en/docs/build-with-claude/computer-use
 
 ### Agent S 🚀
-- **Description**: Open-source agent framework capable of autonomous computer interaction via GUI.
-- **Key AI Features**: Learns from open-ended tasks, achieves high performance on OSWorld benchmark.
+- **Description**: Open-source agent framework capable of autonomous computer interaction via GUI. **First to surpass human-level performance on OSWorld.**
+- **Key AI Features**: Learns from open-ended tasks, achieves 72.6% on OSWorld benchmark (Dec 2025), experience-augmented hierarchical planning.
+- **Latest Version**: Agent S3 (Dec 15, 2025)
 - **Supported Platforms**: Cross-platform (Python-based).
-- **Status**: Open Source.
+- **Status**: ✅ Active Maintenance (Open Source)
 - **Sources**: https://github.com/simular-ai/Agent-S
 
 ### Computer (trycua) 🖥️

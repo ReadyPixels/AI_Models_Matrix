@@ -47,13 +47,13 @@
 >
 > Whether you're building the next breakthrough application, conducting cutting-edge research, or making strategic technology decisions for your enterprise, this guide empowers you with the critical information needed to choose the perfect AI model for your specific needs.
 >
-Last updated: 2026-01-01 22:00 UTC
+Last updated: 2026-01-08 08:40 UTC
 **Total Models:** 55+ models from 18+ companies
 **Data Sources:** OpenRouter Rankings, LLM-Stats.com, Official Documentation, Artificial Analysis
 
 ## Revision History
 
- - 2026-01-01 22:00 UTC — Round 14: New Year 2026 Update. Added Gemini 3, GPT-5.2 pricing, Cursor 2.3.9, Zed 0.217.3, Windsurf Wave 13.
+ - 2026-01-08 08:40 UTC — Round 15: January 2026 Update. Added DeepSeek V4, updated Cursor 2.3.29, Zed 0.218.6, Windsurf Wave 13, Claude Code v2.1.1, Gemini CLI v0.22.4, Agent S3 (72.6% OSWorld). Updated all maintenance statuses.
  - 2026-01-01 22:00 UTC — Round 14: New Year 2026 Update. Added Gemini 3, GPT-5.2 pricing, Cursor 2.3.9, Zed 0.217.3, Windsurf Wave 13.
  - 2025-12-24 18:00 UTC — Added Visual Studio 2026, Kiro IDE, Goose Agent, Dia Browser. Removed discontinued JetBrains Fleet.
  - 2025-12-20 15:00 UTC — Added Mistral Large 3, Vultr/Nebius/Novita providers, LaVague, Mentat, Refact.ai, and more.
@@ -111,11 +111,11 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 
 | Date | Model | Company | Highlights | Market Share* |
 |------|-------|---------|------------|---------------|
+| 2026-01-08 | 🚀 DeepSeek-V4 | DeepSeek | Reasoning Core, DSA, Sandbox Execution | - |
 | 2025-12-24 | 💎 Dia AI Browser | The Browser Co | AI-native browser (Arc creators), context-aware | - |
-| 2025-12-19 | 🦢 Goose Agent | Block | Open-source autonomous developer agent | - |
-| 2025-12-17 | ♾️ Visual Studio 2026 | Microsoft | First "AI-Native" VS release, deep integration | - |
+| 2025-12-19 | 🪢 Goose Agent | Block | Open-source autonomous developer agent | - |
 | 2025-12-18 | 🤖 GPT-5.2-Codex | OpenAI | Agentic coding, cybersecurity optimized | - |
-| 2025-12-02 | 🆓 Mistral Large 3 | Mistral | 675B params, open-weight, general purpose | - |
+| 2025-12-17 | ♾️ Visual Studio 2026 | Microsoft | First "AI-Native" VS release, deep integration | - |
 | 2025-12-17 | 🌟 Gemini 3 Flash | Google | Default model, frontier performance | - |
 | 2025-12-11 | 🤖 GPT-5.2 | OpenAI | 400K context, Instant/Thinking/Pro variants | - |
 | 2025-12-01 | 🔬 DeepSeek-V3.2 | DeepSeek | IMO gold medal, comparable to GPT-5 | - |
@@ -139,9 +139,9 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 |------|-------|---------|------------|-----------------|
 | 🥇 #1 | **Grok Code Fast 1** | xAI | Coding specialist | Leading coding model |
 | 🥈 #2 | **Claude Sonnet 4.5** | Anthropic | General purpose | #1 General Use |
-| 🥉 #3 | **Gemini 2.5 Flash** | Google | Speed/Reasoning | High volume adoption |
-| #4 | **MiniMax M2** | MiniMax | Balanced | Rising star |
-| #5 | **DeepSeek V3** | DeepSeek | Cost efficiency | Top budget choice |
+| 🥉 #3 | **Gemini 3 Flash** | Google | Speed/Reasoning | High volume adoption |
+| #4 | **DeepSeek V3.2** | DeepSeek | Cost efficiency | Top budget choice |
+| #5 | **MiniMax M2** | MiniMax | Balanced | Rising star |
 
 **Market Share by Company (OpenRouter Live Stats - Dec 2025):**
 
@@ -901,11 +901,9 @@ Each AI model listed has its own license. Please refer to official documentation
 
 
 
-<div align="center">
-
 **⭐ Star this repository if you find it helpful! ⭐**
 
-*Last Updated: November 24, 2025*
+*Last Updated: January 8, 2026*
 
 </div>
 
@@ -927,4 +925,4 @@ Each AI model listed has its own license. Please refer to official documentation
 
 **🚀 The most comprehensive AI models matrix on the internet!**
 *Made with ❤️ by [ReadyPixels LLC](https://readypixels.com) for the global AI community*
-*Last Updated: November 9, 2025*
+*Last Updated: January 8, 2026*

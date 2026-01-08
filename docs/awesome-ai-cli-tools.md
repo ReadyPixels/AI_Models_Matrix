@@ -1,6 +1,6 @@
 # Awesome AI CLI Tools
 
-_Last updated: 2025-12-20 17:00 UTC_
+_Last updated: 2026-01-08 08:40 UTC_
 
 Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awesome-ai-addons.md)
 
@@ -21,13 +21,16 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Key AI Features**: Context-aware editing, file coordination, "cloud-native" agent capabilities.
 - **Supported Platforms**: Windows, macOS, Linux (Python).
 - **Pricing**: Free (open-source).
+- **Status**: ✅ Active Maintenance
 - **Sources**: https://mentat.ai
 
-### Goose 🦢
+### Goose �
 - **Description**: Open-source, extensible AI agent from Block that automates dev tasks (build, test, debug).
-- **Key AI Features**: MCP integration, fully autonomous execution, multi-LLM support.
+- **Key AI Features**: MCP integration, fully autonomous execution, multi-LLM support, slash commands, recipe management.
+- **Latest Version**: v1.18.0 (Dec 19, 2025)
 - **Supported Platforms**: Windows, macOS, Linux (CLI & Desktop).
 - **Pricing**: Free (Apache-2.0).
+- **Status**: ✅ Active Maintenance
 - **Sources**: https://github.com/block/goose
 
 ### GPT-Pilot ✈️
@@ -35,27 +38,31 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Key AI Features**: Planner/Architect/Dev roles, 95%+ autonomous (v2.0 integration).
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free (open-source).
+- **Status**: ✅ Active Maintenance
 - **Sources**: https://github.com/Pythagora-io/gpt-pilot
-- **Verified**: 2026-01-01
-- 
-- ### Agent Lightning ⚡
-- **Description**: Microsoft's RL-enabled agent context builder compatible with LangChain/CrewAI.
-- **Key AI Features**: Self-correcting logic, reinforces successful workflows.
+ 
+### Agent Lightning ⚡
+- **Description**: Microsoft's RL-enabled agent optimizer compatible with LangChain, CrewAI, OpenAI, and more.
+- **Key AI Features**: Self-correcting trajectories, LLM Proxy, Lightning Store, zero or minimal code changes.
 - **Supported Platforms**: Cross-platform.
 - **Sources**: https://github.com/microsoft/agent-lightning
 
 ### Aider 🛠️
 - **Description**: The gold standard for CLI chat-to-code.
-- **Key AI Features**: Precise file diffs, repo-aware, "Architect" mode for reasoning.
+- **Key AI Features**: Precise file diffs, repo-aware, "Architect" mode for reasoning, GPT-5 and Gemini 2.5 support.
+- **Latest Version**: v0.86.0 (Aug 9, 2025)
 - **Supported Platforms**: Windows, macOS, Linux (Python).
 - **Pricing**: Free (open-source).
+- **Status**: ✅ Active Maintenance
 - **Sources**: https://aider.chat
 
 ### Claude Code 🧠
-- **Description**: Anthropic's official agentic CLI.
-- **Key AI Features**: Autonomous planning, tool use, efficient caching.
+- **Description**: Anthropic's official agentic CLI with desktop app preview.
+- **Key AI Features**: Autonomous planning, tool use, efficient caching, async subagents, /stats command, skill hot-reload.
+- **Latest Version**: v2.1.1 (Jan 7, 2026) - Desktop Preview also available
 - **Supported Platforms**: macOS, Linux, Windows.
 - **Pricing**: Free tool (Users pay API).
+- **Status**: ✅ Active Maintenance
 - **Sources**: https://claude.ai/code
 
 ### Refact.ai CLI 🔧
@@ -73,9 +80,11 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 
 ### Gemini CLI 🌟
 - **Description**: Google's official CLI for Gemini.
-- **Key AI Features**: Code generation, chat, explanations, repo-level context.
+- **Key AI Features**: Code generation, chat, explanations, repo-level context, Gemini 3 Flash support.
+- **Latest Version**: v0.22.4 (Dec 30, 2025)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free.
+- **Status**: ✅ Active Maintenance
 - **Sources**: https://github.com/google-gemini/gemini-cli
 
 ### Cursor CLI 💻
