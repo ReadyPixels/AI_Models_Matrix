@@ -19,7 +19,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 ### Anthropic Computer Use 🤖
 - **Description**: Beta capability of Claude 3.5 Sonnet to control mouse/keyboard via screenshot analysis.
 - **Key AI Features**: Vision-based planning, direct tool execution, reasoning loop.
-- **Latest Version**: -
+- **Latest Version**: Beta (Nov 2024)
 - **Supported Platforms**: API (Client-side Cross-platform); Docker (Reference implementation).
 - **Status**: ✅ Public Beta (API)
 - **Sources**: https://docs.anthropic.com/en/docs/build-with-claude/computer-use
@@ -37,7 +37,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 ### Computer (trycua) 🖥️
 - **Description**: A "Computer Use Interface" (CUI) enabling agents to control secure macOS/Linux sandboxes.
 - **Key AI Features**: Secure environment for agent execution, standard interaction protocol.
-- **Latest Version**: -
+- **Latest Version**: v0.1.8 CLI (Dec 23, 2025)
 - **Supported Platforms**: macOS, Linux (Dockerized).
 - **Status**: Open Source.
 - **Sources**: https://github.com/trycua/computer
@@ -46,7 +46,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 ### UI-TARS Desktop 🦎
 - **Description**: Next-gen multimodal GUI agent based on VLM, capable of human-like interaction.
 - **Key AI Features**: End-to-end vision-action model, cross-platform SDK.
-- **Latest Version**: -
+ - **Latest Version**: v0.3.0 (Nov 5, 2025)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Status**: Open Source.
 - **Sources**: https://github.com/bytedance/UI-TARS-desktop
@@ -55,7 +55,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 ### Cradle 🎮
 - **Description**: General Computer Control (GCC) framework capable of playing complex games (RDR2) and using software.
 - **Key AI Features**: Six-module architecture (reflection, memory, planning) for mastering any desktop task.
-- **Latest Version**: -
+ - **Latest Version**: Updated (Jun 27, 2024)
 - **Supported Platforms**: Windows, macOS, Linux (Game/Software agnostic).
 - **Status**: Open Source.
 - **Sources**: https://github.com/BAAI-Agents/Cradle
@@ -64,7 +64,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 ### AppAgent (on Desktop via ADB) 📱
 - **Description**: Multimodal agent designed for smartphone apps but runs on desktop via Android emulators.
 - **Key AI Features**: Learns by watching or exploring, no backend access needed.
-- **Latest Version**: -
+ - **Latest Version**: Updated (Mar 5, 2025)
 - **Supported Platforms**: Windows, macOS, Linux (Requires Android Emulator/ADB).
 - **Status**: Open Source.
 - **Sources**: https://github.com/TencentQQGYLab/AppAgent
@@ -73,7 +73,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 ### UFO (Microsoft) 🛸
 - **Description**: UI-Focused Agent for Windows interaction using dual-agent framework (AppSelection + ActionSelection).
 - **Key AI Features**: GPT-Vision powered, deeply integrated with Windows accessibility/UI automation.
-- **Latest Version**: -
+ - **Latest Version**: v3.0.0 (Nov 5, 2025)
 - **Supported Platforms**: Windows (Exclusive).
 - **Status**: Open Source (MIT).
 - **Sources**: https://github.com/microsoft/UFO
@@ -82,7 +82,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 ### OpenAdapt 🦾
 - **Description**: Generative Process Automation (GPA) that learns from demonstration.
 - **Key AI Features**: Privacy-preserving (PII redaction), runs on desktop to automate repetitive tasks via LLMs.
-- **Latest Version**: -
+- **Latest Version**: v0.46.0 (2025-02-20)
 - **Supported Platforms**: Windows, macOS.
 - **Status**: Open Source (MIT).
 - **Sources**: https://github.com/OpenAdaptAI/OpenAdapt
@@ -91,7 +91,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 ### OS-Copilot / FRIDAY 🤖
 - **Description**: Self-improving generalist computer agent framework.
 - **Key AI Features**: Capable of interacting with OS, web, and code terminals. "FRIDAY" is the reference implementation.
-- **Latest Version**: -
+ - **Latest Version**: Updated (Sep 1, 2024)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Status**: Open Source.
 - **Sources**: https://github.com/OS-Copilot/FRIDAY
@@ -100,7 +100,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 ### Self-Operating Computer (HyperWrite) ⌨️
 - **Description**: Framework enabling multimodal models (GPT-4V, Gemini, etc.) to view the screen and click/type.
 - **Key AI Features**: Accurate coordinate prediction, simple Python interface to "surrender control" to AI.
-- **Latest Version**: -
+ - **Latest Version**: v1.5.8 (Feb 28, 2025)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Status**: Open Source (MIT).
 - **Sources**: https://github.com/OthersideAI/self-operating-computer
@@ -109,7 +109,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 ### ShowUI 👁️
 - **Description**: End-to-end lightweight vision-language-action model (based on Qwen2-VL) for GUI agents.
 - **Key AI Features**: Fast local inference, optimized visual token selection (15-20s/step locally).
-- **Latest Version**: -
+ - **Latest Version**: Updated (Mar 2, 2025)
 - **Supported Platforms**: Cross-platform (Python/Pytorch).
 - **Status**: Open Source.
 - **Sources**: https://github.com/Show-UI/ShowUI
@@ -118,7 +118,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 ### OpenInterpreter 🗣️
 - **Description**: Open-source code interpreter that runs locally to control your computer.
 - **Key AI Features**: "OS Mode" for GUI interaction via generated Python code.
-- **Latest Version**: -
+ - **Latest Version**: v0.4.2 pre-release (Oct 24, 2024)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Status**: Open Source.
 - **Sources**: https://openinterpreter.com/
@@ -133,7 +133,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 ### Ui.Vision RPA 👁️
 - **Description**: Visual automation combining OCR and computer vision.
 - **Key AI Features**: "XModules" for visual recognition of buttons/text.
-- **Latest Version**: -
+- **Latest Version**: v9.5.9 (Oct 25, 2025)
 - **Supported Platforms**: Windows, macOS, Linux (Browser Extension + Desktop Core).
 - **Status**: Open Source Core.
 - **Sources**: https://ui.vision/
@@ -142,7 +142,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 ### OmniParser V2 (Microsoft) 🔍
 - **Description**: A screen parsing tool that converts UI screenshots into structured, clickable elements for agents.
 - **Key AI Features**: Fine-tuned YOLOv8 + Florence-2 for element detection and captioning. Enabler for other agents.
-- **Latest Version**: -
+- **Latest Version**: v2.0 (Feb 2025)
 - **Supported Platforms**: Cross-platform (Python).
 - **Status**: Open Source (MIT).
 - **Sources**: https://github.com/microsoft/OmniParser
@@ -156,7 +156,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 
 ### Nut.js 🌰
 - **Description**: Node.js ecosystem for desktop automation.
-- **Latest Version**: -
+- **Latest Version**: v4.2.0 (2025)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Key Features**: Visual search, cross-platform inputs.
 - **Status**: ✅ Active Maintenance
@@ -165,7 +165,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 
 ### PyAutoGUI 🐍
 - **Description**: Simple Python cross-platform GUI automation.
-- **Latest Version**: -
+- **Latest Version**: v0.9.54 (2023-05-24, actively maintained as of 2025)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Key Features**: Fail-safe mechanisms, simple API.
 - **Status**: ✅ Active Maintenance

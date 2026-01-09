@@ -18,7 +18,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### BrowserOS 🌐
 - **Description**: Open‑source Chromium‑based agentic browser with native AI agents and MCP server integration.
 - **Key AI Features**: Local/bring‑your‑own models, agentic browsing, form filling, scraping, MCP server for use from agents like Claude Code/Gemini CLI.
-- **Latest Version**: -
+- **Latest Version**: v0.36.0 (Jan 7, 2026)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free (open‑source, AGPL‑3.0).
 - **Status**: ✅ Active Maintenance
@@ -29,7 +29,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### Browser Operator 🤖
 - **Description**: Open-source AI browser with built-in multi-agent platform.
 - **Key AI Features**: Multi-agent coordination, locally hosted alternative to proprietary "Atlas" style browsers.
-- **Latest Version**: -
+- **Latest Version**: v1.2.0 (Dec 2025)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free (Open Source).
 - **Status**: ✅ Active Maintenance
@@ -39,7 +39,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### Perplexity Comet 🚀
 - **Description**: AI‑powered web browser with an embedded assistant that automates tasks across tabs and apps.
 - **Key AI Features**: Agentic browsing, cross‑tab actions (forms, email, calendar), page content understanding, AI on every tab (Dec 2025).
-- **Latest Version**: -
+- **Latest Version**: v139.1.7258.139 (Dec 2025)
 - **Latest Updates**: Mobile-first agentic browsing (Android), voice mode, smart summarization.
 - **Supported Platforms**: Windows, macOS, Android (v1.5+).
 - **Pricing**: Free.
@@ -51,7 +51,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### Dia AI Browser 💎
 - **Description**: AI-powered context-aware browser from the creators of Arc. Primary focus of The Browser Company in 2026. **Successor to Arc Browser.**
 - **Key AI Features**: Conversational AI, cross-tab reasoning, shopping cart automation, sidebar mode.
-- **Latest Version**: -
+- **Latest Version**: Beta (Jan 2026)
 - **Supported Platforms**: macOS (M1+), Windows, iOS, Android (Planned 2026).
 - **Pricing**: Free.
 - **Status**: ✅ Active Development (Arc discontinued May 2025)
@@ -61,7 +61,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### Opera Neon / Opera One AI ⭕
 - **Description**: Experimental AI concept browser with native "Aria" assistant.
 - **Key AI Features**: Split screen, AI-generated "Surflets", deeply integrated chat.
-- **Latest Version**: -
+- **Latest Version**: Verified 2025-12-24
 - **Supported Platforms**: Windows, macOS.
 - **Pricing**: Free.
 - **Status**: ✅ Active Maintenance
@@ -71,7 +71,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### ChatGPT Atlas (macOS) 🍎
 - **Description**: AI‑focused browser for macOS with deep ChatGPT integration.
 - **Key AI Features**: Agent mode, side‑by‑side browsing, context-aware assistance.
-- **Latest Version**: -
+- **Latest Version**: Build 1.2025.344.7 (Dec 18, 2025)
 - **Supported Platforms**: macOS (Windows planned).
 - **Pricing**: Free.
 - **Status**: ✅ Active Development
@@ -82,7 +82,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### Deta Surf 🗒️
 - **Description**: Open‑source personal AI notebook/browser that brings web content into structured notes.
 - **Key AI Features**: Web search integration, citations/deeplinks, Surflets (generated applets).
-- **Latest Version**: -
+- **Latest Version**: Open Beta (Oct 22, 2025)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free (Apache‑2.0).
 - **Status**: ✅ Active Maintenance
@@ -93,7 +93,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### Open DeepResearch (Hugging Face) 🔬
 - **Description**: Open-source agentic framework for deep web research and browsing.
 - **Key AI Features**: Autonomous browsing, summarization, Q&A, attempting to replicate OpenAI Deep Research.
-- **Latest Version**: -
+- **Latest Version**: Experimental (Dec 2025)
 - **Supported Platforms**: Cross-platform (Python environment).
 - **Status**: ✅ Active Maintenance (Open Source)
 - **Sources**: https://huggingface.co/posts/open-deep-research
@@ -104,7 +104,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### OpenAI Operator / ChatGPT Agent Mode 🧠
 - **Description**: Unified agentic system integrated into ChatGPT (and likely a browser frame) that can browse, interact, and generate artifacts.
 - **Key AI Features**: Autonomous browsing, secure login prompts, code execution, artifact generation.
-- **Latest Version**: -
+- **Latest Version**: Rolling Release (Jan 2026)
 - **Supported Platforms**: Web/Browser-based (All modern browsers).
 - **Pricing**: Requires ChatGPT Pro (varies).
 - **Status**: ✅ Active Maintenance
@@ -121,7 +121,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### MultiOn 🚀
 - **Description**: Autonomous AI agent extension that acts as a "personal intern" to complete web tasks.
 - **Key AI Features**: Handles complex multi-step workflows (booking flights, ordering food, filling forms), API for developers.
-- **Latest Version**: -
+- **Latest Version**: v0.28.0 (Oct 19, 2024)
 - **Supported Platforms**: Chrome Extension (Chromium), Mobile App.
 - **Pricing**: Free tier, Paid tiers (API per-request pricing for devs).
 - **Status**: ✅ Active Maintenance
@@ -132,7 +132,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### Harpa AI 🦸‍♂️
 - **Description**: Hybrid AI co-pilot and automation agent for Chrome, integrating multiple LLMs (GPT, Claude, Gemini).
 - **Key AI Features**: Page monitoring, data extraction, IFTTT-style automation recipes, write-for-me, SEO analysis.
-- **Latest Version**: -
+- **Latest Version**: v11.9.0 (Dec 30, 2025)
 - **Supported Platforms**: Chrome Extension (Chrome, Edge, Brave, Opera).
 - **Pricing**: Freemium (Free tier + S1/S2 subscriptions).
 - **Status**: ✅ Active Maintenance
@@ -143,7 +143,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### HyperWrite Personal Assistant ✍️
 - **Description**: AI writing and productivity assistant with an "Agent" mode for browser tasks.
 - **Key AI Features**: "Write Anywhere", autonomous research, email drafting, travel booking.
-- **Latest Version**: -
+- **Latest Version**: v3.1.44 (Jan 1, 2026)
 - **Supported Platforms**: Chrome Extension (Chromium Browsers).
 - **Pricing**: Freemium ($19.99/mo for Premium).
 - **Status**: ✅ Active Maintenance
@@ -154,7 +154,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### NanoBrowser 🔬
 - **Description**: Open-source Chrome extension for AI web automation, supporting local and cloud LLMs.
 - **Key AI Features**: Multi-agent support, flexible LLM integration, "Run" button customization.
-- **Latest Version**: -
+- **Latest Version**: v0.1.13 (Nov 22, 2025)
 - **Supported Platforms**: Chrome Extension (Chromium).
 - **Pricing**: Free (Open Source).
 - **Status**: ✅ Active Maintenance
@@ -165,7 +165,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### Microsoft Edge Copilot 🟦
 - **Description**: Built-in AI sidebar in Edge with deep OS integration.
 - **Key AI Features**: Page summarization, rewrite, browser control.
-- **Latest Version**: -
+- **Latest Version**: Canary/Dev Channel (Jan 2026)
 - **Supported Platforms**: Microsoft Edge (Built-in Sidebar).
 - **Pricing**: Free.
 - **Status**: ✅ Active Maintenance
@@ -181,7 +181,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### Browser-use 🐍
 - **Description**: Python library for agentic automation using LangChain/AI agents and Chrome DevTools Protocol.
 - **Key AI Features**: Self-correcting agents, vision capabilities, handling of complex dynamic sites.
-- **Latest Version**: -
+- **Latest Version**: v0.11.2 (Dec 16, 2025)
 - **Supported Platforms**: Python (Windows, macOS, Linux).
 - **Pricing**: Free (Open Source).
 - **Status**: ✅ Active Maintenance
@@ -191,7 +191,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### LaVague 🌊
 - **Description**: Large Action Model (LAM) framework designed to translate natural language into Selenium/Playwright code.
 - **Key AI Features**: Dedicated alignment for "World Model" -> Action, strictly for agentic use.
-- **Latest Version**: -
+- **Latest Version**: v1.1.19 (Aug 5, 2024)
 - **Supported Platforms**: Python.
 - **Pricing**: Free (MIT).
 - **Status**: ✅ Active Maintenance
@@ -201,7 +201,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### Stagehand 🎭
 - **Description**: AI-first automation framework built on top of Playwright.
 - **Key AI Features**: `act()`, `extract()`, and `observe()` primitives powered by LLMs.
-- **Latest Version**: -
+- **Latest Version**: v3.2.0 server, v3.0.7 npm (Dec 27, 2025)
 - **Supported Platforms**: Node.js/TypeScript.
 - **Pricing**: Free (Open Source).
 - **Status**: ✅ Active Maintenance
@@ -210,7 +210,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 
 ### Skyvern (Library) ☁️
 - **Description**: Automates browser workflows using LLMs and Computer Vision, resilient to layout changes.
-- **Latest Version**: -
+- **Latest Version**: v1.0.7 (Dec 22, 2025)
 - **Supported Platforms**: Python SDK / Cloud API.
 - **Status**: ✅ Active Maintenance
 - **Sources**: https://github.com/Skyvern-AI/skyvern
@@ -219,7 +219,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### OpenWebUI + Browser Use 🤝
 - **Description**: The specific integration of Browser-use inside the OpenWebUI interface.
 - **Key AI Features**: UI-based agent control, local LLM support (Ollama).
-- **Latest Version**: -
+- **Latest Version**: v0.6.43 (Dec 22, 2025)
 - **Supported Platforms**: Web-based (Docker/Self-hosted).
 - **Status**: ✅ Active Maintenance
 - **Sources**: https://github.com/OpenWebUI/OpenWebUI
@@ -233,7 +233,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### Steel Browser 🛡️
 - **Description**: Open-source browser API and infrastructure designed for building AI agents.
 - **Key AI Features**: High-fidelity browser control, built for agentic reliability.
-- **Latest Version**: -
+- **Latest Version**: v0.5.1-beta (Nov 19, 2025)
 - **Supported Platforms**: Cloud/Self-hosted.
 - **Pricing**: Open Source core / Cloud pricing.
 - **Status**: ✅ Active Maintenance
@@ -243,7 +243,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 ### toMCP 🔌
 - **Description**: Middleware that converts public websites into Model Context Protocol (MCP) servers.
 - **Key AI Features**: Clean context extraction for agents.
-- **Latest Version**: -
+- **Latest Version**: No tagged releases (Active Dec 2025)
 - **Supported Platforms**: Local Server.
 - **Pricing**: Open Source.
 - **Status**: ✅ Active Maintenance
@@ -258,7 +258,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 
 ### Skyvern Cloud
 - **Description**: Managed version of Skyvern Project.
-- **Latest Version**: -
+- **Latest Version**: Rolling Release (Dec 22, 2025)
 - **Supported Platforms**: Cloud API.
 - **Pricing**: Usage-based.
 - **Status**: ✅ Active Maintenance
@@ -266,7 +266,7 @@ _Last updated: 2026-01-08 08:40 UTC_
 
 ### Browserbase
 - **Description**: Serverless browser infrastructure for AI agents.
-- **Latest Version**: -
+- **Latest Version**: Rolling Release (Oct 29, 2025)
 - **Supported Platforms**: Cloud API (Connect via Puppeteer/Playwright).
 - **Key Features**: Stealth mode, session recording, debug access.
 - **Status**: ✅ Active Maintenance

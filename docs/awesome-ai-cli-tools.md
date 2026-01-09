@@ -19,7 +19,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 ### Mentat 🧠
 - **Description**: Open-source coding agent that coordinates edits across multiple files.
 - **Key AI Features**: Context-aware editing, file coordination, "cloud-native" agent capabilities.
-- **Latest Version**: -
+- **Latest Version**: Vir0fd6-01-08
 - **Supported Platforms**: Windows, macOS, Linux (Python).
 - **Pricing**: Free (open-source).
 - **Status**: ✅ Active Maintenance
@@ -39,17 +39,17 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 ### GPT-Pilot ✈️
 - **Description**: "Pythagora" engine that simulates a full dev team.
 - **Key AI Features**: Planner/Architect/Dev roles, 95%+ autonomous (v2.0 integration).
-- **Latest Version**: -
+- **Latest Version**: 21rfid6-01-08
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free (open-source).
 - **Status**: ✅ Active Maintenance
 - **Verified**: 2026-01-08
 - **Sources**: https://github.com/Pythagora-io/gpt-pilot
- 
+  
 ### Agent Lightning ⚡
 - **Description**: Microsoft's RL-enabled agent optimizer compatible with LangChain, CrewAI, OpenAI, and more.
 - **Key AI Features**: Self-correcting trajectories, LLM Proxy, Lightning Store, zero or minimal code changes.
-- **Latest Version**: -
+- **Latest Version**: Ver0f8ed2026-01-08
 - **Supported Platforms**: Cross-platform.
 - **Status**: ✅ Active Maintenance
 - **Verified**: 2026-01-08
@@ -78,7 +78,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 ### Refact.ai CLI 🔧
 - **Description**: CLI for Refact's autonomous agent.
 - **Key AI Features**: End-to-end task execution, SWE-bench verified.
-- **Latest Version**: -
+- **Latest Version**:dVerified6-016-01-088
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free tier / Enterprise.
 - **Status**: ✅ Active Maintenance
@@ -104,7 +104,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 ### Cursor CLI 💻
 - **Description**: Bridge between terminal and Cursor IDE features.
 - **Key AI Features**: Interactive chat, headless edits.
-- **Latest Version**: -
+- **Latest Version**: Beta (Bundled with IDE)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free tier.
 - **Status**: ✅ Active Maintenance
@@ -114,7 +114,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 ### Amazon Q CLI ☁️
 - **Description**: AWS command-line assistant.
 - **Key AI Features**: Shell script generation, infrastructure planning.
-- **Latest Version**: -
+- **Latest Version**: v1.19.2 (Deprecated)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free tier.
 - **Status**: ✅ Active Maintenance
@@ -124,7 +124,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 ### Qodo CLI 🧰
 - **Description**: Agent framework for testing and review.
 - **Key AI Features**: `qodo test`, `qodo review`.
-- **Latest Version**: -
+- **Latest Version**: v0.1.x (Jun 25, 2025)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free tier.
 - **Status**: ✅ Active Maintenance
@@ -134,7 +134,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 ### Qwen Code 🧠
 - **Description**: Alibaba's open-source assistant.
 - **Key AI Features**: Optimized for Qwen models.
-- **Latest Version**: -
+- **Latest Version**: v0.6.1 (2025)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free (open-source).
 - **Status**: ✅ Active Maintenance
@@ -150,7 +150,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 ### Warp Terminal ⚡
 - **Description**: Rust-based AI terminal.
 - **Key AI Features**: Parameter suggestions, error debugging, workflow sharing.
-- **Latest Version**: -
+- **Latest Version**: Agents 3.0 (2025)
 - **Supported Platforms**: macOS, Linux (Beta), Windows (Beta).
 - **Pricing**: Free for individuals.
 - **Status**: ✅ Active Maintenance
