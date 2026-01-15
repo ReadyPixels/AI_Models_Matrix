@@ -1,6 +1,6 @@
 # Awesome AI IDEs
 
- _Last updated: 2026-01-10 09:50 UTC_
+ _Last updated: 2026-01-15 08:30 UTC_
 
 Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools](./awesome-ai-cli-tools.md)
 
@@ -10,7 +10,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 - [Native AI Editors (Standalone)](#native-ai-editors-standalone-)
 - [VS Code Forks (AI-Native)](#vs-code-forks-ai-native-)
 - [Web-Based AI IDEs & Builders](#web-based-ai-ides--builders-)
-- [Legacy IDEs & Plugin-Based](#legacy-ides--plugin-based-)
+- [Legacy IDEs](#legacy-ides-)
 
 ---
 
@@ -31,6 +31,10 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 | Feature | Multi-Agent | Browser-in-Loop | Artifacts | Long Context | MCP/Extensibility | Pricing |
 |---------|-------------|-----------------|-----------|--------------|-------------------|---------|
 | **Firebase Studio** | ✅ | ✅ | ✅ | ✅ | ✅ | Free |
+| **Cursor** | ✅ | ❌ | ✅ | ✅ | ❌ | Freemium |
+| **Windsurf** | ✅ | ❌ | ❌ | ✅ | ✅ | Freemium |
+| **Trae** | ❌ | ❌ | ❌ | ✅ | ❌ | Free |
+| **Void** | ✅ | ❌ | ❌ | ✅ | ✅ | Free (OSS) |
 
 ---
 
@@ -81,7 +85,7 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 
 ## VS Code Forks (AI-Native) 🍴
 
-> **Specialized versions of VS Code reworked to be "AI-First" with deep integration.**
+> **Specialized versions of VS Code reworked to be "AI-First" with deep integration; not extensions. See Awesome AI Add-ons for extensions.**
 
 ### Cursor ⚡
 - **Description**: The leading AI-first editor. Deeply integrates chat, diffs, and "Tab" auto-edits; adds Composer coding model and multi-agent interface.
@@ -134,12 +138,12 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 
 ### Void Editor 🌀
 - **Description**: Open-source, privacy-focused fork with Agent Mode.
-- **Key AI Features**: Inline edits, agent workflows, full data control.
-- **Latest Version**: v1.0.2 (June 21, 2025)
+- **Key AI Features**: Inline edits, agent workflows, full data control, "Gather Mode" for context.
+- **Latest Version**: Beta (June 2025)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free (Open Source).
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-15
 - **Sources**: https://voideditor.com/
 
 ### Conductor 🪄 (formerly Melty)
@@ -222,9 +226,9 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 
 ---
 
-## Legacy IDEs & Plugin-Based 🔌
+## Legacy IDEs 🔌
 
-> **Traditional IDEs empowered by AI plugins.**
+> **Traditional IDEs with built-in AI features. Extensions are listed in Awesome AI Add-ons.**
 
 ### Visual Studio 2026 ♾️
 - **Description**: The first AI-native release of Visual Studio with C# 14 and .NET 10 support; Insiders/GA builds and Cloud Agent (Preview).
@@ -234,15 +238,6 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 - **Status**: ✅ Active Maintenance
 - **Verified**: 2026-01-10
 - **Sources**: https://visualstudio.microsoft.com/ | https://devblogs.microsoft.com/visualstudio/
-
-### IntelliJ IDEA / PyCharm (JetBrains) 🧩
-- **Description**: Powerful enterprise IDEs with JetBrains AI Assistant.
-- **Key AI Features**: Refactoring, test generation, deep code analysis.
-- **Latest Version**: v2025.3.1 (Dec 2025)
-- **Supported Platforms**: Windows, macOS, Linux.
-- **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-10
-- **Sources**: https://www.jetbrains.com/ai/
 
 ---
 

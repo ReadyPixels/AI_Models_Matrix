@@ -1,6 +1,6 @@
 # AI API Providers
 
- _Last updated: 2026-01-10 08:17 UTC_
+ _Last updated: 2026-01-15 08:35 UTC_
 
 Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./awesome-ai-ides.md)
 
@@ -35,7 +35,8 @@ Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./aw
 
 **Pricing (2025)**:
 - **Gemini 1.5 Pro**: $1.25/million input tokens, $5.00/million output tokens
-- **Gemini 3 Pro**: $2.00/million input tokens, $12.00/million output tokens (preview)
+- **Gemini 3 Pro**: $2.00/million input tokens, $12.00/million output tokens (Preview)
+- **Gemini 3 Flash**: $0.30/million input tokens, $2.50/million output tokens (Estimated)
 - **Free Tier**: Limited access through Google AI Studio
 
 **Models Available**:

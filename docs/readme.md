@@ -47,12 +47,13 @@
 >
 > Whether you're building the next breakthrough application, conducting cutting-edge research, or making strategic technology decisions for your enterprise, this guide empowers you with the critical information needed to choose the perfect AI model for your specific needs.
 >
-Last updated: 2026-01-10 08:18 UTC
-**Total Models:** 55+ models from 18+ companies
+Last updated: 2026-01-15 08:40 UTC
+**Total Models:** 57+ models from 18+ companies
 **Data Sources:** OpenRouter Rankings, LLM-Stats.com, Official Documentation, Artificial Analysis
 
 ## Revision History
 
+ - 2026-01-15 08:40 UTC — Round 16: Mid-January 2026 Update. Added Qwen3-Max-Thinking (100% AIME25), Gemini 3 Pro (Agentic), VS Code Copilot Agent Mode, JetBrains Claude Agent, Cline, Void Editor. Added Brave Search API.
  - 2026-01-08 08:40 UTC — Round 15: January 2026 Update. Added DeepSeek V4, updated Cursor 2.3.29, Zed 0.218.6, Windsurf Wave 13, Claude Code v2.1.1, Gemini CLI v0.22.4, Agent S3 (72.6% OSWorld). Melty renamed to Conductor. Updated maintenance/verification fields across IDE/CLI/automation docs.
  - 2026-01-01 22:00 UTC — Round 14: New Year 2026 Update. Added Gemini 3, GPT-5.2 pricing, Cursor 2.3.9, Zed 0.217.3, Windsurf Wave 13.
  - 2025-12-24 18:00 UTC — Added Visual Studio 2026, Kiro IDE, Goose Agent, Dia Browser. Removed discontinued JetBrains Fleet.
@@ -656,8 +657,8 @@ For working with large codebases:
 
 | Date | Model | Highlights | Verified |
 |------|-------|------------|----------|
-| 2026-01-10 | **Qwen3-Max-Thinking** | 100% accuracy on AIME25 and HMMT benchmarks | 2026-01-10 |
-| 2026-01-10 | **Gemini 3 Pro** | State-of-the-art reasoning with depth and nuance | 2026-01-10 |
+| 2026-01-15 | **Gemini 3 Pro** | State-of-the-art reasoning with depth and nuance, Vibe Coding | 2026-01-15 |
+| 2026-01-10 | **Qwen3-Max-Thinking** | 100% accuracy on AIME25 and HMMT benchmarks | 2026-01-15 |
 | 2026-01-10 | **GPT-5 Series** | Smartest, fastest, most useful model with thinking built-in | 2026-01-10 |
 | 2026-01-10 | **Granite 4.0** | Hybrid Mamba-2/transformer with MoE strategy | 2026-01-10 |
 ### 📚 General Knowledge (MMLU) & Intelligence Index (Artificial Analysis Q3 2025)
@@ -934,4 +935,4 @@ Each AI model listed has its own license. Please refer to official documentation
 
 **🚀 The most comprehensive AI models matrix on the internet!**
 *Made with ❤️ by [ReadyPixels LLC](https://readypixels.com) for the global AI community*
-*Last Updated: January 8, 2026*
+*Last Updated: January 15, 2026*

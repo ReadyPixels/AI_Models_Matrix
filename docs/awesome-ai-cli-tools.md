@@ -1,6 +1,6 @@
 # Awesome AI CLI Tools
 
- _Last updated: 2026-01-10 08:18 UTC_
+ _Last updated: 2026-01-15 08:45 UTC_
 
 Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awesome-ai-addons.md)
 
@@ -15,6 +15,16 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 ## Autonomous Coding Agents 🤖
 
 > **Tools that can plan, execute, and verify complex tasks across multiple files with high autonomy.**
+
+### Cline CLI 🤖
+- **Description**: Command-line interface for the Cline autonomous coding agent.
+- **Key AI Features**: Headless execution, CI/CD integration, MCP tool support, multi-provider.
+- **Latest Version**: v3.47.0 (Jan 6, 2026)
+- **Supported Platforms**: Windows, macOS, Linux.
+- **Pricing**: Free (Open Source).
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-15
+- **Sources**: https://github.com/cline/cline
 
 ### Mentat 🧠
 - **Description**: Open-source coding agent that coordinates edits across multiple files.
