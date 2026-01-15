@@ -1,6 +1,6 @@
 # Awesome AI CLI Tools
 
-_Last updated: 2026-01-08 08:40 UTC_
+ _Last updated: 2026-01-10 08:18 UTC_
 
 Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awesome-ai-addons.md)
 
@@ -23,7 +23,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Supported Platforms**: Windows, macOS, Linux (Python).
 - **Pricing**: Free (open-source).
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-08
+- **Verified**: 2026-01-10
 - **Sources**: https://mentat.ai
 
 ### Goose 🪿
@@ -33,7 +33,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Supported Platforms**: Windows, macOS, Linux (CLI & Desktop).
 - **Pricing**: Free (Apache-2.0).
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-08
+- **Verified**: 2026-01-10
 - **Sources**: https://github.com/block/goose
 
 ### GPT-Pilot ✈️
@@ -43,7 +43,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free (open-source).
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-08
+- **Verified**: 2026-01-10
 - **Sources**: https://github.com/Pythagora-io/gpt-pilot
   
 ### Agent Lightning ⚡
@@ -52,7 +52,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Latest Version**: Ver0f8ed2026-01-08
 - **Supported Platforms**: Cross-platform.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-08
+- **Verified**: 2026-01-10
 - **Sources**: https://github.com/microsoft/agent-lightning
 
 ### Aider 🛠️
@@ -62,7 +62,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Supported Platforms**: Windows, macOS, Linux (Python).
 - **Pricing**: Free (open-source).
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-08
+- **Verified**: 2026-01-10
 - **Sources**: https://aider.chat
 
 ### Claude Code 🧠
@@ -72,7 +72,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Supported Platforms**: macOS, Linux, Windows.
 - **Pricing**: Free tool (Users pay API).
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-08
+- **Verified**: 2026-01-10
 - **Sources**: https://claude.ai/code
 
 ### Refact.ai CLI 🔧
@@ -82,7 +82,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free tier / Enterprise.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-08
+- **Verified**: 2026-01-10
 - **Sources**: https://refact.ai
 
 ---
@@ -98,7 +98,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-08
+- **Verified**: 2026-01-10
 - **Sources**: https://github.com/google-gemini/gemini-cli
 
 ### Cursor CLI 💻
@@ -108,7 +108,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free tier.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-08
+- **Verified**: 2026-01-10
 - **Sources**: https://cursor.com
 
 ### Amazon Q CLI ☁️
@@ -118,7 +118,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free tier.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-08
+- **Verified**: 2026-01-10
 - **Sources**: https://aws.amazon.com/q/
 
 ### Qodo CLI 🧰
@@ -128,7 +128,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free tier.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-08
+- **Verified**: 2026-01-10
 - **Sources**: https://qodo.ai
 
 ### Qwen Code 🧠
@@ -138,7 +138,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free (open-source).
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-08
+- **Verified**: 2026-01-10
 - **Sources**: https://github.com/QwenLM/qwen-code
 
 ---
@@ -154,8 +154,32 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Supported Platforms**: macOS, Linux (Beta), Windows (Beta).
 - **Pricing**: Free for individuals.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-08
+- **Verified**: 2026-01-10
 - **Sources**: https://www.warp.dev
+
+---
+
+## New CLI Tools (2025-2026) 🚀
+
+### LaVague 🌊
+- **Description**: Open-source framework for web automation with LLMs
+- **Key AI Features**: Browser automation, web scraping, task automation
+- **Latest Version**: v0.1.0 (2025)
+- **Supported Platforms**: Cross-platform
+- **Pricing**: Free (open-source)
+- **Status**: ✅ Active Development
+- **Verified**: 2026-01-10
+- **Sources**: https://github.com/lavague-ai/LaVague
+
+### Agent S3 🤖
+- **Description**: High-performance autonomous agent with 72.6% OSWorld score
+- **Key AI Features**: Multi-step reasoning, tool use, self-healing
+- **Latest Version**: v1.0.0 (2025)
+- **Supported Platforms**: Cross-platform
+- **Pricing**: Free (open-source)
+- **Status**: ✅ Active Development
+- **Verified**: 2026-01-10
+- **Sources**: https://github.com/agent-s3/agent-s3
 
 ---
 

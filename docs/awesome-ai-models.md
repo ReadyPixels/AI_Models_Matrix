@@ -1,6 +1,6 @@
 # Awesome AI Models 🧠
 
-_Last updated: 2026-01-08 08:40 UTC_
+ _Last updated: 2026-01-10 08:20 UTC_
 
 > A curated list of the most capable Large Language Models (LLMs), Small Language Models (SLMs), and specialized AI models available today.
 
@@ -17,6 +17,40 @@ _Last updated: 2026-01-08 08:40 UTC_
 | **Claude Opus 4.5** | Anthropic | Nov 24, 2025 | 200K | Leading reasoning accuracy, effort param | Proprietary | ✅ Active |
 | **Llama 4 Scout** | Meta | Dec 2025 | 10M | Open-weight context king | Community | ✅ Active |
 | **DeepSeek-V3.2-Speciale** | DeepSeek | Dec 2025 | 128K | Maxed-out reasoning, IMO gold | MIT | ✅ Active |
+
+## 🧠 Advanced Reasoning Models (2024-2025)
+
+### Qwen3-Max-Thinking
+- **Developer**: Alibaba
+- **Performance**: 100% accuracy on AIME25 and HMMT benchmarks
+- **Status**: In training, not yet publicly released
+- **Capabilities**: Unprecedented mathematical reasoning power
+- **Significance**: Saturates difficult math benchmarks
+- **Expected Release**: 2025
+
+### Gemini 3 Pro
+- **Developer**: Google DeepMind
+- **Capabilities**: State-of-the-art reasoning with depth and nuance
+- **Features**: Exceptional instruction following, tool use, agentic coding
+- **Access**: Google AI Studio, Vertex AI, Antigravity platform
+- **Multimodal**: Text, images, video, audio, code
+- **Status**: Available (2024-2025)
+
+### GPT-5 Series
+- **Developer**: OpenAI
+- **Variants**: GPT-5, GPT-5.1, GPT-5.2, GPT-5.2-Codex
+- **Capabilities**: Smartest, fastest, most useful model with thinking built-in
+- **Performance**: Significant leap in intelligence over previous models
+- **Features**: State-of-the-art across coding, math, writing, health, visual perception
+- **Status**: Available to everyone
+
+### Granite 4.0
+- **Developer**: IBM
+- **Architecture**: Hybrid Mamba-2/transformer with MoE strategy
+- **Efficiency**: 70% lower memory, 2x faster inference
+- **Models**: Micro, Tiny, Small variants
+- **Focus**: Enterprise efficiency and performance
+- **Status**: Released October 2025
 
 ## 🔓 Open-Source / Open-Weight Models
 

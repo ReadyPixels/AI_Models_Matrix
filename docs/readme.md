@@ -47,7 +47,7 @@
 >
 > Whether you're building the next breakthrough application, conducting cutting-edge research, or making strategic technology decisions for your enterprise, this guide empowers you with the critical information needed to choose the perfect AI model for your specific needs.
 >
-Last updated: 2026-01-08 08:40 UTC
+Last updated: 2026-01-10 08:18 UTC
 **Total Models:** 55+ models from 18+ companies
 **Data Sources:** OpenRouter Rankings, LLM-Stats.com, Official Documentation, Artificial Analysis
 
@@ -644,6 +644,7 @@ For working with large codebases:
 10. **Phi-4** - Compact reasoning
 
 ### 🧮 Reasoning Benchmarks (AIME 2025)
+
 1. 🥇 **Qwen3-Max-Thinking** - 100% accuracy (AIME25/HMMT)
 2. 🥈 **GPT-5 Pro (tools)** - 100% with Python tools enabled (reported)
 3. 🥉 **Gemini 3 Pro** - Frontier agentic reasoning (preview)
@@ -651,6 +652,14 @@ For working with large codebases:
 5. **DeepSeek-R1** - 81%
 6. **Grok 4** - ~85%
 
+### 🆕 Latest Updates (2025-2026)
+
+| Date | Model | Highlights | Verified |
+|------|-------|------------|----------|
+| 2026-01-10 | **Qwen3-Max-Thinking** | 100% accuracy on AIME25 and HMMT benchmarks | 2026-01-10 |
+| 2026-01-10 | **Gemini 3 Pro** | State-of-the-art reasoning with depth and nuance | 2026-01-10 |
+| 2026-01-10 | **GPT-5 Series** | Smartest, fastest, most useful model with thinking built-in | 2026-01-10 |
+| 2026-01-10 | **Granite 4.0** | Hybrid Mamba-2/transformer with MoE strategy | 2026-01-10 |
 ### 📚 General Knowledge (MMLU) & Intelligence Index (Artificial Analysis Q3 2025)
 
 1. 🥇 **GPT-5** - Highest score on Intelligence Index
