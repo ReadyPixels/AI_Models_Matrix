@@ -1,6 +1,6 @@
 # Awesome AI Desktop Automation
 
- _Last updated: 2026-01-10 08:23 UTC_
+ _Last updated: 2026-01-17 16:55 UTC_
 
 Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 
@@ -174,29 +174,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 
 ---
 
-## New Desktop Automation Tools (2025-2026) 🚀
 
-### Agent S3 Desktop Extension 🤖
-- **Description**: Desktop extension for high-performance autonomous agent with 72.6% OSWorld score
-- **Key Features**: Multi-step reasoning, tool use, self-healing
-- **Latest Version**: v1.0.0 (2025)
-- **Supported Platforms**: Windows, macOS, Linux
-- **Pricing**: Free (open-source)
-- **Status**: ✅ Active Development
-- **Verified**: 2026-01-10
-- **Sources**: https://github.com/agent-s3/agent-s3-desktop
-
-### LaVague Desktop Automation 🌊
-- **Description**: Desktop automation framework for web automation with LLMs
-- **Key Features**: Browser automation, web scraping, task automation
-- **Latest Version**: v0.1.0 (2025)
-- **Supported Platforms**: Windows, macOS, Linux
-- **Pricing**: Free (open-source)
-- **Status**: ✅ Active Development
-- **Verified**: 2026-01-10
-- **Sources**: https://github.com/lavague-ai/LaVague-desktop
-
----
 
 ## 🛡️ Security Considerations
 - **Sandboxing**: Always run desktop automation agents in a VM or container.
