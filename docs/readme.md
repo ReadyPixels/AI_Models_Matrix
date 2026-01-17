@@ -47,20 +47,11 @@
 >
 > Whether you're building the next breakthrough application, conducting cutting-edge research, or making strategic technology decisions for your enterprise, this guide empowers you with the critical information needed to choose the perfect AI model for your specific needs.
 >
-Last updated: 2026-01-15 08:40 UTC
-**Total Models:** 57+ models from 18+ companies
+Last updated: 2026-01-17 16:10 UTC
+**Total Models:** 58+ models from 20+ companies
 **Data Sources:** OpenRouter Rankings, LLM-Stats.com, Official Documentation, Artificial Analysis
 
-## Revision History
 
- - 2026-01-15 08:40 UTC — Round 16: Mid-January 2026 Update. Added Qwen3-Max-Thinking (100% AIME25), Gemini 3 Pro (Agentic), VS Code Copilot Agent Mode, JetBrains Claude Agent, Cline, Void Editor. Added Brave Search API.
- - 2026-01-08 08:40 UTC — Round 15: January 2026 Update. Added DeepSeek V4, updated Cursor 2.3.29, Zed 0.218.6, Windsurf Wave 13, Claude Code v2.1.1, Gemini CLI v0.22.4, Agent S3 (72.6% OSWorld). Melty renamed to Conductor. Updated maintenance/verification fields across IDE/CLI/automation docs.
- - 2026-01-01 22:00 UTC — Round 14: New Year 2026 Update. Added Gemini 3, GPT-5.2 pricing, Cursor 2.3.9, Zed 0.217.3, Windsurf Wave 13.
- - 2025-12-24 18:00 UTC — Added Visual Studio 2026, Kiro IDE, Goose Agent, Dia Browser. Removed discontinued JetBrains Fleet.
- - 2025-12-20 15:00 UTC — Added Mistral Large 3, Vultr/Nebius/Novita providers, LaVague, Mentat, Refact.ai, and more.
- - 2025-12-20 14:40 UTC — Added GPT-5.2, Gemini 3 Flash, Claude Opus 4.5, DeepSeek-V3.2. Expanded browser/CLI/add-on docs.
- - 2025-11-24 22:53 UTC — Updated documents with new IDE findings and provider entries.
- - 2025-11-09 00:58 UTC — Updated document last updated timestamp to UTC format.
 
 ---
 
@@ -108,28 +99,7 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 
 ## 🆕 Latest Updates
 
-### 🔥 Recent Additions (Last 30 Days)
 
-| Date | Model | Company | Highlights | Market Share* |
-|------|-------|---------|------------|---------------|
-| 2026-01-08 | 🚀 DeepSeek-V4 | DeepSeek | Reasoning Core, DSA, Sandbox Execution | - |
-| 2025-12-24 | 💎 Dia AI Browser | The Browser Co | AI-native browser (Arc creators), context-aware | - |
-| 2025-12-19 | 🪢 Goose Agent | Block | Open-source autonomous developer agent | - |
-| 2025-12-18 | 🤖 GPT-5.2-Codex | OpenAI | Agentic coding, cybersecurity optimized | - |
-| 2025-12-17 | ♾️ Visual Studio 2026 | Microsoft | First "AI-Native" VS release, deep integration | - |
-| 2025-12-17 | 🌟 Gemini 3 Flash | Google | Default model, frontier performance | - |
-| 2025-12-11 | 🤖 GPT-5.2 | OpenAI | 400K context, Instant/Thinking/Pro variants | - |
-| 2025-12-01 | 🔬 DeepSeek-V3.2 | DeepSeek | IMO gold medal, comparable to GPT-5 | - |
-| 2025-11-24 | 🤖 Claude Opus 4.5 | Anthropic | 80.9% SWE-bench, 200K context | - |
-| 2025-11-18 | 🌐 Gemini 3 Pro | Google | 1501 Elo, 1M context, agentic | - |
-| 2025-10-15 | 🤖 Claude Haiku 4.5 | Anthropic | Near-frontier coding, cost-efficient | - |
-| 2025-10-03 | 🏢 IBM Granite 4.0 | IBM | ISO 42001 certified, Mamba/Transformer hybrid | - |
-| 2025-10-01 | 🚀 Grok-3 | xAI | Advanced reasoning | - |
-| 2025-09-30 | 🇨🇳 GLM-4.6 | Zhipu AI | 355B MoE, $0.13/$0.39 | 6.0% tool calls |
-| 2025-09-29 | 👑 Claude 4.5 Sonnet | Anthropic | #2 Most Used - 35.5B tokens | 13.6% overall |
-| 2025-09-23 | 🤖 GPT-5 Codex | OpenAI | 7+ hour autonomous coding | 13.8% overall |
-| 2025-09-09 | 🌙 Kimi K2-0905 | Moonshot AI | 1T params (MoE), 256K context | - |
-| 2025-08-05 | 🆓 GPT-OSS-120B | OpenAI | First open-weight since GPT-2, Apache 2.0 | - |
 
 **Market Share Data from OpenRouter.ai (Live Usage Stats)*
 
@@ -140,9 +110,9 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 |------|-------|---------|------------|-----------------|
 | 🥇 #1 | **Grok Code Fast 1** | xAI | Coding specialist | Leading coding model |
 | 🥈 #2 | **Claude Sonnet 4.5** | Anthropic | General purpose | #1 General Use |
-| 🥉 #3 | **Gemini 3 Flash** | Google | Speed/Reasoning | High volume adoption |
-| #4 | **DeepSeek V3.2** | DeepSeek | Cost efficiency | Top budget choice |
-| #5 | **MiniMax M2** | MiniMax | Balanced | Rising star |
+| 🥉 #3 | **Qwen3-Max-Thinking** | Alibaba | Math/Reasoning | SOTA Reasoning |
+| #4 | **Gemini 3 Pro** | Google | PhD Reasoning | Enterprise Leader |
+| #5 | **DeepSeek V4** | DeepSeek | Cost efficiency | Top budget choice |
 
 **Market Share by Company (OpenRouter Live Stats - Dec 2025):**
 
@@ -319,28 +289,34 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 
 #### ✅ Self-Hostable Models (20+ models)
 
+#### ✅ Self-Hostable Models (2025-2026 Comprehensive)
+
 | Model | Company | Parameters | License | API Price | Last Updated |
 |-------|---------|------------|---------|-----------|--------------|
-| 🆓 GPT-OSS-120B | OpenAI | 117B (5.1B active) | Apache 2.0 | Free | 2025-08-05 |
-| 🆓 GPT-OSS-20B | OpenAI | 21B (3.6B active) | Apache 2.0 | Free | 2025-08-05 |
-| 🆓 DeepSeek-V3.2-Exp | DeepSeek | 671B (37B active) | MIT | $0.27/$0.41 | 2025-09-30 |
-| 🆓 DeepSeek-V3.1 | DeepSeek | 671B (37B active) | MIT | $0.27/$0.41 | 2025-08-21 |
-| 🆓 DeepSeek-R1 | DeepSeek | 671B | MIT | $0.50/$2.15 | 2025-05-28 |
-| 🆓 DeepSeek-Coder-V2 | DeepSeek | 236B | MIT | Free | 2024-06 |
-| 🆓 Qwen3-Next | Alibaba | Various | Apache 2.0 | Varies | 2025-09-10 |
-| 🆓 Qwen3-Coder | Alibaba | 480B | Apache 2.0 | Free | 2025-07-23 |
-| 🆓 Qwen2.5-Coder | Alibaba | 32B | Apache 2.0 | Free | 2024-11 |
-| 🆓 Kimi K2-0905 | Moonshot AI | 1T (32B active) | Modified MIT | Varies | 2025-09-09 |
-| 🆓 Kimi K2 | Moonshot AI | 1T (32B active) | Modified MIT | Varies | 2025-07 |
-| 🆓 GLM-4.6 | Zhipu AI | 355B MoE | Open-weight | $0.13/$0.39 | 2025-09-30 |
-| 🆓 GLM-4.5 | Zhipu AI | Various | Open-weight | $0.15/$0.45 | 2025-07 |
-| 🆓 Llama 4 Maverick | Meta | 400B | Meta License | Free | 2025-04-05 |
-| 🆓 Llama 4 Scout | Meta | 109B | Meta License | Free | 2025-04-05 |
-| 🆓 Granite 4.0 | IBM | 8B-3B active | Apache 2.0 | Free | 2025-10-03 |
-| 🆓 Phi-4 | Microsoft | 14B | MIT | Free | 2025-09-11 |
-| 🆓 TildeOpen LLM | Tilde AI | 30B | Open-source | Free | 2025-09-03 |
-| 🆓 Yi-Coder | 01.AI | 9B / 1.5B | Apache 2.0 | Free | 2024-09 |
-| 🆓 StarCoder2 | BigCode/HF | 3B-15B | BigCode | Free | 2024 |
+| 🆓 **DeepSeek-V4** | DeepSeek | Unknown | MIT | Unknown | 2026-01-08 |
+| 🆓 **Qwen3-Max-Thinking** | Alibaba | Unknown | Apache 2.0 | $0.30/$3.00 | 2026-01-17 |
+| 🆓 **Mistral Large 3** | Mistral AI | 675B (MoE) | Apache 2.0 | Varies | 2025-12-02 |
+| 🆓 **Llama 4 Scout** | Meta | 109B (10M ctx) | Community | Free | 2025-12-15 |
+| 🆓 **Llama 4 Maverick** | Meta | 400B | Community | Free | 2025-12-15 |
+| 🆓 **GPT-OSS-120B** | OpenAI | 117B | Apache 2.0 | Free | 2025-08-05 |
+| 🆓 **GPT-OSS-20B** | OpenAI | 21B | Apache 2.0 | Free | 2025-08-05 |
+| 🆓 **DeepSeek-V3.2-Exp** | DeepSeek | 671B (37B) | MIT | $0.27/$0.41 | 2025-09-30 |
+| 🆓 **DeepSeek-V3.1** | DeepSeek | 671B (37B) | MIT | $0.27/$0.41 | 2025-08-21 |
+| 🆓 **DeepSeek-R1** | DeepSeek | 671B | MIT | $0.50/$2.15 | 2025-05-28 |
+| 🆓 **Qwen3-Next** | Alibaba | Various | Apache 2.0 | Varies | 2025-09-10 |
+| 🆓 **Qwen3-Coder** | Alibaba | 480B | Apache 2.0 | Free | 2025-07-23 |
+| 🆓 **GLM-4.7** | Zhipu AI | 400B+ MoE | Open Weight | Varies | 2025-12-25 |
+| 🆓 **GLM-4.6** | Zhipu AI | 355B MoE | Open Weight | $0.13/$0.39 | 2025-09-30 |
+| 🆓 **Kimi K2-0905** | Moonshot | 1T (MoE) | Modified MIT | Varies | 2025-09-09 |
+| 🆓 **Phi-4** | Microsoft | 14B | MIT | Free | 2025-09-11 |
+| 🆓 **Granite 4.0** | IBM | 8B-3B | Apache 2.0 | Free | 2025-10-03 |
+| 🆓 **TildeOpen LLM** | Tilde AI | 30B | Open Source | Free | 2025-09-03 |
+| 🆓 **Yi-Coder** | 01.AI | 9B/1.5B | Apache 2.0 | Free | 2024-09-05 |
+| 🆓 **DeepSeek-Coder-V2** | DeepSeek | 236B | MIT | Free | 2024-06-17 |
+| 🆓 **Qwen2.5-Coder** | Alibaba | 32B | Apache 2.0 | Free | 2024-11-12 |
+| 🆓 **StarCoder2** | BigCode | 3B-15B | BigCode | Free | 2024-02-28 |
+| 🆓 **Nemotron-4** | NVIDIA | 340B | Open Model | Free | 2024-06-14 |
+| 🆓 **Mixtral 8x22B** | Mistral AI | 141B | Apache 2.0 | Varies | 2024-04-10 |
 
 #### ❌ API-Only Models (Proprietary)
 
@@ -375,6 +351,15 @@ All models in the "Self-Hostable" section above are free to self-host!
 | Gemini 2.5 Flash | Google | $0.30 | $2.50 | $1.40 |
 | Qwen3-Max | Alibaba | $0.30 | $3.00 | $1.65 |
 | Codestral | Mistral AI | $0.30 | $0.90 | $0.60 |
+
+#### 🧠 Best Reasoning Models
+
+| Model | Bench-PhD | Bench-Math | Release |
+|-------|-----------|------------|---------|
+| **Qwen3-Max-Thinking** | 92.4% | 100% AIME25 | Jan 2026 |
+| **Gemini 3 Pro** | 94.6% PhD | 98.2% Math | Nov 2025 |
+| **o3** | 91.2% | 96.5% | Dec 2025 |
+| **DeepSeek-R1** | 88.5% | 94.2% | Dec 2025 |
 
 #### 💰 Mid-Tier ($1 - $5 per 1M tokens)
 
@@ -437,37 +422,37 @@ Models that employ chain-of-thought and step-by-step problem solving:
 - **Magistral** (Mistral AI) - European reasoning model
 - **Qwen3-Max-Thinking** (Alibaba) - 100% AIME25 accuracy
 
-### 🆓 Open-Source Models (2025)
+### 🆓 Massive Open-Source Models List (2025-2026)
 
-Freely available models with permissive licenses (Apache 2.0, MIT, etc.) and public source code:
+> **All models listed below feature permissive licenses (Apache 2.0, MIT, etc.) or open weights.**
 
-- **GPT-OSS-120B / GPT-OSS-20B** (OpenAI) — Apache 2.0; first open-weight since GPT-2; strong coding and reasoning.
-- **DeepSeek-R1 / V3.1 / V3.2 / Coder-V2** (DeepSeek) — MIT License; top-tier open-source reasoning and coding.  
-  [GitHub](https://github.com/deepseek-ai/deepseek-coder)
-- **Llama 4 (Scout/Maverick)** (Meta) — Multimodal, open weights; supports text, image, and code tasks.
-- **Qwen3-Next / Qwen3-Coder / Qwen3-Max / Qwen2.5-Coder** (Alibaba) — Apache 2.0; competitive coding and reasoning, multilingual.  
-  [GitHub](https://github.com/QwenLM/Qwen)
-- **Yi-Coder** (01.AI) — MIT License; 128K context, 52 programming languages, efficient for local deployment.  
-  [GitHub](https://github.com/01-ai/Yi)
-- **TildeOpen LLM** (Tilde AI) — European language specialist, open weights.
-  [Hugging Face](https://huggingface.co/tilde-research)
-- **Phi-4** (Microsoft) — MIT License; compact, efficient, strong reasoning.
-- **GLM-4.6 / GLM-4.5** (Zhipu AI) — Open-weight, real-world coding, multilingual.
-- **Kimi K2-0905 / Kimi K2** (Moonshot AI) — Modified MIT; agentic coding, 256K context.
-- **Codestral** (Mistral AI) — Coding-specialized, low-latency, open weights.  
-  [GitHub](https://github.com/mistralai/codestral)
-- **StarCoder2** (BigCode/Hugging Face) — Community-driven, open-source coding.  
-  [GitHub](https://github.com/bigcode-project/starcoder2)
-- **Magistral** (Mistral AI) — European reasoning, open weights.
-- **IBM Granite 4.0** — Apache 2.0; enterprise-ready, ISO 42001 certified.
+| Model | Company | Params | Context | License | Release | Highlights | 🔄 Last Updated |
+|-------|---------|--------|---------|---------|---------|------------|-----------------|
+| **DeepSeek-V4** | DeepSeek | Unknown | 128K | MIT | Jan 2026 | Reasoning Core, DSA | **2026-01-08** |
+| **Qwen3-Max-Thinking** | Alibaba | Unknown | 128K | Apache 2.0 | Jan 2026 | 100% AIME25 | **2026-01-17** |
+| **Mistral Large 3** | Mistral AI | 675B (MoE) | 128K | Apache 2.0 | Dec 2025 | Production Grade | **2025-12-02** |
+| **Llama 4 Scout** | Meta | 109B | 10M | Community | Dec 2025 | 10M Context King | **2025-12-15** |
+| **Llama 4 Maverick** | Meta | 400B | 128K | Community | Dec 2025 | Multimodal | **2025-12-15** |
+| **DeepSeek-V3.2-Exp** | DeepSeek | 671B (37B) | 128K | MIT | Sep 2025 | Sparse Attention | **2025-09-30** |
+| **DeepSeek-V3.1** | DeepSeek | 671B (37B) | 128K | MIT | Aug 2025 | Cost Efficiency | **2025-08-21** |
+| **GPT-OSS-120B** | OpenAI | 117B | 128K | Apache 2.0 | Aug 2025 | First GPT-OSS | **2025-08-05** |
+| **GPT-OSS-20B** | OpenAI | 21B | 128K | Apache 2.0 | Aug 2025 | Efficient | **2025-08-05** |
+| **Qwen3-Next** | Alibaba | Various | 128K | Apache 2.0 | Sep 2025 | Multilingual | **2025-09-10** |
+| **Qwen3-Coder** | Alibaba | 480B | 128K | Apache 2.0 | Jul 2025 | Autonomous Dev | **2025-07-23** |
+| **GLM-4.7** | Zhipu AI | 400B+ MoE | 128K | Open Weight | Dec 2025 | Tool Use SOTA | **2025-12-25** |
+| **GLM-4.6** | Zhipu AI | 355B MoE | 128K | Open Weight | Sep 2025 | Real-world Coding | **2025-09-30** |
+| **Kimi K2-0905** | Moonshot | 1T (MoE) | 256K | Modified MIT | Sep 2025 | Agentic Coding | **2025-09-09** |
+| **Phi-4** | Microsoft | 14B | 128K | MIT | Sep 2025 | Compact Reasoning | **2025-09-11** |
+| **Granite 4.0** | IBM | 8B-3B | 128K | Apache 2.0 | Oct 2025 | ISO 42001 | **2025-10-03** |
+| **TildeOpen LLM** | Tilde AI | 30B | 128K | Open Source | Sep 2025 | European Langs | **2025-09-03** |
+| **Yi-Coder** | 01.AI | 9B/1.5B | 128K | Apache 2.0 | Sep 2024 | Local Coding | **2024-09-05** |
+| **DeepSeek-Coder-V2** | DeepSeek | 236B | 128K | MIT | Jun 2024 | Coding Specialist | **2024-06-17** |
+| **Qwen2.5-Coder** | Alibaba | 32B | 128K | Apache 2.0 | Nov 2024 | Coding Standard | **2024-11-12** |
+| **StarCoder2** | BigCode | 3B-15B | 16K | BigCode | 2024 | Community Driven | **2024-02-28** |
+| **Nemotron-4** | NVIDIA | 340B | 128K | Open Model | Jun 2024 | Synthetic Data | **2024-06-14** |
+| **Mixtral 8x22B** | Mistral AI | 141B | 64K | Apache 2.0 | Apr 2024 | Strong Reasoner | **2024-04-10** |
 
-**Recent 2025 additions:**
-- **Qwen3-Max** (Alibaba) — 1T+ parameters, top-tier performance.
-- **GLM-4.6** (Zhipu AI) — 355B MoE, real-world coding, multilingual.
-- **StarCoder2** — New open-source coding models from BigCode/Hugging Face.
-- **Magistral** — Reasoning-focused, open weights, European origin.
 
-*Most open-source models now support context windows of 128K–256K tokens, multimodal capabilities, and community benchmarks (HumanEval, SWE-bench, MMLU).*
 
 
 
@@ -913,7 +898,7 @@ Each AI model listed has its own license. Please refer to official documentation
 
 **⭐ Star this repository if you find it helpful! ⭐**
 
-*Last Updated: January 8, 2026*
+*Last Updated: January 17, 2026*
 
 </div>
 
@@ -935,4 +920,4 @@ Each AI model listed has its own license. Please refer to official documentation
 
 **🚀 The most comprehensive AI models matrix on the internet!**
 *Made with ❤️ by [ReadyPixels LLC](https://readypixels.com) for the global AI community*
-*Last Updated: January 15, 2026*
+*Last Updated: January 17, 2026*

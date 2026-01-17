@@ -1,6 +1,6 @@
 # Awesome AI Add-ons
 
- _Last updated: 2026-01-15 08:45 UTC_
+ _Last updated: 2026-01-17 16:10 UTC_
 
 Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./awesome-ai-cli-tools.md)
 
@@ -18,12 +18,12 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 
 ### GitHub Copilot ✈️
 - **Description**: The industry standard for completion and chat.
-- **Key Features**: Multi-line completion, inline chat, **Agent Mode** (VS Code Preview), self-healing.
-- **Latest Version**: v1.96+ (Jan 2026)
+- **Key Features**: Multi-line completion, inline chat, **Agent Mode** (v1.108 stable Jan 8), **Agent Skills** (`SKILL.md`), autonomous multi-file edits, self-healing.
+- **Latest Version**: v1.108+ (Jan 2026)
 - **Support**: VS Code, JetBrains, Visual Studio, Vim.
 - **Pricing**: Subscription.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-15
+- **Verified**: 2026-01-17
 - **Sources**: https://github.com/features/copilot
 
 ### Supermaven ⚡
@@ -134,12 +134,12 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 
 ### Cline 🧩
 - **Description**: Autonomous coding agent with MCP tool creation.
-- **Key Features**: Browser use, terminal execution, self-improving tool library.
-- **Latest Version**: v3.47.0 (Jan 6, 2026)
+- **Key Features**: Browser use, terminal execution, **Skills System** (Jan 2026), MCP integration, human-in-the-loop GUI.
+- **Latest Version**: v3.49.1 (Jan 2026)
 - **Support**: VS Code (Open Source).
 - **Pricing**: Free (OSS).
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-15
+- **Verified**: 2026-01-17
 - **Sources**: https://github.com/cline/cline
 
 ### RooCode 🦘
@@ -170,12 +170,12 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 
 ### JetBrains AI Assistant 🧠
 - **Description**: Integrated AI for JetBrains IDEs.
-- **Key Features**: Deep IDE integration, **Claude Agent** (native), refactoring, chat.
-- **Latest Version**: v2025.3 (Late 2025)
+- **Key Features**: Deep IDE integration, **Claude Agent** (native Jan 2026), refactoring, chat, multimodal prompts.
+- **Latest Version**: v2025.3.x (Updated Jan 14, 2026)
 - **Support**: IntelliJ, PyCharm, WebStorm, etc.
 - **Pricing**: Subscription.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-15
+- **Verified**: 2026-01-17
 - **Sources**: https://jetbrains.com/ai
 
 ### JetBrains Junie (TBA 2025) 🤖

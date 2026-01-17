@@ -1,6 +1,6 @@
 # AI API Providers
 
- _Last updated: 2026-01-15 08:35 UTC_
+ _Last updated: 2026-01-17 16:10 UTC_
 
 Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./awesome-ai-ides.md)
 
@@ -21,23 +21,23 @@ Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./aw
 
 | Provider | Description | Website | Key Features | Pricing | Latest Version | Status | Verified |
 |----------|-------------|---------|--------------|---------|---------------|--------|----------|
-| **OpenAI** | Creator of GPT models | [platform.openai.com](https://platform.openai.com) | GPT-5, o1/o3, Assistants API | Pay-per-token | N/A | ✅ Active | 2026-01-10 |
-| **Anthropic** | Creator of Claude models | [console.anthropic.com](https://console.anthropic.com) | Claude 3.5/4.5 (200k context), Caching | Pay-per-token | N/A | ✅ Active | 2026-01-10 |
-| **Google AI Studio** | Gemini direct access | [ai.google.dev](https://ai.google.dev) | Gemini 2.5/3 Pro/Flash, 50% New Year discount | Free / Pay | N/A | ✅ Active | 2026-01-10 |
-| **DeepSeek** | DeepSeek Labs | [deepseek.com](https://deepseek.com) | DeepSeek-V3/R1, Extremely cheap | Pay-per-token | N/A | ✅ Active | 2026-01-10 |
-| **Mistral AI** | European Open-Weight Leader | [console.mistral.ai](https://console.mistral.ai) | Codestral, Pixtral, Mistral Large | Pay-per-token | N/A | ✅ Active | 2026-01-10 |
-| **xAI** | Elon Musk's AI Lab | [x.ai](https://x.ai) | Grok models, real-time web search | Pay-per-token | N/A | ✅ Active | 2026-01-10 |
-| **Cohere** | Enterprise RAG specialists | [cohere.com](https://cohere.com) | Command-R+, Rerank v3 | Pay-per-token | N/A | ✅ Active | 2026-01-10 |
+| **OpenAI** | Creator of GPT models | [platform.openai.com](https://platform.openai.com) | GPT-5, o3/o4-mini, Assistants API | Pay-per-token | N/A | ✅ Active | 2026-01-17 |
+| **Anthropic** | Creator of Claude models | [console.anthropic.com](https://console.anthropic.com) | Claude 4.5 Sonnet, SDK Agents | Pay-per-token | N/A | ✅ Active | 2026-01-17 |
+| **Google AI Studio** | Gemini direct access | [ai.google.dev](https://ai.google.dev) | Gemini 3 Pro/Flash, 1M+ context | Free / Pay | N/A | ✅ Active | 2026-01-17 |
+| **DeepSeek** | DeepSeek Labs | [deepseek.com](https://deepseek.com) | DeepSeek-V4/R1, Interleaved Thinking | Pay-per-token | N/A | ✅ Active | 2026-01-17 |
+| **Mistral AI** | European Open-Weight Leader | [console.mistral.ai](https://console.mistral.ai) | Mistral Large 3, Codestral | Pay-per-token | N/A | ✅ Active | 2026-01-17 |
+| **xAI** | Elon Musk's AI Lab | [x.ai](https://x.ai) | Grok-4 models, real-time web search | Pay-per-token | N/A | ✅ Active | 2026-01-17 |
+| **Cohere** | Enterprise RAG specialists | [cohere.com](https://cohere.com) | Command-R+, Rerank v3 | Pay-per-token | N/A | ✅ Active | 2026-01-17 |
 
 ### Google AI Studio (Gemini API)
 
 **Overview**: Google's comprehensive AI development platform with Gemini models
 
-**Pricing (2025)**:
+**Pricing (January 2026)**:
 - **Gemini 1.5 Pro**: $1.25/million input tokens, $5.00/million output tokens
-- **Gemini 3 Pro**: $2.00/million input tokens, $12.00/million output tokens (Preview)
-- **Gemini 3 Flash**: $0.30/million input tokens, $2.50/million output tokens (Estimated)
-- **Free Tier**: Limited access through Google AI Studio
+- **Gemini 3 Pro**: $2.00/million input tokens, $12.00/million output tokens (Up to 200k context); $4.00/$18.00 (Over 200k)
+- **Gemini 3 Flash**: $0.30/million input tokens, $2.50/million output tokens
+- **Free Tier**: 5-15 RPM, 250k TPM, 1,000 requests/day. Access through Google AI Studio.
 
 **Models Available**:
 - Gemini 1.5 Flash (cost-effective)
@@ -106,11 +106,11 @@ Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./aw
 
 **Overview**: Enterprise-grade Web search API with 35+ billion pages index
 
-**Pricing (2025)**:
-- **Free Tier**: 2,000 queries/month
-- **Base AI**: Up to 20M queries, $5.00 per 1,000 queries
-- **Pro AI**: Unlimited queries, contact sales
-- **AI Grounding**: $4 per thousand web searches + $5 per million tokens
+**Pricing (January 2026)**:
+- **Free Tier**: 2,000 queries/month (1 request/sec)
+- **Base Tier**: $3.00 - $5.00 per 1,000 queries (20 requests/sec)
+- **Pro Tier**: $5.00 - $9.00 per 1,000 queries (50 requests/sec)
+- **AI Grounding**: $5 per thousand searches + $5 per million tokens (rights dependent)
 
 **Features**:
 - Real-time indexing

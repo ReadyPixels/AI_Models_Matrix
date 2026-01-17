@@ -1,6 +1,6 @@
 # Awesome AI CLI Tools
 
- _Last updated: 2026-01-15 08:45 UTC_
+ _Last updated: 2026-01-17 16:10 UTC_
 
 Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awesome-ai-addons.md)
 
@@ -77,12 +77,11 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 
 ### Claude Code 🧠
 - **Description**: Anthropic's official agentic CLI with desktop app preview.
-- **Key AI Features**: Autonomous planning, tool use, efficient caching, async subagents, /stats command, skill hot-reload.
-- **Latest Version**: v2.1.1 (Jan 7, 2026) - Desktop Preview also available
+- **Key AI Features**: Autonomous planning, tool use, efficient caching, async subagents, /stats command, skill hot-reload (v2.1.11+).
+- **Latest Version**: v2.1.11 (Jan 17, 2026) - Desktop Preview also available
 - **Supported Platforms**: macOS, Linux, Windows.
 - **Pricing**: Free tool (Users pay API).
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-10
 - **Sources**: https://claude.ai/code
 
 ### Refact.ai CLI 🔧
@@ -130,6 +129,8 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Status**: ✅ Active Maintenance
 - **Verified**: 2026-01-10
 - **Sources**: https://aws.amazon.com/q/
+
+
 
 ### Qodo CLI 🧰
 - **Description**: Agent framework for testing and review.
@@ -181,15 +182,6 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Verified**: 2026-01-10
 - **Sources**: https://github.com/lavague-ai/LaVague
 
-### Agent S3 🤖
-- **Description**: High-performance autonomous agent with 72.6% OSWorld score
-- **Key AI Features**: Multi-step reasoning, tool use, self-healing
-- **Latest Version**: v1.0.0 (2025)
-- **Supported Platforms**: Cross-platform
-- **Pricing**: Free (open-source)
-- **Status**: ✅ Active Development
-- **Verified**: 2026-01-10
-- **Sources**: https://github.com/agent-s3/agent-s3
 
 ---
 

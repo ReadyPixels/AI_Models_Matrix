@@ -1,6 +1,6 @@
 # Awesome AI IDEs
 
- _Last updated: 2026-01-15 08:30 UTC_
+ _Last updated: 2026-01-17 16:10 UTC_
 
 Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools](./awesome-ai-cli-tools.md)
 
@@ -44,12 +44,11 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 
 ### Zed with Copilot 🧩
 - **Description**: Fast, collaborative editor with AI assistance.
-- **Key AI Features**: Completion, chat (via Copilot), Gemini 3 Flash and Grok 4.1 support, Dev Container support (Jan 2026).
-- **Latest Version**: v0.218.6 (Jan 8, 2026)
-- **Supported Platforms**: macOS, Windows (v0.217.3+), Linux.
+- **Key AI Features**: Completion, chat (via Copilot), Gemini 2.5/3 Pro and Claude 3.7+ support, Dev Container support, Git Tree view.
+- **Latest Version**: v0.219.4 (Jan 14, 2026)
+- **Supported Platforms**: macOS, Windows, Linux.
 - **Pricing**: Editor free; Copilot subscription.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-10
 - **Sources**: https://zed.dev
 
 ### Dyad 🧬
@@ -89,12 +88,11 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 
 ### Cursor ⚡
 - **Description**: The leading AI-first editor. Deeply integrates chat, diffs, and "Tab" auto-edits; adds Composer coding model and multi-agent interface.
-- **Key AI Features**: Shadow workspace, prediction, codebase indexing, Composer, parallel agent workflows.
-- **Latest Version**: v2.3.29 (Jan 8, 2026)
+- **Key AI Features**: Shadow workspace, prediction, codebase indexing, Composer (Plan/Ask modes), parallel agent workflows, BugBot enterprise-scale resolution.
+- **Latest Version**: v1.5 (2026 Release - Jan 16, 2026)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Freemium; Pro tier ($20/mo).
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-10
 - **Sources**: https://cursor.com
 
 ### Google Antigravity 🚀
@@ -108,13 +106,12 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 - **Sources**: https://antigravity.google/
 
 ### Windsurf 🌬️
-- **Description**: "Flow" state IDE with Cascade agent; GPT-5.2 default, Gemini 3 Flash support; Lifeguard bug-finding tool.
-- **Key AI Features**: Multi-file edits, deep context awareness, frictionless agent handoff, worktrees support, SWE-1.5 Free, Multi-Cascade Panes.
-- **Latest Version**: Wave 13 (Dec 23, 2025)
+- **Description**: "Flow" state IDE with Cascade agent; GPT-5.2-Codex default, Gemini 3 Pro/Flash support; Lifeguard bug-finding tool.
+- **Key AI Features**: Multi-file edits, deep context awareness, frictionless agent handoff, worktrees support, Multi-Cascade Panes, GPT-5.2 support.
+- **Latest Version**: v1.13.6 (Jan 12, 2026)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Freemium.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-10
 - **Sources**: https://windsurf.ai
 
 ### Trae 🌟
@@ -136,15 +133,14 @@ Quick link: [Awesome AI Add-ons](./awesome-ai-addons.md) | [Awesome AI CLI Tools
 - **Verified**: 2026-01-10
 - **Sources**: https://trypear.ai/
 
-### Void Editor 🌀
-- **Description**: Open-source, privacy-focused fork with Agent Mode.
-- **Key AI Features**: Inline edits, agent workflows, full data control, "Gather Mode" for context.
-- **Latest Version**: Beta (June 2025)
+### Void Editor 🌑
+- **Description**: Open-source AI-native editor (VS Code fork) focused on agentic autonomy and info retrieval.
+- **Key AI Features**: Agent Mode (proactive multi-step tasks, terminal access), Gather Mode (safe info exploration).
+- **Latest Status**: **Paused Development** (Jan 13, 2026) to explore novel coding ideas. Usable but limited maintenance.
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free (Open Source).
-- **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-15
-- **Sources**: https://voideditor.com/
+- **Status**: ⚠️ Paused Development
+- **Sources**: https://voideditor.com
 
 ### Conductor 🪄 (formerly Melty)
 - **Description**: macOS app for running multiple coding agents in parallel using isolated git workspaces.

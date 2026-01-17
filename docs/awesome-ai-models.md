@@ -1,6 +1,6 @@
 # Awesome AI Models 🧠
 
- _Last updated: 2026-01-10 08:20 UTC_
+_Last updated: 2026-01-17 16:10 UTC_
 
 > A curated list of the most capable Large Language Models (LLMs), Small Language Models (SLMs), and specialized AI models available today.
 
@@ -8,7 +8,9 @@
 
 | Model | Company | Release | Context | Key Features | License | Status |
 |-------|---------|---------|---------|--------------|---------|--------|
-| **DeepSeek-V4** | DeepSeek | Jan 2026 | 128K | Reasoning Core, DSA, Sandbox Execution | MIT | ✅ Active |
+| **DeepSeek-V4** | DeepSeek | Jan 2026 | 128K | Reasoning Core, DSA, Interleaved Thinking | MIT | ✅ Active |
+| **Qwen3-Max-Thinking** | Alibaba | Jan 2026 | 128K | 100% AIME25/HMMT, parallel computation | Apache 2.0 | ✅ Active |
+| **Gemini 3 Pro** | Google | Nov 18, 2025 | 1M+ | PhD-level reasoning, agentic tool-use | Proprietary | ✅ Active |
 | **Gemini 3 Flash** | Google | Dec 17, 2025 | 10M | Pro-grade reasoning, Flash speed | Proprietary | ✅ Active |
 | **GPT-5.2-Codex** | OpenAI | Dec 18, 2025 | 400K | Cybersecurity, long-horizon refactoring | Proprietary | ✅ Active |
 | **GPT-5.2** | OpenAI | Dec 11, 2025 | 400K | Thinking & Instant variants, $1.75/1M | Proprietary | ✅ Active |
@@ -69,10 +71,10 @@
     - *License*: Apache 2.0
     - *Note*: Released Dec 2, 2025. Top-tier open model.
     - *Status*: ✅ Active
-- **Qwen 3 (Max/Next)** (Alibaba)
-    - *Specs*: 1T+ (Max), Various (Next)
+- **Qwen 3 (Max/Next/Thinking)** (Alibaba)
+    - *Specs*: 1T+ (Max), Integrated Code Interpreter
     - *License*: Apache 2.0 (Next), API (Max)
-    - *Note*: Leading Chinese model, excellent multilingual.
+    - *Note*: First Chinese model with 100% AIME25 score.
     - *Status*: ✅ Active
 
 ### 💻 Coding Specialized
@@ -105,7 +107,11 @@
     - *Status*: ✅ Active
 - **DeepSeek-V4** (DeepSeek) 🆕
     - *Release*: Jan 2026
-    - *Focus*: Reasoning Core architecture, Dynamic Sparse Attention.
+    - *Focus*: Reasoning Core architecture, Dynamic Sparse Attention, Interleaved Thinking.
+    - *Status*: ✅ Active
+- **Qwen3-Max-Thinking** (Alibaba) 🆕
+    - *Release*: Jan 2026
+    - *Focus*: Parallel test-time computation, math/coding benchmarks.
     - *Status*: ✅ Active
 
 ## 📉 Legacy / Superseded (Reference Only)
