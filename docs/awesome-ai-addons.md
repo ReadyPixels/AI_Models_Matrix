@@ -1,6 +1,6 @@
 # Awesome AI Add-ons
 
- _Last updated: 2026-01-17 16:10 UTC_
+ _Last updated: 2026-01-21 15:54 UTC_
 
 Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./awesome-ai-cli-tools.md)
 
@@ -23,7 +23,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, JetBrains, Visual Studio, Vim.
 - **Pricing**: Subscription.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-17
+- **Verified**: 2026-01-21
 - **Sources**: https://github.com/features/copilot
 
 ### Supermaven ⚡
@@ -33,7 +33,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, JetBrains, Neovim.
 - **Pricing**: Freemium.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 - **Sources**: https://supermaven.com
 
 ### Codeium 🚀
@@ -43,7 +43,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, JetBrains, Vim, Eclipse, Web Editors (Chrome Extension).
 - **Pricing**: Free (Individuals); Enterprise.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 - **Sources**: https://codeium.com
 
 ### Continue ⏩
@@ -53,7 +53,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, JetBrains.
 - **Pricing**: Free (Open Source).
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 - **Sources**: https://continue.dev
 
 ### Cody (Sourcegraph) 🔍
@@ -63,7 +63,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, JetBrains, Web Design (Sourcegraph.com).
 - **Pricing**: Free tier; Enterprise.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 - **Sources**: https://sourcegraph.com/cody
 
 ### Tabnine 🤖
@@ -73,7 +73,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, JetBrains, Visual Studio, Eclipse.
 - **Pricing**: Free (Basic); Pro; Enterprise.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 - **Sources**: https://tabnine.com
 
 ### Blackbox AI 📦
@@ -83,7 +83,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code.
 - **Pricing**: Free tier; Subscription.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 - **Sources**: https://www.blackbox.ai
 
 ### Bito AI 🧬
@@ -93,7 +93,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, JetBrains, CLI.
 - **Pricing**: Free; Team plans.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 - **Sources**: https://bito.ai
 
 ### Mutable.ai 🔮
@@ -103,7 +103,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, JetBrains, Jupyter.
 - **Pricing**: Free trial; Subscription.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 - **Sources**: https://mutable.ai
 
 ### Amazon Q Developer 🛡️
@@ -113,7 +113,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, JetBrains.
 - **Pricing**: Free tier; Pro plans.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-12
+- **Verified**: 2026-01-21
 - **Sources**: https://aws.amazon.com/q/developer/
 
 ### Jupyter AI 🪐
@@ -123,7 +123,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: JupyterLab.
 - **Pricing**: Free (Open Source).
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-12
+- **Verified**: 2026-01-21
 - **Sources**: https://github.com/jupyterlab/jupyter-ai
 
 ---
@@ -139,7 +139,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code (Open Source).
 - **Pricing**: Free (OSS).
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-17
+- **Verified**: 2026-01-21
 - **Sources**: https://github.com/cline/cline
 
 ### RooCode 🦘
@@ -149,7 +149,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code.
 - **Pricing**: Free (Open Core); Pro.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 - **Sources**: https://roocode.com
 
 ### Keploy 🧪
@@ -159,7 +159,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, CLI.
 - **Pricing**: Open Source; Enterprise.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 - **Sources**: https://keploy.io
 
 ---
@@ -175,7 +175,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: IntelliJ, PyCharm, WebStorm, etc.
 - **Pricing**: Subscription.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-17
+- **Verified**: 2026-01-21
 - **Sources**: https://jetbrains.com/ai
 
 ### JetBrains Junie (TBA 2025) 🤖
@@ -183,7 +183,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Latest Version**: TBA
 - **Support**: JetBrains IDEs (Planned).
 - **Status**: ✅ Active Development
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 - **Sources**: https://blog.jetbrains.com
 
 ---
@@ -197,7 +197,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code
 - **Pricing**: Free (open-source)
 - **Status**: ✅ Active Development
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 - **Sources**: https://github.com/agent-s3/agent-s3-vscode
 
 ### LaVague VS Code Extension 🌊
@@ -207,7 +207,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code
 - **Pricing**: Free (open-source)
 - **Status**: ✅ Active Development
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 - **Sources**: https://github.com/lavague-ai/LaVague-vscode
 
 ---

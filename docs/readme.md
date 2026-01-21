@@ -47,7 +47,7 @@
 >
 > Whether you're building the next breakthrough application, conducting cutting-edge research, or making strategic technology decisions for your enterprise, this guide empowers you with the critical information needed to choose the perfect AI model for your specific needs.
 >
-Last updated: 2026-01-17 16:10 UTC
+Last updated: 2026-01-21 15:52 UTC
 **Total Models:** 58+ models from 20+ companies
 **Data Sources:** OpenRouter Rankings, LLM-Stats.com, Official Documentation, Artificial Analysis
 
@@ -642,10 +642,10 @@ For working with large codebases:
 
 | Date | Model | Highlights | Verified |
 |------|-------|------------|----------|
-| 2026-01-15 | **Gemini 3 Pro** | State-of-the-art reasoning with depth and nuance, Vibe Coding | 2026-01-15 |
-| 2026-01-10 | **Qwen3-Max-Thinking** | 100% accuracy on AIME25 and HMMT benchmarks | 2026-01-15 |
-| 2026-01-10 | **GPT-5 Series** | Smartest, fastest, most useful model with thinking built-in | 2026-01-10 |
-| 2026-01-10 | **Granite 4.0** | Hybrid Mamba-2/transformer with MoE strategy | 2026-01-10 |
+| 2026-01-15 | **Gemini 3 Pro** | New reasoning/agentic capabilities ([Google product blog](https://blog.google/products/gemini)) | 2026-01-21 |
+| 2026-01-10 | **Qwen3-Max-Thinking** | 100% AIME25/HMMT ([DEV Community](https://dev.to), [SCMP](https://scmp.com), [Alibaba blog](https://alibaba.com/blog)) | 2026-01-21 |
+| 2026-01-10 | **GPT-5 Series** | Smartest, fastest, most useful model with thinking built-in | 2026-01-21 |
+| 2026-01-10 | **Granite 4.0** | Hybrid Mamba-2/transformer with MoE strategy | 2026-01-21 |
 ### 📚 General Knowledge (MMLU) & Intelligence Index (Artificial Analysis Q3 2025)
 
 1. 🥇 **GPT-5** - Highest score on Intelligence Index
@@ -920,4 +920,4 @@ Each AI model listed has its own license. Please refer to official documentation
 
 **🚀 The most comprehensive AI models matrix on the internet!**
 *Made with ❤️ by [ReadyPixels LLC](https://readypixels.com) for the global AI community*
-*Last Updated: January 17, 2026*
+*Last Updated: January 21, 2026*

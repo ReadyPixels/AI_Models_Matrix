@@ -1,6 +1,6 @@
 # AI API Providers
 
- _Last updated: 2026-01-17 16:10 UTC_
+ _Last updated: 2026-01-21 15:49 UTC_
 
 Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./awesome-ai-ides.md)
 
@@ -21,13 +21,13 @@ Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./aw
 
 | Provider | Description | Website | Key Features | Pricing | Latest Version | Status | Verified |
 |----------|-------------|---------|--------------|---------|---------------|--------|----------|
-| **OpenAI** | Creator of GPT models | [platform.openai.com](https://platform.openai.com) | GPT-5, o3/o4-mini, Assistants API | Pay-per-token | N/A | ✅ Active | 2026-01-17 |
-| **Anthropic** | Creator of Claude models | [console.anthropic.com](https://console.anthropic.com) | Claude 4.5 Sonnet, SDK Agents | Pay-per-token | N/A | ✅ Active | 2026-01-17 |
-| **Google AI Studio** | Gemini direct access | [ai.google.dev](https://ai.google.dev) | Gemini 3 Pro/Flash, 1M+ context | Free / Pay | N/A | ✅ Active | 2026-01-17 |
-| **DeepSeek** | DeepSeek Labs | [deepseek.com](https://deepseek.com) | DeepSeek-V4/R1, Interleaved Thinking | Pay-per-token | N/A | ✅ Active | 2026-01-17 |
-| **Mistral AI** | European Open-Weight Leader | [console.mistral.ai](https://console.mistral.ai) | Mistral Large 3, Codestral | Pay-per-token | N/A | ✅ Active | 2026-01-17 |
-| **xAI** | Elon Musk's AI Lab | [x.ai](https://x.ai) | Grok-4 models, real-time web search | Pay-per-token | N/A | ✅ Active | 2026-01-17 |
-| **Cohere** | Enterprise RAG specialists | [cohere.com](https://cohere.com) | Command-R+, Rerank v3 | Pay-per-token | N/A | ✅ Active | 2026-01-17 |
+| **OpenAI** | Creator of GPT models | [platform.openai.com](https://platform.openai.com) | GPT-5, o3/o4-mini, Assistants API | Pay-per-token | N/A | ✅ Active | 2026-01-21 |
+| **Anthropic** | Creator of Claude models | [console.anthropic.com](https://console.anthropic.com) | Claude 4.5 Sonnet, SDK Agents | Pay-per-token | N/A | ✅ Active | 2026-01-21 |
+| **Google AI Studio** | Gemini direct access | [ai.google.dev](https://ai.google.dev) | Gemini 3 Pro/Flash, 1M+ context | Free / Pay | N/A | ✅ Active | 2026-01-21 |
+| **DeepSeek** | DeepSeek Labs | [deepseek.com](https://deepseek.com) | DeepSeek-V4/R1, Interleaved Thinking | Pay-per-token | N/A | ✅ Active | 2026-01-21 |
+| **Mistral AI** | European Open-Weight Leader | [console.mistral.ai](https://console.mistral.ai) | Mistral Large 3, Codestral | Pay-per-token | N/A | ✅ Active | 2026-01-21 |
+| **xAI** | Elon Musk's AI Lab | [x.ai](https://x.ai) | Grok-4 models, real-time web search | Pay-per-token | N/A | ✅ Active | 2026-01-21 |
+| **Cohere** | Enterprise RAG specialists | [cohere.com](https://cohere.com) | Command-R+, Rerank v3 | Pay-per-token | N/A | ✅ Active | 2026-01-21 |
 
 ### Google AI Studio (Gemini API)
 
@@ -63,8 +63,8 @@ Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./aw
 
 | Provider | Description | Website | Key Features | Pricing | Latest Version | Status | Verified |
 |----------|-------------|---------|--------------|---------|---------------|--------|----------|
-| **OpenRouter** | The widest model selection | [openrouter.ai](https://openrouter.ai) | 200+ models, crypto/fiat, rankings | Aggregated | N/A | ✅ Active | 2026-01-10 |
-| **Hugging Face** | Community Hub Inference | [huggingface.co](https://huggingface.co/inference-api) | Access any OSS model, serverless | Free / Pro | N/A | ✅ Active | 2026-01-10 |
+| **OpenRouter** | The widest model selection | [openrouter.ai](https://openrouter.ai) | 200+ models, crypto/fiat, rankings | Aggregated | N/A | ✅ Active | 2026-01-21 |
+| **Hugging Face** | Community Hub Inference | [huggingface.co](https://huggingface.co/inference-api) | Access any OSS model, serverless | Free / Pro | N/A | ✅ Active | 2026-01-21 |
 
 ---
 
@@ -74,12 +74,12 @@ Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./aw
 
 | Provider | Description | Website | Key Features | Pricing | Latest Version | Status | Verified |
 |----------|-------------|---------|--------------|---------|---------------|--------|----------|
-| **Together AI** | Fast inference cloud | [together.ai](https://together.ai) | Llama/Qwen/Mistral tuned stacks | Pay-per-token | N/A | ✅ Active | 2026-01-10 |
-| **Fireworks AI** | Low-latency specialist | [fireworks.ai](https://fireworks.ai) | FireAttention engine, fine-tuning | Pay-per-token | N/A | ✅ Active | 2026-01-10 |
-| **Groq** | LPU Hardware (Wait for it...) | [groq.com](https://groq.com) | Instant output (>500 T/s) | Pay-per-token | N/A | ✅ Active | 2026-01-10 |
-| **Cerebras** | Wafer-Scale Engine | [cerebras.ai](https://cerebras.ai) | Massive throughput (2000 T/s) | Custom | N/A | ✅ Active | 2026-01-10 |
-| **Anyscale** | Ray creators | [anyscale.com](https://anyscale.com) | Scalable production endpoints | Pay-per-token | N/A | ✅ Active | 2026-01-10 |
-| **Modal** | Serverless Python | [modal.com](https://modal.com) | Define infra in code, auto-scale | Pay-per-compute | N/A | ✅ Active | 2026-01-10 |
+| **Together AI** | Fast inference cloud | [together.ai](https://together.ai) | Llama/Qwen/Mistral tuned stacks | Pay-per-token | N/A | ✅ Active | 2026-01-21 |
+| **Fireworks AI** | Low-latency specialist | [fireworks.ai](https://fireworks.ai) | FireAttention engine, fine-tuning | Pay-per-token | N/A | ✅ Active | 2026-01-21 |
+| **Groq** | LPU Hardware (Wait for it...) | [groq.com](https://groq.com) | Instant output (>500 T/s) | Pay-per-token | N/A | ✅ Active | 2026-01-21 |
+| **Cerebras** | Wafer-Scale Engine | [cerebras.ai](https://cerebras.ai) | Massive throughput (2000 T/s) | Custom | N/A | ✅ Active | 2026-01-21 |
+| **Anyscale** | Ray creators | [anyscale.com](https://anyscale.com) | Scalable production endpoints | Pay-per-token | N/A | ✅ Active | 2026-01-21 |
+| **Modal** | Serverless Python | [modal.com](https://modal.com) | Define infra in code, auto-scale | Pay-per-compute | N/A | ✅ Active | 2026-01-21 |
 
 ---
 
@@ -89,12 +89,12 @@ Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./aw
 
 | Provider | Description | Website | Key Features | Pricing | Latest Version | Status | Verified |
 |----------|-------------|---------|--------------|---------|---------------|--------|----------|
-| **Vultr** | Global Cloud | [vultr.com](https://vultr.com) | 32 locations, H100s | Hourly | N/A | ✅ Active | 2026-01-10 |
-| **Nebius** | AI-Centric Cloud | [nebius.com](https://nebius.com) | NVIDIA H200/Blackwell | Competitive | N/A | ✅ Active | 2026-01-10 |
-| **Snova** | AI Cloud | [novita.ai](https://novita.ai) | 100+ models, cheap inference | Pay-as-you-go | N/A | ✅ Active | 2026-01-10 |
-| **Hyperbolic** | Decentralized Network | [hyperbolic.xyz](https://hyperbolic.xyz) | Verifiable AI, shared GPUs | Crypto/Fiat | N/A | ✅ Active | 2026-01-10 |
-| **RunPod** | GPU Rental | [runpod.io](https://runpod.io) | Community cloud, wide GPU selection| Hourly | N/A | ✅ Active | 2026-01-10 |
-| **Replicate** | Model-as-a-Service | [replicate.com](https://replicate.com) | Run anything via API | Pay-per-sec | N/A | ✅ Active | 2026-01-10 |
+| **Vultr** | Global Cloud | [vultr.com](https://vultr.com) | 32 locations, H100s | Hourly | N/A | ✅ Active | 2026-01-21 |
+| **Nebius** | AI-Centric Cloud | [nebius.com](https://nebius.com) | NVIDIA H200/Blackwell | Competitive | N/A | ✅ Active | 2026-01-21 |
+| **Snova** | AI Cloud | [novita.ai](https://novita.ai) | 100+ models, cheap inference | Pay-as-you-go | N/A | ✅ Active | 2026-01-21 |
+| **Hyperbolic** | Decentralized Network | [hyperbolic.xyz](https://hyperbolic.xyz) | Verifiable AI, shared GPUs | Crypto/Fiat | N/A | ✅ Active | 2026-01-21 |
+| **RunPod** | GPU Rental | [runpod.io](https://runpod.io) | Community cloud, wide GPU selection| Hourly | N/A | ✅ Active | 2026-01-21 |
+| **Replicate** | Model-as-a-Service | [replicate.com](https://replicate.com) | Run anything via API | Pay-per-sec | N/A | ✅ Active | 2026-01-21 |
 
 ---
 
@@ -124,8 +124,9 @@ Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./aw
 - Real-time web search integration
 - Content discovery and analysis
 - Research and development
-
 **Documentation**: [Brave Search API](https://brave.com/search/api/)
+**Pricing Details**: [docs/pricing](docs/pricing.md)
+
 
 **MCP Support**: ✅ Available
 

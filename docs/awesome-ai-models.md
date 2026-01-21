@@ -1,6 +1,6 @@
 # Awesome AI Models 🧠
 
-_Last updated: 2026-01-17 16:10 UTC_
+_Last updated: 2026-01-21 16:00 UTC_
 
 > A curated list of the most capable Large Language Models (LLMs), Small Language Models (SLMs), and specialized AI models available today.
 

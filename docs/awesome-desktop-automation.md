@@ -1,6 +1,6 @@
 # Awesome AI Desktop Automation
 
- _Last updated: 2026-01-17 16:55 UTC_
+ _Last updated: 2026-01-21 16:01 UTC_
 
 Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 
@@ -23,7 +23,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: API (Client-side Cross-platform); Docker (Reference implementation).
 - **Status**: ✅ Public Beta (API)
 - **Sources**: https://docs.anthropic.com/en/docs/build-with-claude/computer-use
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 
 ### Agent S 🚀
 - **Description**: Open-source agent framework capable of autonomous computer interaction via GUI. **First to surpass human-level performance on OSWorld.**
@@ -32,7 +32,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: Cross-platform (Python-based).
 - **Status**: ✅ Active Maintenance (Open Source)
 - **Sources**: https://github.com/simular-ai/Agent-S
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 
 ### Computer (trycua) 🖥️
 - **Description**: A "Computer Use Interface" (CUI) enabling agents to control secure macOS/Linux sandboxes.
@@ -41,7 +41,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: macOS, Linux (Dockerized).
 - **Status**: Open Source.
 - **Sources**: https://github.com/trycua/computer
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 
 ### UI-TARS Desktop 🦎
 - **Description**: Next-gen multimodal GUI agent based on VLM, capable of human-like interaction.
@@ -50,7 +50,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Status**: Open Source.
 - **Sources**: https://github.com/bytedance/UI-TARS-desktop
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 
 ### Cradle 🎮
 - **Description**: General Computer Control (GCC) framework capable of playing complex games (RDR2) and using software.
@@ -59,7 +59,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: Windows, macOS, Linux (Game/Software agnostic).
 - **Status**: Open Source.
 - **Sources**: https://github.com/BAAI-Agents/Cradle
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 
 ### AppAgent (on Desktop via ADB) 📱
 - **Description**: Multimodal agent designed for smartphone apps but runs on desktop via Android emulators.
@@ -68,7 +68,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: Windows, macOS, Linux (Requires Android Emulator/ADB).
 - **Status**: Open Source.
 - **Sources**: https://github.com/TencentQQGYLab/AppAgent
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 
 ### UFO (Microsoft) 🛸
 - **Description**: UI-Focused Agent for Windows interaction using dual-agent framework (AppSelection + ActionSelection).
@@ -77,7 +77,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: Windows (Exclusive).
 - **Status**: Open Source (MIT).
 - **Sources**: https://github.com/microsoft/UFO
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 
 ### OpenAdapt 🦾
 - **Description**: Generative Process Automation (GPA) that learns from demonstration.
@@ -86,7 +86,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: Windows, macOS.
 - **Status**: Open Source (MIT).
 - **Sources**: https://github.com/OpenAdaptAI/OpenAdapt
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 
 ### OS-Copilot / FRIDAY 🤖
 - **Description**: Self-improving generalist computer agent framework.
@@ -95,7 +95,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Status**: Open Source.
 - **Sources**: https://github.com/OS-Copilot/FRIDAY
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 
 ### Self-Operating Computer (HyperWrite) ⌨️
 - **Description**: Framework enabling multimodal models (GPT-4V, Gemini, etc.) to view the screen and click/type.
@@ -104,7 +104,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Status**: Open Source (MIT).
 - **Sources**: https://github.com/OthersideAI/self-operating-computer
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 
 ### ShowUI 👁️
 - **Description**: End-to-end lightweight vision-language-action model (based on Qwen2-VL) for GUI agents.
@@ -113,7 +113,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: Cross-platform (Python/Pytorch).
 - **Status**: Open Source.
 - **Sources**: https://github.com/Show-UI/ShowUI
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 
 ### OpenInterpreter 🗣️
 - **Description**: Open-source code interpreter that runs locally to control your computer.
@@ -122,7 +122,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Status**: Open Source.
 - **Sources**: https://openinterpreter.com/
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 
 ---
 
@@ -137,7 +137,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: Windows, macOS, Linux (Browser Extension + Desktop Core).
 - **Status**: Open Source Core.
 - **Sources**: https://ui.vision/
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 
 ### OmniParser V2 (Microsoft) 🔍
 - **Description**: A screen parsing tool that converts UI screenshots into structured, clickable elements for agents.
@@ -146,7 +146,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: Cross-platform (Python).
 - **Status**: Open Source (MIT).
 - **Sources**: https://github.com/microsoft/OmniParser
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 
 ---
 
@@ -161,7 +161,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Key Features**: Visual search, cross-platform inputs.
 - **Status**: ✅ Active Maintenance
 - **Sources**: https://nutjs.dev/
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 
 ### PyAutoGUI 🐍
 - **Description**: Simple Python cross-platform GUI automation.
@@ -170,7 +170,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Key Features**: Fail-safe mechanisms, simple API.
 - **Status**: ✅ Active Maintenance
 - **Sources**: https://pyautogui.readthedocs.io/
-- **Verified**: 2026-01-10
+- **Verified**: 2026-01-21
 
 ---
 
@@ -184,7 +184,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 ---
 
 ## 📋 Methodology Notes
-- **Research Date**: January 10, 2026
+- **Research Date**: January 21, 2026
 - **MCP Brave Search Usage**: Used for gathering latest pricing and feature information
 - **Query Strings**: "Google AI Studio Gemini API pricing 2025", "Brave Search API enterprise pricing"
 - **Timezone Policy**: All timestamps in UTC
