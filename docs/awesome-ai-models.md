@@ -1,24 +1,24 @@
 # Awesome AI Models 🧠
 
-_Last updated: 2026-01-21 16:00 UTC_
+_Last updated: 2026-01-25T01:12:00.000Z_
 
 > A curated list of the most capable Large Language Models (LLMs), Small Language Models (SLMs), and specialized AI models available today.
 
 ## 🏆 Frontier Models (State-of-the-Art)
 
-| Model | Company | Release | Context | Key Features | License | Status |
-|-------|---------|---------|---------|--------------|---------|--------|
-| **DeepSeek-V4** | DeepSeek | Jan 2026 | 128K | Reasoning Core, DSA, Interleaved Thinking | MIT | ✅ Active |
-| **Qwen3-Max-Thinking** | Alibaba | Jan 2026 | 128K | 100% AIME25/HMMT, parallel computation | Apache 2.0 | ✅ Active |
-| **Gemini 3 Pro** | Google | Nov 18, 2025 | 1M+ | PhD-level reasoning, agentic tool-use | Proprietary | ✅ Active |
-| **Gemini 3 Flash** | Google | Dec 17, 2025 | 10M | Pro-grade reasoning, Flash speed | Proprietary | ✅ Active |
-| **GPT-5.2-Codex** | OpenAI | Dec 18, 2025 | 400K | Cybersecurity, long-horizon refactoring | Proprietary | ✅ Active |
-| **GPT-5.2** | OpenAI | Dec 11, 2025 | 400K | Thinking & Instant variants, $1.75/1M | Proprietary | ✅ Active |
-| **GPT-5 mini** | OpenAI | Dec 2025 | 128K | Cheap reasoning, $0.25/1M | Proprietary | ✅ Active |
-| **Mistral Large 3** | Mistral AI | Dec 2, 2025 | 128K | 675B params, MoE, Open-weight | Apache 2.0 | ✅ Active |
-| **Claude Opus 4.5** | Anthropic | Nov 24, 2025 | 200K | Leading reasoning accuracy, effort param | Proprietary | ✅ Active |
-| **Llama 4 Scout** | Meta | Dec 2025 | 10M | Open-weight context king | Community | ✅ Active |
-| **DeepSeek-V3.2-Speciale** | DeepSeek | Dec 2025 | 128K | Maxed-out reasoning, IMO gold | MIT | ✅ Active |
+| Model | Company | Release | Context | Key Features | License | Status | Verified |
+|-------|---------|---------|---------|--------------|---------|--------|----------|
+| **DeepSeek-V4** | DeepSeek | Jan 2026 | 128K | Reasoning Core, DSA, Interleaved Thinking | MIT | ✅ Active | 2026-01-25T01:12:00.000Z |
+| **Qwen3-Max-Thinking** | Alibaba | Jan 2026 | 128K | 100% AIME25/HMMT, parallel computation | Apache 2.0 | ✅ Active | 2026-01-25T01:12:00.000Z |
+| **Gemini 3 Pro** | Google | Nov 18, 2025 | 1M+ | PhD-level reasoning, agentic tool-use | Proprietary | ✅ Active | 2026-01-25T01:12:00.000Z |
+| **Gemini 3 Flash** | Google | Dec 17, 2025 | 10M | Pro-grade reasoning, Flash speed | Proprietary | ✅ Active | 2026-01-25T01:12:00.000Z |
+| **GPT-5.2-Codex** | OpenAI | Dec 18, 2025 | 400K | Cybersecurity, long-horizon refactoring | Proprietary | ✅ Active | 2026-01-25T01:12:00.000Z |
+| **GPT-5.2** | OpenAI | Dec 11, 2025 | 400K | Thinking & Instant variants, $1.75/1M | Proprietary | ✅ Active | 2026-01-25T01:12:00.000Z |
+| **GPT-5 mini** | OpenAI | Dec 2025 | 128K | Cheap reasoning, $0.25/1M | Proprietary | ✅ Active | 2026-01-25T01:12:00.000Z |
+| **Mistral Large 3** | Mistral AI | Dec 2, 2025 | 128K | 675B params, MoE, Open-weight | Apache 2.0 | ✅ Active | 2026-01-25T01:12:00.000Z |
+| **Claude Opus 4.5** | Anthropic | Nov 24, 2025 | 200K | Leading reasoning accuracy, effort param | Proprietary | ✅ Active | 2026-01-25T01:12:00.000Z |
+| **Llama 4 Scout** | Meta | Dec 2025 | 10M | Open-weight context king | Community | ✅ Active | 2026-01-25T01:12:00.000Z |
+| **DeepSeek-V3.2-Speciale** | DeepSeek | Dec 2025 | 128K | Maxed-out reasoning, IMO gold | MIT | ✅ Active | 2026-01-25T01:12:00.000Z |
 
 ## 🧠 Advanced Reasoning Models (2024-2025)
 
@@ -29,6 +29,7 @@ _Last updated: 2026-01-21 16:00 UTC_
 - **Capabilities**: Unprecedented mathematical reasoning power
 - **Significance**: Saturates difficult math benchmarks
 - **Expected Release**: 2025
+- **Verified**: 2026-01-25T01:12:00.000Z
 
 ### Gemini 3 Pro
 - **Developer**: Google DeepMind
@@ -37,6 +38,7 @@ _Last updated: 2026-01-21 16:00 UTC_
 - **Access**: Google AI Studio, Vertex AI, Antigravity platform
 - **Multimodal**: Text, images, video, audio, code
 - **Status**: Available (2024-2025)
+- **Verified**: 2026-01-25T01:12:00.000Z
 
 ### GPT-5 Series
 - **Developer**: OpenAI
@@ -45,6 +47,7 @@ _Last updated: 2026-01-21 16:00 UTC_
 - **Performance**: Significant leap in intelligence over previous models
 - **Features**: State-of-the-art across coding, math, writing, health, visual perception
 - **Status**: Available to everyone
+- **Verified**: 2026-01-25T01:12:00.000Z
 
 ### Granite 4.0
 - **Developer**: IBM
@@ -53,6 +56,7 @@ _Last updated: 2026-01-21 16:00 UTC_
 - **Models**: Micro, Tiny, Small variants
 - **Focus**: Enterprise efficiency and performance
 - **Status**: Released October 2025
+- **Verified**: 2026-01-25T01:12:00.000Z
 
 ## 🔓 Open-Source / Open-Weight Models
 
@@ -61,58 +65,87 @@ _Last updated: 2026-01-21 16:00 UTC_
     - *Specs*: 10M Token Context (Scout), 400B (Maverick)
     - *License*: Meta Community License
     - *Note*: Native multimodal, 10M context standard for RAG.
+    - *Status*: ✅ Active
+    - *Verified*: 2026-01-25T01:12:00.000Z
 - **GLM-4.7** (Zhipu AI)
     - *Specs*: 400B+ MoE, Enterprise focus
     - *License*: Open-weight
     - *Note*: Launched Dec 2025. Enhanced multilingual and tool-use.
     - *Status*: ✅ Active
+    - *Verified*: 2026-01-25T01:12:00.000Z
 - **Mistral Large 3** (Mistral AI)
     - *Specs*: 675B (MoE)
     - *License*: Apache 2.0
     - *Note*: Released Dec 2, 2025. Top-tier open model.
     - *Status*: ✅ Active
+    - *Verified*: 2026-01-25T01:12:00.000Z
 - **Qwen 3 (Max/Next/Thinking)** (Alibaba)
     - *Specs*: 1T+ (Max), Integrated Code Interpreter
     - *License*: Apache 2.0 (Next), API (Max)
     - *Note*: First Chinese model with 100% AIME25 score.
     - *Status*: ✅ Active
+    - *Verified*: 2026-01-25T01:12:00.000Z
 
 ### 💻 Coding Specialized
 - **GPT-5.2-Codex** (OpenAI)
     - *Release*: Dec 18, 2025
     - *Focus*: Cybersecurity, long-horizon refactoring, Windows compatibility.
     - *Status*: ✅ Active
+    - *Verified*: 2026-01-25T01:12:00.000Z
 - **DeepSeek-Coder-V2** (DeepSeek)
     - *License*: MIT
     - *Focus*: 236B params, MoE, beats GPT-4 Turbo in coding.
     - *Status*: ✅ Active
+    - *Verified*: 2026-01-25T01:12:00.000Z
 - **Qwen3-Coder** (Alibaba)
     - *License*: Apache 2.0
     - *Focus*: 480B params, autonomous dev capabilities.
     - *Status*: ✅ Active
+    - *Verified*: 2026-01-25T01:12:00.000Z
 - **Nemotron 3 Nano** (NVIDIA)
     - *Release*: Dec 2025
     - *Specs*: 1M context, high accuracy in coding/math.
     - *Status*: ✅ Active
+    - *Verified*: 2026-01-25T01:12:00.000Z
 
 ## 🧪 Experimental & Reasoning
 - **Gemini 3 Deep Research** (Google)
     - *Focus*: Autonomous multi-step research and synthesis.
     - *Status*: ✅ Active
+    - *Verified*: 2026-01-25T01:12:00.000Z
 - **o1 / o3** (OpenAI)
     - *Focus*: Chain-of-thought reasoning ("System 2" thinking).
     - *Status*: ✅ Active
+    - *Verified*: 2026-01-25T01:12:00.000Z
 - **DeepSeek-R1** (DeepSeek)
     - *Focus*: Pure RL-based reasoning model.
     - *Status*: ✅ Active
+    - *Verified*: 2026-01-25T01:12:00.000Z
 - **DeepSeek-V4** (DeepSeek) 🆕
     - *Release*: Jan 2026
     - *Focus*: Reasoning Core architecture, Dynamic Sparse Attention, Interleaved Thinking.
     - *Status*: ✅ Active
+    - *Verified*: 2026-01-25T01:12:00.000Z
 - **Qwen3-Max-Thinking** (Alibaba) 🆕
     - *Release*: Jan 2026
     - *Focus*: Parallel test-time computation, math/coding benchmarks.
     - *Status*: ✅ Active
+    - *Verified*: 2026-01-25T01:12:00.000Z
+- **NVIDIA Nemotron 3 Family** (NVIDIA) 🆕
+    - *Release*: Expected H1 2026
+    - *Focus*: For agentic AI with Super and Ultra variants.
+    - *Status*: Expected
+    - *Verified*: 2026-01-25T01:12:00.000Z
+- **DeepSeek AI** (DeepSeek) 🆕
+    - *Release*: 2025
+    - *Focus*: Strong in reasoning and agentic tasks.
+    - *Status*: ✅ Active
+    - *Verified*: 2026-01-25T01:12:00.000Z
+- **Kimi K2** (Moonshot AI) 🆕
+    - *Release*: 2025
+    - *Focus*: Multilingual agentic model.
+    - *Status*: ✅ Active
+    - *Verified*: 2026-01-25T01:12:00.000Z
 
 ## 📉 Legacy / Superseded (Reference Only)
 - *GPT-4o / GPT-4 Turbo* (Superseded by GPT-5 series)

@@ -47,7 +47,7 @@
 >
 > Whether you're building the next breakthrough application, conducting cutting-edge research, or making strategic technology decisions for your enterprise, this guide empowers you with the critical information needed to choose the perfect AI model for your specific needs.
 >
-Last updated: 2026-01-21 15:52 UTC
+Last updated: 2026-01-25 01:09 UTC
 **Total Models:** 58+ models from 20+ companies
 **Data Sources:** OpenRouter Rankings, LLM-Stats.com, Official Documentation, Artificial Analysis
 
@@ -132,6 +132,8 @@ This matrix provides a **comprehensive overview** of the leading AI models and L
 
 | 🏢 Company | 🤖 Model | 📦 Version | 📅 Release | 🔄 Last Updated | 💻 Coding | 📊 Benchmarks | 💰 Price ($/1M) | 🖥️ Self-Host | 🌟 Usage Rank | 🔗 Link |
 |-----------|---------|----------|-----------|----------------|----------|--------------|----------------|-------------|---------------|---------|
+| 🇨🇳 **Alibaba** | Qwen3-Max-Thinking | 3-Max-Thinking | 2025-09 | **2026-01-25** ⭐ | ✅ Excellent | 74.8 LiveCodeBench, 72.5 SWE-Verified | $1.20 / $6.00 | ❌ | #3 Overall | [🔗](https://qwenlm.github.io) |
+| 🌐 **Google** | Gemini 3 Pro | 3 Pro | 2025-11 | **2026-01-25** ⭐ | ✅ Excellent | 78% SWE-Verified, 1M context | Free tier / Pay-as-you-go | ❌ | #4 Overall | [🔗](https://ai.google.dev) |
 | 🤖 **OpenAI** | GPT-5.2-Codex | 5.2-Codex | 2025-12-18 | **2025-12-18** ⭐ | ✅ Best-in-class | Cybersec/Refactoring | API | ❌ | - | [🔗](https://openai.com) |
 | 🌐 **Google** | Gemini 3 | 3 | 2025-12-17 | **2025-12-17** ⭐ | ✅ Excellent | 10M Context | API | ❌ | - | [🔗](https://ai.google.dev) |
 | 🤖 **OpenAI** | GPT-5.2 | 5.2 | 2025-12-11 | **2025-12-11** ⭐ | ✅ Excellent | 400K Context | API | ❌ | - | [🔗](https://openai.com) |
@@ -642,10 +644,10 @@ For working with large codebases:
 
 | Date | Model | Highlights | Verified |
 |------|-------|------------|----------|
-| 2026-01-15 | **Gemini 3 Pro** | New reasoning/agentic capabilities ([Google product blog](https://blog.google/products/gemini)) | 2026-01-21 |
-| 2026-01-10 | **Qwen3-Max-Thinking** | 100% AIME25/HMMT ([DEV Community](https://dev.to), [SCMP](https://scmp.com), [Alibaba blog](https://alibaba.com/blog)) | 2026-01-21 |
-| 2026-01-10 | **GPT-5 Series** | Smartest, fastest, most useful model with thinking built-in | 2026-01-21 |
-| 2026-01-10 | **Granite 4.0** | Hybrid Mamba-2/transformer with MoE strategy | 2026-01-21 |
+| 2025-11 | **Gemini 3 Pro** | 1M token context window, Deep Think reasoning, agentic capabilities for autonomous coding ([Google Blog](https://blog.google/products/gemini/gemini-3/), [Gemini API Docs](https://ai.google.dev/gemini-api/docs/gemini-3)) | 2026-01-25T01:09:00.000Z |
+| 2025-09 | **Qwen3-Max-Thinking** | 1T+ parameters MoE model, 100% AIME25, optimized for coding and agentic capabilities ([Qwen Blog](https://qwenlm.github.io/blog/qwen3/), [MarkTechPost](https://www.marktechpost.com/2025/09/24/alibabas-qwen3-max-production-ready-thinking-mode-1t-parameters-and-day-one-coding-agentic-bench-signals/)) | 2026-01-25T01:09:00.000Z |
+| 2026-01-10 | **GPT-5 Series** | Smartest, fastest, most useful model with thinking built-in | 2026-01-25T01:09:00.000Z |
+| 2026-01-10 | **Granite 4.0** | Hybrid Mamba-2/transformer with MoE strategy | 2026-01-25T01:09:00.000Z |
 ### 📚 General Knowledge (MMLU) & Intelligence Index (Artificial Analysis Q3 2025)
 
 1. 🥇 **GPT-5** - Highest score on Intelligence Index
@@ -870,9 +872,9 @@ For full license terms, see: [GNU GPL v3.0](https://www.gnu.org/licenses/gpl-3.0
 ### 📊 Data Sources Attribution
 
 This project aggregates information from:
-- **OpenRouter Rankings** - [openrouter.ai](https://openrouter.ai) - Real-world usage statistics — Verified: 2025-11-14 22:07 UTC
-- **LLM-Stats.com** - [llm-stats.com](https://llm-stats.com) - Benchmark aggregation — Verified: 2025-11-14 22:07 UTC
-- **Artificial Analysis** - [artificialanalysis.ai](https://artificialanalysis.ai) - AI industry insights and reports — Verified: 2025-11-14 22:07 UTC
+- **OpenRouter Rankings** - [openrouter.ai](https://openrouter.ai) - Real-world usage statistics — Verified: 2026-01-25T01:09:00.000Z
+- **LLM-Stats.com** - [llm-stats.com](https://llm-stats.com) - Benchmark aggregation — Verified: 2026-01-25T01:09:00.000Z
+- **Artificial Analysis** - [artificialanalysis.ai](https://artificialanalysis.ai) - AI industry insights and reports — Verified: 2026-01-25T01:09:00.000Z
 - **Official Documentation** - Direct from model providers
 - **Community Contributions** - GitHub contributors
 
@@ -906,12 +908,12 @@ Each AI model listed has its own license. Please refer to official documentation
 
 ## 📚 Additional Resources
 
- - **OpenRouter Rankings** - [openrouter.ai/rankings](https://openrouter.ai/rankings) — Verified: 2025-11-14 22:07 UTC
- - **LLM-Stats** - [llm-stats.com](https://llm-stats.com) — Verified: 2025-11-14 22:07 UTC
- - **Artificial Analysis** - [artificialanalysis.ai](https://artificialanalysis.ai) — AI industry insights and reports — Verified: 2025-11-14 22:07 UTC
- - **Artificial Analysis Agentic Index** - [artificialanalysis.ai/?intelligence=agentic-index](https://artificialanalysis.ai/?intelligence=agentic-index&intelligence-category=open-weights-vs-proprietary#summary) — Agentic capabilities comparison — Verified: 2025-11-14 22:07 UTC
- - **Artificial Analysis Q3 2025 Report** - [artificialanalysis.ai/downloads/state-of-ai/2025/Q3-2025-Artificial-Analysis-State-of-AI-Highlights-Report.pdf](https://artificialanalysis.ai/downloads/state-of-ai/2025/Q3-2025-Artificial-Analysis-State-of-AI-Highlights-Report.pdf) — Quarterly AI highlights — Verified: 2025-11-14 22:07 UTC
- - **Moonshot AI Kimi K2** - [moonshotai.github.io/Kimi-K2/](https://moonshotai.github.io/Kimi-K2/) — Kimi K2 model documentation — Verified: 2025-11-14 22:07 UTC
+ - **OpenRouter Rankings** - [openrouter.ai/rankings](https://openrouter.ai/rankings) — Verified: 2026-01-25T01:09:00.000Z
+ - **LLM-Stats** - [llm-stats.com](https://llm-stats.com) — Verified: 2026-01-25T01:09:00.000Z
+- **Artificial Analysis** - [artificialanalysis.ai](https://artificialanalysis.ai) — AI industry insights and reports — Verified: 2026-01-25T01:09:00.000Z
+- **Artificial Analysis Agentic Index** - [artificialanalysis.ai/?intelligence=agentic-index](https://artificialanalysis.ai/?intelligence=agentic-index&intelligence-category=open-weights-vs-proprietary#summary) — Agentic capabilities comparison — Verified: 2026-01-25T01:09:00.000Z
+- **Artificial Analysis Q3 2025 Report** - [artificialanalysis.ai/downloads/state-of-ai/2025/Q3-2025-Artificial-Analysis-State-of-AI-Highlights-Report.pdf](https://artificialanalysis.ai/downloads/state-of-ai/2025/Q3-2025-Artificial-Analysis-State-of-AI-Highlights-Report.pdf) — Quarterly AI highlights — Verified: 2026-01-25T01:09:00.000Z
+- **Moonshot AI Kimi K2** - [moonshotai.github.io/Kimi-K2/](https://moonshotai.github.io/Kimi-K2/) — Kimi K2 model documentation — Verified: 2026-01-25T01:09:00.000Z
 - **HuggingFace Leaderboard** - [huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - **Awesome LLM** - [github.com/Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)
 
@@ -920,4 +922,4 @@ Each AI model listed has its own license. Please refer to official documentation
 
 **🚀 The most comprehensive AI models matrix on the internet!**
 *Made with ❤️ by [ReadyPixels LLC](https://readypixels.com) for the global AI community*
-*Last Updated: January 21, 2026*
+*Last Updated: January 25, 2026*

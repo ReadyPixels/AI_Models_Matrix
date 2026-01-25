@@ -24,7 +24,7 @@
 - **Status**: ✅ Active Maintenance
 - **Pros/Cons**: Privacy‑first, local agents; early‑stage, evolving feature set.
 - **Sources**: https://github.com/browseros-ai/BrowserOS, https://www.browseros.com/
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### Browser Operator 🤖
 - **Description**: Open-source AI browser with built-in multi-agent platform.
@@ -34,7 +34,7 @@
 - **Pricing**: Free (Open Source).
 - **Status**: ✅ Active Maintenance
 - **Sources**: https://github.com/BrowserOperator/browser-operator-core
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### Perplexity Comet 🚀
 - **Description**: AI‑powered web browser with an embedded assistant that automates tasks across tabs and apps.
@@ -46,38 +46,38 @@
 - **Status**: ✅ Active Maintenance
 - **Pros/Cons**: Powerful agentic workflows; privacy concerns regarding web content ingestion.
 - **Sources**: https://www.perplexity.ai/comet
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### Dia AI Browser 💎
 - **Description**: AI-powered context-aware browser from the creators of Arc. Primary focus of The Browser Company in 2026. **Successor to Arc Browser.**
 - **Key AI Features**: Conversational AI, cross-tab reasoning, shopping cart automation, sidebar mode.
 - **Latest Version**: Beta (Jan 2026)
 - **Supported Platforms**: macOS (M1+), Windows, iOS, Android (Planned 2026).
-- **Pricing**: Free.
+- **Pricing**: Freemium (Free tier + $20/month Pro)
 - **Status**: ✅ Active Development (Arc discontinued May 2025)
 - **Sources**: https://diabrowser.com
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### Opera Neon / Opera One AI ⭕
 - **Description**: Experimental AI concept browser with native "Aria" assistant.
-- **Key AI Features**: Split screen, AI-generated "Surflets", deeply integrated chat.
+- **Key AI Features**: Agentic AI Features: Chat, Do, Make, Deep research, 1-Minute research agent. Advanced workspace features: Tasks (multi-tab), Cards, Model Selector, and access to GPT-5.2, Gemini 3, Nano Banana PRO, Veo 3.1, Sora 2.
 - **Latest Version**: Verified 2025-12-24
 - **Supported Platforms**: Windows, macOS.
-- **Pricing**: Free.
+- **Pricing**: $19.90/month subscription (Standard plan)
 - **Status**: ✅ Active Maintenance
-- **Sources**: https://www.opera.com
-- **Verified**: 2026-01-21
+- **Sources**: https://www.operaneon.com/
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### ChatGPT Atlas (macOS) 🍎
 - **Description**: AI‑focused browser for macOS with deep ChatGPT integration.
 - **Key AI Features**: Agent mode, side‑by‑side browsing, context-aware assistance.
-- **Latest Version**: Build 1.2025.344.7 (Dec 18, 2025)
+- **Latest Version**: Post-Jan 22, 2026 update (tab groups and search switching)
 - **Supported Platforms**: macOS (Windows planned).
 - **Pricing**: Free.
 - **Status**: ✅ Active Development
 - **Pros/Cons**: Innovative UX; macOS‑only currently.
 - **Sources**: https://openai.com
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### Deta Surf 🗒️
 - **Description**: Open‑source personal AI notebook/browser that brings web content into structured notes.
@@ -88,7 +88,7 @@
 - **Status**: ✅ Active Maintenance
 - **Pros/Cons**: Local‑first research tool; not a general-purpose browser.
 - **Sources**: https://github.com/deta/surf
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### Open DeepResearch (Hugging Face) 🔬
 - **Description**: Open-source agentic framework for deep web research and browsing.
@@ -97,7 +97,7 @@
 - **Supported Platforms**: Cross-platform (Python environment).
 - **Status**: ✅ Active Maintenance (Open Source)
 - **Sources**: https://huggingface.co/posts/open-deep-research
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 
 
@@ -110,7 +110,7 @@
 - **Status**: ✅ Active Maintenance
 - **Pros/Cons**: Massive scale and capability; specific availability rolling out.
 - **Sources**: https://openai.com
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ---
 
@@ -127,7 +127,7 @@
 - **Status**: ✅ Active Maintenance
 - **Pros/Cons**: highly capable "do it for me" agent; requires trust with accounts.
 - **Sources**: https://www.multion.ai
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### Harpa AI 🦸‍♂️
 - **Description**: Hybrid AI co-pilot and automation agent for Chrome, integrating multiple LLMs (GPT, Claude, Gemini).
@@ -138,7 +138,7 @@
 - **Status**: ✅ Active Maintenance
 - **Pros/Cons**: Huge library of pre-built automations; runs locally in browser.
 - **Sources**: https://harpa.ai
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### HyperWrite Personal Assistant ✍️
 - **Description**: AI writing and productivity assistant with an "Agent" mode for browser tasks.
@@ -149,7 +149,7 @@
 - **Status**: ✅ Active Maintenance
 - **Pros/Cons**: Excellent for writing-heavy workflows; strong agent capabilities.
 - **Sources**: https://hyperwriteai.com
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### NanoBrowser 🔬
 - **Description**: Open-source Chrome extension for AI web automation, supporting local and cloud LLMs.
@@ -160,7 +160,7 @@
 - **Status**: ✅ Active Maintenance
 - **Pros/Cons**: Lightweight, fully control your model; limited by extension sandbox.
 - **Sources**: https://github.com/Start-Nano/NanoBrowser
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### Microsoft Edge Copilot 🟦
 - **Description**: Built-in AI sidebar in Edge with deep OS integration.
@@ -170,7 +170,7 @@
 - **Pricing**: Free.
 - **Status**: ✅ Active Maintenance
 - **Sources**: https://www.microsoft.com/edge
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ---
 
@@ -186,7 +186,7 @@
 - **Pricing**: Free (Open Source).
 - **Status**: ✅ Active Maintenance
 - **Sources**: https://github.com/browser-use/browser-use
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### LaVague 🌊
 - **Description**: Large Action Model (LAM) framework designed to translate natural language into Selenium/Playwright code.
@@ -196,7 +196,7 @@
 - **Pricing**: Free (MIT).
 - **Status**: ✅ Active Maintenance
 - **Sources**: https://lavague.ai
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### Stagehand 🎭
 - **Description**: AI-first automation framework built on top of Playwright.
@@ -206,7 +206,7 @@
 - **Pricing**: Free (Open Source).
 - **Status**: ✅ Active Maintenance
 - **Sources**: https://stagehand.dev
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### Skyvern (Library) ☁️
 - **Description**: Automates browser workflows using LLMs and Computer Vision, resilient to layout changes.
@@ -214,7 +214,7 @@
 - **Supported Platforms**: Python SDK / Cloud API.
 - **Status**: ✅ Active Maintenance
 - **Sources**: https://github.com/Skyvern-AI/skyvern
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### OpenWebUI + Browser Use 🤝
 - **Description**: The specific integration of Browser-use inside the OpenWebUI interface.
@@ -223,7 +223,7 @@
 - **Supported Platforms**: Web-based (Docker/Self-hosted).
 - **Status**: ✅ Active Maintenance
 - **Sources**: https://github.com/OpenWebUI/OpenWebUI
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### Standard Engines (Playwright / Selenium / Cypress)
 - **Playwright**: Best modern headless browser engine. Supports all major browsers (Windows, Linux, macOS).
@@ -238,7 +238,7 @@
 - **Pricing**: Open Source core / Cloud pricing.
 - **Status**: ✅ Active Maintenance
 - **Sources**: https://github.com/steel-dev/steel-browser
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### toMCP 🔌
 - **Description**: Middleware that converts public websites into Model Context Protocol (MCP) servers.
@@ -248,7 +248,7 @@
 - **Pricing**: Open Source.
 - **Status**: ✅ Active Maintenance
 - **Sources**: https://github.com/Ami3466/tomcp
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ---
 
@@ -262,7 +262,7 @@
 - **Supported Platforms**: Cloud API.
 - **Pricing**: Usage-based.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ### Browserbase
 - **Description**: Serverless browser infrastructure for AI agents.
@@ -271,7 +271,7 @@
 - **Key Features**: Stealth mode, session recording, debug access.
 - **Status**: ✅ Active Maintenance
 - **Sources**: https://browserbase.com
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 
 ---
 
@@ -284,7 +284,7 @@
 - **Supported Platforms**: Chrome Extension
 - **Pricing**: Free (open-source)
 - **Status**: ✅ Active Development
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 - **Sources**: https://github.com/agent-s3/agent-s3-browser
 
 ### LaVague Browser Extension 🌊
@@ -294,7 +294,7 @@
 - **Supported Platforms**: Chrome Extension
 - **Pricing**: Free (open-source)
 - **Status**: ✅ Active Development
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:35:00.000Z
 - **Sources**: https://github.com/lavague-ai/LaVague-browser
 
 ---

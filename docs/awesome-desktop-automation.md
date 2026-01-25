@@ -23,7 +23,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: API (Client-side Cross-platform); Docker (Reference implementation).
 - **Status**: ✅ Public Beta (API)
 - **Sources**: https://docs.anthropic.com/en/docs/build-with-claude/computer-use
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:17:00.000Z
 
 ### Agent S 🚀
 - **Description**: Open-source agent framework capable of autonomous computer interaction via GUI. **First to surpass human-level performance on OSWorld.**
@@ -32,7 +32,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: Cross-platform (Python-based).
 - **Status**: ✅ Active Maintenance (Open Source)
 - **Sources**: https://github.com/simular-ai/Agent-S
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:17:00.000Z
 
 ### Computer (trycua) 🖥️
 - **Description**: A "Computer Use Interface" (CUI) enabling agents to control secure macOS/Linux sandboxes.
@@ -41,7 +41,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: macOS, Linux (Dockerized).
 - **Status**: Open Source.
 - **Sources**: https://github.com/trycua/computer
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:17:00.000Z
 
 ### UI-TARS Desktop 🦎
 - **Description**: Next-gen multimodal GUI agent based on VLM, capable of human-like interaction.
@@ -50,7 +50,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Status**: Open Source.
 - **Sources**: https://github.com/bytedance/UI-TARS-desktop
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:17:00.000Z
 
 ### Cradle 🎮
 - **Description**: General Computer Control (GCC) framework capable of playing complex games (RDR2) and using software.
@@ -59,7 +59,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: Windows, macOS, Linux (Game/Software agnostic).
 - **Status**: Open Source.
 - **Sources**: https://github.com/BAAI-Agents/Cradle
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:17:00.000Z
 
 ### AppAgent (on Desktop via ADB) 📱
 - **Description**: Multimodal agent designed for smartphone apps but runs on desktop via Android emulators.
@@ -68,7 +68,7 @@ Quick link: [Awesome Browser Automation](./awesome-browser-automation.md)
 - **Supported Platforms**: Windows, macOS, Linux (Requires Android Emulator/ADB).
 - **Status**: Open Source.
 - **Sources**: https://github.com/TencentQQGYLab/AppAgent
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:17:00.000Z
 
 ### UFO (Microsoft) 🛸
 - **Description**: UI-Focused Agent for Windows interaction using dual-agent framework (AppSelection + ActionSelection).

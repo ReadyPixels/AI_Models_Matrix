@@ -1,6 +1,6 @@
 # Awesome AI Add-ons
 
- _Last updated: 2026-01-21 15:54 UTC_
+ _Last updated: 2026-01-25 01:06 UTC_
 
 Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./awesome-ai-cli-tools.md)
 
@@ -18,13 +18,13 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 
 ### GitHub Copilot ✈️
 - **Description**: The industry standard for completion and chat.
-- **Key Features**: Multi-line completion, inline chat, **Agent Mode** (v1.108 stable Jan 8), **Agent Skills** (`SKILL.md`), autonomous multi-file edits, self-healing.
-- **Latest Version**: v1.108+ (Jan 2026)
+- **Key Features**: Multi-line completion, inline chat, **Agent Mode** (autonomous development partner with MCP server support, multi-file edits, browser-in-loop capabilities, long context handling, complex task planning and execution), **Agent Skills** (`SKILL.md`), autonomous multi-file edits, self-healing.
+- **Latest Version**: v1.108+ (Feb 2025 preview, Mar 2025 stable)
 - **Support**: VS Code, JetBrains, Visual Studio, Vim.
 - **Pricing**: Subscription.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-21
-- **Sources**: https://github.com/features/copilot
+- **Verified**: 2026-01-25T01:06:00.000Z
+- **Sources**: https://github.com/features/copilot, https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode, https://devops.com/github-copilot-evolves-agent-mode-and-multi-model-support-transform-devops-workflows-2/
 
 ### Supermaven ⚡
 - **Description**: 1M context window completions with ultra-low latency.
@@ -33,7 +33,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, JetBrains, Neovim.
 - **Pricing**: Freemium.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:06:00.000Z
 - **Sources**: https://supermaven.com
 
 ### Codeium 🚀
@@ -43,7 +43,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, JetBrains, Vim, Eclipse, Web Editors (Chrome Extension).
 - **Pricing**: Free (Individuals); Enterprise.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:06:00.000Z
 - **Sources**: https://codeium.com
 
 ### Continue ⏩
@@ -53,7 +53,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, JetBrains.
 - **Pricing**: Free (Open Source).
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:06:00.000Z
 - **Sources**: https://continue.dev
 
 ### Cody (Sourcegraph) 🔍
@@ -63,7 +63,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, JetBrains, Web Design (Sourcegraph.com).
 - **Pricing**: Free tier; Enterprise.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:06:00.000Z
 - **Sources**: https://sourcegraph.com/cody
 
 ### Tabnine 🤖
@@ -73,7 +73,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, JetBrains, Visual Studio, Eclipse.
 - **Pricing**: Free (Basic); Pro; Enterprise.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:06:00.000Z
 - **Sources**: https://tabnine.com
 
 ### Blackbox AI 📦
@@ -83,7 +83,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code.
 - **Pricing**: Free tier; Subscription.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:06:00.000Z
 - **Sources**: https://www.blackbox.ai
 
 ### Bito AI 🧬
@@ -93,7 +93,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, JetBrains, CLI.
 - **Pricing**: Free; Team plans.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:06:00.000Z
 - **Sources**: https://bito.ai
 
 ### Mutable.ai 🔮
@@ -103,7 +103,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, JetBrains, Jupyter.
 - **Pricing**: Free trial; Subscription.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:06:00.000Z
 - **Sources**: https://mutable.ai
 
 ### Amazon Q Developer 🛡️
@@ -113,7 +113,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, JetBrains.
 - **Pricing**: Free tier; Pro plans.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:06:00.000Z
 - **Sources**: https://aws.amazon.com/q/developer/
 
 ### Jupyter AI 🪐
@@ -123,7 +123,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: JupyterLab.
 - **Pricing**: Free (Open Source).
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:06:00.000Z
 - **Sources**: https://github.com/jupyterlab/jupyter-ai
 
 ---
@@ -134,13 +134,13 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 
 ### Cline 🧩
 - **Description**: Autonomous coding agent with MCP tool creation.
-- **Key Features**: Browser use, terminal execution, **Skills System** (Jan 2026), MCP integration, human-in-the-loop GUI.
-- **Latest Version**: v3.49.1 (Jan 2026)
+- **Key Features**: Autonomous coding agent for VS Code, capable of creating/editing files, running commands, using browser, and multi-file refactors. Supports artifacts for code generation and self-healing.
+- **Latest Version**: v3.49.1 (Jan 2025)
 - **Support**: VS Code (Open Source).
-- **Pricing**: Free (OSS).
+- **Pricing**: Free extension; usage-based for AI inference credits (Open Source Teams free through Q1 2026)
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-21
-- **Sources**: https://github.com/cline/cline
+- **Verified**: 2026-01-25T01:06:00.000Z
+- **Sources**: https://github.com/cline/cline, https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev, https://cline.bot/pricing
 
 ### RooCode 🦘
 - **Description**: AI coding assistant optimized for complex tasks.
@@ -149,7 +149,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code.
 - **Pricing**: Free (Open Core); Pro.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:06:00.000Z
 - **Sources**: https://roocode.com
 
 ### Keploy 🧪
@@ -159,7 +159,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code, CLI.
 - **Pricing**: Open Source; Enterprise.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:06:00.000Z
 - **Sources**: https://keploy.io
 
 ---
@@ -175,15 +175,25 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: IntelliJ, PyCharm, WebStorm, etc.
 - **Pricing**: Subscription.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:06:00.000Z
 - **Sources**: https://jetbrains.com/ai
+
+### JetBrains Claude Agent 🤖
+- **Description**: Integrated Claude-based agent in JetBrains IDEs.
+- **Key Features**: Built on Anthropic's Agent SDK for advanced coding assistance. Supports multi-file refactors, self-healing code suggestions, and agentic workflows. Includes MCP tools for extensibility.
+- **Latest Version**: Initial Sep 2025, CLion integration Dec 2025
+- **Support**: JetBrains IDEs (IntelliJ, CLion, etc.)
+- **Pricing**: Included in JetBrains AI subscription (Pro: $10/month, Ultimate: $20/month)
+- **Status**: ✅ Active Maintenance
+- **Verified**: 2026-01-25T01:06:00.000Z
+- **Sources**: https://blog.jetbrains.com/ai/2025/09/introducing-claude-agent-in-jetbrains-ides/, https://blog.jetbrains.com/clion/2025/12/2025-3-release/
 
 ### JetBrains Junie (TBA 2025) 🤖
 - **Description**: Upcoming agentic coding companion.
 - **Latest Version**: TBA
 - **Support**: JetBrains IDEs (Planned).
 - **Status**: ✅ Active Development
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:06:00.000Z
 - **Sources**: https://blog.jetbrains.com
 
 ---
@@ -197,7 +207,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code
 - **Pricing**: Free (open-source)
 - **Status**: ✅ Active Development
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:06:00.000Z
 - **Sources**: https://github.com/agent-s3/agent-s3-vscode
 
 ### LaVague VS Code Extension 🌊
@@ -207,7 +217,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI CLI Tools](./a
 - **Support**: VS Code
 - **Pricing**: Free (open-source)
 - **Status**: ✅ Active Development
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:06:00.000Z
 - **Sources**: https://github.com/lavague-ai/LaVague-vscode
 
 ---

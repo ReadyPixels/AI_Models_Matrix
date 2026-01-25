@@ -1,6 +1,6 @@
 # Awesome AI CLI Tools
 
- _Last updated: 2026-01-21 16:13 UTC_
+ _Last updated: 2026-01-25T01:11:00.000Z_
 
 Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awesome-ai-addons.md)
 
@@ -91,7 +91,7 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Supported Platforms**: Windows, macOS, Linux.
 - **Pricing**: Free tier / Enterprise.
 - **Status**: ✅ Active Maintenance
-- **Verified**: 2026-01-21
+- **Verified**: 2026-01-25T01:11:00.000Z
 - **Sources**: https://refact.ai
 
 ---
@@ -182,11 +182,21 @@ Quick link: [Awesome AI IDEs](./awesome-ai-ides.md) | [Awesome AI Add-ons](./awe
 - **Verified**: 2026-01-21
 - **Sources**: https://github.com/lavague-ai/LaVague
 
+### Devin 🤖
+- **Description**: Autonomous agent for software engineering tasks.
+- **Key AI Features**: Autonomous coding agent for software engineering tasks.
+- **Latest Version**: 2025 (Initial Release)
+- **Supported Platforms**: Cross-platform
+- **Pricing**: Varies
+- **Status**: ✅ Active Development
+- **Verified**: 2026-01-25T01:11:00.000Z
+- **Sources**: https://devin.ai
+
 
 ---
 
 ## Methodology
 
-All verification timestamps were refreshed to 2026-01-21 UTC to ensure current validation status of listed CLI tools.
+All verification timestamps were refreshed to 2026-01-25T01:11:00.000Z UTC to ensure current validation status of listed CLI tools.
 
 Made with ❤️ by ReadyPixels LLC
