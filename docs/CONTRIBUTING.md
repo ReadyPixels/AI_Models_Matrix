@@ -34,7 +34,7 @@ When adding a new AI model, please include:
 
 - **Model Name**: Official name and version
 - **Company/Organization**: Who developed it
-- **Release Date**: When it was released (YYYY-MM-DD format)
+- **Release Date**: When it was released (YYYY-MM-DD HH:MM UTC format)
 - **Coding Ability**: Assessment based on benchmarks
 - **Benchmarks**: HumanEval, MMLU, or equivalent scores
 - **Pricing**: Input/output costs per 1M tokens (USD)
@@ -139,7 +139,7 @@ All model entries MUST include:
 
 ### Date Formatting
 
-- Use **YYYY-MM-DD** format (e.g., 2025-10-15)
+- Use **YYYY-MM-DD HH:MM UTC** format (e.g., 2025-10-15 00:00 UTC)
 - Use **YYYY-MM** if exact day unknown (e.g., 2025-10)
 - Use **YYYY** if only year known (e.g., 2025)
 

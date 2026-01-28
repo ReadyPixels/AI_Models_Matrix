@@ -1,6 +1,6 @@
 # AI API Providers
 
- _Last updated: 2026-01-25 00:49 UTC_
+ _Last updated: 2026-01-28 00:16 UTC_
 
 Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./awesome-ai-ides.md)
 
@@ -21,19 +21,19 @@ Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./aw
 
 | Provider | Description | Website | Key Features | Pricing | Latest Version | Status | Verified |
 |----------|-------------|---------|--------------|---------|---------------|--------|----------|
-| **OpenAI** | Creator of GPT models | [platform.openai.com](https://platform.openai.com) | GPT-5, o3/o4-mini, Assistants API | Pay-per-token | N/A | ✅ Active | 2026-01-25 |
-| **Anthropic** | Creator of Claude models | [console.anthropic.com](https://console.anthropic.com) | Claude 4.5 Sonnet, SDK Agents | Pay-per-token | N/A | ✅ Active | 2026-01-25 |
-| **Google AI Studio** | Gemini direct access | [ai.google.dev](https://ai.google.dev) | Gemini 3 Pro Preview/Flash, 1M+ context | Free / Pay | N/A | ✅ Active | 2026-01-25 |
-| **DeepSeek** | DeepSeek Labs | [deepseek.com](https://deepseek.com) | DeepSeek-V4/R1, Interleaved Thinking | Pay-per-token | N/A | ✅ Active | 2026-01-25 |
-| **Mistral AI** | European Open-Weight Leader | [console.mistral.ai](https://console.mistral.ai) | Mistral Large 3, Codestral | Pay-per-token | N/A | ✅ Active | 2026-01-25 |
-| **xAI** | Elon Musk's AI Lab | [x.ai](https://x.ai) | Grok-4 models, real-time web search | Pay-per-token | N/A | ✅ Active | 2026-01-25 |
-| **Cohere** | Enterprise RAG specialists | [cohere.com](https://cohere.com) | Command-R+, Rerank v3 | Pay-per-token | N/A | ✅ Active | 2026-01-25 |
+| **OpenAI** | Creator of GPT models | [platform.openai.com](https://platform.openai.com) | GPT-5, o3/o4-mini, Assistants API | Pay-per-token | N/A | ✅ Active | 2026-01-28 00:16 UTC |
+| **Anthropic** | Creator of Claude models | [console.anthropic.com](https://console.anthropic.com) | Claude 4.5 Sonnet, SDK Agents | Pay-per-token | N/A | ✅ Active | 2026-01-28 00:16 UTC |
+| **Google AI Studio** | Gemini direct access | [ai.google.dev](https://ai.google.dev) | Gemini 3 Pro Preview/Flash, 1M+ context | Free / Pay | N/A | ✅ Active | 2026-01-28 00:16 UTC |
+| **DeepSeek** | DeepSeek Labs | [deepseek.com](https://deepseek.com) | DeepSeek-V4/R1, Interleaved Thinking | Pay-per-token | N/A | ✅ Active | 2026-01-28 00:16 UTC |
+| **Mistral AI** | European Open-Weight Leader | [console.mistral.ai](https://console.mistral.ai) | Mistral Large 3, Codestral | Pay-per-token | N/A | ✅ Active | 2026-01-28 00:16 UTC |
+| **xAI** | Elon Musk's AI Lab | [x.ai](https://x.ai) | Grok-4 models, real-time web search | Pay-per-token | N/A | ✅ Active | 2026-01-28 00:16 UTC |
+| **Cohere** | Enterprise RAG specialists | [cohere.com](https://cohere.com) | Command-R+, Rerank v3 | Pay-per-token | N/A | ✅ Active | 2026-01-28 00:16 UTC |
 
 ### Google AI Studio (Gemini API)
 
 **Overview**: Google's comprehensive AI development platform with Gemini models. Google AI Studio provides a free browser-based environment for prompt design, testing, and structured output validation. The Gemini API offers tiered pricing: Free (limited access), Paid (production-ready with higher limits and advanced features), and Enterprise (custom solutions via Vertex AI). Gemini 3 Pro Preview, launched in January 2026, is Google's most advanced multimodal model for understanding, agentic tasks, and coding.
 
-**Pricing (January 2026)**:
+**Pricing (2026-01)**:
 - **Gemini 1.5 Pro**: $1.25/million input tokens, $5.00/million output tokens
 - **Gemini 3 Pro Preview** (Model Code: `gemini-3-pro-preview`):
   - **Free Tier**: Free input/output tokens (limited model access, content used for product improvement).
@@ -58,7 +58,7 @@ Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./aw
 - Vertex AI compatibility
 - Superior multimodal understanding, agentic reasoning, vibe-coding capabilities, 1M token context, thinking budgets, advanced search grounding.
 
-**Updates as of January 2026**: Launch of Gemini 3 Pro Preview with transparent context-tiered pricing; integration with Google AI Studio for free experimentation; support for tools like Google Search, Maps, and code execution.
+**Updates as of 2026-01**: Launch of Gemini 3 Pro Preview with transparent context-tiered pricing; integration with Google AI Studio for free experimentation; support for tools like Google Search, Maps, and code execution.
 
 **Documentation**: [Google AI for Developers](https://ai.google.dev/gemini-api/docs)
 
@@ -78,8 +78,8 @@ Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./aw
 
 | Provider | Description | Website | Key Features | Pricing | Latest Version | Status | Verified |
 |----------|-------------|---------|--------------|---------|---------------|--------|----------|
-| **OpenRouter** | The widest model selection | [openrouter.ai](https://openrouter.ai) | 200+ models, crypto/fiat, rankings | Aggregated | N/A | ✅ Active | 2026-01-25 |
-| **Hugging Face** | Community Hub Inference | [huggingface.co](https://huggingface.co/inference-api) | Access any OSS model, serverless | Free / Pro | N/A | ✅ Active | 2026-01-25 |
+| **OpenRouter** | The widest model selection | [openrouter.ai](https://openrouter.ai) | 200+ models, crypto/fiat, rankings | Aggregated | N/A | ✅ Active | 2026-01-28 00:16 UTC |
+| **Hugging Face** | Community Hub Inference | [huggingface.co](https://huggingface.co/inference-api) | Access any OSS model, serverless | Free / Pro | N/A | ✅ Active | 2026-01-28 00:16 UTC |
 
 ---
 
@@ -89,12 +89,12 @@ Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./aw
 
 | Provider | Description | Website | Key Features | Pricing | Latest Version | Status | Verified |
 |----------|-------------|---------|--------------|---------|---------------|--------|----------|
-| **Together AI** | Fast inference cloud | [together.ai](https://together.ai) | Llama/Qwen/Mistral tuned stacks | Pay-per-token | N/A | ✅ Active | 2026-01-25 |
-| **Fireworks AI** | Low-latency specialist | [fireworks.ai](https://fireworks.ai) | FireAttention engine, fine-tuning | Pay-per-token | N/A | ✅ Active | 2026-01-25 |
-| **Groq** | LPU Hardware (Wait for it...) | [groq.com](https://groq.com) | Instant output (>500 T/s) | Pay-per-token | N/A | ✅ Active | 2026-01-25 |
-| **Cerebras** | Wafer-Scale Engine | [cerebras.ai](https://cerebras.ai) | Massive throughput (2000 T/s) | Custom | N/A | ✅ Active | 2026-01-25 |
-| **Anyscale** | Ray creators | [anyscale.com](https://anyscale.com) | Scalable production endpoints | Pay-per-token | N/A | ✅ Active | 2026-01-25 |
-| **Modal** | Serverless Python | [modal.com](https://modal.com) | Define infra in code, auto-scale | Pay-per-compute | N/A | ✅ Active | 2026-01-25 |
+| **Together AI** | Fast inference cloud | [together.ai](https://together.ai) | Llama/Qwen/Mistral tuned stacks | Pay-per-token | N/A | ✅ Active | 2026-01-28 00:16 UTC |
+| **Fireworks AI** | Low-latency specialist | [fireworks.ai](https://fireworks.ai) | FireAttention engine, fine-tuning | Pay-per-token | N/A | ✅ Active | 2026-01-28 00:16 UTC |
+| **Groq** | LPU Hardware (Wait for it...) | [groq.com](https://groq.com) | Instant output (>500 T/s) | Pay-per-token | N/A | ✅ Active | 2026-01-28 00:16 UTC |
+| **Cerebras** | Wafer-Scale Engine | [cerebras.ai](https://cerebras.ai) | Massive throughput (2000 T/s) | Custom | N/A | ✅ Active | 2026-01-28 00:16 UTC |
+| **Anyscale** | Ray creators | [anyscale.com](https://anyscale.com) | Scalable production endpoints | Pay-per-token | N/A | ✅ Active | 2026-01-28 00:16 UTC |
+| **Modal** | Serverless Python | [modal.com](https://modal.com) | Define infra in code, auto-scale | Pay-per-compute | N/A | ✅ Active | 2026-01-28 00:16 UTC |
 
 ---
 
@@ -104,12 +104,12 @@ Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./aw
 
 | Provider | Description | Website | Key Features | Pricing | Latest Version | Status | Verified |
 |----------|-------------|---------|--------------|---------|---------------|--------|----------|
-| **Vultr** | Global Cloud | [vultr.com](https://vultr.com) | 32 locations, H100s | Hourly | N/A | ✅ Active | 2026-01-25 |
-| **Nebius** | AI-Centric Cloud | [nebius.com](https://nebius.com) | NVIDIA H200/Blackwell | Competitive | N/A | ✅ Active | 2026-01-25 |
-| **Snova** | AI Cloud | [novita.ai](https://novita.ai) | 100+ models, cheap inference | Pay-as-you-go | N/A | ✅ Active | 2026-01-25 |
-| **Hyperbolic** | Decentralized Network | [hyperbolic.xyz](https://hyperbolic.xyz) | Verifiable AI, shared GPUs | Crypto/Fiat | N/A | ✅ Active | 2026-01-25 |
-| **RunPod** | GPU Rental | [runpod.io](https://runpod.io) | Community cloud, wide GPU selection| Hourly | N/A | ✅ Active | 2026-01-25 |
-| **Replicate** | Model-as-a-Service | [replicate.com](https://replicate.com) | Run anything via API | Pay-per-sec | N/A | ✅ Active | 2026-01-25 |
+| **Vultr** | Global Cloud | [vultr.com](https://vultr.com) | 32 locations, H100s | Hourly | N/A | ✅ Active | 2026-01-28 00:16 UTC |
+| **Nebius** | AI-Centric Cloud | [nebius.com](https://nebius.com) | NVIDIA H200/Blackwell | Competitive | N/A | ✅ Active | 2026-01-28 00:16 UTC |
+| **Snova** | AI Cloud | [novita.ai](https://novita.ai) | 100+ models, cheap inference | Pay-as-you-go | N/A | ✅ Active | 2026-01-28 00:16 UTC |
+| **Hyperbolic** | Decentralized Network | [hyperbolic.xyz](https://hyperbolic.xyz) | Verifiable AI, shared GPUs | Crypto/Fiat | N/A | ✅ Active | 2026-01-28 00:16 UTC |
+| **RunPod** | GPU Rental | [runpod.io](https://runpod.io) | Community cloud, wide GPU selection| Hourly | N/A | ✅ Active | 2026-01-28 00:16 UTC |
+| **Replicate** | Model-as-a-Service | [replicate.com](https://replicate.com) | Run anything via API | Pay-per-sec | N/A | ✅ Active | 2026-01-28 00:16 UTC |
 
 ---
 
@@ -121,7 +121,7 @@ Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./aw
 
 **Overview**: Enterprise-grade Web search API with 35+ billion pages index. Brave Search API provides access to Brave's independent search index (35+ billion pages), offering real-time results for web, news, videos, images, and more. It emphasizes privacy-first infrastructure with low latencies and flexible pricing. Launched in 2023, updated in 2026 with AI Grounding features for enhanced AI applications.
 
-**Pricing (January 2026)**:
+**Pricing (2026-01)**:
 - **Free Tier**: $0.00 (no credit card required); 1 request per second (RPS); 2,000 requests per month.
 - **Base Tier**: $3.00 per 1,000 requests; 20 RPS; 20,000,000 requests per month.
 - **Pro Tier**: $5.00 per 1,000 requests; 50 RPS; Unlimited requests.
@@ -136,7 +136,7 @@ Quick link: [Awesome AI Models](./awesome-ai-models.md) | [Awesome AI IDEs](./aw
 - MCP server integration available
 - Web search, Goggles (custom search filters), News/Video clusters, Images, Schema-enriched results, Infobox, FAQ, Discussions, Locations, Extra snippets for AI, Rights for AI inference and data storage.
 
-**Updates as of January 2026**: Introduction of AI Grounding for better AI performance; expanded endpoints; better data structure for search/AI projects; comparison to Bing API with superior pricing and features.
+**Updates as of 2026-01**: Introduction of AI Grounding for better AI performance; expanded endpoints; better data structure for search/AI projects; comparison to Bing API with superior pricing and features.
 
 **Use Cases**:
 - AI model training data
