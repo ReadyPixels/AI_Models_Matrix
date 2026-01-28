@@ -691,27 +691,30 @@ For working with large codebases:
 
 ### 📊 Self-Hostable Models with Hardware Requirements
 
-> 💡 **Comprehensive table of open-source models with quantized sizes and GPU requirements**
+> 💡 **Comprehensive table of open-source models with quantized sizes and hardware requirements**
 
-| 🤖 Model | 📦 Model Size (GB)<br>Q4 (FP16) | 💻 Hardware Requirements<br>Min / Recommended | 📜 License |
-|---------|-------------------------------|----------------------------------------------|-----------|
-| **DeepSeek-V4** | ~404GB (~1,342GB) | Min: 80GB VRAM<br>Rec: 4x A100 80GB | MIT |
-| **Qwen3-Max-Thinking** | ~600+GB (~2,000+GB) | Min: 160GB VRAM<br>Rec: 8x A100 80GB | Apache 2.0 |
-| **Mistral Large 3** | ~406GB (~1,350GB) | Min: 80GB VRAM<br>Rec: 4x A100 80GB | Apache 2.0 |
-| **Llama 4 Scout** | ~66GB (~218GB) | Min: 48GB VRAM<br>Rec: 2x RTX 4090 or A100 80GB | Meta Community |
-| **DeepSeek-V3.2-Speciale** | ~404GB (~1,342GB) | Min: 80GB VRAM<br>Rec: 4x A100 80GB | MIT |
-| **Llama 4 Maverick** | ~242GB (~800GB) | Min: 160GB VRAM<br>Rec: 4x A100 40GB | Meta Community |
-| **GLM-4.7** | ~248GB (~820GB) | Min: 160GB VRAM<br>Rec: 4x A100 40GB | Open-weight |
-| **Qwen 3 Next** | ~143GB (~476GB) | Min: 80GB VRAM<br>Rec: 2x A100 40GB | Apache 2.0 |
-| **DeepSeek-Coder-V2** | ~143GB (~472GB) | Min: 80GB VRAM<br>Rec: 2x A100 40GB | MIT |
-| **Qwen3-Coder** | ~290GB (~960GB) | Min: 160GB VRAM<br>Rec: 4x A100 40GB | Apache 2.0 |
-| **DeepSeek-R1** | ~404GB (~1,342GB) | Min: 80GB VRAM<br>Rec: 4x A100 80GB | MIT |
+| 🤖 Model | 💾 Download Size (GB)<br>Q4 Quantized | 📦 Model Size FP16 (GB) | 💻 Minimum Requirements<br>(RAM / GPU VRAM) | 💻 Recommended Requirements<br>(RAM / GPU VRAM) | 📜 License |
+|---------|-------------------------------------|------------------------|--------------------------------------------|-----------------------------------------------|-----------|
+| **DeepSeek-V4** | ~404GB | ~1,342GB | 128GB / 80GB | 256GB / 4x A100 80GB | MIT |
+| **Qwen3-Max-Thinking** | ~600GB+ | ~2,000GB+ | 256GB / 160GB | 512GB / 8x A100 80GB | Apache 2.0 |
+| **Mistral Large 3** | ~406GB | ~1,350GB | 128GB / 80GB | 256GB / 4x A100 80GB | Apache 2.0 |
+| **Llama 4 Scout** | ~66GB | ~218GB | 64GB / 48GB | 128GB / 2x RTX 4090 or A100 80GB | Meta Community |
+| **DeepSeek-V3.2-Speciale** | ~404GB | ~1,342GB | 128GB / 80GB | 256GB / 4x A100 80GB | MIT |
+| **Llama 4 Maverick** | ~242GB | ~800GB | 128GB / 160GB | 256GB / 4x A100 40GB | Meta Community |
+| **GLM-4.7** | ~248GB | ~820GB | 128GB / 160GB | 256GB / 4x A100 40GB | Open-weight |
+| **Qwen 3 Next** | ~143GB | ~476GB | 64GB / 80GB | 128GB / 2x A100 40GB | Apache 2.0 |
+| **DeepSeek-Coder-V2** | ~143GB | ~472GB | 64GB / 80GB | 128GB / 2x A100 40GB | MIT |
+| **Qwen3-Coder** | ~290GB | ~960GB | 128GB / 160GB | 256GB / 4x A100 40GB | Apache 2.0 |
+| **DeepSeek-R1** | ~404GB | ~1,342GB | 128GB / 80GB | 256GB / 4x A100 80GB | MIT |
 
 **Notes:**
-- Q4 = 4-bit quantized size (recommended for deployment)
-- FP16 = Full precision size (for reference)
-- VRAM requirements assume Q4 quantization for inference
-- Multi-GPU setups require NVLink or efficient tensor parallelism
+- **Q4 Quantized** = 4-bit quantized size (recommended for deployment, ~70% smaller than FP16)
+- **FP16** = Full precision size (for reference, requires 2x VRAM of Q4)
+- **Download Size** = Actual storage space needed to download the model files
+- **RAM requirements** include overhead for the inference framework and OS
+- **VRAM requirements** assume Q4 quantization for inference; FP16 requires 2x VRAM
+- Multi-GPU setups require NVLink or efficient tensor parallelism for optimal performance
+- MoE (Mixture of Experts) models activate only a subset of parameters per token, improving inference efficiency
 
 ### 🔧 Hardware Requirements by Category
 
