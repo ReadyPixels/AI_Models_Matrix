@@ -689,7 +689,31 @@ For working with large codebases:
 
 ## 🖥️ Self-Hosting Guide
 
-### 🔧 Hardware Requirements
+### 📊 Self-Hostable Models with Hardware Requirements
+
+> 💡 **Comprehensive table of open-source models with quantized sizes and GPU requirements**
+
+| 🤖 Model | 📦 Model Size (GB)<br>Q4 (FP16) | 💻 Hardware Requirements<br>Min / Recommended | 📜 License |
+|---------|-------------------------------|----------------------------------------------|-----------|
+| **DeepSeek-V4** | ~404GB (~1,342GB) | Min: 80GB VRAM<br>Rec: 4x A100 80GB | MIT |
+| **Qwen3-Max-Thinking** | ~600+GB (~2,000+GB) | Min: 160GB VRAM<br>Rec: 8x A100 80GB | Apache 2.0 |
+| **Mistral Large 3** | ~406GB (~1,350GB) | Min: 80GB VRAM<br>Rec: 4x A100 80GB | Apache 2.0 |
+| **Llama 4 Scout** | ~66GB (~218GB) | Min: 48GB VRAM<br>Rec: 2x RTX 4090 or A100 80GB | Meta Community |
+| **DeepSeek-V3.2-Speciale** | ~404GB (~1,342GB) | Min: 80GB VRAM<br>Rec: 4x A100 80GB | MIT |
+| **Llama 4 Maverick** | ~242GB (~800GB) | Min: 160GB VRAM<br>Rec: 4x A100 40GB | Meta Community |
+| **GLM-4.7** | ~248GB (~820GB) | Min: 160GB VRAM<br>Rec: 4x A100 40GB | Open-weight |
+| **Qwen 3 Next** | ~143GB (~476GB) | Min: 80GB VRAM<br>Rec: 2x A100 40GB | Apache 2.0 |
+| **DeepSeek-Coder-V2** | ~143GB (~472GB) | Min: 80GB VRAM<br>Rec: 2x A100 40GB | MIT |
+| **Qwen3-Coder** | ~290GB (~960GB) | Min: 160GB VRAM<br>Rec: 4x A100 40GB | Apache 2.0 |
+| **DeepSeek-R1** | ~404GB (~1,342GB) | Min: 80GB VRAM<br>Rec: 4x A100 80GB | MIT |
+
+**Notes:**
+- Q4 = 4-bit quantized size (recommended for deployment)
+- FP16 = Full precision size (for reference)
+- VRAM requirements assume Q4 quantization for inference
+- Multi-GPU setups require NVLink or efficient tensor parallelism
+
+### 🔧 Hardware Requirements by Category
 
 **Small Models (7-20B parameters):**
 - **GPU:** 1x RTX 3090/4090 (24GB VRAM)
@@ -707,7 +731,7 @@ For working with large codebases:
 - **GPU:** 4x A100 (80GB) or 8x RTX 4090
 - **RAM:** 128GB+
 - **Storage:** 200GB+ SSD
-- **Examples:** GPT-OSS-120B, Pixtral Large
+- **Examples:** GPT-OSS-120B, Pixtral Large, DeepSeek-V4, Qwen3-Max-Thinking, Mistral Large 3, DeepSeek-R1, DeepSeek-V3.2-Speciale, Llama 4 Maverick, GLM-4.7, Qwen3-Coder
 
 ### 📦 Deployment Options
 

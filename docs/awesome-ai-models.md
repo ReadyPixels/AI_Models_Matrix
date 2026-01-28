@@ -6,19 +6,142 @@ _Last updated: 2026-01-28 00:20 UTC_
 
 ## 🏆 Frontier Models (State-of-the-Art)
 
-| Model | Company | Release | Context | Key Features | License | Status | Verified |
-|-------|---------|---------|---------|--------------|---------|--------|----------|
-| **DeepSeek-V4** | DeepSeek | 2026-01 | 128K | Reasoning Core, DSA, Interleaved Thinking | MIT | ✅ Active | 2026-01-28 00:20 UTC |
-| **Qwen3-Max-Thinking** | Alibaba | 2026-01 | 128K | 100% AIME25/HMMT, parallel computation | Apache 2.0 | ✅ Active | 2026-01-28 00:20 UTC |
-| **Gemini 3 Pro** | Google | 2025-11-18 | 1M+ | PhD-level reasoning, agentic tool-use | Proprietary | ✅ Active | 2026-01-28 00:20 UTC |
-| **Gemini 3 Flash** | Google | 2025-12-17 | 10M | Pro-grade reasoning, Flash speed | Proprietary | ✅ Active | 2026-01-28 00:20 UTC |
-| **GPT-5.2-Codex** | OpenAI | 2025-12-18 | 400K | Cybersecurity, long-horizon refactoring | Proprietary | ✅ Active | 2026-01-28 00:20 UTC |
-| **GPT-5.2** | OpenAI | 2025-12-11 | 400K | Thinking & Instant variants, $1.75/1M | Proprietary | ✅ Active | 2026-01-28 00:20 UTC |
-| **GPT-5 mini** | OpenAI | 2025-12 | 128K | Cheap reasoning, $0.25/1M | Proprietary | ✅ Active | 2026-01-28 00:20 UTC |
-| **Mistral Large 3** | Mistral AI | 2025-12-02 | 128K | 675B params, MoE, Open-weight | Apache 2.0 | ✅ Active | 2026-01-28 00:20 UTC |
-| **Claude Opus 4.5** | Anthropic | 2025-11-24 | 200K | Leading reasoning accuracy, effort param | Proprietary | ✅ Active | 2026-01-28 00:20 UTC |
-| **Llama 4 Scout** | Meta | 2025-12 | 10M | Open-weight context king | Community | ✅ Active | 2026-01-28 00:20 UTC |
-| **DeepSeek-V3.2-Speciale** | DeepSeek | 2025-12 | 128K | Maxed-out reasoning, IMO gold | MIT | ✅ Active | 2026-01-28 00:20 UTC |
+| Model | Company | Release | Context | Key Features | License | Model Size (GB) | Hardware Requirements | Status | Verified |
+|-------|---------|---------|---------|--------------|---------|-----------------|----------------------|--------|----------|
+| **DeepSeek-V4** | DeepSeek | 2026-01 | 128K | Reasoning Core, DSA, Interleaved Thinking | MIT | ~404 (Q4) / ~1,342 (FP16) | Min: 80GB VRAM<br>Rec: 4x A100 80GB | ✅ Active | 2026-01-28 00:20 UTC |
+| **Qwen3-Max-Thinking** | Alibaba | 2026-01 | 128K | 100% AIME25/HMMT, parallel computation | Apache 2.0 | ~600+ (Q4) / ~2,000+ (FP16) | Min: 160GB VRAM<br>Rec: 8x A100 80GB | ✅ Active | 2026-01-28 00:20 UTC |
+| **Gemini 3 Pro** | Google | 2025-11-18 | 1M+ | PhD-level reasoning, agentic tool-use | Proprietary | N/A | Cloud/API only | ✅ Active | 2026-01-28 00:20 UTC |
+| **Gemini 3 Flash** | Google | 2025-12-17 | 10M | Pro-grade reasoning, Flash speed | Proprietary | N/A | Cloud/API only | ✅ Active | 2026-01-28 00:20 UTC |
+| **GPT-5.2-Codex** | OpenAI | 2025-12-18 | 400K | Cybersecurity, long-horizon refactoring | Proprietary | N/A | Cloud/API only | ✅ Active | 2026-01-28 00:20 UTC |
+| **GPT-5.2** | OpenAI | 2025-12-11 | 400K | Thinking & Instant variants, $1.75/1M | Proprietary | N/A | Cloud/API only | ✅ Active | 2026-01-28 00:20 UTC |
+| **GPT-5 mini** | OpenAI | 2025-12 | 128K | Cheap reasoning, $0.25/1M | Proprietary | N/A | Cloud/API only | ✅ Active | 2026-01-28 00:20 UTC |
+| **Mistral Large 3** | Mistral AI | 2025-12-02 | 128K | 675B params, MoE, Open-weight | Apache 2.0 | ~406 (Q4) / ~1,350 (FP16) | Min: 80GB VRAM<br>Rec: 4x A100 80GB | ✅ Active | 2026-01-28 00:20 UTC |
+| **Claude Opus 4.5** | Anthropic | 2025-11-24 | 200K | Leading reasoning accuracy, effort param | Proprietary | N/A | Cloud/API only | ✅ Active | 2026-01-28 00:20 UTC |
+| **Llama 4 Scout** | Meta | 2025-12 | 10M | Open-weight context king | Community | ~66 (Q4) / ~218 (FP16) | Min: 48GB VRAM<br>Rec: 2x RTX 4090 or A100 80GB | ✅ Active | 2026-01-28 00:20 UTC |
+| **DeepSeek-V3.2-Speciale** | DeepSeek | 2025-12 | 128K | Maxed-out reasoning, IMO gold | MIT | ~404 (Q4) / ~1,342 (FP16) | Min: 80GB VRAM<br>Rec: 4x A100 80GB | ✅ Active | 2026-01-28 00:20 UTC |
+
+### DeepSeek-V4 Hardware Requirements
+
+**Model Size (GB):**
+- Full precision (FP16/BF16): ~1,342 GB (671B parameters)
+- Q4_K_M quantized: ~404 GB
+- Q8_0 quantized: ~707 GB
+
+**RAM Requirements:**
+- Minimum RAM: 512 GB (with Q4_K_M, CPU inference)
+- Recommended RAM: 1 TB+ (for FP16/BF16)
+
+**GPU Requirements:**
+- Minimum GPU VRAM: 80 GB (single A100/H100 with Q4_K_M, offload)
+- Recommended GPU VRAM: 320 GB (4x A100 80GB or 2x H100 80GB)
+- Multi-GPU support: Yes, tensor parallelism supported via vLLM, llama.cpp, SGLang
+
+**CPU Inference:**
+- Possible: Yes, but very slow
+- Minimum CPU: 64+ cores (AMD EPYC or Intel Xeon), AVX-512 support recommended
+
+**Disk Space:**
+- Approximate download: 404 GB (Q4_K_M), 707 GB (Q8_0)
+
+---
+
+### Qwen3-Max-Thinking Hardware Requirements
+
+**Model Size (GB):**
+- Full precision (FP16/BF16): ~2,000+ GB (1T+ parameters)
+- Q4_K_M quantized: ~600+ GB
+- Q8_0 quantized: ~1,100+ GB
+
+**RAM Requirements:**
+- Minimum RAM: 768 GB (with Q4_K_M, CPU inference)
+- Recommended RAM: 1.5 TB+
+
+**GPU Requirements:**
+- Minimum GPU VRAM: 160 GB (2x A100 80GB with Q4_K_M)
+- Recommended GPU VRAM: 640 GB (8x A100 80GB or 4x H100 80GB)
+- Multi-GPU support: Yes, required for practical inference
+
+**CPU Inference:**
+- Possible: Yes, but extremely slow (not recommended for production)
+- Minimum CPU: 128+ cores, DDR5 memory recommended
+
+**Disk Space:**
+- Approximate download: 600+ GB (Q4_K_M)
+
+---
+
+### Mistral Large 3 Hardware Requirements
+
+**Model Size (GB):**
+- Full precision (FP16/BF16): ~1,350 GB (675B parameters, MoE)
+- Q4_K_M quantized: ~406 GB
+- Q8_0 quantized: ~712 GB
+
+**RAM Requirements:**
+- Minimum RAM: 512 GB (with Q4_K_M)
+- Recommended RAM: 1 TB+
+
+**GPU Requirements:**
+- Minimum GPU VRAM: 80 GB (single A100 80GB with Q4_K_M, offload)
+- Recommended GPU VRAM: 320 GB (4x A100 80GB)
+- Multi-GPU support: Yes, via tensor parallelism
+
+**CPU Inference:**
+- Possible: Yes
+- Minimum CPU: 64+ cores, AVX-512 support
+
+**Disk Space:**
+- Approximate download: 406 GB (Q4_K_M), 712 GB (Q8_0)
+
+---
+
+### Llama 4 Scout Hardware Requirements
+
+**Model Size (GB):**
+- Full precision (FP16/BF16): ~218 GB (109B parameters estimated)
+- Q4_K_M quantized: ~66 GB
+- Q8_0 quantized: ~115 GB
+
+**RAM Requirements:**
+- Minimum RAM: 96 GB (with Q4_K_M)
+- Recommended RAM: 128 GB+ (for Q8_0 or FP16)
+
+**GPU Requirements:**
+- Minimum GPU VRAM: 48 GB (single A6000 or RTX 4090 with Q4_K_M)
+- Recommended GPU VRAM: 80 GB (single A100 80GB for Q8_0)
+- Multi-GPU support: Yes, 2x RTX 4090 (48GB) works well
+
+**CPU Inference:**
+- Possible: Yes, viable for Q4_K_M
+- Minimum CPU: 32+ cores, AVX2 support minimum
+
+**Disk Space:**
+- Approximate download: 66 GB (Q4_K_M), 115 GB (Q8_0)
+
+---
+
+### DeepSeek-V3.2-Speciale Hardware Requirements
+
+**Model Size (GB):**
+- Full precision (FP16/BF16): ~1,342 GB (671B parameters, MoE)
+- Q4_K_M quantized: ~404 GB
+- Q8_0 quantized: ~707 GB
+
+**RAM Requirements:**
+- Minimum RAM: 512 GB (with Q4_K_M, CPU inference)
+- Recommended RAM: 1 TB+
+
+**GPU Requirements:**
+- Minimum GPU VRAM: 80 GB (single A100 80GB with Q4_K_M, offload)
+- Recommended GPU VRAM: 320 GB (4x A100 80GB or 2x H100 80GB)
+- Multi-GPU support: Yes, tensor parallelism supported
+
+**CPU Inference:**
+- Possible: Yes, but very slow
+- Minimum CPU: 64+ cores, AVX-512 support recommended
+
+**Disk Space:**
+- Approximate download: 404 GB (Q4_K_M), 707 GB (Q8_0)
 
 ## 🧠 Advanced Reasoning Models (2024-2025)
 
@@ -33,6 +156,29 @@ _Last updated: 2026-01-28 00:20 UTC_
 - **Official Site**: [🔗](https://qwen.ai/)
 - **Status**: ✅ Active
 - **Verified**: 2026-01-28 00:20 UTC
+
+#### Hardware Requirements
+
+**Model Size (GB):**
+- Full precision (FP16/BF16): ~2,000+ GB (1T+ parameters)
+- Q4_K_M quantized: ~600+ GB
+- Q8_0 quantized: ~1,100+ GB
+
+**RAM Requirements:**
+- Minimum RAM: 768 GB (with Q4_K_M, CPU inference)
+- Recommended RAM: 1.5 TB+
+
+**GPU Requirements:**
+- Minimum GPU VRAM: 160 GB (2x A100 80GB with Q4_K_M)
+- Recommended GPU VRAM: 640 GB (8x A100 80GB or 4x H100 80GB)
+- Multi-GPU support: Yes, required for practical inference
+
+**CPU Inference:**
+- Possible: Yes, but extremely slow
+- Minimum CPU: 128+ cores, DDR5 memory recommended
+
+**Disk Space:**
+- Approximate download: 600+ GB (Q4_K_M)
 
 ### Gemini 3 Pro ⭐ (Latest: Nov 2025)
 - **Developer**: Google DeepMind
@@ -77,24 +223,137 @@ _Last updated: 2026-01-28 00:20 UTC_
     - *Note*: Native multimodal, 10M context standard for RAG.
     - *Status*: ✅ Active
     - *Verified*: 2026-01-28 00:20 UTC
+
+    #### Hardware Requirements
+
+    **Llama 4 Scout:**
+    - **Model Size (GB):**
+      - Full precision (FP16/BF16): ~218 GB (109B parameters)
+      - Q4_K_M quantized: ~66 GB
+      - Q8_0 quantized: ~115 GB
+    - **RAM Requirements:**
+      - Minimum RAM: 96 GB (Q4_K_M)
+      - Recommended RAM: 128 GB+
+    - **GPU Requirements:**
+      - Minimum GPU VRAM: 48 GB (A6000 or RTX 4090 with Q4_K_M)
+      - Recommended GPU VRAM: 80 GB (A100 80GB)
+      - Multi-GPU support: Yes, 2x RTX 4090 viable
+    - **CPU Inference:** Possible, 32+ cores recommended
+    - **Disk Space:** ~66 GB (Q4_K_M)
+
+    **Llama 4 Maverick:**
+    - **Model Size (GB):**
+      - Full precision (FP16/BF16): ~800 GB (400B parameters)
+      - Q4_K_M quantized: ~242 GB
+      - Q8_0 quantized: ~424 GB
+    - **RAM Requirements:**
+      - Minimum RAM: 320 GB (Q4_K_M)
+      - Recommended RAM: 512 GB+
+    - **GPU Requirements:**
+      - Minimum GPU VRAM: 160 GB (2x A100 80GB with Q4_K_M)
+      - Recommended GPU VRAM: 320 GB (4x A100 80GB)
+      - Multi-GPU support: Yes, required
+    - **CPU Inference:** Possible but slow, 64+ cores
+    - **Disk Space:** ~242 GB (Q4_K_M)
+
 - **GLM-4.7** (Zhipu AI)
     - *Specs*: 400B+ MoE, Enterprise focus
     - *License*: Open-weight
     - *Note*: Launched Dec 2025. Enhanced multilingual and tool-use.
     - *Status*: ✅ Active
     - *Verified*: 2026-01-28 00:20 UTC
+
+    #### Hardware Requirements
+
+    **Model Size (GB):**
+    - Full precision (FP16/BF16): ~820 GB (410B parameters, MoE)
+    - Q4_K_M quantized: ~248 GB
+    - Q8_0 quantized: ~435 GB
+
+    **RAM Requirements:**
+    - Minimum RAM: 320 GB (Q4_K_M)
+    - Recommended RAM: 512 GB+
+
+    **GPU Requirements:**
+    - Minimum GPU VRAM: 160 GB (2x A100 80GB with Q4_K_M)
+    - Recommended GPU VRAM: 320 GB (4x A100 80GB)
+    - Multi-GPU support: Yes, tensor parallelism supported
+
+    **CPU Inference:**
+    - Possible: Yes
+    - Minimum CPU: 64+ cores
+
+    **Disk Space:**
+    - Approximate download: 248 GB (Q4_K_M), 435 GB (Q8_0)
+
 - **Mistral Large 3** (Mistral AI)
     - *Specs*: 675B (MoE)
     - *License*: Apache 2.0
     - *Note*: Released Dec 2, 2025. Top-tier open model.
     - *Status*: ✅ Active
     - *Verified*: 2026-01-28 00:20 UTC
+
+    #### Hardware Requirements
+
+    **Model Size (GB):**
+    - Full precision (FP16/BF16): ~1,350 GB (675B parameters, MoE)
+    - Q4_K_M quantized: ~406 GB
+    - Q8_0 quantized: ~712 GB
+
+    **RAM Requirements:**
+    - Minimum RAM: 512 GB (Q4_K_M)
+    - Recommended RAM: 1 TB+
+
+    **GPU Requirements:**
+    - Minimum GPU VRAM: 80 GB (single A100 80GB with Q4_K_M, offload)
+    - Recommended GPU VRAM: 320 GB (4x A100 80GB)
+    - Multi-GPU support: Yes, via tensor parallelism
+
+    **CPU Inference:**
+    - Possible: Yes
+    - Minimum CPU: 64+ cores, AVX-512 support
+
+    **Disk Space:**
+    - Approximate download: 406 GB (Q4_K_M), 712 GB (Q8_0)
+
 - **Qwen 3 (Max/Next/Thinking)** (Alibaba)
     - *Specs*: 1T+ (Max), Integrated Code Interpreter
     - *License*: Apache 2.0 (Next), API (Max)
     - *Note*: First Chinese model with 100% AIME25 score.
     - *Status*: ✅ Active
     - *Verified*: 2026-01-28 00:20 UTC
+
+    #### Hardware Requirements
+
+    **Qwen 3 Max/Thinking:**
+    - **Model Size (GB):**
+      - Full precision (FP16/BF16): ~2,000+ GB (1T+ parameters)
+      - Q4_K_M quantized: ~600+ GB
+      - Q8_0 quantized: ~1,100+ GB
+    - **RAM Requirements:**
+      - Minimum RAM: 768 GB (Q4_K_M)
+      - Recommended RAM: 1.5 TB+
+    - **GPU Requirements:**
+      - Minimum GPU VRAM: 160 GB (2x A100 80GB)
+      - Recommended GPU VRAM: 640 GB (8x A100 80GB)
+      - Multi-GPU support: Yes, required
+    - **CPU Inference:** Possible but extremely slow, 128+ cores
+    - **Disk Space:** ~600+ GB (Q4_K_M)
+
+    **Qwen 3 Next:**
+    - **Model Size (GB):**
+      - Full precision (FP16/BF16): ~472 GB (236B parameters estimated)
+      - Q4_K_M quantized: ~143 GB
+      - Q8_0 quantized: ~250 GB
+    - **RAM Requirements:**
+      - Minimum RAM: 192 GB (Q4_K_M)
+      - Recommended RAM: 256 GB+
+    - **GPU Requirements:**
+      - Minimum GPU VRAM: 80 GB (A100 80GB)
+      - Recommended GPU VRAM: 160 GB (2x A100 80GB)
+      - Multi-GPU support: Yes
+    - **CPU Inference:** Possible, 48+ cores
+    - **Disk Space:** ~143 GB (Q4_K_M)
 
 ### 💻 Coding Specialized
 - **GPT-5.2-Codex** (OpenAI)
@@ -108,11 +367,59 @@ _Last updated: 2026-01-28 00:20 UTC_
     - *Focus*: 236B params, MoE, beats GPT-4 Turbo in coding.
     - *Status*: ✅ Active
     - *Verified*: 2026-01-28 00:20 UTC
+
+    #### Hardware Requirements
+
+    **Model Size (GB):**
+    - Full precision (FP16/BF16): ~472 GB (236B parameters, MoE)
+    - Q4_K_M quantized: ~143 GB
+    - Q8_0 quantized: ~250 GB
+
+    **RAM Requirements:**
+    - Minimum RAM: 192 GB (Q4_K_M)
+    - Recommended RAM: 256 GB+
+
+    **GPU Requirements:**
+    - Minimum GPU VRAM: 48 GB (RTX A6000 with Q4_K_M)
+    - Recommended GPU VRAM: 80 GB (A100 80GB) or 2x RTX 4090
+    - Multi-GPU support: Yes
+
+    **CPU Inference:**
+    - Possible: Yes, viable for Q4_K_M
+    - Minimum CPU: 32+ cores
+
+    **Disk Space:**
+    - Approximate download: 143 GB (Q4_K_M), 250 GB (Q8_0)
+
 - **Qwen3-Coder** (Alibaba)
     - *License*: Apache 2.0
     - *Focus*: 480B params, autonomous dev capabilities.
     - *Status*: ✅ Active
     - *Verified*: 2026-01-28 00:20 UTC
+
+    #### Hardware Requirements
+
+    **Model Size (GB):**
+    - Full precision (FP16/BF16): ~960 GB (480B parameters)
+    - Q4_K_M quantized: ~290 GB
+    - Q8_0 quantized: ~510 GB
+
+    **RAM Requirements:**
+    - Minimum RAM: 384 GB (Q4_K_M)
+    - Recommended RAM: 512 GB+
+
+    **GPU Requirements:**
+    - Minimum GPU VRAM: 160 GB (2x A100 80GB with Q4_K_M)
+    - Recommended GPU VRAM: 320 GB (4x A100 80GB)
+    - Multi-GPU support: Yes, required
+
+    **CPU Inference:**
+    - Possible: Yes
+    - Minimum CPU: 64+ cores
+
+    **Disk Space:**
+    - Approximate download: 290 GB (Q4_K_M), 510 GB (Q8_0)
+
 - **Nemotron 3 Nano** (NVIDIA)
     - *Release*: 2025-12
     - *Specs*: 1M context, high accuracy in coding/math.
@@ -132,17 +439,89 @@ _Last updated: 2026-01-28 00:20 UTC_
     - *Focus*: Pure RL-based reasoning model.
     - *Status*: ✅ Active
     - *Verified*: 2026-01-28 00:20 UTC
+
+    #### Hardware Requirements
+
+    **Model Size (GB):**
+    - Full precision (FP16/BF16): ~1,342 GB (671B parameters, MoE, based on V3 architecture)
+    - Q4_K_M quantized: ~404 GB
+    - Q8_0 quantized: ~707 GB
+
+    **RAM Requirements:**
+    - Minimum RAM: 512 GB (Q4_K_M)
+    - Recommended RAM: 1 TB+
+
+    **GPU Requirements:**
+    - Minimum GPU VRAM: 80 GB (single A100 80GB with Q4_K_M, offload)
+    - Recommended GPU VRAM: 320 GB (4x A100 80GB or 2x H100 80GB)
+    - Multi-GPU support: Yes, tensor parallelism supported via vLLM, llama.cpp, SGLang
+
+    **CPU Inference:**
+    - Possible: Yes, but very slow
+    - Minimum CPU: 64+ cores, AVX-512 support recommended
+
+    **Disk Space:**
+    - Approximate download: 404 GB (Q4_K_M), 707 GB (Q8_0)
+
 - **DeepSeek-V4** (DeepSeek) 🆕
     - *Release*: Jan 2026
     - *Focus*: Reasoning Core architecture, Dynamic Sparse Attention, Interleaved Thinking.
     - *Status*: ✅ Active
     - *Verified*: 2026-01-28 00:20 UTC
+
+    #### Hardware Requirements
+
+    **Model Size (GB):**
+    - Full precision (FP16/BF16): ~1,342 GB (671B parameters)
+    - Q4_K_M quantized: ~404 GB
+    - Q8_0 quantized: ~707 GB
+
+    **RAM Requirements:**
+    - Minimum RAM: 512 GB (Q4_K_M, CPU inference)
+    - Recommended RAM: 1 TB+
+
+    **GPU Requirements:**
+    - Minimum GPU VRAM: 80 GB (single A100 80GB with Q4_K_M, offload)
+    - Recommended GPU VRAM: 320 GB (4x A100 80GB or 2x H100 80GB)
+    - Multi-GPU support: Yes, tensor parallelism supported
+
+    **CPU Inference:**
+    - Possible: Yes, but very slow
+    - Minimum CPU: 64+ cores, AVX-512 support recommended
+
+    **Disk Space:**
+    - Approximate download: 404 GB (Q4_K_M), 707 GB (Q8_0)
+
 - **Qwen3-Max-Thinking** (Alibaba) 🆕
     - *Release*: Jan 2026
     - *Focus*: Parallel test-time computation, math/coding benchmarks. 100% AIME25/HMMT.
     - *Benchmark Scores*: AIME25: 100% | HMMT: 100%
     - *Status*: ✅ Active
     - *Verified*: 2026-01-28 00:20 UTC
+
+    #### Hardware Requirements
+
+    **Model Size (GB):**
+    - Full precision (FP16/BF16): ~2,000+ GB (1T+ parameters)
+    - Q4_K_M quantized: ~600+ GB
+    - Q8_0 quantized: ~1,100+ GB
+
+    **RAM Requirements:**
+    - Minimum RAM: 768 GB (Q4_K_M, CPU inference)
+    - Recommended RAM: 1.5 TB+
+
+    **GPU Requirements:**
+    - Minimum GPU VRAM: 160 GB (2x A100 80GB with Q4_K_M)
+    - Recommended GPU VRAM: 640 GB (8x A100 80GB or 4x H100 80GB)
+    - Multi-GPU support: Yes, required for practical inference
+
+    **CPU Inference:**
+    - Possible: Yes, but extremely slow (not recommended for production)
+    - Minimum CPU: 128+ cores, DDR5 memory recommended
+
+    **Disk Space:**
+    - Approximate download: 600+ GB (Q4_K_M)
+
 - **NVIDIA Nemotron 3 Family** (NVIDIA) 🆕
     - *Release*: Expected H1 2026
     - *Focus*: For agentic AI with Super and Ultra variants.
