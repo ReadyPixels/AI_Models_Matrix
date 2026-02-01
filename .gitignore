@@ -2,6 +2,10 @@
 docs/FIXES_SUMMARY.md
 docs/CHANGELOG.md
 docs/GITIGNORE_SUMMARY.md
+docs/UPDATE_RULES.md
+
+# Plans directory (internal planning documents)
+/plans/
 
 # Operating System files
 .DS_Store

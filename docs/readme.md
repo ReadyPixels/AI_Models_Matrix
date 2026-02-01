@@ -1,952 +1,782 @@
-# Awesome AI Models Matrix — Comprehensive Research Project for AI Model Comparison and IDE Evaluation [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome AI Models Matrix 🧠
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://opensource.org/licenses/GPL-3.0)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--28%2000%3A30%20UTC-green.svg)](https://github.com/your-org/ai-models-matrix)
 
-
-## 📂 Project Files Index
-
-### 📚 Core Matrices
-- [Awesome AI Models](./awesome-ai-models.md) — LLMs & Image Models catalog
-- [AI API Providers](./ai-api-providers.md) — Unified APIs, pricing, rate limits
-
-### 🛠️ Tools & IDEs
-- [Awesome AI IDEs](./awesome-ai-ides.md) — Native & VS Code Fork IDEs
-- [Awesome AI CLI Tools](./awesome-ai-cli-tools.md) — Agents & Terminal Tools
-- [Awesome AI Add-ons](./awesome-ai-addons.md) — Plugins for VS Code/JetBrains
-
-### 🤖 Automation
-- [Awesome Browser Automation](./awesome-browser-automation.md) — Browsers & Scrapers
-- [Awesome Desktop Automation](./awesome-desktop-automation.md) — RPA & Computer Use
-
-### ℹ️ Meta
-- [CONTRIBUTING](./CONTRIBUTING.md) — How to update this matrix
-
-## Contents
-
-- [🎯 About This Matrix](#-about-this-matrix)
-- [🧠 Understanding LLMs](#-understanding-llms)
-- [🆕 Latest Updates](#-latest-updates)
-- [📊 Model Comparison Tables](#-model-comparison-tables)
-  - [🔄 Sort by Latest Update](#-sort-by-latest-update)
-  - [🏢 Sort by Company](#-sort-by-company)
-  - [🖥️ Sort by Self-Hosting](#️-sort-by-self-hosting)
-  - [💰 Sort by Price](#-sort-by-price)
-- [🎯 Models by Category](#-models-by-category)
-- [💻 Coding Models Deep Dive](#-coding-models-deep-dive)
-- [🔗 Official Resources](#-official-resources)
-- [📈 Performance Benchmarks](#-performance-benchmarks)
-- [💰 Cost Analysis](#-cost-analysis)
-- [🖥️ Self-Hosting Guide](#️-self-hosting-guide)
-- [🔍 Model Selection Guide](#-model-selection-guide)
-- [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
-
-
-> 🚀 A curated awesome list of top AI models and Large Language Models (LLMs) with comprehensive specifications, benchmarks, pricing, and official resources.
-
-> **A comprehensive, community-driven resource meticulously curated to help developers, researchers, and organizations navigate the rapidly evolving landscape of artificial intelligence. This matrix provides transparent, up-to-date comparisons of 48+ leading AI models across performance benchmarks, pricing structures, deployment options, and licensing terms.**
->
-> Whether you're building the next breakthrough application, conducting cutting-edge research, or making strategic technology decisions for your enterprise, this guide empowers you with the critical information needed to choose the perfect AI model for your specific needs.
->
-Last updated: 2026-01-28 00:24 UTC
-**Total Models:** 58+ models from 20+ companies
-**Data Sources:** OpenRouter Rankings, LLM-Stats.com, Official Documentation, Artificial Analysis
-
-
+> Comprehensive curated list of AI models, tools, and resources for developers and researchers. From frontier proprietary models to self-hostable open-source alternatives, from AI-powered IDEs to automation frameworks.
 
 ---
 
----
+## Table of Contents
 
-## 🎯 About This Matrix
-
-This matrix provides a **comprehensive overview** of the leading AI models and LLMs available in 2025. Whether you're a 👨‍💻 developer, 🔬 researcher, or 🏢 enterprise decision-maker, this guide helps you understand the capabilities, costs, and trade-offs of each model.
-
-### ✨ What's Included
-
-- 🆕 **Latest Versions** - Up-to-date information on model releases
-- 📊 **Benchmarks** - HumanEval, MMLU, SWE-bench, and other metrics
-- 💰 **Pricing** - Transparent cost information per 1M tokens
-- 🖥️ **Self-Hosting** - Open-source availability and licensing
-- 🔗 **Official Links** - Direct access to documentation and APIs
-- 🎯 **Sortable Tables** - Filter by update date, company, pricing, and more
-
----
-
-## 🧠 Understanding LLMs
-
-### What are Large Language Models?
-
-**Large Language Models (LLMs)** are AI systems trained on vast amounts of text data to understand and generate human-like language. They power applications ranging from 💬 chatbots and 💻 coding assistants to ✍️ content creation and 📊 data analysis.
-
-### 🔑 Key Concepts
-
-- **Parameters** 📏 - The size of the model's neural network (billions or trillions of values)
-- **Context Window** 📖 - How much text the model can process at once (measured in tokens)
-- **Reasoning Models** 🧠 - Models that "think step-by-step" before answering
-- **Multimodal** 🎨 - Models that can process text, images, audio, and video
-- **MoE (Mixture of Experts)** 🎭 - Architecture that activates only relevant parts for efficiency
-- **RAG (Retrieval Augmented Generation)** 🔍 - Enhancing models with external knowledge
-
-### 🌟 Model Generations (2023-2025)
-
-1. **GPT-3.5 Era** (2022-2023) 📱 - Foundation of conversational AI
-2. **GPT-4 Era** (2023-2024) 🎨 - Multimodal capabilities and improved reasoning
-3. **Reasoning Era** (2024-2025) 🧠 - Step-by-step thinking models (o1, R1)
-4. **Unified Era** (2025) ⚡ - Hybrid models combining speed and reasoning
-5. **Open-Source Surge** (2025) 🆓 - GPT-OSS, DeepSeek, Qwen competing with proprietary
+- [Models](#models)
+  - [Frontier Models](#frontier-models)
+  - [Open-Source Models](#open-source-models)
+  - [Coding Models](#coding-models)
+  - [Reasoning Models](#reasoning-models)
+  - [Multimodal Models](#multimodal-models)
+  - [Hardware Requirements](#hardware-requirements)
+- [Development Tools](#development-tools)
+  - [IDEs](#ides)
+  - [CLI Tools](#cli-tools)
+  - [IDE Add-ons](#ide-add-ons)
+  - [API Providers](#api-providers)
+- [Automation](#automation)
+  - [Browser Automation](#browser-automation)
+  - [Desktop Automation](#desktop-automation)
+- [Guides](#guides)
+  - [Getting Started](#getting-started)
+  - [Model Selection Guide](#model-selection-guide)
+  - [Self-Hosting Guide](#self-hosting-guide)
+  - [Cost Analysis](#cost-analysis)
+- [Reference](#reference)
+  - [Glossary](#glossary)
+  - [Comparison Tables](#comparison-tables)
+  - [Data Sources](#data-sources)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-## 🆕 Latest Updates
-
-
-
-**Market Share Data from OpenRouter.ai (Live Usage Stats)*
-
-
-### 🔥 Top Performers (Real-World Usage - OpenRouter Rankings)
-
-| Rank | Model | Company | Highlights | Market Position |
-|------|-------|---------|------------|-----------------|
-| 🥇 #1 | **Grok Code Fast 1** | xAI | Coding specialist | Leading coding model |
-| 🥈 #2 | **Claude Sonnet 4.5** | Anthropic | General purpose | #1 General Use |
-| 🥉 #3 | **Qwen3-Max-Thinking** | Alibaba | Math/Reasoning | 100% AIME25/HMMT ⭐ |
-| #4 | **Gemini 3 Pro** | Google | PhD Reasoning | Enterprise Leader |
-| #5 | **DeepSeek V4** | DeepSeek | Cost efficiency | Top budget choice |
-
-**Market Share by Company (OpenRouter Live Stats - Dec 2025):**
-
-- 🥇 Google: **24.1%** (Gemini 3 Flash/Pro)
-- 🥈 Anthropic: **21.8%** (Claude 4.5/Opus 4.5)
-- 🥉 OpenAI: **18.5%** (GPT-5.2/Codex)
-- 🏅 DeepSeek: **12.3%** (DeepSeek-V3.2)
-- 🏅 Alibaba (Qwen): **10.2%** (Qwen3)
-
----
-
-## 📊 Model Comparison Tables
-
-### 🔄 Sort by Latest Update
-
-> 💡 **Models sorted by most recently updated first** - ⭐ indicates updates within last 30 days
-
-| 🏢 Company | 🤖 Model | 📦 Version | 📅 Release | 🔄 Last Updated | 💻 Coding | 📊 Benchmarks | 💰 Price ($/1M) | 🖥️ Self-Host | 🌟 Usage Rank | 🔗 Link |
-|-----------|---------|----------|-----------|----------------|----------|--------------|----------------|-------------|---------------|---------|
-| 🇨🇳 **Alibaba** | Qwen3-Max-Thinking | 3-Max-Thinking | 2025-09 | **2026-01-28 00:00 UTC** ⭐ | ✅ Excellent | 100% AIME25, 100% HMMT, 92% HumanEval | $1.20 / $6.00 | ❌ | #3 Overall | [🔗](https://qwenlm.github.io) |
-| 🌐 **Google** | Gemini 3 Pro | 3 Pro | 2025-11 | **2026-01-28 00:00 UTC** ⭐ | ✅ Excellent | 1M Context, PhD Reasoning, Agentic | Free tier / Pay-as-you-go | ❌ | #4 Overall | [🔗](https://ai.google.dev) |
-| 🤖 **OpenAI** | GPT-5.2-Codex | 5.2-Codex | 2025-12-18 | **2025-12-18 00:00 UTC** ⭐ | ✅ Best-in-class | Cybersec/Refactoring | API | ❌ | - | [🔗](https://openai.com) |
-| 🌐 **Google** | Gemini 3 | 3 | 2025-12-17 | **2025-12-17 00:00 UTC** ⭐ | ✅ Excellent | 10M Context | API | ❌ | - | [🔗](https://ai.google.dev) |
-| 🤖 **OpenAI** | GPT-5.2 | 5.2 | 2025-12-11 | **2025-12-11 00:00 UTC** ⭐ | ✅ Excellent | 400K Context | API | ❌ | - | [🔗](https://openai.com) |
-| 🤖 **OpenAI** | GPT-5 mini | 5 mini | 2025-12 | **2025-12** ⭐ | ✅ Good | $0.25/1M | API | ❌ | - | [🔗](https://openai.com) |
-| 🏢 **Mistral AI** | Mistral Large 3 | Large 3 | 2025-12-02 | **2025-12-02 00:00 UTC** ⭐ | ✅ Excellent | 675B Params | Varies | ✅ Apache 2.0 | #5 Overall | [🔗](https://mistral.ai) |
-| 🏢 **IBM** | Granite 4.0 | 4.0 Small | 2025-10-03 | **2025-10-03 00:00 UTC** ⭐ | ✅ Good | ~70% / ~75% | 🆓 Free | ✅ Apache 2.0 | - | [🔗](https://www.ibm.com/granite) |
-| 🚀 **xAI** | Grok-3 | Grok-3 | 2025-10 | **2025-10** ⭐ | ✅ Excellent | ~85% / ~87% | $3.00 / $15.00 | ❌ | - | [🔗](https://x.ai) |
-| 🇨🇳 **Zhipu AI** | GLM-4.6 | GLM-4.6 | 2025-09-30 | **2025-09-30 00:00 UTC** ⭐ | ✅ Excellent | ~85% / ~84% | $0.13 / $0.39 | ✅ Open-weight | #4 Tool Calls | [🔗](https://chatglm.cn) |
-| 🔬 **DeepSeek** | DeepSeek-V3.2-Exp | V3.2-Exp | 2025-09-29 | **2025-09-30 00:00 UTC** ⭐ | ✅ Excellent | Experimental DSA | $0.27 / $0.41 | ✅ MIT | #3 Coding | [🔗](https://www.deepseek.com) |
-| 🤖 **Anthropic** | Claude 4.5 Sonnet | Sonnet 4.5 | 2025-09-29 | **2025-09-29 00:00 UTC** ⭐ | ✅ Best-in-class | SWE-bench leader | $3.00 / $15.00 | ❌ | 🥈 #2 Overall | [🔗](https://www.anthropic.com) |
-| 🤖 **OpenAI** | GPT-5 Codex | Codex | 2025-09-23 | **2025-09-23 00:00 UTC** ⭐ | ✅ Best-in-class | Coding-optimized | API pricing | ❌ | [🔗](https://openai.com) |
-| 🪶 **Microsoft** | Phi-4 | Phi-4 | 2024-12 | **2025-09-11 00:00 UTC** ⭐ | ✅ Good | ~70% / ~75% | 🆓 Free | ✅ MIT | [🔗](https://www.microsoft.com/research/) |
-| 🇨🇳 **Alibaba** | Qwen3-Next | Qwen3-Next | 2025-09-10 | **2025-09-10 00:00 UTC** ⭐ | ✅ Good | ~80% / ~84% | Varies | ✅ Apache 2.0 | [🔗](https://qwenlm.github.io) |
-| 🌙 **Moonshot AI** | Kimi K2-0905 | K2-0905 | 2025-09-09 | **2025-09-09 00:00 UTC** ⭐ | ✅ Excellent | 256K context | Varies | ✅ Modified MIT | [🔗](https://kimi.moonshot.cn) |
-| 🇨🇳 **Alibaba** | Qwen3-Max | Qwen3-Max | 2025-09-05 | **2025-09-05 00:00 UTC** ⭐ | ✅ Excellent | ~82% / ~85% | $0.30 / $3.00 | ❌ API-only | [🔗](https://qwenlm.github.io) |
-| 🇪🇺 **Tilde AI** | TildeOpen LLM | 30B | 2025-09-03 | **2025-09-03 00:00 UTC** ⭐ | ✅ Good | EU Languages | 🆓 Free | ✅ Open-source | [🔗](https://tilde.ai) |
-| 🔬 **DeepSeek** | DeepSeek-V3.1 | V3.1 | 2025-08-21 | **2025-08-21 00:00 UTC** | ✅ Excellent | 82%+ / 85%+ | $0.27 / $0.41 | ✅ MIT | [🔗](https://www.deepseek.com) |
-| 💻 **Mistral AI** | Codestral | 2508 | 2025-08 | **2025-08** | ✅ Excellent | Coding-specialized | $0.30 / $0.90 | ❌ | [🔗](https://mistral.ai) |
-| 🤖 **OpenAI** | GPT-5 | GPT-5 | 2025-08-07 | **2025-08-07 00:00 UTC** | ✅ Excellent | ~90%+ / ~92% | $1.25 / $10.00 | ❌ | [🔗](https://openai.com) |
-| 🤖 **Anthropic** | Claude Opus 4.1 | Opus 4.1 | 2025-08-05 | **2025-08-05 00:00 UTC** | ✅ Excellent | ~85%+ / ~85% | $15.00 / $75.00 | ❌ | [🔗](https://www.anthropic.com) |
-| 🆓 **OpenAI** | GPT-OSS-120B | OSS-120B | 2025-08-05 | **2025-08-05 00:00 UTC** | ✅ Excellent | 91.4% / ~89% | 🆓 Free | ✅ Apache 2.0 | [🔗](https://openai.com) |
-| 🆓 **OpenAI** | GPT-OSS-20B | OSS-20B | 2025-08-05 | **2025-08-05 00:00 UTC** | ✅ Good | ~85% / 85.3% | 🆓 Free | ✅ Apache 2.0 | [🔗](https://openai.com) |
-| 🇨🇳 **Alibaba** | Qwen3-Coder | 480B | 2025-07-23 | **2025-07-23 00:00 UTC** | ✅ Excellent | Coding-optimized | 🆓 Free | ✅ Apache 2.0 | [🔗](https://qwenlm.github.io) |
-| 🚀 **xAI** | Grok 4 | Grok 4 | 2025-07-09 | **2025-07-09 00:00 UTC** | ✅ Excellent | ~85% / ~87% | $3.00 / $15.00 | ❌ | [🔗](https://x.ai) |
-| 🇨🇳 **Zhipu AI** | GLM-4.5 | GLM-4.5 | 2025-07 | **2025-07** | ✅ Good | ~82% / ~82% | $0.15 / $0.45 | ✅ Open-weight | [🔗](https://chatglm.cn) |
-| 🌙 **Moonshot AI** | Kimi K2 | K2 | 2025-07 | **2025-07** | ✅ Excellent | ~85% / ~83% | Varies | ✅ Modified MIT | [🔗](https://kimi.moonshot.cn) |
-| 💻 **Mistral AI** | Mixtral 9x7B | 9x7B | 2025-07 | **2025-07** | ✅ Excellent | Coding-specialized | $0.30 / $0.90 | ❌ | - | [🔗](https://mistral.ai) |
-| 💻 **Mistral AI** | Magistral | Magistral | 2025-06 | **2025-06** | ✅ Good | Reasoning | Varies | ❌ | [🔗](https://mistral.ai) |
-| 🏢 **Cohere** | Command-R+ | Command-R+ | 2025-06 | **2025-06** | ✅ Good | Enterprise RAG | Varies | ❌ | - | [🔗](https://cohere.com) |
-| 🔬 **DeepSeek** | DeepSeek-R1 | R1-0528 | 2025-05-28 | **2025-05-28 00:00 UTC** | ✅ Excellent | 81% / 85% | $0.50 / $2.15 | ✅ MIT | [🔗](https://www.deepseek.com) |
-
----
-
-### 🏢 Sort by Company
-
-> 💡 **Models grouped by company/organization**
-
-<details>
-<summary><b>🤖 OpenAI Models (7 models)</b></summary>
-
-
-| Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
-|-------|---------|---------|--------------|--------|------------|-------|-----------|
-| GPT-5.2-Codex | 5.2-Codex | 2025-12-18 | 2025-12-18 00:00 UTC | ✅ Best | Cybersec/Refactor | API | ❌ |
-| GPT-5.2 | 5.2 | 2025-12-11 | 2025-12-11 00:00 UTC | ✅ Excellent | 400K Context | API | ❌ |
-| GPT-5 mini | 5 mini | 2025-12 | 2025-12 | ✅ Good | Cheap ($0.25) | API | ❌ |
-| GPT-5 Codex | Codex | 2025-09-23 | 2025-09-23 00:00 UTC | ✅ Best | Coding-optimized | API | ❌ |
-| GPT-5 | GPT-5 | 2025-08-07 | 2025-08-07 00:00 UTC | ✅ Excellent | ~90%+ / ~92% | $1.25 / $10 | ❌ |
-| 🆓 GPT-OSS-120B | OSS-120B | 2025-08-05 | 2025-08-05 00:00 UTC | ✅ Excellent | 91.4% / ~89% | Free | ✅ Apache 2.0 |
-| 🆓 GPT-OSS-20B | OSS-20B | 2025-08-05 | 2025-08-05 00:00 UTC | ✅ Good | ~85% / 85.3% | Free | ✅ Apache 2.0 |
-| o3 | o3 | 2025-04 | 2025-04 | ✅ Excellent | 85%+ / ~88% | $2.00 / $8 | ❌ |
-| o1-Pro | o1-Pro API | 2025-03 | 2025-03 | ✅ Advanced | Pro reasoning | $150 / $600 | ❌ |
-| o3-Mini | o3-Mini | 2024-12 | 2024-12 | ✅ Good | ~77% / ~87% | $1.10 / $4.40 | ❌ |
-
-</details>
-
-<details>
-<summary><b>🤖 Anthropic Models (3 models)</b></summary>
-
-
-| Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
-|-------|---------|---------|--------------|--------|------------|-------|-----------|
-| Claude Sonnet 4.5 | Sonnet 4.5 | 2025-09-29 | 2025-09-29 00:00 UTC | ✅ Best | SWE-bench leader | $3 / $15 | ❌ |
-| Claude Opus 4.1 | Opus 4.1 | 2025-08-05 | 2025-08-05 00:00 UTC | ✅ Excellent | ~85%+ / ~85% | $15 / $75 | ❌ |
-| Claude 3.7 Sonnet | 3.7 Sonnet | 2025-02-24 | 2025-02-24 00:00 UTC | ✅ Excellent | ~86% / ~84.8% | $3 / $15 | ❌ |
-
-</details>
-
-<details>
-<summary><b>🔬 DeepSeek Models (4 models)</b></summary>
-
-
-| Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
-|-------|---------|---------|--------------|--------|------------|-------|-----------|
-| DeepSeek-V3.2 | V3.2 | 2025-12-01 | 2025-12-01 00:00 UTC | ✅ Excellent | Sparse Attention | MIT | ✅ MIT |
-| DeepSeek-V3.2-Exp | V3.2-Exp | 2025-09-29 | 2025-09-30 00:00 UTC | ✅ Excellent | Experimental DSA | $0.27 / $0.41 | ✅ MIT |
-| DeepSeek-V3.1 | V3.1 | 2025-08-21 | 2025-08-21 00:00 UTC | ✅ Excellent | 82%+ / 85%+ | $0.27 / $0.41 | ✅ MIT |
-| DeepSeek-R1 | R1-0528 | 2025-05-28 | 2025-05-28 00:00 UTC | ✅ Excellent | 81% / 85% | $0.50 / $2.15 | ✅ MIT |
-| 🆓 DeepSeek-Coder-V2 | Coder-V2 | 2024-06 | 2024-06 | ✅ Excellent | Coding specialist | Free | ✅ MIT |
-
-</details>
-
-<details>
-<summary><b>🇨🇳 Alibaba/Qwen Models (5 models)</b></summary>
-
-
-
-| Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
-|-------|---------|---------|--------------|--------|------------|-------|-----------|
-| Qwen3-Next | Qwen3-Next | 2025-09-10 | 2025-09-10 00:00 UTC | ✅ Good | ~80% / ~84% | Varies | ✅ Apache 2.0 |
-| Qwen3-Max | Qwen3-Max | 2025-09-05 | 2025-09-05 00:00 UTC | ✅ Excellent | ~82% / ~85% | $0.30 / $3 | ❌ API |
-| 🆓 Qwen3-Coder | 480B | 2025-07-23 | 2025-07-23 00:00 UTC | ✅ Excellent | Coding-optimized | Free | ✅ Apache 2.0 |
-| 🆓 Qwen2.5-Coder | 32B | 2024-11 | 2024-11 | ✅ Excellent | Coding-focused | Free | ✅ Apache 2.0 |
-| Qwen2.5-Max | 2.5-Max | 2025-01-29 | 2025-01-29 00:00 UTC | ✅ Good | ~80% / ~84% | Varies | ❌ API |
-
-</details>
-
-<details>
-<summary><b>🏢 Cohere Models (2 models)</b></summary>
-
-
-
-| Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
-|-------|---------|---------|--------------|--------|------------|-------|-----------|
-| Command-R+ | Command-R+ | 2025-06 | 2025-06 | ✅ Good | Enterprise RAG | Varies | ❌ |
-| Command A | Command A | 2024 | 2024 | ✅ Good | Enterprise RAG | Varies | ❌ |
-
-</details>
-
-<details>
-<summary><b>🇨🇳 Zhipu AI (Z.ai) Models (2 models)</b></summary>
-
-
-
-| Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
-|-------|---------|---------|--------------|--------|------------|-------|-----------|
-| GLM-4.6 | GLM-4.6 | 2025-09-30 | 2025-09-30 00:00 UTC | ✅ Excellent | ~85% / ~84% | $0.13 / $0.39 | ✅ Open-weight |
-| GLM-4.5 | GLM-4.5 | 2025-07 | 2025-07 | ✅ Good | ~82% / ~82% | $0.15 / $0.45 | ✅ Open-weight |
-
-</details>
-
-<details>
-<summary><b>🌙 Moonshot AI Models (2 models)</b></summary>
-
-
-
-| Model | Version | Release | Last Updated | Coding | Benchmarks | Price | Self-Host |
-|-------|---------|---------|--------------|--------|------------|-------|-----------|
-| Kimi K2-Instruct-0905 | K2-0905 | 2025-09-09 | 2025-09-09 00:00 UTC | ✅ Excellent | 256K context, 1T params (MoE) | Varies | ✅ Modified MIT |
-| Kimi K2 | K2 | 2025-07 | 2025-07 | ✅ Excellent | 128K context, Agentic | Varies | ✅ Modified MIT |
-
-</details>
-
-<details>
-<summary><b>Other Companies (10+ models)</b></summary>
-
-
-
-**🌐 Google DeepMind** - Gemini 3 Flash, Gemini 3 Pro, Gemini 2.5 Pro
-**🚀 xAI** - Grok-3, Grok 4, Grok 4 Fast
-**🦙 Meta** - Llama 4 Maverick, Llama 4 Scout, Llama 3.3, Llama 3.2
-**💻 Mistral AI** - Mistral Large 3, Codestral, Mixtral 9x7B, Magistral
-**🏢 IBM** - Granite 4.0
-**🪶 Microsoft** - Phi-4
-**🇪🇺 Tilde AI** - TildeOpen LLM
-**And more...**
-
-</details>
-
----
-
-### 🖥️ Sort by Self-Hosting
-
-> 💡 **Models filtered by self-hosting capability**
-
-#### ✅ Self-Hostable Models (20+ models)
-
-#### ✅ Self-Hostable Models (2025-2026 Comprehensive)
-
-| Model | Company | Parameters | License | API Price | Last Updated |
-|-------|---------|------------|---------|-----------|--------------|
-| 🆓 **DeepSeek-V4** | DeepSeek | Unknown | MIT | Unknown | 2026-01-08 00:00 UTC |
-| 🆓 **Qwen3-Max-Thinking** | Alibaba | Unknown | Apache 2.0 | $0.30/$3.00 | 2026-01-17 00:00 UTC |
-| 🆓 **Mistral Large 3** | Mistral AI | 675B (MoE) | Apache 2.0 | Varies | 2025-12-02 00:00 UTC |
-| 🆓 **Llama 4 Scout** | Meta | 109B (10M ctx) | Community | Free | 2025-12-15 00:00 UTC |
-| 🆓 **Llama 4 Maverick** | Meta | 400B | Community | Free | 2025-12-15 00:00 UTC |
-| 🆓 **GPT-OSS-120B** | OpenAI | 117B | Apache 2.0 | Free | 2025-08-05 00:00 UTC |
-| 🆓 **GPT-OSS-20B** | OpenAI | 21B | Apache 2.0 | Free | 2025-08-05 00:00 UTC |
-| 🆓 **DeepSeek-V3.2-Exp** | DeepSeek | 671B (37B) | MIT | $0.27/$0.41 | 2025-09-30 00:00 UTC |
-| 🆓 **DeepSeek-V3.1** | DeepSeek | 671B (37B) | MIT | $0.27/$0.41 | 2025-08-21 00:00 UTC |
-| 🆓 **DeepSeek-R1** | DeepSeek | 671B | MIT | $0.50/$2.15 | 2025-05-28 00:00 UTC |
-| 🆓 **Qwen3-Next** | Alibaba | Various | Apache 2.0 | Varies | 2025-09-10 00:00 UTC |
-| 🆓 **Qwen3-Coder** | Alibaba | 480B | Apache 2.0 | Free | 2025-07-23 00:00 UTC |
-| 🆓 **GLM-4.7** | Zhipu AI | 400B+ MoE | Open Weight | Varies | 2025-12-25 00:00 UTC |
-| 🆓 **GLM-4.6** | Zhipu AI | 355B MoE | Open Weight | $0.13/$0.39 | 2025-09-30 00:00 UTC |
-| 🆓 **Kimi K2-0905** | Moonshot | 1T (MoE) | Modified MIT | Varies | 2025-09-09 00:00 UTC |
-| 🆓 **Phi-4** | Microsoft | 14B | MIT | Free | 2025-09-11 00:00 UTC |
-| 🆓 **Granite 4.0** | IBM | 8B-3B | Apache 2.0 | Free | 2025-10-03 00:00 UTC |
-| 🆓 **TildeOpen LLM** | Tilde AI | 30B | Open Source | Free | 2025-09-03 00:00 UTC |
-| 🆓 **Yi-Coder** | 01.AI | 9B/1.5B | Apache 2.0 | Free | 2024-09-05 00:00 UTC |
-| 🆓 **DeepSeek-Coder-V2** | DeepSeek | 236B | MIT | Free | 2024-06-17 00:00 UTC |
-| 🆓 **Qwen2.5-Coder** | Alibaba | 32B | Apache 2.0 | Free | 2024-11-12 00:00 UTC |
-| 🆓 **StarCoder2** | BigCode | 3B-15B | BigCode | Free | 2024-02-28 00:00 UTC |
-| 🆓 **Nemotron-4** | NVIDIA | 340B | Open Model | Free | 2024-06-14 00:00 UTC |
-| 🆓 **Mixtral 8x22B** | Mistral AI | 141B | Apache 2.0 | Varies | 2024-04-10 00:00 UTC |
-
-#### ❌ API-Only Models (Proprietary)
-
-| Model | Company | Pricing | Performance | Last Updated |
-|-------|---------|---------|-------------|--------------|
-| GPT-5 | OpenAI | $1.25 / $10 | Excellent | 2025-08-07 00:00 UTC |
-| GPT-5 Codex | OpenAI | API pricing | Best coding | 2025-09-23 00:00 UTC |
-| Claude Sonnet 4.5 | Anthropic | $3 / $15 | Best coding | 2025-09-29 00:00 UTC |
-| Claude Opus 4.1 | Anthropic | $15 / $75 | Excellent | 2025-08-05 00:00 UTC |
-| Gemini 2.5 Pro | Google | $1.25 / $10 | 99% HumanEval | 2025-01-31 00:00 UTC |
-| Grok 4 | xAI | $3 / $15 | Excellent | 2025-07-09 00:00 UTC |
-| Grok 4 Fast | xAI | $0.20 / $1.50 | Cost-efficient | 2025-09 |
-
----
-
-### 💰 Sort by Price
-
-> 💡 **Models sorted by cost (cheapest first)**
-
-#### 🆓 Free Models (Self-Hostable)
-
-All models in the "Self-Hostable" section above are free to self-host!
-
-#### 💵 Budget-Friendly (< $0.50 per 1M tokens)
-
-| Model | Company | Input | Output | Total (avg) |
-|-------|---------|-------|--------|-------------|
-| 🥇 GLM-4.6 | Zhipu AI | $0.13 | $0.39 | $0.26 |
-| 🥈 Yi-Lightning | 01.AI | $0.14 | $0.42 | $0.28 |
-| 🥉 Grok 4 Fast | xAI | $0.20 | $1.50 | $0.85 |
-| DeepSeek-V3.1/V3.2 | DeepSeek | $0.27 | $0.41 | $0.34 |
-| Gemini 2.5 Flash | Google | $0.30 | $2.50 | $1.40 |
-| Qwen3-Max | Alibaba | $0.30 | $3.00 | $1.65 |
-| Codestral | Mistral AI | $0.30 | $0.90 | $0.60 |
-
-#### 🧠 Best Reasoning Models
-
-| Model | Bench-PhD | Bench-Math | Release |
-|-------|-----------|------------|---------|
-| **Qwen3-Max-Thinking** | 92.4% | 100% AIME25, 100% HMMT ⭐ | Jan 2026 |
-| **Gemini 3 Pro** | 94.6% PhD | 98.2% Math | Nov 2025 |
-| **o3** | 91.2% | 96.5% | Dec 2025 |
-| **DeepSeek-R1** | 88.5% | 94.2% | Dec 2025 |
-
-#### 💰 Mid-Tier ($1 - $5 per 1M tokens)
-
-| Model | Company | Input | Output | Total (avg) |
-|-------|---------|-------|--------|-------------|
-| GPT-5 | OpenAI | $1.25 | $10.00 | $5.63 |
-| Gemini 2.5 Pro | Google | $1.25 | $10.00 | $5.63 |
-| Mistral Medium 3 | Mistral AI | $1.00 | $3.00 | $2.00 |
-| Mistral Large 2 | Mistral AI | $2.00 | $6.00 | $4.00 |
-| o3 | OpenAI | $2.00 | $8.00 | $5.00 |
-| Claude Sonnet 4.5 | Anthropic | $3.00 | $15.00 | $9.00 |
-| Grok 4 | xAI | $3.00 | $15.00 | $9.00 |
-
-#### 💎 Premium (> $5 per 1M tokens)
-
-| Model | Company | Input | Output | Total (avg) |
-|-------|---------|-------|--------|-------------|
-| Claude Opus 4.1 | Anthropic | $15.00 | $75.00 | $45.00 |
-| o1-Pro | OpenAI | $150.00 | $600.00 | $375.00 |
-
----
-
-## 🎯 Models by Category
-
-### 🏆 Frontier Models
-
-The most advanced, cutting-edge models with state-of-the-art capabilities:
-
-- **🥇 Grok Code Fast** (xAI) - **#1 Most Used** - 50% of coding market, 174B tokens
-- **🥈 Claude 4.5 Sonnet** (Anthropic) - **#2 Overall** - Best coding, 35.5B tokens
-- **GPT-5** (OpenAI) - Unified reasoning and multimodal, $1.25/$10
-- **Gemini 2.5 Pro** (Google) - Leading multimodal reasoning, 99% HumanEval
-- **Grok-3** (xAI) - Released October 2025, advanced reasoning
-- **Grok 4** (xAI) - First-principles reasoning, 26.8% company market share
-- **Qwen3-Max** (Alibaba) - 1T+ parameters, ranks 3rd globally
-- **GPT-OSS-120B** (OpenAI) - First open-weight since GPT-2, Apache 2.0
+## Models 🧠
+
+Comprehensive documentation of Large Language Models (LLMs), Small Language Models (SLMs), and specialized AI models available today.
+
+### Frontier Models 🚀
+
+State-of-the-art proprietary AI models with cutting-edge capabilities from leading AI labs.
+
+| Model | Company | Context | Key Features | Pricing |
+|-------|---------|---------|--------------|---------|
+| **DeepSeek-V4** | DeepSeek | 128K | Reasoning Core, DSA, Interleaved Thinking | Pay-per-token |
+| **Qwen3-Max-Thinking** | Alibaba | 128K | 100% AIME25, 100% HMMT | $1.20 / $6.00 |
+| **Gemini 3 Pro** | Google | 1M+ | PhD-level reasoning, agentic tool-use | Tiered pricing |
+| **Gemini 3 Flash** | Google | 10M | Pro-grade reasoning, Flash speed | $0.30 / $2.50 |
+| **GPT-5.2** | OpenAI | 400K | Thinking & Instant variants | $1.75/1M |
+| **GPT-5 mini** | OpenAI | 128K | Cheap reasoning | $0.25/1M |
+| **Mistral Large 3** | Mistral AI | 128K | 675B params, MoE, Open-weight | Varies |
+| **Claude Opus 4.5** | Anthropic | 200K | Leading reasoning accuracy | $15 / $75 |
+| **Claude Sonnet 4.5** | Anthropic | 200K | SWE-bench leader, best coding | $3 / $15 |
+| **Llama 4 Scout** | Meta | 10M | Open-weight context king | Free (self-host) |
+| **Llama 4 Maverick** | Meta | 128K | 400B params, multimodal | Free (self-host) |
+| **Grok 4** | xAI | 128K | First-principles reasoning | $3 / $15 |
+| **Grok 4 Fast** | xAI | 128K | Cost-efficient variant | $0.20 / $1.50 |
+
+#### Top Models by Category
+
+| Category | #1 | #2 | #3 |
+|----------|-----|-----|-----|
+| **Coding** | Claude Sonnet 4.5 | GPT-5 Codex | Grok Code Fast |
+| **Reasoning** | Qwen3-Max-Thinking | o3 | Gemini 3 Pro |
+| **Open Source** | DeepSeek-V4 | Qwen3-Max | Llama 4 |
+| **Cost Efficiency** | DeepSeek-V3.1 | Grok 4 Fast | GLM-4.6 |
+| **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Kimi K2-0905 (256K) |
+
+### Open-Source Models 🆓
+
+Self-hostable models with permissive licenses for privacy, cost control, and customization.
+
+| Model | Company | Params | Context | License |
+|-------|---------|--------|---------|---------|
+| **DeepSeek-V4** | DeepSeek | 671B | 128K | MIT |
+| **Qwen3-Max-Thinking** | Alibaba | 1T+ | 128K | Apache 2.0 |
+| **Mistral Large 3** | Mistral AI | 675B (MoE) | 128K | Apache 2.0 |
+| **Llama 4 Scout** | Meta | 109B | 10M | Community |
+| **Llama 4 Maverick** | Meta | 400B | 128K | Community |
+| **GPT-OSS-120B** | OpenAI | 117B | 128K | Apache 2.0 |
+| **GPT-OSS-20B** | OpenAI | 21B | 128K | Apache 2.0 |
+| **Qwen3-Coder** | Alibaba | 480B | 128K | Apache 2.0 |
+| **GLM-4.7** | Zhipu AI | 400B+ MoE | 128K | Open Weight |
+| **Kimi K2-0905** | Moonshot | 1T (MoE) | 256K | Modified MIT |
+| **Phi-4** | Microsoft | 14B | 128K | MIT |
+| **Granite 4.0** | IBM | 8B-3B | 128K | Apache 2.0 |
+| **DeepSeek-Coder-V2** | DeepSeek | 236B | 128K | MIT |
+| **Yi-Coder** | 01.AI | 9B/1.5B | 128K | Apache 2.0 |
+
+#### Deployment Options
+
+**Local Inference Tools:**
+- **Ollama** - Easy local deployment
+- **LM Studio** - User-friendly GUI
+- **llama.cpp** - Efficient CPU inference
+- **vLLM** - High-throughput serving
+- **SGLang** - Structured generation
+
+**Cloud Deployment:**
+- **Hugging Face Inference** - Managed deployment
+- **AWS SageMaker** - Full control
+- **Google Cloud Vertex** - Integrated
+- **RunPod** - GPU rental
+
+### Coding Models 💻
+
+Specialized AI models optimized for software development tasks.
+
+#### SWE-bench Verified Leaderboard
+
+| Rank | Model | Company | Score |
+|------|-------|---------|-------|
+| 🥇 #1 | **Claude Sonnet 4.5** | Anthropic | SOTA |
+| 🥈 #2 | **GPT-5 Codex** | OpenAI | ~55.6% |
+| 🥉 #3 | **GPT-OSS-120B** | OpenAI | 91.4% AIME |
+| #4 | **Kimi K2-0905** | Moonshot | Excellent |
+| #5 | **Qwen3-Coder** | Alibaba | 480B params |
 
 #### Commercial Coding Models
-- **Claude Sonnet 4.5** (Anthropic) - SWE-bench Verified leader
-- **GPT-5 Codex** (OpenAI) - 7+ hour autonomous coding
-- **Codestral** (Mistral AI) - Low-latency, fill-in-middle
-- **Mixtral 9x7B** (Mistral AI) - Coding-specialized, $0.30/$0.90
-- **Grok 4 Fast** (xAI) - Cost-efficient at $0.20/$1.50
+
+| Model | Developer | Pricing | Best For |
+|-------|-----------|---------|----------|
+| **Claude Sonnet 4.5** | Anthropic | $3 / $15 per 1M | Code review, refactoring |
+| **GPT-5 Codex** | OpenAI | API pricing | 7+ hour autonomy |
+| **Codestral** | Mistral AI | $0.30 / $0.90 | Real-time completion |
+| **Grok Code Fast** | xAI | $0.20 / $1.50 | Most used (50% share) |
 
 #### Open-Source Coding Models
-- **GPT-OSS-120B** (OpenAI) - 91.4% AIME, Apache 2.0
-- **Qwen3-Coder** (Alibaba) - 480B params, autonomous coding
-- **DeepSeek-Coder-V2** (DeepSeek) - 236B params, MIT
-- **Kimi K2-0905** (Moonshot AI) - 256K context, agentic tasks
-- **GLM-4.6** (Zhipu AI) - Real-world coding, $0.13/$0.39
-- **IBM Granite 4.0** - Enterprise-ready, ISO 42001
 
-### 🧠 Reasoning Models
+| Model | Developer | License | Hardware |
+|-------|-----------|---------|----------|
+| **GPT-OSS-120B** | OpenAI | Apache 2.0 | 80-160 GB VRAM |
+| **Qwen3-Coder** | Alibaba | Apache 2.0 | 160-320 GB VRAM |
+| **DeepSeek-Coder-V2** | DeepSeek | MIT | 48-80 GB VRAM |
+| **GLM-4.6** | Zhipu AI | Open Weight | 80-160 GB VRAM |
+| **Phi-4** | Microsoft | MIT | 24-48 GB VRAM |
 
-Models that employ chain-of-thought and step-by-step problem solving:
+### Reasoning Models 🧠
 
-- **o3 / o1-Pro** (OpenAI) - Advanced reasoning with extended thinking
-- **DeepSeek-R1** (DeepSeek) - Open-source reasoning champion, MIT
-- **Claude 3.7 Sonnet** (Anthropic) - Hybrid reasoning model
-- **Magistral** (Mistral AI) - European reasoning model
-- **Qwen3-Max-Thinking** (Alibaba) - 100% AIME25 accuracy
+Models optimized for step-by-step reasoning, mathematical problem-solving, and complex logical inference.
 
-### 🆓 Massive Open-Source Models List (2025-2026)
+#### AIME 2025 Leaderboard
 
-> **All models listed below feature permissive licenses (Apache 2.0, MIT, etc.) or open weights.**
+| Rank | Model | Score | Notes |
+|------|-------|-------|-------|
+| 🥇 #1 | **Qwen3-Max-Thinking** | 100% | Perfect score |
+| 🥈 #2 | **GPT-5 Pro (with tools)** | 100% | With Python tools |
+| 🥉 #3 | **Gemini 3 Pro** | ~98% | Frontier agentic |
+| #4 | **GPT-OSS-120B** | 91.4% | Open-source leader |
+| #5 | **o3** | ~96.5% | OpenAI reasoning |
+| #6 | **DeepSeek-R1** | 81% | Pure RL-based |
 
-| Model | Company | Params | Context | License | Release | Highlights | 🔄 Last Updated |
-|-------|---------|--------|---------|---------|---------|------------|-----------------|
-| **DeepSeek-V4** | DeepSeek | Unknown | 128K | MIT | Jan 2026 | Reasoning Core, DSA | **2026-01-08 00:00 UTC** |
-| **Qwen3-Max-Thinking** | Alibaba | Unknown | 128K | Apache 2.0 | Jan 2026 | 100% AIME25, 100% HMMT | **2026-01-28 00:00 UTC** |
-| **Mistral Large 3** | Mistral AI | 675B (MoE) | 128K | Apache 2.0 | Dec 2025 | Production Grade | **2025-12-02 00:00 UTC** |
-| **Llama 4 Scout** | Meta | 109B | 10M | Community | Dec 2025 | 10M Context King | **2025-12-15 00:00 UTC** |
-| **Llama 4 Maverick** | Meta | 400B | 128K | Community | Dec 2025 | Multimodal | **2025-12-15 00:00 UTC** |
-| **DeepSeek-V3.2-Exp** | DeepSeek | 671B (37B) | 128K | MIT | Sep 2025 | Sparse Attention | **2025-09-30 00:00 UTC** |
-| **DeepSeek-V3.1** | DeepSeek | 671B (37B) | 128K | MIT | Aug 2025 | Cost Efficiency | **2025-08-21 00:00 UTC** |
-| **GPT-OSS-120B** | OpenAI | 117B | 128K | Apache 2.0 | Aug 2025 | First GPT-OSS | **2025-08-05 00:00 UTC** |
-| **GPT-OSS-20B** | OpenAI | 21B | 128K | Apache 2.0 | Aug 2025 | Efficient | **2025-08-05 00:00 UTC** |
-| **Qwen3-Next** | Alibaba | Various | 128K | Apache 2.0 | Sep 2025 | Multilingual | **2025-09-10 00:00 UTC** |
-| **Qwen3-Coder** | Alibaba | 480B | 128K | Apache 2.0 | Jul 2025 | Autonomous Dev | **2025-07-23 00:00 UTC** |
-| **GLM-4.7** | Zhipu AI | 400B+ MoE | 128K | Open Weight | Dec 2025 | Tool Use SOTA | **2025-12-25 00:00 UTC** |
-| **GLM-4.6** | Zhipu AI | 355B MoE | 128K | Open Weight | Sep 2025 | Real-world Coding | **2025-09-30 00:00 UTC** |
-| **Kimi K2-0905** | Moonshot | 1T (MoE) | 256K | Modified MIT | Sep 2025 | Agentic Coding | **2025-09-09 00:00 UTC** |
-| **Phi-4** | Microsoft | 14B | 128K | MIT | Sep 2025 | Compact Reasoning | **2025-09-11 00:00 UTC** |
-| **Granite 4.0** | IBM | 8B-3B | 128K | Apache 2.0 | Oct 2025 | ISO 42001 | **2025-10-03 00:00 UTC** |
-| **TildeOpen LLM** | Tilde AI | 30B | 128K | Open Source | Sep 2025 | European Langs | **2025-09-03 00:00 UTC** |
-| **Yi-Coder** | 01.AI | 9B/1.5B | 128K | Apache 2.0 | Sep 2024 | Local Coding | **2024-09-05 00:00 UTC** |
-| **DeepSeek-Coder-V2** | DeepSeek | 236B | 128K | MIT | Jun 2024 | Coding Specialist | **2024-06-17 00:00 UTC** |
-| **Qwen2.5-Coder** | Alibaba | 32B | 128K | Apache 2.0 | Nov 2024 | Coding Standard | **2024-11-12 00:00 UTC** |
-| **StarCoder2** | BigCode | 3B-15B | 16K | BigCode | 2024 | Community Driven | **2024-02-28 00:00 UTC** |
-| **Nemotron-4** | NVIDIA | 340B | 128K | Open Model | Jun 2024 | Synthetic Data | **2024-06-14 00:00 UTC** |
-| **Mixtral 8x22B** | Mistral AI | 141B | 64K | Apache 2.0 | Apr 2024 | Strong Reasoner | **2024-04-10 00:00 UTC** |
+#### Reasoning Model Details
 
+| Model | Type | Context | Pricing |
+|-------|------|---------|---------|
+| **Qwen3-Max-Thinking** | Reasoning/Coding | 128K | $1.20 / $6.00 |
+| **o3 / o1-Pro** | Reasoning | 128K | $2-150 / $8-600 |
+| **Gemini 3 Pro** | General/Multimodal | 1M+ | $2 / $12 |
+| **DeepSeek-R1** | Reasoning | 128K | $0.50 / $2.15 |
+| **Claude 3.7 Sonnet** | Hybrid | 200K | $3 / $15 |
 
+#### Use Cases
 
+- **Mathematical Problem Solving**: Qwen3-Max-Thinking, GPT-5 Pro, Gemini 3 Pro
+- **Scientific Analysis**: Claude Opus 4.5, GPT-5.2, Gemini 3 Pro
+- **Strategic Planning**: o3/o1-Pro, Claude Sonnet 4.5, DeepSeek-R1
+- **Code Debugging**: Claude Sonnet 4.5, GPT-5 Codex, DeepSeek-V3.2
 
+### Multimodal Models 🎨
 
-### 🎨 Multimodal Models
+Models capable of processing and generating multiple types of content: text, images, audio, and video.
 
-Process text, images, audio, and video:
+#### Leading Multimodal Models
 
-- **GPT-5** (OpenAI) - Unified multimodal interface
-- **Gemini 2.5 Pro/Flash** (Google) - Native multimodal architecture
-- **Claude Sonnet 4.5** (Anthropic) - Vision and document understanding
-- **Pixtral Large** (Mistral AI) - 124B params, image understanding
-- **Llama 4 Maverick** (Meta) - Native multimodality
+| Model | Developer | Context | Key Features |
+|-------|-----------|---------|--------------|
+| **GPT-5** | OpenAI | 400K | Unified multimodal, audio |
+| **Gemini 3 Pro** | Google | 1M+ | Native multimodal, video |
+| **Claude Sonnet 4.5** | Anthropic | 200K | Document understanding |
+| **Llama 4 Maverick** | Meta | 128K | Open multimodal |
 
-### 🎨 Image Generation Models
+#### Vision Capabilities
 
-Models specialized for generating high-quality images from text prompts:
+| Model | MMMU | MathVista | DocVQA |
+|-------|------|-----------|--------|
+| **Gemini 3 Pro** | SOTA | SOTA | SOTA |
+| **GPT-5** | Excellent | Excellent | Excellent |
+| **Claude Sonnet 4.5** | Strong | Strong | Excellent |
+| **Llama 4 Maverick** | Good | Good | Good |
 
-- **Flux.1** (Black Forest Labs) - State-of-the-art open-weights model with exceptional prompt adherence and text rendering. Variants include Flux.1 [dev] (12B parameters, non-commercial license), Flux.1 [schnell] (Apache 2.0, optimized for speed), and Flux.1 [pro] (closed source API). Use cases: high-fidelity art, graphic design, photorealism. Integration: ComfyUI, Forge WebUI, Replicate API. License: Non-Commercial (Dev), Apache 2.0 (Schnell).
+#### Audio & Video
 
-- **Stable Diffusion 3.5** (Stability AI) - Powerful open model series improving upon SD3 Medium. Variants: SD 3.5 Large (8B parameters, flagship quality), SD 3.5 Large Turbo (distilled for speed), SD 3.5 Medium (2.5B parameters, consumer-friendly). Architecture: Multimodal Diffusion Transformer (MMDiT). Use cases: general image generation, fine-tuning with LoRA support, commercial applications. Integration: ComfyUI, SwarmUI, Diffusers library. License: Stability AI Community License.
+| Model | Speech-to-Text | Text-to-Speech | Video Input |
+|-------|----------------|----------------|-------------|
+| **Gemini 3 Pro** | ✅ | ✅ | ✅ |
+| **GPT-5** | ✅ | ✅ | ⚠️ |
+| **Whisper v3** | ✅ | ❌ | ✅ |
 
----
+#### Image Generation
 
-### 🏢 Enterprise Models
-Designed for business and production deployments:
+| Model | Developer | License | Best For |
+|-------|-----------|---------|----------|
+| **Flux.1** | Black Forest Labs | Apache 2.0 | High-fidelity art |
+| **Stable Diffusion 3.5** | Stability AI | Community License | Fine-tuning |
 
-- **Claude Opus 4.1** (Anthropic) - ASL-3 safety, highest capability
-- **Gemini 2.5 Pro** (Google) - Google Cloud integration
-- **Command-R+** (Cohere) - Enterprise RAG, 10+ languages
-- **Command A** (Cohere) - Enterprise RAG, 10+ languages
-- **Jamba 1.6** (AI21 Labs) - Private deployment, hybrid architecture
-- **IBM Granite 4.0** - ISO 42001 certified, auditable
+### Hardware Requirements 🖥️
 
----
+Comprehensive hardware specifications for self-hosting AI models.
 
-## 💻 Coding Models Deep Dive
+#### Quick Reference by Model Size
 
-### 🏆 Best Coding Models by Task
+| Model | Params | Q4 Size | Min VRAM | Rec VRAM | Min RAM |
+|-------|--------|---------|----------|----------|---------|
+| **Phi-4** | 14B | 8 GB | 24 GB | 48 GB | 32 GB |
+| **GPT-OSS-20B** | 21B | 12 GB | 24 GB | 48 GB | 32 GB |
+| **Llama 4 Scout** | 109B | 66 GB | 48 GB | 80 GB | 96 GB |
+| **GPT-OSS-120B** | 117B | 70 GB | 80 GB | 160 GB | 128 GB |
+| **DeepSeek-Coder-V2** | 236B | 143 GB | 48 GB | 80 GB | 192 GB |
+| **Llama 4 Maverick** | 400B | 242 GB | 160 GB | 320 GB | 320 GB |
+| **DeepSeek-V4** | 671B | 404 GB | 80 GB | 320 GB | 512 GB |
+| **Qwen3-Max-Thinking** | 1T+ | 600+ GB | 160 GB | 640 GB | 768 GB |
 
-**Code Generation & Autocomplete:**
-1. 🥇 **Grok Code Fast** (xAI) - **#1 Most Used** - 174B tokens
-2. 🥈 Claude 4.5 Sonnet - Most accurate, #2 overall
-3. 🥉 GPT-5 Codex - Complex algorithms
+#### By Hardware Tier
 
-**Code Review & Refactoring:**
-1. 🥇 Claude 4.5 Sonnet - Industry-leading, 35.5B tokens
-2. 🥈 Grok Code Fast - Real-world proven, 50% market
-3. 🥉 GPT-5 Codex - Large-scale refactoring
+**Consumer/Entry Level (24-48 GB VRAM):**
+- Phi-4, GPT-OSS-20B, Yi-Coder, Qwen2.5-Coder
+- **Recommended GPUs**: RTX 3090 (24GB), RTX 4090 (24GB)
 
-**Debugging & Error Fixing:**
-1. 🥇 Claude 4.5 Sonnet - Clear explanations
-2. 🥈 GPT-5 Codex - Deep analysis
-3. 🥉 DeepSeek-V3.1 - Reasoning-based
+**Professional (80-160 GB VRAM):**
+- Llama 4 Scout, GPT-OSS-120B, DeepSeek-Coder-V2
+- **Recommended GPUs**: A100 80GB, 2x A100 40GB
 
-**Test Generation:**
-1. 🥇 Grok Code Fast - Real-world adoption leader
-2. 🥈 Claude 4.5 Sonnet - Comprehensive coverage
-3. 🥉 Codestral - Purpose-built for testing
+**Enterprise (320+ GB VRAM):**
+- Llama 4 Maverick, GLM-4.7, DeepSeek-V4, Qwen3-Max
+- **Recommended GPUs**: 4x A100 80GB, 8x A100 80GB
 
-**Real-World Usage (OpenRouter Live Data):**
-- **Grok Code Fast dominates** with 50% of coding category
-- **Claude 4.5 Sonnet** is #2 most deployed model
-- **Qwen3-Coder 30B** is #3 in coding workflows
+#### Quantization Explained
 
-### 🏆 Coding Benchmarks (SWE-bench Verified)
-
-1. 🥇 **Claude Sonnet 4.5** - State-of-the-art
-2. 🥈 **GPT-5 Codex** - 7+ hour autonomous coding
-3. 🥉 **GPT-OSS-120B** - 91.4% AIME, open-source leader
-4. **Kimi K2-0905** - Agentic coding excellence
-5. **Qwen3-Coder** - 480B autonomous generation
-6. **DeepSeek-V3.2-Exp** - Sparse attention efficiency
-7. **GLM-4.6** - Real-world tasks
-8. **Grok 4 Fast** - Best cost/performance
-9. **IBM Granite 4.0** - Enterprise-grade
-10. **Phi-4** - Compact reasoning
-
-### 📏 Context Window Comparison
-
-For working with large codebases:
-
-1. 🌙 **Kimi K2-0905** - 256K tokens (≈192K lines)
-2. 🇨🇳 **GLM-4.6** - 200K tokens (≈150K lines)
-3. 🤖 **Claude Sonnet 4.5** - 200K tokens (≈150K lines)
-4. 🇨🇳 **Qwen3-Coder** - 128K tokens (≈96K lines)
-5. 🔬 **DeepSeek-Coder-V2** - 128K tokens (≈96K lines)
+| Level | Bits | Size vs FP16 | Quality | Use Case |
+|-------|------|--------------|---------|----------|
+| **FP16/BF16** | 16 | 100% | Best | Training |
+| **Q8_0** | 8 | ~50% | Excellent | High-quality inference |
+| **Q4_K_M** | 4 | ~25% | Good | Recommended for deployment |
+| **Q3_K_M** | 3 | ~19% | Fair | Limited resources |
 
 ---
 
-## 🔗 Official Resources
+## Development Tools 🛠️
 
-### 🤖 OpenAI
-- **Website:** [openai.com](https://openai.com)
-- **API Docs:** [platform.openai.com](https://platform.openai.com/docs)
-- **Models:** GPT-5, GPT-5 Codex, GPT-OSS-120B/20B, o3, o1-Pro
+AI-powered tools for software development, from IDEs and CLI tools to API providers and IDE extensions.
 
-### 🤖 Anthropic
-- **Website:** [anthropic.com](https://www.anthropic.com)
-- **API Docs:** [docs.anthropic.com](https://docs.anthropic.com)
-- **Models:** Claude Sonnet 4.5, Claude Opus 4.1, Claude 3.7 Sonnet
+### IDEs 💻
 
-### 🌐 Google DeepMind
-- **Website:** [deepmind.google/gemini](https://deepmind.google/technologies/gemini/)
-- **API Docs:** [ai.google.dev](https://ai.google.dev)
-- **Models:** Gemini 2.5 Pro, Gemini 2.5 Flash
+Integrated Development Environments with built-in AI capabilities.
 
-### 🚀 xAI
-- **Website:** [x.ai](https://x.ai)
-- **Chat:** [grok.x.ai](https://grok.x.ai)
-- **Models:** Grok 4, Grok 4 Fast, Grok 3
+#### Agentic IDEs
 
-### 🔬 DeepSeek
-- **Website:** [deepseek.com](https://www.deepseek.com)
-- **GitHub:** [github.com/deepseek-ai](https://github.com/deepseek-ai)
-- **Models:** DeepSeek-R1, V3.1, V3.2-Exp, Coder-V2
+| IDE | Platform | Pricing | Key Features |
+|-----|----------|---------|--------------|
+| **Firebase Studio** | Web | Free | Cloud-based, Gemini, MCP |
+| **Tonkotsu** | Web | Freemium | Team of agents, workflow |
 
-### 🇨🇳 Alibaba/Qwen
-- **Website:** [qwenlm.github.io](https://qwenlm.github.io)
-- **GitHub:** [github.com/QwenLM](https://github.com/QwenLM)
-- **Models:** Qwen3-Max, Qwen3-Next, Qwen3-Coder
+#### Native AI Editors
 
-### 🇨🇳 Zhipu AI (Z.ai)
-- **Website:** [chatglm.cn](https://chatglm.cn)
-- **GitHub:** [github.com/THUDM](https://github.com/THUDM)
-- **Models:** GLM-4.6, GLM-4.5
+| Editor | Platform | Pricing | Key Features |
+|--------|----------|---------|--------------|
+| **Zed** | macOS, Windows, Linux | Free + Copilot | Fast, collaboration, Gemini/Claude |
+| **Dyad** | Windows, macOS, Linux | Free (OSS) | Local generation, BYO keys |
+| **Memex** | macOS, Windows | Freemium | Agentic, browser↔desktop |
+| **Kiro** | Desktop | TBD | Subagents, Claude Opus |
 
-### 🌙 Moonshot AI
-- **Website:** [moonshot.cn](https://www.moonshot.cn)
-- **Chat:** [kimi.moonshot.cn](https://kimi.moonshot.cn)
-- **Kimi K2 Docs:** [moonshotai.github.io/Kimi-K2/](https://moonshotai.github.io/Kimi-K2/) — Verified: 2025-11-14 22:07 UTC
-- **Models:** Kimi K2-0905, Kimi K2
+#### VS Code Forks
 
-### 🦙 Meta AI
-- **Website:** [llama.meta.com](https://llama.meta.com)
-- **GitHub:** [github.com/meta-llama](https://github.com/meta-llama)
-- **Models:** Llama 4 Maverick, Llama 4 Scout
+| IDE | Platform | Pricing | Autonomous | MCP |
+|-----|----------|---------|------------|-----|
+| **Cursor** | Windows, macOS, Linux | Freemium | ✅ | ❌ |
+| **Windsurf** | Windows, macOS, Linux | Freemium | ✅ | ✅ |
+| **Trae** | macOS, Windows | Free | ❌ | ❌ |
+| **PearAI** | Windows, macOS, Linux | Free (OSS) | ✅ | ❌ |
+| **Void** | Windows, macOS, Linux | Free (OSS) | ✅ | ✅ |
+| **Google Antigravity** | Windows, macOS, Linux | Free | ✅ | ❌ |
 
-### 💻 Mistral AI
-- **Website:** [mistral.ai](https://mistral.ai)
-- **Chat:** [chat.mistral.ai](https://chat.mistral.ai)
-- **Models:** Codestral, Magistral, Mistral Large 2, Pixtral Large
+#### Web-Based IDEs
 
-### 🏢 IBM Research
-- **Website:** [ibm.com/granite](https://www.ibm.com/granite)
-- **GitHub:** [github.com/ibm-granite](https://github.com/ibm-granite)
-- **Models:** Granite 4.0
+| Platform | Platform | Self-Hostable | Best For |
+|----------|----------|---------------|----------|
+| **Replit 3** | Web | ❌ | Learning/Prototyping |
+| **Bolt.new** | Web | ❌ | Quick apps |
+| **Bolt.diy** | Self-hosted | ✅ | Self-hosted |
+| **Lovable** | Web | ❌ | UI/Full-stack |
+| **v0** | Web | ❌ | React components |
+| **Gitpod** | Web | ❌ | Cloud dev environments |
 
-### 🪶 Microsoft Research
-- **Website:** [microsoft.com/research](https://www.microsoft.com/en-us/research/)
-- **GitHub:** [github.com/microsoft](https://github.com/microsoft)
-- **Models:** Phi-4
+### CLI Tools 🖥️
 
-### 🇪🇺 Tilde AI
-- **Website:** [tilde.ai](https://tilde.ai)
-- **Hugging Face:** [huggingface.co/tilde-research](https://huggingface.co/tilde-research)
-- **Models:** TildeOpen LLM
+Command-line AI tools for autonomous coding and terminal enhancement.
 
+#### Autonomous Coding Agents
 
+| Tool | Platform | Pricing | Key Features |
+|------|----------|---------|--------------|
+| **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode |
+| **Claude Code** | macOS, Linux, Windows | Free + API | Autonomous, async subagents |
+| **Codex CLI** | Windows, macOS, Linux | Included | Sandbox, approval modes |
+| **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible |
+| **GPT-Pilot** | Windows, macOS, Linux | Free | Full dev team simulation |
+| **OpenHands** | Windows, macOS, Linux | Free | Cloud agents, MCP |
+| **Mentat** | Windows, macOS, Linux | Free | Multi-file coordination |
 
----
+#### Assisted CLI Tools
 
-## 📈 Performance Benchmarks
+| Tool | Developer | Pricing | Best For |
+|------|-----------|---------|----------|
+| **Gemini CLI** | Google | Free | Google ecosystem |
+| **Cursor CLI** | Cursor | Free tier | Terminal + IDE bridge |
+| **Qwen Code** | Alibaba | Free | Qwen optimization |
+| **Qodo CLI** | Qodo | Free tier | Testing and review |
 
-### 🏆 Coding Benchmarks (SWE-bench Verified)
+#### Terminal Enhancers
 
-1. 🥇 **Claude Sonnet 4.5** - State-of-the-art
-2. 🥈 **GPT-5 Codex** - 7+ hour autonomous coding
-3. 🥉 **GPT-OSS-120B** - 91.4% AIME, open-source leader
-4. **Kimi K2-0905** - Agentic coding excellence
-5. **Qwen3-Coder** - 480B autonomous generation
-6. **DeepSeek-V3.2-Exp** - Sparse attention efficiency
-7. **GLM-4.6** - Real-world tasks
-8. **Grok 4 Fast** - Best cost/performance
-9. **IBM Granite 4.0** - Enterprise-grade
-10. **Phi-4** - Compact reasoning
+| Tool | Platform | Pricing | Key Features |
+|------|----------|---------|--------------|
+| **Warp Terminal** | macOS, Linux, Windows | Free | AI Agents, workflow sharing |
+| **Fig** | macOS, Linux | Free | Autocomplete, AI suggestions |
 
-### 🧮 Reasoning Benchmarks (AIME 2025)
+### IDE Add-ons 🧩
 
-1. 🥇 **Qwen3-Max-Thinking** - 100% accuracy (AIME25/HMMT) ⭐
-2. 🥈 **GPT-5 Pro (tools)** - 100% with Python tools enabled (reported)
-3. 🥉 **Gemini 3 Pro** - Frontier agentic reasoning (preview)
-4. **GPT-OSS-120B** - 91.4%
-5. **DeepSeek-R1** - 81%
-6. **Grok 4** - ~85%
+Extensions and plugins that add AI capabilities to existing IDEs.
 
-### 🆕 Latest Updates (2025-2026)
+#### Universal (Cross-Platform)
 
-| Date | Model | Highlights | Verified |
-|------|-------|------------|----------|
-| 2025-11 | **Gemini 3 Pro** | 1M token context window, Deep Think reasoning, agentic capabilities for autonomous coding, PhD-level reasoning ([Google Blog](https://blog.google/products/gemini/gemini-3/), [Gemini API Docs](https://ai.google.dev/gemini-api/docs/gemini-3)) | 2026-01-28 00:24 UTC |
-| 2025-09 | **Qwen3-Max-Thinking** | 1T+ parameters MoE model, 100% AIME25, 100% HMMT, optimized for coding and agentic capabilities ([Qwen Blog](https://qwenlm.github.io/blog/qwen3/), [MarkTechPost](https://www.marktechpost.com/2025/09/24/alibabas-qwen3-max-production-ready-thinking-mode-1t-parameters-and-day-one-coding-agentic-bench-signals/)) | 2026-01-28 00:24 UTC |
-| 2026-01-10 | **GPT-5 Series** | Smartest, fastest, most useful model with thinking built-in | 2026-01-28 00:24 UTC |
-| 2026-01-10 | **Granite 4.0** | Hybrid Mamba-2/transformer with MoE strategy | 2026-01-28 00:24 UTC |
-### 📚 General Knowledge (MMLU) & Intelligence Index (Artificial Analysis Q3 2025)
+| Add-on | Platform | Pricing | Context | Best For |
+|--------|----------|---------|---------|----------|
+| **GitHub Copilot** | VS Code, JetBrains, Vim | $10-19/mo | Large | General coding |
+| **Supermaven** | VS Code, JetBrains, Neovim | $10/mo | 1M | Large codebases |
+| **Codeium** | VS Code, JetBrains, Vim | Free | Medium | Free alternative |
+| **Continue** | VS Code, JetBrains | Free (OSS) | Custom | Self-hosted |
+| **Cody** | VS Code, JetBrains, Web | Free/Enterprise | Enterprise | Code search |
+| **Tabnine** | VS Code, JetBrains, VS, Eclipse | Free/Pro | Local | Privacy |
 
-1. 🥇 **GPT-5** - Highest score on Intelligence Index
-2. 🥈 **o3** - ~88%
-3. 🥉 **Gemini 2.5 Pro** - 86.4%
-4. **DeepSeek-V3.1** - 85%+
-5. **Claude Opus 4.1** - ~85%
+#### VS Code Specific
 
-> **Q3 2025 Highlights:**
-> - **Agentic Capabilities**: Major focus on autonomous systems.
-> - **Visual AI**: Chinese labs leading in video generation.
-> - **Open Weights**: Explosion of new models (OpenAI, DeepSeek, Qwen).
+| Add-on | Pricing | Autonomous | MCP | Best For |
+|--------|---------|------------|-----|----------|
+| **Cline** | Free | ✅ | ✅ | Full agent |
+| **RooCode** | Free/Pro | ⚠️ | ❌ | Complex tasks |
+| **Keploy** | OSS/Enterprise | ❌ | ❌ | Testing |
 
----
+#### JetBrains Specific
 
-## 💰 Cost Analysis
+| Add-on | Pricing | Claude Agent | Best For |
+|--------|---------|--------------|----------|
+| **JetBrains AI Assistant** | $10-20/mo | ✅ | Deep IDE integration |
+| **JetBrains Claude Agent** | Included in subscription | ✅ | Native agent |
 
-### 🆓 Most Affordable Options
+### API Providers 🔌
 
-**Free Self-Hostable (20+ models):**
-- All models in "Self-Hostable" section can be run for FREE!
-- No API costs when self-hosting
-- Just need appropriate hardware
+Services for accessing AI models via API.
 
-**Cheapest Commercial APIs:**
-1. 🥇 **GLM-4.6** - $0.13/$0.39 per 1M tokens
-2. 🥈 **Yi-Lightning** - $0.14/$0.42 per 1M tokens
-3. 🥉 **Grok 4 Fast** - $0.20/$1.50 per 1M tokens
+#### Model Labs (Direct)
 
-### 💎 Best Value (Performance/Cost)
+| Provider | Models | Pricing |
+|----------|--------|---------|
+| **OpenAI** | GPT-5, o3, Codex | Pay-per-token |
+| **Anthropic** | Claude 4.5 | Pay-per-token |
+| **Google AI Studio** | Gemini 3 | Free / Pay |
+| **DeepSeek** | DeepSeek-V4/R1 | Pay-per-token |
+| **Mistral AI** | Mistral Large 3 | Pay-per-token |
+| **xAI** | Grok-4 | Pay-per-token |
 
-1. **DeepSeek-V3.1** - Excellent performance, ultra-low cost
-2. **Grok 4 Fast** - Frontier performance, $0.20/$1.50
-3. **Qwen3-Max** - Top-3 global, $0.30/$3.00
-4. **Gemini 2.5 Flash** - Fast & capable, $0.30/$2.50
-5. **Claude Sonnet 4.5** - Best coding, $3/$15 (reasonable)
+#### Unified APIs & Aggregators
 
----
+| Provider | Models | Key Features |
+|----------|--------|--------------|
+| **OpenRouter** | 200+ | Crypto/fiat, rankings |
+| **Hugging Face** | Thousands | Serverless inference |
 
-## 🖥️ Self-Hosting Guide
+#### Inference Clouds
 
-### 📊 Self-Hostable Models with Hardware Requirements
+| Provider | Specialization | Speed |
+|----------|----------------|-------|
+| **Together AI** | Llama/Qwen/Mistral | Fast |
+| **Fireworks AI** | FireAttention | Low-latency |
+| **Groq** | LPU | >500 T/s |
+| **Cerebras** | Wafer-Scale | >2000 T/s |
 
-> 💡 **Comprehensive table of open-source models with quantized sizes and hardware requirements**
+#### GPU Clouds
 
-| 🤖 Model | 💾 Download Size (GB)<br>Q4 Quantized | 📦 Model Size FP16 (GB) | 💻 Minimum Requirements<br>(RAM / GPU VRAM) | 💻 Recommended Requirements<br>(RAM / GPU VRAM) | 📜 License |
-|---------|-------------------------------------|------------------------|--------------------------------------------|-----------------------------------------------|-----------|
-| **DeepSeek-V4** | ~404GB | ~1,342GB | 128GB / 80GB | 256GB / 4x A100 80GB | MIT |
-| **Qwen3-Max-Thinking** | ~600GB+ | ~2,000GB+ | 256GB / 160GB | 512GB / 8x A100 80GB | Apache 2.0 |
-| **Mistral Large 3** | ~406GB | ~1,350GB | 128GB / 80GB | 256GB / 4x A100 80GB | Apache 2.0 |
-| **Llama 4 Scout** | ~66GB | ~218GB | 64GB / 48GB | 128GB / 2x RTX 4090 or A100 80GB | Meta Community |
-| **DeepSeek-V3.2-Speciale** | ~404GB | ~1,342GB | 128GB / 80GB | 256GB / 4x A100 80GB | MIT |
-| **Llama 4 Maverick** | ~242GB | ~800GB | 128GB / 160GB | 256GB / 4x A100 40GB | Meta Community |
-| **GLM-4.7** | ~248GB | ~820GB | 128GB / 160GB | 256GB / 4x A100 40GB | Open-weight |
-| **Qwen 3 Next** | ~143GB | ~476GB | 64GB / 80GB | 128GB / 2x A100 40GB | Apache 2.0 |
-| **DeepSeek-Coder-V2** | ~143GB | ~472GB | 64GB / 80GB | 128GB / 2x A100 40GB | MIT |
-| **Qwen3-Coder** | ~290GB | ~960GB | 128GB / 160GB | 256GB / 4x A100 40GB | Apache 2.0 |
-| **DeepSeek-R1** | ~404GB | ~1,342GB | 128GB / 80GB | 256GB / 4x A100 80GB | MIT |
-
-**Notes:**
-- **Q4 Quantized** = 4-bit quantized size (recommended for deployment, ~70% smaller than FP16)
-- **FP16** = Full precision size (for reference, requires 2x VRAM of Q4)
-- **Download Size** = Actual storage space needed to download the model files
-- **RAM requirements** include overhead for the inference framework and OS
-- **VRAM requirements** assume Q4 quantization for inference; FP16 requires 2x VRAM
-- Multi-GPU setups require NVLink or efficient tensor parallelism for optimal performance
-- MoE (Mixture of Experts) models activate only a subset of parameters per token, improving inference efficiency
-
-### 🔧 Hardware Requirements by Category
-
-**Small Models (7-20B parameters):**
-- **GPU:** 1x RTX 3090/4090 (24GB VRAM)
-- **RAM:** 32GB+
-- **Storage:** 50GB+ SSD
-- **Examples:** Phi-4, GPT-OSS-20B, Yi-Coder
-
-**Medium Models (30-70B parameters):**
-- **GPU:** 2x RTX 4090 or 1x A100 (40-80GB)
-- **RAM:** 64GB+
-- **Storage:** 100GB+ SSD
-- **Examples:** Qwen3-Coder, TildeOpen LLM, Llama 4 Scout
-
-**Large Models (120B+ parameters):**
-- **GPU:** 4x A100 (80GB) or 8x RTX 4090
-- **RAM:** 128GB+
-- **Storage:** 200GB+ SSD
-- **Examples:** GPT-OSS-120B, Pixtral Large, DeepSeek-V4, Qwen3-Max-Thinking, Mistral Large 3, DeepSeek-R1, DeepSeek-V3.2-Speciale, Llama 4 Maverick, GLM-4.7, Qwen3-Coder
-
-### 📦 Deployment Options
-
-**Local Inference:**
-- **Ollama** - Easy local deployment ([ollama.ai](https://ollama.ai))
-- **LM Studio** - User-friendly GUI ([lmstudio.ai](https://lmstudio.ai))
-- **llama.cpp** - Efficient C++ implementation
-- **vLLM** - High-throughput serving ([vllm.ai](https://vllm.ai))
-
-**Cloud Self-Hosting:**
-- **Hugging Face Inference** - Managed deployment
-- **AWS/GCP/Azure** - Full control, scalable
-- **RunPod/Vast.ai** - GPU rental platforms
-- **Modal/Replicate** - Serverless options
-
-### 🖥️ Self-Hosted Models (2025)
-
-Models that can be run locally or on your own infrastructure (open weights, permissive license) with public source code:
-
-**Coding:**
-- DeepSeek-Coder-V2 (MIT) — [GitHub](https://github.com/deepseek-ai/deepseek-coder)
-- Qwen3-Coder (Apache 2.0) — [GitHub](https://github.com/QwenLM/Qwen)
-- GPT-OSS-120B (Apache 2.0)
-- Codestral (Mistral AI, open weights) — [GitHub](https://github.com/mistralai/codestral)
-- StarCoder2 (BigCode/Hugging Face) — [GitHub](https://github.com/bigcode-project/starcoder2)
-
-**General Use:**
-- GPT-OSS-20B (Apache 2.0)
-- Phi-4 (MIT) — [GitHub](https://github.com/microsoft/phi-1)
-- DeepSeek-V3.1 (MIT) — [GitHub](https://github.com/deepseek-ai/deepseek-coder)
-- Llama 4 Scout (Meta license) — [GitHub](https://github.com/meta-llama/llama3)
-- GLM-4.6 (Zhipu AI, open weights) — [GitHub](https://github.com/THUDM/ChatGLM3)
-
-**Enterprise:**
-- IBM Granite 4.0 (Apache 2.0, ISO 42001)
-- Llama 4 Maverick (Meta license) — [GitHub](https://github.com/meta-llama/llama3)
-- Qwen3-Max (Apache 2.0) — [GitHub](https://github.com/QwenLM/Qwen)
-- Magistral (Mistral AI, open weights)
-
-**Recent 2025 additions:**
-- Qwen3-Max (Alibaba) — 1T+ parameters, self-hostable.
-- GLM-4.6 (Zhipu AI) — 355B MoE, open weights, self-hostable.
-- StarCoder2 — New open-source coding models, easy to self-host.
-- Magistral — Reasoning, open weights, European origin.
-
-*Most self-hosted models now support large context windows, multimodal tasks, and efficient deployment on consumer or enterprise hardware.*
+| Provider | Type | Best For |
+|----------|------|----------|
+| **RunPod** | GPU Rental | Flexibility |
+| **Replicate** | Model-as-a-Service | Quick deployment |
+| **Vultr** | Global Cloud | Hourly |
+| **Hyperbolic** | Decentralized | Crypto/Fiat |
 
 ---
 
-## 🔍 Model Selection Guide
+## Automation 🤖
 
-### 💼 By Use Case
+AI-powered tools for automating browser and desktop tasks.
 
-**🏢 Enterprise Production:**
-- **Best:** Claude Opus 4.1, IBM Granite 4.0
-- **Budget:** DeepSeek-V3.1, Qwen3-Max
-- **Self-Host:** IBM Granite 4.0, Llama 4
+### Browser Automation 🌐
 
-**💻 Software Development:**
-- **Best:** Claude Sonnet 4.5, GPT-5 Codex
-- **Popular:** Grok Code Fast (50% market share)
-- **Self-Host:** DeepSeek-Coder-V2, Qwen3-Coder
+Tools and frameworks for AI-powered browser automation.
 
-**🔬 Research & Analysis:**
-- **Reasoning:** o1-Pro, Qwen3-Max-Thinking
-- **General:** GPT-5, Gemini 2.5 Pro
-- **Open:** GPT-OSS-120B, DeepSeek-R1
+#### Standalone AI Browsers
 
-**🎨 Creative & Multimodal:**
-- **Best:** GPT-5, Gemini 2.5 Pro
-- **Vision:** Pixtral Large, Claude Sonnet 4.5
-- **Affordable:** Gemini 2.5 Flash
+| Browser | Open Source | Local AI | Best For |
+|---------|-------------|----------|----------|
+| **BrowserOS** | ✅ | ✅ | Privacy-focused |
+| **Fellou** | ❌ | ❌ | True agentic browser |
+| **Perplexity Comet** | ❌ | ❌ | Research |
+| **Dia** | ❌ | ❌ | Arc replacement |
 
-**🌍 Multilingual & Regional:**
-- **Chinese:** Qwen3-Max, GLM-4.6, Kimi K2
-- **European:** TildeOpen LLM (34 languages)
-- **Global:** GPT-5, Gemini 2.5 Pro
+#### Browser Extensions
 
-### 💰 By Budget
+| Extension | Free | Multi-Agent | Best For |
+|-----------|------|-------------|----------|
+| **Harpa AI** | ✅ | ❌ | Automation recipes |
+| **MultiOn** | ⚠️ | ✅ | Complex tasks |
+| **NanoBrowser** | ✅ | ✅ | Local control |
 
-**🆓 Free (Self-Host Only):**
-- GPT-OSS-120B/20B, DeepSeek models, Llama 4, Phi-4
+#### Developer Libraries
 
-**💵 Budget-Friendly ($0.10-$0.50 per 1M):**
-- GLM-4.6, Yi-Lightning, Grok 4 Fast, DeepSeek-V3.1
+| Library | Language | Best For |
+|---------|----------|----------|
+| **Browser-use** | Python | Agentic automation |
+| **Stagehand** | TypeScript | Web apps |
+| **LaVague** | Python | NL to code |
+| **Skyvern** | Python | CV-based automation |
 
-**💎 Mid-Range ($1-$5 per 1M):**
-- GPT-5, Gemini 2.5 Flash, Claude Sonnet 4.5, Grok 4
+#### Cloud Automation
 
-**👑 Premium ($10+ per 1M):**
-- Claude Opus 4.1, o1-Pro, Gemini 2.5 Pro
+| Service | Platform | Best For |
+|---------|----------|----------|
+| **Skyvern Cloud** | Cloud API | Resilient automation |
+| **Browserbase** | Cloud API | Stealth mode, session recording |
 
-### ⚡ By Performance Needs
+### Desktop Automation 🖥️
 
-**Speed Priority:**
-- Gemini 2.5 Flash, Grok 4 Fast, Claude 3.7 Sonnet
+AI agents and tools for automating desktop tasks and OS-level interactions.
 
-**Quality Priority:**
-- Claude Opus 4.1, GPT-5, o1-Pro
+#### AI Agents (Computer Use)
 
-**Balanced:**
-- Claude Sonnet 4.5, GPT-5, DeepSeek-V3.1
+| Agent | Platform | Vision-Based | Cross-Platform | Best For |
+|-------|----------|--------------|----------------|----------|
+| **Agent S** | Cross-platform | ✅ | ✅ | Research/SOTA |
+| **Bytebot** | Linux (Docker) | ✅ | ✅ | Self-hosted |
+| **UFO** | Windows | ✅ | ❌ | Windows automation |
+| **Open-Interface** | Cross-platform | ✅ | ✅ | General use |
+| **Anthropic Computer Use** | API | ✅ | ✅ | Beta capability |
 
----
+#### RPA & Visual Frameworks
 
+| Tool | Platform | Best For |
+|------|----------|----------|
+| **Ui.Vision RPA** | Windows, macOS, Linux | Visual automation |
+| **OmniParser V2** | Cross-platform | Screen parsing |
 
-## 🤝 Contributing
+#### Scripting Libraries
 
-We welcome contributions from the community! Here's how you can help:
-
-### 📝 How to Contribute
-
-1. **Fork the Repository**
-2. **Add/Update Model Information**
-   - Verify from official sources
-   - Include benchmark data
-   - Add pricing information
-   - Provide official links
-3. **Follow the Style Guide**
-   - Use emojis consistently
-   - Match existing formatting
-   - Keep tables aligned
-4. **Submit a Pull Request**
-   - Describe your changes
-   - Include sources/verification
-   - Follow [UPDATE_RULES.md](UPDATE_RULES.md)
-
-### 🎯 What We Need
-
-- ✅ New model releases and updates
-- ✅ Benchmark results and performance data
-- ✅ Pricing updates and corrections
-- ✅ Bug fixes and typo corrections
-- ✅ Additional resources and links
-- ✅ Real-world usage insights
-- ✅ Community feedback and reviews
-
-### 📋 Guidelines
-
-Please read our detailed contribution guidelines:
-- [CONTRIBUTING.md](CONTRIBUTING.md) - Full contribution guide
-- [UPDATE_RULES.md](UPDATE_RULES.md) - Update standards
-
-### 🙏 Contributors
-
-Special thanks to all contributors who help keep this matrix up-to-date!
+| Tool | Platform | Key Features |
+|------|----------|--------------|
+| **PyAutoGUI** | Cross-platform | Simple API, fail-safe |
+| **Nut.js** | Cross-platform | Visual search, image matching |
+| **OpenAdapt** | Windows, macOS | Learning from demonstration |
 
 ---
 
-## 📜 License
+## Guides 📚
 
-### Project License
+Tutorials, how-tos, and in-depth guides for getting the most out of AI models and tools.
 
-This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+### Getting Started 🚀
 
-**Copyright (c) 2025 ReadyPixels LLC**
+A beginner-friendly introduction to AI models and how to start using them effectively.
 
-For full license terms, see: [GNU GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
+#### Understanding LLMs
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+| Concept | Description |
+|---------|-------------|
+| **Parameters** | Size of model (B = billions). More = more capable |
+| **Context Window** | How much text model can process (128K standard) |
+| **Tokens** | Basic units of text (~0.75 words per token) |
 
-### 📊 Data Sources Attribution
+#### Accessing AI Models
 
-This project aggregates information from:
-- **OpenRouter Rankings** - [openrouter.ai](https://openrouter.ai) - Real-world usage statistics — Verified: 2026-01-28 00:24 UTC
-- **LLM-Stats.com** - [llm-stats.com](https://llm-stats.com) - Benchmark aggregation — Verified: 2026-01-28 00:24 UTC
-- **Artificial Analysis** - [artificialanalysis.ai](https://artificialanalysis.ai) - AI industry insights and reports — Verified: 2026-01-28 00:24 UTC
-- **Official Documentation** - Direct from model providers
-- **Community Contributions** - GitHub contributors
+| Method | Best For | Setup Difficulty |
+|--------|----------|------------------|
+| **Web Interfaces** | Quick experiments | Easiest |
+| **API Access** | Building applications | Easy |
+| **Self-Hosting** | Privacy, no API costs | Medium-Hard |
+| **IDE Integration** | Daily coding | Easy |
 
-### ⚖️ Model Licenses
+#### Model Recommendations by Task
 
-Each AI model listed has its own license. Please refer to official documentation:
-- **Open Source:** Apache 2.0, MIT, Modified MIT, etc.
-- **Proprietary:** API usage terms from providers
-- **Enterprise:** Contact providers for licensing
+| Task | Free Option | Premium Option |
+|------|-------------|----------------|
+| **Chat** | Llama 4 (self-hosted) | GPT-5, Claude |
+| **Coding** | DeepSeek-Coder-V2 | Claude Sonnet 4.5 |
+| **Reasoning** | DeepSeek-R1 | o3, Qwen3-Max-Thinking |
+| **Long docs** | Llama 4 Scout | Gemini 3 Flash |
+| **Vision** | Llama 4 Maverick | GPT-5, Gemini 3 |
+
+### Model Selection Guide 🎯
+
+A comprehensive guide to choosing the right AI model for your specific needs.
+
+#### Quick Decision Tree
+
+```
+What do you need?
+│
+├── Coding/Development
+│   ├── Best quality → Claude Sonnet 4.5
+│   ├── Autonomous → GPT-5 Codex
+│   └── Open source → DeepSeek-Coder-V2
+│
+├── Reasoning/Math
+│   ├── Best quality → Qwen3-Max-Thinking (100% AIME)
+│   └── Open source → DeepSeek-R1
+│
+├── General Purpose
+│   ├── Best overall → GPT-5, Claude Sonnet 4.5
+│   └── Budget → DeepSeek-V3.1
+│
+├── Multimodal (Vision)
+│   ├── Best overall → GPT-5, Gemini 3 Pro
+│   └── Open source → Llama 4 Maverick
+│
+└── Self-Hosting
+    ├── Small (consumer GPU) → Phi-4
+    └── Large (enterprise) → DeepSeek-V4
+```
+
+#### By Budget
+
+| Budget | Options |
+|--------|---------|
+| **Free** | Self-hosted (Llama 4, Qwen3, Mistral) |
+| **$0-10/mo** | API entry tiers, Gemini Flash |
+| **$10-50/mo** | Copilot, Claude API, GPT-5 API |
+| **$50+/mo** | Heavy usage, multiple models |
+
+### Self-Hosting Guide 🖥️
+
+A comprehensive guide to running AI models on your own hardware.
+
+#### Benefits
+
+| Benefit | Description |
+|---------|-------------|
+| **Privacy** | Data never leaves your infrastructure |
+| **Cost Control** | No per-token API costs for unlimited usage |
+| **Customization** | Fine-tune models for specific needs |
+| **No Rate Limits** | Process as much as hardware allows |
+| **Offline Access** | Work without internet |
+
+#### Quick Start with Ollama
+
+```bash
+# Install on macOS/Linux
+curl -fsSL https://ollama.com/install.sh | sh
+
+# Run a model
+ollama run llama3.2
+
+# List available models
+ollama list
+
+# Pull specific model
+ollama pull qwen2.5-coder:32b
+```
+
+#### Deployment Options
+
+| Option | Best For | Pros | Cons |
+|--------|----------|------|------|
+| **Local Machine** | Personal use | Simple, no latency | Limited hardware |
+| **Dedicated Server** | Team use | Full control | Maintenance |
+| **Cloud GPU Rental** | Experimentation | On-demand | Hourly costs |
+| **Kubernetes** | Enterprise | Scalable | Complex |
+
+### Cost Analysis 💰
+
+Comprehensive pricing comparisons and cost calculations.
+
+#### Pricing Tiers
+
+| Tier | Price Range | Models |
+|------|-------------|--------|
+| 🆓 **Free** | $0 | Self-hosted, free tiers |
+| 💵 **Budget** | $0.10 - $0.50/1M | GLM-4.6, DeepSeek-V3 |
+| 💰 **Mid-range** | $1.00 - $15.00/1M | GPT-5, Claude Sonnet |
+| 💎 **Premium** | $15.00 - $600.00/1M | Claude Opus, o1-Pro |
+
+#### Model Pricing Comparison
+
+| Model | Input | Output | Best For |
+|-------|-------|--------|----------|
+| **GLM-4.6** | $0.13 | $0.39 | Budget coding |
+| **DeepSeek-V3.1** | $0.27 | $0.41 | Everything |
+| **Gemini 3 Flash** | $0.30 | $2.50 | Long context |
+| **GPT-5** | $1.25 | $10.00 | General purpose |
+| **Claude Sonnet 4.5** | $3.00 | $15.00 | Best coding |
+| **Claude Opus 4.5** | $15.00 | $75.00 | Maximum quality |
+
+#### Self-Hosting vs API (Monthly)
+
+| Usage Level | Self-Host (A100) | API (GPT-5) | Winner |
+|-------------|------------------|-------------|--------|
+| **Light** (1M tokens) | $300 (rental) | $10 | API |
+| **Medium** (100M tokens) | $300 | $1,000 | Self-host |
+| **Heavy** (1B tokens) | $300 | $10,000 | Self-host |
+| **Enterprise** (10B+ tokens) | $2,000 (owned) | $100,000+ | Self-host |
 
 ---
 
-## 🔗 Quick Links
+## Reference 📖
 
- - 📊 [OpenRouter Rankings](https://openrouter.ai/rankings) - Live usage data — Verified: 2025-11-14 22:07 UTC
- - 📈 [LLM-Stats.com](https://llm-stats.com) - Benchmark comparisons — Verified: 2025-11-14 22:07 UTC
-- 🤗 [Hugging Face](https://huggingface.co/models) - Model repository
-- 📖 [Awesome Lists](https://github.com/sindresorhus/awesome) - Curated lists
+Reference materials including glossary, comparison tables, and data sources.
+
+### Glossary 📖
+
+Definitions of common terms used throughout the documentation.
+
+#### A-E
+
+| Term | Definition |
+|------|------------|
+| **Agent** | AI system that autonomously performs tasks and interacts with environments |
+| **API** | Interface for programmatically accessing AI models |
+| **Attention Mechanism** | Neural network component focusing on relevant input parts |
+| **Benchmark** | Standardized test measuring model performance |
+| **Chain-of-Thought (CoT)** | Prompting technique showing step-by-step reasoning |
+
+#### F-L
+
+| Term | Definition |
+|------|------------|
+| **Fine-Tuning** | Adapting pre-trained model to specific tasks |
+| **Frontier Model** | State-of-the-art proprietary model |
+| **GPU** | Hardware accelerator essential for ML |
+| **LLM** | Large Language Model |
+| **LoRA** | Efficient fine-tuning method |
+
+#### M-R
+
+| Term | Definition |
+|------|------------|
+| **MCP** | Model Context Protocol for tool interaction |
+| **MMLU** | Massive Multitask Language Understanding benchmark |
+| **MoE** | Mixture of Experts architecture |
+| **Multimodal** | Processing multiple input types |
+| **RAG** | Retrieval-Augmented Generation |
+
+#### S-Z
+
+| Term | Definition |
+|------|------------|
+| **Self-Hosting** | Running models on own infrastructure |
+| **SLM** | Small Language Model |
+| **SWE-bench** | Benchmark for real GitHub issue resolution |
+| **Token** | Basic unit of text processing |
+| **VRAM** | GPU memory for model storage |
+
+### Comparison Tables 📊
+
+Side-by-side comparisons of AI models sorted by various criteria.
+
+#### Sort by Price (Cheapest)
+
+| Rank | Model | Input | Output | License |
+|------|-------|-------|--------|---------|
+| 1 | **Self-hosted** | $0 | $0 | Various |
+| 2 | **GLM-4.6** | $0.13 | $0.39 | Open-weight |
+| 3 | **Yi-Lightning** | $0.14 | $0.42 | Apache 2.0 |
+| 4 | **DeepSeek-V3.1** | $0.27 | $0.41 | MIT |
+| 5 | **Gemini 3 Flash** | $0.30 | $2.50 | Proprietary |
+
+#### Sort by Performance (Coding)
+
+| Rank | Model | HumanEval | Self-Host |
+|------|-------|-----------|-----------|
+| 1 | **Claude Sonnet 4.5** | ~92% | ❌ |
+| 2 | **GPT-OSS-120B** | ~89% | ✅ |
+| 3 | **DeepSeek-Coder-V2** | ~92% | ✅ |
+| 4 | **Qwen3-Coder** | ~92% | ✅ |
+| 5 | **DeepSeek-V3.1** | 82%+ | ✅ |
+
+#### Sort by Context Window
+
+| Rank | Model | Context | Best For |
+|------|-------|---------|----------|
+| 1 | **Gemini 3 Flash** | 10M | Entire libraries |
+| 2 | **Llama 4 Scout** | 10M | Long-document RAG |
+| 3 | **Gemini 3 Pro** | 1M+ | Research papers |
+| 4 | **Kimi K2-0905** | 256K | Large codebases |
+
+### Data Sources 📚
+
+Attribution, verification sources, and methodology.
+
+#### Primary Sources
+
+| Company | Source | URL |
+|---------|--------|-----|
+| **OpenAI** | Official Documentation | [openai.com](https://openai.com) |
+| **Anthropic** | Claude Documentation | [anthropic.com](https://www.anthropic.com) |
+| **Google** | Gemini Documentation | [deepmind.google](https://deepmind.google/models/gemini/) |
+| **DeepSeek** | Official Website | [deepseek.com](https://www.deepseek.com) |
+| **Meta** | Llama Documentation | [llama.meta.com](https://llama.meta.com) |
+
+#### Benchmark Sources
+
+| Benchmark | Source | Description |
+|-----------|--------|-------------|
+| **HumanEval** | OpenAI | 164 Python programming problems |
+| **SWE-bench** | Princeton | Real GitHub issue resolution |
+| **MMLU** | UC Berkeley | 57 subjects, multi-task |
+| **AIME** | MAA | American Invitational Math Exam |
+| **ARC-AGI** | ARC Prize | Abstract reasoning challenge |
+
+#### Verification Methodology
+
+1. **Primary Source Review** - Check official documentation
+2. **Cross-Validation** - Compare multiple sources
+3. **Timestamp Verification** - All data includes verification date
+4. **Update Tracking** - Monitor official channels
 
 ---
 
+## Contributing
 
+Thank you for your interest in contributing to the Awesome AI Models Matrix!
 
-**⭐ Star this repository if you find it helpful! ⭐**
+### How to Contribute
 
-*Last Updated: January 28, 2026*
+1. **Fork the Repository** - Create your own fork
+2. **Create a Branch** - Make a new branch for your contribution
+3. **Make Your Changes** - Follow the guidelines below
+4. **Submit a Pull Request** - Describe your changes clearly
+5. **Wait for Review** - Maintainers will review and provide feedback
 
-</div>
+### Contribution Standards
+
+All model entries MUST include:
+- ✅ **Official Source** - Link to official announcement or documentation
+- ✅ **Verification** - At least one authoritative source
+- ✅ **Accuracy** - Information must be current and factual
+- ✅ **Completeness** - All table columns filled
+
+### Style Guidelines
+
+- **Headers**: Use proper hierarchy (H1 → H6)
+- **Tables**: Align columns consistently
+- **Links**: Use descriptive text
+- **Date Format**: YYYY-MM-DD HH:MM UTC
+- **Emoji**: ✅ for Yes, ❌ for No, 🚀 for highlights
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
-## 📚 Additional Resources
+## License
 
- - **OpenRouter Rankings** - [openrouter.ai/rankings](https://openrouter.ai/rankings) — Verified: 2026-01-28 00:24 UTC
- - **LLM-Stats** - [llm-stats.com](https://llm-stats.com) — Verified: 2026-01-28 00:24 UTC
-- **Artificial Analysis** - [artificialanalysis.ai](https://artificialanalysis.ai) — AI industry insights and reports — Verified: 2026-01-28 00:24 UTC
-- **Artificial Analysis Agentic Index** - [artificialanalysis.ai/?intelligence=agentic-index](https://artificialanalysis.ai/?intelligence=agentic-index&intelligence-category=open-weights-vs-proprietary#summary) — Agentic capabilities comparison — Verified: 2026-01-28 00:24 UTC
-- **Artificial Analysis Q3 2025 Report** - [artificialanalysis.ai/downloads/state-of-ai/2025/Q3-2025-Artificial-Analysis-State-of-AI-Highlights-Report.pdf](https://artificialanalysis.ai/downloads/state-of-ai/2025/Q3-2025-Artificial-Analysis-State-of-AI-Highlights-Report.pdf) — Quarterly AI highlights — Verified: 2026-01-28 00:24 UTC
-- **Moonshot AI Kimi K2** - [moonshotai.github.io/Kimi-K2/](https://moonshotai.github.io/Kimi-K2/) — Kimi K2 model documentation — Verified: 2026-01-28 00:24 UTC
-- **HuggingFace Leaderboard** - [huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
-- **Awesome LLM** - [github.com/Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)
-
+This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-**🚀 The most comprehensive AI models matrix on the internet!**
-*Made with ❤️ by [ReadyPixels LLC](https://readypixels.com) for the global AI community*
-*Last Updated: January 28, 2026*
+**Last Updated:** 2026-01-28 00:30 UTC  
+**Maintained by:** AI Models Matrix Contributors
+
+[![Star on GitHub](https://img.shields.io/github/stars/your-org/ai-models-matrix?style=social)](https://github.com/your-org/ai-models-matrix)
