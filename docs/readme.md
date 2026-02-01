@@ -1,7 +1,7 @@
 # Awesome AI Models Matrix 🧠
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://opensource.org/licenses/GPL-3.0)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--28%2000%3A30%20UTC-green.svg)](https://github.com/your-org/ai-models-matrix)
 
 > Comprehensive curated list of AI models, tools, and resources for developers and researchers. From frontier proprietary models to self-hostable open-source alternatives, from AI-powered IDEs to automation frameworks.
@@ -10,30 +10,30 @@
 
 ## Table of Contents
 
-- [Models](#models)
-  - [Frontier Models](#frontier-models)
-  - [Open-Source Models](#open-source-models)
-  - [Coding Models](#coding-models)
-  - [Reasoning Models](#reasoning-models)
-  - [Multimodal Models](#multimodal-models)
-  - [Hardware Requirements](#hardware-requirements)
-- [Development Tools](#development-tools)
-  - [IDEs](#ides)
-  - [CLI Tools](#cli-tools)
-  - [IDE Add-ons](#ide-add-ons)
-  - [API Providers](#api-providers)
-- [Automation](#automation)
-  - [Browser Automation](#browser-automation)
-  - [Desktop Automation](#desktop-automation)
-- [Guides](#guides)
-  - [Getting Started](#getting-started)
-  - [Model Selection Guide](#model-selection-guide)
-  - [Self-Hosting Guide](#self-hosting-guide)
-  - [Cost Analysis](#cost-analysis)
-- [Reference](#reference)
-  - [Glossary](#glossary)
-  - [Comparison Tables](#comparison-tables)
-  - [Data Sources](#data-sources)
+- [Models](#models-)
+  - [Frontier Models](#frontier-models-)
+  - [Open-Source Models](#open-source-models-)
+  - [Coding Models](#coding-models-)
+  - [Reasoning Models](#reasoning-models-)
+  - [Multimodal Models](#multimodal-models-)
+  - [Hardware Requirements](#hardware-requirements-)
+- [Development Tools](#development-tools-)
+  - [IDEs](#ides-)
+  - [CLI Tools](#cli-tools-)
+  - [IDE Add-ons](#ide-add-ons-)
+  - [API Providers](#api-providers-)
+- [Automation](#automation-)
+  - [Browser Automation](#browser-automation-)
+  - [Desktop Automation](#desktop-automation-)
+- [Guides](#guides-)
+  - [Getting Started](#getting-started-)
+  - [Model Selection Guide](#model-selection-guide-)
+  - [Self-Hosting Guide](#self-hosting-guide-)
+  - [Cost Analysis](#cost-analysis-)
+- [Reference](#reference-)
+  - [Glossary](#glossary-)
+  - [Comparison Tables](#comparison-tables-)
+  - [Data Sources](#data-sources-)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -772,11 +772,15 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ## License
 
-This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-**Last Updated:** 2026-01-28 00:30 UTC  
+**Last Updated:** 2026-02-01 17:24 UTC  
 **Maintained by:** AI Models Matrix Contributors
+
+---
+
+Made with ❤️ by ReadyPixels LLC
 
 [![Star on GitHub](https://img.shields.io/github/stars/your-org/ai-models-matrix?style=social)](https://github.com/your-org/ai-models-matrix)
