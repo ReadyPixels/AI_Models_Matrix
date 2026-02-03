@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--01--28%2000%3A30%20UTC-green.svg)](https://github.com/your-org/ai-models-matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--03%2002%3A36%20UTC-green.svg)](https://github.com/your-org/ai-models-matrix)
 
 > Comprehensive curated list of AI models, tools, and resources for developers and researchers. From frontier proprietary models to self-hostable open-source alternatives, from AI-powered IDEs to automation frameworks.
 
@@ -72,6 +72,14 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Open Source** | DeepSeek-V4 | Qwen3-Max | Llama 4 |
 | **Cost Efficiency** | DeepSeek-V3.1 | Grok 4 Fast | GLM-4.6 |
 | **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Kimi K2-0905 (256K) |
+
+#### January 2026 Model Releases
+
+| Model | Company | Release Date | Key Features | Category |
+|-------|---------|--------------|--------------|----------|
+| **DeepSeek R1** | DeepSeek | January 2026 | State-of-the-art reasoning, math, coding; 671B params | Reasoning |
+| **NVIDIA Alpamayo** | NVIDIA | January 5, 2026 | Open AI models for autonomous vehicles; human-like reasoning for self-driving cars | Specialized |
+| **TranslateGemma** | Google | January 16, 2026 | Multilingual translation models for mobile, laptops, cloud; supports 55 languages | Specialized |
 
 ### Open-Source Models 🆓
 
@@ -277,6 +285,14 @@ Integrated Development Environments with built-in AI capabilities.
 | **Memex** | macOS, Windows | Freemium | Agentic, browser↔desktop |
 | **Kiro** | Desktop | TBD | Subagents, Claude Opus |
 
+#### IDE Updates (January 2026)
+
+| IDE | Version | Release Date | Key Features |
+|-----|---------|--------------|--------------|
+| **Visual Studio** | 17.14.12+, 18.1.0+ | January 6, 2026 | Gemini 3 Flash integration, faster performance, zero-migration upgrades, real-time profiler agent |
+| **IntelliJ IDEA** | 2025.3.2 | January 2026 | Java 24 support, Kotlin K2 mode by default, performance/memory improvements |
+| **JetBrains IDEs** | Various | January 2026 | AI Assistant with deep IDE integration, Claude Agent capabilities |
+
 #### VS Code Forks
 
 | IDE | Platform | Pricing | Autonomous | MCP |
@@ -308,7 +324,7 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 | Tool | Platform | Pricing | Key Features |
 |------|----------|---------|--------------|
 | **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode |
-| **Claude Code** | macOS, Linux, Windows | Free + API | Autonomous, async subagents |
+| **Claude Code 2.1** | macOS, Linux, Windows | Free + API | Autonomous, async subagents; Shift+enter for newlines, hooks for agents/skills, wildcard tool permissions |
 | **Codex CLI** | Windows, macOS, Linux | Included | Sandbox, approval modes |
 | **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible |
 | **GPT-Pilot** | Windows, macOS, Linux | Free | Full dev team simulation |
@@ -345,6 +361,13 @@ Extensions and plugins that add AI capabilities to existing IDEs.
 | **Continue** | VS Code, JetBrains | Free (OSS) | Custom | Self-hosted |
 | **Cody** | VS Code, JetBrains, Web | Free/Enterprise | Enterprise | Code search |
 | **Tabnine** | VS Code, JetBrains, VS, Eclipse | Free/Pro | Local | Privacy |
+
+#### IDE Extension Updates (January 2026)
+
+| Add-on | Platform | Release Date | Key Features |
+|--------|----------|--------------|--------------|
+| **Gemini 3 Flash Integration** | VS Code, JetBrains, Xcode, Eclipse | January 6, 2026 | Access to Google's latest Gemini 3 Flash model directly from IDE; fast response times |
+| **JetBrains AI Assistant** | All JetBrains IDEs | January 2026 | Enhanced AI capabilities, Claude Agent integration, better context understanding |
 
 #### VS Code Specific
 
@@ -566,19 +589,7 @@ A comprehensive guide to running AI models on your own hardware.
 
 #### Quick Start with Ollama
 
-```bash
-# Install on macOS/Linux
-curl -fsSL https://ollama.com/install.sh | sh
-
-# Run a model
-ollama run llama3.2
-
-# List available models
-ollama list
-
-# Pull specific model
-ollama pull qwen2.5-coder:32b
-```
+For installation and usage instructions, refer to the [official Ollama documentation](https://ollama.com).
 
 #### Deployment Options
 
@@ -776,8 +787,8 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ---
 
-**Last Updated:** 2026-02-01 17:24 UTC  
-**Maintained by:** AI Models Matrix Contributors
+**Last Updated:** 2026-02-03 02:35 UTC  
+**Maintained by:** ReadyPixels LLC & AI Models Matrix Contributors
 
 ---
 
