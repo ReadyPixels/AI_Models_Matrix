@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--03%2002%3A36%20UTC-green.svg)](https://github.com/your-org/ai-models-matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--13%2008%3A34%20UTC-green.svg)](https://github.com/your-org/ai-models-matrix)
 
 > Comprehensive curated list of AI models, tools, and resources for developers and researchers. From frontier proprietary models to self-hostable open-source alternatives, from AI-powered IDEs to automation frameworks.
 
@@ -49,14 +49,16 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 | Model | Company | Context | Key Features | Pricing |
 |-------|---------|---------|--------------|---------|
-| **DeepSeek-V4** | DeepSeek | 128K | Reasoning Core, DSA, Interleaved Thinking | Pay-per-token |
-| **Qwen3-Max-Thinking** | Alibaba | 128K | 100% AIME25, 100% HMMT | $1.20 / $6.00 |
+| **Claude Opus 4.6** | Anthropic | 1M | Agent teams, enhanced coding/reasoning | $5 / $25 |
+| **GPT-5.3-Codex** | OpenAI | 400K | Agentic coding, 128K output | TBD |
+| **Gemini 3 Deep Think** | Google | 1M+ | 84.6% ARC-AGI-2, science/research | Ultra subscription |
+| **DeepSeek-V4** | DeepSeek | 1M+ | Engram memory, coding focus | Pay-per-token |
+| **Qwen3.5-Max** | Alibaba | 128K | Hybrid attention, native VLM | Pay-per-token |
 | **Gemini 3 Pro** | Google | 1M+ | PhD-level reasoning, agentic tool-use | Tiered pricing |
 | **Gemini 3 Flash** | Google | 10M | Pro-grade reasoning, Flash speed | $0.30 / $2.50 |
 | **GPT-5.2** | OpenAI | 400K | Thinking & Instant variants | $1.75/1M |
 | **GPT-5 mini** | OpenAI | 128K | Cheap reasoning | $0.25/1M |
 | **Mistral Large 3** | Mistral AI | 128K | 675B params, MoE, Open-weight | Varies |
-| **Claude Opus 4.5** | Anthropic | 200K | Leading reasoning accuracy | $15 / $75 |
 | **Claude Sonnet 4.5** | Anthropic | 200K | SWE-bench leader, best coding | $3 / $15 |
 | **Llama 4 Scout** | Meta | 10M | Open-weight context king | Free (self-host) |
 | **Llama 4 Maverick** | Meta | 128K | 400B params, multimodal | Free (self-host) |
@@ -67,11 +69,11 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 | Category | #1 | #2 | #3 |
 |----------|-----|-----|-----|
-| **Coding** | Claude Sonnet 4.5 | GPT-5 Codex | Grok Code Fast |
-| **Reasoning** | Qwen3-Max-Thinking | o3 | Gemini 3 Pro |
-| **Open Source** | DeepSeek-V4 | Qwen3-Max | Llama 4 |
+| **Coding** | Claude Opus 4.6 | GPT-5.3-Codex | Claude Sonnet 4.5 |
+| **Reasoning** | Gemini 3 Deep Think | Qwen3-Max-Thinking | o3 |
+| **Open Source** | DeepSeek-V4 | Qwen3.5-Max | Llama 4 |
 | **Cost Efficiency** | DeepSeek-V3.1 | Grok 4 Fast | GLM-4.6 |
-| **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Kimi K2-0905 (256K) |
+| **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Claude Opus 4.6 (1M) |
 
 #### January 2026 Model Releases
 
@@ -81,13 +83,24 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **NVIDIA Alpamayo** | NVIDIA | January 5, 2026 | Open AI models for autonomous vehicles; human-like reasoning for self-driving cars | Specialized |
 | **TranslateGemma** | Google | January 16, 2026 | Multilingual translation models for mobile, laptops, cloud; supports 55 languages | Specialized |
 
+#### February 2026 Model Releases
+
+| Model | Company | Release Date | Key Features | Category |
+|-------|---------|--------------|--------------|----------|
+| **Claude Opus 4.6** | Anthropic | February 5, 2026 | Agent teams, enhanced coding/reasoning, 1M context | Frontier |
+| **GPT-5.3-Codex** | OpenAI | February 5, 2026 | Most capable agentic coding model, 400K context, 128K output | Coding |
+| **Gemini 3 Deep Think** | Google | February 12, 2026 | 84.6% ARC-AGI-2, science/research/engineering focus | Reasoning |
+| **DeepSeek-V4** | DeepSeek | February 17, 2026 (expected) | Engram memory, 1M+ context, coding focus | Open Source |
+| **Qwen3.5-Max** | Alibaba | February 2026 | Hybrid attention, native VLM, multimodal | Open Source |
+
 ### Open-Source Models 🆓
 
 Self-hostable models with permissive licenses for privacy, cost control, and customization.
 
 | Model | Company | Params | Context | License |
 |-------|---------|--------|---------|---------|
-| **DeepSeek-V4** | DeepSeek | 671B | 128K | MIT |
+| **DeepSeek-V4** | DeepSeek | 671B | 1M+ | MIT |
+| **Qwen3.5-Max** | Alibaba | 1T+ | 128K | Apache 2.0 |
 | **Qwen3-Max-Thinking** | Alibaba | 1T+ | 128K | Apache 2.0 |
 | **Mistral Large 3** | Mistral AI | 675B (MoE) | 128K | Apache 2.0 |
 | **Llama 4 Scout** | Meta | 109B | 10M | Community |
@@ -125,18 +138,19 @@ Specialized AI models optimized for software development tasks.
 
 | Rank | Model | Company | Score |
 |------|-------|---------|-------|
-| 🥇 #1 | **Claude Sonnet 4.5** | Anthropic | SOTA |
-| 🥈 #2 | **GPT-5 Codex** | OpenAI | ~55.6% |
-| 🥉 #3 | **GPT-OSS-120B** | OpenAI | 91.4% AIME |
-| #4 | **Kimi K2-0905** | Moonshot | Excellent |
-| #5 | **Qwen3-Coder** | Alibaba | 480B params |
+| 🥇 #1 | **Claude Opus 4.6** | Anthropic | SOTA |
+| 🥈 #2 | **GPT-5.3-Codex** | OpenAI | Agentic leader |
+| 🥉 #3 | **Claude Sonnet 4.5** | Anthropic | ~92% |
+| #4 | **GPT-OSS-120B** | OpenAI | 91.4% AIME |
+| #5 | **Kimi K2-0905** | Moonshot | Excellent |
 
 #### Commercial Coding Models
 
 | Model | Developer | Pricing | Best For |
 |-------|-----------|---------|----------|
+| **Claude Opus 4.6** | Anthropic | $5 / $25 per 1M | Agentic coding, complex tasks |
+| **GPT-5.3-Codex** | OpenAI | TBD | Agentic coding, 7+ hour autonomy |
 | **Claude Sonnet 4.5** | Anthropic | $3 / $15 per 1M | Code review, refactoring |
-| **GPT-5 Codex** | OpenAI | API pricing | 7+ hour autonomy |
 | **Codestral** | Mistral AI | $0.30 / $0.90 | Real-time completion |
 | **Grok Code Fast** | xAI | $0.20 / $1.50 | Most used (50% share) |
 
@@ -158,9 +172,9 @@ Models optimized for step-by-step reasoning, mathematical problem-solving, and c
 
 | Rank | Model | Score | Notes |
 |------|-------|-------|-------|
-| 🥇 #1 | **Qwen3-Max-Thinking** | 100% | Perfect score |
-| 🥈 #2 | **GPT-5 Pro (with tools)** | 100% | With Python tools |
-| 🥉 #3 | **Gemini 3 Pro** | ~98% | Frontier agentic |
+| 🥇 #1 | **Gemini 3 Deep Think** | 84.6% ARC-AGI-2 | Science/research focus |
+| 🥈 #2 | **Qwen3-Max-Thinking** | 100% | Perfect AIME score |
+| 🥉 #3 | **GPT-5 Pro (with tools)** | 100% | With Python tools |
 | #4 | **GPT-OSS-120B** | 91.4% | Open-source leader |
 | #5 | **o3** | ~96.5% | OpenAI reasoning |
 | #6 | **DeepSeek-R1** | 81% | Pure RL-based |
@@ -169,6 +183,7 @@ Models optimized for step-by-step reasoning, mathematical problem-solving, and c
 
 | Model | Type | Context | Pricing |
 |-------|------|---------|---------|
+| **Gemini 3 Deep Think** | Reasoning | 1M+ | Ultra subscription |
 | **Qwen3-Max-Thinking** | Reasoning/Coding | 128K | $1.20 / $6.00 |
 | **o3 / o1-Pro** | Reasoning | 128K | $2-150 / $8-600 |
 | **Gemini 3 Pro** | General/Multimodal | 1M+ | $2 / $12 |
@@ -274,7 +289,8 @@ Integrated Development Environments with built-in AI capabilities.
 | IDE | Platform | Pricing | Key Features |
 |-----|----------|---------|--------------|
 | **Firebase Studio** | Web | Free | Cloud-based, Gemini, MCP |
-| **Tonkotsu** | Web | Freemium | Team of agents, workflow |
+| **Tonkotsu** | Windows, macOS | Freemium | Team of agents, workflow |
+| **OpenCode** | Windows, macOS, Linux | Free (OSS) | Terminal, desktop, IDE extension, multi-provider |
 
 #### Native AI Editors
 
@@ -283,7 +299,6 @@ Integrated Development Environments with built-in AI capabilities.
 | **Zed** | macOS, Windows, Linux | Free + Copilot | Fast, collaboration, Gemini/Claude |
 | **Dyad** | Windows, macOS, Linux | Free (OSS) | Local generation, BYO keys |
 | **Memex** | macOS, Windows | Freemium | Agentic, browser↔desktop |
-| **Kiro** | Desktop | TBD | Subagents, Claude Opus |
 
 #### IDE Updates (January 2026)
 
@@ -292,6 +307,14 @@ Integrated Development Environments with built-in AI capabilities.
 | **Visual Studio** | 17.14.12+, 18.1.0+ | January 6, 2026 | Gemini 3 Flash integration, faster performance, zero-migration upgrades, real-time profiler agent |
 | **IntelliJ IDEA** | 2025.3.2 | January 2026 | Java 24 support, Kotlin K2 mode by default, performance/memory improvements |
 | **JetBrains IDEs** | Various | January 2026 | AI Assistant with deep IDE integration, Claude Agent capabilities |
+
+#### IDE Updates (February 2026)
+
+| IDE | Version | Release Date | Key Features |
+|-----|---------|--------------|--------------|
+| **Cursor** | 0.46+ | February 8, 2026 | CLI Plan mode, cloud handoffs, improved agent capabilities |
+| **Windsurf** | 1.9544+ | February 3, 2026 | Claude Opus 4.6 fast mode, JetBrains plugin, Cascade improvements |
+| **Zed** | 0.224.0 | February 11, 2026 | AI agent thread history, tool call permissions, edit prediction providers |
 
 #### VS Code Forks
 
@@ -303,6 +326,7 @@ Integrated Development Environments with built-in AI capabilities.
 | **PearAI** | Windows, macOS, Linux | Free (OSS) | ✅ | ❌ |
 | **Void** | Windows, macOS, Linux | Free (OSS) | ✅ | ✅ |
 | **Google Antigravity** | Windows, macOS, Linux | Free | ✅ | ❌ |
+| **Kiro** | Windows, macOS, Linux | Free (Preview) | ✅ | ✅ |
 
 #### Web-Based IDEs
 
@@ -314,6 +338,7 @@ Integrated Development Environments with built-in AI capabilities.
 | **Lovable** | Web | ❌ | UI/Full-stack |
 | **v0** | Web | ❌ | React components |
 | **Gitpod** | Web | ❌ | Cloud dev environments |
+| **Rork** | Web | ❌ | Mobile apps (iOS/Android) |
 
 ### CLI Tools 🖥️
 
@@ -323,10 +348,10 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 
 | Tool | Platform | Pricing | Key Features |
 |------|----------|---------|--------------|
-| **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode |
-| **Claude Code 2.1** | macOS, Linux, Windows | Free + API | Autonomous, async subagents; Shift+enter for newlines, hooks for agents/skills, wildcard tool permissions |
+| **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode, thinking tokens |
+| **Claude Code 2.1+** | macOS, Linux, Windows | Free + API | Fast mode for Opus 4.6, PDF page ranges, OAuth for MCP |
 | **Codex CLI** | Windows, macOS, Linux | Included | Sandbox, approval modes |
-| **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible |
+| **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible, desktop app |
 | **GPT-Pilot** | Windows, macOS, Linux | Free | Full dev team simulation |
 | **OpenHands** | Windows, macOS, Linux | Free | Cloud agents, MCP |
 | **Mentat** | Windows, macOS, Linux | Free | Multi-file coordination |
@@ -528,8 +553,8 @@ A beginner-friendly introduction to AI models and how to start using them effect
 | Task | Free Option | Premium Option |
 |------|-------------|----------------|
 | **Chat** | Llama 4 (self-hosted) | GPT-5, Claude |
-| **Coding** | DeepSeek-Coder-V2 | Claude Sonnet 4.5 |
-| **Reasoning** | DeepSeek-R1 | o3, Qwen3-Max-Thinking |
+| **Coding** | DeepSeek-Coder-V2 | Claude Opus 4.6 |
+| **Reasoning** | DeepSeek-R1 | Gemini 3 Deep Think, o3 |
 | **Long docs** | Llama 4 Scout | Gemini 3 Flash |
 | **Vision** | Llama 4 Maverick | GPT-5, Gemini 3 |
 
@@ -543,16 +568,17 @@ A comprehensive guide to choosing the right AI model for your specific needs.
 What do you need?
 │
 ├── Coding/Development
-│   ├── Best quality → Claude Sonnet 4.5
-│   ├── Autonomous → GPT-5 Codex
+│   ├── Best quality → Claude Opus 4.6
+│   ├── Autonomous → GPT-5.3-Codex
 │   └── Open source → DeepSeek-Coder-V2
 │
 ├── Reasoning/Math
-│   ├── Best quality → Qwen3-Max-Thinking (100% AIME)
+│   ├── Best quality → Gemini 3 Deep Think
+│   ├── Math focus → Qwen3-Max-Thinking (100% AIME)
 │   └── Open source → DeepSeek-R1
 │
 ├── General Purpose
-│   ├── Best overall → GPT-5, Claude Sonnet 4.5
+│   ├── Best overall → GPT-5, Claude Opus 4.6
 │   └── Budget → DeepSeek-V3.1
 │
 ├── Multimodal (Vision)
@@ -621,8 +647,8 @@ Comprehensive pricing comparisons and cost calculations.
 | **DeepSeek-V3.1** | $0.27 | $0.41 | Everything |
 | **Gemini 3 Flash** | $0.30 | $2.50 | Long context |
 | **GPT-5** | $1.25 | $10.00 | General purpose |
+| **Claude Opus 4.6** | $5.00 | $25.00 | Agentic coding |
 | **Claude Sonnet 4.5** | $3.00 | $15.00 | Best coding |
-| **Claude Opus 4.5** | $15.00 | $75.00 | Maximum quality |
 
 #### Self-Hosting vs API (Monthly)
 
@@ -787,7 +813,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ---
 
-**Last Updated:** 2026-02-03 02:35 UTC  
+**Last Updated:** 2026-02-13 08:34 UTC  
 **Maintained by:** ReadyPixels LLC & AI Models Matrix Contributors
 
 ---
