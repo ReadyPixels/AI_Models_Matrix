@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--13%2008%3A34%20UTC-green.svg)](https://github.com/your-org/ai-models-matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--19%2003%3A06%20UTC-green.svg)](https://github.com/ReadyPixels/ai-models-matrix)
 
 > Comprehensive curated list of AI models, tools, and resources for developers and researchers. From frontier proprietary models to self-hostable open-source alternatives, from AI-powered IDEs to automation frameworks.
 
@@ -10,32 +10,102 @@
 
 ## Table of Contents
 
-- [Models](#models-)
-  - [Frontier Models](#frontier-models-)
-  - [Open-Source Models](#open-source-models-)
-  - [Coding Models](#coding-models-)
-  - [Reasoning Models](#reasoning-models-)
-  - [Multimodal Models](#multimodal-models-)
-  - [Hardware Requirements](#hardware-requirements-)
-- [Development Tools](#development-tools-)
-  - [IDEs](#ides-)
-  - [CLI Tools](#cli-tools-)
-  - [IDE Add-ons](#ide-add-ons-)
-  - [API Providers](#api-providers-)
-- [Automation](#automation-)
-  - [Browser Automation](#browser-automation-)
-  - [Desktop Automation](#desktop-automation-)
-- [Guides](#guides-)
-  - [Getting Started](#getting-started-)
-  - [Model Selection Guide](#model-selection-guide-)
-  - [Self-Hosting Guide](#self-hosting-guide-)
-  - [Cost Analysis](#cost-analysis-)
-- [Reference](#reference-)
-  - [Glossary](#glossary-)
-  - [Comparison Tables](#comparison-tables-)
-  - [Data Sources](#data-sources-)
-- [Contributing](#contributing)
-- [License](#license)
+- [Awesome AI Models Matrix 🧠](#awesome-ai-models-matrix-)
+  - [Table of Contents](#table-of-contents)
+  - [Models 🧠](#models-)
+    - [Frontier Models 🚀](#frontier-models-)
+      - [Top Models by Category](#top-models-by-category)
+      - [January 2026 Model Releases](#january-2026-model-releases)
+      - [February 2026 Model Releases](#february-2026-model-releases)
+      - [Latest Updates ⭐ (Last 30 Days)](#latest-updates--last-30-days)
+    - [Open-Source Models 🆓](#open-source-models-)
+      - [Deployment Options](#deployment-options)
+    - [Coding Models 💻](#coding-models-)
+      - [SWE-bench Verified Leaderboard](#swe-bench-verified-leaderboard)
+      - [Commercial Coding Models](#commercial-coding-models)
+      - [Open-Source Coding Models](#open-source-coding-models)
+    - [Reasoning Models 🧠](#reasoning-models-)
+      - [AIME 2025 Leaderboard](#aime-2025-leaderboard)
+      - [Reasoning Model Details](#reasoning-model-details)
+      - [Use Cases](#use-cases)
+    - [Multimodal Models 🎨](#multimodal-models-)
+      - [Leading Multimodal Models](#leading-multimodal-models)
+      - [Vision Capabilities](#vision-capabilities)
+      - [Audio \& Video](#audio--video)
+      - [Image Generation](#image-generation)
+    - [Hardware Requirements 🖥️](#hardware-requirements-️)
+      - [Quick Reference by Model Size](#quick-reference-by-model-size)
+      - [By Hardware Tier](#by-hardware-tier)
+      - [Quantization Explained](#quantization-explained)
+  - [Development Tools 🛠️](#development-tools-️)
+    - [IDEs 💻](#ides-)
+      - [Agentic IDEs](#agentic-ides)
+      - [Native AI Editors](#native-ai-editors)
+      - [IDE Updates (January 2026)](#ide-updates-january-2026)
+      - [IDE Updates (February 2026)](#ide-updates-february-2026)
+      - [VS Code Forks](#vs-code-forks)
+      - [Web-Based IDEs](#web-based-ides)
+    - [CLI Tools 🖥️](#cli-tools-️)
+      - [Autonomous Coding Agents](#autonomous-coding-agents)
+      - [Assisted CLI Tools](#assisted-cli-tools)
+      - [Terminal Enhancers](#terminal-enhancers)
+    - [IDE Add-ons 🧩](#ide-add-ons-)
+      - [Universal (Cross-Platform)](#universal-cross-platform)
+      - [IDE Extension Updates (January 2026)](#ide-extension-updates-january-2026)
+      - [VS Code Specific](#vs-code-specific)
+      - [JetBrains Specific](#jetbrains-specific)
+    - [API Providers 🔌](#api-providers-)
+      - [Model Labs (Direct)](#model-labs-direct)
+      - [Unified APIs \& Aggregators](#unified-apis--aggregators)
+      - [Inference Clouds](#inference-clouds)
+      - [GPU Clouds](#gpu-clouds)
+  - [Automation 🤖](#automation-)
+    - [Browser Automation 🌐](#browser-automation-)
+      - [Standalone AI Browsers](#standalone-ai-browsers)
+      - [Browser Extensions](#browser-extensions)
+      - [Developer Libraries](#developer-libraries)
+      - [Cloud Automation](#cloud-automation)
+    - [Agent Platforms 🧩](#agent-platforms-)
+    - [Desktop Automation 🖥️](#desktop-automation-️)
+      - [AI Agents (Computer Use)](#ai-agents-computer-use)
+      - [RPA \& Visual Frameworks](#rpa--visual-frameworks)
+      - [Scripting Libraries](#scripting-libraries)
+  - [Guides 📚](#guides-)
+    - [Getting Started 🚀](#getting-started-)
+      - [Understanding LLMs](#understanding-llms)
+      - [Accessing AI Models](#accessing-ai-models)
+      - [Model Recommendations by Task](#model-recommendations-by-task)
+    - [Model Selection Guide 🎯](#model-selection-guide-)
+      - [Quick Decision Tree](#quick-decision-tree)
+      - [By Budget](#by-budget)
+    - [Self-Hosting Guide 🖥️](#self-hosting-guide-️)
+      - [Benefits](#benefits)
+      - [Quick Start with Ollama](#quick-start-with-ollama)
+      - [Deployment Options](#deployment-options-1)
+    - [Cost Analysis 💰](#cost-analysis-)
+      - [Pricing Tiers](#pricing-tiers)
+      - [Model Pricing Comparison](#model-pricing-comparison)
+      - [Self-Hosting vs API (Monthly)](#self-hosting-vs-api-monthly)
+  - [Reference 📖](#reference-)
+    - [Glossary 📖](#glossary-)
+      - [A-E](#a-e)
+      - [F-L](#f-l)
+      - [M-R](#m-r)
+      - [S-Z](#s-z)
+    - [Comparison Tables 📊](#comparison-tables-)
+      - [Sort by Latest Update (Default)](#sort-by-latest-update-default)
+      - [Sort by Price (Cheapest)](#sort-by-price-cheapest)
+      - [Sort by Performance (Coding)](#sort-by-performance-coding)
+      - [Sort by Context Window](#sort-by-context-window)
+    - [Data Sources 📚](#data-sources-)
+      - [Primary Sources](#primary-sources)
+      - [Benchmark Sources](#benchmark-sources)
+      - [Verification Methodology](#verification-methodology)
+  - [Contributing](#contributing)
+    - [How to Contribute](#how-to-contribute)
+    - [Contribution Standards](#contribution-standards)
+    - [Style Guidelines](#style-guidelines)
+  - [License](#license)
 
 ---
 
@@ -92,6 +162,16 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Gemini 3 Deep Think** | Google | February 12, 2026 | 84.6% ARC-AGI-2, science/research/engineering focus | Reasoning |
 | **DeepSeek-V4** | DeepSeek | February 17, 2026 (expected) | Engram memory, 1M+ context, coding focus | Open Source |
 | **Qwen3.5-Max** | Alibaba | February 2026 | Hybrid attention, native VLM, multimodal | Open Source |
+
+#### Latest Updates ⭐ (Last 30 Days)
+
+| Model | Company | Latest Updated | Notes | Official Site |
+|-------|---------|---------------|-------|:---:|
+| **Gemini 3 Deep Think** | Google | 2026-02-12 00:00 UTC ⭐ | ARC-AGI-2 result highlighted | [🔗](https://deepmind.google/technologies/gemini/) |
+| **Claude Opus 4.6** | Anthropic | 2026-02-05 00:00 UTC ⭐ | Agent teams, enhanced coding/reasoning | [🔗](https://www.anthropic.com/) |
+| **GPT-5.3-Codex** | OpenAI | 2026-02-05 00:00 UTC ⭐ | Agentic coding focus | [🔗](https://openai.com/) |
+| **DeepSeek-V4** | DeepSeek | 2026-02-17 00:00 UTC | Listed as expected release | [🔗](https://www.deepseek.com/) |
+| **Qwen3.5-Max** | Alibaba | 2026-02 | February 2026 release window | [🔗](https://qwenlm.github.io/) |
 
 ### Open-Source Models 🆓
 
@@ -289,6 +369,7 @@ Integrated Development Environments with built-in AI capabilities.
 | IDE | Platform | Pricing | Key Features |
 |-----|----------|---------|--------------|
 | **Firebase Studio** | Web | Free | Cloud-based, Gemini, MCP |
+| **[Lingma IDE (通义灵码)](https://lingma.aliyun.com/download)** | Windows, macOS | Varies | Built-in agent, MCP tool use, terminal command execution |
 | **Tonkotsu** | Windows, macOS | Freemium | Team of agents, workflow |
 | **OpenCode** | Windows, macOS, Linux | Free (OSS) | Terminal, desktop, IDE extension, multi-provider |
 
@@ -399,6 +480,7 @@ Extensions and plugins that add AI capabilities to existing IDEs.
 | Add-on | Pricing | Autonomous | MCP | Best For |
 |--------|---------|------------|-----|----------|
 | **Cline** | Free | ✅ | ✅ | Full agent |
+| **GitHub Copilot (Agent Mode)** | $10-19/mo | ⚠️ | ❌ | Guided agent workflows |
 | **RooCode** | Free/Pro | ⚠️ | ❌ | Complex tasks |
 | **Keploy** | OSS/Enterprise | ❌ | ❌ | Testing |
 
@@ -491,6 +573,15 @@ Tools and frameworks for AI-powered browser automation.
 |---------|----------|----------|
 | **Skyvern Cloud** | Cloud API | Resilient automation |
 | **Browserbase** | Cloud API | Stealth mode, session recording |
+
+### Agent Platforms 🧩
+
+Platforms and runtimes for running or connecting AI agents.
+
+| Project | Type | Self-Hostable | Best For | Official |
+|---------|------|:-------------:|----------|:-------:|
+| **OpenClaw** | Personal AI assistant | ✅ | Always-on assistant across chat channels | [🔗](https://github.com/openclaw/openclaw) |
+| **Moltbook** | Agent social network | ❌ | Discovering and pairing with AI agents | [🔗](https://www.moltbook.com/) |
 
 ### Desktop Automation 🖥️
 
@@ -713,6 +804,19 @@ Definitions of common terms used throughout the documentation.
 
 Side-by-side comparisons of AI models sorted by various criteria.
 
+#### Sort by Latest Update (Default)
+
+| 🏢 Company | 🤖 Model | 📦 Version | 📅 Release Date | 🔄 Latest Updated | 💻 Coding | 📊 Benchmarks | 💰 Price | 🖥️ Self-Host | 🔗 Official Site |
+|:---:|---|---|---|---|:---:|---|---|:---:|:---:|
+| 🔬 DeepSeek | DeepSeek | V4 | 2026-02-17 | 2026-02-17 | ✅ | N/A | Pay-per-token | ✅ | [🔗](https://www.deepseek.com/) |
+| 🌐 Google DeepMind | Gemini 3 | Deep Think | 2026-02-12 00:00 UTC | 2026-02-12 00:00 UTC ⭐ | ✅ | 84.6% ARC-AGI-2 | Ultra subscription | ❌ | [🔗](https://deepmind.google/technologies/gemini/) |
+| 🤖 Anthropic | Claude | Opus 4.6 | 2026-02-05 00:00 UTC | 2026-02-05 00:00 UTC ⭐ | ✅ | SWE-bench SOTA | $5 / $25 | ❌ | [🔗](https://www.anthropic.com/) |
+| 🤖 OpenAI | GPT-5 | 5.3-Codex | 2026-02-05 00:00 UTC | 2026-02-05 00:00 UTC ⭐ | ✅ | Agentic leader | TBD | ❌ | [🔗](https://openai.com/) |
+| 🇨🇳 Alibaba/Qwen | Qwen | 3.5-Max | 2026-02 | 2026-02 | ✅ | N/A | Pay-per-token | ✅ | [🔗](https://qwenlm.github.io/) |
+| 🌐 Google DeepMind | Gemini 3 | Pro | 2026-01 | 2026-01 | ✅ | N/A | Tiered pricing | ❌ | [🔗](https://deepmind.google/models/gemini/) |
+| 🤖 OpenAI | GPT-5 | 5.2 | 2026-01 | 2026-01 | ✅ | N/A | $1.75/1M | ❌ | [🔗](https://openai.com/) |
+| 💻 Mistral AI | Mistral Large | 3 | 2026-01 | 2026-01 | ✅ | N/A | Varies | ✅ | [🔗](https://mistral.ai/) |
+
 #### Sort by Price (Cheapest)
 
 | Rank | Model | Input | Output | License |
@@ -813,11 +917,11 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ---
 
-**Last Updated:** 2026-02-13 08:34 UTC  
+**Last Updated:** 2026-02-19 03:06 UTC  
 **Maintained by:** ReadyPixels LLC & AI Models Matrix Contributors
 
 ---
 
 Made with ❤️ by ReadyPixels LLC
 
-[![Star on GitHub](https://img.shields.io/github/stars/your-org/ai-models-matrix?style=social)](https://github.com/your-org/ai-models-matrix)
+[![Star on GitHub](https://img.shields.io/github/stars/ReadyPixels/ai-models-matrix?style=social)](https://github.com/ReadyPixels/ai-models-matrix)
