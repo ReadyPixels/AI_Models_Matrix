@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--19%2003%3A06%20UTC-green.svg)](https://github.com/ReadyPixels/ai-models-matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--19%2016%3A17%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Comprehensive curated list of AI models, tools, and resources for developers and researchers. From frontier proprietary models to self-hostable open-source alternatives, from AI-powered IDEs to automation frameworks.
 
@@ -101,10 +101,6 @@
       - [Primary Sources](#primary-sources)
       - [Benchmark Sources](#benchmark-sources)
       - [Verification Methodology](#verification-methodology)
-  - [Contributing](#contributing)
-    - [How to Contribute](#how-to-contribute)
-    - [Contribution Standards](#contribution-standards)
-    - [Style Guidelines](#style-guidelines)
   - [License](#license)
 
 ---
@@ -122,6 +118,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Claude Opus 4.6** | Anthropic | 1M | Agent teams, enhanced coding/reasoning | $5 / $25 |
 | **GPT-5.3-Codex** | OpenAI | 400K | Agentic coding, 128K output | TBD |
 | **Gemini 3 Deep Think** | Google | 1M+ | 84.6% ARC-AGI-2, science/research | Ultra subscription |
+| **GLM-5** | Zhipu AI | 200K | Agentic engineering, long-horizon tasks | $1.00 / $3.20 |
 | **DeepSeek-V4** | DeepSeek | 1M+ | Engram memory, coding focus | Pay-per-token |
 | **Qwen3.5-Max** | Alibaba | 128K | Hybrid attention, native VLM | Pay-per-token |
 | **Gemini 3 Pro** | Google | 1M+ | PhD-level reasoning, agentic tool-use | Tiered pricing |
@@ -160,6 +157,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Claude Opus 4.6** | Anthropic | February 5, 2026 | Agent teams, enhanced coding/reasoning, 1M context | Frontier |
 | **GPT-5.3-Codex** | OpenAI | February 5, 2026 | Most capable agentic coding model, 400K context, 128K output | Coding |
 | **Gemini 3 Deep Think** | Google | February 12, 2026 | 84.6% ARC-AGI-2, science/research/engineering focus | Reasoning |
+| **GLM-5** | Zhipu AI | February 12, 2026 | Agentic LLM, long-range agent tasks, 200K context | Frontier |
 | **DeepSeek-V4** | DeepSeek | February 17, 2026 (expected) | Engram memory, 1M+ context, coding focus | Open Source |
 | **Qwen3.5-Max** | Alibaba | February 2026 | Hybrid attention, native VLM, multimodal | Open Source |
 
@@ -168,6 +166,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | Model | Company | Latest Updated | Notes | Official Site |
 |-------|---------|---------------|-------|:---:|
 | **Gemini 3 Deep Think** | Google | 2026-02-12 00:00 UTC ⭐ | ARC-AGI-2 result highlighted | [🔗](https://deepmind.google/technologies/gemini/) |
+| **GLM-5** | Zhipu AI | 2026-02-12 00:00 UTC ⭐ | Agentic engineering, long-horizon tasks | [🔗](https://docs.z.ai/release-notes/new-released) |
 | **Claude Opus 4.6** | Anthropic | 2026-02-05 00:00 UTC ⭐ | Agent teams, enhanced coding/reasoning | [🔗](https://www.anthropic.com/) |
 | **GPT-5.3-Codex** | OpenAI | 2026-02-05 00:00 UTC ⭐ | Agentic coding focus | [🔗](https://openai.com/) |
 | **DeepSeek-V4** | DeepSeek | 2026-02-17 00:00 UTC | Listed as expected release | [🔗](https://www.deepseek.com/) |
@@ -175,7 +174,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 ### Open-Source Models 🆓
 
-Self-hostable models with permissive licenses for privacy, cost control, and customization.
+Self-hostable models with permissive licenses or open weights for privacy, cost control, and customization.
 
 | Model | Company | Params | Context | License |
 |-------|---------|--------|---------|---------|
@@ -230,6 +229,7 @@ Specialized AI models optimized for software development tasks.
 |-------|-----------|---------|----------|
 | **Claude Opus 4.6** | Anthropic | $5 / $25 per 1M | Agentic coding, complex tasks |
 | **GPT-5.3-Codex** | OpenAI | TBD | Agentic coding, 7+ hour autonomy |
+| **GLM-5-Code** | Zhipu AI | $1.20 / $5.00 per 1M | Code generation, refactoring |
 | **Claude Sonnet 4.5** | Anthropic | $3 / $15 per 1M | Code review, refactoring |
 | **Codestral** | Mistral AI | $0.30 / $0.90 | Real-time completion |
 | **Grok Code Fast** | xAI | $0.20 / $1.50 | Most used (50% share) |
@@ -313,6 +313,8 @@ Models capable of processing and generating multiple types of content: text, ima
 |-------|-----------|---------|----------|
 | **Flux.1** | Black Forest Labs | Apache 2.0 | High-fidelity art |
 | **Stable Diffusion 3.5** | Stability AI | Community License | Fine-tuning |
+| **GLM-Image** | Zhipu AI (Z.ai) | API | Fast image generation |
+| **CogView-4** | Zhipu AI (Z.ai) | API | Creative image generation |
 
 ### Hardware Requirements 🖥️
 
@@ -502,6 +504,7 @@ Services for accessing AI models via API.
 | **OpenAI** | GPT-5, o3, Codex | Pay-per-token |
 | **Anthropic** | Claude 4.5 | Pay-per-token |
 | **Google AI Studio** | Gemini 3 | Free / Pay |
+| **Z.ai (Zhipu AI)** | GLM-5, GLM-5-Code, GLM-4.7 | Pay-per-token |
 | **DeepSeek** | DeepSeek-V4/R1 | Pay-per-token |
 | **Mistral AI** | Mistral Large 3 | Pay-per-token |
 | **xAI** | Grok-4 | Pay-per-token |
@@ -726,17 +729,20 @@ Comprehensive pricing comparisons and cost calculations.
 | Tier | Price Range | Models |
 |------|-------------|--------|
 | 🆓 **Free** | $0 | Self-hosted, free tiers |
-| 💵 **Budget** | $0.10 - $0.50/1M | GLM-4.6, DeepSeek-V3 |
-| 💰 **Mid-range** | $1.00 - $15.00/1M | GPT-5, Claude Sonnet |
+| 💵 **Budget** | $0.07 - $0.50/1M | GLM-4.7-FlashX, GLM-4-32B-0414-128K |
+| 💰 **Mid-range** | $1.00 - $15.00/1M | GLM-5, GPT-5, Claude Sonnet |
 | 💎 **Premium** | $15.00 - $600.00/1M | Claude Opus, o1-Pro |
 
 #### Model Pricing Comparison
 
 | Model | Input | Output | Best For |
 |-------|-------|--------|----------|
-| **GLM-4.6** | $0.13 | $0.39 | Budget coding |
+| **GLM-4.7-FlashX** | $0.07 | $0.40 | Fast budget tasks |
+| **GLM-4-32B-0414-128K** | $0.10 | $0.10 | Budget chat/coding |
+| **GLM-4.6** | $0.60 | $2.20 | General purpose |
 | **DeepSeek-V3.1** | $0.27 | $0.41 | Everything |
 | **Gemini 3 Flash** | $0.30 | $2.50 | Long context |
+| **GLM-5** | $1.00 | $3.20 | Agentic engineering |
 | **GPT-5** | $1.25 | $10.00 | General purpose |
 | **Claude Opus 4.6** | $5.00 | $25.00 | Agentic coding |
 | **Claude Sonnet 4.5** | $3.00 | $15.00 | Best coding |
@@ -810,6 +816,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 |:---:|---|---|---|---|:---:|---|---|:---:|:---:|
 | 🔬 DeepSeek | DeepSeek | V4 | 2026-02-17 | 2026-02-17 | ✅ | N/A | Pay-per-token | ✅ | [🔗](https://www.deepseek.com/) |
 | 🌐 Google DeepMind | Gemini 3 | Deep Think | 2026-02-12 00:00 UTC | 2026-02-12 00:00 UTC ⭐ | ✅ | 84.6% ARC-AGI-2 | Ultra subscription | ❌ | [🔗](https://deepmind.google/technologies/gemini/) |
+| 🇨🇳 Zhipu AI | GLM | 5 | 2026-02-12 00:00 UTC | 2026-02-12 00:00 UTC ⭐ | ✅ | SWE-bench 77.8 | $1.00 / $3.20 | ✅ | [🔗](https://docs.z.ai/release-notes/new-released) |
 | 🤖 Anthropic | Claude | Opus 4.6 | 2026-02-05 00:00 UTC | 2026-02-05 00:00 UTC ⭐ | ✅ | SWE-bench SOTA | $5 / $25 | ❌ | [🔗](https://www.anthropic.com/) |
 | 🤖 OpenAI | GPT-5 | 5.3-Codex | 2026-02-05 00:00 UTC | 2026-02-05 00:00 UTC ⭐ | ✅ | Agentic leader | TBD | ❌ | [🔗](https://openai.com/) |
 | 🇨🇳 Alibaba/Qwen | Qwen | 3.5-Max | 2026-02 | 2026-02 | ✅ | N/A | Pay-per-token | ✅ | [🔗](https://qwenlm.github.io/) |
@@ -822,10 +829,10 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | Rank | Model | Input | Output | License |
 |------|-------|-------|--------|---------|
 | 1 | **Self-hosted** | $0 | $0 | Various |
-| 2 | **GLM-4.6** | $0.13 | $0.39 | Open-weight |
-| 3 | **Yi-Lightning** | $0.14 | $0.42 | Apache 2.0 |
-| 4 | **DeepSeek-V3.1** | $0.27 | $0.41 | MIT |
-| 5 | **Gemini 3 Flash** | $0.30 | $2.50 | Proprietary |
+| 2 | **GLM-4.7-Flash** | $0 | $0 | Free |
+| 3 | **GLM-4.7-FlashX** | $0.07 | $0.40 | API |
+| 4 | **GLM-4-32B-0414-128K** | $0.10 | $0.10 | API |
+| 5 | **DeepSeek-V3.1** | $0.27 | $0.41 | MIT |
 
 #### Sort by Performance (Coding)
 
@@ -857,6 +864,7 @@ Attribution, verification sources, and methodology.
 | **OpenAI** | Official Documentation | [openai.com](https://openai.com) |
 | **Anthropic** | Claude Documentation | [anthropic.com](https://www.anthropic.com) |
 | **Google** | Gemini Documentation | [deepmind.google](https://deepmind.google/models/gemini/) |
+| **Zhipu AI (Z.ai)** | Developer Documentation | [docs.z.ai](https://docs.z.ai/) |
 | **DeepSeek** | Official Website | [deepseek.com](https://www.deepseek.com) |
 | **Meta** | Llama Documentation | [llama.meta.com](https://llama.meta.com) |
 
@@ -879,49 +887,17 @@ Attribution, verification sources, and methodology.
 
 ---
 
-## Contributing
-
-Thank you for your interest in contributing to the Awesome AI Models Matrix!
-
-### How to Contribute
-
-1. **Fork the Repository** - Create your own fork
-2. **Create a Branch** - Make a new branch for your contribution
-3. **Make Your Changes** - Follow the guidelines below
-4. **Submit a Pull Request** - Describe your changes clearly
-5. **Wait for Review** - Maintainers will review and provide feedback
-
-### Contribution Standards
-
-All model entries MUST include:
-- ✅ **Official Source** - Link to official announcement or documentation
-- ✅ **Verification** - At least one authoritative source
-- ✅ **Accuracy** - Information must be current and factual
-- ✅ **Completeness** - All table columns filled
-
-### Style Guidelines
-
-- **Headers**: Use proper hierarchy (H1 → H6)
-- **Tables**: Align columns consistently
-- **Links**: Use descriptive text
-- **Date Format**: YYYY-MM-DD HH:MM UTC
-- **Emoji**: ✅ for Yes, ❌ for No, 🚀 for highlights
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
-
----
-
 ## License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-**Last Updated:** 2026-02-19 03:06 UTC  
+**Last Updated:** 2026-02-19 16:17 UTC  
 **Maintained by:** ReadyPixels LLC & AI Models Matrix Contributors
 
 ---
 
 Made with ❤️ by ReadyPixels LLC
 
-[![Star on GitHub](https://img.shields.io/github/stars/ReadyPixels/ai-models-matrix?style=social)](https://github.com/ReadyPixels/ai-models-matrix)
+[![Star on GitHub](https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social)](https://github.com/ReadyPixels/AI_Models_Matrix)
