@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--19%2016%3A17%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--20%2012%3A23%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Comprehensive curated list of AI models, tools, and resources for developers and researchers. From frontier proprietary models to self-hostable open-source alternatives, from AI-powered IDEs to automation frameworks.
 
@@ -729,7 +729,7 @@ Comprehensive pricing comparisons and cost calculations.
 | Tier | Price Range | Models |
 |------|-------------|--------|
 | 🆓 **Free** | $0 | Self-hosted, free tiers |
-| 💵 **Budget** | $0.07 - $0.50/1M | GLM-4.7-FlashX, GLM-4-32B-0414-128K |
+| 💵 **Budget** | $0.07 - $0.50/1M | GLM-4.7-FlashX, GLM-4-32B-0414-128K, Yi-Lightning, DeepSeek-V3.1 |
 | 💰 **Mid-range** | $1.00 - $15.00/1M | GLM-5, GPT-5, Claude Sonnet |
 | 💎 **Premium** | $15.00 - $600.00/1M | Claude Opus, o1-Pro |
 
@@ -832,7 +832,9 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 2 | **GLM-4.7-Flash** | $0 | $0 | Free |
 | 3 | **GLM-4.7-FlashX** | $0.07 | $0.40 | API |
 | 4 | **GLM-4-32B-0414-128K** | $0.10 | $0.10 | API |
-| 5 | **DeepSeek-V3.1** | $0.27 | $0.41 | MIT |
+| 5 | **Yi-Lightning** | $0.14 | $0.42 | Apache 2.0 |
+| 6 | **DeepSeek-V3.1** | $0.27 | $0.41 | MIT |
+| 7 | **Gemini 3 Flash** | $0.30 | $2.50 | Proprietary |
 
 #### Sort by Performance (Coding)
 
@@ -893,7 +895,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ---
 
-**Last Updated:** 2026-02-19 16:17 UTC  
+**Last Updated:** 2026-02-20 12:23 UTC  
 **Maintained by:** ReadyPixels LLC & AI Models Matrix Contributors
 
 ---
