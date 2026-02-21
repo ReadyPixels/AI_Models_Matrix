@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--20%2012%3A23%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--21%2011%3A50%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Comprehensive curated list of AI models, tools, and resources for developers and researchers. From frontier proprietary models to self-hostable open-source alternatives, from AI-powered IDEs to automation frameworks.
 
@@ -81,6 +81,7 @@
     - [Self-Hosting Guide 🖥️](#self-hosting-guide-️)
       - [Benefits](#benefits)
       - [Quick Start with Ollama](#quick-start-with-ollama)
+      - [Local GPU Quick Guide (NVIDIA RTX 5090 / Laptop 64 GB RAM)](#local-gpu-quick-guide-nvidia-rtx-5090--laptop-64-gb-ram)
       - [Deployment Options](#deployment-options-1)
     - [Cost Analysis 💰](#cost-analysis-)
       - [Pricing Tiers](#pricing-tiers)
@@ -119,11 +120,12 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **GPT-5.3-Codex** | OpenAI | 400K | Agentic coding, 128K output | TBD |
 | **Gemini 3 Deep Think** | Google | 1M+ | 84.6% ARC-AGI-2, science/research | Ultra subscription |
 | **GLM-5** | Zhipu AI | 200K | Agentic engineering, long-horizon tasks | $1.00 / $3.20 |
+| **MiniMax-M2.5** | MiniMax | 200K | Coding/refactoring, tool calling, long context | $0.30 / $1.20 |
 | **DeepSeek-V4** | DeepSeek | 1M+ | Engram memory, coding focus | Pay-per-token |
 | **Qwen3.5-Max** | Alibaba | 128K | Hybrid attention, native VLM | Pay-per-token |
 | **Gemini 3 Pro** | Google | 1M+ | PhD-level reasoning, agentic tool-use | Tiered pricing |
 | **Gemini 3 Flash** | Google | 10M | Pro-grade reasoning, Flash speed | $0.30 / $2.50 |
-| **GPT-5.2** | OpenAI | 400K | Thinking & Instant variants | $1.75/1M |
+| **GPT-5** | OpenAI | 400K | Thinking & Instant variants | $1.25 / $10.00 |
 | **GPT-5 mini** | OpenAI | 128K | Cheap reasoning | $0.25/1M |
 | **Mistral Large 3** | Mistral AI | 128K | 675B params, MoE, Open-weight | Varies |
 | **Claude Sonnet 4.5** | Anthropic | 200K | SWE-bench leader, best coding | $3 / $15 |
@@ -139,7 +141,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Coding** | Claude Opus 4.6 | GPT-5.3-Codex | Claude Sonnet 4.5 |
 | **Reasoning** | Gemini 3 Deep Think | Qwen3-Max-Thinking | o3 |
 | **Open Source** | DeepSeek-V4 | Qwen3.5-Max | Llama 4 |
-| **Cost Efficiency** | DeepSeek-V3.1 | Grok 4 Fast | GLM-4.6 |
+| **Cost Efficiency** | DeepSeek-V3.1 | Grok 4 Fast | GLM-4.7-FlashX |
 | **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Claude Opus 4.6 (1M) |
 
 #### January 2026 Model Releases
@@ -230,6 +232,7 @@ Specialized AI models optimized for software development tasks.
 | **Claude Opus 4.6** | Anthropic | $5 / $25 per 1M | Agentic coding, complex tasks |
 | **GPT-5.3-Codex** | OpenAI | TBD | Agentic coding, 7+ hour autonomy |
 | **GLM-5-Code** | Zhipu AI | $1.20 / $5.00 per 1M | Code generation, refactoring |
+| **MiniMax-M2.5** | MiniMax | $0.30 / $1.20 per 1M | Code generation, refactoring |
 | **Claude Sonnet 4.5** | Anthropic | $3 / $15 per 1M | Code review, refactoring |
 | **Codestral** | Mistral AI | $0.30 / $0.90 | Real-time completion |
 | **Grok Code Fast** | xAI | $0.20 / $1.50 | Most used (50% share) |
@@ -268,14 +271,14 @@ Models optimized for step-by-step reasoning, mathematical problem-solving, and c
 | **o3 / o1-Pro** | Reasoning | 128K | $2-150 / $8-600 |
 | **Gemini 3 Pro** | General/Multimodal | 1M+ | $2 / $12 |
 | **DeepSeek-R1** | Reasoning | 128K | $0.50 / $2.15 |
-| **Claude 3.7 Sonnet** | Hybrid | 200K | $3 / $15 |
+| **Claude Sonnet 4.5** | Hybrid | 200K | $3 / $15 |
 
 #### Use Cases
 
 - **Mathematical Problem Solving**: Qwen3-Max-Thinking, GPT-5 Pro, Gemini 3 Pro
-- **Scientific Analysis**: Claude Opus 4.5, GPT-5.2, Gemini 3 Pro
+- **Scientific Analysis**: Claude Opus 4.6, GPT-5, Gemini 3 Pro
 - **Strategic Planning**: o3/o1-Pro, Claude Sonnet 4.5, DeepSeek-R1
-- **Code Debugging**: Claude Sonnet 4.5, GPT-5 Codex, DeepSeek-V3.2
+- **Code Debugging**: Claude Sonnet 4.5, GPT-5.3-Codex, DeepSeek-V3.1
 
 ### Multimodal Models 🎨
 
@@ -344,7 +347,7 @@ Comprehensive hardware specifications for self-hosting AI models.
 - **Recommended GPUs**: A100 80GB, 2x A100 40GB
 
 **Enterprise (320+ GB VRAM):**
-- Llama 4 Maverick, GLM-4.7, DeepSeek-V4, Qwen3-Max
+- Llama 4 Maverick, GLM-4.7, DeepSeek-V4, Qwen3-Max-Thinking
 - **Recommended GPUs**: 4x A100 80GB, 8x A100 80GB
 
 #### Quantization Explained
@@ -502,9 +505,14 @@ Services for accessing AI models via API.
 | Provider | Models | Pricing |
 |----------|--------|---------|
 | **OpenAI** | GPT-5, o3, Codex | Pay-per-token |
-| **Anthropic** | Claude 4.5 | Pay-per-token |
+| **Anthropic** | Claude 4.6 | Pay-per-token |
 | **Google AI Studio** | Gemini 3 | Free / Pay |
 | **Z.ai (Zhipu AI)** | GLM-5, GLM-5-Code, GLM-4.7 | Pay-per-token |
+| **MiniMax** | MiniMax-M2.5/M2.1/M2 | Pay-per-token |
+| **Cohere** | Command, Embed, Rerank | Pay-per-token |
+| **AI21 Labs** | Jamba | Pay-per-token |
+| **Perplexity** | Sonar | Pay-per-token |
+| **Moonshot AI** | Kimi | Pay-per-token |
 | **DeepSeek** | DeepSeek-V4/R1 | Pay-per-token |
 | **Mistral AI** | Mistral Large 3 | Pay-per-token |
 | **xAI** | Grok-4 | Pay-per-token |
@@ -711,6 +719,31 @@ A comprehensive guide to running AI models on your own hardware.
 
 For installation and usage instructions, refer to the [official Ollama documentation](https://ollama.com).
 
+#### Local GPU Quick Guide (NVIDIA RTX 5090 / Laptop 64 GB RAM)
+
+**Recommended apps (local-first):**
+- [Ollama](https://ollama.com) - Simple local runtime with a local HTTP API
+- [LM Studio](https://lmstudio.ai) - Desktop UI for downloading and running models locally
+- [llama.cpp](https://github.com/ggerganov/llama.cpp) - Fast local inference (CPU/GPU), great for quantized models
+- [Open WebUI](https://github.com/open-webui/open-webui) - Optional local web UI (pairs well with local runtimes)
+
+**If you want “server-style” hosting (advanced):**
+- [vLLM](https://github.com/vllm-project/vllm) - High-throughput serving for NVIDIA GPUs
+- [SGLang](https://github.com/sgl-project/sglang) - Structured generation and serving workflows
+
+**Practical setup (works for both desktop and laptop):**
+1. Install the latest NVIDIA drivers (enable GPU acceleration in your chosen app)
+2. Start with smaller quantized models (Q4 is a common “best default”)
+3. Keep context windows realistic for local hardware (lower context = faster, less memory)
+4. Watch VRAM first, then system RAM; reduce model size or quantization if either saturates
+5. Prefer running locally on `localhost` and only expose to LAN if you understand firewall rules
+
+**What fits on your hardware (quick rules):**
+| Hardware | Good starting point | Notes |
+|----------|---------------------|------|
+| **RTX 5090 desktop GPU** | 14B–70B quantized | Best experience for coding agents and longer contexts |
+| **Laptop, 64 GB RAM** | 7B–14B quantized | Great for offline chat/coding; keep context moderate |
+
 #### Deployment Options
 
 | Option | Best For | Pros | Cons |
@@ -742,6 +775,7 @@ Comprehensive pricing comparisons and cost calculations.
 | **GLM-4.6** | $0.60 | $2.20 | General purpose |
 | **DeepSeek-V3.1** | $0.27 | $0.41 | Everything |
 | **Gemini 3 Flash** | $0.30 | $2.50 | Long context |
+| **MiniMax-M2.5** | $0.30 | $1.20 | Coding, long context |
 | **GLM-5** | $1.00 | $3.20 | Agentic engineering |
 | **GPT-5** | $1.25 | $10.00 | General purpose |
 | **Claude Opus 4.6** | $5.00 | $25.00 | Agentic coding |
@@ -821,8 +855,10 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 🤖 OpenAI | GPT-5 | 5.3-Codex | 2026-02-05 00:00 UTC | 2026-02-05 00:00 UTC ⭐ | ✅ | Agentic leader | TBD | ❌ | [🔗](https://openai.com/) |
 | 🇨🇳 Alibaba/Qwen | Qwen | 3.5-Max | 2026-02 | 2026-02 | ✅ | N/A | Pay-per-token | ✅ | [🔗](https://qwenlm.github.io/) |
 | 🌐 Google DeepMind | Gemini 3 | Pro | 2026-01 | 2026-01 | ✅ | N/A | Tiered pricing | ❌ | [🔗](https://deepmind.google/models/gemini/) |
-| 🤖 OpenAI | GPT-5 | 5.2 | 2026-01 | 2026-01 | ✅ | N/A | $1.75/1M | ❌ | [🔗](https://openai.com/) |
+| 🤖 OpenAI | GPT-5 | 5.3 | 2026-01 | 2026-01 | ✅ | N/A | $1.25 / $10.00 | ❌ | [🔗](https://openai.com/) |
 | 💻 Mistral AI | Mistral Large | 3 | 2026-01 | 2026-01 | ✅ | N/A | Varies | ✅ | [🔗](https://mistral.ai/) |
+| 🌙 Moonshot AI | Kimi | K2.5 | 2026-01 | 2026-01 | ✅ | N/A | Pay-per-token | ❌ | [🔗](https://platform.moonshot.ai/) |
+| 🧠 MiniMax | MiniMax | M2.5 | 2026-02 | 2026-02 | ✅ | N/A | $0.30 / $1.20 | ❌ | [🔗](https://platform.minimax.io/docs/guides/models-intro) |
 
 #### Sort by Price (Cheapest)
 
@@ -835,6 +871,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 5 | **Yi-Lightning** | $0.14 | $0.42 | Apache 2.0 |
 | 6 | **DeepSeek-V3.1** | $0.27 | $0.41 | MIT |
 | 7 | **Gemini 3 Flash** | $0.30 | $2.50 | Proprietary |
+| 8 | **MiniMax-M2.5** | $0.30 | $1.20 | Proprietary |
 
 #### Sort by Performance (Coding)
 
@@ -867,6 +904,11 @@ Attribution, verification sources, and methodology.
 | **Anthropic** | Claude Documentation | [anthropic.com](https://www.anthropic.com) |
 | **Google** | Gemini Documentation | [deepmind.google](https://deepmind.google/models/gemini/) |
 | **Zhipu AI (Z.ai)** | Developer Documentation | [docs.z.ai](https://docs.z.ai/) |
+| **MiniMax** | Developer Documentation | [platform.minimax.io](https://platform.minimax.io/docs/guides/models-intro) |
+| **Moonshot AI** | Developer Documentation | [platform.moonshot.ai](https://platform.moonshot.ai/docs/overview) |
+| **Cohere** | Developer Documentation | [docs.cohere.com](https://docs.cohere.com) |
+| **AI21 Labs** | Developer Documentation | [docs.ai21.com](https://docs.ai21.com/docs/jamba-foundation-models) |
+| **Perplexity** | Developer Documentation | [docs.perplexity.ai](https://docs.perplexity.ai/docs/getting-started/pricing) |
 | **DeepSeek** | Official Website | [deepseek.com](https://www.deepseek.com) |
 | **Meta** | Llama Documentation | [llama.meta.com](https://llama.meta.com) |
 
@@ -895,7 +937,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ---
 
-**Last Updated:** 2026-02-20 12:23 UTC  
+**Last Updated:** 2026-02-21 11:50 UTC  
 **Maintained by:** ReadyPixels LLC & AI Models Matrix Contributors
 
 ---
