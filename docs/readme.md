@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--21%2022%3A05%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--23%2023%3A50%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Comprehensive curated list of AI models, tools, and resources for developers and researchers. From frontier proprietary models to self-hostable open-source alternatives, from AI-powered IDEs to automation frameworks.
 
@@ -119,7 +119,9 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | Model | Company | Context | Key Features | Pricing |
 |-------|---------|---------|--------------|---------|
 | **Claude Opus 4.6** | Anthropic | 1M | Agent teams, enhanced coding/reasoning | $5 / $25 |
+| **Claude Sonnet 4.6** | Anthropic | 1M | Near-Opus performance, Sonnet price | $3 / $15 |
 | **GPT-5.3-Codex** | OpenAI | 400K | Agentic coding, 128K output | TBD |
+| **Gemini 3.1 Pro** | Google | 1M | 77.1% ARC-AGI-2, 2x reasoning boost | $2 / $12 |
 | **Gemini 3 Deep Think** | Google | 1M+ | 84.6% ARC-AGI-2, science/research | Ultra subscription |
 | **GLM-5** | Zhipu AI | 200K | Agentic engineering, long-horizon tasks | $1.00 / $3.20 |
 | **MiniMax-M2.5** | MiniMax | 200K | Coding/refactoring, tool calling, long context | $0.30 / $1.20 |
@@ -160,6 +162,8 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 | Model | Company | Release Date | Key Features | Category |
 |-------|---------|--------------|--------------|----------|
+| **Gemini 3.1 Pro** | Google | February 19, 2026 | 77.1% ARC-AGI-2, 2x reasoning boost, 1M context | Frontier |
+| **Claude Sonnet 4.6** | Anthropic | February 17, 2026 | Near-Opus performance at Sonnet price, 1M context | Frontier |
 | **Claude Opus 4.6** | Anthropic | February 5, 2026 | Agent teams, enhanced coding/reasoning, 1M context | Frontier |
 | **GPT-5.3-Codex** | OpenAI | February 5, 2026 | Most capable agentic coding model, 400K context, 128K output | Coding |
 | **Gemini 3 Deep Think** | Google | February 12, 2026 | 84.6% ARC-AGI-2, science/research/engineering focus | Reasoning |
@@ -171,6 +175,8 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 | Model | Company | Latest Updated | Notes | Official Site |
 |-------|---------|---------------|-------|:---:|
+| **Gemini 3.1 Pro** | Google | 2026-02-19 00:00 UTC ⭐ | 77.1% ARC-AGI-2, 2x reasoning boost | [🔗](https://deepmind.google/models/model-cards/gemini-3-1-pro/) |
+| **Claude Sonnet 4.6** | Anthropic | 2026-02-17 00:00 UTC ⭐ | Near-Opus performance at Sonnet price | [🔗](https://www.anthropic.com/claude/sonnet) |
 | **Gemini 3 Deep Think** | Google | 2026-02-12 00:00 UTC ⭐ | ARC-AGI-2 result highlighted | [🔗](https://deepmind.google/technologies/gemini/) |
 | **GLM-5** | Zhipu AI | 2026-02-12 00:00 UTC ⭐ | Agentic engineering, long-horizon tasks | [🔗](https://docs.z.ai/release-notes/new-released) |
 | **Claude Opus 4.6** | Anthropic | 2026-02-05 00:00 UTC ⭐ | Agent teams, enhanced coding/reasoning | [🔗](https://www.anthropic.com/) |
@@ -375,20 +381,20 @@ Integrated Development Environments with built-in AI capabilities.
 
 #### Agentic IDEs
 
-| IDE | Platform | Pricing | Key Features |
-|-----|----------|---------|--------------|
-| **Firebase Studio** | Web | Free | Cloud-based, Gemini, MCP |
-| **[Lingma IDE (通义灵码)](https://lingma.aliyun.com/download)** | Windows, macOS | Varies | Built-in agent, MCP tool use, terminal command execution |
-| **Tonkotsu** | Windows, macOS | Freemium | Team of agents, workflow |
-| **OpenCode** | Windows, macOS, Linux | Free (OSS) | Terminal, desktop, IDE extension, multi-provider |
+| IDE | Platform | Pricing | Key Features | GitHub |
+|-----|----------|---------|--------------|--------|
+| **Firebase Studio** | Web | Free (3 workspaces, up to 30 with Google Developer Program) | Cloud-based, Gemini, MCP | ❌ |
+| **[Lingma IDE (通义灵码)](https://lingma.aliyun.com/download)** | Windows, macOS | Free (download) | Built-in agent, MCP tool use, terminal command execution | ❌ |
+| **Tonkotsu** | Windows, macOS | Free (during early access) | Team of agents, workflow | ❌ |
+| **OpenCode** | Windows, macOS, Linux | Free (OSS) | Terminal, desktop, IDE extension, multi-provider | [🔗](https://github.com/anomalyco/opencode) |
 
 #### Native AI Editors
 
-| Editor | Platform | Pricing | Key Features |
-|--------|----------|---------|--------------|
-| **Zed** | macOS, Windows, Linux | Free + Copilot | Fast, collaboration, Gemini/Claude |
-| **Dyad** | Windows, macOS, Linux | Free (OSS) | Local generation, BYO keys |
-| **Memex** | macOS, Windows | Freemium | Agentic, browser↔desktop |
+| Editor | Platform | Pricing | Key Features | GitHub |
+|--------|----------|---------|--------------|--------|
+| **Zed** | macOS, Windows, Linux | Free (OSS) + Copilot $10/mo | Fast, collaboration, Gemini/Claude, Zeta AI | [🔗](https://github.com/zed-industries/zed) |
+| **Dyad** | Windows, macOS, Linux | Free (OSS) | Local generation, BYO keys | [🔗](https://github.com/dyad-sh/dyad) |
+| **Memex** | macOS, Windows | Freemium (Free + $10/mo) | Agentic, browser↔desktop | ❌ |
 
 #### IDE Updates (January 2026)
 
@@ -402,33 +408,35 @@ Integrated Development Environments with built-in AI capabilities.
 
 | IDE | Version | Release Date | Key Features |
 |-----|---------|--------------|--------------|
-| **Cursor** | 0.46+ | February 8, 2026 | CLI Plan mode, cloud handoffs, improved agent capabilities |
+| **Zed** | 0.225.0 | February 18, 2026 | Agent thread history, edit prediction providers (Zeta, Mercury, Copilot), mermaid diagrams |
+| **Cursor** | 0.46+ | February 12, 2026 | Long-running autonomous agents, complex task completion |
+| **Windsurf** | 1.9552+ | February 12, 2026 | Plan Mode auto-switch to Code Mode, .agents/skills directory support |
 | **Windsurf** | 1.9544+ | February 3, 2026 | Claude Opus 4.6 fast mode, JetBrains plugin, Cascade improvements |
 | **Zed** | 0.224.0 | February 11, 2026 | AI agent thread history, tool call permissions, edit prediction providers |
 
 #### VS Code Forks
 
-| IDE | Platform | Pricing | Autonomous | MCP |
-|-----|----------|---------|------------|-----|
-| **Cursor** | Windows, macOS, Linux | Freemium | ✅ | ❌ |
-| **Windsurf** | Windows, macOS, Linux | Freemium | ✅ | ✅ |
-| **Trae** | macOS, Windows | Free | ❌ | ❌ |
-| **PearAI** | Windows, macOS, Linux | Free (OSS) | ✅ | ❌ |
-| **Void** | Windows, macOS, Linux | Free (OSS) | ✅ | ✅ |
-| **Google Antigravity** | Windows, macOS, Linux | Free | ✅ | ❌ |
-| **Kiro** | Windows, macOS, Linux | Free (Preview) | ✅ | ✅ |
+| IDE | Platform | Pricing | Autonomous | MCP | GitHub |
+|----------|---------|---------|------------|-----|--------|
+| **Cursor** | Windows, macOS, Linux | Freemium | ✅ | ❌ | ❌ |
+| **Windsurf** | Windows, macOS, Linux | Freemium | ✅ | ✅ | ❌ |
+| **Trae** | macOS, Windows | Free | ❌ | ❌ | ❌ |
+| **PearAI** | Windows, macOS, Linux | Free (OSS) | ✅ | ❌ | ❌ |
+| **Void** | Windows, macOS, Linux | Free (OSS) | ✅ | ✅ | ❌ |
+| **Google Antigravity** | Windows, macOS, Linux | Free | ✅ | ❌ | ❌ |
+| **Kiro** | Windows, macOS, Linux | Free (Preview) | ✅ | ✅ | ❌ |
 
 #### Web-Based IDEs
 
-| Platform | Platform | Self-Hostable | Best For |
-|----------|----------|---------------|----------|
-| **Replit 3** | Web | ❌ | Learning/Prototyping |
-| **Bolt.new** | Web | ❌ | Quick apps |
-| **Bolt.diy** | Self-hosted | ✅ | Self-hosted |
-| **Lovable** | Web | ❌ | UI/Full-stack |
-| **v0** | Web | ❌ | React components |
-| **Gitpod** | Web | ❌ | Cloud dev environments |
-| **Rork** | Web | ❌ | Mobile apps (iOS/Android) |
+| Platform | Platform | Pricing | Self-Hostable | Best For | GitHub |
+|----------|----------|---------|---------------|----------|--------|
+| **Replit 3** | Web | Free Starter, Core $20-25/mo, Pro $100/mo | ❌ | Learning/Prototyping | ❌ |
+| **Bolt.new** | Web | Free (limited), $20-25/mo Pro, $200/mo Teams | ❌ | Quick apps | ❌ |
+| **Bolt.diy** | Self-hosted | Free (MIT), bring your own API | ✅ | Self-hosted | [🔗](https://github.com/stackblitz-labs/bolt.diy) |
+| **Lovable** | Web | Free (5 credits/day), Pro $25/mo, Business $50/mo | ❌ | UI/Full-stack | ❌ |
+| **v0** | Web | Free ($5 credits/mo), Premium $20/mo, Teams $30/user | ❌ | React components |
+| **Gitpod** | Web | Free + Paid | ❌ | Cloud dev environments |
+| **Rork** | Web | Free & Paid (credits) | ❌ | Mobile apps (iOS/Android) |
 
 ### CLI Tools 🖥️
 
@@ -436,15 +444,15 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 
 #### Autonomous Coding Agents
 
-| Tool | Platform | Pricing | Key Features |
-|------|----------|---------|--------------|
-| **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode, thinking tokens |
-| **Claude Code 2.1+** | macOS, Linux, Windows | Free + API | Fast mode for Opus 4.6, PDF page ranges, OAuth for MCP |
-| **Codex CLI** | Windows, macOS, Linux | Included | Sandbox, approval modes |
-| **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible, desktop app |
-| **GPT-Pilot** | Windows, macOS, Linux | Free | Full dev team simulation |
-| **OpenHands** | Windows, macOS, Linux | Free | Cloud agents, MCP |
-| **Mentat** | Windows, macOS, Linux | Free | Multi-file coordination |
+| Tool | Platform | Pricing | Key Features | GitHub |
+|------|----------|---------|--------------|--------|
+| **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode, thinking tokens | [🔗](https://github.com/Aider-AI/aider) |
+| **Claude Code 2.1+** | macOS, Linux, Windows | Free + API | Fast mode for Opus 4.6, simple mode file editing, Unicode fix | [🔗](https://github.com/anthropics/claude-code) |
+| **Codex CLI** | Windows, macOS, Linux | Included | Sandbox, approval modes | [🔗](https://github.com/openai/codex) |
+| **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible, desktop app, 25+ providers | [🔗](https://github.com/block/goose) |
+| **GPT-Pilot** | Windows, macOS, Linux | Free | Full dev team simulation | [🔗](https://github.com/Pythagora-io/gpt-pilot) |
+| **OpenHands** | Windows, macOS, Linux | Free | Cloud agents, MCP | [🔗](https://github.com/OpenHands/OpenHands) |
+| **Mentat** | Windows, macOS, Linux | Free | Multi-file coordination | [🔗](https://github.com/AbanteAI/mentat) |
 
 #### Assisted CLI Tools
 
@@ -468,14 +476,14 @@ Extensions and plugins that add AI capabilities to existing IDEs.
 
 #### Universal (Cross-Platform)
 
-| Add-on | Platform | Pricing | Context | Best For |
-|--------|----------|---------|---------|----------|
-| **GitHub Copilot** | VS Code, JetBrains, Vim | $0 / $10 / $39/mo | Large | General coding |
-| **Supermaven** | VS Code, JetBrains, Neovim | $10/mo | 1M | Large codebases |
-| **Codeium** | VS Code, JetBrains, Vim | Free | Medium | Free alternative |
-| **Continue** | VS Code, JetBrains | Free (OSS) | Custom | Self-hosted |
-| **Cody** | VS Code, JetBrains, Web | Free/Enterprise | Enterprise | Code search |
-| **Tabnine** | VS Code, JetBrains, VS, Eclipse | Free/Pro | Local | Privacy |
+| Add-on | Platform | Pricing | Context | Best For | GitHub |
+|--------|----------|---------|---------|----------|--------|
+| **GitHub Copilot** | VS Code, JetBrains, Vim | Free / $10/mo / $39/mo | Large | General coding | ❌ |
+| **Supermaven** | VS Code, JetBrains, Neovim | Free / $10/mo | 1M | Large codebases | ❌ |
+| **Codeium** | VS Code, JetBrains, Vim | Free / $15/mo / $60/mo | Medium | Free alternative | ❌ |
+| **Continue** | VS Code, JetBrains | Free (OSS) | Custom | Self-hosted | [🔗](https://github.com/continuedev/continue) |
+| **Cody** | VS Code, JetBrains, Web | Free (discontinued) / Enterprise Starter $19/mo / Enterprise $59/mo | Enterprise | Code search | [🔗](https://github.com/sourcegraph/cody-vs) |
+| **Tabnine** | VS Code, JetBrains, VS, Eclipse | Free / $39/mo | Local | Privacy | ❌ |
 
 #### IDE Extension Updates (January 2026)
 
@@ -486,18 +494,19 @@ Extensions and plugins that add AI capabilities to existing IDEs.
 
 #### VS Code Specific
 
-| Add-on | Pricing | Autonomous | MCP | Best For |
-|--------|---------|------------|-----|----------|
-| **Cline** | Free | ✅ | ✅ | Full agent |
-| **GitHub Copilot (Agent Mode)** | $0 / $10 / $39/mo | ⚠️ | ❌ | Guided agent workflows |
-| **RooCode** | Free/Pro | ⚠️ | ❌ | Complex tasks |
-| **Keploy** | OSS/Enterprise | ❌ | ❌ | Testing |
+| Add-on | Pricing | Autonomous | MCP | Best For | GitHub |
+|--------|---------|------------|-----|----------|--------|
+| **Codex** | Free (with ChatGPT Plus $20/mo or Pro $200/mo) | ✅ | ✅ | OpenAI's official coding agent | [🔗](https://github.com/openai/codex) |
+| **Cline** | Free | ✅ | ✅ | Full agent | [🔗](https://github.com/cline/cline) |
+| **GitHub Copilot (Agent Mode)** | $0 / $10 / $39/mo | ⚠️ | ❌ | Guided agent workflows | ❌ |
+| **RooCode** | Free/Pro | ⚠️ | ❌ | Complex tasks | ❌ |
+| **Keploy** | OSS/Enterprise | ❌ | ❌ | Testing | ❌ |
 
 #### JetBrains Specific
 
 | Add-on | Pricing | Claude Agent | Best For |
 |--------|---------|--------------|----------|
-| **JetBrains AI Assistant** | $10-20/mo | ✅ | Deep IDE integration |
+| **JetBrains AI Assistant** | $10/mo (Pro), $249/yr (Ultimate) | ✅ | Deep IDE integration |
 | **JetBrains Claude Agent** | Included in subscription | ✅ | Native agent |
 
 ### API Providers 🔌
@@ -561,36 +570,40 @@ Tools and frameworks for AI-powered browser automation.
 
 #### Standalone AI Browsers
 
-| Browser | Open Source | Local AI | Best For |
-|---------|-------------|----------|----------|
-| **BrowserOS** | ✅ | ✅ | Privacy-focused |
-| **Fellou** | ❌ | ❌ | True agentic browser |
-| **Perplexity Comet** | ❌ | ❌ | Research |
-| **Dia** | ❌ | ❌ | Arc replacement |
+| Browser | Pricing | Open Source | Local AI | Best For | GitHub |
+|---------|---------|-------------|----------|----------|--------|
+| **BrowserOS** | Free | ✅ | ✅ | Privacy-focused | ❌ |
+| **Brave Leo** | Freemium (Free + Premium) | ❌ | ⚠️ (Experimental) | Privacy-focused AI | ❌ |
+| **Fellou** | Freemium (Free for 4 tasks, $20/mo Plus) | ❌ | ❌ | True agentic browser | ❌ |
+| **Perplexity Comet** | Free (with Pro $20/mo) or $5/mo | ❌ | ❌ | Research | ❌ |
+| **Dia** | Freemium (Free limited, $20/mo Pro) | ❌ | ❌ | Arc replacement | ❌ |
+| **Opera Neon** | $19.90/mo | ❌ | ❌ | Agentic browsing | ❌ |
+| **Opera One (Aria)** | Free | ❌ | ❌ | Built-in AI assistant | ❌ |
+| **Edge Copilot** | Free (Copilot Pro $20/mo) | ❌ | ❌ | Enterprise AI browser | ❌ |
 
 #### Browser Extensions
 
-| Extension | Free | Multi-Agent | Best For |
-|-----------|------|-------------|----------|
-| **Harpa AI** | ✅ | ❌ | Automation recipes |
-| **MultiOn** | ⚠️ | ✅ | Complex tasks |
-| **NanoBrowser** | ✅ | ✅ | Local control |
+| Extension | Pricing | Free | Multi-Agent | Best For | GitHub |
+|-----------|---------|------|-------------|----------|--------|
+| **Harpa AI** | Free | ✅ | ❌ | Automation recipes | ❌ |
+| **MultiOn** | Free/Paid | ⚠️ | ✅ | Complex tasks | ❌ |
+| **NanoBrowser** | Free | ✅ | ✅ | Local control | ❌ |
 
 #### Developer Libraries
 
-| Library | Language | Best For |
-|---------|----------|----------|
-| **Browser-use** | Python | Agentic automation |
-| **Stagehand** | TypeScript | Web apps |
-| **LaVague** | Python | NL to code |
-| **Skyvern** | Python | CV-based automation |
+| Library | Language | Best For | GitHub |
+|---------|----------|----------|--------|
+| **Browser-use** | Python | Agentic automation | [🔗](https://github.com/browser-use/browser-use) |
+| **Stagehand** | TypeScript | Web apps | [🔗](https://github.com/browserbase/stagehand) |
+| **LaVague** | Python | NL to code | [🔗](https://github.com/lavague-ai/LaVague) |
+| **Skyvern** | Python | CV-based automation | [🔗](https://github.com/Skyvern-AI/skyvern) |
 
 #### Cloud Automation
 
-| Service | Platform | Best For |
-|---------|----------|----------|
-| **Skyvern Cloud** | Cloud API | Resilient automation |
-| **Browserbase** | Cloud API | Stealth mode, session recording |
+| Service | Platform | Pricing | Best For | GitHub |
+|---------|----------|---------|----------|--------|
+| **Skyvern Cloud** | Cloud API | Paid | Resilient automation | [🔗](https://github.com/Skyvern-AI/skyvern) |
+| **Browserbase** | Cloud API | Paid | Stealth mode, session recording | ❌ |
 
 ### Agent Platforms 🧩
 
@@ -607,13 +620,13 @@ AI agents and tools for automating desktop tasks and OS-level interactions.
 
 #### AI Agents (Computer Use)
 
-| Agent | Platform | Vision-Based | Cross-Platform | Best For |
-|-------|----------|--------------|----------------|----------|
-| **Agent S** | Cross-platform | ✅ | ✅ | Research/SOTA |
-| **Bytebot** | Linux (Docker) | ✅ | ✅ | Self-hosted |
-| **UFO** | Windows | ✅ | ❌ | Windows automation |
-| **Open-Interface** | Cross-platform | ✅ | ✅ | General use |
-| **Anthropic Computer Use** | API | ✅ | ✅ | Beta capability |
+| Agent | Platform | Vision-Based | Cross-Platform | Best For | GitHub |
+|-------|----------|--------------|----------------|----------|--------|
+| **Agent S** | Cross-platform | ✅ | ✅ | Research/SOTA | [🔗](https://github.com/simular-ai/Agent-S) |
+| **Bytebot** | Linux (Docker) | ✅ | ✅ | Self-hosted | ❌ |
+| **UFO** | Windows | ✅ | ❌ | Windows automation | [🔗](https://github.com/microsoft/UFO) |
+| **Open-Interface** | Cross-platform | ✅ | ✅ | General use | [🔗](https://github.com/AmberSahdev/Open-Interface) |
+| **Anthropic Computer Use** | API | ✅ | ✅ | Beta capability | ❌ |
 
 #### RPA & Visual Frameworks
 
@@ -624,11 +637,11 @@ AI agents and tools for automating desktop tasks and OS-level interactions.
 
 #### Scripting Libraries
 
-| Tool | Platform | Key Features |
-|------|----------|--------------|
-| **PyAutoGUI** | Cross-platform | Simple API, fail-safe |
-| **Nut.js** | Cross-platform | Visual search, image matching |
-| **OpenAdapt** | Windows, macOS | Learning from demonstration |
+| Tool | Platform | Key Features | GitHub |
+|------|----------|--------------|--------|
+| **PyAutoGUI** | Cross-platform | Simple API, fail-safe | ❌ |
+| **Nut.js** | Cross-platform | Visual search, image matching | ❌ |
+| **OpenAdapt** | Windows, macOS | Learning from demonstration | [🔗](https://github.com/OpenAdaptAI/OpenAdapt) |
 
 ---
 
@@ -966,7 +979,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ---
 
-**Last Updated:** 2026-02-21 22:05 UTC  
+**Last Updated:** 2026-02-24 00:36 UTC  
 **Maintained by:** ReadyPixels LLC & AI Models Matrix Contributors
 
 ---
