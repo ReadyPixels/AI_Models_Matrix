@@ -41,8 +41,6 @@
     - [IDEs 💻](#ides-)
       - [Agentic IDEs](#agentic-ides)
       - [Native AI Editors](#native-ai-editors)
-      - [IDE Updates (January 2026)](#ide-updates-january-2026)
-      - [IDE Updates (February 2026)](#ide-updates-february-2026)
       - [VS Code Forks](#vs-code-forks)
       - [Web-Based IDEs](#web-based-ides)
     - [CLI Tools 🖥️](#cli-tools-️)
@@ -381,62 +379,46 @@ Integrated Development Environments with built-in AI capabilities.
 
 #### Agentic IDEs
 
-| IDE | Platform | Pricing | Key Features | GitHub |
-|-----|----------|---------|--------------|--------|
-| **Firebase Studio** | Web | Free (3 workspaces, up to 30 with Google Developer Program) | Cloud-based, Gemini, MCP | ❌ |
-| **[Lingma IDE (通义灵码)](https://lingma.aliyun.com/download)** | Windows, macOS | Free (download) | Built-in agent, MCP tool use, terminal command execution | ❌ |
-| **Tonkotsu** | Windows, macOS | Free (during early access) | Team of agents, workflow | ❌ |
-| **OpenCode** | Windows, macOS, Linux | Free (OSS) | Terminal, desktop, IDE extension, multi-provider | [🔗](https://github.com/anomalyco/opencode) |
+| IDE | Platform | Version | Release Date | Pricing | Key Features | GitHub |
+|-----|----------|---------|---------------|---------|--------------|--------|
+| **Firebase Studio** | Web | - | - | Free (3 workspaces, up to 30 with Google Developer Program) | Cloud-based, Gemini, MCP | ❌ |
+| **[Lingma IDE (通义灵码)](https://lingma.aliyun.com/download)** | Windows, macOS | - | - | Free (download) | Built-in agent, MCP tool use, terminal command execution | ❌ |
+| **Tonkotsu** | Windows, macOS | - | - | Free (during early access) | Team of agents, workflow | ❌ |
+| **OpenCode** | Windows, macOS, Linux | - | - | Free (OSS) | Terminal, desktop, IDE extension, multi-provider | [🔗](https://github.com/anomalyco/opencode) |
+| **Visual Studio** | Windows, macOS | 17.14.12+, 18.1.0+ | January 6, 2026 | Free / $250/yr | Gemini 3 Flash integration, faster performance, zero-migration upgrades, real-time profiler agent | ❌ |
+| **IntelliJ IDEA** | Windows, macOS, Linux | 2025.3.2 | January 2026 | Free / $149/yr | Java 24 support, Kotlin K2 mode, performance/memory improvements | ❌ |
 
 #### Native AI Editors
 
-| Editor | Platform | Pricing | Key Features | GitHub |
-|--------|----------|---------|--------------|--------|
-| **Zed** | macOS, Windows, Linux | Free (OSS) + Copilot $10/mo | Fast, collaboration, Gemini/Claude, Zeta AI | [🔗](https://github.com/zed-industries/zed) |
-| **Dyad** | Windows, macOS, Linux | Free (OSS) | Local generation, BYO keys | [🔗](https://github.com/dyad-sh/dyad) |
-| **Memex** | macOS, Windows | Freemium (Free + $10/mo) | Agentic, browser↔desktop | ❌ |
-
-#### IDE Updates (January 2026)
-
-| IDE | Version | Release Date | Key Features |
-|-----|---------|--------------|--------------|
-| **Visual Studio** | 17.14.12+, 18.1.0+ | January 6, 2026 | Gemini 3 Flash integration, faster performance, zero-migration upgrades, real-time profiler agent |
-| **IntelliJ IDEA** | 2025.3.2 | January 2026 | Java 24 support, Kotlin K2 mode by default, performance/memory improvements |
-| **JetBrains IDEs** | Various | January 2026 | AI Assistant with deep IDE integration, Claude Agent capabilities |
-
-#### IDE Updates (February 2026)
-
-| IDE | Version | Release Date | Key Features |
-|-----|---------|--------------|--------------|
-| **Zed** | 0.225.0 | February 18, 2026 | Agent thread history, edit prediction providers (Zeta, Mercury, Copilot), mermaid diagrams |
-| **Cursor** | 0.46+ | February 12, 2026 | Long-running autonomous agents, complex task completion |
-| **Windsurf** | 1.9552+ | February 12, 2026 | Plan Mode auto-switch to Code Mode, .agents/skills directory support |
-| **Windsurf** | 1.9544+ | February 3, 2026 | Claude Opus 4.6 fast mode, JetBrains plugin, Cascade improvements |
-| **Zed** | 0.224.0 | February 11, 2026 | AI agent thread history, tool call permissions, edit prediction providers |
+| Editor | Platform | Version | Release Date | Pricing | Key Features | GitHub |
+|--------|----------|---------|---------------|---------|--------------|--------|
+| **Zed** | macOS, Windows, Linux | 0.225.0 | February 18, 2026 | Free (OSS) + Copilot $10/mo | Fast, collaboration, Gemini/Claude, Zeta AI, agent thread history, edit prediction providers | [🔗](https://github.com/zed-industries/zed) |
+| **Dyad** | Windows, macOS, Linux | - | - | Free (OSS) | Local generation, BYO keys | [🔗](https://github.com/dyad-sh/dyad) |
+| **Memex** | macOS, Windows | - | - | Freemium (Free + $10/mo) | Agentic, browser↔desktop | ❌ |
 
 #### VS Code Forks
 
-| IDE | Platform | Pricing | Autonomous | MCP | GitHub |
-|----------|---------|---------|------------|-----|--------|
-| **Cursor** | Windows, macOS, Linux | Freemium | ✅ | ❌ | ❌ |
-| **Windsurf** | Windows, macOS, Linux | Freemium | ✅ | ✅ | ❌ |
-| **Trae** | macOS, Windows | Free | ❌ | ❌ | ❌ |
-| **PearAI** | Windows, macOS, Linux | Free (OSS) | ✅ | ❌ | ❌ |
-| **Void** | Windows, macOS, Linux | Free (OSS) | ✅ | ✅ | ❌ |
-| **Google Antigravity** | Windows, macOS, Linux | Free | ✅ | ❌ | ❌ |
-| **Kiro** | Windows, macOS, Linux | Free (Preview) | ✅ | ✅ | ❌ |
+| IDE | Platform | Version | Release Date | Pricing | Autonomous | MCP | GitHub |
+|----------|---------|---------|---------------|---------|------------|-----|--------|
+| **Cursor** | Windows, macOS, Linux | 0.46+ | February 12, 2026 | Freemium (Free + Pro $19/mo or $39/mo) | ✅ | ❌ | ❌ |
+| **Windsurf** | Windows, macOS, Linux | 1.9552+ | February 12, 2026 | Freemium (Free + Pro) | ✅ | ✅ | ❌ |
+| **Trae** | macOS, Windows | - | - | Free | ❌ | ❌ | ❌ |
+| **PearAI** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ❌ | ❌ |
+| **Void** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ✅ | ❌ |
+| **Google Antigravity** | Windows, macOS, Linux | - | - | Free | ✅ | ❌ | ❌ |
+| **Kiro** | Windows, macOS, Linux | - | - | Free (Preview) | ✅ | ✅ | ❌ | |
 
 #### Web-Based IDEs
 
-| Platform | Platform | Pricing | Self-Hostable | Best For | GitHub |
-|----------|----------|---------|---------------|----------|--------|
-| **Replit 3** | Web | Free Starter, Core $20-25/mo, Pro $100/mo | ❌ | Learning/Prototyping | ❌ |
-| **Bolt.new** | Web | Free (limited), $20-25/mo Pro, $200/mo Teams | ❌ | Quick apps | ❌ |
-| **Bolt.diy** | Self-hosted | Free (MIT), bring your own API | ✅ | Self-hosted | [🔗](https://github.com/stackblitz-labs/bolt.diy) |
-| **Lovable** | Web | Free (5 credits/day), Pro $25/mo, Business $50/mo | ❌ | UI/Full-stack | ❌ |
-| **v0** | Web | Free ($5 credits/mo), Premium $20/mo, Teams $30/user | ❌ | React components |
-| **Gitpod** | Web | Free + Paid | ❌ | Cloud dev environments |
-| **Rork** | Web | Free & Paid (credits) | ❌ | Mobile apps (iOS/Android) |
+| Platform | Platform | Version | Release Date | Pricing | Self-Hostable | Best For | GitHub |
+|----------|----------|---------|---------------|---------|---------------|----------|--------|
+| **Replit 3** | Web | - | - | Free Starter, Core $20-25/mo, Pro $100/mo | ❌ | Learning/Prototyping | ❌ |
+| **Bolt.new** | Web | - | - | Free, Pro $20-25/mo, Teams $200/mo | ❌ | Quick apps | ❌ |
+| **Bolt.diy** | Self-hosted | - | - | Free (MIT), bring your own API | ✅ | Self-hosted | [🔗](https://github.com/stackblitz-labs/bolt.diy) |
+| **Lovable** | Web | - | - | Free (5 credits/day), Pro $25/mo, Business $50/mo | ❌ | UI/Full-stack | ❌ |
+| **v0** | Web | - | - | Free ($5 credits/mo), Premium $20/mo, Teams $30/user | ❌ | React components | ❌ |
+| **Gitpod** | Web | - | - | Free + Paid | ❌ | Cloud dev environments | ❌ |
+| **Rork** | Web | - | - | Free & Paid (credits) | ❌ | Mobile apps (iOS/Android) | ❌ |
 
 ### CLI Tools 🖥️
 
