@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--02--23%2023%3A50%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--03%2023%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Comprehensive curated list of AI models, tools, and resources for developers and researchers. From frontier proprietary models to self-hostable open-source alternatives, from AI-powered IDEs to automation frameworks.
 
@@ -171,17 +171,19 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 #### Latest Updates ⭐ (Last 30 Days)
 
-| Model | Company | Latest Updated | Notes | Official Site |
-|-------|---------|---------------|-------|:---:|
+| Model/Tool | Company | Latest Updated | Notes | Official Site |
+|------------|---------|---------------|-------|:---:|
+| **Zed Editor** | Zed Industries | 2026-03-03 00:00 UTC ⭐ | v0.226.3 - Edit predictions, agent improvements | [🔗](https://zed.dev/releases/stable) |
+| **Grok 4.20 Beta 2** | xAI | 2026-03-03 00:00 UTC ⭐ | Improved instruction following, hallucination reduction | [🔗](https://docs.x.ai/developers/release-notes) |
 | **Gemini 3.1 Pro** | Google | 2026-02-19 00:00 UTC ⭐ | 77.1% ARC-AGI-2, 2x reasoning boost | [🔗](https://deepmind.google/models/model-cards/gemini-3-1-pro/) |
 | **Claude Sonnet 4.6** | Anthropic | 2026-02-17 00:00 UTC ⭐ | Near-Opus performance at Sonnet price | [🔗](https://www.anthropic.com/claude/sonnet) |
+| **Qwen3.5-Max** | Alibaba | 2026-02-17 00:00 UTC ⭐ | 397B params, 8x faster than Qwen3-Max | [🔗](https://qwenlm.github.io/) |
 | **Gemini 3 Deep Think** | Google | 2026-02-12 00:00 UTC ⭐ | ARC-AGI-2 result highlighted | [🔗](https://deepmind.google/technologies/gemini/) |
 | **GLM-5** | Zhipu AI | 2026-02-12 00:00 UTC ⭐ | Agentic engineering, long-horizon tasks | [🔗](https://docs.z.ai/release-notes/new-released) |
 | **Claude Opus 4.6** | Anthropic | 2026-02-05 00:00 UTC ⭐ | Agent teams, enhanced coding/reasoning | [🔗](https://www.anthropic.com/) |
 | **GPT-5.3-Codex** | OpenAI | 2026-02-05 00:00 UTC ⭐ | Agentic coding focus | [🔗](https://openai.com/) |
 | **Kimi K2.5** | Moonshot AI | 2026-02-02 00:00 UTC ⭐ | Models & pricing published | [🔗](https://platform.moonshot.ai/docs/pricing/chat) |
 | **DeepSeek-V4** | DeepSeek | 2026-02-17 00:00 UTC | Release window announced | [🔗](https://www.deepseek.com/) |
-| **Qwen3.5-Max** | Alibaba | 2026-02 | February 2026 release window | [🔗](https://qwenlm.github.io/) |
 
 ### Open-Source Models 🆓
 
@@ -392,7 +394,7 @@ Integrated Development Environments with built-in AI capabilities.
 
 | Editor | Platform | Version | Release Date | Pricing | Key Features | GitHub |
 |--------|----------|---------|---------------|---------|--------------|--------|
-| **Zed** | macOS, Windows, Linux | 0.225.0 | February 18, 2026 | Free (OSS) + Copilot $10/mo | Fast, collaboration, Gemini/Claude, Zeta AI, agent thread history, edit prediction providers | [🔗](https://github.com/zed-industries/zed) |
+| **Zed** | macOS, Windows, Linux | 0.226.3 | March 3, 2026 | Free (OSS) + Copilot $10/mo | Fast, collaboration, Gemini/Claude, Zeta AI, agent thread history, edit prediction providers, self-hosted OpenAI-compatible servers | [🔗](https://github.com/zed-industries/zed) |
 | **Dyad** | Windows, macOS, Linux | - | - | Free (OSS) | Local generation, BYO keys | [🔗](https://github.com/dyad-sh/dyad) |
 | **Memex** | macOS, Windows | - | - | Freemium (Free + $10/mo) | Agentic, browser↔desktop | ❌ |
 
@@ -961,7 +963,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ---
 
-**Last Updated:** 2026-02-24 00:36 UTC  
+**Last Updated:** 2026-03-03 23:00 UTC
 **Maintained by:** ReadyPixels LLC & AI Models Matrix Contributors
 
 ---
