@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--03%2023%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--09%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Comprehensive curated list of AI models, tools, and resources for developers and researchers. From frontier proprietary models to self-hostable open-source alternatives, from AI-powered IDEs to automation frameworks.
 
@@ -414,8 +414,8 @@ Integrated Development Environments with built-in AI capabilities.
 
 | Platform | Platform | Version | Release Date | Pricing | Self-Hostable | Best For | GitHub |
 |----------|----------|---------|---------------|---------|---------------|----------|--------|
-| **Replit 3** | Web | - | - | Free Starter, Core $20-25/mo, Pro $100/mo | ❌ | Learning/Prototyping | ❌ |
-| **Bolt.new** | Web | - | - | Free, Pro $20-25/mo, Teams $200/mo | ❌ | Quick apps | ❌ |
+| **Replit 3** | Web | - | - | Free Starter, Core **$20/mo**, Pro $100/mo | ❌ | Learning/Prototyping | ❌ |
+| **Bolt.new** | Web | - | - | Free, Pro $20-25/mo, Teams **$30/user/mo** | ❌ | Quick apps | ❌ |
 | **Bolt.diy** | Self-hosted | - | - | Free (MIT), bring your own API | ✅ | Self-hosted | [🔗](https://github.com/stackblitz-labs/bolt.diy) |
 | **Lovable** | Web | - | - | Free (5 credits/day), Pro $25/mo, Business $50/mo | ❌ | UI/Full-stack | ❌ |
 | **v0** | Web | - | - | Free ($5 credits/mo), Premium $20/mo, Teams $30/user | ❌ | React components | ❌ |
@@ -556,6 +556,9 @@ Tools and frameworks for AI-powered browser automation.
 
 | Browser | Pricing | Open Source | Local AI | Best For | GitHub |
 |---------|---------|-------------|----------|----------|--------|
+| **Sigma AI Browser** | Freemium (Free + Pro $9.99/mo) | ❌ | ✅ | Offline AI, agentic browsing | ❌ |
+| **ChatGPT Atlas** | Free (with ChatGPT subscription) | ❌ | ❌ | OpenAI integration, macOS | ❌ |
+| **Genspark** | Freemium (Free + Plus $19.99/mo + Pro $249/mo) | ❌ | ❌ | AI Super Agent, research | ❌ |
 | **BrowserOS** | Free | ✅ | ✅ | Privacy-focused | ❌ |
 | **Brave Leo** | Freemium (Free + Premium) | ❌ | ⚠️ (Experimental) | Privacy-focused AI | ❌ |
 | **Fellou** | Freemium (Free for 4 tasks, $20/mo Plus) | ❌ | ❌ | True agentic browser | ❌ |
@@ -963,7 +966,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ---
 
-**Last Updated:** 2026-03-03 23:00 UTC
+**Last Updated:** 2026-03-09 00:00 UTC
 **Maintained by:** ReadyPixels LLC & AI Models Matrix Contributors
 
 ---
