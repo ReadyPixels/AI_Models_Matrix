@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--09%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--11%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Comprehensive curated list of AI models, tools, and resources for developers and researchers. From frontier proprietary models to self-hostable open-source alternatives, from AI-powered IDEs to automation frameworks.
 
@@ -966,7 +966,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ---
 
-**Last Updated:** 2026-03-09 00:00 UTC
+**Last Updated:** 2026-03-11 00:00 UTC
 **Maintained by:** ReadyPixels LLC & AI Models Matrix Contributors
 
 ---
