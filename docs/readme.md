@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--12%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--17%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Comprehensive curated list of AI models, tools, and resources for developers and researchers. From frontier proprietary models to self-hostable open-source alternatives, from AI-powered IDEs to automation frameworks.
 
@@ -118,7 +118,9 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 |-------|---------|---------|--------------|---------|
 | **Claude Opus 4.6** | Anthropic | 1M | Agent teams, enhanced coding/reasoning | $5 / $25 |
 | **Claude Sonnet 4.6** | Anthropic | 1M | Near-Opus performance, Sonnet price | $3 / $15 |
+| **GPT-5.4** | OpenAI | 400K | Thinking modes, Pro model, computer use | $1.25 / $10.00 |
 | **GPT-5.3-Codex** | OpenAI | 400K | Agentic coding, 128K output | TBD |
+| **GPT-5.3 Instant** | OpenAI | 128K | Instant answers, free tier | Free / $0.25/1M |
 | **Gemini 3.1 Pro** | Google | 1M | 77.1% ARC-AGI-2, 2x reasoning boost | $2 / $12 |
 | **Gemini 3 Deep Think** | Google | 1M+ | 84.6% ARC-AGI-2, science/research | Ultra subscription |
 | **GLM-5** | Zhipu AI | 200K | Agentic engineering, long-horizon tasks | $1.00 / $3.20 |
@@ -173,17 +175,12 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 | Model/Tool | Company | Latest Updated | Notes | Official Site |
 |------------|---------|---------------|-------|:---:|
-| **Zed Editor** | Zed Industries | 2026-03-03 00:00 UTC ⭐ | v0.226.3 - Edit predictions, agent improvements | [🔗](https://zed.dev/releases/stable) |
-| **Grok 4.20 Beta 2** | xAI | 2026-03-03 00:00 UTC ⭐ | Improved instruction following, hallucination reduction | [🔗](https://docs.x.ai/developers/release-notes) |
-| **Gemini 3.1 Pro** | Google | 2026-02-19 00:00 UTC ⭐ | 77.1% ARC-AGI-2, 2x reasoning boost | [🔗](https://deepmind.google/models/model-cards/gemini-3-1-pro/) |
-| **Claude Sonnet 4.6** | Anthropic | 2026-02-17 00:00 UTC ⭐ | Near-Opus performance at Sonnet price | [🔗](https://www.anthropic.com/claude/sonnet) |
-| **Qwen3.5-Max** | Alibaba | 2026-02-17 00:00 UTC ⭐ | 397B params, 8x faster than Qwen3-Max | [🔗](https://qwenlm.github.io/) |
-| **Gemini 3 Deep Think** | Google | 2026-02-12 00:00 UTC ⭐ | ARC-AGI-2 result highlighted | [🔗](https://deepmind.google/technologies/gemini/) |
-| **GLM-5** | Zhipu AI | 2026-02-12 00:00 UTC ⭐ | Agentic engineering, long-horizon tasks | [🔗](https://docs.z.ai/release-notes/new-released) |
-| **Claude Opus 4.6** | Anthropic | 2026-02-05 00:00 UTC ⭐ | Agent teams, enhanced coding/reasoning | [🔗](https://www.anthropic.com/) |
-| **GPT-5.3-Codex** | OpenAI | 2026-02-05 00:00 UTC ⭐ | Agentic coding focus | [🔗](https://openai.com/) |
-| **Kimi K2.5** | Moonshot AI | 2026-02-02 00:00 UTC ⭐ | Models & pricing published | [🔗](https://platform.moonshot.ai/docs/pricing/chat) |
-| **DeepSeek-V4** | DeepSeek | 2026-02-17 00:00 UTC | Release window announced | [🔗](https://www.deepseek.com/) |
+| **GPT-5.4** | OpenAI | 2026-03-17 00:00 UTC ⭐ | Thinking modes, Pro model, computer use | [🔗](https://openai.com/) |
+| **GPT-5.3 Instant** | OpenAI | 2026-03-17 00:00 UTC ⭐ | Instant answers for free tier | [🔗](https://openai.com/) |
+| **Claude Code 2.1+** | Anthropic | 2026-03-15 00:00 UTC ⭐ | Fast mode for Opus 4.6, Unicode fix | [🔗](https://github.com/anthropics/claude-code) |
+| **Windsurf Arena Mode** | Codeium/Cognition | 2026-03-10 00:00 UTC ⭐ | AI model battle arena | [🔗](https://codeium.com/windsurf) |
+| **Zed Editor** | Zed Industries | 2026-03-03 00:00 UTC | v0.226.3 - Edit predictions, agent improvements | [🔗](https://zed.dev/releases/stable) |
+| **Grok 4.20 Beta 2** | xAI | 2026-03-03 00:00 UTC | Improved instruction following, hallucination reduction | [🔗](https://docs.x.ai/developers/release-notes) |
 
 ### Open-Source Models 🆓
 
@@ -966,7 +963,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ---
 
-**Last Updated:** 2026-03-12 00:00 UTC
+**Last Updated:** 2026-03-17 00:00 UTC
 **Maintained by:** ReadyPixels LLC & AI Models Matrix Contributors
 
 ---
