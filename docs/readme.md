@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--17%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--28%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Comprehensive curated list of AI models, tools, and resources for developers and researchers. From frontier proprietary models to self-hostable open-source alternatives, from AI-powered IDEs to automation frameworks.
 
@@ -130,6 +130,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Qwen3.5-Max** | Alibaba | 128K | Hybrid attention, native VLM | Pay-per-token |
 | **Gemini 3 Pro** | Google | 1M+ | PhD-level reasoning, agentic tool-use | Tiered pricing |
 | **Gemini 3 Flash** | Google | 10M | Pro-grade reasoning, Flash speed | $0.30 / $2.50 |
+| **Gemini 3.1 Flash Lite** | Google | 1M | Cost-efficient model for high-volume workloads | $0.25 / $1.50 |
 | **GPT-5** | OpenAI | 400K | Thinking & Instant variants | $1.25 / $10.00 |
 | **GPT-5 mini** | OpenAI | 128K | Cheap reasoning | $0.25/1M |
 | **Mistral Large 3** | Mistral AI | 128K | 675B params, MoE, Open-weight | Varies |
@@ -138,6 +139,13 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Llama 4 Maverick** | Meta | 128K | 400B params, multimodal | Free (self-host) |
 | **Grok 4** | xAI | 128K | First-principles reasoning | $3 / $15 |
 | **Grok 4 Fast** | xAI | 128K | Cost-efficient variant | $0.20 / $1.50 |
+| **Mistral Small 4** | Mistral AI | 128K | 119B MoE, unifies instruct/reasoning/multimodal | Varies |
+| **Nemotron 3 Super** | NVIDIA | 128K | Open hybrid Mamba-Transformer MoE for agentic reasoning | Pay-per-token |
+| **GPT-5.4 mini** | OpenAI | 128K | Fast coding model | $0.25/1M |
+| **GPT-5.4 nano** | OpenAI | 128K | Efficient subagent model | $0.15/1M |
+| **Gemini 3.1 Flash Live** | Google | 10M | Audio AI for natural interactions | $0.30 / $2.50 |
+| **Phi-4-reasoning-vision** | Microsoft | 128K | Compact multimodal reasoning | MIT |
+| **Gemini Embedding 2** | Google | N/A | Natively multimodal embedding | Pay-per-token |
 
 #### Top Models by Category
 
@@ -175,12 +183,26 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 | Model/Tool | Company | Latest Updated | Notes | Official Site |
 |------------|---------|---------------|-------|:---:|
+| **Gemini 3.1 Flash Live** | Google | 2026-03-26 00:00 UTC ⭐ | Audio AI for natural interactions | [🔗](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/) |
+| **Mistral Small 4** | Mistral AI | 2026-03-16 00:00 UTC ⭐ | 119B MoE unifying instruct/reasoning/multimodal | [🔗](https://mistral.ai/) |
+| **Nemotron 3 Super** | NVIDIA | 2026-03-11 00:00 UTC ⭐ | Open hybrid Mamba-Transformer MoE for agentic reasoning | [🔗](https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/) |
+| **GPT-5.4 mini** | OpenAI | 2026-03-17 00:00 UTC ⭐ | Fast coding model | [🔗](https://openai.com/) |
+| **GPT-5.4 nano** | OpenAI | 2026-03-17 00:00 UTC ⭐ | Efficient subagent model | [🔗](https://openai.com/) |
+| **Phi-4-reasoning-vision** | Microsoft | 2026-03-04 00:00 UTC ⭐ | Compact multimodal reasoning model | [🔗](https://www.microsoft.com/en-us/research/blog/phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model/) |
+| **Gemini Embedding 2** | Google | 2026-03-10 00:00 UTC ⭐ | Natively multimodal embedding model | [🔗](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2) |
+| **VS Code 1.113** | Microsoft | 2026-03-25 00:00 UTC ⭐ | Thinking Effort selector for AI reasoning control | [🔗](https://code.visualstudio.com/) |
+| **Cline CLI 2.0** | Cline | 2026-03-20 00:00 UTC ⭐ | Major upgrade with free Kimi K2.5, agentic coding | [🔗](https://cline.bot/) |
+| **Gemini CLI v0.34.0** | Google | 2026-03-17 00:00 UTC ⭐ | Latest features and improvements | [🔗](https://github.com/google-gemini/gemini-cli) |
+| **Gemini 3.1 Flash Live** | Google | 2026-03-26 00:00 UTC ⭐ | Audio AI for natural interactions | [🔗](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/) |
 | **GPT-5.4** | OpenAI | 2026-03-17 00:00 UTC ⭐ | Thinking modes, Pro model, computer use | [🔗](https://openai.com/) |
 | **GPT-5.3 Instant** | OpenAI | 2026-03-17 00:00 UTC ⭐ | Instant answers for free tier | [🔗](https://openai.com/) |
-| **Claude Code 2.1+** | Anthropic | 2026-03-15 00:00 UTC ⭐ | Fast mode for Opus 4.6, Unicode fix | [🔗](https://github.com/anthropics/claude-code) |
+| **Claude Code 2.1.85+** | Anthropic | 2026-03-15 00:00 UTC ⭐ | Fast mode for Opus 4.6, Unicode fix | [🔗](https://github.com/anthropics/claude-code) |
 | **Windsurf Arena Mode** | Codeium/Cognition | 2026-03-10 00:00 UTC ⭐ | AI model battle arena | [🔗](https://codeium.com/windsurf) |
 | **Zed Editor** | Zed Industries | 2026-03-03 00:00 UTC | v0.226.3 - Edit predictions, agent improvements | [🔗](https://zed.dev/releases/stable) |
 | **Grok 4.20 Beta 2** | xAI | 2026-03-03 00:00 UTC | Improved instruction following, hallucination reduction | [🔗](https://docs.x.ai/developers/release-notes) |
+| **Gemini 3.1 Flash Lite** | Google | 2026-03-03 00:00 UTC ⭐ | Cost-efficient model for high-volume workloads | [🔗](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite) |
+| **Gemini API tooling updates** | Google | 2026-03-17 00:00 UTC ⭐ | Context circulation, tool combos, Maps grounding | [🔗](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tooling-updates/) |
+| **Magai V3** | Magai | 2026-03-26 00:00 UTC ⭐ | Faster, cleaner, more capable AI workspace | [🔗](https://www.openpr.com/news/4440436/magai-v3-launches-to-deliver-a-faster-cleaner-more-capable-ai) |
 
 ### Open-Source Models 🆓
 
@@ -384,7 +406,7 @@ Integrated Development Environments with built-in AI capabilities.
 | **[Lingma IDE (通义灵码)](https://lingma.aliyun.com/download)** | Windows, macOS | - | - | Free (download) | Built-in agent, MCP tool use, terminal command execution | ❌ |
 | **Tonkotsu** | Windows, macOS | - | - | Free (during early access) | Team of agents, workflow | ❌ |
 | **OpenCode** | Windows, macOS, Linux | - | - | Free (OSS) | Terminal, desktop, IDE extension, multi-provider | [🔗](https://github.com/anomalyco/opencode) |
-| **Visual Studio** | Windows, macOS | 17.14.12+, 18.1.0+ | January 6, 2026 | Free / $250/yr | Gemini 3 Flash integration, faster performance, zero-migration upgrades, real-time profiler agent | ❌ |
+| **Visual Studio** | Windows, macOS | 17.14.12+, 18.1.0+ | January 6, 2026 | Free / $250/yr | Thinking Effort selector for AI reasoning control, nested subagents, new themes | ❌ |
 | **IntelliJ IDEA** | Windows, macOS, Linux | 2025.3.2 | January 2026 | Free / $149/yr | Java 24 support, Kotlin K2 mode, performance/memory improvements | ❌ |
 
 #### Native AI Editors
@@ -428,8 +450,9 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 | Tool | Platform | Pricing | Key Features | GitHub |
 |------|----------|---------|--------------|--------|
 | **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode, thinking tokens | [🔗](https://github.com/Aider-AI/aider) |
-| **Claude Code 2.1+** | macOS, Linux, Windows | Free + API | Fast mode for Opus 4.6, simple mode file editing, Unicode fix | [🔗](https://github.com/anthropics/claude-code) |
+| **Claude Code 2.1.85+** | macOS, Linux, Windows | Free + API | Fast mode for Opus 4.6, simple mode file editing, Unicode fix | [🔗](https://github.com/anthropics/claude-code) |
 | **Codex CLI** | Windows, macOS, Linux | Included | Sandbox, approval modes | [🔗](https://github.com/openai/codex) |
+| **Cline CLI 2.0** | Windows, macOS, Linux | Free/Pro | Major upgrade with free Kimi K2.5, interactive and autonomous agentic coding | [🔗](https://github.com/cline/cline) |
 | **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible, desktop app, 25+ providers | [🔗](https://github.com/block/goose) |
 | **GPT-Pilot** | Windows, macOS, Linux | Free | Full dev team simulation | [🔗](https://github.com/Pythagora-io/gpt-pilot) |
 | **OpenHands** | Windows, macOS, Linux | Free | Cloud agents, MCP | [🔗](https://github.com/OpenHands/OpenHands) |
@@ -439,7 +462,7 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 
 | Tool | Developer | Pricing | Best For |
 |------|-----------|---------|----------|
-| **Gemini CLI** | Google | Free | Google ecosystem |
+| **Gemini CLI v0.34.0** | Google | Free | Google ecosystem, latest features |
 | **Cursor CLI** | Cursor | Free tier | Terminal + IDE bridge |
 | **Qwen Code** | Alibaba | Free | Qwen optimization |
 | **Qodo CLI** | Qodo | Free tier | Testing and review |
@@ -611,6 +634,9 @@ AI agents and tools for automating desktop tasks and OS-level interactions.
 | **UFO** | Windows | ✅ | ❌ | Windows automation | [🔗](https://github.com/microsoft/UFO) |
 | **Open-Interface** | Cross-platform | ✅ | ✅ | General use | [🔗](https://github.com/AmberSahdev/Open-Interface) |
 | **Anthropic Computer Use** | API | ✅ | ✅ | Beta capability | ❌ |
+| **OpenClaw v2026.3.23** | Cross-platform | ✅ | ✅ | Browser automation with MCP fixes | [🔗](https://github.com/openclaw/openclaw) |
+| **Dume Cowork v2.0.2** | Windows, macOS | ✅ | ✅ | MCP-powered desktop automation | [🔗](https://www.dume.ai/) |
+| **Playwriter** | Cross-platform | ✅ | ✅ | Real Chrome browser control for AI agents | [🔗](https://latestaiupdates.com/ai/playwriter) |
 
 #### RPA & Visual Frameworks
 
@@ -963,7 +989,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ---
 
-**Last Updated:** 2026-03-17 00:00 UTC
+**Last Updated:** 2026-03-27 00:00 UTC
 **Maintained by:** ReadyPixels LLC & AI Models Matrix Contributors
 
 ---
