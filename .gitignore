@@ -20,6 +20,7 @@ Desktop.ini
 # Editor directories and files
 .vscode/
 .kiro/
+.kilo/
 .idea/
 .trae/
 !.trae/logs/
