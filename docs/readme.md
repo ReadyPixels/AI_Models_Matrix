@@ -600,19 +600,30 @@ AI agents and tools for automating desktop tasks and OS-level interactions.
 
 #### AI Agents (Computer Use)
 
-| Agent | Platform | Vision-Based | Cross-Platform | Best For | GitHub |
-|-------|----------|--------------|----------------|----------|--------|
-| **Agent S** | Cross-platform | ✅ | ✅ | Research/SOTA | [🔗](https://github.com/simular-ai/Agent-S) |
-| **Simular Agent S2** | Cross-platform | ✅ | ✅ | Latest SOTA, improved grounding | [🔗](https://github.com/simular-ai/Agent-S) |
-| **Open Interpreter** | Cross-platform | ⚠️ | ✅ | Natural language computer control, 63K+ stars | [🔗](https://github.com/OpenInterpreter/open-interpreter) |
-| **Bytebot** | Linux (Docker) | ✅ | ✅ | Self-hosted | ❌ |
-| **UFO** | Windows | ✅ | ❌ | Windows automation | [🔗](https://github.com/microsoft/UFO) |
-| **Open-Interface** | Cross-platform | ✅ | ✅ | General use | [🔗](https://github.com/AmberSahdev/Open-Interface) |
-| **Anthropic Computer Use** | API | ✅ | ✅ | Beta capability | ❌ |
-| **OpenAI Operator** | API | ✅ | ✅ | Guided browser computer use | ❌ |
-| **Microsoft Fara-7B** | Cross-platform | ✅ | ✅ | Open-weight vision grounding model | [🔗](https://github.com/microsoft/Fara) |
-| **Amazon Nova Act** | API | ✅ | ✅ | AWS browser automation SDK | ❌ |
-| **Manus AI** | Cloud | ✅ | ✅ | General-purpose cloud agent | ❌ |
+##### Local Computer Use Agents
+
+Agents that run directly on your machine and interact with the OS, screen, keyboard, and mouse.
+
+| Agent | Windows | macOS | Linux | Vision | Best For | GitHub |
+|-------|:-------:|:-----:|:-----:|:------:|----------|--------|
+| **Agent S** | ✅ | ✅ | ✅ | ✅ | Research/SOTA, GUI grounding | [🔗](https://github.com/simular-ai/Agent-S) |
+| **Simular Agent S2** | ✅ | ✅ | ✅ | ✅ | Latest SOTA, improved grounding | [🔗](https://github.com/simular-ai/Agent-S) |
+| **Open Interpreter** | ✅ | ✅ | ✅ | ⚠️ | Natural language computer control, 63K+ stars | [🔗](https://github.com/OpenInterpreter/open-interpreter) |
+| **Open-Interface** | ✅ | ✅ | ✅ | ✅ | General-purpose desktop automation | [🔗](https://github.com/AmberSahdev/Open-Interface) |
+| **UFO** | ✅ | ❌ | ❌ | ✅ | Windows-specific app automation | [🔗](https://github.com/microsoft/UFO) |
+| **Bytebot** | ❌ | ❌ | ✅ | ✅ | Self-hosted (Docker), headless | ❌ |
+| **Microsoft Fara-7B** | ✅ | ✅ | ✅ | ✅ | Open-weight vision grounding model | [🔗](https://github.com/microsoft/Fara) |
+
+##### Cloud / API Computer Use Agents
+
+Agents accessed via API or cloud service — OS-independent, but require internet connectivity.
+
+| Agent | Interface | Vision | Best For | GitHub |
+|-------|-----------|--------|----------|--------|
+| **Anthropic Computer Use** | API | ✅ | Beta capability, Claude-powered desktop control | ❌ |
+| **OpenAI Operator** | API | ✅ | Guided browser and desktop computer use | ❌ |
+| **Amazon Nova Act** | API | ✅ | AWS browser automation SDK | ❌ |
+| **Manus AI** | Cloud | ✅ | General-purpose cloud agent | ❌ |
 
 #### RPA & Visual Frameworks
 
