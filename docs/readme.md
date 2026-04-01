@@ -11,28 +11,13 @@ Last Updated: 2026-04-01 20:24 UTC
 Verification Scope: README sections reviewed against docs/UPDATE_RULES.md and expanded with official model, software, and browser automation sources
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
 
-## Update Log
-
-| Date | Version | Summary | Verification |
-|------|---------|---------|--------------|
-| 2026-04-01 20:24 UTC | 1.7 | Added missing models, development tools, and browser automation entries from official vendor sources. Corrected tool categorization to better match awesome-list structure. | Official OpenAI, Anthropic, Google DeepMind, and Google AI plan pages |
-| 2026-03-30 22:54 UTC | 1.6 | Added missing March 2026 model releases and updated OpenAI pricing, comparison, and latest-update entries. | Official OpenAI release notes, pricing, and news pages |
-| 2026-03-30 16:33 UTC | 1.5 | Applied README structure, formatting, versioning, and documentation rule updates. Normalized metadata, dates, attribution, and table issues. | Official links retained from the source tables in this document |
-
----
-
 ## Table of Contents
 
 - [Awesome AI Models Matrix 🧠](#awesome-ai-models-matrix-)
-  - [Update Log](#update-log)
   - [Table of Contents](#table-of-contents)
   - [Models 🧠](#models-)
     - [Frontier Models 🚀](#frontier-models-)
       - [Top Models by Category](#top-models-by-category)
-      - [January 2026 Model Releases](#january-2026-model-releases)
-      - [February 2026 Model Releases](#february-2026-model-releases)
-      - [March 2026 Model Releases](#march-2026-model-releases)
-      - [Latest Updates ⭐ (Last 30 Days)](#latest-updates--last-30-days)
     - [Open-Source Models 🆓](#open-source-models-)
       - [Deployment Options](#deployment-options)
     - [Coding Models 💻](#coding-models-)
@@ -64,7 +49,6 @@ Repository: https://github.com/ReadyPixels/AI_Models_Matrix
       - [Terminal Enhancers](#terminal-enhancers)
     - [IDE Add-ons 🧩](#ide-add-ons-)
       - [Universal (Cross-Platform)](#universal-cross-platform)
-      - [IDE Extension Updates (January 2026)](#ide-extension-updates-january-2026)
       - [VS Code Specific](#vs-code-specific)
       - [JetBrains Specific](#jetbrains-specific)
     - [API Providers 🔌](#api-providers-)
@@ -79,6 +63,7 @@ Repository: https://github.com/ReadyPixels/AI_Models_Matrix
       - [Developer Libraries](#developer-libraries)
       - [Cloud Automation](#cloud-automation)
     - [Agent Platforms 🧩](#agent-platforms-)
+      - [Cloud Agent Services](#cloud-agent-services)
     - [Desktop Automation 🖥️](#desktop-automation-️)
       - [AI Agents (Computer Use)](#ai-agents-computer-use)
       - [RPA \& Visual Frameworks](#rpa--visual-frameworks)
@@ -162,60 +147,6 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Open Source** | DeepSeek-V4 | Qwen3.5-Max | Llama 4 |
 | **Cost Efficiency** | DeepSeek-V3.1 | Grok 4 Fast | GLM-4.7-FlashX |
 | **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Claude Opus 4.6 (1M) |
-
-#### January 2026 Model Releases
-
-| Model | Company | Release Date | Key Features | Category |
-|-------|---------|--------------|--------------|----------|
-| **DeepSeek R1** | DeepSeek | 2026-01 | State-of-the-art reasoning, math, coding, 671B params | Reasoning |
-| **NVIDIA Alpamayo** | NVIDIA | 2026-01-05 00:00 UTC | Open AI models for autonomous vehicles, human-like reasoning for self-driving cars | Specialized |
-| **TranslateGemma** | Google | 2026-01-16 00:00 UTC | Multilingual translation models for mobile, laptops, and cloud, supports 55 languages | Specialized |
-| **Kimi K2.5** | Moonshot AI | 2026-01-29 00:00 UTC | Native multimodal, thinking and non-thinking modes, dialogue and agent tasks | Frontier |
-
-#### February 2026 Model Releases
-
-| Model | Company | Release Date | Key Features | Category |
-|-------|---------|--------------|--------------|----------|
-| **Gemini 3.1 Pro** | Google | 2026-02-19 00:00 UTC | 77.1% ARC-AGI-2, 2x reasoning boost, 1M context | Frontier |
-| **Claude Sonnet 4.6** | Anthropic | 2026-02-17 00:00 UTC | Near-Opus performance at Sonnet price, 1M context | Frontier |
-| **Claude Opus 4.6** | Anthropic | 2026-02-05 00:00 UTC | Agent teams, enhanced coding and reasoning, 1M context | Frontier |
-| **GPT-5.3-Codex** | OpenAI | 2026-02-05 00:00 UTC | Most capable agentic coding model, 400K context, 128K output | Coding |
-| **Gemini 3 Deep Think** | Google | 2026-02-12 00:00 UTC | 84.6% ARC-AGI-2, science, research, and engineering focus | Reasoning |
-| **GLM-5** | Zhipu AI | 2026-02-12 00:00 UTC | Agentic LLM, long-range agent tasks, 200K context | Frontier |
-| **DeepSeek-V4** | DeepSeek | 2026-02 | Engram memory, 1M+ context, coding focus | Open Source |
-| **Qwen3.5-Max** | Alibaba | 2026-02 | Hybrid attention, native VLM, multimodal | Open Source |
-
-#### March 2026 Model Releases
-
-| Model | Company | Release Date | Key Features | Category |
-|-------|---------|--------------|--------------|----------|
-| **GPT-5.3 Instant** | OpenAI | 2026-03-03 00:00 UTC | Faster everyday model with stronger search quality and conversational flow | Frontier |
-| **Gemini 3.1 Flash-Lite** | Google | 2026-03-03 00:00 UTC | Cost-efficient, high-volume multimodal model with 1M context | Frontier |
-| **GPT-5.4** | OpenAI | 2026-03-05 00:00 UTC | 1M-token context, state-of-the-art coding, computer use, and tool search | Frontier |
-| **GPT-5.4 mini** | OpenAI | 2026-03-17 00:00 UTC | Smaller GPT-5.4 variant for coding, tool use, multimodal reasoning, and 400K API context | Frontier |
-| **GPT-5.4 nano** | OpenAI | 2026-03-17 00:00 UTC | Smallest GPT-5.4 variant for classification, extraction, and lightweight subagents | Frontier |
-
-#### Latest Updates ⭐ (Last 30 Days)
-
-| Model/Tool | Company | Latest Updated | Notes | Official Site |
-|------------|---------|---------------|-------|:---:|
-| **GPT-5.4 mini** | OpenAI | 2026-03-17 00:00 UTC ⭐ | Faster GPT-5.4 variant for coding, tool use, and multimodal workloads | [🔗](https://openai.com/news/?display=list) |
-| **GPT-5.4 nano** | OpenAI | 2026-03-17 00:00 UTC ⭐ | Smallest GPT-5.4 variant for high-volume API and subagent workloads | [🔗](https://openai.com/news/?display=list) |
-| **GPT-5.3 Instant** | OpenAI | 2026-03-16 00:00 UTC ⭐ | Tone and search-quality update for everyday ChatGPT use | [🔗](https://help.openai.com/en/articles/9624314-model-release-notes/) |
-| **GPT-5.4** | OpenAI | 2026-03-05 00:00 UTC ⭐ | 1M-token context with stronger coding, computer use, and tool search | [🔗](https://openai.com/research/index/release/) |
-| **Codex app on Windows** | OpenAI | 2026-03-04 00:00 UTC ⭐ | Windows desktop surface for parallel agents, reviewable diffs, and worktrees | [🔗](https://help.openai.com/en/articles/6825453-chatgpt-browser) |
-| **Gemini 3.1 Flash-Lite** | Google | 2026-03-03 00:00 UTC ⭐ | Cost-efficient multimodal model for high-volume, latency-sensitive tasks | [🔗](https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/) |
-| **Zed Editor** | Zed Industries | 2026-03-03 00:00 UTC ⭐ | v0.226.3 - Edit predictions, agent improvements | [🔗](https://zed.dev/releases/stable) |
-| **Grok 4.20 Beta 2** | xAI | 2026-03-03 00:00 UTC ⭐ | Improved instruction following, hallucination reduction | [🔗](https://docs.x.ai/developers/release-notes) |
-| **Gemini 3.1 Pro** | Google | 2026-02-19 00:00 UTC ⭐ | 77.1% ARC-AGI-2, 2x reasoning boost | [🔗](https://deepmind.google/models/model-cards/gemini-3-1-pro/) |
-| **Claude Sonnet 4.6** | Anthropic | 2026-02-17 00:00 UTC ⭐ | Near-Opus performance at Sonnet price | [🔗](https://www.anthropic.com/claude/sonnet) |
-| **Qwen3.5-Max** | Alibaba | 2026-02-17 00:00 UTC ⭐ | 397B params, 8x faster than Qwen3-Max | [🔗](https://qwenlm.github.io/) |
-| **Gemini 3 Deep Think** | Google | 2026-02-12 00:00 UTC ⭐ | ARC-AGI-2 result highlighted | [🔗](https://deepmind.google/technologies/gemini/) |
-| **GLM-5** | Zhipu AI | 2026-02-12 00:00 UTC ⭐ | Agentic engineering, long-horizon tasks | [🔗](https://docs.z.ai/release-notes/new-released) |
-| **Claude Opus 4.6** | Anthropic | 2026-02-05 00:00 UTC ⭐ | Agent teams, enhanced coding/reasoning | [🔗](https://www.anthropic.com/) |
-| **GPT-5.3-Codex** | OpenAI | 2026-02-05 00:00 UTC ⭐ | Agentic coding focus | [🔗](https://openai.com/) |
-| **Kimi K2.5** | Moonshot AI | 2026-02-02 00:00 UTC ⭐ | Models & pricing published | [🔗](https://platform.moonshot.ai/docs/pricing/chat) |
-| **DeepSeek-V4** | DeepSeek | 2026-02-17 00:00 UTC | Release window announced | [🔗](https://www.deepseek.com/) |
 
 ### Open-Source Models 🆓
 
@@ -504,13 +435,6 @@ Extensions and plugins that add AI capabilities to existing IDEs.
 | **Cody** | VS Code, JetBrains, Web | Free (discontinued) / Enterprise Starter $19/mo / Enterprise $59/mo | Enterprise | Code search | [🔗](https://github.com/sourcegraph/cody-vs) |
 | **Tabnine** | VS Code, JetBrains, VS, Eclipse | Free / $39/mo | Local | Privacy | ❌ |
 
-#### IDE Extension Updates (January 2026)
-
-| Add-on | Platform | Release Date | Key Features |
-|--------|----------|--------------|--------------|
-| **Gemini 3 Flash Integration** | VS Code, JetBrains, Xcode, Eclipse | 2026-01-06 00:00 UTC | Access to Google's latest Gemini 3 Flash model directly from the IDE, fast response times |
-| **JetBrains AI Assistant** | All JetBrains IDEs | 2026-01 | Enhanced AI capabilities, Claude Agent integration, better context understanding |
-
 #### VS Code Specific
 
 | Add-on | Pricing | Autonomous | MCP | Best For | GitHub |
@@ -602,6 +526,8 @@ Tools and frameworks for AI-powered browser automation.
 | **Opera Neon** | $19.90/mo | ❌ | ❌ | Agentic browsing | ❌ |
 | **Opera One (Aria)** | Free | ❌ | ❌ | Built-in AI assistant | ❌ |
 | **Edge Copilot** | Free (Copilot Pro $20/mo) | ❌ | ❌ | Enterprise AI browser | ❌ |
+| **BrowserGPT** | Freemium (Free + Premium) | ❌ | ❌ | Mobile-first AI browser (iOS/Android) | ❌ |
+| **Arc Max** | Free | ❌ | ❌ | AI-enhanced browsing, macOS | ❌ |
 
 #### Browser Extensions
 
@@ -633,10 +559,29 @@ Tools and frameworks for AI-powered browser automation.
 
 Platforms and runtimes for running or connecting AI agents.
 
-| Project | Type | Self-Hostable | Best For | Official |
-|---------|------|:-------------:|----------|:-------:|
-| **OpenClaw** | Personal AI assistant | ✅ | Always-on assistant across chat channels | [🔗](https://github.com/openclaw/openclaw) |
-| **Moltbook** | Agent social network | ❌ | Discovering and pairing with AI agents | [🔗](https://www.moltbook.com/) |
+| Project | Type | Pricing | Self-Hostable | Best For | Official |
+|---------|------|---------|:-------------:|----------|:-------:|
+| **OpenClaw** | Personal AI assistant | Free (OSS) | ✅ | Always-on assistant across chat channels | [🔗](https://github.com/openclaw/openclaw) |
+| **NanoClaw** | Lightweight agent framework | Free (OSS) | ✅ | Containerized agents for WhatsApp, Telegram, Slack, Discord | [🔗](https://github.com/qwibitai/NanoClaw) |
+| **CrewAI** | Multi-agent orchestration | Free (OSS) / Enterprise | ✅ | Team-based AI agent workflows | [🔗](https://github.com/crewAIInc/crewAI) |
+| **AutoGen** | Multi-agent framework | Free (OSS) | ✅ | Conversational agent collaboration | [🔗](https://github.com/microsoft/autogen) |
+| **LangGraph** | Agent framework | Free (OSS) / LangSmith paid | ✅ | Stateful, cyclic agent workflows | [🔗](https://github.com/langchain-ai/langgraph) |
+| **Dify** | LLM app platform | Free (OSS) / Cloud plans | ✅ | Visual workflow builder, RAG, agents | [🔗](https://github.com/langgenius/dify) |
+| **n8n** | Workflow automation | Free (OSS) / Cloud from $20/mo | ✅ | No-code automation with AI agent nodes | [🔗](https://github.com/n8n-io/n8n) |
+| **Flowise** | LLM orchestration | Free (OSS) | ✅ | Drag-and-drop LLM flow builder | [🔗](https://github.com/FlowiseAI/Flowise) |
+| **Lindy** | AI agent builder | Freemium (Free + Pro $49/mo) | ❌ | No-code AI agents for business tasks | [🔗](https://www.lindy.ai/) |
+| **Relevance AI** | Agent platform | Freemium (Free + Paid plans) | ❌ | Build and deploy AI agents, no-code | [🔗](https://relevanceai.com/) |
+| **Moltbook** | Agent social network | Free | ❌ | Discovering and pairing with AI agents | [🔗](https://www.moltbook.com/) |
+
+#### Cloud Agent Services
+
+Managed cloud services for building and deploying AI agents at scale.
+
+| Service | Provider | Pricing | Best For |
+|---------|----------|---------|----------|
+| **Google Vertex AI Agent Builder** | Google Cloud | Pay-per-use | Enterprise agents grounded in Google Search and data stores |
+| **Amazon Bedrock Agents** | AWS | Pay-per-use | Serverless agents with knowledge bases and guardrails |
+| **Azure AI Agent Service** | Microsoft Azure | Pay-per-use | Enterprise agents with Azure AI Search and OpenAI integration |
 
 ### Desktop Automation 🖥️
 
