@@ -572,6 +572,14 @@ Platforms and runtimes for running or connecting AI agents.
 | **Lindy** | AI agent builder | Freemium (Free + Pro $49/mo) | ❌ | No-code AI agents for business tasks | [🔗](https://www.lindy.ai/) |
 | **Relevance AI** | Agent platform | Freemium (Free + Paid plans) | ❌ | Build and deploy AI agents, no-code | [🔗](https://relevanceai.com/) |
 | **Moltbook** | Agent social network | Free | ❌ | Discovering and pairing with AI agents | [🔗](https://www.moltbook.com/) |
+| **ZeroClaw** | Privacy-first agent framework | Free (OSS) | ✅ | Zero-knowledge, on-prem AI with no external API calls | ❌ |
+| **NullClaw** | Sandboxed agent framework | Free (OSS) | ✅ | Docker-isolated agent tasks for safety testing | ❌ |
+| **Moltis** | Rust-based agent engine | Free (OSS) | ✅ | High-throughput pipelines, real-time data processing | ❌ |
+| **Manus** | Scientific research agent | Free (OSS) | ✅ | Jupyter integration, multi-modal inputs for academic research | ❌ |
+| **Hermes Agent** | Monitored agent framework | Free (OSS) | ✅ | Advanced memory management, UI dashboard for agent monitoring | ❌ |
+| **Pico Claw** | Ultra-lightweight agent | Free (OSS) | ✅ | Embedded/IoT deployments, single-binary under 10 MB | ❌ |
+| **Clam** | Compliance-focused agent | Free (OSS) | ✅ | Regulated industries, detailed audit logs of agent decisions | ❌ |
+| **Taskllet** | No-code agent builder | Free (OSS) | ✅ | Drag-and-drop workflow builder for non-developers | ❌ |
 
 #### Cloud Agent Services
 
