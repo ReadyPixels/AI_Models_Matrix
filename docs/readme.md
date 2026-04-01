@@ -528,6 +528,7 @@ Tools and frameworks for AI-powered browser automation.
 | **Edge Copilot** | Free (Copilot Pro $20/mo) | ❌ | ❌ | Enterprise AI browser | ❌ |
 | **BrowserGPT** | Freemium (Free + Premium) | ❌ | ❌ | Mobile-first AI browser (iOS/Android) | ❌ |
 | **Arc Max** | Free | ❌ | ❌ | AI-enhanced browsing, macOS | ❌ |
+| **AnythingLLM** | Free (OSS) | ✅ | ✅ | All-in-one desktop AI, document chat, local models | [🔗](https://github.com/Mintplex-Labs/anything-llm) |
 
 #### Browser Extensions
 
@@ -536,6 +537,7 @@ Tools and frameworks for AI-powered browser automation.
 | **Harpa AI** | Free | ✅ | ❌ | Automation recipes | ❌ |
 | **MultiOn** | Free/Paid | ⚠️ | ✅ | Complex tasks | ❌ |
 | **NanoBrowser** | Free | ✅ | ✅ | Local control | ❌ |
+| **Neobrowser** | Free (OSS) | ✅ | ❌ | Local LLMs via Ollama, privacy-first, Chrome/Edge | ❌ |
 
 #### Developer Libraries
 
@@ -545,6 +547,7 @@ Tools and frameworks for AI-powered browser automation.
 | **Stagehand** | TypeScript | Web apps | [🔗](https://github.com/browserbase/stagehand) |
 | **LaVague** | Python | NL to code | [🔗](https://github.com/lavague-ai/LaVague) |
 | **Skyvern** | Python | CV-based automation | [🔗](https://github.com/Skyvern-AI/skyvern) |
+| **Firecrawl** | Python / CLI | LLM-powered crawling & scraping with prompt chaining | [🔗](https://github.com/mendableai/firecrawl) |
 
 #### Cloud Automation
 
