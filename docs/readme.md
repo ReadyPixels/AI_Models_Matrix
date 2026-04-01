@@ -2,19 +2,20 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--03--30%2022%3A54%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--04--01%2020%3A24%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources.
 
-Document Version: 1.6
-Last Updated: 2026-03-30 22:54 UTC
-Verification Scope: README sections reviewed against docs/UPDATE_RULES.md and refreshed with official March 2026 release data
+Document Version: 1.7
+Last Updated: 2026-04-01 20:24 UTC
+Verification Scope: README sections reviewed against docs/UPDATE_RULES.md and expanded with official model, software, and browser automation sources
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
 
 ## Update Log
 
 | Date | Version | Summary | Verification |
 |------|---------|---------|--------------|
+| 2026-04-01 20:24 UTC | 1.7 | Added missing models, development tools, and browser automation entries from official vendor sources. Corrected tool categorization to better match awesome-list structure. | Official OpenAI, Anthropic, Google DeepMind, and Google AI plan pages |
 | 2026-03-30 22:54 UTC | 1.6 | Added missing March 2026 model releases and updated OpenAI pricing, comparison, and latest-update entries. | Official OpenAI release notes, pricing, and news pages |
 | 2026-03-30 16:33 UTC | 1.5 | Applied README structure, formatting, versioning, and documentation rule updates. Normalized metadata, dates, attribution, and table issues. | Official links retained from the source tables in this document |
 
@@ -142,6 +143,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Qwen3.5-Max** | Alibaba | 128K | Hybrid attention, native VLM | Pay-per-token |
 | **Gemini 3 Pro** | Google | 1M+ | PhD-level reasoning, agentic tool-use | Tiered pricing |
 | **Gemini 3 Flash** | Google | 10M | Pro-grade reasoning, Flash speed | $0.30 / $2.50 |
+| **Gemini 3.1 Flash-Lite** | Google | 1M | Fast, cost-efficient multimodal model for high-volume tasks | $0.25 / $1.50 |
 | **GPT-5.4** | OpenAI | 1M | State-of-the-art coding, computer use, tool search | $2.50 / $15.00 |
 | **GPT-5.4 mini** | OpenAI | 400K | Fast GPT-5.4 variant for coding and multimodal tasks | $0.75 / $4.50 |
 | **Mistral Large 3** | Mistral AI | 128K | 675B params, MoE, Open-weight | Varies |
@@ -188,6 +190,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | Model | Company | Release Date | Key Features | Category |
 |-------|---------|--------------|--------------|----------|
 | **GPT-5.3 Instant** | OpenAI | 2026-03-03 00:00 UTC | Faster everyday model with stronger search quality and conversational flow | Frontier |
+| **Gemini 3.1 Flash-Lite** | Google | 2026-03-03 00:00 UTC | Cost-efficient, high-volume multimodal model with 1M context | Frontier |
 | **GPT-5.4** | OpenAI | 2026-03-05 00:00 UTC | 1M-token context, state-of-the-art coding, computer use, and tool search | Frontier |
 | **GPT-5.4 mini** | OpenAI | 2026-03-17 00:00 UTC | Smaller GPT-5.4 variant for coding, tool use, multimodal reasoning, and 400K API context | Frontier |
 | **GPT-5.4 nano** | OpenAI | 2026-03-17 00:00 UTC | Smallest GPT-5.4 variant for classification, extraction, and lightweight subagents | Frontier |
@@ -200,6 +203,8 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **GPT-5.4 nano** | OpenAI | 2026-03-17 00:00 UTC ⭐ | Smallest GPT-5.4 variant for high-volume API and subagent workloads | [🔗](https://openai.com/news/?display=list) |
 | **GPT-5.3 Instant** | OpenAI | 2026-03-16 00:00 UTC ⭐ | Tone and search-quality update for everyday ChatGPT use | [🔗](https://help.openai.com/en/articles/9624314-model-release-notes/) |
 | **GPT-5.4** | OpenAI | 2026-03-05 00:00 UTC ⭐ | 1M-token context with stronger coding, computer use, and tool search | [🔗](https://openai.com/research/index/release/) |
+| **Codex app on Windows** | OpenAI | 2026-03-04 00:00 UTC ⭐ | Windows desktop surface for parallel agents, reviewable diffs, and worktrees | [🔗](https://help.openai.com/en/articles/6825453-chatgpt-browser) |
+| **Gemini 3.1 Flash-Lite** | Google | 2026-03-03 00:00 UTC ⭐ | Cost-efficient multimodal model for high-volume, latency-sensitive tasks | [🔗](https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/) |
 | **Zed Editor** | Zed Industries | 2026-03-03 00:00 UTC ⭐ | v0.226.3 - Edit predictions, agent improvements | [🔗](https://zed.dev/releases/stable) |
 | **Grok 4.20 Beta 2** | xAI | 2026-03-03 00:00 UTC ⭐ | Improved instruction following, hallucination reduction | [🔗](https://docs.x.ai/developers/release-notes) |
 | **Gemini 3.1 Pro** | Google | 2026-02-19 00:00 UTC ⭐ | 77.1% ARC-AGI-2, 2x reasoning boost | [🔗](https://deepmind.google/models/model-cards/gemini-3-1-pro/) |
@@ -268,6 +273,7 @@ Specialized AI models optimized for software development tasks.
 |-------|-----------|---------|----------|
 | **Claude Opus 4.6** | Anthropic | $5 / $25 per 1M | Agentic coding, complex tasks |
 | **GPT-5.3-Codex** | OpenAI | TBD | Agentic coding, 7+ hour autonomy |
+| **Claude Haiku 4.5** | Anthropic | $1 / $5 per 1M | Low-latency coding, sub-agents, computer use |
 | **GLM-5-Code** | Zhipu AI | $1.20 / $5.00 per 1M | Code generation, refactoring |
 | **MiniMax-M2.5** | MiniMax | $0.30 / $1.20 per 1M | Code generation, refactoring |
 | **Claude Sonnet 4.5** | Anthropic | $3 / $15 per 1M | Code review, refactoring |
@@ -414,6 +420,7 @@ Integrated Development Environments with built-in AI capabilities.
 | **[Lingma IDE (通义灵码)](https://lingma.aliyun.com/download)** | Windows, macOS | - | - | Free (download) | Built-in agent, MCP tool use, terminal command execution | ❌ |
 | **Tonkotsu** | Windows, macOS | - | - | Free (during early access) | Team of agents, workflow | ❌ |
 | **OpenCode** | Windows, macOS, Linux | - | - | Free (OSS) | Terminal, desktop, IDE extension, multi-provider | [🔗](https://github.com/anomalyco/opencode) |
+| **Codex app** | Windows | - | 2026-03-04 00:00 UTC | Included with Codex plans | Multiple agents, isolated worktrees, reviewable diffs, CLI and IDE interop | ❌ |
 | **Visual Studio** | Windows, macOS | 17.14.12+, 18.1.0+ | 2026-01-06 00:00 UTC | Free / $250/yr | Gemini 3 Flash integration, faster performance, zero-migration upgrades, real-time profiler agent | ❌ |
 | **IntelliJ IDEA** | Windows, macOS, Linux | 2025.3.2 | 2026-01 | Free / $149/yr | Java 24 support, Kotlin K2 mode, performance and memory improvements | ❌ |
 
@@ -434,7 +441,6 @@ Integrated Development Environments with built-in AI capabilities.
 | **Trae** | macOS, Windows | - | - | Free | ❌ | ❌ | ❌ |
 | **PearAI** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ❌ | ❌ |
 | **Void** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ✅ | ❌ |
-| **Google Antigravity** | Windows, macOS, Linux | - | - | Free | ✅ | ❌ | ❌ |
 | **Kiro** | Windows, macOS, Linux | - | - | Free (Preview) | ✅ | ✅ | ❌ |
 
 #### Web-Based IDEs
@@ -448,6 +454,8 @@ Integrated Development Environments with built-in AI capabilities.
 | **v0** | Web | - | - | Free ($5 credits/mo), Premium $20/mo, Teams $30/user | ❌ | React components | ❌ |
 | **Gitpod** | Web | - | - | Free + Paid | ❌ | Cloud dev environments | ❌ |
 | **Rork** | Web | - | - | Free & Paid (credits) | ❌ | Mobile apps (iOS/Android) | ❌ |
+| **Google Antigravity** | Web | - | - | Google AI Pro / Ultra | Agent-first development with Gemini-powered coding | ❌ |
+| **Jules** | Web | - | 2025-05-20 00:00 UTC | Free beta, higher limits on Google AI Pro / Ultra | Async repo agent, reviewable diffs, GitHub integration | ❌ |
 
 ### CLI Tools 🖥️
 
@@ -529,8 +537,8 @@ Services for accessing AI models via API.
 | Provider | Models | Pricing |
 |----------|--------|---------|
 | **OpenAI** | GPT-5.4, GPT-5.4 mini, GPT-5.4 nano, o3, Codex | Pay-per-token |
-| **Anthropic** | Claude 4.6 | Pay-per-token |
-| **Google AI Studio** | Gemini 3 | Free / Pay |
+| **Anthropic** | Claude 4.6, Claude Haiku 4.5 | Pay-per-token |
+| **Google AI Studio** | Gemini 3.1 Pro, Gemini 3.1 Flash-Lite, Gemini 3 Flash | Free / Pay |
 | **Z.ai (Zhipu AI)** | GLM-5, GLM-5-Code, GLM-4.7 | Pay-per-token |
 | **MiniMax** | MiniMax-M2.5/M2.1/M2 | Pay-per-token |
 | **Cohere** | Command, Embed, Rerank | Pay-per-token |
@@ -616,6 +624,8 @@ Tools and frameworks for AI-powered browser automation.
 
 | Service | Platform | Pricing | Best For | GitHub |
 |---------|----------|---------|----------|--------|
+| **ChatGPT agent** | ChatGPT | Plus / Pro / Team | Guided browser tasks, research, forms, and spreadsheets | ❌ |
+| **Project Mariner** | Google AI Ultra | Included with Google AI Ultra | Multi-step browser tasks, shopping, and reservations | ❌ |
 | **Skyvern Cloud** | Cloud API | Paid | Resilient automation | [🔗](https://github.com/Skyvern-AI/skyvern) |
 | **Browserbase** | Cloud API | Paid | Stealth mode, session recording | ❌ |
 
@@ -778,8 +788,8 @@ Comprehensive pricing comparisons and cost calculations.
 | Tier | Price Range | Models |
 |------|-------------|--------|
 | 🆓 **Free** | $0 | Self-hosted, free tiers |
-| 💵 **Budget** | $0.07 - $0.50/1M | GLM-4.7-FlashX, GLM-4-32B-0414-128K, Yi-Lightning, GPT-5.4 nano, DeepSeek-V3.1, MiniMax-M2.5 |
-| 💰 **Mid-range** | $0.60 - $15.00/1M | GPT-5.4 mini, Kimi K2.5, Sonar, GLM-5, GPT-5.4, Claude Sonnet |
+| 💵 **Budget** | $0.07 - $0.50/1M | GLM-4.7-FlashX, GLM-4-32B-0414-128K, Yi-Lightning, GPT-5.4 nano, Gemini 3.1 Flash-Lite, DeepSeek-V3.1, MiniMax-M2.5 |
+| 💰 **Mid-range** | $0.60 - $15.00/1M | GPT-5.4 mini, Claude Haiku 4.5, Kimi K2.5, Sonar, GLM-5, GPT-5.4, Claude Sonnet |
 | 💎 **Premium** | $15.00 - $600.00/1M | GPT-5.4 Pro, Claude Opus, o1-Pro |
 
 #### Subscription Pricing (Monthly, USD)
@@ -805,12 +815,14 @@ Comprehensive pricing comparisons and cost calculations.
 | **GLM-4.7-FlashX** | $0.07 | $0.40 | Fast budget tasks |
 | **GLM-4-32B-0414-128K** | $0.10 | $0.10 | Budget chat/coding |
 | **GPT-5.4 nano** | $0.20 | $1.25 | Classification and lightweight subagents |
+| **Gemini 3.1 Flash-Lite** | $0.25 | $1.50 | High-volume multimodal tasks |
 | **DeepSeek-V3.1** | $0.27 | $0.41 | Everything |
 | **Gemini 3 Flash** | $0.30 | $2.50 | Long context |
 | **MiniMax-M2.5** | $0.30 | $1.20 | Coding, long context |
 | **GLM-4.6** | $0.60 | $2.20 | General purpose |
 | **Kimi K2.5** | $0.60 | $3.00 | Multimodal + agent tasks |
 | **GPT-5.4 mini** | $0.75 | $4.50 | Fast coding and multimodal tasks |
+| **Claude Haiku 4.5** | $1.00 | $5.00 | Low-latency coding and sub-agents |
 | **GLM-5** | $1.00 | $3.20 | Agentic engineering |
 | **Perplexity Sonar** | $1.00 | $1.00 | Web-grounded chat (request fees apply) |
 | **Perplexity Sonar Reasoning Pro** | $2.00 | $8.00 | Reasoning + search (request fees apply) |
@@ -890,6 +902,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 |:---:|---|---|---|---|:---:|---|---|:---:|:---:|
 | 🤖 OpenAI | GPT-5 | 5.4 mini | 2026-03-17 00:00 UTC | 2026-03-17 00:00 UTC ⭐ | ✅ | N/A | $0.75 / $4.50 | ❌ | [🔗](https://openai.com/news/?display=list) |
 | 🤖 OpenAI | GPT-5 | 5.4 | 2026-03-05 00:00 UTC | 2026-03-05 00:00 UTC ⭐ | ✅ | N/A | $2.50 / $15.00 | ❌ | [🔗](https://openai.com/research/index/release/) |
+| 🌐 Google DeepMind | Gemini 3.1 | Flash-Lite | 2026-03-03 00:00 UTC | 2026-03-03 00:00 UTC ⭐ | ✅ | N/A | $0.25 / $1.50 | ❌ | [🔗](https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/) |
 | 🔬 DeepSeek | DeepSeek | V4 | 2026-02-17 00:00 UTC | 2026-02-17 00:00 UTC | ✅ | N/A | Pay-per-token | ✅ | [🔗](https://www.deepseek.com/) |
 | 🌐 Google DeepMind | Gemini 3 | Deep Think | 2026-02-12 00:00 UTC | 2026-02-12 00:00 UTC ⭐ | ✅ | 84.6% ARC-AGI-2 | Ultra subscription | ❌ | [🔗](https://deepmind.google/technologies/gemini/) |
 | 🇨🇳 Zhipu AI | GLM | 5 | 2026-02-12 00:00 UTC | 2026-02-12 00:00 UTC ⭐ | ✅ | SWE-bench 77.8 | $1.00 / $3.20 | ✅ | [🔗](https://docs.z.ai/release-notes/new-released) |
@@ -903,6 +916,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 |:---:|---|---|---|:---:|
 | 🧠 MiniMax | MiniMax M2.5 | 2026-02 | $0.30 / $1.20 | [🔗](https://platform.minimax.io/docs/guides/models-intro) |
 | 🇨🇳 Alibaba/Qwen | Qwen 3.5-Max | 2026-02 | Open-source release window | [🔗](https://qwenlm.github.io/) |
+| 🌐 Google DeepMind | Gemini 3.1 Flash-Lite | 2026-03 | $0.25 / $1.50 | [🔗](https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/) |
 | 🌐 Google DeepMind | Gemini 3 Pro | 2026-01 | Tiered pricing | [🔗](https://deepmind.google/models/gemini/) |
 | 🤖 OpenAI | GPT-5.4 family | 2026-03 | GPT-5.4, GPT-5.4 mini, GPT-5.4 nano | [🔗](https://openai.com/news/?display=list) |
 | 💻 Mistral AI | Mistral Large 3 | 2026-01 | Open-weight | [🔗](https://mistral.ai/) |
@@ -917,9 +931,10 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 4 | **GLM-4-32B-0414-128K** | $0.10 | $0.10 | API |
 | 5 | **Yi-Lightning** | $0.14 | $0.42 | Apache 2.0 |
 | 6 | **GPT-5.4 nano** | $0.20 | $1.25 | Proprietary |
-| 7 | **DeepSeek-V3.1** | $0.27 | $0.41 | MIT |
-| 8 | **Gemini 3 Flash** | $0.30 | $2.50 | Proprietary |
-| 9 | **MiniMax-M2.5** | $0.30 | $1.20 | Proprietary |
+| 7 | **Gemini 3.1 Flash-Lite** | $0.25 | $1.50 | Proprietary |
+| 8 | **DeepSeek-V3.1** | $0.27 | $0.41 | MIT |
+| 9 | **Gemini 3 Flash** | $0.30 | $2.50 | Proprietary |
+| 10 | **MiniMax-M2.5** | $0.30 | $1.20 | Proprietary |
 
 #### Sort by Performance (Coding)
 
@@ -949,15 +964,20 @@ Attribution, verification sources, and methodology.
 | Company | Source | URL |
 |---------|--------|-----|
 | **OpenAI** | Official Documentation | [openai.com](https://openai.com) |
+| **OpenAI** | ChatGPT agent release notes | [help.openai.com](https://help.openai.com/en/articles/11794368-chatgpt-agent-release-notes) |
 | **OpenAI** | Model release notes | [help.openai.com](https://help.openai.com/en/articles/9624314-model-release-notes/) |
 | **OpenAI** | API pricing | [platform.openai.com](https://platform.openai.com/docs/pricing) |
 | **OpenAI** | March 2026 model news | [openai.com](https://openai.com/news/?display=list) |
 | **OpenAI** | ChatGPT subscriptions (Go/Plus/Pro) | [openai.com](https://openai.com/index/introducing-chatgpt-go/) |
 | **OpenAI** | ChatGPT Business pricing | [help.openai.com](https://help.openai.com/en/articles/8542115-chatgpt-business-faq) |
 | **Anthropic** | Claude Documentation | [anthropic.com](https://www.anthropic.com) |
+| **Anthropic** | Claude Haiku 4.5 announcement | [anthropic.com](https://www.anthropic.com/news/claude-haiku-4-5?type=product) |
 | **Anthropic** | Claude Pro pricing | [anthropic.com](https://www.anthropic.com/news/claude-pro) |
 | **Anthropic** | Max plan pricing | [anthropic.com](https://www.anthropic.com/max) |
 | **Google** | Gemini Documentation | [deepmind.google](https://deepmind.google/models/gemini/) |
+| **Google** | Gemini 3.1 Flash-Lite model card | [deepmind.google](https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/) |
+| **Google** | Project Mariner | [deepmind.google](https://deepmind.google/en/models/project-mariner/) |
+| **Google** | Google AI plans | [one.google.com](https://one.google.com/about/google-ai-plans/) |
 | **Google** | Google AI Plus pricing | [blog.google](https://blog.google/products-and-platforms/products/google-one/google-ai-plus-availability/) |
 | **Google** | Google AI Pro pricing | [one.google.com](https://one.google.com/about/plans) |
 | **Google** | Google AI Ultra pricing | [blog.google](https://blog.google/products-and-platforms/products/google-one/google-ai-ultra/) |
@@ -1001,7 +1021,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ---
 
-**Last Updated:** 2026-03-30 22:54 UTC
+**Last Updated:** 2026-04-01 20:24 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
