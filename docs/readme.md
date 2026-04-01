@@ -520,9 +520,9 @@ Tools and frameworks for AI-powered browser automation.
 | **Genspark** | Freemium (Free + Plus $19.99/mo + Pro $249/mo) | ❌ | ❌ | AI Super Agent, research | ❌ |
 | **BrowserOS** | Free | ✅ | ✅ | Privacy-focused | ❌ |
 | **Brave Leo** | Freemium (Free + Premium) | ❌ | ⚠️ (Experimental) | Privacy-focused AI | ❌ |
-| **Fellou** | Freemium (Free for 4 tasks, $20/mo Plus) | ❌ | ❌ | True agentic browser | ❌ |
-| **Perplexity Comet** | Free (with Pro $20/mo) or $5/mo | ❌ | ❌ | Research | ❌ |
-| **Dia** | Freemium (Free limited, $20/mo Pro) | ❌ | ❌ | Arc replacement | ❌ |
+| **Fellou** | Freemium (Free for 4 tasks, $19/mo Pro) | ❌ | ❌ | True agentic browser | ❌ |
+| **Perplexity Comet** | Free (with Pro $20/mo) or $5/mo Standalone | ❌ | ❌ | Research | ❌ |
+| **Dia** | Freemium (Free limited, $20/mo Pro, Dia+ $50/mo) | ❌ | ❌ | Arc replacement | ❌ |
 | **Opera Neon** | $19.90/mo | ❌ | ❌ | Agentic browsing | ❌ |
 | **Opera One (Aria)** | Free | ❌ | ❌ | Built-in AI assistant | ❌ |
 | **Edge Copilot** | Free (Copilot Pro $20/mo) | ❌ | ❌ | Enterprise AI browser | ❌ |
@@ -592,10 +592,16 @@ AI agents and tools for automating desktop tasks and OS-level interactions.
 | Agent | Platform | Vision-Based | Cross-Platform | Best For | GitHub |
 |-------|----------|--------------|----------------|----------|--------|
 | **Agent S** | Cross-platform | ✅ | ✅ | Research/SOTA | [🔗](https://github.com/simular-ai/Agent-S) |
+| **Simular Agent S2** | Cross-platform | ✅ | ✅ | Latest SOTA, improved grounding | [🔗](https://github.com/simular-ai/Agent-S) |
+| **Open Interpreter** | Cross-platform | ⚠️ | ✅ | Natural language computer control, 63K+ stars | [🔗](https://github.com/OpenInterpreter/open-interpreter) |
 | **Bytebot** | Linux (Docker) | ✅ | ✅ | Self-hosted | ❌ |
 | **UFO** | Windows | ✅ | ❌ | Windows automation | [🔗](https://github.com/microsoft/UFO) |
 | **Open-Interface** | Cross-platform | ✅ | ✅ | General use | [🔗](https://github.com/AmberSahdev/Open-Interface) |
 | **Anthropic Computer Use** | API | ✅ | ✅ | Beta capability | ❌ |
+| **OpenAI Operator** | API | ✅ | ✅ | Guided browser computer use | ❌ |
+| **Microsoft Fara-7B** | Cross-platform | ✅ | ✅ | Open-weight vision grounding model | [🔗](https://github.com/microsoft/Fara) |
+| **Amazon Nova Act** | API | ✅ | ✅ | AWS browser automation SDK | ❌ |
+| **Manus AI** | Cloud | ✅ | ✅ | General-purpose cloud agent | ❌ |
 
 #### RPA & Visual Frameworks
 
