@@ -2,12 +2,12 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--04--02%2004%3A50%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--04--02%2004%3A58%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources.
 
-Document Version: 2.0
-Last Updated: 2026-04-02 04:50 UTC
+Document Version: 2.1
+Last Updated: 2026-04-02 04:58 UTC
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
 
 ## Table of Contents
@@ -17,6 +17,14 @@ Repository: https://github.com/ReadyPixels/AI_Models_Matrix
   - [Models 🧠](#models-)
     - [Frontier Models 🚀](#frontier-models-)
       - [Top Models by Category](#top-models-by-category)
+    - [Model Specifications 📋](#model-specifications-)
+      - [Output Token Limits](#output-token-limits)
+      - [Cached & Batch Pricing](#cached--batch-pricing)
+      - [Speed & Latency](#speed--latency)
+      - [Training Data Cutoffs](#training-data-cutoffs)
+      - [Multilingual Support](#multilingual-support)
+      - [Structured Output & Function Calling](#structured-output--function-calling)
+      - [Regional Availability](#regional-availability)
     - [Open-Source Models 🆓](#open-source-models-)
       - [Deployment Options](#deployment-options)
     - [Coding Models 💻](#coding-models-)
@@ -171,6 +179,149 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Cost Efficiency** | DeepSeek-V3.1 | Grok 4 Fast | GLM-4.7-FlashX |
 | **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Claude Opus 4.6 (1M) |
 
+### Model Specifications 📋
+
+Detailed technical specifications, pricing, and capabilities for all frontier models. Data as of April 2026.
+
+#### Output Token Limits
+
+Maximum output tokens per single API request.
+
+| Model | Max Output | Context Window | Notes |
+|-------|-----------|----------------|-------|
+| **Claude Opus 4.6** | 128K (300K via beta) | 1M | Extended output via `output-128k-2025-02-19` beta header |
+| **Claude Sonnet 4.6** | 64K | 1M | — |
+| **Claude Sonnet 4.5** | 64K | 200K | — |
+| **GPT-5.4** | 128K | 1.05M | — |
+| **GPT-5.4 mini** | 128K | 400K | — |
+| **GPT-5.4 nano** | 128K | 400K | — |
+| **GPT-5.3-Codex** | 128K | 400K | — |
+| **Gemini 3.1 Pro** | 64K | 1M | — |
+| **Gemini 3 Pro** | 64K | 2M | — |
+| **Gemini 3 Flash** | 64K | 1M | — |
+| **Gemini 3.1 Flash-Lite** | 64K | 1M | — |
+| **DeepSeek-V4** | 16K | 1M | — |
+| **DeepSeek-V3.2** | 8K / 64K (reasoner) | 128K | Reasoner mode unlocks 64K output |
+| **Qwen3.5-Max** | 65K | 1M | — |
+| **GLM-5** | 128K | 200K | — |
+| **GLM-5.1** | 131K | 200K | — |
+| **MiniMax-M2.5** | 131K | 1M | — |
+| **Kimi K2.5** | — | 256K | Not publicly specified |
+| **Step-3.5-Flash** | 66K | 256K | — |
+| **Grok 4** | — | 256K | Not publicly specified |
+| **Grok 4 Fast** | 30K | 2M | — |
+| **Mistral Large 3** | — | 262K | Not publicly specified |
+| **Llama 4 Scout** | 16K | 10M | — |
+| **Llama 4 Maverick** | 16K | 1M | — |
+
+#### Cached & Batch Pricing
+
+Discounted pricing tiers for high-volume usage. All prices in USD per million tokens.
+
+| Model | Standard Input | Cached Input | Batch Discount | Notes |
+|-------|---------------|-------------|----------------|-------|
+| **Claude Opus 4.6** | $5.00 | $0.50 (hit) / $6.25 (5m write) | 50% off | Batch: $2.50 in / $12.50 out |
+| **Claude Sonnet 4.6** | $3.00 | $0.30 (hit) / $3.75 (5m write) | 50% off | Batch: $1.50 in / $7.50 out |
+| **Claude Sonnet 4.5** | $3.00 | $0.30 (hit) / $3.75 (5m write) | 50% off | Batch: $1.50 in / $7.50 out |
+| **GPT-5.4** | $2.50 | $0.25 | 50% off | Data residency +10% |
+| **GPT-5.4 mini** | $0.75 | $0.075 | 50% off | — |
+| **GPT-5.4 nano** | $0.20 | $0.02 | 50% off | — |
+| **GPT-5.3-Codex** | $1.75 | $0.175 | 50% off | — |
+| **Gemini 3.1 Pro** | $2.00 | $0.20–$0.40 + $4.50/hr storage | 50% off | Tiered by input length |
+| **Gemini 3 Flash** | $0.50 | $0.05 + $1.00/hr storage | 50% off | — |
+| **Gemini 3.1 Flash-Lite** | $0.25 | Supported | Supported | Exact rate not published |
+| **DeepSeek-V4** | $0.30 | $0.03 (90% off) | Off-peak 50% off | 11PM–7AM Beijing time |
+| **DeepSeek-V3.2** | $0.28 | $0.028 | — | No formal batch API |
+| **Qwen3.5-Max** | $0.40 | Available | 50% off | — |
+| **GLM-5 / GLM-5.1** | $1.00 | $0.20 | — | — |
+| **Grok 4** | $3.00 | $0.75 | — | — |
+| **Grok 4 Fast** | $0.20 | $0.05 | — | — |
+| **Mistral Large 3** | $0.50 | $0.05 | Available | — |
+| **Step-3.5-Flash** | $0.10 | — | — | — |
+
+#### Speed & Latency
+
+Output throughput and time-to-first-token from [Artificial Analysis](https://artificialanalysis.ai) and provider benchmarks.
+
+| Model | Output Speed (tok/s) | TTFT | Notes |
+|-------|---------------------|------|-------|
+| **Gemini 3.1 Flash-Lite** | ~363 | — | Fastest frontier model |
+| **Step-3.5-Flash** | 85–350 | — | Variable by provider; peak ~350 tok/s |
+| **Gemini 3 Flash** | ~193 | ~4.16s | — |
+| **MiniMax-M2.5 Lightning** | ~100 | — | Faster tier |
+| **GPT-5.3-Codex** | ~86 | ~77.86s | High TTFT due to extended reasoning |
+| **Grok 4** | ~56 | ~8.96s | — |
+| **MiniMax-M2.5 Standard** | ~50 | — | — |
+
+> Most frontier models (Claude Opus/Sonnet 4.6, GPT-5.4, Gemini 3.1 Pro, etc.) have not yet been benchmarked on Artificial Analysis as of April 2026.
+
+#### Training Data Cutoffs
+
+Knowledge cutoff dates — the point after which a model has no training data.
+
+| Model | Training Cutoff | Notes |
+|-------|----------------|-------|
+| **Claude Sonnet 4.6** | Jan 2026 | Most recent cutoff among frontier models |
+| **Claude Opus 4.6** | Aug 2025 | Reliable knowledge: May 2025 |
+| **GPT-5.4 / mini / nano** | Aug 31, 2025 | — |
+| **GPT-5.3-Codex** | Aug 31, 2025 | — |
+| **Grok 4 Fast** | Jul 2025 | — |
+| **DeepSeek-V4** | May 2025 | — |
+| **Gemini 3.1 Flash-Lite** | Jan 2026 | — |
+| **Gemini 3.1 Pro / 3 Pro / 3 Flash** | Jan 2025 | — |
+| **Grok 4** | ~Nov–Dec 2024 | Approximate |
+| **DeepSeek-V3.2** | Jul 2024 | — |
+| **Llama 4 Scout / Maverick** | Aug 2024 | — |
+| **DeepSeek-R1** | ~Oct 2023 | Based on base model |
+
+> Models not listed (Qwen, GLM, MiniMax, Kimi, Step, Mistral): training cutoff not publicly disclosed.
+
+#### Multilingual Support
+
+| Model | Languages | Details |
+|-------|----------|---------|
+| **Qwen3.5-Max** | 201 | Largest language coverage |
+| **Llama 4 Scout** | 200 | Pre-training languages |
+| **Qwen3-Max-Thinking** | 119 | Qwen3 series |
+| **Gemini 3 Flash** | 100 | 91.8% MMMLU score across 100 languages |
+| **Gemini 3.1 Pro / 3 Pro** | 100+ | — |
+| **Gemini 3.1 Flash-Lite** | 100+ | 88.9% MMMLU |
+| **Llama 4 Maverick** | 12 | Output languages |
+| **Claude (all)** | Many | English-optimized; broad multilingual |
+| **GPT-5.4 (all)** | Many | Broad multilingual coverage |
+| **DeepSeek (all)** | Many | Chinese + English focused |
+| **Grok (all)** | Many | — |
+| **GLM-5 / GLM-5.1** | Many | 28.5T token training data |
+
+#### Structured Output & Function Calling
+
+All frontier models support structured JSON output and function/tool calling except where noted.
+
+| Capability | Supported Models | Not Supported |
+|-----------|-----------------|---------------|
+| **Structured Output (JSON mode)** | All models listed in Frontier table | Gemini 3 Deep Think (no API) |
+| **Function Calling / Tool Use** | All models listed in Frontier table | Gemini 3 Deep Think (no API) |
+
+> **Gemini 3 Deep Think** is available only via Gemini's in-app Think mode — no API access for structured output or function calling.
+
+#### Regional Availability
+
+| Provider | API Availability | Cloud Partners | Notes |
+|----------|-----------------|----------------|-------|
+| **Anthropic** | Global | AWS Bedrock, GCP Vertex AI | US-only inference at 1.1x via `inference_geo` |
+| **OpenAI** | Global | Azure OpenAI | Data residency endpoints +10% (post-3/5/26) |
+| **Google** | Global | Google AI Studio, Vertex AI | Some regional restrictions per Google terms |
+| **DeepSeek** | Global | Azure (R1 only, select regions) | China-based servers |
+| **Alibaba (Qwen)** | Global | Alibaba Cloud Model Studio | China-based; globally accessible |
+| **Zhipu AI (GLM)** | Global | Z.AI API | MIT license enables self-hosting anywhere |
+| **MiniMax** | Global | MiniMax API | — |
+| **Moonshot AI (Kimi)** | Global | platform.kimi.ai | MIT open-weight |
+| **xAI (Grok)** | US-focused | Oracle OCI (East/Midwest/West) | Limited non-US availability |
+| **Mistral** | Global | Azure AI Foundry, AWS, GCP | — |
+| **Meta (Llama)** | Global (self-host) | All major cloud providers | Llama 4 Community License |
+| **StepFun** | Global | HuggingFace | Apache 2.0 open-source |
+
+
 ### Open-Source Models 🆓
 
 Self-hostable models with permissive licenses or open weights for privacy, cost control, and customization.
@@ -239,7 +390,7 @@ Specialized AI models optimized for software development tasks.
 | **MiniMax-M2.5** | MiniMax | $0.30 / $1.20 per 1M | Code generation, refactoring |
 | **Claude Sonnet 4.5** | Anthropic | $3 / $15 per 1M | Code review, refactoring |
 | **Codestral** | Mistral AI | $0.30 / $0.90 | Real-time completion |
-| **Grok Code Fast** | xAI | $0.20 / $1.50 | Most used (50% share) |
+| **Grok 4 Fast** | xAI | $0.20 / $1.50 | Most used (50% share) |
 
 #### Open-Source Coding Models
 
@@ -296,7 +447,7 @@ Models capable of processing and generating multiple types of content: text, ima
 
 | Model | Developer | Context | Key Features |
 |-------|-----------|---------|--------------|
-| **GPT-5** | OpenAI | 400K | Unified multimodal, audio |
+| **GPT-5.4** | OpenAI | 1M | Unified multimodal, audio |
 | **Gemini 3 Pro** | Google | 1M+ | Native multimodal, video |
 | **Claude Sonnet 4.5** | Anthropic | 200K | Document understanding |
 | **Llama 4 Maverick** | Meta | 128K | Open multimodal |
@@ -384,7 +535,7 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | **Claude Sonnet 4.5** | 83.4% | 88.0% | — | — | 77.2% | — | — | 87–100% | — | — | — | — |
 | **GPT-5.4** | 92.0% | 94% | 1484 | 36.6–41.6% | ~80% | 57.7% | 84–88% | 88% | 73.3% | 94% | — | 50% (Pro) |
 | **GPT-5.4 mini** | 87.5% | — | — | — | — | 54.4% | — | — | — | — | — | — |
-| **GPT-5.3 Codex** | 91.5% | — | — | — | — | 56.8% | 85% | — | — | — | — | — |
+| **GPT-5.3-Codex** | 91.5% | — | — | — | — | 56.8% | 85% | — | — | — | — | — |
 | **GPT-5.2** | 92.4% | — | 1479 | 35.2% | 80.0% | 55.6% | — | 100% | 52.9% | — | 95.6% | ~40.3% |
 | **Gemini 3.1 Pro** | 94.3% | 92% | 1494 | 44.4–51.4% | 80.6% | 54.2–72% | 71% | 100% | 77.1% | 95% | 95% | — |
 | **Gemini 3 Pro** | 91.9–93.8% | 83% | 1486 | 37.5% | 76.2% | 43.3% | 49% | 98–100% | 31.1–45.1% | 81% | 88% | 38% |
@@ -559,7 +710,7 @@ Services for accessing AI models via API.
 | Provider | Models | Pricing |
 |----------|--------|---------|
 | **OpenAI** | GPT-5.4, GPT-5.4 mini, GPT-5.4 nano, o3, Codex | Pay-per-token |
-| **Anthropic** | Claude 4.6, Claude Haiku 4.5 | Pay-per-token |
+| **Anthropic** | Claude Opus 4.6, Sonnet 4.6, Haiku 4.5 | Pay-per-token |
 | **Google AI Studio** | Gemini 3.1 Pro, Gemini 3.1 Flash-Lite, Gemini 3 Flash | Free / Pay |
 | **Z.ai (Zhipu AI)** | GLM-5, GLM-5-Code, GLM-4.7 | Pay-per-token |
 | **MiniMax** | MiniMax-M2.5/M2.1/M2 | Pay-per-token |
@@ -1011,11 +1162,11 @@ A beginner-friendly introduction to AI models and how to start using them effect
 
 | Task | Free Option | Premium Option |
 |------|-------------|----------------|
-| **Chat** | Llama 4 (self-hosted) | GPT-5, Claude |
+| **Chat** | Llama 4 (self-hosted) | GPT-5.4, Claude Opus 4.6 |
 | **Coding** | DeepSeek-Coder-V2 | Claude Opus 4.6 |
 | **Reasoning** | DeepSeek-R1 | Gemini 3 Deep Think, o3 |
 | **Long docs** | Llama 4 Scout | Gemini 3 Flash |
-| **Vision** | Llama 4 Maverick | GPT-5, Gemini 3 |
+| **Vision** | Llama 4 Maverick | GPT-5.4, Gemini 3 Pro |
 
 ### Model Selection Guide 🎯
 
@@ -1027,8 +1178,8 @@ A comprehensive guide to choosing the right AI model for your specific needs.
 |------|---------------------|----------------|----------------------|
 | 💻 Coding | DeepSeek-Coder-V2 | Claude Opus 4.6 | GPT-5.3-Codex |
 | 🧠 Reasoning / Math | DeepSeek-R1 | Gemini 3 Deep Think | o3 |
-| 💬 General Chat | Llama 4 (self-hosted) | GPT-5, Claude Opus 4.6 | Gemini 3 Flash |
-| 🎨 Vision | Llama 4 Maverick | GPT-5, Gemini 3 Pro | Gemini 3 Flash |
+| 💬 General Chat | Llama 4 (self-hosted) | GPT-5.4, Claude Opus 4.6 | Gemini 3 Flash |
+| 🎨 Vision | Llama 4 Maverick | GPT-5.4, Gemini 3.1 Pro | Gemini 3 Flash |
 | 🖥️ Self-Hosting | Phi-4 | DeepSeek-V4 | vLLM / SGLang (serving) |
 
 #### By Budget
@@ -1123,26 +1274,35 @@ Comprehensive pricing comparisons and cost calculations.
 
 #### Model Pricing Comparison
 
-| Model | Input | Output | Best For |
-|-------|-------|--------|----------|
-| **GLM-4.7-FlashX** | $0.07 | $0.40 | Fast budget tasks |
-| **GLM-4-32B-0414-128K** | $0.10 | $0.10 | Budget chat/coding |
-| **GPT-5.4 nano** | $0.20 | $1.25 | Classification and lightweight subagents |
-| **Gemini 3.1 Flash-Lite** | $0.25 | $1.50 | High-volume multimodal tasks |
-| **DeepSeek-V3.1** | $0.27 | $0.41 | Everything |
-| **Gemini 3 Flash** | $0.30 | $2.50 | Long context |
-| **MiniMax-M2.5** | $0.30 | $1.20 | Coding, long context |
-| **GLM-4.6** | $0.60 | $2.20 | General purpose |
-| **Kimi K2.5** | $0.60 | $3.00 | Multimodal + agent tasks |
-| **GPT-5.4 mini** | $0.75 | $4.50 | Fast coding and multimodal tasks |
-| **Claude Haiku 4.5** | $1.00 | $5.00 | Low-latency coding and sub-agents |
-| **GLM-5** | $1.00 | $3.20 | Agentic engineering |
-| **Perplexity Sonar** | $1.00 | $1.00 | Web-grounded chat (request fees apply) |
-| **Perplexity Sonar Reasoning Pro** | $2.00 | $8.00 | Reasoning + search (request fees apply) |
-| **GPT-5.4** | $2.50 | $15.00 | Frontier coding and professional work |
-| **Perplexity Sonar Pro** | $3.00 | $15.00 | Higher quality + search (request fees apply) |
-| **Claude Sonnet 4.5** | $3.00 | $15.00 | Best coding |
-| **Claude Opus 4.6** | $5.00 | $25.00 | Agentic coding |
+| Model | Input | Output | Cached Input | Best For |
+|-------|-------|--------|-------------|----------|
+| **GLM-4.7-FlashX** | $0.07 | $0.40 | — | Fast budget tasks |
+| **Step-3.5-Flash** | $0.10 | $0.30 | — | Ultra-fast reasoning (85–350 tok/s) |
+| **GLM-4-32B-0414-128K** | $0.10 | $0.10 | — | Budget chat/coding |
+| **Llama 4 Maverick** | $0.15 | $0.60 | — | Open multimodal (self-host: $0) |
+| **GPT-5.4 nano** | $0.20 | $1.25 | $0.02 | Classification and lightweight subagents |
+| **Grok 4 Fast** | $0.20 | $0.50 | $0.05 | Fast Grok reasoning |
+| **Gemini 3.1 Flash-Lite** | $0.25 | $1.50 | Supported | High-volume multimodal tasks |
+| **DeepSeek-V3.1** | $0.27 | $0.41 | — | Everything |
+| **DeepSeek-V3.2** | $0.28 | $0.42 | $0.028 | Budget workhorse, reasoning |
+| **DeepSeek-V4** | $0.30 | $0.50 | $0.03 | Engram memory, coding (off-peak 50% off) |
+| **Gemini 3 Flash** | $0.30 | $2.50 | $0.05 + $1/hr | Long context |
+| **MiniMax-M2.5** | $0.30 | $1.20 | Auto (included) | Coding, long context |
+| **Mistral Large 3** | $0.50 | $1.50 | $0.05 | Open-weight 675B MoE |
+| **Kimi K2.5** | $0.60 | $3.00 | Auto (included) | Multimodal + agent tasks |
+| **GPT-5.4 mini** | $0.75 | $4.50 | $0.075 | Fast coding and multimodal tasks |
+| **Claude Haiku 4.5** | $1.00 | $5.00 | — | Low-latency coding and sub-agents |
+| **GLM-5** | $1.00 | $3.20 | $0.20 | Agentic engineering |
+| **Perplexity Sonar** | $1.00 | $1.00 | — | Web-grounded chat (request fees apply) |
+| **GPT-5.3-Codex** | $1.75 | $14.00 | $0.175 | Agentic coding, 7+ hour autonomy |
+| **Gemini 3.1 Pro** | $2.00 | $12.00 | $0.20–$0.40 + $4.50/hr | Frontier reasoning |
+| **Perplexity Sonar Reasoning Pro** | $2.00 | $8.00 | — | Reasoning + search (request fees apply) |
+| **GPT-5.4** | $2.50 | $15.00 | $0.25 | Frontier coding and professional work |
+| **Grok 4** | $3.00 | $15.00 | $0.75 | First-principles reasoning |
+| **Perplexity Sonar Pro** | $3.00 | $15.00 | — | Higher quality + search (request fees apply) |
+| **Claude Sonnet 4.5** | $3.00 | $15.00 | $0.30 (hit) | Best coding |
+| **Claude Sonnet 4.6** | $3.00 | $15.00 | $0.30 (hit) | Near-Opus performance |
+| **Claude Opus 4.6** | $5.00 | $25.00 | $0.50 (hit) | Agentic coding |
 
 **Note:** Some search-grounded models charge both token rates and per-request search/context fees. See Perplexity’s official pricing for details: https://docs.perplexity.ai/docs/getting-started/pricing
 
@@ -1342,7 +1502,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ---
 
-**Last Updated:** 2026-04-02 04:50 UTC
+**Last Updated:** 2026-04-02 04:58 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
