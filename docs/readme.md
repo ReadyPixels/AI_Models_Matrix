@@ -583,6 +583,12 @@ Platforms and runtimes for running or connecting AI agents.
 | **Pico Claw** | Ultra-lightweight agent | Free (OSS) | ✅ | Embedded/IoT deployments, single-binary under 10 MB | ❌ |
 | **Clam** | Compliance-focused agent | Free (OSS) | ✅ | Regulated industries, detailed audit logs of agent decisions | ❌ |
 | **Taskllet** | No-code agent builder | Free (OSS) | ✅ | Drag-and-drop workflow builder for non-developers | ❌ |
+| **AutoGPT** | Autonomous agent | Free (OSS) | ✅ | Self-prompting GPT agent with memory, pioneer project | [🔗](https://github.com/Significant-Gravitas/AutoGPT) |
+| **BabyAGI** | Task-driven agent | Free (OSS) | ✅ | Autonomous task creation and prioritization | [🔗](https://github.com/yoheinakajima/babyagi) |
+| **Suna** | Generalist agent | Free (OSS) | ✅ | Versatile open-source agent for complex tasks (Kortix) | [🔗](https://github.com/kortix-ai/suna) |
+| **OWL** | Multi-agent framework | Free (OSS) | ✅ | Distributed task automation (Camel-AI) | [🔗](https://github.com/camel-ai/owl) |
+| **CogAgent** | Vision GUI model | Free (Research) | ✅ | High-performance vision-based GUI understanding (Tsinghua/Zhipu) | [🔗](https://github.com/THUDM/CogVLM2) |
+| **HyperAgent** | Code agent | Free (OSS) | ✅ | GitHub issue resolution, repository-level code generation | [🔗](https://github.com/FSoft-AI4Code/HyperAgent) |
 
 #### Cloud Agent Services
 
@@ -613,6 +619,12 @@ Agents that run directly on your machine and interact with the OS, screen, keybo
 | **UFO** | ✅ | ❌ | ❌ | ✅ | Windows-specific app automation | [🔗](https://github.com/microsoft/UFO) |
 | **Bytebot** | ❌ | ❌ | ✅ | ✅ | Self-hosted (Docker), headless | ❌ |
 | **Microsoft Fara-7B** | ✅ | ✅ | ✅ | ✅ | Open-weight vision grounding model | [🔗](https://github.com/microsoft/Fara) |
+| **UI-TARS** | ✅ | ✅ | ✅ | ✅ | Autonomous GUI execution, vision-language-action model (ByteDance) | [🔗](https://github.com/bytedance/UI-TARS-desktop) |
+| **c/ua** | ✅ | ✅ | ✅ | ✅ | Isolated VM environments, open-source CU infrastructure | [🔗](https://github.com/trycua/cua) |
+| **Windows-Use** | ✅ | ❌ | ❌ | ✅ | Windows OS-specific agent automation | [🔗](https://github.com/CursorTouch/Windows-Use) |
+| **OpenCUA** | ✅ | ✅ | ✅ | ✅ | Open foundations for computer-use agents | [🔗](https://github.com/xlang-ai/OpenCUA) |
+| **Devin** | ✅ | ✅ | ✅ | ✅ | Full-stack software engineering agent (Cognition Labs) | ❌ |
+| **Ace** | ✅ | ✅ | ✅ | ✅ | 20x human speed on UI tasks (General Agents) | ❌ |
 
 ##### Cloud / API Computer Use Agents
 
@@ -624,6 +636,9 @@ Agents accessed via API or cloud service — OS-independent, but require interne
 | **OpenAI Operator** | API | ✅ | Guided browser and desktop computer use | ❌ |
 | **Amazon Nova Act** | API | ✅ | AWS browser automation SDK | ❌ |
 | **Manus AI** | Cloud | ✅ | General-purpose cloud agent | ❌ |
+| **Adept AI (ACT-1)** | API | ✅ | Pioneer in digital actions, self-correcting behavior | ❌ |
+| **AskUI Vision Agent** | API | ✅ | Cross-platform vision automation without VMs | ❌ |
+| **Highlight AI** | Desktop + Cloud | ✅ | Privacy-first desktop Q&A and automation | ❌ |
 
 #### RPA & Visual Frameworks
 
@@ -639,6 +654,21 @@ Agents accessed via API or cloud service — OS-independent, but require interne
 | **PyAutoGUI** | Cross-platform | Simple API, fail-safe | ❌ |
 | **Nut.js** | Cross-platform | Visual search, image matching | ❌ |
 | **OpenAdapt** | Windows, macOS | Learning from demonstration | [🔗](https://github.com/OpenAdaptAI/OpenAdapt) |
+
+#### Research Projects (Computer Use)
+
+Notable academic and industry research advancing the field of computer-use agents.
+
+| Project | Developer | Focus | Year | Paper |
+|---------|-----------|-------|------|-------|
+| **Gato** | Google DeepMind | Multi-modal, multi-task, multi-embodiment agent | 2022 | [DeepMind](https://deepmind.google/research/publications/60307/) |
+| **PaLM-E** | Google DeepMind | Embodied multimodal language model | 2023 | [arXiv](https://arxiv.org/abs/2303.03378) |
+| **RT-2** | Google DeepMind | Vision-language-action model for robotics | 2023 | [arXiv](https://arxiv.org/abs/2307.15818) |
+| **HuggingGPT (Jarvis)** | Microsoft | Orchestrates specialists for multi-modal tasks | 2023 | [arXiv](https://arxiv.org/abs/2303.17580) |
+| **SIMA** | Google DeepMind | Generalist AI agent for 3D virtual environments | 2024 | [DeepMind](https://deepmind.google/discover/blog/sima/) |
+| **Magma** | Microsoft Research | Vision-language-action foundation model | 2025 | [arXiv](https://arxiv.org/abs/2502.12256) |
+| **WebAgent** | Google DeepMind | Autonomous web browsing and form-filling | 2024 | [arXiv](https://arxiv.org/abs/2310.03685) |
+| **WebVoyager** | Hongliang He et al. | Autonomous web browsing (59.1% on 15-website benchmark) | 2024 | [arXiv](https://arxiv.org/abs/2401.13919) |
 
 ---
 
