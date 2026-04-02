@@ -640,6 +640,19 @@ Agents accessed via API or cloud service — OS-independent, but require interne
 | **AskUI Vision Agent** | API | ✅ | Cross-platform vision automation without VMs | ❌ |
 | **Highlight AI** | Desktop + Cloud | ✅ | Privacy-first desktop Q&A and automation | ❌ |
 
+##### AI Operating Systems
+
+AI-native operating systems and platforms that embed LLMs as core system components.
+
+| OS / Platform | Type | Hardware | Local/Cloud | Best For | GitHub |
+|---------------|------|----------|:-----------:|----------|--------|
+| **AIOS** | Open Source (MIT) | Any | Both | Kernel-level LLM agent OS, agent scheduling & memory management | [🔗](https://github.com/agiresearch/AIOS) |
+| **Ghost OS** | Open Source | Any | Local | Autonomous agent workflows | ❌ |
+| **computer_use_ootb** | Open Source | Any | Local/API | Out-of-the-box GUI automation (Claude 3.5 CU + local models) | [🔗](https://github.com/showlab/computer_use_ootb) |
+| **Rabbit OS (R1)** | Commercial ($199 device) | R1 Device | Cloud | Consumer AI assistant, LAM-based app automation | ❌ |
+| **Apple Intelligence** | Commercial (OS-level) | Apple Silicon (M1+) | On-device / Private Cloud | Privacy-first, system-wide writing, Siri, image generation | ❌ |
+| **Windows Copilot+** | Commercial (OS-level) | NPU (40+ TOPS) | Hybrid | Recall, Cocreator, live captions, enterprise productivity | ❌ |
+
 #### RPA & Visual Frameworks
 
 | Tool | Platform | Best For |
