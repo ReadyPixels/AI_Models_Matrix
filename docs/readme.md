@@ -2,12 +2,12 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--04--01%2020%3A24%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--04--02%2004%3A50%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources.
 
-Document Version: 1.7
-Last Updated: 2026-04-01 20:24 UTC
+Document Version: 2.0
+Last Updated: 2026-04-02 04:50 UTC
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
 
 ## Table of Contents
@@ -85,6 +85,26 @@ Repository: https://github.com/ReadyPixels/AI_Models_Matrix
       - [Subscription Pricing (Monthly, USD)](#subscription-pricing-monthly-usd)
       - [Model Pricing Comparison](#model-pricing-comparison)
       - [Self-Hosting vs API (Monthly)](#self-hosting-vs-api-monthly)
+    - [Comprehensive Benchmark Reference 📈](#comprehensive-benchmark-reference-)
+      - [Full Benchmark Table](#full-benchmark-table)
+      - [FrontierMath Scores](#frontiermath-scores)
+      - [Benchmark Glossary](#benchmark-glossary)
+  - [AI Infrastructure 🏗️](#ai-infrastructure-️)
+    - [Embedding & Reranking Models 🧲](#embedding--reranking-models-)
+      - [Embedding Models](#embedding-models)
+      - [Reranking Models](#reranking-models)
+    - [Video Generation Models 🎬](#video-generation-models-)
+    - [Speech & TTS Models 🔊](#speech--tts-models-)
+      - [Text-to-Speech (TTS)](#text-to-speech-tts)
+      - [Speech-to-Text (STT / ASR)](#speech-to-text-stt--asr)
+    - [AI Safety & Guardrails 🛡️](#ai-safety--guardrails-️)
+    - [RAG Frameworks 🗂️](#rag-frameworks-️)
+    - [Fine-tuning Platforms ⚙️](#fine-tuning-platforms-️)
+    - [Evaluation & Observability 📊](#evaluation--observability-)
+    - [MCP Ecosystem 🔌](#mcp-ecosystem-)
+      - [Popular MCP Servers](#popular-mcp-servers)
+    - [Model Routers & Load Balancers 🔀](#model-routers--load-balancers-)
+    - [Small Language Models (SLMs) 📱](#small-language-models-slms-)
   - [Reference 📖](#reference-)
     - [Glossary 📖](#glossary-)
       - [A-E](#a-e)
@@ -113,33 +133,33 @@ Comprehensive documentation of Large Language Models (LLMs), Small Language Mode
 
 State-of-the-art proprietary AI models with cutting-edge capabilities from leading AI labs.
 
-| Model | Company | Context | Key Features | Pricing | Verified |
-|-------|---------|---------|--------------|---------|---------|
-| **Claude Opus 4.6** | Anthropic | 1M | Agent teams, enhanced coding/reasoning | $5 / $25 | 2026-04-02 |
-| **Claude Sonnet 4.6** | Anthropic | 1M | Near-Opus performance, Sonnet price | $3 / $15 | 2026-04-02 |
-| **GPT-5.3-Codex** | OpenAI | 400K | Agentic coding, 128K output | TBD | 2026-04-02 |
-| **Gemini 3.1 Pro** | Google | 1M | 77.1% ARC-AGI-2, 2x reasoning boost | $2 / $12 | 2026-04-02 |
-| **Gemini 3 Deep Think** | Google | 1M+ | 84.6% ARC-AGI-2, science/research | Ultra subscription | 2026-04-02 |
-| **GLM-5** | Zhipu AI | 200K | Agentic engineering, long-horizon tasks | $1.00 / $3.20 | 2026-04-02 |
-| **GLM-5.1** | Zhipu AI | 200K | 94.6% of Opus 4.6 coding, 28% gain over GLM-5, MIT open-weight | $1.00 / $3.20 | 2026-04-02 |
-| **MiniMax-M2.5** | MiniMax | 200K | Coding/refactoring, tool calling, long context | $0.30 / $1.20 | 2026-04-02 |
-| **Kimi K2.5** | Moonshot AI | 256K | Native multimodal, thinking & agent tasks | $0.60 / $3.00 | 2026-04-02 |
-| **DeepSeek-V4** | DeepSeek | 1M+ | Engram memory, coding focus | $0.30 / $0.50 | 2026-04-02 |
-| **DeepSeek-V3.2** | DeepSeek | 164K | Budget workhorse, strong coding (LiveCodeBench 89.6%) | $0.28 / $0.42 | 2026-04-02 |
-| **Qwen3.5-Max** | Alibaba | 128K | Hybrid attention, native VLM | Pay-per-token | 2026-04-02 |
-| **Gemini 3 Pro** | Google | 1M+ | PhD-level reasoning, agentic tool-use | Tiered pricing | 2026-04-02 |
-| **Gemini 3 Flash** | Google | 10M | Pro-grade reasoning, Flash speed | $0.30 / $2.50 | 2026-04-02 |
-| **Gemini 3.1 Flash-Lite** | Google | 1M | Fast, cost-efficient multimodal model for high-volume tasks | $0.25 / $1.50 | 2026-04-02 |
-| **GPT-5.4** | OpenAI | 1M | State-of-the-art coding, computer use, tool search | $2.50 / $15.00 | 2026-04-02 |
-| **GPT-5.4 mini** | OpenAI | 400K | Fast GPT-5.4 variant for coding and multimodal tasks | $0.75 / $4.50 | 2026-04-02 |
-| **GPT-5.4 nano** | OpenAI | 400K | Cheapest GPT-5.4, classification, data extraction, sub-agents | $0.20 / $1.25 | 2026-04-02 |
-| **Step-3.5-Flash** | StepFun | 256K | 196B MoE (11B active), 97.3% AIME, 74.4% SWE-bench, 100-350 tok/s | Pay-per-token | 2026-04-02 |
-| **Mistral Large 3** | Mistral AI | 128K | 675B params, MoE, Open-weight | Varies | 2026-04-02 |
-| **Claude Sonnet 4.5** | Anthropic | 200K | SWE-bench leader, best coding | $3 / $15 | 2026-04-02 |
-| **Llama 4 Scout** | Meta | 10M | Open-weight context king | Free (self-host) | 2026-04-02 |
-| **Llama 4 Maverick** | Meta | 128K | 400B params, multimodal | Free (self-host) | 2026-04-02 |
-| **Grok 4** | xAI | 128K | First-principles reasoning | $3 / $15 | 2026-04-02 |
-| **Grok 4 Fast** | xAI | 128K | Cost-efficient variant | $0.20 / $1.50 | 2026-04-02 |
+| Model | Company | Context | GPQA Diamond | Arena Elo | SWE-bench Verified | AIME 2025 | Pricing | Verified |
+|-------|---------|---------|--------------|-----------|--------------------|-----------|---------|----------|
+| **Claude Opus 4.6** | Anthropic | 1M | 91.3% | 1500 (Text) / 1549 (Code) | 80.8% | 99.8% | $5 / $25 | 2026-04-02 |
+| **Claude Sonnet 4.6** | Anthropic | 1M | 89.9% | ~1438 (Text) / 1523 (Code) | 79.6% | ~95% | $3 / $15 | 2026-04-02 |
+| **GPT-5.3-Codex** | OpenAI | 400K | 91.5% | — | — | — | TBD | 2026-04-02 |
+| **Gemini 3.1 Pro** | Google | 1M | 94.3% | 1494 (Text) / 1455 (Code) | 80.6% | 100% | $2 / $12 | 2026-04-02 |
+| **Gemini 3 Deep Think** | Google | 1M+ | ~97% | — | ~58% | — | Ultra subscription | 2026-04-02 |
+| **GLM-5** | Zhipu AI | 200K | 82.0% | ~1451 (Text) / 1445 (Code) | 77.8% | 92.7% | $1.00 / $3.20 | 2026-04-02 |
+| **GLM-5.1** | Zhipu AI | 200K | — | — | ~80.4% (est.) | — | $1.00 / $3.20 | 2026-04-02 |
+| **MiniMax-M2.5** | MiniMax | 200K | 85.2% | — | 80.2% | 86.3% | $0.30 / $1.20 | 2026-04-02 |
+| **Kimi K2.5** | Moonshot AI | 256K | 87.6% | — | 76.8% | 96.1% | $0.60 / $3.00 | 2026-04-02 |
+| **DeepSeek-V4** | DeepSeek | 1M+ | — | — | — | — | $0.30 / $0.50 | 2026-04-02 |
+| **DeepSeek-V3.2** | DeepSeek | 164K | 87.1% | — | 67.8% | 89.3% | $0.28 / $0.42 | 2026-04-02 |
+| **Qwen3.5-Max** | Alibaba | 128K | 89.3% | — | 76.4% | 91.3% | Pay-per-token | 2026-04-02 |
+| **Gemini 3 Pro** | Google | 1M+ | 91.9% | 1486 (Text) / 1438 (Code) | 76.2% | 98–100% | Tiered pricing | 2026-04-02 |
+| **Gemini 3 Flash** | Google | 10M | 90.4% | 1474 (Text) | 78.0% | — | $0.30 / $2.50 | 2026-04-02 |
+| **Gemini 3.1 Flash-Lite** | Google | 1M | — | — | — | — | $0.25 / $1.50 | 2026-04-02 |
+| **GPT-5.4** | OpenAI | 1M | 92.0% | 1484 (Text) / 1457 (Code) | ~80% | 88% | $2.50 / $15.00 | 2026-04-02 |
+| **GPT-5.4 mini** | OpenAI | 400K | 87.5% | — | — | — | $0.75 / $4.50 | 2026-04-02 |
+| **GPT-5.4 nano** | OpenAI | 400K | — | — | — | — | $0.20 / $1.25 | 2026-04-02 |
+| **Step-3.5-Flash** | StepFun | 256K | 83.1% | — | 74.4% | 97.3% | Pay-per-token | 2026-04-02 |
+| **Mistral Large 3** | Mistral AI | 128K | — | — | — | — | Varies | 2026-04-02 |
+| **Claude Sonnet 4.5** | Anthropic | 200K | 83.4% | — | 77.2% | 87% | $3 / $15 | 2026-04-02 |
+| **Llama 4 Scout** | Meta | 10M | 57.2% | — | — | — | Free (self-host) | 2026-04-02 |
+| **Llama 4 Maverick** | Meta | 128K | 69.8% | — | — | — | Free (self-host) | 2026-04-02 |
+| **Grok 4** | xAI | 128K | ~91.5% | ~1493 (Text) | — | 100% | $3 / $15 | 2026-04-02 |
+| **Grok 4 Fast** | xAI | 128K | — | — | — | — | $0.20 / $1.50 | 2026-04-02 |
 
 #### Top Models by Category
 
@@ -195,13 +215,18 @@ Specialized AI models optimized for software development tasks.
 
 #### SWE-bench Verified Leaderboard
 
-| Rank | Model | Company | Score |
-|------|-------|---------|-------|
-| 🥇 #1 | **Claude Opus 4.6** | Anthropic | SOTA |
-| 🥈 #2 | **GPT-5.3-Codex** | OpenAI | Agentic leader |
-| 🥉 #3 | **Claude Sonnet 4.5** | Anthropic | ~92% |
-| #4 | **GPT-OSS-120B** | OpenAI | 91.4% AIME |
-| #5 | **Kimi K2.5** | Moonshot AI | Excellent |
+| Rank | Model | Company | SWE-bench Verified |
+|------|-------|---------|-------------------|
+| 🥇 #1 | **Claude Opus 4.6** | Anthropic | 80.8% |
+| 🥈 #2 | **Gemini 3.1 Pro** | Google | 80.6% |
+| 🥉 #3 | **MiniMax-M2.5** | MiniMax | 80.2% |
+| #4 | **GPT-5.4** | OpenAI | ~80% |
+| #5 | **GPT-5.2** | OpenAI | 80.0% |
+| #6 | **Claude Sonnet 4.6** | Anthropic | 79.6% |
+| #7 | **Gemini 3 Flash** | Google | 78.0% |
+| #8 | **GLM-5** | Zhipu AI | 77.8% |
+| #9 | **Claude Sonnet 4.5** | Anthropic | 77.2% |
+| #10 | **Kimi K2.5** | Moonshot AI | 76.8% |
 
 #### Commercial Coding Models
 
@@ -232,14 +257,18 @@ Models optimized for step-by-step reasoning, mathematical problem-solving, and c
 
 #### AIME 2025 Leaderboard
 
-| Rank | Model | Score | Notes |
-|------|-------|-------|-------|
-| 🥇 #1 | **Gemini 3 Deep Think** | 84.6% ARC-AGI-2 | Science/research focus |
-| 🥈 #2 | **Qwen3-Max-Thinking** | 100% | Perfect AIME score |
-| 🥉 #3 | **GPT-5 Pro (with tools)** | 100% | With Python tools |
-| #4 | **GPT-OSS-120B** | 91.4% | Open-source leader |
-| #5 | **o3** | ~96.5% | OpenAI reasoning |
-| #6 | **DeepSeek-R1** | 81% | Pure RL-based |
+| Rank | Model | AIME 2025 | ARC-AGI-2 | Notes |
+|------|-------|-----------|-----------|-------|
+| 🥇 #1 | **Gemini 3.1 Pro** | 100% | 77.1% | Highest combined reasoning |
+| 🥈 #2 | **GPT-5.2** | 100% | 52.9% | No tools needed |
+| 🥉 #3 | **Grok 4** | 100% | — | First-principles reasoning |
+| #4 | **Claude Opus 4.6** | 99.8% | 68.8% | Near-perfect AIME |
+| #5 | **Gemini 3 Pro** | 98–100% | 31.1–45.1% | With code execution |
+| #6 | **Step-3.5-Flash** | 97.3% | — | Best efficiency ratio |
+| #7 | **Kimi K2.5** | 96.1% | — | Strong multimodal reasoning |
+| #8 | **Claude Sonnet 4.6** | ~95% | 58.3% | Near-Opus performance |
+| #9 | **GLM-5** | 92.7% | — | Thinking mode |
+| #10 | **DeepSeek-V3.2** | 89.3% | — | Budget reasoning |
 
 #### Reasoning Model Details
 
@@ -274,12 +303,14 @@ Models capable of processing and generating multiple types of content: text, ima
 
 #### Vision Capabilities
 
-| Model | MMMU | MathVista | DocVQA |
-|-------|------|-----------|--------|
-| **Gemini 3 Pro** | SOTA | SOTA | SOTA |
-| **GPT-5** | Excellent | Excellent | Excellent |
-| **Claude Sonnet 4.5** | Strong | Strong | Excellent |
-| **Llama 4 Maverick** | Good | Good | Good |
+| Model | MMMU / MMMU-Pro | MathVista | DocVQA |
+|-------|----------------|-----------|--------|
+| **Gemini 3.1 Pro** | 95% (MMMU-Pro) | — | — |
+| **GPT-5.4** | 94% (MMMU-Pro) | — | — |
+| **Gemini 3 Pro** | 81% (MMMU-Pro) | — | — |
+| **Gemini 3 Flash** | 80% (MMMU-Pro) | — | — |
+| **Claude Sonnet 4.5** | 77.8% (MMMU) | — | — |
+| **Llama 4 Maverick** | 73.4% (MMMU) | — | — |
 
 #### Audio & Video
 
@@ -339,6 +370,68 @@ Comprehensive hardware specifications for self-hosting AI models.
 | **Q3_K_M** | 3 | ~19% | Fair | Limited resources |
 
 ---
+
+### Comprehensive Benchmark Reference 📈
+
+Detailed benchmark scores across all major evaluations. Scores are percentages (%) unless noted. Arena Elo scores are integers. `—` = not publicly reported. Data as of April 2026.
+
+#### Full Benchmark Table
+
+| Model | GPQA Diamond | MMLU-Pro | Arena Elo (Text) | HLE | SWE-bench Verified | SWE-bench Pro | LiveCodeBench | AIME 2025 | ARC-AGI-2 | MMMU-Pro | IFEval | FrontierMath |
+|-------|-------------|----------|------------------|-----|--------------------|--------------|--------------|-----------|-----------|---------|---------|----|
+| **Claude Opus 4.6** | 91.3% | — | 1500 | 40.0–53.0% | 80.8% | — | — | 99.8% | 68.8% | — | — | — |
+| **Claude Sonnet 4.6** | 89.9% | — | ~1438 | 33.2–49.0% | 79.6% | — | — | ~95% | 58.3% | — | — | — |
+| **Claude Sonnet 4.5** | 83.4% | 88.0% | — | — | 77.2% | — | — | 87–100% | — | — | — | — |
+| **GPT-5.4** | 92.0% | 94% | 1484 | 36.6–41.6% | ~80% | 57.7% | 84–88% | 88% | 73.3% | 94% | — | 50% (Pro) |
+| **GPT-5.4 mini** | 87.5% | — | — | — | — | 54.4% | — | — | — | — | — | — |
+| **GPT-5.3 Codex** | 91.5% | — | — | — | — | 56.8% | 85% | — | — | — | — | — |
+| **GPT-5.2** | 92.4% | — | 1479 | 35.2% | 80.0% | 55.6% | — | 100% | 52.9% | — | 95.6% | ~40.3% |
+| **Gemini 3.1 Pro** | 94.3% | 92% | 1494 | 44.4–51.4% | 80.6% | 54.2–72% | 71% | 100% | 77.1% | 95% | 95% | — |
+| **Gemini 3 Pro** | 91.9–93.8% | 83% | 1486 | 37.5% | 76.2% | 43.3% | 49% | 98–100% | 31.1–45.1% | 81% | 88% | 38% |
+| **Gemini 3 Flash** | 90.4% | 72% | 1474 | 33.7% | 78.0% | 44% | — | — | — | 80% | 85% | — |
+| **Gemini 3 Deep Think** | ~97% | 81% | — | 48.4% | ~58% | 63% | 58% | — | 84.6% | — | — | — |
+| **DeepSeek-V3.2** | 87.1% | 85.0% | — | 25.1% | 67.8% | — | — | 89.3% | — | — | — | — |
+| **DeepSeek-R1** | 71.5% | 84.0% | — | 8.5% | 49.2% | — | 63.5% | 70.0% | — | — | — | — |
+| **Qwen3.5-Max** | 89.3% | — | — | — | 76.4% | — | — | 91.3% | — | 79% | — | — |
+| **Qwen3-Max-Thinking** | 86.1% | — | — | 26.2% | — | — | — | — | — | — | — | — |
+| **GLM-5** | 82.0% | — | ~1451 | 10.4% | 77.8% | — | — | 92.7% | — | — | — | — |
+| **GLM-5.1** | — | — | — | — | ~80.4% (est.) | — | — | — | — | — | — | — |
+| **Kimi K2.5** | 87.6% | 87.1% | — | 31.5–50.2% | 76.8% | — | 85.0% | 96.1% | — | 78.5% | — | — |
+| **MiniMax-M2.5** | 85.2% | — | — | — | 80.2% | 55.4% | — | 86.3% | — | — | — | — |
+| **Step-3.5-Flash** | 83.1% | — | — | — | 74.4% | — | 86.4% | 97.3% | — | — | — | — |
+| **Grok 4** | ~91.5% | 91.5% | ~1493 | 50.7% | — | — | — | 100% | — | — | — | — |
+| **Llama 4 Maverick** | 69.8% | 80.5% | — | — | — | — | 43.4% | — | — | — | — | — |
+| **Llama 4 Scout** | 57.2% | 74.3% | — | — | — | — | 32.8% | — | — | — | — | — |
+
+#### FrontierMath Scores
+
+[FrontierMath](https://epoch.ai/frontiermath/tiers-1-4/about) is a benchmark of 350 original, exceptionally challenging mathematics problems created by expert mathematicians (Epoch AI). Problems span number theory, analysis, algebraic geometry, and category theory. Tier 4 problems can take research mathematicians multiple days.
+
+| Model | Tiers 1–3 | Tier 4 | Source |
+|-------|-----------|--------|--------|
+| **GPT-5.4 Pro** | 50% | ~36–38% | [Epoch AI](https://epoch.ai/benchmarks/frontiermath-tier-4) |
+| **GPT-5.2 Pro** | ~40.3% | 31% | [Epoch AI](https://epochai.substack.com/p/new-record-on-frontiermath-tier-4) |
+| **Gemini 3 Pro** | 38% | 19% | [Epoch AI](https://epoch.ai/benchmarks/frontiermath-tier-4) |
+| **GPT-5.1 Thinking** | ~25% | — | [llm-stats](https://llm-stats.com/benchmarks/frontiermath) |
+
+#### Benchmark Glossary
+
+| Benchmark | Description | Source |
+|-----------|-------------|--------|
+| **GPQA Diamond** | Graduate-level science questions (PhD difficulty) | Google Research |
+| **MMLU-Pro** | Extended multi-task language understanding (harder than MMLU) | TIGER-Lab |
+| **Arena Elo** | Crowdsourced human preference ranking | [lmarena.ai](https://lmarena.ai/leaderboard) |
+| **HLE** | Humanity's Last Exam — expert-level questions | [Scale AI](https://lastexam.ai) |
+| **SWE-bench Verified** | Real GitHub issue resolution (human-verified subset) | [SWE-bench](https://www.swebench.com) |
+| **SWE-bench Pro** | More challenging subset of SWE-bench | [SWE-bench](https://www.swebench.com) |
+| **LiveCodeBench** | Live competitive programming problems (not in training data) | [LiveCodeBench](https://livecodebench.github.io) |
+| **AIME 2025** | American Invitational Mathematics Examination | MAA |
+| **ARC-AGI-2** | Abstract reasoning challenge (fluid intelligence) | [ARC Prize](https://arcprize.org) |
+| **MMMU / MMMU-Pro** | Multi-discipline multimodal understanding | [MMMU](https://mmmu-benchmark.github.io) |
+| **IFEval** | Instruction-following evaluation | Google Research |
+| **FrontierMath** | Expert-level research mathematics (Epoch AI) | [Epoch AI](https://epoch.ai/frontiermath/tiers-1-4/about) |
+
+
 
 ## Development Tools 🛠️
 
@@ -690,6 +783,205 @@ Notable academic and industry research advancing the field of computer-use agent
 
 ---
 
+## AI Infrastructure 🏗️
+
+Tools, frameworks, and specialized models for building production AI systems — from embeddings and video generation to safety, evaluation, and model routing.
+
+### Embedding & Reranking Models 🧲
+
+Specialized models for converting text (or images) into dense vector representations and for reranking retrieval results. Essential infrastructure for RAG pipelines and semantic search. *Prices as of April 2026.*
+
+#### Embedding Models
+
+| Model | Developer | Dimensions | Max Tokens | Pricing | Best For | GitHub |
+|-------|-----------|-----------|------------|---------|----------|--------|
+| text-embedding-3-small | OpenAI | 1,536 | 8,191 | $0.02/1M tokens | Cost-effective English embeddings | — |
+| text-embedding-3-large | OpenAI | 3,072 | 8,191 | $0.13/1M tokens | Highest-quality English retrieval | — |
+| Embed v4 | Cohere | 1,536 | 128K | $0.12/1M (text), $0.47/1M (image) | Multimodal text + image RAG | — |
+| voyage-3-large | Voyage AI | 256–2,048 (flex) | 32K | ~$0.18/1M tokens | Highest-quality retrieval, long context | — |
+| jina-embeddings-v3 | Jina AI | 32–1,024 (flex) | 8,192 | API pay-per-use | Multilingual, task-adaptive (LoRA heads) | [🔗](https://github.com/jina-ai/jina-embeddings-v3) |
+| BGE-M3 | BAAI | 1,024 | 8,192 | Free (open-source) | Multi-functional: dense + sparse + ColBERT | [🔗](https://github.com/FlagOpen/FlagEmbedding) |
+| Nomic Embed v2 (MoE) | Nomic AI | 256–768 (flex) | 512 | Free (open-source) | Multilingual, MoE efficiency (305M active) | [🔗](https://github.com/nomic-ai/nomic) |
+| text-embedding-005 | Google (Vertex AI) | 768 | 2,048 | $0.10/1M tokens | GCP-native semantic search | — |
+
+#### Reranking Models
+
+| Model | Developer | Max Tokens | Pricing | Best For | GitHub |
+|-------|-----------|-----------|---------|----------|--------|
+| Rerank 4.0 Pro | Cohere | 32K | $1.00/1K queries | High-accuracy domain-specific reranking | — |
+| Rerank 4.0 Fast | Cohere | 32K | $0.50/1K queries | Low-latency production reranking | — |
+| rerank-2.5 | Voyage AI | 32K | API pay-per-use | Instruction-following, multilingual | — |
+| BGE Reranker v2-m3 | BAAI | 8,192 | Free (open-source) | Open-source cross-encoder reranking | [🔗](https://github.com/FlagOpen/FlagEmbedding) |
+| Jina Reranker v2 | Jina AI | 8,192 | API pay-per-use | Multilingual, long-context reranking | — |
+
+### Video Generation Models 🎬
+
+Text-to-video and image-to-video generation models for creating short clips from prompts. The field is moving rapidly — resolutions, durations, and pricing change frequently. *Specs as of April 2026.*
+
+| Model | Developer | Resolution | Duration | Pricing | Open Source | Best For | GitHub |
+|-------|-----------|-----------|---------|---------|-------------|----------|--------|
+| Sora 2 | OpenAI | Up to 1080p | Up to 20s (Pro) | $20–$200/mo via ChatGPT | No | Cinematic quality, long clips | — |
+| Veo 3 | Google DeepMind | 720p–1080p | Up to 8s (extendable) | ~$0.20–$0.40/s | No | Native audio + video, realistic physics | — |
+| Runway Gen-4 / Gen-4.5 | Runway | Up to 4K | Up to 16s | $12–$76/mo | No | Professional creative workflows | — |
+| Kling 2.0 | Kuaishou | 1080p | Up to 10s | Free / $5.99–$66/mo | No | Budget production, fast turnaround | — |
+| Pika 2.0 | Pika Labs | 1080p | Up to 5s | Free / $8–$58/mo | No | Social media, creative effects | — |
+| MiniMax Video-01 | MiniMax | 720p | Up to 6s | ~$0.40/video | No | Strong text-motion responsiveness | — |
+| HunyuanVideo | Tencent | 720p–2K | Up to 16s | Free (self-host; ~60GB VRAM) | Yes (Apache 2.0) | High per-frame fidelity, long clips | [🔗](https://github.com/Tencent/HunyuanVideo) |
+| Wan 2.2 (14B) | Alibaba | 480p–1080p | Up to 10s | ~$0.10–$0.30/clip (API) | Yes (Apache 2.0) | Motion quality, VBench #1 benchmark | [🔗](https://github.com/Wan-Video/Wan2.1) |
+| Mochi 1 | Genmo | 480p | Up to 5.4s @ 30fps | Free (open-source) | Yes (Apache 2.0) | High-quality open text-to-video | [🔗](https://github.com/genmoai/mochi) |
+| LTX Video | Lightricks | 720p | Variable | Free (open-source) | Yes | Fast generation, ComfyUI-native | [🔗](https://github.com/Lightricks/LTX-Video) |
+| CogVideoX | Zhipu AI / Tsinghua | 720p | ~6s | Free (open-source) | Yes (Apache 2.0) | Image-to-video quality, LoRA fine-tuning | [🔗](https://github.com/THUDM/CogVideo) |
+
+### Speech & TTS Models 🔊
+
+Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation, transcription, and real-time audio. *Prices as of April 2026.*
+
+#### Text-to-Speech (TTS)
+
+| Model | Developer | Languages | Real-time | Open Source | Pricing | Best For | GitHub |
+|-------|-----------|-----------|----------|-------------|---------|----------|--------|
+| ElevenLabs Turbo v2.5 | ElevenLabs | 29+ | Yes | No | Free – $1,320/mo | Best quality (4.8 MOS), instant voice cloning | — |
+| OpenAI TTS / TTS HD | OpenAI | 57 | Yes | No | $15 / $30 per 1M chars | Enterprise, seamless GPT integration | — |
+| Sesame CSM | Sesame AI Labs | English | Yes | Yes | Free | Conversational, emotionally expressive (4.7 MOS) | [🔗](https://github.com/SesameAILabs/csm) |
+| Kokoro-82M | Hexgrad | Multilingual | Yes | Yes (Apache 2.0) | Free | Tiny (82M params), CPU-runnable, near-commercial quality | [🔗](https://github.com/hexgrad/kokoro) |
+| Fish Audio S1 | Fish Audio | Multilingual | Yes | Yes | Free / $0.016/1K chars (API) | Voice cloning, multilingual fluency | [🔗](https://github.com/fishaudio/fish-speech) |
+| Parler-TTS | HuggingFace | English | No | Yes (Apache 2.0) | Free | Style-controllable via text descriptions | [🔗](https://github.com/huggingface/parler-tts) |
+| XTTS v2 | Coqui AI | 17 | Yes | Yes (MPL 2.0) | Free | Best open-source multilingual, 6s voice cloning | [🔗](https://github.com/coqui-ai/TTS) |
+| Bark | Suno AI | 13+ | No | Yes (MIT) | Free | Expressive, non-verbal sounds, long-form audio | [🔗](https://github.com/suno-ai/bark) |
+
+#### Speech-to-Text (STT / ASR)
+
+| Model | Developer | Languages | Real-time | Open Source | Pricing | Best For | GitHub |
+|-------|-----------|-----------|----------|-------------|---------|----------|--------|
+| Whisper large-v3 | OpenAI | 100+ | No | Yes (MIT) | $0.006/min (API) | Open-source multilingual baseline | [🔗](https://github.com/openai/whisper) |
+| GPT-4o Transcribe | OpenAI | 50+ | Yes | No | $0.006/min | High-accuracy managed STT | — |
+| Deepgram Nova-3 | Deepgram | 36+ | Yes | No | $0.0043/min | Ultra-low latency, production STT | — |
+| AssemblyAI Universal-2 | AssemblyAI | Multilingual | Yes | No | $0.0025/min | Accurate, feature-rich transcription | — |
+
+### AI Safety & Guardrails 🛡️
+
+Tools and frameworks for detecting unsafe content, preventing prompt injection, validating outputs, and enforcing policy compliance in LLM-powered applications. *As of April 2026.*
+
+| Tool | Developer | Type | Open Source | Pricing | Best For | GitHub |
+|------|-----------|------|-------------|---------|----------|--------|
+| Llama Guard 3 | Meta | Safety classifier (8B LLM) | Yes (Meta license) | Free / ~$0.02/1M tokens (API) | Input/output safety classification, 8 languages | [🔗](https://github.com/meta-llama/PurpleLlama) |
+| NeMo Guardrails | NVIDIA | Programmable guardrail toolkit (Colang DSL) | Yes (Apache 2.0) | Free | Dialog safety, policy enforcement, LangChain-native | [🔗](https://github.com/NVIDIA/NeMo-Guardrails) |
+| Guardrails AI | Guardrails AI | Python validator framework | Yes | Free (OSS) | Output validation, PII detection, hallucination guards | [🔗](https://github.com/guardrails-ai/guardrails) |
+| Amazon Bedrock Guardrails | AWS | Managed safety layer | No | Pay-per-use (AWS) | AWS-native, zero-ops compliance and content filtering | — |
+| ShieldGemma 2 | Google | Safety classifier (open weights) | Yes (open weights) | Free | Text safety (2B/9B/27B), image safety (4B) | — |
+| Rebuff | Protect AI | Prompt injection detector | Yes | Free | Self-hardening anti-injection using vector memory | [🔗](https://github.com/protectai/rebuff) |
+| Lakera Guard | Lakera | Managed LLM security API | No | Free tier + Enterprise | Runtime LLM security, <50ms latency, PII + injection | — |
+
+### RAG Frameworks 🗂️
+
+Frameworks and libraries for building Retrieval-Augmented Generation (RAG) pipelines — connecting LLMs to external knowledge sources. *As of April 2026.*
+
+| Framework | Developer | Language | Key Features | Open Source | GitHub |
+|-----------|-----------|---------|--------------|-------------|--------|
+| LlamaIndex | LlamaIndex | Python | 160+ data connectors, hybrid search, multi-agent support | Yes (MIT) | [🔗](https://github.com/run-llama/llama_index) |
+| LangChain | LangChain AI | Python / JS | Chains, agents, memory, 50K+ integrations, LangGraph | Yes (MIT) | [🔗](https://github.com/langchain-ai/langchain) |
+| RAGFlow | InfiniFlow | Python | Visual workflow builder, deep document parsing (PDF/tables) | Yes (Apache 2.0) | [🔗](https://github.com/infiniflow/ragflow) |
+| Haystack | deepset | Python | Modular pipelines, enterprise-grade, built-in monitoring | Yes (Apache 2.0) | [🔗](https://github.com/deepset-ai/haystack) |
+| Verba | Weaviate | Python | No-code UI, Weaviate-native vector search | Yes | [🔗](https://github.com/weaviate/Verba) |
+| Mem0 | Mem0 AI | Python / JS | Persistent memory layer, graph memory, session recall | Yes (Apache 2.0) | [🔗](https://github.com/mem0ai/mem0) |
+| txtai | NeuML | Python | All-in-one semantic search + workflow automation | Yes (Apache 2.0) | [🔗](https://github.com/neuml/txtai) |
+| R2R | SciPhi | Python | Lightweight, low-latency, REST API, production-first | Yes (MIT) | [🔗](https://github.com/SciPhi-AI/R2R) |
+
+### Fine-tuning Platforms ⚙️
+
+Tools and platforms for adapting pre-trained LLMs to specific tasks or domains via supervised fine-tuning, RLHF, LoRA/QLoRA, and related methods. *Prices as of April 2026.*
+
+| Platform | Type | Supported Models | Pricing | Best For | GitHub |
+|----------|------|-----------------|---------|----------|--------|
+| Unsloth | OSS library | Llama, Mistral, Gemma, Qwen, Phi, + more | Free | 2–5× faster training, 80% VRAM reduction via custom kernels | [🔗](https://github.com/unslothai/unsloth) |
+| Axolotl | OSS framework | Most Hugging Face models | Free | Config-as-code (YAML), reproducibility, multi-GPU training | [🔗](https://github.com/axolotl-ai-cloud/axolotl) |
+| OpenAI Fine-tuning | Managed API | GPT-4o, GPT-4o-mini, GPT-3.5 Turbo | GPT-4o-mini: $0.30/1M training tokens | Managed, no infra, direct production deployment | — |
+| Google Vertex AI | Managed cloud | Gemini 2.5 Pro/Flash, Gemma 3 | Gemini 2.5 Pro: $25/1M training tokens | GCP-native, Gemini model access | — |
+| Predibase / LoRAX | Cloud + OSS server | Llama, Mistral, 50+ HF models | Free tier + per-GPU pricing | Multi-adapter serving: many LoRA adapters on one GPU | [🔗](https://github.com/predibase/lorax) |
+| PEFT | Hugging Face | All Hugging Face models | Free | LoRA, QLoRA, prefix tuning, prompt tuning — full HF ecosystem | [🔗](https://github.com/huggingface/peft) |
+| LLaMA-Factory | Community | 100+ models | Free | Web UI, low-code interface, beginner-friendly fine-tuning | [🔗](https://github.com/hiyouga/LLaMA-Factory) |
+| torchtune | PyTorch | Llama, Gemma, Mistral, Phi | Free | PyTorch-native, composable training recipes | [🔗](https://github.com/pytorch/torchtune) |
+
+### Evaluation & Observability 📊
+
+Tools for tracing LLM calls, evaluating output quality, debugging RAG pipelines, and monitoring production AI systems. *Prices as of April 2026.*
+
+| Tool | Developer | Type | Open Source | Pricing | Best For | GitHub |
+|------|-----------|------|-------------|---------|----------|--------|
+| LangSmith | LangChain AI | Tracing + evaluation platform | No (enterprise self-host) | Free (5K traces/mo), paid plans | LangChain apps, chain + agent debugging | — |
+| Braintrust | Braintrust Data | Eval-first platform | Partial (AI proxy OSS) | Free (1M spans), enterprise | CI/CD evals, dataset management, LLM-as-judge | — |
+| Helicone | Helicone | Proxy-based observability | Yes | Free tier, usage-based | Cost tracking, request caching, drop-in API proxy | [🔗](https://github.com/Helicone/helicone) |
+| Arize Phoenix | Arize AI | OSS tracing + evaluation | Yes | Free (OSS); Arize Cloud paid | RAG debugging, LLM-as-judge, local dev | [🔗](https://github.com/Arize-ai/phoenix) |
+| Langfuse | Langfuse | Tracing + evaluation | Yes (MIT) | Free / self-host; cloud paid | Open-source, 19K+ GitHub stars, OpenTelemetry | [🔗](https://github.com/langfuse/langfuse) |
+| Ragas | Ragas | RAG evaluation framework | Yes | Free | RAG-specific metrics: faithfulness, recall, precision | [🔗](https://github.com/explodinggradients/ragas) |
+| DeepEval | Confident AI | LLM evaluation framework | Yes | Free (OSS); cloud paid | 14+ built-in metrics, pytest-style eval runner | [🔗](https://github.com/confident-ai/deepeval) |
+
+### MCP Ecosystem 🔌
+
+The [Model Context Protocol (MCP)](https://modelcontextprotocol.io) is an open standard by Anthropic for connecting LLMs to external tools and data sources via a unified JSON-RPC 2.0 interface. It supports STDIO and Streamable HTTP transports. The official MCP registry at [mcp.so](https://mcp.so) lists 2,000+ servers.
+
+**MCP Clients:** Claude Desktop, Claude Code, Cursor, Windsurf, VS Code (Copilot), Continue.dev, Zed, LibreChat, and more.
+
+#### Popular MCP Servers
+
+| Tool / Server | Developer | Category | Open Source | Best For | GitHub |
+|--------------|-----------|---------|-------------|----------|--------|
+| MCP Filesystem | Anthropic / Community | File I/O | Yes (MIT) | Read/write local files from any MCP client | [🔗](https://github.com/modelcontextprotocol/servers) |
+| MCP GitHub | GitHub / Anthropic | Code & DevOps | Yes | Repo management, issues, PRs, code search | [🔗](https://github.com/modelcontextprotocol/servers) |
+| MCP Slack | Community | Messaging | Yes | Slack workspace read/write interaction | [🔗](https://github.com/modelcontextprotocol/servers) |
+| MCP PostgreSQL | Community | Database | Yes | Read-only SQL queries against Postgres | [🔗](https://github.com/modelcontextprotocol/servers) |
+| MCP Google Drive | Community | Storage | Yes | Drive file access and search | [🔗](https://github.com/modelcontextprotocol/servers) |
+| MCP Docker | Community | DevOps | Yes | Container management and inspection | [🔗](https://github.com/modelcontextprotocol/servers) |
+| MCP Brave Search | Brave | Search | Yes | Web + local search via Brave API | [🔗](https://github.com/modelcontextprotocol/servers) |
+| MCP AWS | AWS Labs | Cloud | Yes (Apache 2.0) | AWS service integration | [🔗](https://github.com/aws/aws-mcp-servers) |
+| MCP Notion | Community | Productivity | Yes | Notion page and database access | [🔗](https://github.com/modelcontextprotocol/servers) |
+| FastMCP | Community | Framework | Yes | Python framework for building MCP servers fast | [🔗](https://github.com/jlowin/fastmcp) |
+| Context7 | Upstash | Dev Tools | Yes | Up-to-date library docs for AI coding assistants | [🔗](https://github.com/upstash/context7) |
+
+### Model Routers & Load Balancers 🔀
+
+Tools for routing LLM requests across multiple providers, models, and deployments — optimizing for cost, latency, quality, or reliability. *Prices as of April 2026.*
+
+| Tool | Developer | Key Features | Open Source | Pricing | GitHub |
+|------|-----------|-------------|-------------|---------|--------|
+| LiteLLM | BerriAI | 100+ provider support, proxy server, load balancing, fallbacks, spend tracking | Yes (MIT) | Free (OSS) / $99/mo cloud | [🔗](https://github.com/BerriAI/litellm) |
+| Portkey | Portkey | 250+ LLMs, AI gateway, guardrails, observability, virtual keys | Yes (Apache 2.0) | Free tier / $49/mo+ | [🔗](https://github.com/Portkey-AI/gateway) |
+| OpenRouter | OpenRouter | 200+ model catalog, unified API, pay-per-use credit system | No | ~5% markup on provider cost | — |
+| RouteLLM | LMSys | Open-source router (strong vs. weak model) using classifier or matrix factorization | Yes | Free | [🔗](https://github.com/lm-sys/RouteLLM) |
+| Not Diamond | Not Diamond | Pre-trained + custom task-specific routers, cost/quality tradeoff | No | Free tier + enterprise | — |
+| Unify AI | Unify | Quality / cost / latency-aware routing across 100+ model deployments | No | Usage-based | — |
+| Semantic Router | Aurelio AI | Embedding-based semantic intent routing for agents and pipelines | Yes | Free | [🔗](https://github.com/aurelio-labs/semantic-router) |
+
+### Small Language Models (SLMs) 📱
+
+Compact models designed for on-device inference, edge deployment, low-latency APIs, and resource-constrained environments. Generally defined as models under ~15B parameters. *Specs as of April 2026.*
+
+| Model | Developer | Params | Context | License | Best For |
+|-------|-----------|--------|---------|---------|----------|
+| Phi-4 | Microsoft | 14B | 16K | MIT | Reasoning, math, code — STEM benchmark leader at class size |
+| Phi-4-mini | Microsoft | 3.8B | 128K | MIT | On-device STEM reasoning with long context |
+| Phi-4-multimodal | Microsoft | 5.6B | 128K | MIT | Vision + audio + text multimodal, edge deployment |
+| Gemma 3 27B | Google | 27B | 128K | Apache 2.0 | Top open model, multilingual (140+ languages) |
+| Gemma 3 4B | Google | 4B | 128K | Apache 2.0 | CPU inference, 140+ languages, mobile-friendly |
+| Gemma 3 1B | Google | 1B | 32K | Apache 2.0 | On-device, embedded, ultra-lightweight |
+| SmolLM3 | Hugging Face | 3B | 128K | Apache 2.0 | Efficient, tool use, multilingual, reasoning |
+| Qwen2.5 3B | Alibaba | 3B | 128K | Apache 2.0 | Asian and multilingual tasks, coding |
+| Qwen2.5 7B | Alibaba | 7B | 128K | Apache 2.0 | Strong multilingual baseline, function calling |
+| Llama 3.2 3B | Meta | 3B | 128K | Llama 3.2 license | General-purpose, on-device, Meta ecosystem |
+| Llama 3.2 1B | Meta | 1B | 128K | Llama 3.2 license | Lightweight edge inference, distillation target |
+| Granite 3.3 8B | IBM | 8B | 128K | Apache 2.0 | Enterprise tasks, tool use, business-domain |
+| MiniCPM 3.0 | ModelBest / Tsinghua | 4B | 32K | Apache 2.0 | Compact yet capable, mobile and edge |
+| Danube 3 500M | H2O.ai | 500M | 8K | Apache 2.0 | Ultra-lightweight on-device, IoT |
+
+**Notable GitHub repos:**
+- SmolLM / SmolLM2: [🔗](https://github.com/huggingface/smollm)
+- Granite 3.x: [🔗](https://github.com/ibm-granite/granite-3.0-language-models)
+- MiniCPM: [🔗](https://github.com/OpenBMB/MiniCPM)
+- Danube 3: [🔗](https://github.com/h2oai/h2o-danube3)
+
+
+---
+
 ## Guides 📚
 
 Tutorials, how-tos, and in-depth guides for getting the most out of AI models and tools.
@@ -921,15 +1213,15 @@ Side-by-side comparisons of AI models sorted by various criteria.
 
 | 🏢 Company | 🤖 Model | 📦 Version | 📅 Release Date | 🔄 Latest Updated | 💻 Coding | 📊 Benchmarks | 💰 Price | 🖥️ Self-Host | 🔗 Official Site |
 |:---:|---|---|---|---|:---:|---|---|:---:|:---:|
-| 🤖 OpenAI | GPT-5 | 5.4 mini | 2026-03-17 00:00 UTC | 2026-03-17 00:00 UTC ⭐ | ✅ | N/A | $0.75 / $4.50 | ❌ | [🔗](https://openai.com/news/?display=list) |
-| 🤖 OpenAI | GPT-5 | 5.4 | 2026-03-05 00:00 UTC | 2026-03-05 00:00 UTC ⭐ | ✅ | N/A | $2.50 / $15.00 | ❌ | [🔗](https://openai.com/research/index/release/) |
-| 🌐 Google DeepMind | Gemini 3.1 | Flash-Lite | 2026-03-03 00:00 UTC | 2026-03-03 00:00 UTC ⭐ | ✅ | N/A | $0.25 / $1.50 | ❌ | [🔗](https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/) |
-| 🔬 DeepSeek | DeepSeek | V4 | 2026-02-17 00:00 UTC | 2026-02-17 00:00 UTC | ✅ | N/A | Pay-per-token | ✅ | [🔗](https://www.deepseek.com/) |
-| 🌐 Google DeepMind | Gemini 3 | Deep Think | 2026-02-12 00:00 UTC | 2026-02-12 00:00 UTC ⭐ | ✅ | 84.6% ARC-AGI-2 | Ultra subscription | ❌ | [🔗](https://deepmind.google/technologies/gemini/) |
-| 🇨🇳 Zhipu AI | GLM | 5 | 2026-02-12 00:00 UTC | 2026-02-12 00:00 UTC ⭐ | ✅ | SWE-bench 77.8 | $1.00 / $3.20 | ✅ | [🔗](https://docs.z.ai/release-notes/new-released) |
-| 🤖 Anthropic | Claude | Opus 4.6 | 2026-02-05 00:00 UTC | 2026-02-05 00:00 UTC ⭐ | ✅ | SWE-bench SOTA | $5 / $25 | ❌ | [🔗](https://www.anthropic.com/) |
-| 🤖 OpenAI | GPT-5 | 5.3-Codex | 2026-02-05 00:00 UTC | 2026-02-05 00:00 UTC ⭐ | ✅ | Agentic leader | TBD | ❌ | [🔗](https://openai.com/) |
-| 🌙 Moonshot AI | Kimi | K2.5 | 2026-01-29 00:00 UTC | 2026-02-02 00:00 UTC ⭐ | ✅ | N/A | $0.60 / $3.00 | ❌ | [🔗](https://platform.moonshot.ai/docs/pricing/chat) |
+| 🤖 OpenAI | GPT-5 | 5.4 mini | 2026-03-17 00:00 UTC | 2026-03-17 00:00 UTC ⭐ | ✅ | GPQA 87.5% | $0.75 / $4.50 | ❌ | [🔗](https://openai.com/news/?display=list) |
+| 🤖 OpenAI | GPT-5 | 5.4 | 2026-03-05 00:00 UTC | 2026-03-05 00:00 UTC ⭐ | ✅ | GPQA 92.0%, SWE-bench ~80% | $2.50 / $15.00 | ❌ | [🔗](https://openai.com/research/index/release/) |
+| 🌐 Google DeepMind | Gemini 3.1 | Flash-Lite | 2026-03-03 00:00 UTC | 2026-03-03 00:00 UTC ⭐ | ✅ | — | $0.25 / $1.50 | ❌ | [🔗](https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/) |
+| 🔬 DeepSeek | DeepSeek | V4 | 2026-02-17 00:00 UTC | 2026-02-17 00:00 UTC | ✅ | No public benchmarks | Pay-per-token | ✅ | [🔗](https://www.deepseek.com/) |
+| 🌐 Google DeepMind | Gemini 3 | Deep Think | 2026-02-12 00:00 UTC | 2026-02-12 00:00 UTC ⭐ | ✅ | GPQA ~97%, ARC-AGI-2 84.6%, HLE 48.4% | Ultra subscription | ❌ | [🔗](https://deepmind.google/technologies/gemini/) |
+| 🇨🇳 Zhipu AI | GLM | 5 | 2026-02-12 00:00 UTC | 2026-02-12 00:00 UTC ⭐ | ✅ | GPQA 82.0%, SWE-bench 77.8% | $1.00 / $3.20 | ✅ | [🔗](https://docs.z.ai/release-notes/new-released) |
+| 🤖 Anthropic | Claude | Opus 4.6 | 2026-02-05 00:00 UTC | 2026-02-05 00:00 UTC ⭐ | ✅ | GPQA 91.3%, SWE-bench 80.8% | $5 / $25 | ❌ | [🔗](https://www.anthropic.com/) |
+| 🤖 OpenAI | GPT-5 | 5.3-Codex | 2026-02-05 00:00 UTC | 2026-02-05 00:00 UTC ⭐ | ✅ | GPQA 91.5%, SWE-bench Pro 56.8% | TBD | ❌ | [🔗](https://openai.com/) |
+| 🌙 Moonshot AI | Kimi | K2.5 | 2026-01-29 00:00 UTC | 2026-02-02 00:00 UTC ⭐ | ✅ | GPQA 87.6%, SWE-bench 76.8% | $0.60 / $3.00 | ❌ | [🔗](https://platform.moonshot.ai/docs/pricing/chat) |
 
 #### Release Windows (Month-level)
 
@@ -1021,11 +1313,19 @@ Attribution, verification sources, and methodology.
 
 | Benchmark | Source | Description |
 |-----------|--------|-------------|
+| **GPQA Diamond** | Google Research | Graduate-level science questions (PhD difficulty) |
+| **MMLU-Pro** | TIGER-Lab | Extended multi-task language understanding |
+| **Arena Elo** | [lmarena.ai](https://lmarena.ai) | Crowdsourced human preference ranking |
+| **HLE** | [Scale AI](https://lastexam.ai) | Humanity's Last Exam — expert-level questions |
+| **SWE-bench Verified** | [Princeton](https://www.swebench.com) | Real GitHub issue resolution (human-verified) |
+| **SWE-bench Pro** | [Princeton](https://www.swebench.com) | More challenging subset of SWE-bench |
+| **LiveCodeBench** | [LiveCodeBench](https://livecodebench.github.io) | Live competitive programming problems |
+| **AIME 2025** | MAA | American Invitational Mathematics Examination |
+| **ARC-AGI-2** | [ARC Prize](https://arcprize.org) | Abstract reasoning challenge (fluid intelligence) |
+| **MMMU / MMMU-Pro** | [MMMU](https://mmmu-benchmark.github.io) | Multi-discipline multimodal understanding |
+| **IFEval** | Google Research | Instruction-following evaluation |
+| **FrontierMath** | [Epoch AI](https://epoch.ai/frontiermath/tiers-1-4/about) | Expert-level research mathematics |
 | **HumanEval** | OpenAI | 164 Python programming problems |
-| **SWE-bench** | Princeton | Real GitHub issue resolution |
-| **MMLU** | UC Berkeley | 57 subjects, multi-task |
-| **AIME** | MAA | American Invitational Math Exam |
-| **ARC-AGI** | ARC Prize | Abstract reasoning challenge |
 
 #### Verification Methodology
 
@@ -1042,7 +1342,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 ---
 
-**Last Updated:** 2026-04-01 20:24 UTC
+**Last Updated:** 2026-04-02 04:50 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
