@@ -113,29 +113,33 @@ Comprehensive documentation of Large Language Models (LLMs), Small Language Mode
 
 State-of-the-art proprietary AI models with cutting-edge capabilities from leading AI labs.
 
-| Model | Company | Context | Key Features | Pricing |
-|-------|---------|---------|--------------|---------|
-| **Claude Opus 4.6** | Anthropic | 1M | Agent teams, enhanced coding/reasoning | $5 / $25 |
-| **Claude Sonnet 4.6** | Anthropic | 1M | Near-Opus performance, Sonnet price | $3 / $15 |
-| **GPT-5.3-Codex** | OpenAI | 400K | Agentic coding, 128K output | TBD |
-| **Gemini 3.1 Pro** | Google | 1M | 77.1% ARC-AGI-2, 2x reasoning boost | $2 / $12 |
-| **Gemini 3 Deep Think** | Google | 1M+ | 84.6% ARC-AGI-2, science/research | Ultra subscription |
-| **GLM-5** | Zhipu AI | 200K | Agentic engineering, long-horizon tasks | $1.00 / $3.20 |
-| **MiniMax-M2.5** | MiniMax | 200K | Coding/refactoring, tool calling, long context | $0.30 / $1.20 |
-| **Kimi K2.5** | Moonshot AI | 256K | Native multimodal, thinking & agent tasks | $0.60 / $3.00 |
-| **DeepSeek-V4** | DeepSeek | 1M+ | Engram memory, coding focus | Pay-per-token |
-| **Qwen3.5-Max** | Alibaba | 128K | Hybrid attention, native VLM | Pay-per-token |
-| **Gemini 3 Pro** | Google | 1M+ | PhD-level reasoning, agentic tool-use | Tiered pricing |
-| **Gemini 3 Flash** | Google | 10M | Pro-grade reasoning, Flash speed | $0.30 / $2.50 |
-| **Gemini 3.1 Flash-Lite** | Google | 1M | Fast, cost-efficient multimodal model for high-volume tasks | $0.25 / $1.50 |
-| **GPT-5.4** | OpenAI | 1M | State-of-the-art coding, computer use, tool search | $2.50 / $15.00 |
-| **GPT-5.4 mini** | OpenAI | 400K | Fast GPT-5.4 variant for coding and multimodal tasks | $0.75 / $4.50 |
-| **Mistral Large 3** | Mistral AI | 128K | 675B params, MoE, Open-weight | Varies |
-| **Claude Sonnet 4.5** | Anthropic | 200K | SWE-bench leader, best coding | $3 / $15 |
-| **Llama 4 Scout** | Meta | 10M | Open-weight context king | Free (self-host) |
-| **Llama 4 Maverick** | Meta | 128K | 400B params, multimodal | Free (self-host) |
-| **Grok 4** | xAI | 128K | First-principles reasoning | $3 / $15 |
-| **Grok 4 Fast** | xAI | 128K | Cost-efficient variant | $0.20 / $1.50 |
+| Model | Company | Context | Key Features | Pricing | Verified |
+|-------|---------|---------|--------------|---------|---------|
+| **Claude Opus 4.6** | Anthropic | 1M | Agent teams, enhanced coding/reasoning | $5 / $25 | 2026-04-02 |
+| **Claude Sonnet 4.6** | Anthropic | 1M | Near-Opus performance, Sonnet price | $3 / $15 | 2026-04-02 |
+| **GPT-5.3-Codex** | OpenAI | 400K | Agentic coding, 128K output | TBD | 2026-04-02 |
+| **Gemini 3.1 Pro** | Google | 1M | 77.1% ARC-AGI-2, 2x reasoning boost | $2 / $12 | 2026-04-02 |
+| **Gemini 3 Deep Think** | Google | 1M+ | 84.6% ARC-AGI-2, science/research | Ultra subscription | 2026-04-02 |
+| **GLM-5** | Zhipu AI | 200K | Agentic engineering, long-horizon tasks | $1.00 / $3.20 | 2026-04-02 |
+| **GLM-5.1** | Zhipu AI | 200K | 94.6% of Opus 4.6 coding, 28% gain over GLM-5, MIT open-weight | $1.00 / $3.20 | 2026-04-02 |
+| **MiniMax-M2.5** | MiniMax | 200K | Coding/refactoring, tool calling, long context | $0.30 / $1.20 | 2026-04-02 |
+| **Kimi K2.5** | Moonshot AI | 256K | Native multimodal, thinking & agent tasks | $0.60 / $3.00 | 2026-04-02 |
+| **DeepSeek-V4** | DeepSeek | 1M+ | Engram memory, coding focus | $0.30 / $0.50 | 2026-04-02 |
+| **DeepSeek-V3.2** | DeepSeek | 164K | Budget workhorse, strong coding (LiveCodeBench 89.6%) | $0.28 / $0.42 | 2026-04-02 |
+| **Qwen3.5-Max** | Alibaba | 128K | Hybrid attention, native VLM | Pay-per-token | 2026-04-02 |
+| **Gemini 3 Pro** | Google | 1M+ | PhD-level reasoning, agentic tool-use | Tiered pricing | 2026-04-02 |
+| **Gemini 3 Flash** | Google | 10M | Pro-grade reasoning, Flash speed | $0.30 / $2.50 | 2026-04-02 |
+| **Gemini 3.1 Flash-Lite** | Google | 1M | Fast, cost-efficient multimodal model for high-volume tasks | $0.25 / $1.50 | 2026-04-02 |
+| **GPT-5.4** | OpenAI | 1M | State-of-the-art coding, computer use, tool search | $2.50 / $15.00 | 2026-04-02 |
+| **GPT-5.4 mini** | OpenAI | 400K | Fast GPT-5.4 variant for coding and multimodal tasks | $0.75 / $4.50 | 2026-04-02 |
+| **GPT-5.4 nano** | OpenAI | 400K | Cheapest GPT-5.4, classification, data extraction, sub-agents | $0.20 / $1.25 | 2026-04-02 |
+| **Step-3.5-Flash** | StepFun | 256K | 196B MoE (11B active), 97.3% AIME, 74.4% SWE-bench, 100-350 tok/s | Pay-per-token | 2026-04-02 |
+| **Mistral Large 3** | Mistral AI | 128K | 675B params, MoE, Open-weight | Varies | 2026-04-02 |
+| **Claude Sonnet 4.5** | Anthropic | 200K | SWE-bench leader, best coding | $3 / $15 | 2026-04-02 |
+| **Llama 4 Scout** | Meta | 10M | Open-weight context king | Free (self-host) | 2026-04-02 |
+| **Llama 4 Maverick** | Meta | 128K | 400B params, multimodal | Free (self-host) | 2026-04-02 |
+| **Grok 4** | xAI | 128K | First-principles reasoning | $3 / $15 | 2026-04-02 |
+| **Grok 4 Fast** | xAI | 128K | Cost-efficient variant | $0.20 / $1.50 | 2026-04-02 |
 
 #### Top Models by Category
 
@@ -166,6 +170,8 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **Phi-4** | Microsoft | 14B | 128K | MIT |
 | **Granite 4.0** | IBM | 8B-3B | 128K | Apache 2.0 |
 | **DeepSeek-Coder-V2** | DeepSeek | 236B | 128K | MIT |
+| **GLM-5.1** | Zhipu AI | 744B (40B active MoE) | 200K | MIT |
+| **Step-3.5-Flash** | StepFun | 196B (11B active MoE) | 256K | Open Weight |
 | **Yi-Coder** | 01.AI | 9B/1.5B | 128K | Apache 2.0 |
 
 #### Deployment Options
