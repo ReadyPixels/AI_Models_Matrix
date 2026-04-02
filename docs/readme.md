@@ -86,7 +86,7 @@ Repository: https://github.com/ReadyPixels/AI_Models_Matrix
     - [Self-Hosting Guide 🖥️](#self-hosting-guide-️)
       - [Benefits](#benefits)
       - [Quick Start with Ollama](#quick-start-with-ollama)
-      - [Local GPU Quick Guide (NVIDIA RTX 5090 / Laptop 64 GB RAM)](#local-gpu-quick-guide-nvidia-rtx-5090--laptop-64-gb-ram)
+      - [Local GPU Quick Guide](#local-gpu-quick-guide)
       - [Deployment Options](#deployment-options-1)
     - [Cost Analysis 💰](#cost-analysis-)
       - [Pricing Tiers](#pricing-tiers)
@@ -1209,7 +1209,7 @@ A comprehensive guide to running AI models on your own hardware.
 
 For installation and usage instructions, refer to the [official Ollama documentation](https://ollama.com).
 
-#### Local GPU Quick Guide (NVIDIA RTX 5090 / Laptop 64 GB RAM)
+#### Local GPU Quick Guide
 
 **Recommended apps (local-first):**
 - [Ollama](https://ollama.com) - Simple local runtime with a local HTTP API
@@ -1221,18 +1221,20 @@ For installation and usage instructions, refer to the [official Ollama documenta
 - [vLLM](https://github.com/vllm-project/vllm) - High-throughput serving for NVIDIA GPUs
 - [SGLang](https://github.com/sgl-project/sglang) - Structured generation and serving workflows
 
-**Practical setup (works for both desktop and laptop):**
+**Practical setup tips:**
 1. Install the latest NVIDIA drivers (enable GPU acceleration in your chosen app)
 2. Start with smaller quantized models (Q4 is a common “best default”)
 3. Keep context windows realistic for local hardware (lower context = faster, less memory)
 4. Watch VRAM first, then system RAM; reduce model size or quantization if either saturates
 5. Prefer running locally on `localhost` and only expose to LAN if you understand firewall rules
 
-**What fits on your hardware (quick rules):**
+**Example hardware configurations:**
 | Hardware | Good starting point | Notes |
 |----------|---------------------|------|
-| **RTX 5090 desktop GPU** | 14B–70B quantized | Best experience for coding agents and longer contexts |
-| **Laptop, 64 GB RAM** | 7B–14B quantized | Great for offline chat/coding; keep context moderate |
+| **Consumer GPU (24 GB VRAM)** | 7B–14B quantized | e.g., RTX 4090, RTX 3090 — great for chat/coding |
+| **Pro GPU (48–80 GB VRAM)** | 14B–70B quantized | e.g., A6000, A100 — coding agents, longer contexts |
+| **Multi-GPU (160+ GB VRAM)** | 70B+ quantized | e.g., 2×A100 — larger open-source models |
+| **CPU-only (32–64 GB RAM)** | 7B–14B quantized | Slower but viable for offline chat; keep context moderate |
 
 #### Deployment Options
 
