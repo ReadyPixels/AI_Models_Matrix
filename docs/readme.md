@@ -8,7 +8,6 @@
 
 Document Version: 1.7
 Last Updated: 2026-04-01 20:24 UTC
-Verification Scope: README sections reviewed against docs/UPDATE_RULES.md and expanded with official model, software, and browser automation sources
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
 
 ## Table of Contents

@@ -1,0 +1,59 @@
+name: "New Model / Tool Request"
+description: "Suggest a new AI model, tool, or service to add to the matrix."
+title: "[New]: "
+labels: ["new-entry"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Official product name.
+      placeholder: e.g. Claude Opus 4.6
+    validations:
+      required: true
+  - type: input
+    id: developer
+    attributes:
+      label: Developer / Company
+      placeholder: e.g. Anthropic
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Frontier Model
+        - Open-Source Model
+        - Coding Model
+        - Reasoning Model
+        - Multimodal Model
+        - IDE / Editor
+        - CLI Tool
+        - IDE Add-on
+        - API Provider
+        - Browser Automation
+        - Agent Platform
+        - Desktop Automation
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official Source URL
+      description: Link to the official documentation, announcement, or pricing page.
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Key features, pricing, context window, benchmarks, or other relevant info.
+      placeholder: |
+        - Pricing: $X / $Y per 1M tokens
+        - Context: 128K
+        - Key features: ...
+    validations:
+      required: false

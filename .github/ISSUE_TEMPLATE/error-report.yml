@@ -1,0 +1,40 @@
+name: "Error Report"
+description: "Report incorrect data, broken links, or formatting issues."
+title: "[Error]: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Error Type
+      options:
+        - Incorrect data (wrong price, score, date, etc.)
+        - Broken or dead link
+        - Formatting / display issue
+        - Duplicate entry
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      description: Which section of the README contains the error.
+      placeholder: e.g. Frontier Models table
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the error and what the correct information should be.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL (if applicable)
+      description: Link confirming the correct information.
+      placeholder: https://
+    validations:
+      required: false

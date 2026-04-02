@@ -1,0 +1,35 @@
+name: "Update Request"
+description: "Request an update to an existing entry (pricing change, new version, etc.)."
+title: "[Update]: "
+labels: ["update"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry to Update
+      description: Name of the model or tool that needs updating.
+      placeholder: e.g. GPT-5.4
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current Information
+      description: What the entry currently says.
+    validations:
+      required: true
+  - type: textarea
+    id: updated
+    attributes:
+      label: Correct / Updated Information
+      description: What it should say instead.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: Official link confirming the update.
+      placeholder: https://
+    validations:
+      required: true
