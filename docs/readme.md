@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/logo.png" alt="AI Models Matrix Logo" width="200">
+</p>
+
 # Awesome AI Models Matrix 🧠
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -10,128 +14,47 @@ Document Version: 2.1
 Last Updated: 2026-04-02 04:58 UTC
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
 
-## Table of Contents
+## Contents
 
-- [Awesome AI Models Matrix 🧠](#awesome-ai-models-matrix-)
-  - [Table of Contents](#table-of-contents)
-  - [Models 🧠](#models-)
-    - [Frontier Models 🚀](#frontier-models-)
-      - [Top Models by Category](#top-models-by-category)
-    - [Model Specifications 📋](#model-specifications-)
-      - [Output Token Limits](#output-token-limits)
-      - [Cached & Batch Pricing](#cached--batch-pricing)
-      - [Speed & Latency](#speed--latency)
-      - [Training Data Cutoffs](#training-data-cutoffs)
-      - [Multilingual Support](#multilingual-support)
-      - [Structured Output & Function Calling](#structured-output--function-calling)
-      - [Regional Availability](#regional-availability)
-    - [Open-Source Models 🆓](#open-source-models-)
-      - [Deployment Options](#deployment-options)
-    - [Coding Models 💻](#coding-models-)
-      - [SWE-bench Verified Leaderboard](#swe-bench-verified-leaderboard)
-      - [Commercial Coding Models](#commercial-coding-models)
-      - [Open-Source Coding Models](#open-source-coding-models)
-    - [Reasoning Models 🧠](#reasoning-models-)
-      - [AIME 2025 Leaderboard](#aime-2025-leaderboard)
-      - [Reasoning Model Details](#reasoning-model-details)
-      - [Use Cases](#use-cases)
-    - [Multimodal Models 🎨](#multimodal-models-)
-      - [Leading Multimodal Models](#leading-multimodal-models)
-      - [Vision Capabilities](#vision-capabilities)
-      - [Audio \& Video](#audio--video)
-      - [Image Generation](#image-generation)
-    - [Hardware Requirements 🖥️](#hardware-requirements-️)
-      - [Quick Reference by Model Size](#quick-reference-by-model-size)
-      - [By Hardware Tier](#by-hardware-tier)
-      - [Quantization Explained](#quantization-explained)
-  - [Development Tools 🛠️](#development-tools-️)
-    - [IDEs 💻](#ides-)
-      - [Agentic IDEs](#agentic-ides)
-      - [Native AI Editors](#native-ai-editors)
-      - [VS Code Forks](#vs-code-forks)
-      - [Web-Based IDEs](#web-based-ides)
-    - [CLI Tools 🖥️](#cli-tools-️)
-      - [Autonomous Coding Agents](#autonomous-coding-agents)
-      - [Assisted CLI Tools](#assisted-cli-tools)
-      - [Terminal Enhancers](#terminal-enhancers)
-    - [IDE Add-ons 🧩](#ide-add-ons-)
-      - [Universal (Cross-Platform)](#universal-cross-platform)
-      - [VS Code Specific](#vs-code-specific)
-      - [JetBrains Specific](#jetbrains-specific)
-    - [API Providers 🔌](#api-providers-)
-      - [Model Labs (Direct)](#model-labs-direct)
-      - [Unified APIs \& Aggregators](#unified-apis--aggregators)
-      - [Inference Clouds](#inference-clouds)
-      - [GPU Clouds](#gpu-clouds)
-  - [Automation 🤖](#automation-)
-    - [Browser Automation 🌐](#browser-automation-)
-      - [Standalone AI Browsers](#standalone-ai-browsers)
-      - [Browser Extensions](#browser-extensions)
-      - [Developer Libraries](#developer-libraries)
-      - [Cloud Automation](#cloud-automation)
-    - [Agent Platforms 🧩](#agent-platforms-)
-      - [Cloud Agent Services](#cloud-agent-services)
-    - [Desktop Automation 🖥️](#desktop-automation-️)
-      - [AI Agents (Computer Use)](#ai-agents-computer-use)
-      - [RPA \& Visual Frameworks](#rpa--visual-frameworks)
-      - [Scripting Libraries](#scripting-libraries)
-  - [Guides 📚](#guides-)
-    - [Getting Started 🚀](#getting-started-)
-      - [Understanding LLMs](#understanding-llms)
-      - [Accessing AI Models](#accessing-ai-models)
-      - [Model Recommendations by Task](#model-recommendations-by-task)
-    - [Model Selection Guide 🎯](#model-selection-guide-)
-      - [Quick Decision Tree](#quick-decision-tree)
-      - [By Budget](#by-budget)
-    - [Self-Hosting Guide 🖥️](#self-hosting-guide-️)
-      - [Benefits](#benefits)
-      - [Quick Start with Ollama](#quick-start-with-ollama)
-      - [Local GPU Quick Guide](#local-gpu-quick-guide)
-      - [Deployment Options](#deployment-options-1)
-    - [Cost Analysis 💰](#cost-analysis-)
-      - [Pricing Tiers](#pricing-tiers)
-      - [Subscription Pricing (Monthly, USD)](#subscription-pricing-monthly-usd)
-      - [Model Pricing Comparison](#model-pricing-comparison)
-      - [Self-Hosting vs API (Monthly)](#self-hosting-vs-api-monthly)
-    - [Comprehensive Benchmark Reference 📈](#comprehensive-benchmark-reference-)
-      - [Full Benchmark Table](#full-benchmark-table)
-      - [FrontierMath Scores](#frontiermath-scores)
-      - [Benchmark Glossary](#benchmark-glossary)
-  - [AI Infrastructure 🏗️](#ai-infrastructure-️)
-    - [Embedding & Reranking Models 🧲](#embedding--reranking-models-)
-      - [Embedding Models](#embedding-models)
-      - [Reranking Models](#reranking-models)
-    - [Video Generation Models 🎬](#video-generation-models-)
-    - [Speech & TTS Models 🔊](#speech--tts-models-)
-      - [Text-to-Speech (TTS)](#text-to-speech-tts)
-      - [Speech-to-Text (STT / ASR)](#speech-to-text-stt--asr)
-    - [AI Safety & Guardrails 🛡️](#ai-safety--guardrails-️)
-    - [RAG Frameworks 🗂️](#rag-frameworks-️)
-    - [Fine-tuning Platforms ⚙️](#fine-tuning-platforms-️)
-    - [Evaluation & Observability 📊](#evaluation--observability-)
-    - [MCP Ecosystem 🔌](#mcp-ecosystem-)
-      - [Popular MCP Servers](#popular-mcp-servers)
-    - [Model Routers & Load Balancers 🔀](#model-routers--load-balancers-)
-    - [Small Language Models (SLMs) 📱](#small-language-models-slms-)
-  - [Reference 📖](#reference-)
-    - [Glossary 📖](#glossary-)
-      - [A-E](#a-e)
-      - [F-L](#f-l)
-      - [M-R](#m-r)
-      - [S-Z](#s-z)
-    - [Comparison Tables 📊](#comparison-tables-)
-      - [Sort by Latest Update (Default)](#sort-by-latest-update-default)
-      - [Release Windows (Month-level)](#release-windows-month-level)
-      - [Sort by Price (Cheapest)](#sort-by-price-cheapest)
-      - [Sort by Performance (Coding)](#sort-by-performance-coding)
-      - [Sort by Context Window](#sort-by-context-window)
-    - [Data Sources 📚](#data-sources-)
-      - [Primary Sources](#primary-sources)
-      - [Benchmark Sources](#benchmark-sources)
-      - [Verification Methodology](#verification-methodology)
-  - [License](#license)
-
----
+- [Models 🧠](#models-)
+  - [Frontier Models 🚀](#frontier-models-)
+  - [Model Specifications 📋](#model-specifications-)
+  - [Open-Source Models 🆓](#open-source-models-)
+  - [Coding Models 💻](#coding-models-)
+  - [Reasoning Models 🧠](#reasoning-models-)
+  - [Multimodal Models 🎨](#multimodal-models-)
+  - [Hardware Requirements 🖥️](#hardware-requirements-️)
+- [Development Tools 🛠️](#development-tools-️)
+  - [IDEs 💻](#ides-)
+  - [CLI Tools 🖥️](#cli-tools-️)
+  - [IDE Add-ons 🧩](#ide-add-ons-)
+  - [API Providers 🔌](#api-providers-)
+- [Automation 🤖](#automation-)
+  - [Browser Automation 🌐](#browser-automation-)
+  - [Agent Platforms 🧩](#agent-platforms-)
+  - [Desktop Automation 🖥️](#desktop-automation-️)
+- [Guides 📚](#guides-)
+  - [Getting Started 🚀](#getting-started-)
+  - [Model Selection Guide 🎯](#model-selection-guide-)
+  - [Self-Hosting Guide 🖥️](#self-hosting-guide-️)
+  - [Cost Analysis 💰](#cost-analysis-)
+  - [Comprehensive Benchmark Reference 📈](#comprehensive-benchmark-reference-)
+- [AI Infrastructure 🏗️](#ai-infrastructure-️)
+  - [Embedding & Reranking Models 🧲](#embedding--reranking-models-)
+  - [Video Generation Models 🎬](#video-generation-models-)
+  - [Speech & TTS Models 🔊](#speech--tts-models-)
+  - [AI Safety & Guardrails 🛡️](#ai-safety--guardrails-️)
+  - [RAG Frameworks 🗂️](#rag-frameworks-️)
+  - [Fine-tuning Platforms ⚙️](#fine-tuning-platforms-️)
+  - [Evaluation & Observability 📊](#evaluation--observability-)
+  - [MCP Ecosystem 🔌](#mcp-ecosystem-)
+  - [Model Routers & Load Balancers 🔀](#model-routers--load-balancers-)
+  - [Small Language Models (SLMs) 📱](#small-language-models-slms-)
+- [Reference 📖](#reference-)
+  - [Glossary 📖](#glossary-)
+  - [Comparison Tables 📊](#comparison-tables-)
+  - [Data Sources 📚](#data-sources-)
+- [License](#license)
 
 ## Models 🧠
 
@@ -1306,7 +1229,6 @@ Comprehensive pricing comparisons and cost calculations.
 | **Claude Sonnet 4.6** | $3.00 | $15.00 | $0.30 (hit) | Near-Opus performance |
 | **Claude Opus 4.6** | $5.00 | $25.00 | $0.50 (hit) | Agentic coding |
 
-**Note:** Some search-grounded models charge both token rates and per-request search/context fees. See Perplexity’s official pricing for details: https://docs.perplexity.ai/docs/getting-started/pricing
 
 #### Self-Hosting vs API (Monthly)
 
@@ -1464,7 +1386,7 @@ Attribution, verification sources, and methodology.
 | **Moonshot AI** | Models & Pricing | [platform.moonshot.ai](https://platform.moonshot.ai/docs/pricing/chat) |
 | **Cohere** | Developer Documentation | [docs.cohere.com](https://docs.cohere.com) |
 | **AI21 Labs** | Developer Documentation | [docs.ai21.com](https://docs.ai21.com/docs/jamba-foundation-models) |
-| **Perplexity** | Developer Documentation | [docs.perplexity.ai](https://docs.perplexity.ai/docs/getting-started/pricing) |
+| **Perplexity** | Developer Documentation | [docs.perplexity.ai](https://docs.perplexity.ai) |
 | **ByteDance (Volcengine)** | Developer Documentation | [volcengine.com](https://www.volcengine.com/docs/82379/1263482) |
 | **Tencent (Hunyuan)** | Cloud Documentation | [cloud.tencent.com](https://cloud.tencent.com/document/product/1729/97730) |
 | **Baidu (ERNIE)** | AI Studio Documentation | [ai.baidu.com](https://ai.baidu.com/ai-doc/AISTUDIO/Mmhslv9lf) |
@@ -1496,11 +1418,6 @@ Attribution, verification sources, and methodology.
 3. **Timestamp Verification** - All data includes verification date
 4. **Update Tracking** - Monitor official channels
 
----
-
-## License
-
-This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
