@@ -747,14 +747,11 @@ Platforms and runtimes for running or connecting AI agents.
 | **Lindy** | AI agent builder | Freemium (Free + Pro $49/mo) | ❌ | No-code AI agents for business tasks | [🔗](https://www.lindy.ai/) |
 | **Relevance AI** | Agent platform | Freemium (Free + Paid plans) | ❌ | Build and deploy AI agents, no-code | [🔗](https://relevanceai.com/) |
 | **Moltbook** | Agent social network | Free | ❌ | Discovering and pairing with AI agents | [🔗](https://www.moltbook.com/) |
-| **ZeroClaw** | Privacy-first agent framework | Free (OSS) | ✅ | Zero-knowledge, on-prem AI with no external API calls | ❌ |
-| **NullClaw** | Sandboxed agent framework | Free (OSS) | ✅ | Docker-isolated agent tasks for safety testing | ❌ |
-| **Moltis** | Rust-based agent engine | Free (OSS) | ✅ | High-throughput pipelines, real-time data processing | ❌ |
-| **Manus** | Scientific research agent | Free (OSS) | ✅ | Jupyter integration, multi-modal inputs for academic research | ❌ |
-| **Hermes Agent** | Monitored agent framework | Free (OSS) | ✅ | Advanced memory management, UI dashboard for agent monitoring | ❌ |
-| **Pico Claw** | Ultra-lightweight agent | Free (OSS) | ✅ | Embedded/IoT deployments, single-binary under 10 MB | ❌ |
-| **Clam** | Compliance-focused agent | Free (OSS) | ✅ | Regulated industries, detailed audit logs of agent decisions | ❌ |
-| **Taskllet** | No-code agent builder | Free (OSS) | ✅ | Drag-and-drop workflow builder for non-developers | ❌ |
+| **ZeroClaw** | Privacy-first agent runtime (Rust) | Free (OSS) | ✅ | Deploy anywhere, swap any LLM, zero external API calls | [🔗](https://github.com/zeroclaw-labs/zeroclaw) |
+| **NullClaw** | Sandboxed agent runtime (Zig) | Free (OSS) | ✅ | Ultra-fast, minimal footprint, sandboxed agent tasks | [🔗](https://github.com/nullclaw/nullclaw) |
+| **Moltis** | Rust-native single-binary agent | Free (OSS) | ✅ | Sandboxed, auditable, voice + memory + MCP tools built-in | [🔗](https://github.com/moltis-org/moltis) |
+| **Hermes Agent** | Adaptive agent framework (Nous Research) | Free (OSS) | ✅ | Memory management, skills, UI dashboard, grows with you | [🔗](https://github.com/NousResearch/hermes-agent) |
+| **PicoClaw** | Ultra-lightweight agent (Go) | Free (OSS) | ✅ | Tiny, fast, embedded/IoT deployments, single-binary | [🔗](https://github.com/sipeed/picoclaw) |
 | **AutoGPT** | Autonomous agent | Free (OSS) | ✅ | Self-prompting GPT agent with memory, pioneer project | [🔗](https://github.com/Significant-Gravitas/AutoGPT) |
 | **BabyAGI** | Task-driven agent | Free (OSS) | ✅ | Autonomous task creation and prioritization | [🔗](https://github.com/yoheinakajima/babyagi) |
 | **Suna** | Generalist agent | Free (OSS) | ✅ | Versatile open-source agent for complex tasks (Kortix) | [🔗](https://github.com/kortix-ai/suna) |
