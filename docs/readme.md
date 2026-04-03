@@ -519,7 +519,7 @@ Integrated Development Environments with built-in AI capabilities.
 
 | IDE | Platform | Version | Release Date | Pricing | Key Features | GitHub |
 |-----|----------|---------|---------------|---------|--------------|--------|
-| **Firebase Studio** | Web | - | - | Free (3 workspaces, up to 30 with Google Developer Program) | Cloud-based, Gemini, MCP | ❌ |
+| **Firebase Studio** | Web | - | - | Free (3 workspaces, up to 30 with Google Developer Program) | Cloud-based, Gemini, MCP | [🔗](https://github.com/firebase-studio) |
 | **[Lingma IDE (通义灵码)](https://lingma.aliyun.com/download)** | Windows, macOS | - | - | Free (download) | Built-in agent, MCP tool use, terminal command execution | ❌ |
 | **Tonkotsu** | Windows, macOS | - | - | Free (during early access) | Team of agents, workflow | [🔗](https://github.com/tonkotsu-ai) |
 | **OpenCode** | Windows, macOS, Linux | - | - | Free (OSS) | Terminal, desktop, IDE extension, multi-provider | [🔗](https://github.com/anomalyco/opencode) |
@@ -688,11 +688,11 @@ Tools and frameworks for AI-powered browser automation.
 | Browser | Pricing | Open Source | Local AI | Best For | GitHub |
 |---------|---------|-------------|----------|----------|--------|
 | **Sigma AI Browser** | Freemium (Free + Pro $9.99/mo) | ❌ | ✅ | Offline AI, agentic browsing | ❌ |
-| **ChatGPT Atlas** | Free (with ChatGPT subscription) | ❌ | ❌ | OpenAI integration, macOS | ❌ |
+| **ChatGPT Atlas** | Free (with ChatGPT subscription) | ❌ | ❌ | OpenAI integration, macOS | [🔗](https://github.com/ComposioHQ/open-chatgpt-atlas) |
 | **Genspark** | Freemium (Free + Plus $19.99/mo + Pro $249/mo) | ❌ | ❌ | AI Super Agent, research | ❌ |
-| **BrowserOS** | Free | ✅ | ✅ | Privacy-focused | ❌ |
+| **BrowserOS** | Free | ✅ | ✅ | Privacy-focused | [🔗](https://github.com/browseros-ai/BrowserOS) |
 | **Brave Leo** | Freemium (Free + Premium) | ❌ | ⚠️ (Experimental) | Privacy-focused AI | ❌ |
-| **Fellou** | Freemium (Free for 4 tasks, $19/mo Pro) | ❌ | ❌ | True agentic browser | ❌ |
+| **Fellou** | Freemium (Free for 4 tasks, $19/mo Pro) | ❌ | ❌ | True agentic browser | [🔗](https://github.com/FellouAI/eko) |
 | **Perplexity Comet** | Free (with Pro $20/mo) or $5/mo Standalone | ❌ | ❌ | Research | ❌ |
 | **Dia** | Freemium (Free limited, $20/mo Pro, Dia+ $50/mo) | ❌ | ❌ | Arc replacement | ❌ |
 | **Opera Neon** | $19.90/mo | ❌ | ❌ | Agentic browsing | ❌ |
@@ -706,9 +706,9 @@ Tools and frameworks for AI-powered browser automation.
 
 | Extension | Pricing | Free | Multi-Agent | Best For | GitHub |
 |-----------|---------|------|-------------|----------|--------|
-| **Harpa AI** | Free | ✅ | ❌ | Automation recipes | ❌ |
-| **MultiOn** | Free/Paid | ⚠️ | ✅ | Complex tasks | ❌ |
-| **NanoBrowser** | Free | ✅ | ✅ | Local control | ❌ |
+| **Harpa AI** | Free | ✅ | ❌ | Automation recipes | [🔗](https://github.com/wvkv/harpa) |
+| **MultiOn** | Free/Paid | ⚠️ | ✅ | Complex tasks | [🔗](https://github.com/tmc/multion-api) |
+| **NanoBrowser** | Free | ✅ | ✅ | Local control | [🔗](https://github.com/nanobrowser/nanobrowser) |
 | **Neobrowser** | Free (OSS) | ✅ | ❌ | Local LLMs via Ollama, privacy-first, Chrome/Edge | ❌ |
 
 #### Developer Libraries
