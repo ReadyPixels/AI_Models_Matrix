@@ -21,14 +21,8 @@ jobs:
       - name: Install markdownlint
         run: npm install -g markdownlint markdownlint-cli
 
-      - name: Create markdownlint config if not exists
-        run: |
-          if [ ! -f .markdownlint.json ]; then
-            echo '{}' > .markdownlint.json
-          fi
-
       - name: Run markdownlint
-        run: markdownlint "**/*.md" --ignore node_modules --ignore .github
+        run: markdownlint "**/*.md" --ignore node_modules --ignore .github --config .markdownlint.json
 
       - name: Setup Ruby for MD004 rule fix
         uses: ruby/setup-ruby@v1
