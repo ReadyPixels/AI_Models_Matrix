@@ -125,6 +125,9 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Kimi K2.5** | Moonshot AI | 256K | Native multimodal, thinking & agent tasks | $0.60 / $3.00 |
 | **DeepSeek-V4** | DeepSeek | 1M+ | Engram memory, coding focus | Pay-per-token |
 | **Qwen3.5-Max** | Alibaba | 128K | Hybrid attention, native VLM | Pay-per-token |
+| **Amazon Nova Pro** | AWS | 2M | Multimodal, 128K output, low latency | $0.60 / $2.40 |
+| **Amazon Nova Lite** | AWS | 1M | Cost-efficient multimodal | $0.06 / $0.24 |
+| **Amazon Nova Micro** | AWS | 1M | Fast, lightweight | $0.04 / $0.12 |
 | **Gemini 3 Pro** | Google | 1M+ | PhD-level reasoning, agentic tool-use | Tiered pricing |
 | **Gemini 3 Flash** | Google | 10M | Pro-grade reasoning, Flash speed | $0.30 / $2.50 |
 | **Gemini 3.1 Flash-Lite** | Google | 1M | Fast, cost-efficient multimodal model for high-volume tasks | $0.25 / $1.50 |
@@ -136,6 +139,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Llama 4 Maverick** | Meta | 128K | 400B params, multimodal | Free (self-host) |
 | **Grok 4** | xAI | 128K | First-principles reasoning | $3 / $15 |
 | **Grok 4 Fast** | xAI | 128K | Cost-efficient variant | $0.20 / $1.50 |
+| **Command R+** | Cohere | 128K | Enterprise-grade, multilingual, tool use | Pay-per-token |
 
 #### Top Models by Category
 
@@ -157,6 +161,8 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **Qwen3.5-Max** | Alibaba | 1T+ | 128K | Apache 2.0 |
 | **Qwen3-Max-Thinking** | Alibaba | 1T+ | 128K | Apache 2.0 |
 | **Mistral Large 3** | Mistral AI | 675B (MoE) | 128K | Apache 2.0 |
+| **Gemma 4 31B Dense** | Google DeepMind | 31B | 256K | Apache 2.0 | SOTA open model, 1452 LM Arena |
+| **Gemma 4 26B A4B** | Google DeepMind | 26B (4B active) | 256K | Apache 2.0 | MoE, efficient, multimodal |
 | **Llama 4 Scout** | Meta | 109B | 10M | Community |
 | **Llama 4 Maverick** | Meta | 400B | 128K | Community |
 | **GPT-OSS-120B** | OpenAI | 117B | 128K | Apache 2.0 |
@@ -167,6 +173,30 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **Granite 4.0** | IBM | 8B-3B | 128K | Apache 2.0 |
 | **DeepSeek-Coder-V2** | DeepSeek | 236B | 128K | MIT |
 | **Yi-Coder** | 01.AI | 9B/1.5B | 128K | Apache 2.0 |
+| **Mistral Small 3.1** | Mistral AI | 24B | 128K | Apache 2.0 |
+| **Mistral Nemo** | Mistral AI | 12B | 128K | Apache 2.0 |
+
+### Small Language Models (SLM) 📱
+
+Compact models optimized for on-device deployment, edge devices, and resource-constrained environments.
+
+| Model | Developer | Params | Context | License | Key Features |
+|-------|-----------|--------|---------|---------|--------------|
+| **Gemma 4 E2B** | Google DeepMind | 2.3B (5.1B with embeddings) | 128K | Apache 2.0 | On-device MoE, multimodal (text/image/audio/video), function calling |
+| **Gemma 4 E4B** | Google DeepMind | 4.5B (8B with embeddings) | 128K | Apache 2.0 | On-device MoE, multimodal, better reasoning than E2B |
+| **Gemma 3 4B** | Google DeepMind | 4B | 128K | Apache 2.0 | Lightweight, efficient, multimodal |
+| **Phi-4** | Microsoft | 14B | 128K | MIT | Strong reasoning, code generation |
+| **Mistral Small 3.1** | Mistral AI | 24B | 128K | Apache 2.0 | Best-in-class for size, multimodal |
+| **Mistral Nemo** | Mistral AI | 12B | 128K | Apache 2.0 | Cost-efficient, open-weight |
+| **Granite 4.0** | IBM | 8B-3B | 128K | Apache 2.0 | Enterprise-ready, multilingual |
+
+#### On-Device SLM Benchmarks
+
+| Model | MMLU Pro | GPQA Diamond | AIME 2026 | LiveCodeBench |
+|-------|----------|---------------|-----------|---------------|
+| **Gemma 4 E4B** | 69.4% | 58.6% | 42.5% | 52.0% |
+| **Gemma 4 E2B** | 60.0% | 43.4% | 37.5% | 44.0% |
+| **Mistral Small 3.1** | ~67% | ~45% | ~35% | ~40% |
 
 #### Deployment Options
 
@@ -916,6 +946,11 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 🏢 Company | 🤖 Model | 📦 Version | 📅 Release Date | 🔄 Latest Updated | 💻 Coding | 📊 Benchmarks | 💰 Price | 🖥️ Self-Host | 🔗 Official Site |
 |:---:|---|---|---|---|:---:|---|---|:---:|:---:|
 | 🤖 OpenAI | GPT-5 | 5.4 mini | 2026-03-17 00:00 UTC | 2026-03-17 00:00 UTC ⭐ | ✅ | N/A | $0.75 / $4.50 | ❌ | [🔗](https://openai.com/news/?display=list) |
+| 🌐 Google DeepMind | Gemma 4 | 31B Dense | 2026-04-02 00:00 UTC | 2026-04-02 00:00 UTC ⭐ | ✅ | GPQA 84.3% | Free (self-host) | ✅ | [🔗](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/) |
+| 🌐 Google DeepMind | Gemma 4 | E2B | 2026-04-02 00:00 UTC | 2026-04-02 00:00 UTC ⭐ | ✅ | MMLU 60% | Free (self-host) | ✅ | [🔗](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/) |
+| ☁️ AWS | Amazon Nova | Pro | 2025-09-02 00:00 UTC | 2025-09-02 00:00 UTC | ✅ | N/A | $0.60 / $2.40 | ❌ | [🔗](https://docs.aws.amazon.com/ai/responsible-ai/nova-micro-lite-pro/overview.html) |
+| ☁️ AWS | Amazon Nova | Lite | 2025-09-02 00:00 UTC | 2025-09-02 00:00 UTC | ✅ | N/A | $0.06 / $0.24 | ❌ | [🔗](https://docs.aws.amazon.com/ai/responsible-ai/nova-micro-lite-pro/overview.html) |
+| 🔬 Cohere | Command | R+ | 2024-08-30 00:00 UTC | 2024-08-30 00:00 UTC | ✅ | N/A | Pay-per-token | ❌ | [🔗](https://cohere.com/) |
 | 🤖 OpenAI | GPT-5 | 5.4 | 2026-03-05 00:00 UTC | 2026-03-05 00:00 UTC ⭐ | ✅ | N/A | $2.50 / $15.00 | ❌ | [🔗](https://openai.com/research/index/release/) |
 | 🌐 Google DeepMind | Gemini 3.1 | Flash-Lite | 2026-03-03 00:00 UTC | 2026-03-03 00:00 UTC ⭐ | ✅ | N/A | $0.25 / $1.50 | ❌ | [🔗](https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/) |
 | 🔬 DeepSeek | DeepSeek | V4 | 2026-02-17 00:00 UTC | 2026-02-17 00:00 UTC | ✅ | N/A | Pay-per-token | ✅ | [🔗](https://www.deepseek.com/) |
@@ -931,6 +966,10 @@ Side-by-side comparisons of AI models sorted by various criteria.
 |:---:|---|---|---|:---:|
 | 🧠 MiniMax | MiniMax M2.5 | 2026-02 | $0.30 / $1.20 | [🔗](https://platform.minimax.io/docs/guides/models-intro) |
 | 🇨🇳 Alibaba/Qwen | Qwen 3.5-Max | 2026-02 | Open-source release window | [🔗](https://qwenlm.github.io/) |
+| 🌐 Google DeepMind | Gemma 4 | 2026-04 | Apache 2.0 (E2B, E4B, 31B, 26B) | [🔗](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/) |
+| 💻 Mistral AI | Mistral Small 3.1 | 2025-03 | Apache 2.0 (24B) | [🔗](https://mistral.ai/news/mistral-small-3-1) |
+| 💻 Mistral AI | Mistral Nemo | 2024-07 | Apache 2.0 (12B) | [🔗](https://mistral.ai/news/mistral-nemo) |
+| ☁️ AWS | Amazon Nova | 2025-09 | Pro/Lite/Micro | [🔗](https://docs.aws.amazon.com/ai/responsible-ai/nova-micro-lite-pro/overview.html) |
 | 🌐 Google DeepMind | Gemini 3.1 Flash-Lite | 2026-03 | $0.25 / $1.50 | [🔗](https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/) |
 | 🌐 Google DeepMind | Gemini 3 Pro | 2026-01 | Tiered pricing | [🔗](https://deepmind.google/models/gemini/) |
 | 🤖 OpenAI | GPT-5.4 family | 2026-03 | GPT-5.4, GPT-5.4 mini, GPT-5.4 nano | [🔗](https://openai.com/news/?display=list) |
@@ -947,7 +986,9 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 5 | **Yi-Lightning** | $0.14 | $0.42 | Apache 2.0 |
 | 6 | **GPT-5.4 nano** | $0.20 | $1.25 | Proprietary |
 | 7 | **Gemini 3.1 Flash-Lite** | $0.25 | $1.50 | Proprietary |
-| 8 | **DeepSeek-V3.1** | $0.27 | $0.41 | MIT |
+| 8 | **Amazon Nova Lite** | $0.06 | $0.24 | Proprietary |
+| 9 | **Amazon Nova Micro** | $0.04 | $0.12 | Proprietary |
+| 10 | **DeepSeek-V3.1** | $0.27 | $0.41 | MIT |
 | 9 | **Gemini 3 Flash** | $0.30 | $2.50 | Proprietary |
 | 10 | **MiniMax-M2.5** | $0.30 | $1.20 | Proprietary |
 
@@ -967,8 +1008,11 @@ Side-by-side comparisons of AI models sorted by various criteria.
 |------|-------|---------|----------|
 | 1 | **Gemini 3 Flash** | 10M | Entire libraries |
 | 2 | **Llama 4 Scout** | 10M | Long-document RAG |
-| 3 | **Gemini 3 Pro** | 1M+ | Research papers |
-| 4 | **Kimi K2.5** | 256K | Large codebases |
+| 3 | **Gemma 4 31B Dense** | 256K | Large context apps |
+| 4 | **Gemma 4 26B A4B** | 256K | Efficient large context |
+| 5 | **Gemini 3 Pro** | 1M+ | Research papers |
+| 6 | **Kimi K2.5** | 256K | Large codebases |
+| 7 | **Mistral Small 3.1** | 128K | Compact on-device |
 
 ### Data Sources 📚
 
@@ -1003,6 +1047,12 @@ Attribution, verification sources, and methodology.
 | **Moonshot AI** | Developer Documentation | [platform.moonshot.ai](https://platform.moonshot.ai/docs/overview) |
 | **Moonshot AI** | Models & Pricing | [platform.moonshot.ai](https://platform.moonshot.ai/docs/pricing/chat) |
 | **Cohere** | Developer Documentation | [docs.cohere.com](https://docs.cohere.com) |
+| **Cohere** | Command R+ Model Card | [cohere.com](https://cohere.com/models/command) |
+| **AWS** | Amazon Nova Service Cards | [docs.aws.amazon.com](https://docs.aws.amazon.com/ai/responsible-ai/nova-micro-lite-pro/overview.html) |
+| **Mistral AI** | Mistral Small 3.1 Release | [mistral.ai](https://mistral.ai/news/mistral-small-3-1) |
+| **Mistral AI** | Mistral Nemo Release | [mistral.ai](https://mistral.ai/news/mistral-nemo) |
+| **Google DeepMind** | Gemma 4 Release | [blog.google](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/) |
+| **Google DeepMind** | Gemma 4 on Hugging Face | [huggingface.co/blog/gemma4](https://huggingface.co/blog/gemma4) |
 | **AI21 Labs** | Developer Documentation | [docs.ai21.com](https://docs.ai21.com/docs/jamba-foundation-models) |
 | **Perplexity** | Developer Documentation | [docs.perplexity.ai](https://docs.perplexity.ai/docs/getting-started/pricing) |
 | **ByteDance (Volcengine)** | Developer Documentation | [volcengine.com](https://www.volcengine.com/docs/82379/1263482) |
