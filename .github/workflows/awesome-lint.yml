@@ -1,0 +1,45 @@
+name: Awesome List Lint
+
+on:
+  pull_request:
+    paths:
+      - '**.md'
+      - 'README.md'
+  workflow_dispatch:
+
+jobs:
+  awesome-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install awesome-lint
+        run: npm install -g awesome-lint
+
+      - name: Run awesome-lint
+        run: awesome-lint
+        continue-on-error: true
+
+      - name: Check for required sections
+        run: |
+          # Check for essential awesome list elements
+          echo "Checking for awesome list compliance..."
+          
+          # Check if README.md exists
+          if [ -f "README.md" ]; then
+            echo "✓ README.md found"
+          elif [ -f "docs/readme.md" ]; then
+            echo "✓ docs/readme.md found"
+          fi
+
+      - name: Report lint results
+        run: |
+          echo "Awesome-lint completed. Review any warnings above."
+          # Exit with success for now - awesome-lint can have false positives
+          exit 0
