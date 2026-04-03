@@ -23,14 +23,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Run lychee link checker
+      - name: Link Checker
+        id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
           args: --no-progress --cache --max-concurrency 5 --header "User-Agent: lychee/1.0" "**/*.md"
           fail: false
 
-      - name: Report failures
-        if: failure()
-        run: |
-          echo "::warning::Some links may be broken. Check the lychee report above."
-          exit 1
+      - name: Show lychee output
+        run: cat ./lychee/out.md
