@@ -23,25 +23,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install lychee
-        run: npm install -g lychee
-
-      - name: Cache lychee
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/lychee
-          key: lychee-cache-${{ hashFiles('**/*.md') }}
-          restore-keys: |
-            lychee-cache-
-
       - name: Run lychee link checker
-        run: |
-          lychee --no-progress --cache --max-concurrency 5 --header "User-Agent: lychee/1.0" "**/*.md"
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --cache --max-concurrency 5 --header "User-Agent: lychee/1.0" "**/*.md"
         continue-on-error: true
 
       - name: Report failures
