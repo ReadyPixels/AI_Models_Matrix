@@ -40,7 +40,8 @@ jobs:
             lychee-cache-
 
       - name: Run lychee link checker
-        run: lychee --no-progress --cache --max-concurrency 5 --header "User-Agent: lychee/1.0" "**/*.md"
+        run: |
+          lychee --no-progress --cache --max-concurrency 5 --header "User-Agent: lychee/1.0" "**/*.md"
         continue-on-error: true
 
       - name: Report failures
