@@ -521,9 +521,9 @@ Integrated Development Environments with built-in AI capabilities.
 |-----|----------|---------|---------------|---------|--------------|--------|
 | **Firebase Studio** | Web | - | - | Free (3 workspaces, up to 30 with Google Developer Program) | Cloud-based, Gemini, MCP | ❌ |
 | **[Lingma IDE (通义灵码)](https://lingma.aliyun.com/download)** | Windows, macOS | - | - | Free (download) | Built-in agent, MCP tool use, terminal command execution | ❌ |
-| **Tonkotsu** | Windows, macOS | - | - | Free (during early access) | Team of agents, workflow | ❌ |
+| **Tonkotsu** | Windows, macOS | - | - | Free (during early access) | Team of agents, workflow | [🔗](https://github.com/tonkotsu-ai) |
 | **OpenCode** | Windows, macOS, Linux | - | - | Free (OSS) | Terminal, desktop, IDE extension, multi-provider | [🔗](https://github.com/anomalyco/opencode) |
-| **Codex app** | Windows | - | 2026-03-04 00:00 UTC | Included with Codex plans | Multiple agents, isolated worktrees, reviewable diffs, CLI and IDE interop | ❌ |
+| **Codex app** | Windows | - | 2026-03-04 00:00 UTC | Included with Codex plans | Multiple agents, isolated worktrees, reviewable diffs, CLI and IDE interop | [🔗](https://github.com/openai/codex) |
 | **Visual Studio** | Windows, macOS | 17.14.12+, 18.1.0+ | 2026-01-06 00:00 UTC | Free / $250/yr | Gemini 3 Flash integration, faster performance, zero-migration upgrades, real-time profiler agent | ❌ |
 | **IntelliJ IDEA** | Windows, macOS, Linux | 2025.3.2 | 2026-01 | Free / $149/yr | Java 24 support, Kotlin K2 mode, performance and memory improvements | ❌ |
 
@@ -533,7 +533,7 @@ Integrated Development Environments with built-in AI capabilities.
 |--------|----------|---------|---------------|---------|--------------|--------|
 | **Zed** | macOS, Windows, Linux | 0.226.3 | 2026-03-03 00:00 UTC | Free (OSS) + Copilot $10/mo | Fast, collaboration, Gemini and Claude, Zeta AI, agent thread history, edit prediction providers, self-hosted OpenAI-compatible servers | [🔗](https://github.com/zed-industries/zed) |
 | **Dyad** | Windows, macOS, Linux | - | - | Free (OSS) | Local generation, BYO keys | [🔗](https://github.com/dyad-sh/dyad) |
-| **Memex** | macOS, Windows | - | - | Freemium (Free + $10/mo) | Agentic, browser↔desktop | ❌ |
+| **Memex** | macOS, Windows | - | - | Freemium (Free + $10/mo) | Agentic, browser↔desktop | [🔗](https://github.com/memextech) |
 
 #### VS Code Forks
 
@@ -541,10 +541,10 @@ Integrated Development Environments with built-in AI capabilities.
 |----------|---------|---------|---------------|---------|------------|-----|--------|
 | **Cursor** | Windows, macOS, Linux | 0.46+ | 2026-02-12 00:00 UTC | Freemium (Free + Pro $19/mo or $39/mo) | ✅ | ❌ | ❌ |
 | **Windsurf** | Windows, macOS, Linux | 1.9552+ | 2026-02-12 00:00 UTC | Freemium (Free + Pro) | ✅ | ✅ | ❌ |
-| **Trae** | macOS, Windows | - | - | Free | ❌ | ❌ | ❌ |
-| **PearAI** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ❌ | ❌ |
-| **Void** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ✅ | ❌ |
-| **Kiro** | Windows, macOS, Linux | - | - | Free (Preview) | ✅ | ✅ | ❌ |
+| **Trae** | macOS, Windows | - | - | Free | ❌ | ❌ | [🔗](https://github.com/Trae-AI/TRAE) |
+| **PearAI** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ❌ | [🔗](https://github.com/trypear/pearai-app) |
+| **Void** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ✅ | [🔗](https://github.com/voideditor/void) |
+| **Kiro** | Windows, macOS, Linux | - | - | Free (Preview) | ✅ | ✅ | [🔗](https://github.com/kirodotdev/Kiro) |
 
 #### Web-Based IDEs
 
@@ -614,7 +614,7 @@ Extensions and plugins that add AI capabilities to existing IDEs.
 | **Codex** | Free (with ChatGPT Plus $20/mo or Pro $200/mo) | ✅ | ✅ | OpenAI's official coding agent | [🔗](https://github.com/openai/codex) |
 | **Cline** | Free | ✅ | ✅ | Full agent | [🔗](https://github.com/cline/cline) |
 | **GitHub Copilot (Agent Mode)** | $0 / $10 / $39/mo | ⚠️ | ❌ | Guided agent workflows | ❌ |
-| **RooCode** | Free/Pro | ⚠️ | ❌ | Complex tasks | ❌ |
+| **RooCode** | Free/Pro | ⚠️ | ❌ | Complex tasks | [🔗](https://github.com/RooCodeInc/Roo-Code) |
 | **Keploy** | OSS/Enterprise | ❌ | ❌ | Testing | ❌ |
 
 #### JetBrains Specific
@@ -786,7 +786,7 @@ Agents that run directly on your machine and interact with the OS, screen, keybo
 | **Open Interpreter** | ✅ | ✅ | ✅ | ⚠️ | Natural language computer control, 63K+ stars | [🔗](https://github.com/OpenInterpreter/open-interpreter) |
 | **Open-Interface** | ✅ | ✅ | ✅ | ✅ | General-purpose desktop automation | [🔗](https://github.com/AmberSahdev/Open-Interface) |
 | **UFO** | ✅ | ❌ | ❌ | ✅ | Windows-specific app automation | [🔗](https://github.com/microsoft/UFO) |
-| **Bytebot** | ❌ | ❌ | ✅ | ✅ | Self-hosted (Docker), headless | ❌ |
+| **Bytebot** | ❌ | ❌ | ✅ | ✅ | Self-hosted (Docker), headless | [🔗](https://github.com/bytebot-ai/bytebot) |
 | **Microsoft Fara-7B** | ✅ | ✅ | ✅ | ✅ | Open-weight vision grounding model | [🔗](https://github.com/microsoft/Fara) |
 | **UI-TARS** | ✅ | ✅ | ✅ | ✅ | Autonomous GUI execution, vision-language-action model (ByteDance) | [🔗](https://github.com/bytedance/UI-TARS-desktop) |
 | **c/ua** | ✅ | ✅ | ✅ | ✅ | Isolated VM environments, open-source CU infrastructure | [🔗](https://github.com/trycua/cua) |
@@ -816,7 +816,7 @@ AI-native operating systems and platforms that embed LLMs as core system compone
 | OS / Platform | Type | Hardware | Local/Cloud | Best For | GitHub |
 |---------------|------|----------|:-----------:|----------|--------|
 | **AIOS** | Open Source (MIT) | Any | Both | Kernel-level LLM agent OS, agent scheduling & memory management | [🔗](https://github.com/agiresearch/AIOS) |
-| **Ghost OS** | Open Source | Any | Local | Autonomous agent workflows | ❌ |
+| **Ghost OS** | Open Source | Any | Local | Autonomous agent workflows | [🔗](https://github.com/ghostwright/ghost-os) |
 | **computer_use_ootb** | Open Source | Any | Local/API | Out-of-the-box GUI automation (Claude 3.5 CU + local models) | [🔗](https://github.com/showlab/computer_use_ootb) |
 | **Rabbit OS (R1)** | Commercial ($199 device) | R1 Device | Cloud | Consumer AI assistant, LAM-based app automation | ❌ |
 | **Apple Intelligence** | Commercial (OS-level) | Apple Silicon (M1+) | On-device / Private Cloud | Privacy-first, system-wide writing, Siri, image generation | ❌ |
@@ -833,7 +833,7 @@ AI-native operating systems and platforms that embed LLMs as core system compone
 
 | Tool | Platform | Key Features | GitHub |
 |------|----------|--------------|--------|
-| **PyAutoGUI** | Cross-platform | Simple API, fail-safe | ❌ |
+| **PyAutoGUI** | Cross-platform | Simple API, fail-safe | [🔗](https://github.com/asweigart/pyautogui) |
 | **Nut.js** | Cross-platform | Visual search, image matching | ❌ |
 | **OpenAdapt** | Windows, macOS | Learning from demonstration | [🔗](https://github.com/OpenAdaptAI/OpenAdapt) |
 
