@@ -6,12 +6,12 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--04--02%2004%3A58%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--04--24%2016%3A26%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources.
 
-Document Version: 2.1
-Last Updated: 2026-04-02 04:58 UTC
+Document Version: 2.2
+Last Updated: 2026-04-24 16:26 UTC
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
 
 ## Contents
@@ -66,7 +66,8 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 | Model | Company | Context | GPQA Diamond | Arena Elo | SWE-bench Verified | AIME 2025 | Pricing | Verified |
 |-------|---------|---------|--------------|-----------|--------------------|-----------|---------|----------|
-| **Claude Opus 4.6** | Anthropic | 1M | 91.3% | 1500 (Text) / 1549 (Code) | 80.8% | 99.8% | $5 / $25 | 2026-04-02 |
+| **GPT-5.5** | OpenAI | 1M | — | — | — | — | TBD | 2026-04-24 |
+| **Claude Opus 4.7** | Anthropic | 1M | — | — | — | — | $5 / $25 | 2026-04-24 |
 | **Claude Sonnet 4.6** | Anthropic | 1M | 89.9% | ~1438 (Text) / 1523 (Code) | 79.6% | ~95% | $3 / $15 | 2026-04-02 |
 | **GPT-5.3-Codex** | OpenAI | 400K | 91.5% | — | — | — | $1.75 / $14.00 | 2026-04-02 |
 | **Gemini 3.1 Pro** | Google | 1M | 94.3% | 1494 (Text) / 1455 (Code) | 80.6% | 100% | $2 / $12 | 2026-04-02 |
@@ -74,8 +75,8 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **GLM-5** | Zhipu AI | 200K | 82.0% | ~1451 (Text) / 1445 (Code) | 77.8% | 92.7% | $1.00 / $3.20 | 2026-04-02 |
 | **GLM-5.1** | Zhipu AI | 200K | — | — | ~80.4% (est.) | — | $1.00 / $3.20 | 2026-04-02 |
 | **MiniMax-M2.5** | MiniMax | 200K | 85.2% | — | 80.2% | 86.3% | $0.30 / $1.20 | 2026-04-02 |
-| **Kimi K2.5** | Moonshot AI | 256K | 87.6% | — | 76.8% | 96.1% | $0.60 / $3.00 | 2026-04-02 |
-| **DeepSeek-V4** [⚠️ Unverified] | DeepSeek | 1M+ | — | — | — | — | $0.30 / $0.50 | 2026-04-02 |
+| **Kimi K2.6** | Moonshot AI | 256K | — | — | — | — | $0.60 / $3.00 | 2026-04-24 |
+| **DeepSeek-V4** | DeepSeek | 1M | — | — | — | — | $0.30 / $0.50 | 2026-04-24 |
 | **DeepSeek-V3.2** | DeepSeek | 164K | 87.1% | — | 67.8% | 89.3% | $0.28 / $0.42 | 2026-04-02 |
 | **Qwen3.5-Max** | Alibaba | 128K | 89.3% | — | 76.4% | 91.3% | Pay-per-token | 2026-04-02 |
 | **Gemini 3 Pro** | Google | 1M+ | 91.9% | 1486 (Text) / 1438 (Code) | 76.2% | 98–100% | Tiered pricing | 2026-04-02 |
@@ -96,7 +97,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 | Category | #1 | #2 | #3 |
 |----------|-----|-----|-----|
-| **Coding** | Claude Opus 4.6 | GPT-5.3-Codex | Claude Sonnet 4.5 |
+| **Coding** | Claude Opus 4.7 | GPT-5.5 | Claude Sonnet 4.5 |
 | **Reasoning** | Gemini 3 Deep Think | Qwen3-Max-Thinking | o3 |
 | **Open Source** | DeepSeek-V4 | Qwen3.5-Max | Llama 4 |
 | **Cost Efficiency** | DeepSeek-V3.1 | Grok 4 Fast | GLM-4.7-FlashX |
@@ -260,11 +261,12 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **GPT-OSS-120B** | OpenAI | 117B | 128K | Apache 2.0 |
 | **GPT-OSS-20B** | OpenAI | 21B | 128K | Apache 2.0 |
 | **Qwen3-Coder** | Alibaba | 480B | 128K | Apache 2.0 |
+| **GLM-5.1** | Zhipu AI | 744B (40B active MoE) | 200K | MIT |
 | **GLM-4.7** | Zhipu AI | 400B+ MoE | 128K | Open Weight |
+| **Qwen3.6-27B** | Alibaba | 27B | — | Apache 2.0 |
 | **Phi-4** | Microsoft | 14B | 128K | MIT |
 | **Granite 4.0** | IBM | 8B-3B | 128K | Apache 2.0 |
 | **DeepSeek-Coder-V2** | DeepSeek | 236B | 128K | MIT |
-| **GLM-5.1** | Zhipu AI | 744B (40B active MoE) | 200K | MIT |
 | **Step-3.5-Flash** | StepFun | 196B (11B active MoE) | 256K | Open Weight |
 | **Yi-Coder** | 01.AI | 9B/1.5B | 128K | Apache 2.0 |
 
@@ -398,6 +400,7 @@ Models capable of processing and generating multiple types of content: text, ima
 
 | Model | Developer | License | Best For |
 |-------|-----------|---------|----------|
+| **MAI-Image-2-Efficient** | Microsoft | Proprietary | Production-ready quality, 41% lower cost |
 | **Flux.1** | Black Forest Labs | Apache 2.0 | High-fidelity art |
 | **Stable Diffusion 3.5** | Stability AI | Community License | Fine-tuning |
 | **GLM-Image** | Zhipu AI (Z.ai) | API | Fast image generation |

@@ -18,4 +18,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - GPT-5.3-Codex pricing corrected from "TBD" to verified pricing
 - DeepSeek-V4 flagged for review pending verification
 
+### Added
+- GPT-5.5 (OpenAI) to Frontier Models
+- Claude Opus 4.7 (Anthropic) with updated features
+- DeepSeek-V4 official release verification
+- Kimi K2.6 (Moonshot AI)
+- GLM-5.1 and Qwen3.6-27B to Open-Source Models
+- MAI-Image-2-Efficient (Microsoft) to Image Generation
+
 [Unreleased]: https://github.com/shariqmehmood/AI_Models_Matrix/compare/v1.0.0...HEAD
