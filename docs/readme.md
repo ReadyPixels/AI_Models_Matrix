@@ -10,7 +10,7 @@
 
 > Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources.
 
-Document Version: 2.2
+Document Version: 2.3
 Last Updated: 2026-04-24 16:26 UTC
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
 
@@ -80,19 +80,18 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **DeepSeek-V3.2** | DeepSeek | 164K | 87.1% | — | 67.8% | 89.3% | $0.28 / $0.42 | 2026-04-02 |
 | **Qwen3.5-Max** | Alibaba | 128K | 89.3% | — | 76.4% | 91.3% | Pay-per-token | 2026-04-02 |
 | **Gemini 3 Pro** | Google | 1M+ | 91.9% | 1486 (Text) / 1438 (Code) | 76.2% | 98–100% | Tiered pricing | 2026-04-02 |
-| **Gemini 3 Flash** | Google | 10M | 90.4% | 1474 (Text) | 78.0% | — | $0.30 / $2.50 | 2026-04-02 |
-| **Gemini 3.1 Flash-Lite** [⚠️ Unverified] | Google | 1M | — | — | — | — | $0.25 / $1.50 | 2026-04-02 |
+| **Gemini 3 Flash** | Google | 10M | 90.4% | 1474 (Text) / 1438 (Code) | 78.0% | — | $0.30 / $2.50 | 2026-04-02 |
+| **Gemini 3.1 Flash-Lite** | Google | 1M | — | — | — | — | $0.25 / $1.50 | 2026-04-24 |
 | **GPT-5.4** | OpenAI | 1M | 92.0% | 1484 (Text) / 1457 (Code) | ~80% | 88% | $2.50 / $15.00 | 2026-04-02 |
 | **GPT-5.4 mini** | OpenAI | 400K | 87.5% | — | — | — | $0.75 / $4.50 | 2026-04-02 |
 | **GPT-5.4 nano** | OpenAI | 400K | — | — | — | — | $0.20 / $1.25 | 2026-04-02 |
 | **Step-3.5-Flash** | StepFun | 256K | 83.1% | — | 74.4% | 97.3% | Pay-per-token | 2026-04-02 |
-| **Mistral Large 3** [⚠️ Unverified] | Mistral AI | 128K | — | — | — | — | Varies | 2026-04-02 |
+| **Mistral Large 3** | Mistral AI | 128K | — | — | — | — | $0.50 / $1.50 | 2026-04-24 |
 | **Claude Sonnet 4.5** | Anthropic | 200K | 83.4% | — | 77.2% | 87% | $3 / $15 | 2026-04-02 |
-| **Llama 4 Scout** [⚠️ Unverified] | Meta | 10M | 57.2% | — | — | — | Free (self-host) | 2026-04-02 |
-| **Llama 4 Maverick** [⚠️ Unverified] | Meta | 128K | 69.8% | — | — | — | Free (self-host) | 2026-04-02 |
+| **Llama 4 Scout** | Meta | 10M | 57.2% | — | — | — | Free (self-host) | 2026-04-24 |
+| **Llama 4 Maverick** | Meta | 128K | 69.8% | — | — | — | Free (self-host) | 2026-04-24 |
 | **Grok 4** | xAI | 128K | ~91.5% | ~1493 (Text) | — | 100% | $3 / $15 | 2026-04-02 |
-| **Grok 4 Fast** [⚠️ Unverified] | xAI | 128K | — | — | — | — | $0.20 / $1.50 | 2026-04-02 |
-
+| **Grok 4 Fast** | xAI | 128K | — | — | — | — | $0.20 / $1.50 | 2026-04-24 |
 #### Top Models by Category
 
 | Category | #1 | #2 | #3 |
@@ -1421,7 +1420,7 @@ Attribution, verification sources, and methodology.
 
 ---
 
-**Last Updated:** 2026-04-02 04:58 UTC
+**Last Updated:** 2026-04-24 16:26 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---

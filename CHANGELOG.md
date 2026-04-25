@@ -26,4 +26,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - GLM-5.1 and Qwen3.6-27B to Open-Source Models
 - MAI-Image-2-Efficient (Microsoft) to Image Generation
 
+### Updated (2026-04-24)
+- Removed [⚠️ Unverified] tags from the following models after verification:
+  - Gemini 3.1 Flash-Lite (Google)
+  - Mistral Large 3 (Mistral AI) - Updated pricing from "Varies" to "$0.50 / $1.50"
+  - Llama 4 Scout (Meta)
+  - Llama 4 Maverick (Meta)
+  - Grok 4 Fast (xAI)
+- Updated verification dates to 2026-04-24 for verified models
+- Updated "Last Updated" badge and footer to 2026-04-24 16:26 UTC
+
 [Unreleased]: https://github.com/shariqmehmood/AI_Models_Matrix/compare/v1.0.0...HEAD
