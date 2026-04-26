@@ -6,12 +6,12 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--04--24%2016%3A26%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--04--26%2001%3A37%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources.
 
-Document Version: 2.3
-Last Updated: 2026-04-24 16:26 UTC
+Document Version: 2.4
+Last Updated: 2026-04-26 01:37 UTC
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
 
 ## Contents
@@ -66,32 +66,32 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 | Model | Company | Context | GPQA Diamond | Arena Elo | SWE-bench Verified | AIME 2025 | Pricing | Verified |
 |-------|---------|---------|--------------|-----------|--------------------|-----------|---------|----------|
-| **GPT-5.5** | OpenAI | 1M | — | — | — | — | TBD | 2026-04-24 |
-| **Claude Opus 4.7** | Anthropic | 1M | — | — | — | — | $5 / $25 | 2026-04-24 |
-| **Claude Sonnet 4.6** | Anthropic | 1M | 89.9% | ~1438 (Text) / 1523 (Code) | 79.6% | ~95% | $3 / $15 | 2026-04-02 |
-| **GPT-5.3-Codex** | OpenAI | 400K | 91.5% | — | — | — | $1.75 / $14.00 | 2026-04-02 |
-| **Gemini 3.1 Pro** | Google | 1M | 94.3% | 1494 (Text) / 1455 (Code) | 80.6% | 100% | $2 / $12 | 2026-04-02 |
-| **Gemini 3 Deep Think** | Google | 1M+ | ~97% | — | ~58% | — | Ultra subscription | 2026-04-02 |
-| **GLM-5** | Zhipu AI | 200K | 82.0% | ~1451 (Text) / 1445 (Code) | 77.8% | 92.7% | $1.00 / $3.20 | 2026-04-02 |
-| **GLM-5.1** | Zhipu AI | 200K | — | — | ~80.4% (est.) | — | $1.00 / $3.20 | 2026-04-02 |
-| **MiniMax-M2.5** | MiniMax | 200K | 85.2% | — | 80.2% | 86.3% | $0.30 / $1.20 | 2026-04-02 |
-| **Kimi K2.6** | Moonshot AI | 256K | — | — | — | — | $0.60 / $3.00 | 2026-04-24 |
-| **DeepSeek-V4** | DeepSeek | 1M | — | — | — | — | $0.30 / $0.50 | 2026-04-24 |
-| **DeepSeek-V3.2** | DeepSeek | 164K | 87.1% | — | 67.8% | 89.3% | $0.28 / $0.42 | 2026-04-02 |
-| **Qwen3.5-Max** | Alibaba | 128K | 89.3% | — | 76.4% | 91.3% | Pay-per-token | 2026-04-02 |
-| **Gemini 3 Pro** | Google | 1M+ | 91.9% | 1486 (Text) / 1438 (Code) | 76.2% | 98–100% | Tiered pricing | 2026-04-02 |
-| **Gemini 3 Flash** | Google | 10M | 90.4% | 1474 (Text) / 1438 (Code) | 78.0% | — | $0.30 / $2.50 | 2026-04-02 |
-| **Gemini 3.1 Flash-Lite** | Google | 1M | — | — | — | — | $0.25 / $1.50 | 2026-04-24 |
-| **GPT-5.4** | OpenAI | 1M | 92.0% | 1484 (Text) / 1457 (Code) | ~80% | 88% | $2.50 / $15.00 | 2026-04-02 |
-| **GPT-5.4 mini** | OpenAI | 400K | 87.5% | — | — | — | $0.75 / $4.50 | 2026-04-02 |
-| **GPT-5.4 nano** | OpenAI | 400K | — | — | — | — | $0.20 / $1.25 | 2026-04-02 |
-| **Step-3.5-Flash** | StepFun | 256K | 83.1% | — | 74.4% | 97.3% | Pay-per-token | 2026-04-02 |
-| **Mistral Large 3** | Mistral AI | 128K | — | — | — | — | $0.50 / $1.50 | 2026-04-24 |
-| **Claude Sonnet 4.5** | Anthropic | 200K | 83.4% | — | 77.2% | 87% | $3 / $15 | 2026-04-02 |
-| **Llama 4 Scout** | Meta | 10M | 57.2% | — | — | — | Free (self-host) | 2026-04-24 |
-| **Llama 4 Maverick** | Meta | 128K | 69.8% | — | — | — | Free (self-host) | 2026-04-24 |
-| **Grok 4** | xAI | 128K | ~91.5% | ~1493 (Text) | — | 100% | $3 / $15 | 2026-04-02 |
-| **Grok 4 Fast** | xAI | 128K | — | — | — | — | $0.20 / $1.50 | 2026-04-24 |
+| **GPT-5.5** | OpenAI | 1M | 93.2% | — | — | — | $5.00 / $30.00 | 2026-04-26 |
+| **Claude Opus 4.7** | Anthropic | 1M | 94.2% | — | 87.6% | ~95% | $5 / $25 | 2026-04-26 |
+| **Claude Sonnet 4.6** | Anthropic | 1M | 89.9% | ~1438 (Text) / 1523 (Code) | 79.6% | ~95% | $3 / $15 | 2026-04-26 |
+| **GPT-5.3-Codex** | OpenAI | 400K | 91.5% | — | 85.0% | — | $1.75 / $14.00 | 2026-04-26 |
+| **Gemini 3.1 Pro** | Google | 1M | 94.3% | 1494 (Text) / 1455 (Code) | 80.6% | 100% | $2 / $12 | 2026-04-26 |
+| **Gemini 3 Deep Think** | Google | 1M+ | ~97% | — | ~58% | — | Ultra subscription | 2026-04-26 |
+| **GLM-5** | Zhipu AI | 200K | 82.0% | ~1451 (Text) / 1445 (Code) | 77.8% | 92.7% | $1.00 / $3.20 | 2026-04-26 |
+| **GLM-5.1** | Zhipu AI | 200K | — | — | ~80.4% (est.) | — | $1.00 / $3.20 | 2026-04-26 |
+| **MiniMax-M2.5** | MiniMax | 200K | 85.2% | — | 80.2% | 86.3% | $0.30 / $1.20 | 2026-04-26 |
+| **Kimi K2.6** | Moonshot AI | 256K | 90.5% | — | 80.2% | 96.4% | $0.60 / $3.00 | 2026-04-26 |
+| **DeepSeek-V4** | DeepSeek | 1M | — | — | — | — | $0.30 / $0.50 | 2026-04-26 |
+| **DeepSeek-V3.2** | DeepSeek | 164K | 87.1% | — | 67.8% | 89.3% | $0.28 / $0.42 | 2026-04-26 |
+| **Qwen3.5-Max** | Alibaba | 128K | 89.3% | — | 76.4% | 91.3% | Pay-per-token | 2026-04-26 |
+| **Gemini 3 Pro** | Google | 1M+ | 91.9% | 1486 (Text) / 1438 (Code) | 76.2% | 98–100% | Tiered pricing | 2026-04-26 |
+| **Gemini 3 Flash** | Google | 10M | 90.4% | 1474 (Text) / 1438 (Code) | 78.0% | — | $0.30 / $2.50 | 2026-04-26 |
+| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
+| **GPT-5.4** | OpenAI | 1M | 92.0% | 1484 (Text) / 1457 (Code) | ~80% | 88% | $2.50 / $15.00 | 2026-04-26 |
+| **GPT-5.4 mini** | OpenAI | 400K | 87.5% | — | — | — | $0.75 / $4.50 | 2026-04-26 |
+| **GPT-5.4 nano** | OpenAI | 400K | — | — | — | — | $0.20 / $1.25 | 2026-04-26 |
+| **Step-3.5-Flash** | StepFun | 256K | 83.1% | — | 74.4% | 97.3% | Pay-per-token | 2026-04-26 |
+| **Mistral Large 3** | Mistral AI | 128K | 43.9% | — | — | — | $0.50 / $1.50 | 2026-04-26 |
+| **Claude Sonnet 4.5** | Anthropic | 200K | 83.4% | — | 77.2% | 87% | $3 / $15 | 2026-04-26 |
+| **Llama 4 Scout** | Meta | 10M | 57.2% | — | — | — | Free (self-host) | 2026-04-26 |
+| **Llama 4 Maverick** | Meta | 128K | 69.8% | — | — | — | Free (self-host) | 2026-04-26 |
+| **Grok 4** | xAI | 128K | ~91.5% | ~1493 (Text) | — | 100% | $3 / $15 | 2026-04-26 |
+| **Grok 4 Fast** | xAI | 128K | — | — | — | — | $0.20 / $1.50 | 2026-04-26 |
 #### Top Models by Category
 
 | Category | #1 | #2 | #3 |
@@ -122,8 +122,8 @@ Maximum output tokens per single API request.
 | **Gemini 3.1 Pro** | 64K | 1M | — |
 | **Gemini 3 Pro** | 64K | 2M | — |
 | **Gemini 3 Flash** | 64K | 1M | — |
-| **Gemini 3.1 Flash-Lite** | 64K | 1M | — |
-| **DeepSeek-V4** | 16K | 1M | — |
+| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
+| **DeepSeek-V4** | DeepSeek | 1M | — | — | — | — | $0.30 / $0.50 | 2026-04-26 |
 | **DeepSeek-V3.2** | 8K / 64K (reasoner) | 128K | Reasoner mode unlocks 64K output |
 | **Qwen3.5-Max** | 65K | 1M | — |
 | **GLM-5** | 128K | 200K | — |
@@ -133,7 +133,7 @@ Maximum output tokens per single API request.
 | **Step-3.5-Flash** | 66K | 256K | — |
 | **Grok 4** | — | 256K | Not publicly specified |
 | **Grok 4 Fast** | 30K | 2M | — |
-| **Mistral Large 3** | — | 262K | Not publicly specified |
+| **Mistral Large 3** | Mistral AI | 128K | 43.9% | — | — | — | $0.50 / $1.50 | 2026-04-26 |
 | **Llama 4 Scout** | 16K | 10M | — |
 | **Llama 4 Maverick** | 16K | 1M | — |
 
@@ -152,14 +152,14 @@ Discounted pricing tiers for high-volume usage. All prices in USD per million to
 | **GPT-5.3-Codex** | $1.75 | $0.175 | 50% off | — |
 | **Gemini 3.1 Pro** | $2.00 | $0.20–$0.40 + $4.50/hr storage | 50% off | Tiered by input length |
 | **Gemini 3 Flash** | $0.50 | $0.05 + $1.00/hr storage | 50% off | — |
-| **Gemini 3.1 Flash-Lite** | $0.25 | Supported | Supported | Exact rate not published |
+| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
 | **DeepSeek-V4** | $0.30 | $0.03 (90% off) | Off-peak 50% off | 11PM–7AM Beijing time |
 | **DeepSeek-V3.2** | $0.28 | $0.028 | — | No formal batch API |
 | **Qwen3.5-Max** | $0.40 | Available | 50% off | — |
 | **GLM-5 / GLM-5.1** | $1.00 | $0.20 | — | — |
 | **Grok 4** | $3.00 | $0.75 | — | — |
 | **Grok 4 Fast** | $0.20 | $0.05 | — | — |
-| **Mistral Large 3** | $0.50 | $0.05 | Available | — |
+| **Mistral Large 3** | Mistral AI | 128K | 43.9% | — | — | — | $0.50 / $1.50 | 2026-04-26 |
 | **Step-3.5-Flash** | $0.10 | — | — | — |
 
 #### Speed & Latency
@@ -168,7 +168,7 @@ Output throughput and time-to-first-token from [Artificial Analysis](https://art
 
 | Model | Output Speed (tok/s) | TTFT | Notes |
 |-------|---------------------|------|-------|
-| **Gemini 3.1 Flash-Lite** | ~363 | — | Fastest frontier model |
+| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
 | **Step-3.5-Flash** | 85–350 | — | Variable by provider; peak ~350 tok/s |
 | **Gemini 3 Flash** | ~193 | ~4.16s | — |
 | **MiniMax-M2.5 Lightning** | ~100 | — | Faster tier |
@@ -190,7 +190,7 @@ Knowledge cutoff dates — the point after which a model has no training data.
 | **GPT-5.3-Codex** | Aug 31, 2025 | — |
 | **Grok 4 Fast** | Jul 2025 | — |
 | **DeepSeek-V4** | May 2025 | — |
-| **Gemini 3.1 Flash-Lite** | Jan 2026 | — |
+| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
 | **Gemini 3.1 Pro / 3 Pro / 3 Flash** | Jan 2025 | — |
 | **Grok 4** | ~Nov–Dec 2024 | Approximate |
 | **DeepSeek-V3.2** | Jul 2024 | — |
@@ -208,7 +208,7 @@ Knowledge cutoff dates — the point after which a model has no training data.
 | **Qwen3-Max-Thinking** | 119 | Qwen3 series |
 | **Gemini 3 Flash** | 100 | 91.8% MMMLU score across 100 languages |
 | **Gemini 3.1 Pro / 3 Pro** | 100+ | — |
-| **Gemini 3.1 Flash-Lite** | 100+ | 88.9% MMMLU |
+| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
 | **Llama 4 Maverick** | 12 | Output languages |
 | **Claude (all)** | Many | English-optimized; broad multilingual |
 | **GPT-5.4 (all)** | Many | Broad multilingual coverage |
@@ -251,10 +251,10 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 
 | Model | Company | Params | Context | License |
 |-------|---------|--------|---------|---------|
-| **DeepSeek-V4** | DeepSeek | 671B | 1M+ | MIT |
+| **DeepSeek-V4** | DeepSeek | 1M | — | — | — | — | $0.30 / $0.50 | 2026-04-26 |
 | **Qwen3.5-Max** | Alibaba | 1T+ | 128K | Apache 2.0 |
 | **Qwen3-Max-Thinking** | Alibaba | 1T+ | 128K | Apache 2.0 |
-| **Mistral Large 3** | Mistral AI | 675B (MoE) | 128K | Apache 2.0 |
+| **Mistral Large 3** | Mistral AI | 128K | 43.9% | — | — | — | $0.50 / $1.50 | 2026-04-26 |
 | **Llama 4 Scout** | Meta | 109B | 10M | Community |
 | **Llama 4 Maverick** | Meta | 400B | 128K | Community |
 | **GPT-OSS-120B** | OpenAI | 117B | 128K | Apache 2.0 |
@@ -308,7 +308,7 @@ Specialized AI models optimized for software development tasks.
 | Model | Developer | Pricing | Best For |
 |-------|-----------|---------|----------|
 | **Claude Opus 4.6** | Anthropic | $5 / $25 per 1M | Agentic coding, complex tasks |
-| **GPT-5.3-Codex** | OpenAI | TBD | Agentic coding, 7+ hour autonomy |
+| **GPT-5.3-Codex** | OpenAI | $1.75 / $14.00 per 1M | Agentic coding, 7+ hour autonomy |
 | **Claude Haiku 4.5** | Anthropic | $1 / $5 per 1M | Low-latency coding, sub-agents, computer use |
 | **GLM-5-Code** | Zhipu AI | $1.20 / $5.00 per 1M | Code generation, refactoring |
 | **MiniMax-M2.5** | MiniMax | $0.30 / $1.20 per 1M | Code generation, refactoring |
@@ -636,7 +636,7 @@ Services for accessing AI models via API.
 |----------|--------|---------|
 | **OpenAI** | GPT-5.4, GPT-5.4 mini, GPT-5.4 nano, o3, Codex | Pay-per-token |
 | **Anthropic** | Claude Opus 4.6, Sonnet 4.6, Haiku 4.5 | Pay-per-token |
-| **Google AI Studio** | Gemini 3.1 Pro, Gemini 3.1 Flash-Lite, Gemini 3 Flash | Free / Pay |
+| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
 | **Z.ai (Zhipu AI)** | GLM-5, GLM-5-Code, GLM-4.7 | Pay-per-token |
 | **MiniMax** | MiniMax-M2.5/M2.1/M2 | Pay-per-token |
 | **Cohere** | Command, Embed, Rerank | Pay-per-token |
@@ -647,7 +647,7 @@ Services for accessing AI models via API.
 | **Tencent (Hunyuan)** | Hunyuan | Pay-per-token |
 | **Baidu (ERNIE)** | ERNIE | Pay-per-token |
 | **DeepSeek** | DeepSeek-V4/R1 | Pay-per-token |
-| **Mistral AI** | Mistral Large 3 | Pay-per-token |
+| **Mistral Large 3** | Mistral AI | 128K | 43.9% | — | — | — | $0.50 / $1.50 | 2026-04-26 |
 | **xAI** | Grok-4 | Pay-per-token |
 
 #### Unified APIs & Aggregators
@@ -1176,7 +1176,7 @@ Comprehensive pricing comparisons and cost calculations.
 | Tier | Price Range | Models |
 |------|-------------|--------|
 | 🆓 **Free** | $0 | Self-hosted, free tiers |
-| 💵 **Budget** | $0.07 - $0.50/1M | GLM-4.7-FlashX, GLM-4-32B-0414-128K, Yi-Lightning, GPT-5.4 nano, Gemini 3.1 Flash-Lite, DeepSeek-V3.1, MiniMax-M2.5 |
+| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
 | 💰 **Mid-range** | $0.60 - $15.00/1M | GPT-5.4 mini, Claude Haiku 4.5, Kimi K2.5, Sonar, GLM-5, GPT-5.4, Claude Sonnet |
 | 💎 **Premium** | $15.00 - $600.00/1M | GPT-5.4 Pro, Claude Opus, o1-Pro |
 
@@ -1206,13 +1206,13 @@ Comprehensive pricing comparisons and cost calculations.
 | **Llama 4 Maverick** | $0.15 | $0.60 | — | Open multimodal (self-host: $0) |
 | **GPT-5.4 nano** | $0.20 | $1.25 | $0.02 | Classification and lightweight subagents |
 | **Grok 4 Fast** | $0.20 | $0.50 | $0.05 | Fast Grok reasoning |
-| **Gemini 3.1 Flash-Lite** | $0.25 | $1.50 | Supported | High-volume multimodal tasks |
+| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
 | **DeepSeek-V3.1** | $0.27 | $0.41 | — | Everything |
 | **DeepSeek-V3.2** | $0.28 | $0.42 | $0.028 | Budget workhorse, reasoning |
 | **DeepSeek-V4** | $0.30 | $0.50 | $0.03 | Engram memory, coding (off-peak 50% off) |
 | **Gemini 3 Flash** | $0.30 | $2.50 | $0.05 + $1/hr | Long context |
 | **MiniMax-M2.5** | $0.30 | $1.20 | Auto (included) | Coding, long context |
-| **Mistral Large 3** | $0.50 | $1.50 | $0.05 | Open-weight 675B MoE |
+| **Mistral Large 3** | Mistral AI | 128K | 43.9% | — | — | — | $0.50 / $1.50 | 2026-04-26 |
 | **Kimi K2.5** | $0.60 | $3.00 | Auto (included) | Multimodal + agent tasks |
 | **GPT-5.4 mini** | $0.75 | $4.50 | $0.075 | Fast coding and multimodal tasks |
 | **Claude Haiku 4.5** | $1.00 | $5.00 | — | Low-latency coding and sub-agents |
@@ -1312,10 +1312,10 @@ Side-by-side comparisons of AI models sorted by various criteria.
 |:---:|---|---|---|:---:|
 | 🧠 MiniMax | MiniMax M2.5 | 2026-02 | $0.30 / $1.20 | [🔗](https://platform.minimax.io/docs/guides/models-intro) |
 | 🇨🇳 Alibaba/Qwen | Qwen 3.5-Max | 2026-02 | Open-source release window | [🔗](https://qwenlm.github.io/) |
-| 🌐 Google DeepMind | Gemini 3.1 Flash-Lite | 2026-03 | $0.25 / $1.50 | [🔗](https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/) |
+| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
 | 🌐 Google DeepMind | Gemini 3 Pro | 2026-01 | Tiered pricing | [🔗](https://deepmind.google/models/gemini/) |
 | 🤖 OpenAI | GPT-5.4 family | 2026-03 | GPT-5.4, GPT-5.4 mini, GPT-5.4 nano | [🔗](https://openai.com/news/?display=list) |
-| 💻 Mistral AI | Mistral Large 3 | 2026-01 | Open-weight | [🔗](https://mistral.ai/) |
+| **Mistral Large 3** | Mistral AI | 128K | 43.9% | — | — | — | $0.50 / $1.50 | 2026-04-26 |
 
 #### Sort by Price (Cheapest)
 
@@ -1327,7 +1327,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 4 | **GLM-4-32B-0414-128K** | $0.10 | $0.10 | API |
 | 5 | **Yi-Lightning** | $0.14 | $0.42 | Apache 2.0 |
 | 6 | **GPT-5.4 nano** | $0.20 | $1.25 | Proprietary |
-| 7 | **Gemini 3.1 Flash-Lite** | $0.25 | $1.50 | Proprietary |
+| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
 | 8 | **DeepSeek-V3.1** | $0.27 | $0.41 | MIT |
 | 9 | **Gemini 3 Flash** | $0.30 | $2.50 | Proprietary |
 | 10 | **MiniMax-M2.5** | $0.30 | $1.20 | Proprietary |
@@ -1371,7 +1371,7 @@ Attribution, verification sources, and methodology.
 | **Anthropic** | Claude Pro pricing | [anthropic.com](https://www.anthropic.com/news/claude-pro) |
 | **Anthropic** | Max plan pricing | [anthropic.com](https://www.anthropic.com/max) |
 | **Google** | Gemini Documentation | [deepmind.google](https://deepmind.google/models/gemini/) |
-| **Google** | Gemini 3.1 Flash-Lite model card | [deepmind.google](https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/) |
+| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
 | **Google** | Project Mariner | [deepmind.google](https://deepmind.google/en/models/project-mariner/) |
 | **Google** | Google AI plans | [one.google.com](https://one.google.com/about/google-ai-plans/) |
 | **Google** | Google AI Plus pricing | [blog.google](https://blog.google/products-and-platforms/products/google-one/google-ai-plus-availability/) |
