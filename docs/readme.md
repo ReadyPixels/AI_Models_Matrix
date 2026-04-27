@@ -259,6 +259,8 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **Llama 4 Maverick** | Meta | 400B | 128K | Community |
 | **GPT-OSS-120B** | OpenAI | 117B | 128K | Apache 2.0 |
 | **GPT-OSS-20B** | OpenAI | 21B | 128K | Apache 2.0 |
+| **GPT-OSS-120B** | OpenAI | 117B | 128K | Apache 2.0 |
+| **GPT-OSS-20B** | OpenAI | 21B | 128K | Apache 2.0 |
 | **Qwen3-Coder** | Alibaba | 480B | 128K | Apache 2.0 |
 | **GLM-5.1** | Zhipu AI | 744B (40B active MoE) | 200K | MIT |
 | **GLM-4.7** | Zhipu AI | 400B+ MoE | 128K | Open Weight |
@@ -267,6 +269,9 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **Granite 4.0** | IBM | 8B-3B | 128K | Apache 2.0 |
 | **DeepSeek-Coder-V2** | DeepSeek | 236B | 128K | MIT |
 | **Step-3.5-Flash** | StepFun | 196B (11B active MoE) | 256K | Open Weight |
+| **Yi-Coder** | 01.AI | 9B/1.5B | 128K | Apache 2.0 |
+| **Phi-4** | Microsoft | 14B | 128K | MIT |
+| **Granite 4.0** | IBM | 8B-3B | 128K | Apache 2.0 |
 | **Yi-Coder** | 01.AI | 9B/1.5B | 128K | Apache 2.0 |
 
 #### Deployment Options
@@ -528,6 +533,7 @@ Integrated Development Environments with built-in AI capabilities.
 | **Codex app** | Windows | - | 2026-03-04 00:00 UTC | Included with Codex plans | Multiple agents, isolated worktrees, reviewable diffs, CLI and IDE interop | [🔗](https://github.com/openai/codex) |
 | **Visual Studio** | Windows, macOS | 17.14.12+, 18.1.0+ | 2026-01-06 00:00 UTC | Free / $250/yr | Gemini 3 Flash integration, faster performance, zero-migration upgrades, real-time profiler agent | ❌ |
 | **IntelliJ IDEA** | Windows, macOS, Linux | 2025.3.2 | 2026-01 | Free / $149/yr | Java 24 support, Kotlin K2 mode, performance and memory improvements | ❌ |
+| **JAT** | Windows, macOS, Linux | - | 2026-04-14 | Free (MIT) | Self-contained agentic IDE, 20+ parallel agents, task management, unified environment | [🔗](https://medevel.com/jat-app/) |
 
 #### Native AI Editors
 
@@ -541,12 +547,13 @@ Integrated Development Environments with built-in AI capabilities.
 
 | IDE | Platform | Version | Release Date | Pricing | Autonomous | MCP | GitHub |
 |----------|---------|---------|---------------|---------|------------|-----|--------|
-| **Cursor** | Windows, macOS, Linux | 0.46+ | 2026-02-12 00:00 UTC | Freemium (Free + Pro $19/mo or $39/mo) | ✅ | ❌ | ❌ |
+| **Cursor** | Windows, macOS, Linux | 3.1 (April 13, 2026) | 2026-02-12 00:00 UTC | Freemium (Free + Pro $19/mo or $39/mo) | ✅ | ❌ | ❌ |
 | **Windsurf** | Windows, macOS, Linux | 1.9552+ | 2026-02-12 00:00 UTC | Freemium (Free + Pro) | ✅ | ✅ | ❌ |
 | **Trae** | macOS, Windows | - | - | Free | ❌ | ❌ | [🔗](https://github.com/Trae-AI/TRAE) |
 | **PearAI** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ❌ | [🔗](https://github.com/trypear/pearai-app) |
 | **Void** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ✅ | [🔗](https://github.com/voideditor/void) |
 | **Kiro** | Windows, macOS, Linux | - | - | Free (Preview) | ✅ | ✅ | [🔗](https://github.com/kirodotdev/Kiro) |
+| **VS Code Agents** | Windows, macOS, Linux | Insiders | 2026-04-21 | Free | ✅ | ✅ | [🔗](https://code.visualstudio.com/updates/v1_115#_visual-studio-code-agents-preview) |
 
 #### Web-Based IDEs
 
@@ -577,6 +584,8 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 | **GPT-Pilot** | Windows, macOS, Linux | Free | Full dev team simulation | [🔗](https://github.com/Pythagora-io/gpt-pilot) |
 | **OpenHands** | Windows, macOS, Linux | Free | Cloud agents, MCP | [🔗](https://github.com/OpenHands/OpenHands) |
 | **Mentat** | Windows, macOS, Linux | Free | Multi-file coordination | [🔗](https://github.com/AbanteAI/mentat) |
+| **SERA** | Linux, macOS | Free (Apache 2.0) | Open-source coding agent, 200K synthetic trajectories, vLLM deployment | [🔗](https://github.com/Ai2Labs/SERA) |
+| **AI Dev Kit** | Cross-platform | Free | 59 skills, 33 agents, TDD, security audit, CI/CD, ML pipelines | [🔗](https://github.com/noah-sheldon/ai-dev-kit) |
 
 #### Assisted CLI Tools
 
@@ -670,10 +679,18 @@ Services for accessing AI models via API.
 
 | Provider | Type | Best For |
 |----------|------|----------|
-| **RunPod** | GPU Rental | Flexibility |
-| **Replicate** | Model-as-a-Service | Quick deployment |
-| **Vultr** | Global Cloud | Hourly |
-| **Hyperbolic** | Decentralized | Crypto/Fiat |
+| **RunPod** | GPU Rental | Flexibility, cost-effective fine-tuning & inference |
+| **Replicate** | Model-as-a-Service | Quick deployment, serverless inference |
+| **Vultr** | Global Cloud | Hourly GPU instances |
+| **Hyperbolic** | Decentralized | Crypto/Fiat payments |
+| **Cerebrium** | Serverless GPU | Python-native ML inference & fine-tuning |
+| **Together AI** | AI-Native Cloud | Fast, cost-effective inference & fine-tuning for open models |
+| **Modal Labs** | Serverless GPU | Fine-tuning with LoRA, distributed training |
+| **Fireworks AI** | Inference & Fine-tuning | Fast inference, RFT for model shaping |
+| **Databricks Mosaic AI** | Integrated ML Platform | Enterprise fine-tuning, governed serving, RAG |
+| **NVIDIA DGX Cloud** | Managed AI Training | Co-engineered clusters, maximum ROI for training |
+| **Vast.ai** | GPU Marketplace | Serverless endpoints, diverse GPU options |
+| **DigitalOcean** | GPU Droplets | Simple fine-tuning workflows, scalable GPU infrastructure |
 
 ---
 
@@ -722,6 +739,9 @@ Tools and frameworks for AI-powered browser automation.
 | **LaVague** | Python | NL to code | [🔗](https://github.com/lavague-ai/LaVague) |
 | **Skyvern** | Python | CV-based automation | [🔗](https://github.com/Skyvern-AI/skyvern) |
 | **Firecrawl** | Python / CLI | LLM-powered crawling & scraping with prompt chaining | [🔗](https://github.com/mendableai/firecrawl) |
+| **Langflow** | Python | Visual multi-agent & RAG workflows | [🔗](https://github.com/langflow-ai/langflow) |
+| **LlamaIndex** | Python | Document-heavy RAG, retrieval quality | [🔗](https://github.com/run-llama/llama_index) |
+| **Haystack** | Python | Regulated deployments, structured pipelines | [🔗](https://github.com/deepset-ai/haystack) |
 
 #### Cloud Automation
 
@@ -770,6 +790,10 @@ Managed cloud services for building and deploying AI agents at scale.
 | **Google Vertex AI Agent Builder** | Google Cloud | Pay-per-use | Enterprise agents grounded in Google Search and data stores |
 | **Amazon Bedrock Agents** | AWS | Pay-per-use | Serverless agents with knowledge bases and guardrails |
 | **Azure AI Agent Service** | Microsoft Azure | Pay-per-use | Enterprise agents with Azure AI Search and OpenAI integration |
+| **Catalyst** | Inference.net | Free beta | Self-improving models with observe-train-deploy loop |
+| **VoltAgent** | VoltOps | Open source + Cloud | TypeScript framework with VoltOps Console for production |
+| **JAT** | JAT | Free (MIT) | Self-contained agentic IDE for serious developers |
+| **Langflow** | Langflow | Free (OSS) | Visual framework for multi-agent and RAG applications |
 
 ### Desktop Automation 🖥️
 

@@ -8,6 +8,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **IDEs & Editors**: Cursor 3 (agent-first workspace), VS Code Agents Insiders, JAT (unified agentic IDE)
+- **RAG Frameworks**: Langflow 1.9 (MCP support, Flow DevOps Toolkit), enhanced LlamaIndex & Haystack
+- **Agent Platforms**: VoltAgent (TypeScript framework), Catalyst (self-improving models), Langflow
+- **GPU Clouds**: Cerebrium, Together AI, Fireworks AI, Modal Labs, Databricks Mosaic AI, NVIDIA DGX Cloud, Vast.ai
+- **Fine-Tuning**: SERA (open-source coding agent), Axolotl, Unsloth Studio
+- **Developer Tools**: AI Dev Kit (59 skills, 33 agents), enhanced autonomous coding agents
+
+### Changed
+- Updated IDE section with agent-first architectures (Cursor 3, Windsurf, VS Code Agents)
+- Enhanced GPU cloud comparison with serverless options and pricing
+- Expanded RAG framework coverage with production-ready options
+- Added comprehensive fine-tuning platform comparisons
+
+### Added
 - GitHub Actions workflows for automated quality checks:
   - [link-check](.github/workflows/link-check.yml) - Validates external URLs
   - [lint](.github/workflows/lint.yml) - Lints markdown files
