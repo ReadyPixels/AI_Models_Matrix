@@ -14,6 +14,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **GPU Clouds**: Cerebrium, Together AI, Fireworks AI, Modal Labs, Databricks Mosaic AI, NVIDIA DGX Cloud, Vast.ai
 - **Fine-Tuning**: SERA (open-source coding agent), Axolotl, Unsloth Studio
 - **Developer Tools**: AI Dev Kit (59 skills, 33 agents), enhanced autonomous coding agents
+- **New April 28, 2026**: IBM Bob (enterprise AI development partner), OpenAI Privacy Filter (PII detection)
+- **New April 27, 2026**: Logic (spec-driven managed agents), Firefly AI Assistant (creative agent public beta)
+- **New April 22, 2026**: PolyAI ADK (AI-native CX development kit)
+- **New April 21, 2026**: PaleBlueDot TokenRouter (unified AI model access), Osirus AI (unified agent platform)
+- **New April 16, 2026**: GPT-Rosalind (life sciences reasoning model)
+- **New April 26, 2026**: Gemini Enterprise Agent Platform (rebranded Vertex AI)
 
 ### Changed
 - Updated IDE section with agent-first architectures (Cursor 3, Windsurf, VS Code Agents)

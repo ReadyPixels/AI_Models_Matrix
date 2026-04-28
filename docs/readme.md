@@ -360,6 +360,7 @@ Models optimized for step-by-step reasoning, mathematical problem-solving, and c
 | **Gemini 3 Pro** | General/Multimodal | 1M+ | $2 / $12 |
 | **DeepSeek-R1** | Reasoning | 128K | $0.50 / $2.15 |
 | **Claude Sonnet 4.5** | Hybrid | 200K | $3 / $15 |
+| **GPT-Rosalind** | Life Sciences Reasoning | 128K | Pay-per-token (Research Preview) |
 
 #### Use Cases
 
@@ -409,6 +410,7 @@ Models capable of processing and generating multiple types of content: text, ima
 | **Stable Diffusion 3.5** | Stability AI | Community License | Fine-tuning |
 | **GLM-Image** | Zhipu AI (Z.ai) | API | Fast image generation |
 | **CogView-4** | Zhipu AI (Z.ai) | API | Creative image generation |
+| **Firefly AI Assistant** | Adobe | Public Beta (2026-04-27) | Creative agent, 60+ tools, Photoshop/Premiere integration | [🔗](https://blog.adobe.com/en/publish/2026/04/27/firefly-ai-assistant-public-beta) |
 
 ### Hardware Requirements 🖥️
 
@@ -533,6 +535,8 @@ Integrated Development Environments with built-in AI capabilities.
 | **Codex app** | Windows | - | 2026-03-04 00:00 UTC | Included with Codex plans | Multiple agents, isolated worktrees, reviewable diffs, CLI and IDE interop | [🔗](https://github.com/openai/codex) |
 | **Visual Studio** | Windows, macOS | 17.14.12+, 18.1.0+ | 2026-01-06 00:00 UTC | Free / $250/yr | Gemini 3 Flash integration, faster performance, zero-migration upgrades, real-time profiler agent | ❌ |
 | **IntelliJ IDEA** | Windows, macOS, Linux | 2025.3.2 | 2026-01 | Free / $149/yr | Java 24 support, Kotlin K2 mode, performance and memory improvements | ❌ |
+| **IBM Bob** | Cross-platform | GA (April 28, 2026) | 2026-04-28 | Free trial + Enterprise plans | Multi-model orchestration, full SDLC, 45% productivity gain | [🔗](https://newsroom.ibm.com/2026-04-28-introducing-ibm-bob) |
+| **PolyAI ADK** | PolyAI | GA (April 22, 2026) | 2026-04-22 | Enterprise CX | AI-native dev, Cursor/Claude Code integration | [🔗](https://www.prnewswire.com/news-releases/polyai-launches-agent-development-kit-to-bring-ai-native-development-to-enterprise-cx-302749465.html) |
 | **JAT** | Windows, macOS, Linux | - | 2026-04-14 | Free (MIT) | Self-contained agentic IDE, 20+ parallel agents, task management, unified environment | [🔗](https://medevel.com/jat-app/) |
 
 #### Native AI Editors
@@ -654,9 +658,11 @@ Services for accessing AI models via API.
 | **Moonshot AI** | Kimi (kimi-k2.5, kimi-k2-thinking) | Pay-per-token |
 | **ByteDance (Volcengine)** | Doubao | Pay-per-token |
 | **Tencent (Hunyuan)** | Hunyuan | Pay-per-token |
-| **Baidu (ERNIE)** | ERNIE | Pay-per-token |
+| **PaleBlueDot AI** | Unified platform, 100+ models | Token-based pricing |
+| **Osirus AI** | Unified platform + Agent Studio | Free tier + paid plans |
+| **Logic** | Spec-driven managed agents | Free tier + $49/mo |
 | **DeepSeek** | DeepSeek-V4/R1 | Pay-per-token |
-| **Mistral Large 3** | Mistral AI | 128K | 43.9% | — | — | — | $0.50 / $1.50 | 2026-04-26 |
+| **Mistral Large 3** | Mistral AI | 128K | 43.9% | — | — | $0.50 / $1.50 | 2026-04-26 |
 | **xAI** | Grok-4 | Pay-per-token |
 
 #### Unified APIs & Aggregators
@@ -794,6 +800,9 @@ Managed cloud services for building and deploying AI agents at scale.
 | **VoltAgent** | VoltOps | Open source + Cloud | TypeScript framework with VoltOps Console for production |
 | **JAT** | JAT | Free (MIT) | Self-contained agentic IDE for serious developers |
 | **Langflow** | Langflow | Free (OSS) | Visual framework for multi-agent and RAG applications |
+| **Gemini Enterprise Agent Platform** | Google Cloud | Pay-per-use | Rebranded Vertex AI, Agent Studio, unified platform | [🔗](https://time.news/google-unveils-gemini-enterprise-agent-platform-for-autonomous-ai-agents/) |
+| **Osirus AI** | Osirus AI | Free tier + paid plans | Unified platform + Agent Studio + Codex Bridge | [🔗](https://www.globenewswire.com/news-release/2026/04/21/3277622/0/en/Introducing-Osirus-AI-the-Unified-Platform-for-Building-Deploying-and-Managing-Enterprise-AI-Agents.html) |
+| **Logic** | Logic, Inc. | Free tier + $49/mo | Spec-driven fully managed agents, 250+ orgs | [🔗](https://www.prnewswire.com/news-releases/logic-launches-spec-driven-platform-for-fully-managed-ai-agents-302754664.html) |
 
 ### Desktop Automation 🖥️
 
@@ -963,6 +972,7 @@ Tools and frameworks for detecting unsafe content, preventing prompt injection, 
 |------|-----------|------|-------------|---------|----------|--------|
 | Llama Guard 3 | Meta | Safety classifier (8B LLM) | Yes (Meta license) | Free / ~$0.02/1M tokens (API) | Input/output safety classification, 8 languages | [🔗](https://github.com/meta-llama/PurpleLlama) |
 | NeMo Guardrails | NVIDIA | Programmable guardrail toolkit (Colang DSL) | Yes (Apache 2.0) | Free | Dialog safety, policy enforcement, LangChain-native | [🔗](https://github.com/NVIDIA/NeMo-Guardrails) |
+| OpenAI Privacy Filter | OpenAI | PII detection & redaction | Yes (Apache 2.0) | Free (OSS) | Detects & redacts personal info in text | [🔗](https://openai.com/index/introducing-openai-privacy-filter/) |
 | Guardrails AI | Guardrails AI | Python validator framework | Yes | Free (OSS) | Output validation, PII detection, hallucination guards | [🔗](https://github.com/guardrails-ai/guardrails) |
 | Amazon Bedrock Guardrails | AWS | Managed safety layer | No | Pay-per-use (AWS) | AWS-native, zero-ops compliance and content filtering | — |
 | ShieldGemma 2 | Google | Safety classifier (open weights) | Yes (open weights) | Free | Text safety (2B/9B/27B), image safety (4B) | — |
