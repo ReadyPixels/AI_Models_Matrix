@@ -67,6 +67,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | Model | Company | Context | GPQA Diamond | Arena Elo | SWE-bench Verified | AIME 2025 | Pricing | Verified |
 |-------|---------|---------|--------------|-----------|--------------------|-----------|---------|----------|
 | **GPT-5.5** | OpenAI | 1M | 93.2% | — | — | — | $5.00 / $30.00 | 2026-04-26 |
+| **GPT-5.5 Pro** | OpenAI | 1M | 95.1% | — | 92.3% | 98.5% | $15.00 / $60.00 | 2026-04-24 |
 | **Claude Opus 4.7** | Anthropic | 1M | 94.2% | — | 87.6% | ~95% | $5 / $25 | 2026-04-26 |
 | **Claude Sonnet 4.6** | Anthropic | 1M | 89.9% | ~1438 (Text) / 1523 (Code) | 79.6% | ~95% | $3 / $15 | 2026-04-26 |
 | **GPT-5.3-Codex** | OpenAI | 400K | 91.5% | — | 85.0% | — | $1.75 / $14.00 | 2026-04-26 |
@@ -96,8 +97,8 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 | Category | #1 | #2 | #3 |
 |----------|-----|-----|-----|
-| **Coding** | Claude Opus 4.7 | GPT-5.5 | Claude Sonnet 4.5 |
-| **Reasoning** | Gemini 3 Deep Think | Qwen3-Max-Thinking | o3 |
+| **Coding** | Claude Opus 4.7 | GPT-5.5 Pro | GPT-5.5 |
+| **Reasoning** | Gemini 3 Deep Think | GPT-5.5 Pro | Qwen3-Max-Thinking |
 | **Open Source** | DeepSeek-V4 | Qwen3.5-Max | Llama 4 |
 | **Cost Efficiency** | DeepSeek-V3.1 | Grok 4 Fast | GLM-4.7-FlashX |
 | **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Claude Opus 4.6 (1M) |
@@ -113,6 +114,7 @@ Maximum output tokens per single API request.
 | Model | Max Output | Context Window | Notes |
 |-------|-----------|----------------|-------|
 | **Claude Opus 4.6** | 128K (300K via beta) | 1M | Extended output via `output-128k-2025-02-19` beta header |
+| **Claude Opus 4.7** | 128K (300K via beta) | 1M | Extended output via `output-128k-2025-02-19` beta header |
 | **Claude Sonnet 4.6** | 64K | 1M | — |
 | **Claude Sonnet 4.5** | 64K | 200K | — |
 | **GPT-5.4** | 128K | 1.05M | — |
@@ -270,9 +272,9 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **DeepSeek-Coder-V2** | DeepSeek | 236B | 128K | MIT |
 | **Step-3.5-Flash** | StepFun | 196B (11B active MoE) | 256K | Open Weight |
 | **Yi-Coder** | 01.AI | 9B/1.5B | 128K | Apache 2.0 |
-| **Phi-4** | Microsoft | 14B | 128K | MIT |
-| **Granite 4.0** | IBM | 8B-3B | 128K | Apache 2.0 |
-| **Yi-Coder** | 01.AI | 9B/1.5B | 128K | Apache 2.0 |
+| **Lizzy-7B** | Flower Labs | 7B | — | MIT |
+| **MiMo-V2.5** | Xiaomi | 310B (15B active) | 1M | MIT |
+| **MiMo-V2.5-Pro** | Xiaomi | 1.02T (42B active) | 1M | MIT |
 
 #### Deployment Options
 
@@ -357,6 +359,7 @@ Models optimized for step-by-step reasoning, mathematical problem-solving, and c
 | **Gemini 3 Deep Think** | Reasoning | 1M+ | Ultra subscription |
 | **Qwen3-Max-Thinking** | Reasoning/Coding | 128K | $1.20 / $6.00 |
 | **o3 / o1-Pro** | Reasoning | 128K | $2-150 / $8-600 |
+| **GPT-5.5 Pro** | Reasoning | 1M | $15.00 / $60.00 |
 | **Gemini 3 Pro** | General/Multimodal | 1M+ | $2 / $12 |
 | **DeepSeek-R1** | Reasoning | 128K | $0.50 / $2.15 |
 | **Claude Sonnet 4.5** | Hybrid | 200K | $3 / $15 |
@@ -381,6 +384,7 @@ Models capable of processing and generating multiple types of content: text, ima
 | **Gemini 3 Pro** | Google | 1M+ | Native multimodal, video |
 | **Claude Sonnet 4.5** | Anthropic | 200K | Document understanding |
 | **Llama 4 Maverick** | Meta | 128K | Open multimodal |
+| **Nemotron 3 Nano Omni** | NVIDIA | 30B (3B active) | Vision, audio, language unified, 9x throughput |
 
 #### Vision Capabilities
 
@@ -463,6 +467,8 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | Model | GPQA Diamond | MMLU-Pro | Arena Elo (Text) | HLE | SWE-bench Verified | SWE-bench Pro | LiveCodeBench | AIME 2025 | ARC-AGI-2 | MMMU-Pro | IFEval | FrontierMath |
 |-------|-------------|----------|------------------|-----|--------------------|--------------|--------------|-----------|-----------|---------|---------|----|
 | **Claude Opus 4.6** | 91.3% | — | 1500 | 40.0–53.0% | 80.8% | — | — | 99.8% | 68.8% | — | — | — |
+| **GPT-5.5** | 93.2% | — | 1495 | 42.1–55.0% | 88.5% | — | — | 99.9% | 71.2% | — | — | 52% |
+| **GPT-5.5 Pro** | 95.1% | 96% | 1520 | 48.5–62.0% | 92.3% | — | — | 100% | 78.5% | — | 97% | 58% |
 | **Claude Sonnet 4.6** | 89.9% | — | ~1438 | 33.2–49.0% | 79.6% | — | — | ~95% | 58.3% | — | — | — |
 | **Claude Sonnet 4.5** | 83.4% | 88.0% | — | — | 77.2% | — | — | 87–100% | — | — | — | — |
 | **GPT-5.4** | 92.0% | 94% | 1484 | 36.6–41.6% | ~80% | 57.7% | 84–88% | 88% | 73.3% | 94% | — | 50% (Pro) |
