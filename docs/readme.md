@@ -6,16 +6,15 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--04--26%2001%3A37%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--04--30%2023%3A14%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources.
 
-Document Version: 2.4
-Last Updated: 2026-04-26 01:37 UTC
+Document Version: 2.8
+Last Updated: 2026-04-30 23:14 UTC
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
 
 ## Contents
-
 - [Models 🧠](#models-)
   - [Frontier Models 🚀](#frontier-models-)
   - [Model Specifications 📋](#model-specifications-)
@@ -155,7 +154,7 @@ Discounted pricing tiers for high-volume usage. All prices in USD per million to
 | **Gemini 3.1 Pro** | $2.00 | $0.20–$0.40 + $4.50/hr storage | 50% off | Tiered by input length |
 | **Gemini 3 Flash** | $0.50 | $0.05 + $1.00/hr storage | 50% off | — |
 | **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
-| **DeepSeek-V4** | $0.30 | $0.03 (90% off) | Off-peak 50% off | 11PM–7AM Beijing time |
+| **DeepSeek-V4** | $0.30 | $0.03 (90% off) | Off-peak 50% off | 75% discount until 2026-05-05: ~$0.035 in |
 | **DeepSeek-V3.2** | $0.28 | $0.028 | — | No formal batch API |
 | **Qwen3.5-Max** | $0.40 | Available | 50% off | — |
 | **GLM-5 / GLM-5.1** | $1.00 | $0.20 | — | — |
@@ -253,26 +252,32 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 
 | Model | Company | Params | Context | License |
 |-------|---------|--------|---------|---------|
-| **DeepSeek-V4** | DeepSeek | 1M | — | — | — | — | $0.30 / $0.50 | 2026-04-26 |
-| **Qwen3.5-Max** | Alibaba | 1T+ | 128K | Apache 2.0 |
+| **DeepSeek-V4** | DeepSeek | 1.6T / 49B active (MoE) | 1M | Open Weight |
+| **Qwen3.5-Max** | Alibaba | 397B / 17B active (MoE) | 262K | Apache 2.0 |
 | **Qwen3-Max-Thinking** | Alibaba | 1T+ | 128K | Apache 2.0 |
-| **Mistral Large 3** | Mistral AI | 128K | 43.9% | — | — | — | $0.50 / $1.50 | 2026-04-26 |
+| **Qwen3.6-27B** | Alibaba | 27B dense | 262K | Apache 2.0 |
+| **Qwen3.5-122B** | Alibaba | 397B / 17B active (MoE) | 262K | Apache 2.0 |
+| **Qwen3.5-27B** | Alibaba | 27B dense | 262K | Apache 2.0 |
+| **Mistral Large 3** | Mistral AI | 123B | 128K | Apache 2.0 |
 | **Llama 4 Scout** | Meta | 109B | 10M | Community |
 | **Llama 4 Maverick** | Meta | 400B | 128K | Community |
 | **GPT-OSS-120B** | OpenAI | 117B | 128K | Apache 2.0 |
 | **GPT-OSS-20B** | OpenAI | 21B | 128K | Apache 2.0 |
-| **Qwen3-Coder** | Alibaba | 480B | 128K | Apache 2.0 |
-| **GLM-5.1** | Zhipu AI | 744B (40B active MoE) | 200K | MIT |
-| **GLM-4.7** | Zhipu AI | 400B+ MoE | 128K | Open Weight |
-| **Qwen3.6-27B** | Alibaba | 27B | — | Apache 2.0 |
-| **Phi-4** | Microsoft | 14B | 128K | MIT |
-| **Granite 4.0** | IBM | 8B-3B | 128K | Apache 2.0 |
-| **DeepSeek-Coder-V2** | DeepSeek | 236B | 128K | MIT |
-| **Step-3.5-Flash** | StepFun | 196B (11B active MoE) | 256K | Open Weight |
+| **Qwen3-Coder** | Alibaba | 480B | 262K | Apache 2.0 |
+| **GLM-5.1** | Zhipu AI | 754B / 40B active (MoE) | 200K | MIT |
+| **GLM-4.7** | Zhipu AI | 400B+ MoE | 205K | Open Weight |
+| **Gemma 4 31B** | Google | 31B dense | 256K | Apache 2.0 |
+| **Gemma 4 27B** | Google | 27B MoE (4B active) | 256K | Apache 2.0 |
+| **Gemma 4 E4B** | Google | 4B dense | 256K | Apache 2.0 |
+| **Gemma 4 E2B** | Google | 2B dense | 256K | Apache 2.0 |
+| **Qwen3-Coder 7B** | Alibaba | 7B dense | 128K | Apache 2.0 |
+| **Qwen 2.5 Coder 32B** | Alibaba | 32B dense | 128K | Apache 2.0 |
+| **DeepSeek Coder-V2** | DeepSeek | 236B / 2.4B active | 128K | MIT |
+| **Step-3.5-flash** | StepFun | 196B / 11B active (MoE) | 256K | Open Weight |
 | **Yi-Coder** | 01.AI | 9B/1.5B | 128K | Apache 2.0 |
 | **Lizzy-7B** | Flower Labs | 7B | — | MIT |
-| **MiMo-V2.5** | Xiaomi | 310B (15B active) | 1M | MIT |
-| **MiMo-V2.5-Pro** | Xiaomi | 1.02T (42B active) | 1M | MIT |
+| **MiMo-V2.5** | Xiaomi | 309B / 15B active | 262K | MIT |
+| **MiMo-V2.5-Pro** | Xiaomi | 1.02T / 42B active | 1M | MIT |
 | **Lizzy-7B** | Flower Labs | 7B | — | MIT |
 | **MiMo-V2.5** | Xiaomi | 310B (15B active) | 1M | MIT |
 | **MiMo-V2.5-Pro** | Xiaomi | 1.02T (42B active) | 1M | MIT |
@@ -577,6 +582,7 @@ Integrated Development Environments with built-in AI capabilities.
 | **v0** | Web | - | - | Free ($5 credits/mo), Premium $20/mo, Teams $30/user | ❌ | React components | ❌ |
 | **Gitpod** | Web | - | - | Free + Paid | ❌ | Cloud dev environments | ❌ |
 | **Rork** | Web | - | - | Free & Paid (credits) | ❌ | Mobile apps (iOS/Android) | ❌ |
+| **Google Stitch** | Web | - | 2026-03 | Free (Google account, 550 gen/mo) | ❌ | UI design, Figma/React export | ❌ |
 | **Google Antigravity** | Web | - | - | Google AI Pro / Ultra | Agent-first development with Gemini-powered coding | ❌ |
 | **Jules** | Web | - | 2025-05-20 00:00 UTC | Free beta, higher limits on Google AI Pro / Ultra | Async repo agent, reviewable diffs, GitHub integration | ❌ |
 
@@ -589,14 +595,15 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 | Tool | Platform | Pricing | Key Features | GitHub |
 |------|----------|---------|--------------|--------|
 | **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode, thinking tokens | [🔗](https://github.com/Aider-AI/aider) |
-| **Claude Code 2.1+** | macOS, Linux, Windows | Free + API | Fast mode for Opus 4.6, simple mode file editing, Unicode fix | [🔗](https://github.com/anthropics/claude-code) |
+| **Claude Code 2.1+** | macOS, Linux, Windows | Free + API | Fast mode for Opus 4.6, simple mode file editing | [🔗](https://github.com/anthropics/claude-code) |
 | **Codex CLI** | Windows, macOS, Linux | Included | Sandbox, approval modes | [🔗](https://github.com/openai/codex) |
+| **Junie CLI** | Windows, macOS, Linux | Free (BYOK) | LLM-agnostic, JetBrains IDE integration, MCP | [🔗](https://www.jetbrains.com/junie) |
 | **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible, desktop app, 25+ providers | [🔗](https://github.com/block/goose) |
 | **GPT-Pilot** | Windows, macOS, Linux | Free | Full dev team simulation | [🔗](https://github.com/Pythagora-io/gpt-pilot) |
 | **OpenHands** | Windows, macOS, Linux | Free | Cloud agents, MCP | [🔗](https://github.com/OpenHands/OpenHands) |
 | **Mentat** | Windows, macOS, Linux | Free | Multi-file coordination | [🔗](https://github.com/AbanteAI/mentat) |
-| **SERA** | Linux, macOS | Free (Apache 2.0) | Open-source coding agent, 200K synthetic trajectories, vLLM deployment | [🔗](https://github.com/Ai2Labs/SERA) |
-| **AI Dev Kit** | Cross-platform | Free | 59 skills, 33 agents, TDD, security audit, CI/CD, ML pipelines | [🔗](https://github.com/noah-sheldon/ai-dev-kit) |
+| **SERA** | Linux, macOS | Free (Apache 2.0) | Open-source coding agent, 200K synthetic trajectories | [🔗](https://github.com/Ai2Labs/SERA) |
+| **AI Dev Kit** | Cross-platform | Free | 59 skills, 33 agents, TDD, security audit, CI/CD | [🔗](https://github.com/noah-sheldon/ai-dev-kit) |
 
 #### Assisted CLI Tools
 
@@ -628,6 +635,7 @@ Extensions and plugins that add AI capabilities to existing IDEs.
 | **Continue** | VS Code, JetBrains | Free (OSS) | Custom | Self-hosted | [🔗](https://github.com/continuedev/continue) |
 | **Cody** | VS Code, JetBrains, Web | Free (discontinued) / Enterprise Starter $19/mo / Enterprise $59/mo | Enterprise | Code search | [🔗](https://github.com/sourcegraph/cody-vs) |
 | **Tabnine** | VS Code, JetBrains, VS, Eclipse | Free / $39/mo | Local | Privacy | ❌ |
+| **Tabby** | VS Code, JetBrains, Vim, Neovim | Free (OSS) | Self-hosted | Self-hosted code completion | [🔗](https://github.com/TabbyML/tabby) |
 
 #### VS Code Specific
 
@@ -656,20 +664,22 @@ Services for accessing AI models via API.
 |----------|--------|---------|
 | **OpenAI** | GPT-5.4, GPT-5.4 mini, GPT-5.4 nano, o3, Codex | Pay-per-token |
 | **Anthropic** | Claude Opus 4.6, Sonnet 4.6, Haiku 4.5 | Pay-per-token |
-| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
-| **Z.ai (Zhipu AI)** | GLM-5, GLM-5-Code, GLM-4.7 | Pay-per-token |
-| **MiniMax** | MiniMax-M2.5/M2.1/M2 | Pay-per-token |
+| **Alibaba Cloud** | Qwen3.5-Max, Qwen3-Coder, Qwen3.6-27B | Pay-per-token / Coding Plan $50/mo |
+| **Gemini (Google)** | Gemini 3.1 Pro, 3 Pro, 3 Flash | Pay-per-token |
+| **Z.ai (Zhipu AI)** | GLM-5, GLM-5.1, GLM-4.7, GLM-5-Code | Pay-per-token |
+| **MiniMax** | MiniMax-M2.5/M2.7/M2 | Pay-per-token |
 | **Cohere** | Command, Embed, Rerank | Pay-per-token |
 | **AI21 Labs** | Jamba | Pay-per-token |
 | **Perplexity** | Sonar / Sonar Pro / Sonar Reasoning Pro | Pay-per-token + request fees |
 | **Moonshot AI** | Kimi (kimi-k2.5, kimi-k2-thinking) | Pay-per-token |
-| **ByteDance (Volcengine)** | Doubao | Pay-per-token |
-| **Tencent (Hunyuan)** | Hunyuan | Pay-per-token |
+| **ByteDance (Volcengine)** | Doubao, Seed 1.6/2.0 | Pay-per-token |
+| **Tencent (Hunyuan)** | Hunyuan, Hunyuan-a13b | Pay-per-token |
+| **StepFun** | Step-3.5-Flash, Step-3.5 | Pay-per-token (OpenRouter free) |
 | **PaleBlueDot AI** | Unified platform, 100+ models | Token-based pricing |
 | **Osirus AI** | Unified platform + Agent Studio | Free tier + paid plans |
 | **Logic** | Spec-driven managed agents | Free tier + $49/mo |
 | **DeepSeek** | DeepSeek-V4/R1 | Pay-per-token |
-| **Mistral Large 3** | Mistral AI | 128K | 43.9% | — | — | $0.50 / $1.50 | 2026-04-26 |
+| **Mistral AI** | Mistral Large 3, Codestral | Pay-per-token |
 | **xAI** | Grok-4 | Pay-per-token |
 
 #### Unified APIs & Aggregators
@@ -684,9 +694,10 @@ Services for accessing AI models via API.
 | Provider | Specialization | Speed |
 |----------|----------------|-------|
 | **Together AI** | Llama/Qwen/Mistral | Fast |
-| **Fireworks AI** | FireAttention | Low-latency |
+| **Fireworks AI** | FireAttention | Low-latency, 6 free models |
 | **Groq** | LPU | >500 T/s |
 | **Cerebras** | Wafer-Scale | >2000 T/s |
+| **NVIDIA NIM** | 91 free endpoints, DGX Cloud | 20× faster than NVIDIA GPU |
 
 #### GPU Clouds
 
@@ -719,39 +730,45 @@ Tools and frameworks for AI-powered browser automation.
 
 | Browser | Pricing | Open Source | Local AI | Best For | GitHub |
 |---------|---------|-------------|----------|----------|--------|
-| **Sigma AI Browser** | Freemium (Free + Pro $9.99/mo) | ❌ | ✅ | Offline AI, agentic browsing | ❌ |
+| **Manus AI** | Freemium (Free 300 daily credits, $20–$200/mo) | ❌ | ❌ | Cloud agent, code + deploy + files | ❌ |
+| **Sigma AI Browser** | Freemium (Free + Pro $29/mo) | ❌ | ✅ | Offline AI, agentic browsing | ❌ |
 | **ChatGPT Atlas** | Free (with ChatGPT subscription) | ❌ | ❌ | OpenAI integration, macOS | [🔗](https://github.com/ComposioHQ/open-chatgpt-atlas) |
-| **Genspark** | Freemium (Free + Plus $19.99/mo + Pro $249/mo) | ❌ | ❌ | AI Super Agent, research | ❌ |
-| **BrowserOS** | Free | ✅ | ✅ | Privacy-focused | [🔗](https://github.com/browseros-ai/BrowserOS) |
-| **Brave Leo** | Freemium (Free + Premium) | ❌ | ⚠️ (Experimental) | Privacy-focused AI | ❌ |
-| **Fellou** | Freemium (Free for 4 tasks, $19/mo Pro) | ❌ | ❌ | True agentic browser | [🔗](https://github.com/FellouAI/eko) |
-| **Perplexity Comet** | Free (with Pro $20/mo) or $5/mo Standalone | ❌ | ❌ | Research | ❌ |
-| **Dia** | Freemium (Free limited, $20/mo Pro, Dia+ $50/mo) | ❌ | ❌ | Arc replacement | ❌ |
-| **Opera Neon** | $19.90/mo | ❌ | ❌ | Agentic browsing | ❌ |
+| **Genspark** | Freemium (Free + Plus $25/mo) | ❌ | ✅ | Local model download, offline fallback | ❌ |
+| **BrowserOS** | Free | ✅ | ✅ | Privacy-focused, built-in MCP | [🔗](https://github.com/browseros-ai/BrowserOS) |
+| **Brave Leo** | Freemium (Free + Premium $14.99/mo) | ❌ | ⚠️ (OSS via cloud) | Privacy-first, zero-log | ❌ |
+| **Fellou** | Freemium (Free 4 tasks, $20/mo Pro) | ❌ | ❌ | Complex multi-step automation | [🔗](https://github.com/FellouAI/eko) |
+| **Perplexity Comet** | Free (with Pro $20/mo) | ❌ | ❌ | Research, limited agent | ❌ |
+| **Dia** | Freemium (Free limited, $20/mo Pro) | ❌ | ❌ | Mac M1+ only, tab intelligence | ❌ |
+| **Opera Neon** | $19.90/mo | ❌ | ❌ | Agentic browsing, Aria assistant | ❌ |
 | **Opera One (Aria)** | Free | ❌ | ❌ | Built-in AI assistant | ❌ |
 | **Edge Copilot** | Free (Copilot Pro $20/mo) | ❌ | ❌ | Enterprise AI browser | ❌ |
 | **BrowserGPT** | Freemium (Free + Premium) | ❌ | ❌ | Mobile-first AI browser (iOS/Android) | ❌ |
 | **Arc Max** | Free | ❌ | ❌ | AI-enhanced browsing, macOS | ❌ |
-| **AnythingLLM** | Free (OSS) | ✅ | ✅ | All-in-one desktop AI, document chat, local models | [🔗](https://github.com/Mintplex-Labs/anything-llm) |
+| **AnythingLLM** | Free (OSS) | ✅ | ✅ | All-in-one desktop AI, document chat | [🔗](https://github.com/Mintplex-Labs/anything-llm) |
 
 #### Browser Extensions
 
 | Extension | Pricing | Free | Multi-Agent | Best For | GitHub |
 |-----------|---------|------|-------------|----------|--------|
+| **Monica.im** | Freemium (Free + ~$9/mo) | ❌ | ✅ | Chrome extension, no browser switch | ❌ |
 | **Harpa AI** | Free | ✅ | ❌ | Automation recipes | [🔗](https://github.com/wvkv/harpa) |
 | **MultiOn** | Free/Paid | ⚠️ | ✅ | Complex tasks | [🔗](https://github.com/tmc/multion-api) |
-| **NanoBrowser** | Free | ✅ | ✅ | Local control | [🔗](https://github.com/nanobrowser/nanobrowser) |
+| **NanoBrowser** | Free | ✅ | ✅ | Local control, Ollama | [🔗](https://github.com/nanobrowser/nanobrowser) |
 | **Neobrowser** | Free (OSS) | ✅ | ❌ | Local LLMs via Ollama, privacy-first, Chrome/Edge | ❌ |
 
 #### Developer Libraries
 
 | Library | Language | Best For | GitHub |
 |---------|----------|----------|--------|
-| **Browser-use** | Python | Agentic automation | [🔗](https://github.com/browser-use/browser-use) |
-| **Stagehand** | TypeScript | Web apps | [🔗](https://github.com/browserbase/stagehand) |
+| **Chrome DevTools MCP** | TypeScript | AI web debugging, 29 DevTools | [🔗](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
+| **Cloudflare Browser Run** | Cloud API | CDP + MCP, WebMCP, Live View | [🔗](https://developers.cloudflare.com/browser-run) |
+| **Browser-use** | Python | Agentic automation, Workflow Use | [🔗](https://github.com/browser-use/browser-use) |
+| **Stagehand** | TypeScript/Python | Hybrid deterministic + AI, action caching | [🔗](https://github.com/browserbase/stagehand) |
 | **LaVague** | Python | NL to code | [🔗](https://github.com/lavague-ai/LaVague) |
-| **Skyvern** | Python | CV-based automation | [🔗](https://github.com/Skyvern-AI/skyvern) |
-| **Firecrawl** | Python / CLI | LLM-powered crawling & scraping with prompt chaining | [🔗](https://github.com/mendableai/firecrawl) |
+| **Skyvern** | Python | CV-based automation, Ollama support | [🔗](https://github.com/Skyvern-AI/skyvern) |
+| **Notte** | Python/Cloud | Deterministic replay, demo→script | [🔗](https://docs.notte.cc) |
+| **Firecrawl** | Python / CLI | LLM-powered crawling & scraping | [🔗](https://github.com/mendableai/firecrawl) |
+| **Playwright MCP** | TypeScript | Cross-browser automation, VS Code | [🔗](https://github.com/microsoft/playwright-mcp) |
 | **Langflow** | Python | Visual multi-agent & RAG workflows | [🔗](https://github.com/langflow-ai/langflow) |
 | **LlamaIndex** | Python | Document-heavy RAG, retrieval quality | [🔗](https://github.com/run-llama/llama_index) |
 | **Haystack** | Python | Regulated deployments, structured pipelines | [🔗](https://github.com/deepset-ai/haystack) |
