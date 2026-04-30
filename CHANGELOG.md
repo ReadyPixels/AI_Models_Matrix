@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **New April 16, 2026**: GPT-Rosalind (life sciences reasoning model)
 - **New April 26, 2026**: Gemini Enterprise Agent Platform (rebranded Vertex AI)
 - **New April 29, 2026**: GPT-5.5 Pro, Nemotron 3 Nano Omni, Lizzy-7B, MiMo-V2.5/Pro
+- **New April 30, 2026**: Chrome DevTools MCP, Cloudflare Browser Run, comprehensive vibe coding tools guide
 
 ### Changed
 - Updated IDE section with agent-first architectures (Cursor 3, Windsurf, VS Code Agents)
@@ -30,6 +31,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated Frontier Models with GPT-5.5 Pro and Claude Opus 4.7
 - Added new multimodal model: Nemotron 3 Nano Omni
 - Updated benchmark tables with latest model scores
+- Added Free Models & APIs for Vibe Coding section
+- Updated open-source models section with Lizzy-7B, MiMo-V2.5/Pro
 
 ### Added
 - GitHub Actions workflows for automated quality checks:

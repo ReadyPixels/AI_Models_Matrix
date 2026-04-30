@@ -247,7 +247,7 @@ All frontier models support structured JSON output and function/tool calling exc
 | **StepFun** | Global | HuggingFace | Apache 2.0 open-source |
 
 
-### Open-Source Models 🆓
+### Free-Source Models 🆓
 
 Self-hostable models with permissive licenses or open weights for privacy, cost control, and customization.
 
@@ -261,8 +261,6 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **Llama 4 Maverick** | Meta | 400B | 128K | Community |
 | **GPT-OSS-120B** | OpenAI | 117B | 128K | Apache 2.0 |
 | **GPT-OSS-20B** | OpenAI | 21B | 128K | Apache 2.0 |
-| **GPT-OSS-120B** | OpenAI | 117B | 128K | Apache 2.0 |
-| **GPT-OSS-20B** | OpenAI | 21B | 128K | Apache 2.0 |
 | **Qwen3-Coder** | Alibaba | 480B | 128K | Apache 2.0 |
 | **GLM-5.1** | Zhipu AI | 744B (40B active MoE) | 200K | MIT |
 | **GLM-4.7** | Zhipu AI | 400B+ MoE | 128K | Open Weight |
@@ -272,6 +270,9 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **DeepSeek-Coder-V2** | DeepSeek | 236B | 128K | MIT |
 | **Step-3.5-Flash** | StepFun | 196B (11B active MoE) | 256K | Open Weight |
 | **Yi-Coder** | 01.AI | 9B/1.5B | 128K | Apache 2.0 |
+| **Lizzy-7B** | Flower Labs | 7B | — | MIT |
+| **MiMo-V2.5** | Xiaomi | 310B (15B active) | 1M | MIT |
+| **MiMo-V2.5-Pro** | Xiaomi | 1.02T (42B active) | 1M | MIT |
 | **Lizzy-7B** | Flower Labs | 7B | — | MIT |
 | **MiMo-V2.5** | Xiaomi | 310B (15B active) | 1M | MIT |
 | **MiMo-V2.5-Pro** | Xiaomi | 1.02T (42B active) | 1M | MIT |
@@ -1130,30 +1131,66 @@ A beginner-friendly introduction to AI models and how to start using them effect
 | **Long docs** | Llama 4 Scout | Gemini 3 Flash |
 | **Vision** | Llama 4 Maverick | GPT-5.4, Gemini 3 Pro |
 
-### Model Selection Guide 🎯
+### Free Models & APIs for Vibe Coding 💻
 
-A comprehensive guide to choosing the right AI model for your specific needs.
+Vibe coding — describing what you want in natural language and letting AI generate the code — has exploded in 2026. The ecosystem splits into two tracks: **free AI APIs** you plug into your own editor/agent, and **free vibe coding IDEs/platforms** that bundle everything together.
 
-#### Quick Decision Tree
+#### Free AI APIs for Coding
 
-| Need | 🆓 Free / Self-Host | 💎 Best Quality | ⚡ Fast / Autonomous |
-|------|---------------------|----------------|----------------------|
-| 💻 Coding | DeepSeek-Coder-V2 | Claude Opus 4.6 | GPT-5.3-Codex |
-| 🧠 Reasoning / Math | DeepSeek-R1 | Gemini 3 Deep Think | o3 |
-| 💬 General Chat | Llama 4 (self-hosted) | GPT-5.4, Claude Opus 4.6 | Gemini 3 Flash |
-| 🎨 Vision | Llama 4 Maverick | GPT-5.4, Gemini 3.1 Pro | Gemini 3 Flash |
-| 🖥️ Self-Hosting | Phi-4 | DeepSeek-V4 | vLLM / SGLang (serving) |
+These are the raw API endpoints you can use in tools like Cursor (BYOK), Cline, or any agent framework.
 
-#### By Budget
+| Provider | Free Models | Daily Limit | Best For |
+|----------|-------------|-------------|----------|
+| **Google Gemini API** | Gemini 2.5 Pro (100 req/day), Gemini 2.5 Flash (250 req/day), Gemini 2.5 Flash-Lite (1,000 req/day) | Per-project limits | Prototyping, large context (1M tokens), multimodal |
+| **Groq Cloud** | Llama 4 Scout, DeepSeek R1, Qwen3, GPT-OSS | ~1,000-14,400 req/day | Fast iteration, agentic workflows |
+| **OpenRouter** | 28+ free models including Qwen3 Coder 480B, Devstral 2, MiMo-V2-Flash, DeepSeek R1, GPT-OSS 120B, Llama 3.3 70B | Varies by model | Experimenting with many models |
+| **Cerebras** | Llama 3.3 70B, Qwen3 32B/235B, GPT-OSS 120B | 1M tokens/day | Batch tasks, raw speed (20× faster than GPUs) |
+| **Mistral AI** | Codestral-2508, Devstral, Mistral Large, Pixtral | 1B tokens/month | Code completion, FIM tasks |
+| **NVIDIA NIM** | 91 free endpoints including Chinese models | Varies | Production inference on DGX Cloud |
 
-| Budget | Options |
-|--------|---------|
-| **Free** | Self-hosted (Llama 4, Qwen3, Mistral) |
-| **$0-10/mo** | API entry tiers, Gemini Flash |
-| **$10-50/mo** | Copilot, Claude API, GPT-5 API |
-| **$50+/mo** | Heavy usage, multiple models |
+#### Free Vibe Coding IDEs & Platforms
 
-### Self-Hosting Guide 🖥️
+| Tool | Type | Key Features | Best For |
+|-------|------|--------------|----------|
+| **Cursor** | AI IDE | Agent Mode, Composer 2, multi-agent workspace | Professional development |
+| **Cline** | VS Code Extension | Open-source, BYOK/Ollama, MCP tools | Self-hosted, unlimited local LLM |
+| **Windsurf** | AI IDE | Cascade agent, live browser preview | IDE with browser integration |
+| **OpenHands** | Docker Agent | Self-hosted, local LLM support, full SDLC | Unlimited local development |
+| **bolt.diy** | Browser IDE | 19+ LLM providers, Ollama, full-stack apps | Free web app building |
+| **Open Interpreter** | CLI | Natural language → code, local LLM | Simple local automation |
+
+#### Chrome DevTools MCP - Game Changer for Web Dev
+
+Google's **Chrome DevTools MCP** connects AI agents directly to Chrome for debugging, profiling, and automation:
+- 29 tools across 6 categories (input, navigation, emulation, performance, network, debugging)
+- Run Lighthouse audits, capture performance traces, inspect network requests
+- Works with Claude Code, Cursor, Copilot via MCP
+- Supports BYOK/local LLMs through MCP clients
+- [GitHub](https://github.com/mcp/chromedevtools) | 37,783+ stars
+
+#### Cloudflare Browser Run
+
+Managed browser infrastructure for AI agents:
+- Chrome DevTools Protocol (CDP) direct endpoint
+- MCP client support (Claude, Cursor, OpenCode)
+- Session recordings, Live View, WebMCP
+- Free Workers plan / $5+/mo paid
+- [Browser Run](https://developers.cloudflare.com/browser-run/)
+
+#### Recommendations by Use Case
+
+**Free + Local LLM:** Cline + Ollama, OpenHands + Qwen3 Coder, bolt.diy + Ollama
+
+**Fast API Iteration:** Groq (speed) + Cerebras (high limits)
+
+**Web Development:** Chrome DevTools MCP + Cline (zero-cost debugging)
+
+**Many Models:** OpenRouter (unified API)
+
+**Production Inference:** NVIDIA NIM, Cerebras
+
+> 💡 **Pro Tip:** Combine Chrome DevTools MCP with a local LLM (Ollama) via Cline for completely free, unlimited AI-powered web development and debugging.
+
 
 A comprehensive guide to running AI models on your own hardware.
 
