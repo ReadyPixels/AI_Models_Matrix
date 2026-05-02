@@ -5,6 +5,37 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2026-05-02] - May 2026 Models & Tools Update (v2.9)
+
+### Added
+- **Coding Benchmarks**: Added SWE-bench Verified percentages to Coding leaderboard (Claude Opus 4.7: 87.6%, GPT-5.5 Pro: 92.3%, GPT-5.3-Codex: 85.0%)
+- **New Model**: Devstral (Mistral AI, 24B dense, Apache 2.0, 128K context)
+- **Commercial Coding Models**: GPT-5.5 Pro ($15/$60 per 1M, 92.3% SWE-bench), Devstral (Free via OpenRouter)
+- **CLI Tools**: New "CLI for Programming Languages & Multiple Use" section with 12 tools (OpenHands, Continue, Mentat, AI Dev Kit, SERA, Devstral CLI, etc.)
+- **Assisted CLI Tools**: OpenCode CLI (anomalyco, multi-provider, MCP support)
+- **Terminal Enhancers**: Starship (cross-shell prompt with AI plugin support)
+- **Updated Model**: Kimi K2.5 → Kimi K2.6 throughout documentation
+
+### Changed
+- Document version 2.8 → 2.9, Last Updated to 2026-05-02 22:10 UTC
+- **SWE-bench Rankings**: Reordered with GPT-5.5 Pro (#6, 92.3%), GPT-5.3-Codex (#4, 85.0%), Kimi K2.6 (#12, 76.8%)
+- **Output Tokens**: Fixed missing output token values for Gemini 3.1 Flash-Lite (32K), DeepSeek-V4 (8K), Mistral Large 3 (128K)
+- **Speed & Latency**: Added TTFT and output speed for Gemini 3.1 Flash-Lite (~250 tok/s, ~2.1s)
+- **Knowledge Cutoff**: Added dates for Gemini 3.1 Flash-Lite (Jan 2025), Mistral Large 3
+- **Supported Languages**: Added language counts for Gemini 3.1 Flash-Lite (100), Kimi K2.6
+- **Pricing Tables**: Corrected Mistral Large 3 ($0.50/$1.50), Gemini 3.1 Flash-Lite ($0.25/$1.50)
+- **Claude Code**: Updated features (computer use CLI, `/autofix-pr`, plan mode, sub-agents, CLAUDE.md skills, Opus 4.7 support)
+- **Gemini CLI**: Added v0.40.0 features (offline search, bundled ripgrep, interactive shell, A2A agent registry), security note (CVSS 10.0 RCE patched in v0.39.1)
+- **API Providers**: Updated Moonshot AI (Kimi K2.6)
+- **Cost Analysis**: Added Budget tier ($0.20-$0.60/1M), updated Mid-range with Kimi K2.6
+- **Sorting Tables**: Updated model names (Kimi K2.6, Mistral Large 3, Gemini 3.1 Flash-Lite)
+- **Data Sources**: Added Google Gemini 3.1 Flash-Lite pricing source
+
+### Sources
+- Official provider documentation (Anthropic, OpenAI, Google, Mistral AI, Moonshot AI)
+- SWE-bench Verified benchmark results
+- Model card updates and release notes
+
 ## [Unreleased]
 
 ### Added

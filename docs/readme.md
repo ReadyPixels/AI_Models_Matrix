@@ -6,12 +6,12 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--04--30%2023%3A14%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--02%2022%3A10%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources.
 
-Document Version: 2.8
-Last Updated: 2026-04-30 23:14 UTC
+Document Version: 2.9
+Last Updated: 2026-05-02 22:10 UTC
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
 
 ## Contents
@@ -96,7 +96,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 | Category | #1 | #2 | #3 |
 |----------|-----|-----|-----|
-| **Coding** | Claude Opus 4.7 | GPT-5.5 Pro | GPT-5.5 |
+| **Coding** | Claude Opus 4.7 (87.6%) | GPT-5.5 Pro (92.3%) | GPT-5.3-Codex (85.0%) |
 | **Reasoning** | Gemini 3 Deep Think | GPT-5.5 Pro | Qwen3-Max-Thinking |
 | **Open Source** | DeepSeek-V4 | Qwen3.5-Max | Llama 4 |
 | **Cost Efficiency** | DeepSeek-V3.1 | Grok 4 Fast | GLM-4.7-FlashX |
@@ -123,18 +123,18 @@ Maximum output tokens per single API request.
 | **Gemini 3.1 Pro** | 64K | 1M | — |
 | **Gemini 3 Pro** | 64K | 2M | — |
 | **Gemini 3 Flash** | 64K | 1M | — |
-| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
-| **DeepSeek-V4** | DeepSeek | 1M | — | — | — | — | $0.30 / $0.50 | 2026-04-26 |
+| **Gemini 3.1 Flash-Lite** | 32K | 1M | — |
+| **DeepSeek-V4** | 8K | 1M | — |
 | **DeepSeek-V3.2** | 8K / 64K (reasoner) | 128K | Reasoner mode unlocks 64K output |
 | **Qwen3.5-Max** | 65K | 1M | — |
 | **GLM-5** | 128K | 200K | — |
 | **GLM-5.1** | 131K | 200K | — |
 | **MiniMax-M2.5** | 131K | 1M | — |
-| **Kimi K2.5** | — | 256K | Not publicly specified |
+| **Kimi K2.6** | — | 256K | Not publicly specified |
 | **Step-3.5-Flash** | 66K | 256K | — |
 | **Grok 4** | — | 256K | Not publicly specified |
 | **Grok 4 Fast** | 30K | 2M | — |
-| **Mistral Large 3** | Mistral AI | 128K | 43.9% | — | — | — | $0.50 / $1.50 | 2026-04-26 |
+| **Mistral Large 3** | 128K | 128K | — |
 | **Llama 4 Scout** | 16K | 10M | — |
 | **Llama 4 Maverick** | 16K | 1M | — |
 
@@ -153,14 +153,14 @@ Discounted pricing tiers for high-volume usage. All prices in USD per million to
 | **GPT-5.3-Codex** | $1.75 | $0.175 | 50% off | — |
 | **Gemini 3.1 Pro** | $2.00 | $0.20–$0.40 + $4.50/hr storage | 50% off | Tiered by input length |
 | **Gemini 3 Flash** | $0.50 | $0.05 + $1.00/hr storage | 50% off | — |
-| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
+| **Gemini 3.1 Flash-Lite** | $0.25 | $0.025 + $0.50/hr storage | 50% off | — |
 | **DeepSeek-V4** | $0.30 | $0.03 (90% off) | Off-peak 50% off | 75% discount until 2026-05-05: ~$0.035 in |
 | **DeepSeek-V3.2** | $0.28 | $0.028 | — | No formal batch API |
 | **Qwen3.5-Max** | $0.40 | Available | 50% off | — |
 | **GLM-5 / GLM-5.1** | $1.00 | $0.20 | — | — |
 | **Grok 4** | $3.00 | $0.75 | — | — |
 | **Grok 4 Fast** | $0.20 | $0.05 | — | — |
-| **Mistral Large 3** | Mistral AI | 128K | 43.9% | — | — | — | $0.50 / $1.50 | 2026-04-26 |
+| **Mistral Large 3** | $0.50 | — | — | — |
 | **Step-3.5-Flash** | $0.10 | — | — | — |
 
 #### Speed & Latency
@@ -169,7 +169,7 @@ Output throughput and time-to-first-token from [Artificial Analysis](https://art
 
 | Model | Output Speed (tok/s) | TTFT | Notes |
 |-------|---------------------|------|-------|
-| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
+| **Gemini 3.1 Flash-Lite** | ~250 | ~2.1s | Fastest Flash tier |
 | **Step-3.5-Flash** | 85–350 | — | Variable by provider; peak ~350 tok/s |
 | **Gemini 3 Flash** | ~193 | ~4.16s | — |
 | **MiniMax-M2.5 Lightning** | ~100 | — | Faster tier |
@@ -191,7 +191,7 @@ Knowledge cutoff dates — the point after which a model has no training data.
 | **GPT-5.3-Codex** | Aug 31, 2025 | — |
 | **Grok 4 Fast** | Jul 2025 | — |
 | **DeepSeek-V4** | May 2025 | — |
-| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
+| **Gemini 3.1 Flash-Lite** | Jan 2025 | Same cutoff as Gemini 3.1 Pro |
 | **Gemini 3.1 Pro / 3 Pro / 3 Flash** | Jan 2025 | — |
 | **Grok 4** | ~Nov–Dec 2024 | Approximate |
 | **DeepSeek-V3.2** | Jul 2024 | — |
@@ -209,7 +209,7 @@ Knowledge cutoff dates — the point after which a model has no training data.
 | **Qwen3-Max-Thinking** | 119 | Qwen3 series |
 | **Gemini 3 Flash** | 100 | 91.8% MMMLU score across 100 languages |
 | **Gemini 3.1 Pro / 3 Pro** | 100+ | — |
-| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
+| **Gemini 3.1 Flash-Lite** | 100 | Fast multilingual inference |
 | **Llama 4 Maverick** | 12 | Output languages |
 | **Claude (all)** | Many | English-optimized; broad multilingual |
 | **GPT-5.4 (all)** | Many | Broad multilingual coverage |
@@ -275,9 +275,11 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **DeepSeek Coder-V2** | DeepSeek | 236B / 2.4B active | 128K | MIT |
 | **Step-3.5-flash** | StepFun | 196B / 11B active (MoE) | 256K | Open Weight |
 | **Yi-Coder** | 01.AI | 9B/1.5B | 128K | Apache 2.0 |
+| **Devstral** | Mistral AI | 24B dense | 128K | Apache 2.0 |
 | **Lizzy-7B** | Flower Labs | 7B | — | MIT |
 | **MiMo-V2.5** | Xiaomi | 309B / 15B active | 262K | MIT |
 | **MiMo-V2.5-Pro** | Xiaomi | 1.02T / 42B active | 1M | MIT |
+| **Devstral** | Mistral AI | 24B dense | 128K | Apache 2.0 |
 | **Lizzy-7B** | Flower Labs | 7B | — | MIT |
 | **MiMo-V2.5** | Xiaomi | 310B (15B active) | 1M | MIT |
 | **MiMo-V2.5-Pro** | Xiaomi | 1.02T (42B active) | 1M | MIT |
@@ -305,21 +307,25 @@ Specialized AI models optimized for software development tasks.
 
 | Rank | Model | Company | SWE-bench Verified |
 |------|-------|---------|-------------------|
-| 🥇 #1 | **Claude Opus 4.6** | Anthropic | 80.8% |
+| 🥇 #1 | **Claude Opus 4.7** | Anthropic | 87.6% |
 | 🥈 #2 | **Gemini 3.1 Pro** | Google | 80.6% |
 | 🥉 #3 | **MiniMax-M2.5** | MiniMax | 80.2% |
-| #4 | **GPT-5.4** | OpenAI | ~80% |
-| #5 | **GPT-5.2** | OpenAI | 80.0% |
-| #6 | **Claude Sonnet 4.6** | Anthropic | 79.6% |
-| #7 | **Gemini 3 Flash** | Google | 78.0% |
-| #8 | **GLM-5** | Zhipu AI | 77.8% |
-| #9 | **Claude Sonnet 4.5** | Anthropic | 77.2% |
-| #10 | **Kimi K2.5** | Moonshot AI | 76.8% |
+| #4 | **GPT-5.3-Codex** | OpenAI | 85.0% |
+| #5 | **GPT-5.4** | OpenAI | ~80.0% |
+| #6 | **GPT-5.5 Pro** | OpenAI | 92.3% |
+| #7 | **Claude Opus 4.6** | Anthropic | 80.8% |
+| #8 | **Claude Sonnet 4.6** | Anthropic | 79.6% |
+| #9 | **Gemini 3 Flash** | Google | 78.0% |
+| #10 | **GLM-5** | Zhipu AI | 77.8% |
+| #11 | **Claude Sonnet 4.5** | Anthropic | 77.2% |
+| #12 | **Kimi K2.6** | Moonshot AI | 76.8% |
 
 #### Commercial Coding Models
 
 | Model | Developer | Pricing | Best For |
 |-------|-----------|---------|----------|
+| **GPT-5.5 Pro** | OpenAI | $15.00 / $60.00 per 1M | Highest-capability coding, 92.3% SWE-bench |
+| **Claude Opus 4.7** | Anthropic | $5 / $25 per 1M | Agentic coding, computer use, 87.6% SWE-bench |
 | **Claude Opus 4.6** | Anthropic | $5 / $25 per 1M | Agentic coding, complex tasks |
 | **GPT-5.3-Codex** | OpenAI | $1.75 / $14.00 per 1M | Agentic coding, 7+ hour autonomy |
 | **Claude Haiku 4.5** | Anthropic | $1 / $5 per 1M | Low-latency coding, sub-agents, computer use |
@@ -328,6 +334,7 @@ Specialized AI models optimized for software development tasks.
 | **Claude Sonnet 4.5** | Anthropic | $3 / $15 per 1M | Code review, refactoring |
 | **Codestral** | Mistral AI | $0.30 / $0.90 | Real-time completion |
 | **Grok 4 Fast** | xAI | $0.20 / $1.50 | Most used (50% share) |
+| **Devstral** | Mistral AI | Free (OpenRouter) / $0.10 API | Open coding model, Apache 2.0, 24B params |
 
 #### Open-Source Coding Models
 
@@ -338,6 +345,8 @@ Specialized AI models optimized for software development tasks.
 | **DeepSeek-Coder-V2** | DeepSeek | MIT | 48-80 GB VRAM |
 | **GLM-4.6** | Zhipu AI | Open Weight | 80-160 GB VRAM |
 | **Phi-4** | Microsoft | MIT | 24-48 GB VRAM |
+| **Devstral** | Mistral AI | Apache 2.0 | 24-48 GB VRAM |
+| **Qwen3-Coder 7B** | Alibaba | Apache 2.0 | 8-16 GB VRAM |
 
 ### Reasoning Models 🧠
 
@@ -353,7 +362,7 @@ Models optimized for step-by-step reasoning, mathematical problem-solving, and c
 | #4 | **Claude Opus 4.6** | 99.8% | 68.8% | Near-perfect AIME |
 | #5 | **Gemini 3 Pro** | 98–100% | 31.1–45.1% | With code execution |
 | #6 | **Step-3.5-Flash** | 97.3% | — | Best efficiency ratio |
-| #7 | **Kimi K2.5** | 96.1% | — | Strong multimodal reasoning |
+| #7 | **Kimi K2.6** | 96.1% | — | Strong multimodal reasoning |
 | #8 | **Claude Sonnet 4.6** | ~95% | 58.3% | Near-Opus performance |
 | #9 | **GLM-5** | 92.7% | — | Thinking mode |
 | #10 | **DeepSeek-V3.2** | 89.3% | — | Budget reasoning |
@@ -491,7 +500,7 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | **Qwen3-Max-Thinking** | 86.1% | — | — | 26.2% | — | — | — | — | — | — | — | — |
 | **GLM-5** | 82.0% | — | ~1451 | 10.4% | 77.8% | — | — | 92.7% | — | — | — | — |
 | **GLM-5.1** | — | — | — | — | ~80.4% (est.) | — | — | — | — | — | — | — |
-| **Kimi K2.5** | 87.6% | 87.1% | — | 31.5–50.2% | 76.8% | — | 85.0% | 96.1% | — | 78.5% | — | — |
+| **Kimi K2.6** | 87.6% | 87.1% | — | 31.5–50.2% | 76.8% | — | 85.0% | 96.1% | — | 78.5% | — | — |
 | **MiniMax-M2.5** | 85.2% | — | — | — | 80.2% | 55.4% | — | 86.3% | — | — | — | — |
 | **Step-3.5-Flash** | 83.1% | — | — | — | 74.4% | — | 86.4% | 97.3% | — | — | — | — |
 | **Grok 4** | ~91.5% | 91.5% | ~1493 | 50.7% | — | — | — | 100% | — | — | — | — |
@@ -595,7 +604,7 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 | Tool | Platform | Pricing | Key Features | GitHub |
 |------|----------|---------|--------------|--------|
 | **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode, thinking tokens | [🔗](https://github.com/Aider-AI/aider) |
-| **Claude Code 2.1+** | macOS, Linux, Windows | Free + API | Fast mode for Opus 4.6, simple mode file editing | [🔗](https://github.com/anthropics/claude-code) |
+| **Claude Code 2.1+** | macOS, Linux, Windows | Free + API | Computer use CLI (research preview), `/autofix-pr`, plan mode, sub-agents, CLAUDE.md skills, Opus 4.7 support, multi-session desktop | [🔗](https://github.com/anthropics/claude-code) |
 | **Codex CLI** | Windows, macOS, Linux | Included | Sandbox, approval modes | [🔗](https://github.com/openai/codex) |
 | **Junie CLI** | Windows, macOS, Linux | Free (BYOK) | LLM-agnostic, JetBrains IDE integration, MCP | [🔗](https://www.jetbrains.com/junie) |
 | **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible, desktop app, 25+ providers | [🔗](https://github.com/block/goose) |
@@ -607,19 +616,40 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 
 #### Assisted CLI Tools
 
-| Tool | Developer | Pricing | Best For |
-|------|-----------|---------|----------|
-| **Gemini CLI** | Google | Free | Google ecosystem |
-| **Cursor CLI** | Cursor | Free tier | Terminal + IDE bridge |
-| **Qwen Code** | Alibaba | Free | Qwen optimization |
-| **Qodo CLI** | Qodo | Free tier | Testing and review |
+| Tool | Developer | Pricing | Best For | GitHub |
+|------|-----------|---------|----------|--------|
+| **Gemini CLI** | Google | Free | Google ecosystem; v0.40.0+ offline search, bundled ripgrep, interactive shell, A2A agent registry — **update required** (CVSS 10.0 RCE patched in v0.39.1) | [🔗](https://github.com/google-gemini/gemini-cli) |
+| **Cursor CLI** | Cursor | Free tier | Terminal + IDE bridge | ❌ |
+| **Qwen Code** | Alibaba | Free | Qwen3-Coder model optimization | ❌ |
+| **Qodo CLI** | Qodo | Free tier | Testing and code review | ❌ |
+| **OpenCode CLI** | anomalyco | Free (OSS) | Multi-provider, terminal + IDE, MCP support | [🔗](https://github.com/anomalyco/opencode) |
 
 #### Terminal Enhancers
 
 | Tool | Platform | Pricing | Key Features |
 |------|----------|---------|--------------|
-| **Warp Terminal** | macOS, Linux, Windows | Free | AI Agents, workflow sharing |
+| **Warp Terminal** | macOS, Linux, Windows | Free | AI Agents, Warp Drive, workflow sharing |
 | **Fig** | macOS, Linux | Free | Autocomplete, AI suggestions |
+| **Starship** | macOS, Linux, Windows (WSL) | Free | Fast cross-shell prompt with AI plugin support |
+
+#### CLI for Programming Languages & Multiple Use
+
+Purpose-built CLI tools for coding across specific languages or polyglot multi-stack workflows.
+
+| Tool | Language Focus | Platform | Pricing | Key Features | GitHub |
+|------|---------------|----------|---------|--------------|--------|
+| **Aider** | Polyglot (Python, JS, TS, Go, Rust, any) | All | Free (BYOK) | Git-native multi-file edits, Architect mode, repo maps, thinking tokens | [🔗](https://github.com/Aider-AI/aider) |
+| **Claude Code** | Polyglot | All | Free + API | Computer use, sub-agents, CLAUDE.md skills, Opus 4.7, multi-session | [🔗](https://github.com/anthropics/claude-code) |
+| **Codex CLI** | Python, JS, TS | All | Free (OpenAI account) | Sandbox execution, approval modes, OpenAI models | [🔗](https://github.com/openai/codex) |
+| **OpenHands** | Python, JS, TS, Go, Rust | All | Free (OSS) | Full SDLC agent, MCP, local LLM via Ollama | [🔗](https://github.com/OpenHands/OpenHands) |
+| **Goose** | Polyglot | All | Free (Apache-2.0) | 25+ providers, MCP, extensible extensions, desktop app | [🔗](https://github.com/block/goose) |
+| **Continue** | Polyglot | All | Free (OSS) | VS Code + JetBrains, custom models via Ollama/LM Studio | [🔗](https://github.com/continuedev/continue) |
+| **Qwen Code** | Python, JS, TS, Go | All | Free | Optimized for Qwen3-Coder 480B, Apache 2.0 | ❌ |
+| **Mentat** | Polyglot | All | Free | Multi-file coordination, context-aware diffs | [🔗](https://github.com/AbanteAI/mentat) |
+| **AI Dev Kit** | Polyglot | All | Free | 59 skills, 33 agents, TDD, security audit, CI/CD pipeline | [🔗](https://github.com/noah-sheldon/ai-dev-kit) |
+| **Devstral CLI** | Python, JS, TS, Go | All | Free (Mistral free tier) | Mistral's open coding model, OpenRouter free access | ❌ |
+| **SERA** | Python, JS, TS | Linux, macOS | Free (Apache 2.0) | Open-source coding agent, 200K synthetic trajectories | [🔗](https://github.com/Ai2Labs/SERA) |
+| **Junie CLI** | Polyglot | All | Free (BYOK) | LLM-agnostic, JetBrains IDE integration, MCP | [🔗](https://www.jetbrains.com/junie) |
 
 ### IDE Add-ons 🧩
 
@@ -671,7 +701,7 @@ Services for accessing AI models via API.
 | **Cohere** | Command, Embed, Rerank | Pay-per-token |
 | **AI21 Labs** | Jamba | Pay-per-token |
 | **Perplexity** | Sonar / Sonar Pro / Sonar Reasoning Pro | Pay-per-token + request fees |
-| **Moonshot AI** | Kimi (kimi-k2.5, kimi-k2-thinking) | Pay-per-token |
+| **Moonshot AI** | Kimi (kimi-k2.6, kimi-k2-thinking) | Pay-per-token |
 | **ByteDance (Volcengine)** | Doubao, Seed 1.6/2.0 | Pay-per-token |
 | **Tencent (Hunyuan)** | Hunyuan, Hunyuan-a13b | Pay-per-token |
 | **StepFun** | Step-3.5-Flash, Step-3.5 | Pay-per-token (OpenRouter free) |
@@ -1270,8 +1300,8 @@ Comprehensive pricing comparisons and cost calculations.
 | Tier | Price Range | Models |
 |------|-------------|--------|
 | 🆓 **Free** | $0 | Self-hosted, free tiers |
-| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
-| 💰 **Mid-range** | $0.60 - $15.00/1M | GPT-5.4 mini, Claude Haiku 4.5, Kimi K2.5, Sonar, GLM-5, GPT-5.4, Claude Sonnet |
+| 💵 **Budget** | $0.20–$0.60/1M | Gemini 3.1 Flash-Lite ($0.25), GPT-5.4 nano ($0.20), Grok 4 Fast ($0.20), DeepSeek-V3.2 ($0.28) |
+| 💰 **Mid-range** | $0.60 - $15.00/1M | GPT-5.4 mini, Claude Haiku 4.5, Kimi K2.6, Sonar, GLM-5, GPT-5.4, Claude Sonnet |
 | 💎 **Premium** | $15.00 - $600.00/1M | GPT-5.4 Pro, Claude Opus, o1-Pro |
 
 #### Subscription Pricing (Monthly, USD)
@@ -1300,14 +1330,14 @@ Comprehensive pricing comparisons and cost calculations.
 | **Llama 4 Maverick** | $0.15 | $0.60 | — | Open multimodal (self-host: $0) |
 | **GPT-5.4 nano** | $0.20 | $1.25 | $0.02 | Classification and lightweight subagents |
 | **Grok 4 Fast** | $0.20 | $0.50 | $0.05 | Fast Grok reasoning |
-| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
+| **Gemini 3.1 Flash-Lite** | $0.25 | $1.50 | $0.025 | Fast multilingual, 100 languages |
 | **DeepSeek-V3.1** | $0.27 | $0.41 | — | Everything |
 | **DeepSeek-V3.2** | $0.28 | $0.42 | $0.028 | Budget workhorse, reasoning |
 | **DeepSeek-V4** | $0.30 | $0.50 | $0.03 | Engram memory, coding (off-peak 50% off) |
 | **Gemini 3 Flash** | $0.30 | $2.50 | $0.05 + $1/hr | Long context |
 | **MiniMax-M2.5** | $0.30 | $1.20 | Auto (included) | Coding, long context |
-| **Mistral Large 3** | Mistral AI | 128K | 43.9% | — | — | — | $0.50 / $1.50 | 2026-04-26 |
-| **Kimi K2.5** | $0.60 | $3.00 | Auto (included) | Multimodal + agent tasks |
+| **Mistral Large 3** | $0.50 | $1.50 | — | Code + enterprise tasks |
+| **Kimi K2.6** | $0.60 | $3.00 | Auto (included) | Multimodal + agent tasks |
 | **GPT-5.4 mini** | $0.75 | $4.50 | $0.075 | Fast coding and multimodal tasks |
 | **Claude Haiku 4.5** | $1.00 | $5.00 | — | Low-latency coding and sub-agents |
 | **GLM-5** | $1.00 | $3.20 | $0.20 | Agentic engineering |
@@ -1406,10 +1436,10 @@ Side-by-side comparisons of AI models sorted by various criteria.
 |:---:|---|---|---|:---:|
 | 🧠 MiniMax | MiniMax M2.5 | 2026-02 | $0.30 / $1.20 | [🔗](https://platform.minimax.io/docs/guides/models-intro) |
 | 🇨🇳 Alibaba/Qwen | Qwen 3.5-Max | 2026-02 | Open-source release window | [🔗](https://qwenlm.github.io/) |
-| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
+| 🌐 Google DeepMind | Gemini 3.1 Flash-Lite | 2026-04 | $0.25/$1.50 per 1M, 100 languages | [🔗](https://ai.google.dev/gemini-api/docs/models) |
 | 🌐 Google DeepMind | Gemini 3 Pro | 2026-01 | Tiered pricing | [🔗](https://deepmind.google/models/gemini/) |
 | 🤖 OpenAI | GPT-5.4 family | 2026-03 | GPT-5.4, GPT-5.4 mini, GPT-5.4 nano | [🔗](https://openai.com/news/?display=list) |
-| **Mistral Large 3** | Mistral AI | 128K | 43.9% | — | — | — | $0.50 / $1.50 | 2026-04-26 |
+| 🇫🇷 Mistral AI | Mistral Large 3 | 2026-03 | 123B Apache 2.0, $0.50/$1.50 | [🔗](https://mistral.ai) |
 
 #### Sort by Price (Cheapest)
 
@@ -1421,7 +1451,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 4 | **GLM-4-32B-0414-128K** | $0.10 | $0.10 | API |
 | 5 | **Yi-Lightning** | $0.14 | $0.42 | Apache 2.0 |
 | 6 | **GPT-5.4 nano** | $0.20 | $1.25 | Proprietary |
-| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
+| 7 | **Gemini 3.1 Flash-Lite** | $0.25 | $1.50 | Proprietary |
 | 8 | **DeepSeek-V3.1** | $0.27 | $0.41 | MIT |
 | 9 | **Gemini 3 Flash** | $0.30 | $2.50 | Proprietary |
 | 10 | **MiniMax-M2.5** | $0.30 | $1.20 | Proprietary |
@@ -1443,7 +1473,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 1 | **Gemini 3 Flash** | 10M | Entire libraries |
 | 2 | **Llama 4 Scout** | 10M | Long-document RAG |
 | 3 | **Gemini 3 Pro** | 1M+ | Research papers |
-| 4 | **Kimi K2.5** | 256K | Large codebases |
+| 4 | **Kimi K2.6** | 256K | Large codebases |
 
 ### Data Sources 📚
 
@@ -1465,7 +1495,7 @@ Attribution, verification sources, and methodology.
 | **Anthropic** | Claude Pro pricing | [anthropic.com](https://www.anthropic.com/news/claude-pro) |
 | **Anthropic** | Max plan pricing | [anthropic.com](https://www.anthropic.com/max) |
 | **Google** | Gemini Documentation | [deepmind.google](https://deepmind.google/models/gemini/) |
-| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
+| **Google** | Gemini 3.1 Flash-Lite pricing | [ai.google.dev](https://ai.google.dev/gemini-api/docs/models) |
 | **Google** | Project Mariner | [deepmind.google](https://deepmind.google/en/models/project-mariner/) |
 | **Google** | Google AI plans | [one.google.com](https://one.google.com/about/google-ai-plans/) |
 | **Google** | Google AI Plus pricing | [blog.google](https://blog.google/products-and-platforms/products/google-one/google-ai-plus-availability/) |
