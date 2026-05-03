@@ -36,7 +36,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - SWE-bench Verified benchmark results
 - Model card updates and release notes
 
-## [Unreleased]
+## [2026-05-03] - Agent Skills & Registries Update (v2.10)
+
+### Added
+- **Agent Skills & Registries 🎯**: New comprehensive section covering the Agent Skills standard and skills.sh registry
+  - Detailed overview of the Anthropic-developed Agent Skills open standard
+  - skills.sh package manager and registry information (90,989+ total installs)
+  - Progressive disclosure pattern for minimal context overhead
+  - Top skills by category including Discovery, Frontend, Design, Cloud, Database, Marketing, and Dev workflows
+  - Notable publisher ecosystems (Microsoft Azure, Vercel, Anthropic, Corey Haines, Obra, Firebase, etc.)
+  - Installation command: `npx skills add owner/repo`
+- **CrewAI Enhancement**: Expanded description with detailed features (no-code + full-code pipelines, 60+ built-in tools, unified memory, standalone architecture, model-agnostic support)
+- **Aiden**: Added to agent platforms - Autonomous AI Operating System (local-first, Linux-native, no cloud required)
+
+### Changed
+- Document version 2.9 → 2.10
+- Last Updated to 2026-05-03 05:20 UTC
+- Updated "Last Updated" badge in README to reflect current date
 
 ### Added
 - **IDEs & Editors**: Cursor 3 (agent-first workspace), VS Code Agents Insiders, JAT (unified agentic IDE)
@@ -48,6 +64,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **New April 28, 2026**: IBM Bob (enterprise AI development partner), OpenAI Privacy Filter (PII detection)
 - **New April 27, 2026**: Logic (spec-driven managed agents), Firefly AI Assistant (creative agent public beta)
 - **New April 22, 2026**: PolyAI ADK (AI-native CX development kit)
+
+## [Unreleased]
+
+### Added
 - **New April 21, 2026**: PaleBlueDot TokenRouter (unified AI model access), Osirus AI (unified agent platform)
 - **New April 16, 2026**: GPT-Rosalind (life sciences reasoning model)
 - **New April 26, 2026**: Gemini Enterprise Agent Platform (rebranded Vertex AI)

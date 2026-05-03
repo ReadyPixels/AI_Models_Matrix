@@ -6,12 +6,12 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--02%2022%3A10%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--03%2005%3A20%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources.
 
-Document Version: 2.9
-Last Updated: 2026-05-02 22:10 UTC
+Document Version: 2.10
+Last Updated: 2026-05-03 05:20 UTC
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
 
 ## Contents
@@ -47,6 +47,7 @@ Repository: https://github.com/ReadyPixels/AI_Models_Matrix
   - [Fine-tuning Platforms ⚙️](#fine-tuning-platforms-️)
   - [Evaluation & Observability 📊](#evaluation--observability-)
   - [MCP Ecosystem 🔌](#mcp-ecosystem-)
+  - [Agent Skills & Registries 🎯](#agent-skills--registries-)
   - [Model Routers & Load Balancers 🔀](#model-routers--load-balancers-)
   - [Small Language Models (SLMs) 📱](#small-language-models-slms-)
 - [Reference 📖](#reference-)
@@ -820,7 +821,7 @@ Platforms and runtimes for running or connecting AI agents.
 |---------|------|---------|:-------------:|----------|:-------:|
 | **OpenClaw** | Personal AI assistant | Free (OSS) | ✅ | Always-on assistant across chat channels | [🔗](https://github.com/openclaw/openclaw) |
 | **NanoClaw** | Lightweight agent framework | Free (OSS) | ✅ | Containerized agents for WhatsApp, Telegram, Slack, Discord | [🔗](https://github.com/qwibitai/NanoClaw) |
-| **CrewAI** | Multi-agent orchestration | Free (OSS) / Enterprise | ✅ | Team-based AI agent workflows | [🔗](https://github.com/crewAIInc/crewAI) |
+| **CrewAI** | Multi-agent orchestration | Free (OSS) / Enterprise | ✅ | No-code + full-code multi-agent pipelines; 60+ built-in tools (web search, file I/O, code exec, NL2SQL); unified short-term/long-term/entity memory; standalone (no LangChain dep); model-agnostic (OpenAI, Anthropic, Ollama); enterprise-ready | [🔗](https://github.com/crewAIInc/crewAI) |
 | **AutoGen** | Multi-agent framework | Free (OSS) | ✅ | Conversational agent collaboration | [🔗](https://github.com/microsoft/autogen) |
 | **LangGraph** | Agent framework | Free (OSS) / LangSmith paid | ✅ | Stateful, cyclic agent workflows | [🔗](https://github.com/langchain-ai/langgraph) |
 | **Dify** | LLM app platform | Free (OSS) / Cloud plans | ✅ | Visual workflow builder, RAG, agents | [🔗](https://github.com/langgenius/dify) |
@@ -834,6 +835,7 @@ Platforms and runtimes for running or connecting AI agents.
 | **Moltis** | Rust-native single-binary agent | Free (OSS) | ✅ | Sandboxed, auditable, voice + memory + MCP tools built-in | [🔗](https://github.com/moltis-org/moltis) |
 | **Hermes Agent** | Adaptive agent framework (Nous Research) | Free (OSS) | ✅ | Memory management, skills, UI dashboard, grows with you | [🔗](https://github.com/NousResearch/hermes-agent) |
 | **PicoClaw** | Ultra-lightweight agent (Go) | Free (OSS) | ✅ | Tiny, fast, embedded/IoT deployments, single-binary | [🔗](https://github.com/sipeed/picoclaw) |
+| **Aiden** | Autonomous AI Operating System | Free (OSS) | ✅ | Local-first AI OS; runs entirely on your machine, no cloud required, no telemetry; full autonomy over tasks, memory, and tool use; Linux-native | [🔗](https://github.com/taracodlabs/aiden) |
 | **AutoGPT** | Autonomous agent | Free (OSS) | ✅ | Self-prompting GPT agent with memory, pioneer project | [🔗](https://github.com/Significant-Gravitas/AutoGPT) |
 | **BabyAGI** | Task-driven agent | Free (OSS) | ✅ | Autonomous task creation and prioritization | [🔗](https://github.com/yoheinakajima/babyagi) |
 | **Suna** | Generalist agent | Free (OSS) | ✅ | Versatile open-source agent for complex tasks (Kortix) | [🔗](https://github.com/kortix-ai/suna) |
@@ -1098,6 +1100,59 @@ The [Model Context Protocol (MCP)](https://modelcontextprotocol.io) is an open s
 | MCP Notion | Community | Productivity | Yes | Notion page and database access | [🔗](https://github.com/modelcontextprotocol/servers) |
 | FastMCP | Community | Framework | Yes | Python framework for building MCP servers fast | [🔗](https://github.com/jlowin/fastmcp) |
 | Context7 | Upstash | Dev Tools | Yes | Up-to-date library docs for AI coding assistants | [🔗](https://github.com/upstash/context7) |
+
+### Agent Skills & Registries 🎯
+
+Modular capability packages that extend AI agents with specialized knowledge, workflows, and procedural instructions — without bloating model context.
+
+#### skills.sh
+
+**[skills.sh](https://skills.sh)** is the primary registry and package manager for Agent Skills — an open standard developed by Anthropic for packaging and distributing reusable agent capabilities. Skills follow a **progressive disclosure** pattern: agents load only a skill's name and description at startup, then pull full instructions only when a task matches, keeping context overhead minimal.
+
+**Install a skill in one command:**
+```bash
+npx skills add owner/repo
+```
+
+| Feature | Detail |
+|---------|--------|
+| **Standard** | Agent Skills (open, SKILL.md format) — developed by Anthropic, hosted on GitHub |
+| **Registry URL** | [skills.sh](https://skills.sh) |
+| **Total installs** | 90,989+ all-time |
+| **Compatible agents** | Claude Code, Cursor, Windsurf, VS Code Copilot, Continue.dev, Zed, and any MCP-compatible agent |
+| **License** | Open (skills are author-licensed; spec is open standard) |
+
+#### Top Skills by Category
+
+| Skill | Publisher | Category | Installs |
+|-------|-----------|----------|----------|
+| **find-skills** | vercel-labs/skills | Discovery | 1.3M |
+| **vercel-react-best-practices** | vercel-labs/agent-skills | Frontend | 366K |
+| **frontend-design** | anthropics/skills | Design | 361K |
+| **web-design-guidelines** | vercel-labs/agent-skills | Design | 291K |
+| **microsoft-foundry** | microsoft/azure-skills | Cloud/Azure | 286K |
+| **azure-ai** | microsoft/azure-skills | AI/Cloud | 276K |
+| **agent-browser** | vercel-labs/agent-browser | Browser | 229K |
+| **skill-creator** | anthropics/skills | Meta | 180K |
+| **browser-use** | browser-use/browser-use | Automation | 71.6K |
+| **systematic-debugging** | obra/superpowers | Dev | 78.5K |
+| **test-driven-development** | obra/superpowers | Dev | 68.0K |
+| **seo-audit** | coreyhaines31/marketingskills | Marketing | 95.4K |
+| **supabase-postgres-best-practices** | supabase/agent-skills | Database | 138K |
+| **playwright-best-practices** | currents-dev/playwright | Testing | 34.2K |
+
+#### Notable Publisher Ecosystems
+
+| Publisher | Skills Count | Focus |
+|-----------|-------------|-------|
+| **microsoft/azure-skills** | 19+ | Azure cloud, AI, Kubernetes, cost optimization |
+| **vercel-labs/agent-skills** | 15+ | React, Next.js, Tailwind, deployment |
+| **anthropics/skills** | 15+ | Design, docs, coding, web artifacts |
+| **coreyhaines31/marketingskills** | 20+ | SEO, marketing, content, analytics |
+| **obra/superpowers** | 12+ | Dev workflows, parallel agents, TDD |
+| **firebase/agent-skills** | 10+ | Firebase, Firestore, GenKit |
+| **larksuite/cli** | 13+ | Lark workspace automation |
+| **pbakaus/impeccable** | 10+ | Design polish, code quality |
 
 ### Model Routers & Load Balancers 🔀
 
