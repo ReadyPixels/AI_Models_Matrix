@@ -36,7 +36,65 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - SWE-bench Verified benchmark results
 - Model card updates and release notes
 
-## [2026-05-04] - AI Browsers & Computer Use Agents Major Update (v2.11)
+## [2026-05-04] - Model Updates & Pricing Adjustments (v2.9)
+
+### Changed
+- Document version 2.9 (reverted from experimental v2.10/v2.11 changes)
+- Last Updated to 2026-05-04 01:10 UTC
+- Updated "Last Updated" badge format in README (simplified date display)
+- Updated Kimi model reference from kimi-k2.6 to kimi-k2.5
+- Updated Mistral Large 3 description to reflect open-source status (Apache 2.0, 123B params, Nov 2025)
+- Updated pricing tables with new Gemini 3.1 Flash-Lite pricing ($0.025/$1.50 → $0.0025/$1.50 with storage)
+- Updated Gemini 3.1 Flash-Lite knowledge cutoff description
+- Removed AI Browsers & Computer Use Agents section (experimental content)
+
+### Added
+- **Agent Skills & Registries 🎯**: Restored section on modular capability packages for AI agents
+  - Detailed overview of the Anthropic-developed Agent Skills open standard
+  - skills.sh package manager and registry information (90,989+ total installs)
+  - Progressive disclosure pattern for minimal context overhead
+  - Top skills by category including Discovery, Frontend, Design, Cloud, Database, Marketing, and Dev workflows
+  - Notable publisher ecosystems (Microsoft Azure, Vercel, Anthropic, Corey Haines, Obra, Firebase, etc.)
+  - Installation command: `npx skills add owner/repo`
+- **CLI for Programming Languages & Multiple Use**: Restored comprehensive CLI tools section
+  - 11 CLI tools including Aider, Claude Code, Codex CLI, OpenHands, Goose, Continue, Qwen Code, Mentat, AI Dev Kit, Devstral CLI, Junie CLI
+  - Detailed feature comparisons and GitHub links
+- **Aiden**: Restored to Agent Platforms table
+  - Autonomous AI Operating System (local-first, Linux-native, no cloud required)
+  - Full autonomy over tasks, memory, and tool use
+- Updated table of contents to include Agent Skills & Registries section
+- Restored section between MCP Ecosystem and Model Routers & Load Balancers
+
+## [2026-05-03] - Agent Skills & Registries Update (v2.10) - REVERTED
+
+### Added
+- **Agent Skills & Registries 🎯**: New comprehensive section covering the Agent Skills standard and skills.sh registry
+  - Detailed overview of the Anthropic-developed Agent Skills open standard
+  - skills.sh package manager and registry information (90,989+ total installs)
+  - Progressive disclosure pattern for minimal context overhead
+  - Top skills by category including Discovery, Frontend, Design, Cloud, Database, Marketing, and Dev workflows
+  - Notable publisher ecosystems (Microsoft Azure, Vercel, Anthropic, Corey Haines, Obra, Firebase, etc.)
+  - Installation command: `npx skills add owner/repo`
+- **CrewAI Enhancement**: Expanded description with detailed features (no-code + full-code pipelines, 60+ built-in tools, unified memory, standalone architecture, model-agnostic support)
+- **Aiden**: Added to agent platforms - Autonomous AI Operating System (local-first, Linux-native, no cloud required)
+
+### Changed
+- Document version 2.9 → 2.10
+- Last Updated to 2026-05-03 05:20 UTC
+- Updated "Last Updated" badge in README to reflect current date
+
+### Added
+- **IDEs & Editors**: Cursor 3 (agent-first workspace), VS Code Agents Insiders, JAT (unified agentic IDE)
+- **RAG Frameworks**: Langflow 1.9 (MCP support, Flow DevOps Toolkit), enhanced LlamaIndex & Haystack
+- **Agent Platforms**: VoltAgent (TypeScript framework), Catalyst (self-improving models), Langflow
+- **GPU Clouds**: Cerebrium, Together AI, Fireworks AI, Modal Labs, Databricks Mosaic AI, NVIDIA DGX Cloud, Vast.ai
+- **Fine-Tuning**: SERA (open-source coding agent), Axolotl, Unsloth Studio
+- **Developer Tools**: AI Dev Kit (59 skills, 33 agents), enhanced autonomous coding agents
+- **New April 28, 2026**: IBM Bob (enterprise AI development partner), OpenAI Privacy Filter (PII detection)
+- **New April 27, 2026**: Logic (spec-driven managed agents), Firefly AI Assistant (creative agent public beta)
+- **New April 22, 2026**: PolyAI ADK (AI-native CX development kit)
+
+## [2026-05-04] - AI Browsers & Computer Use Agents Major Update (v2.11) - REVERTED
 
 ### Added
 - **Standalone AI Browsers**: Comprehensive new section with 15+ AI-powered browsers accepting plain English prompts
@@ -70,40 +128,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Document version 2.10 → 2.11
-- Last Updated to 2026-05-04 19:11 UTC
+- Last Updated to 2026-05-04 01:10 UTC
 - Updated "Last Updated" badge format in README (simplified date display)
 - Significantly expanded and reorganized AI browser and agent sections with detailed comparisons
 - Enhanced CrewAI description with comprehensive feature list
 - Added parallel processing indicators and pricing details throughout
-
-## [2026-05-03] - Agent Skills & Registries Update (v2.10)
-
-### Added
-- **Agent Skills & Registries 🎯**: New comprehensive section covering the Agent Skills standard and skills.sh registry
-  - Detailed overview of the Anthropic-developed Agent Skills open standard
-  - skills.sh package manager and registry information (90,989+ total installs)
-  - Progressive disclosure pattern for minimal context overhead
-  - Top skills by category including Discovery, Frontend, Design, Cloud, Database, Marketing, and Dev workflows
-  - Notable publisher ecosystems (Microsoft Azure, Vercel, Anthropic, Corey Haines, Obra, Firebase, etc.)
-  - Installation command: `npx skills add owner/repo`
-- **CrewAI Enhancement**: Expanded description with detailed features (no-code + full-code pipelines, 60+ built-in tools, unified memory, standalone architecture, model-agnostic support)
-- **Aiden**: Added to agent platforms - Autonomous AI Operating System (local-first, Linux-native, no cloud required)
-
-### Changed
-- Document version 2.9 → 2.10
-- Last Updated to 2026-05-03 05:20 UTC
-- Updated "Last Updated" badge in README to reflect current date
-
-### Added
-- **IDEs & Editors**: Cursor 3 (agent-first workspace), VS Code Agents Insiders, JAT (unified agentic IDE)
-- **RAG Frameworks**: Langflow 1.9 (MCP support, Flow DevOps Toolkit), enhanced LlamaIndex & Haystack
-- **Agent Platforms**: VoltAgent (TypeScript framework), Catalyst (self-improving models), Langflow
-- **GPU Clouds**: Cerebrium, Together AI, Fireworks AI, Modal Labs, Databricks Mosaic AI, NVIDIA DGX Cloud, Vast.ai
-- **Fine-Tuning**: SERA (open-source coding agent), Axolotl, Unsloth Studio
-- **Developer Tools**: AI Dev Kit (59 skills, 33 agents), enhanced autonomous coding agents
-- **New April 28, 2026**: IBM Bob (enterprise AI development partner), OpenAI Privacy Filter (PII detection)
-- **New April 27, 2026**: Logic (spec-driven managed agents), Firefly AI Assistant (creative agent public beta)
-- **New April 22, 2026**: PolyAI ADK (AI-native CX development kit)
+- Updated Kimi model reference from kimi-k2.6 to kimi-k2.5
+- Removed Agent Skills & Registries section (moved to separate documentation)
+- Updated pricing tables with new Gemini 3.1 Flash-Lite pricing ($0.025/$1.50)
+- Updated Mistral Large 3 description to reflect open-source status
+- Restructured Autonomous Agents section with clearer categorization and visual indicators
 
 ## [Unreleased]
 
