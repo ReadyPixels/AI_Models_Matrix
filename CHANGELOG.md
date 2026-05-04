@@ -36,6 +36,46 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - SWE-bench Verified benchmark results
 - Model card updates and release notes
 
+## [2026-05-04] - AI Browsers & Computer Use Agents Major Update (v2.11)
+
+### Added
+- **Standalone AI Browsers**: Comprehensive new section with 15+ AI-powered browsers accepting plain English prompts
+  - Perplexity Comet (with Computer Max for autonomous background tasks)
+  - Dia (macOS AI browser with tab intelligence)
+  - BrowserOS (open-source Chromium with local AI and MCP)
+  - Genspark AI Browser (runs 169 open-weight models offline)
+  - ChatGPT Atlas (GPT in every tab)
+  - Microsoft Edge Copilot Mode (agentic browsing)
+  - Sigma AI Browser (local-first with SigmaGPT)
+  - Plus 8 more browsers with agentic capabilities
+
+- **Autonomous Agents — Plain English Prompts 🤖**: New major section categorizing AI agents by deployment model
+  - ☁️ Cloud Computer Use: Manus AI, ChatGPT Agent, Google Project Mariner, Convergence Proxy, Devin, OpenHands, E2B Open Computer Use, Cua, Airtop, Skyvern
+  - 🖥️ Local Computer Use: Claude Computer Use, UI-TARS Desktop, Agent TARS, Open Interpreter, Open-Interface, Agent S, UFO
+  - 🌐 Browser Automation: Browser Use, Stagehand, Nanobrowser, Skyvern, Openator, Open Operator, BrowserOS, Airtop
+  - 🔁 Multi-Agent Orchestration: Manus AI, CrewAI, OpenHands, AutoGen, LangGraph, OWL, Devin, n8n
+
+- **Browser Extensions**: Updated with NanoBrowser, MultiOn, Monica.im, Harpa AI, Neobrowser, Perplexity Assistant
+
+- **Developer Libraries**: Added Chrome DevTools MCP, Cloudflare Browser Run, Browser-use, Stagehand, LaVague, Skyvern, Playwright, Puppeteer, Selenium
+
+- **Cloud Automation**: New section with ChatGPT Agent, Project Mariner, Skyvern, Airtop, Browserbase, Stagehand, Open Operator, Openator, Nanobrowser
+
+- **Agent Platforms**: Enhanced n8n description with AI agent capabilities
+
+- **Computer Use Agents**: 
+  - Local agents: UI-TARS Desktop, Agent TARS, c/ua, Windows-Use, OpenCUA, E2B Open Computer Use, Devin, OpenHands, Ace
+  - Cloud/API agents: Anthropic Claude Computer Use, OpenAI ChatGPT Agent, OpenAI Operator (CUA), Google Gemini Computer Use, Amazon Nova Act, Manus AI, Convergence Proxy, E2B Sandbox, Adept AI, AskUI, Highlight AI
+  - AI Operating Systems section
+
+### Changed
+- Document version 2.10 → 2.11
+- Last Updated to 2026-05-04 19:11 UTC
+- Updated "Last Updated" badge format in README (simplified date display)
+- Significantly expanded and reorganized AI browser and agent sections with detailed comparisons
+- Enhanced CrewAI description with comprehensive feature list
+- Added parallel processing indicators and pricing details throughout
+
 ## [2026-05-03] - Agent Skills & Registries Update (v2.10)
 
 ### Added

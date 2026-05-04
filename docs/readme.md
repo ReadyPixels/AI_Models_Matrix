@@ -6,7 +6,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--03%2005%3A20%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--03-green)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources.
 
@@ -759,33 +759,104 @@ Tools and frameworks for AI-powered browser automation.
 
 #### Standalone AI Browsers
 
-| Browser | Pricing | Open Source | Local AI | Best For | GitHub |
-|---------|---------|-------------|----------|----------|--------|
-| **Manus AI** | Freemium (Free 300 daily credits, $20–$200/mo) | ❌ | ❌ | Cloud agent, code + deploy + files | ❌ |
-| **Sigma AI Browser** | Freemium (Free + Pro $29/mo) | ❌ | ✅ | Offline AI, agentic browsing | ❌ |
-| **ChatGPT Atlas** | Free (with ChatGPT subscription) | ❌ | ❌ | OpenAI integration, macOS | [🔗](https://github.com/ComposioHQ/open-chatgpt-atlas) |
-| **Genspark** | Freemium (Free + Plus $25/mo) | ❌ | ✅ | Local model download, offline fallback | ❌ |
-| **BrowserOS** | Free | ✅ | ✅ | Privacy-focused, built-in MCP | [🔗](https://github.com/browseros-ai/BrowserOS) |
-| **Brave Leo** | Freemium (Free + Premium $14.99/mo) | ❌ | ⚠️ (OSS via cloud) | Privacy-first, zero-log | ❌ |
-| **Fellou** | Freemium (Free 4 tasks, $20/mo Pro) | ❌ | ❌ | Complex multi-step automation | [🔗](https://github.com/FellouAI/eko) |
-| **Perplexity Comet** | Free (with Pro $20/mo) | ❌ | ❌ | Research, limited agent | ❌ |
-| **Dia** | Freemium (Free limited, $20/mo Pro) | ❌ | ❌ | Mac M1+ only, tab intelligence | ❌ |
-| **Opera Neon** | $19.90/mo | ❌ | ❌ | Agentic browsing, Aria assistant | ❌ |
-| **Opera One (Aria)** | Free | ❌ | ❌ | Built-in AI assistant | ❌ |
-| **Edge Copilot** | Free (Copilot Pro $20/mo) | ❌ | ❌ | Enterprise AI browser | ❌ |
-| **BrowserGPT** | Freemium (Free + Premium) | ❌ | ❌ | Mobile-first AI browser (iOS/Android) | ❌ |
-| **Arc Max** | Free | ❌ | ❌ | AI-enhanced browsing, macOS | ❌ |
-| **AnythingLLM** | Free (OSS) | ✅ | ✅ | All-in-one desktop AI, document chat | [🔗](https://github.com/Mintplex-Labs/anything-llm) |
+Browsers that accept plain English prompts to automate web tasks, browse autonomously, or perform computer use.
+
+| Browser | Pricing | Open Source | Local AI | Agentic | Best For | GitHub |
+|---------|---------|-------------|----------|:-------:|----------|--------|
+| **Perplexity Comet** | Free (worldwide) / Pro $20/mo / Max for Computer | ❌ | ⚠️ Hybrid | ✅ | Chromium-based; Comet Assistant summarizes tabs, books flights, answers questions; Computer (Max) runs background autonomous tasks for hours; voice mode (GPT Realtime 1.5) | [perplexity.ai/comet](https://www.perplexity.ai/grow/comet) |
+| **Dia** | Freemium (Free limited / Pro $20/mo) | ❌ | ❌ | ✅ | macOS AI browser; sidebar chat understands open tabs, browsing history, multi-step tasks | ❌ |
+| **BrowserOS** | Free | ✅ | ✅ | ✅ | Open-source Chromium; run agents locally using your own keys or Ollama; MCP built-in; plain English prompts | [🔗](https://github.com/browseros-ai/BrowserOS) |
+| **Genspark AI Browser** | Free on-device / Plus $25/mo / Pro $249/mo | ❌ | ✅ 169 models | ✅ | World's first browser to run 169 open-weight models fully offline (GPT-OSS, DeepSeek, Gemma); Autopilot mode; price comparison; batch crawl; MCP Store; ad-free; Windows/Mac | [genspark.ai/browser](https://www.genspark.ai/browser) |
+| **ChatGPT Atlas** | Free (with ChatGPT Plus/Pro) | ❌ | ❌ | ✅ | OpenAI-native browser; GPT in every tab; page-level insight, guided tasks | [🔗](https://github.com/ComposioHQ/open-chatgpt-atlas) |
+| **Microsoft Edge (Copilot Mode)** | Free (Copilot Pro $20/mo) | ❌ | ❌ | ✅ | Agentic browser assistant; cross-tab context; voice commands; book reservations; type or speak tasks in plain English; access history + credentials (opt-in) | [blogs.microsoft.com](https://blogs.windows.com/msedgedev/2025/07/28/introducing-copilot-mode-in-edge-a-new-way-to-browse-the-web/) |
+| **Sigma AI Browser** | Free | ❌ | ✅ | ✅ | SigmaGPT free AI chat; local-first; ad blocker; agentic task execution on websites; privacy-first | [🔗](https://www.sigmabrowser.com) |
+| **Brave Leo** | Freemium (Free + Premium $14.99/mo) | ❌ | ⚠️ | ⚠️ | Privacy-first, zero-log AI chat; no agentic computer use | ❌ |
+| **Fellou** | Freemium (Free 4 tasks / Pro $20/mo) | ❌ | ❌ | ✅ | Complex multi-step automation; deep research | [🔗](https://github.com/FellouAI/eko) |
+| **Opera Neon** | $19.90/mo | ❌ | ❌ | ✅ | Agentic browsing, Aria AI assistant | ❌ |
+| **Opera One (Aria)** | Free | ❌ | ❌ | ⚠️ | Built-in AI assistant, basic tasks | ❌ |
+| **Manus AI** | Freemium (Free 300 credits/day / $20–$200/mo) | ❌ | ❌ | ✅ | Cloud agent browser: code, deploy, files, 20 parallel tasks | ❌ |
+| **BrowserGPT** | Freemium (Free + Premium) | ❌ | ❌ | ⚠️ | Mobile-first AI browser (iOS/Android) | ❌ |
+| **Arc Max** | Free | ❌ | ❌ | ⚠️ | AI-enhanced browsing, macOS, smart tab management | ❌ |
+| **AnythingLLM** | Free (OSS) | ✅ | ✅ | ✅ | All-in-one desktop AI, document chat, local LLM | [🔗](https://github.com/Mintplex-Labs/anything-llm) |
+
+
+### Autonomous Agents — Plain English Prompts 🤖
+
+AI agents you control entirely by typing normal English instructions — no code, no configuration required. Categorized by deployment model.
+
+> **Legend:** 🖥️ Local machine | ☁️ Cloud/sandbox | 🌐 Browser | 📊 Dashboard UI | 💻 CLI | 🔑 API | 🔁 Parallel agents
+
+---
+
+#### ☁️ Cloud Computer Use (Sandbox Desktop — No Local Install)
+
+| Agent | Interface | Parallel | Pricing | OS Control | Best For | Link |
+|-------|-----------|:--------:|---------|:----------:|----------|------|
+| **Manus AI** | 📊 Dashboard | ✅ 20 tasks | Free 300 credits/day / $20–$200/mo | ☁️ | General tasks: research, code, files, Excel, web — all via plain English | [manus.im](https://manus.im) |
+| **OpenAI ChatGPT Agent** | 📊 ChatGPT | ❌ | Plus $20/mo, Pro $200/mo | 🌐 Browser | Web browsing, form fills, research, spreadsheets | [chat.openai.com](https://chat.openai.com) |
+| **Google Project Mariner** | 📊 Chrome extension | ❌ | Ultra $125/3mo | 🌐 Browser | Multi-step browser tasks: shopping, reservations, data lookup | [labs.google](https://labs.google) |
+| **Convergence Proxy** | 📊 Dashboard | ✅ 20 sessions | Free 5/day / Pro $20/mo | 🌐 Browser | Web automation; learns from you; LMLM-based long-term memory | [convergence.ai](https://convergence.ai) |
+| **Devin** | 📊 Web + Slack | ✅ | Core $20/mo / Team $500/seat | ☁️ VM | Full-stack coding: read codebase → write code → run tests → open PR | [devin.ai](https://devin.ai) |
+| **OpenHands Cloud** | 📊 Web + CLI + SDK | ✅ | Individual: Free (BYOK) / Enterprise: Custom | ☁️ Sandbox | Open-source autonomous coding agent; 40K+ stars; GitHub/Jira/Slack integration | [app.all-hands.dev](https://app.all-hands.dev) |
+| **E2B Open Computer Use** | 💻 CLI / API | ✅ | Free (Hobby) / $150/mo Pro | ☁️ Linux desktop | Control a cloud Linux desktop from English prompts; 10+ LLMs supported | [e2b.dev](https://e2b.dev) |
+| **Cua (c/ua)** | 💻 CLI | ✅ | Free (OSS) | ☁️ + 🖥️ VM | Cloud desktop (`cua sb launch ubuntu`) or local macOS sandbox; Computer SDK; MCP | [cua.ai](https://cua.ai) |
+| **Airtop** | 📊 Dashboard + 🔑 API | ✅ 3–30 sessions | Free / $26/mo / $80/mo / $342/mo | 🌐 Cloud browser | Natural language cloud browsers; no-code; OAuth/CAPTCHA/2FA; Live View | [airtop.ai](https://airtop.ai) |
+| **Skyvern** | 🔑 API + Dashboard | ✅ | Free (OSS) / Cloud paid | 🌐 Browser | LLM + CV browser automation; `await skyvern.run_task(prompt="...")` | [skyvern.com](https://skyvern.com) |
+
+---
+
+#### 🖥️ Local Computer Use (Runs on Your Physical Machine)
+
+| Agent | Interface | Parallel | Pricing | OS | Best For | GitHub |
+|-------|-----------|:--------:|---------|-----|----------|--------|
+| **Claude Computer Use (Cowork)** | 🖥️ Desktop app | ❌ | Bundled with Claude Pro/Max | Win/Mac/Linux | Send task from phone → Claude opens apps, fills spreadsheets, exports files on your PC | ❌ |
+| **UI-TARS Desktop** | 🖥️ Desktop app | ❌ | Free (OSS) | Win/Mac | Natural language → sees screen → mouse + keyboard control; local VLM (7B runs on most PCs) | [🔗](https://github.com/bytedance/UI-TARS-desktop) |
+| **Agent TARS** | 💻 CLI + 📊 Web UI | ❌ | Free (OSS) | Win/Mac/Linux | `npx @agent-tars/cli@latest`; hybrid browser/GUI agent; MCP; supports Claude, Anthropic | [🔗](https://github.com/bytedance/UI-TARS-desktop) |
+| **Open Interpreter** | 💻 CLI + 📊 Web | ❌ | Free (OSS) | Win/Mac/Linux | `interpreter` in terminal → natural language → runs Python/JS/bash; 63K+ stars | [🔗](https://github.com/OpenInterpreter/open-interpreter) |
+| **Open-Interface** | 🖥️ Desktop + 💻 CLI | ❌ | Free (OSS) | Win/Mac/Linux | General-purpose desktop automation; screenshot → LLM → keyboard/mouse | [🔗](https://github.com/AmberSahdev/Open-Interface) |
+| **Agent S / S2** | 💻 CLI | ❌ | Free (OSS) | Win/Mac/Linux | SOTA GUI grounding; research framework; vision-based | [🔗](https://github.com/simular-ai/Agent-S) |
+| **UFO** | 💻 CLI | ❌ | Free (OSS) | Windows only | Windows desktop automation; reads app UI semantically | [🔗](https://github.com/microsoft/UFO) |
+
+---
+
+#### 🌐 Browser Automation (Plain English, No Code)
+
+| Tool | Interface | Parallel | Pricing | Local LLM | Best For | GitHub |
+|------|-----------|:--------:|---------|:---------:|----------|--------|
+| **Browser Use** | 🔑 API / 📊 Web UI | ✅ | Free (OSS) / Cloud: Free / Dev $29/mo / Business $299/mo | ✅ Ollama | `await Agent(task="...", llm=...).run()`; 89.1% WebVoyager; #1 OSS browser agent; 60K+ GitHub stars | [🔗](https://github.com/browser-use/browser-use) |
+| **Stagehand** | 🔑 SDK | ✅ | Free (OSS) | ❌ | TypeScript/Python: `act("click login")`, `extract("get prices")`; hybrid deterministic + AI | [🔗](https://github.com/browserbase/stagehand) |
+| **Nanobrowser** | 🌐 Chrome Extension | ✅ Multi-agent | Free (OSS) BYO key | ✅ | Planner + Navigator + Validator agents in Chrome sidebar; type tasks in plain English | [🔗](https://github.com/nanobrowser/nanobrowser) |
+| **Skyvern** | 🔑 API + Dashboard | ✅ | Free (OSS) / Cloud | ✅ Ollama | CV + LLM; `skyvern.run_task(prompt="...")`; CAPTCHA; never-seen-before websites | [🔗](https://github.com/Skyvern-AI/skyvern) |
+| **Openator** | 🖥️ Self-host | ❌ | Free (OSS) | ❌ | Open-source Operator clone; describe tasks; Playwright-based | [🔗](https://github.com/agentlabs-dev/openator) |
+| **Open Operator** | 🌐 Web app | ❌ | Free (OSS) | ❌ | Deploy-your-own web agent; Stagehand + Browserbase + Next.js | [🔗](https://github.com/browserbase/open-operator) |
+| **BrowserOS** | 🖥️ Browser | ❌ | Free (OSS) | ✅ Ollama | Open-source Chromium; type task in address bar; agents run on your machine | [🔗](https://github.com/browseros-ai/BrowserOS) |
+| **Airtop** | 📊 Dashboard + 🔑 API | ✅ | Free / $26–$342/mo | ❌ | No-code; describe task in plain English → cloud browser executes | [airtop.ai](https://airtop.ai) |
+
+---
+
+#### 🔁 Multi-Agent Orchestration (Parallel Agents)
+
+| Platform | Interface | Parallel | Pricing | Self-Host | Best For | GitHub |
+|----------|-----------|:--------:|---------|:---------:|----------|--------|
+| **Manus AI** | 📊 Dashboard | ✅ 20 | $20–$200/mo | ❌ | Multi-step parallel research + coding + file tasks | [manus.im](https://manus.im) |
+| **CrewAI** | 💻 CLI + 🔑 SDK | ✅ | Free (OSS) / Enterprise | ✅ | Role-based crews; no-code + full-code; 60+ tools; BYOM | [🔗](https://github.com/crewAIInc/crewAI) |
+| **OpenHands** | 📊 Web + 💻 CLI | ✅ | Free (OSS + Cloud) | ✅ | Software engineering agent team; GitHub issues → PRs; Slack/Jira | [🔗](https://github.com/All-Hands-AI/OpenHands) |
+| **AutoGen** | 🔑 SDK | ✅ | Free (OSS) | ✅ | Conversational multi-agent; Microsoft; production-grade | [🔗](https://github.com/microsoft/autogen) |
+| **LangGraph** | 🔑 SDK | ✅ | Free (OSS) / LangSmith paid | ✅ | Stateful cyclic agent graphs; production agent workflows | [🔗](https://github.com/langchain-ai/langgraph) |
+| **OWL (Camel-AI)** | 🔑 SDK | ✅ | Free (OSS) | ✅ | Multi-agent task automation; distributed workflows | [🔗](https://github.com/camel-ai/owl) |
+| **Devin** | 📊 Web + Slack + Jira | ✅ parallel tasks | $20/mo Core / $500/seat Team | ❌ | Parallel coding agents; each task isolated VM; ACU billing | [devin.ai](https://devin.ai) |
+| **n8n** | 📊 Visual editor | ✅ | Free (OSS) / Cloud $20+/mo | ✅ | No-code AI agent workflows; 400+ connectors; Agent node with memory + tools | [🔗](https://github.com/n8n-io/n8n) |
 
 #### Browser Extensions
 
 | Extension | Pricing | Free | Multi-Agent | Best For | GitHub |
 |-----------|---------|------|-------------|----------|--------|
-| **Monica.im** | Freemium (Free + ~$9/mo) | ❌ | ✅ | Chrome extension, no browser switch | ❌ |
-| **Harpa AI** | Free | ✅ | ❌ | Automation recipes | [🔗](https://github.com/wvkv/harpa) |
-| **MultiOn** | Free/Paid | ⚠️ | ✅ | Complex tasks | [🔗](https://github.com/tmc/multion-api) |
-| **NanoBrowser** | Free | ✅ | ✅ | Local control, Ollama | [🔗](https://github.com/nanobrowser/nanobrowser) |
-| **Neobrowser** | Free (OSS) | ✅ | ❌ | Local LLMs via Ollama, privacy-first, Chrome/Edge | ❌ |
+| **NanoBrowser** | Free (BYO API key) | ✅ | ✅ Planner+Navigator+Validator | Type tasks in plain English in Chrome sidebar; multi-agent framework; Ollama/Claude/GPT; Apache-2.0 | [🔗](https://github.com/nanobrowser/nanobrowser) |
+| **MultiOn** | Free / Paid | ⚠️ | ✅ | Complex multi-step browser tasks via natural language | [🔗](https://github.com/MULTI-ON/multion-python) |
+| **Monica.im** | Freemium (Free + ~$9/mo) | ❌ | ✅ | All-in-one Chrome assistant; no browser switch; summarize, search, write | ❌ |
+| **Harpa AI** | Free | ✅ | ❌ | Automation recipes for browsing; scraping; form fills | [🔗](https://github.com/harpa-ai/harpa-ai) |
+| **Neobrowser** | Free (OSS) | ✅ | ❌ | Local LLMs via Ollama, privacy-first, Chrome/Edge | [🔗](https://github.com/neobrowser/neobrowser) |
+| **Perplexity Assistant** | Free (with Perplexity) | ✅ | ❌ | In-browser research assistant; summarize pages, ask questions, answer while browsing | ❌ |
 
 #### Developer Libraries
 
@@ -793,7 +864,7 @@ Tools and frameworks for AI-powered browser automation.
 |---------|----------|----------|--------|
 | **Chrome DevTools MCP** | TypeScript | AI web debugging, 29 DevTools | [🔗](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
 | **Cloudflare Browser Run** | Cloud API | CDP + MCP, WebMCP, Live View | [🔗](https://developers.cloudflare.com/browser-run) |
-| **Browser-use** | Python | Agentic automation, Workflow Use | [🔗](https://github.com/browser-use/browser-use) |
+| **Browser-use** | Python | Agentic automation; Free (OSS self-host) / Cloud: Free 3 sessions / Dev $29/mo / Business $299/mo; 89.1% WebVoyager; BYO API key or cloud | [🔗](https://github.com/browser-use/browser-use) |
 | **Stagehand** | TypeScript/Python | Hybrid deterministic + AI, action caching | [🔗](https://github.com/browserbase/stagehand) |
 | **LaVague** | Python | NL to code | [🔗](https://github.com/lavague-ai/LaVague) |
 | **Skyvern** | Python | CV-based automation, Ollama support | [🔗](https://github.com/Skyvern-AI/skyvern) |
@@ -806,12 +877,19 @@ Tools and frameworks for AI-powered browser automation.
 
 #### Cloud Automation
 
-| Service | Platform | Pricing | Best For | GitHub |
-|---------|----------|---------|----------|--------|
-| **ChatGPT agent** | ChatGPT | Plus / Pro / Team | Guided browser tasks, research, forms, and spreadsheets | ❌ |
-| **Project Mariner** | Google AI Ultra | Included with Google AI Ultra | Multi-step browser tasks, shopping, and reservations | ❌ |
-| **Skyvern Cloud** | Cloud API | Paid | Resilient automation | [🔗](https://github.com/Skyvern-AI/skyvern) |
-| **Browserbase** | Cloud API | Paid | Stealth mode, session recording | ❌ |
+Cloud-hosted browser automation and computer use services. All accept plain English task descriptions.
+
+| Service | Platform | Pricing | Parallel | Best For | GitHub |
+|---------|----------|---------|:--------:|----------|--------|
+| **ChatGPT Agent (Agent Mode)** | ChatGPT | Plus $20/mo, Pro $200/mo | ❌ | Guided browser tasks, research, forms, and spreadsheets | ❌ |
+| **Project Mariner** | Google AI Ultra | Included with Google AI Ultra $125/3mo | ❌ | Multi-step browser tasks, shopping, and reservations | ❌ |
+| **Skyvern** | Cloud API + Self-host | Free 1K credits/mo / Hobby $29/mo / Pro $149/mo / Enterprise custom | ✅ 25 concurrent (Pro) | LLM + CV browser automation; natural language; CAPTCHA/2FA; 27K+ GitHub stars; YC-backed | [🔗](https://github.com/Skyvern-AI/skyvern) |
+| **Airtop** | Cloud API | Free / $26/mo Starter (3 sessions) / $80/mo Pro (30 sessions) / Enterprise custom | ✅ 3–30 sessions | Natural language cloud browser automation; no-code; persistent login sessions; Live View; OAuth/2FA/CAPTCHA; TypeScript/Python SDK | [airtop.ai](https://airtop.ai) |
+| **Browserbase** | Cloud API | Paid | ✅ | Stealth mode, session recording, CDP endpoint, MCP support | [🔗](https://github.com/browserbase/stagehand) |
+| **Stagehand** | SDK (Browserbase) | Free (OSS) | ✅ | AI browser automation framework; `act()`, `extract()`, `observe()`; TypeScript + Python; OpenAI + Anthropic CU | [🔗](https://github.com/browserbase/stagehand) |
+| **Open Operator** | Web app | Free (OSS) | ❌ | Open-source Operator clone; Stagehand + Browserbase + Next.js; deploy your own | [🔗](https://github.com/browserbase/open-operator) |
+| **Openator** | Self-host | Free (OSS) | ❌ | Open-source OpenAI Operator alternative; natural language browser tasks | [🔗](https://github.com/agentlabs-dev/openator) |
+| **Nanobrowser** | Chrome Extension | Free (OSS) | ✅ Multi-agent | Multi-agent Chrome extension; planner + navigator + validator agents; BYO API key; OpenAI, Claude, local models | [🔗](https://github.com/nanobrowser/nanobrowser) |
 
 ### Agent Platforms 🧩
 
@@ -825,7 +903,7 @@ Platforms and runtimes for running or connecting AI agents.
 | **AutoGen** | Multi-agent framework | Free (OSS) | ✅ | Conversational agent collaboration | [🔗](https://github.com/microsoft/autogen) |
 | **LangGraph** | Agent framework | Free (OSS) / LangSmith paid | ✅ | Stateful, cyclic agent workflows | [🔗](https://github.com/langchain-ai/langgraph) |
 | **Dify** | LLM app platform | Free (OSS) / Cloud plans | ✅ | Visual workflow builder, RAG, agents | [🔗](https://github.com/langgenius/dify) |
-| **n8n** | Workflow automation | Free (OSS) / Cloud from $20/mo | ✅ | No-code automation with AI agent nodes | [🔗](https://github.com/n8n-io/n8n) |
+| **n8n** | Workflow automation | Free (OSS) / Cloud $20+/mo / Enterprise custom | ✅ | No-code visual AI agent builder; 400+ nodes; Agent node with LLM + memory + tools; RAG; multi-step autonomous workflows; self-host or cloud | [🔗](https://github.com/n8n-io/n8n) |
 | **Flowise** | LLM orchestration | Free (OSS) | ✅ | Drag-and-drop LLM flow builder | [🔗](https://github.com/FlowiseAI/Flowise) |
 | **Lindy** | AI agent builder | Freemium (Free + Pro $49/mo) | ❌ | No-code AI agents for business tasks | [🔗](https://www.lindy.ai/) |
 | **Relevance AI** | Agent platform | Freemium (Free + Paid plans) | ❌ | Build and deploy AI agents, no-code | [🔗](https://relevanceai.com/) |
@@ -879,26 +957,33 @@ Agents that run directly on your machine and interact with the OS, screen, keybo
 | **UFO** | ✅ | ❌ | ❌ | ✅ | Windows-specific app automation | [🔗](https://github.com/microsoft/UFO) |
 | **Bytebot** | ❌ | ❌ | ✅ | ✅ | Self-hosted (Docker), headless | [🔗](https://github.com/bytebot-ai/bytebot) |
 | **Microsoft Fara-7B** | ✅ | ✅ | ✅ | ✅ | Open-weight vision grounding model | [🔗](https://github.com/microsoft/Fara) |
-| **UI-TARS** | ✅ | ✅ | ✅ | ✅ | Autonomous GUI execution, vision-language-action model (ByteDance) | [🔗](https://github.com/bytedance/UI-TARS-desktop) |
-| **c/ua** | ✅ | ✅ | ✅ | ✅ | Isolated VM environments, open-source CU infrastructure | [🔗](https://github.com/trycua/cua) |
+| **UI-TARS Desktop** | ✅ | ✅ | ❌ | ✅ | Desktop app driven by UI-TARS-1.5/Seed-1.5-VL; native GUI agent; natural language control; cross-platform; local + remote VM sandbox (ByteDance) | [🔗](https://github.com/bytedance/UI-TARS-desktop) |
+| **Agent TARS** | ✅ | ✅ | ✅ | ✅ | General multimodal AI agent stack; CLI + Web UI; hybrid browser/GUI agent; MCP-native; `npx @agent-tars/cli@latest` (ByteDance) | [🔗](https://github.com/bytedance/UI-TARS-desktop) |
+| **c/ua (Cua)** | ✅ | ✅ | ✅ | ✅ | Docker for computer-use agents; isolated VM envs; macOS/Linux/Windows; CLI (`cua sb launch ubuntu`); Agent SDK | [🔗](https://github.com/trycua/cua) |
 | **Windows-Use** | ✅ | ❌ | ❌ | ✅ | Windows OS-specific agent automation | [🔗](https://github.com/CursorTouch/Windows-Use) |
-| **OpenCUA** | ✅ | ✅ | ✅ | ✅ | Open foundations for computer-use agents | [🔗](https://github.com/xlang-ai/OpenCUA) |
-| **Devin** | ✅ | ✅ | ✅ | ✅ | Full-stack software engineering agent (Cognition Labs) | ❌ |
+| **OpenCUA** | ✅ | ✅ | ✅ | ✅ | Open foundations for computer-use agents; AgentNet dataset (3 OS, 200+ apps) | [🔗](https://github.com/xlang-ai/OpenCUA) |
+| **E2B Open Computer Use** | ❌ | ❌ | ✅ | ✅ | Secure cloud Linux desktop via E2B sandbox; 10+ LLMs; live stream display; user pause/prompt; free (E2B API key required) | [🔗](https://github.com/e2b-dev/open-computer-use) |
+| **Devin** | ✅ | ✅ | ✅ | ✅ | Full-stack software engineering agent; cloud VM; PR automation; Jira/Linear; Core $20/mo, Team $500/seat/mo (Cognition AI) | [🔗](https://github.com/cognition-ai/devin) |
+| **OpenHands** | ✅ | ✅ | ✅ | ✅ | Open-source software dev agent (fmr. OpenDevin); 40K+ GitHub stars; free OSS + Cloud Individual free; Enterprise custom; supports Claude 4, GPT-5, Ollama | [🔗](https://github.com/All-Hands-AI/OpenHands) |
 | **Ace** | ✅ | ✅ | ✅ | ✅ | 20x human speed on UI tasks (General Agents) | ❌ |
 
 ##### Cloud / API Computer Use Agents
 
-Agents accessed via API or cloud service — OS-independent, but require internet connectivity.
+Agents accessed via API or cloud service — OS-independent, but require internet connectivity. All accept plain English task prompts.
 
-| Agent | Interface | Vision | Best For | GitHub |
-|-------|-----------|--------|----------|--------|
-| **Anthropic Computer Use** | API | ✅ | Beta capability, Claude-powered desktop control | ❌ |
-| **OpenAI Operator** | API | ✅ | Guided browser and desktop computer use | ❌ |
-| **Amazon Nova Act** | API | ✅ | AWS browser automation SDK | ❌ |
-| **Manus AI** | Cloud | ✅ | General-purpose cloud agent | ❌ |
-| **Adept AI (ACT-1)** | API | ✅ | Pioneer in digital actions, self-correcting behavior | ❌ |
-| **AskUI Vision Agent** | API | ✅ | Cross-platform vision automation without VMs | ❌ |
-| **Highlight AI** | Desktop + Cloud | ✅ | Privacy-first desktop Q&A and automation | ❌ |
+| Agent | Interface | Vision | Parallel | Pricing | Best For | GitHub |
+|-------|-----------|--------|:--------:|---------|----------|--------|
+| **Anthropic Claude Computer Use** | API (beta) + Cowork desktop | ✅ | ❌ | API token-based; Cowork bundled | Claude controls your actual desktop from your phone; opens apps, fills spreadsheets, exports PDFs; run in Docker sandbox | ❌ |
+| **OpenAI ChatGPT Agent** | ChatGPT (Agent Mode) | ✅ | ❌ | Included with Plus $20/mo, Pro $200/mo | Successor to Operator; 87% on complex browser tasks; Watch Mode + Takeover Mode; auto-pauses on sensitive sites | ❌ |
+| **OpenAI Operator (CUA)** | API (CUA model) | ✅ | ❌ | Pro $200/mo | Browser-native CUA model; OSWorld 38.1%, WebArena 58.1%, WebVoyager 87%; no OS-level control | ❌ |
+| **Google Gemini Computer Use** | API (Gemini 2.5 CU Preview) | ✅ | ❌ | $1.25/M input, $10.00/M output | Browser + desktop + mobile; Playwright-based action loop; safety checks on sensitive actions; 131K context | ❌ |
+| **Amazon Nova Act** | API | ✅ | ✅ | Pay-per-use (AWS) | AWS browser automation SDK; multi-agent; deep AWS integration | ❌ |
+| **Manus AI** | Cloud dashboard | ✅ | ✅ 20 | Free (300 credits/day) / $20–$200/mo | General-purpose cloud agent; 20 concurrent tasks; code deploy files research; credit-based | ❌ |
+| **Convergence Proxy** | Cloud / API | ✅ | ✅ 20 | Free (5 sessions/day) / $20/mo Pro | Adaptive web agent using LMLMs; learns from interactions; 88% WebVoyager score; acquired by Salesforce (2025) | ❌ |
+| **E2B Sandbox** | API + SDK | ✅ | ✅ | Free (Hobby) / $150/mo Pro / Enterprise $3K/mo | Secure cloud Linux desktop & code execution sandbox; microVM isolation; Computer SDK; Claude Code / Codex compatible | [🔗](https://github.com/e2b-dev/e2b) |
+| **Adept AI (ACT-1)** | API | ✅ | ❌ | Enterprise | Pioneer in digital actions, self-correcting behavior | ❌ |
+| **AskUI Vision Agent** | API | ✅ | ❌ | Paid | Cross-platform vision automation without VMs | ❌ |
+| **Highlight AI** | Desktop + Cloud | ✅ | ❌ | Freemium | Privacy-first desktop Q&A and automation | ❌ |
 
 ##### AI Operating Systems
 
