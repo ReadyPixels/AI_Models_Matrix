@@ -5,6 +5,34 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2026-05-04] - Version 3.0 Major Update
+
+### Added
+- **Browser Automation Enhancements**: Added API Access, Multi-Agent, and Parallel Sessions columns to Standalone AI Browsers table
+- **New Browser**: Sidekick Browser (Windows, macOS, Linux) with AI assistant and natural language tab management
+- **New Developer Libraries**: AgentQL (natural language web querying), ScrapeGraphAI (natural language scraping), WebVoyager (autonomous browsing research)
+- **New Local Agent**: Khoj (supports Ollama, LM Studio, OpenAI API)
+- **New Cloud Agents**: Perplexity Computer (Pro $20/mo), OpenAI Computer Use (API: $15/M input, $60/M output)
+- **Multi-Agent & Parallel Execution Summary**: New dedicated section categorizing tools by parallel execution capability
+- **Pricing Column**: Added to Developer Libraries table with detailed pricing (Cloudflare Browser Run $5+/mo, Skyvern $29-$149/mo, etc.)
+
+### Changed
+- **Document Version**: 2.9 → 3.0
+- **Last Updated**: 2026-05-04 16:36 UTC
+- **SWE-bench Rankings**: Updated with GPT-5.5 Pro (#1, 92.3%), GPT-5.5 (#2, 88.5%), Claude Opus 4.7 (#3, 87.6%)
+- **Reasoning Benchmarks**: Updated with GPT-5.5 Pro (#1, 100% AIME, 78.5% ARC-AGI-2)
+- **Model Updates**: Kimi K2.5 → Kimi K2.6, DeepSeek-V3.1 → DeepSeek-V3.2
+- **IDE Updates**: Cursor 3.1 → 3.2 (May 1, 2026), Windsurf 1.9552+ → 2.0.0 (May 3, 2026)
+- **Claude Code**: Updated to 2.2.1+ (added multi-session support, Opus 4.7 support)
+- **OpenHands GitHub Link**: Fixed incorrect link (OpenHands → All-Hands-AI)
+- **Table Restructuring**: Added Multi-Agent and Parallel Sessions columns to Local Machine, Browser-Only, and Cloud Sandbox agent tables
+- **Commercial Coding Models**: Added GPT-5.5 Pro ($15.00/$60.00 per 1M, 92.3% SWE-bench)
+
+### Sources
+- Official provider documentation (OpenAI, Anthropic, Microsoft, Perplexity)
+- SWE-bench Verified benchmark results (May 2026)
+- AIME 2025 and ARC-AGI-2 benchmark data
+
 ## [2026-05-02] - May 2026 Models & Tools Update (v2.9)
 
 ### Added

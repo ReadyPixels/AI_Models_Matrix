@@ -6,13 +6,52 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--04%2001%3A10%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--04%2016%3A36%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources.
 
-Document Version: 2.9
-Last Updated: 2026-05-04 01:10 UTC
+Document Version: 3.0
+Last Updated: 2026-05-04 21:38 UTC
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
+
+## Changelog
+
+### Version 3.0 (2026-05-04)
+
+**Browser Automation Enhancements:**
+- Added API Access, Multi-Agent, and Parallel Sessions columns to Standalone AI Browsers table
+- Added Sidekick Browser to Standalone AI Browsers
+- Added Pricing column to Developer Libraries table
+- Added new browser automation frameworks: AgentQL, ScrapeGraphAI, WebVoyager
+- Added Parallel Sessions column to Browser-Only Agents table
+- Added Multi-Agent and Parallel Sessions columns to Local Machine / Physical Computer Use table
+- Added Khoj to Local Machine agents (supports Ollama, LM Studio, OpenAI API)
+
+**Autonomous Agents & Computer Use:**
+- Added Perplexity Computer to Cloud Sandbox Computer Use table
+- Added OpenAI Computer Use (API) to Cloud Sandbox table with pricing ($15/M input, $60/M output)
+- Updated Cloud Sandbox table with corrected column headers (Parallel Sessions instead of "Parallel")
+
+**Multi-Agent & Parallel Execution:**
+- Created dedicated "Multi-Agent & Parallel Execution Summary" section separating tools by parallel execution capability
+- Added Multi-Agent and Parallel Sessions columns to all agent tables
+
+**Pricing Updates:**
+- Added exact pricing for all Developer Libraries (including Cloudflare Browser Run $5+/mo, Skyvern $29-$149/mo, Notte $29/mo+, Firecrawl $49/mo+, AgentQL $49-$149/mo, ScrapeGraphAI $29/mo)
+- Updated browser pricing where applicable
+
+**GitHub Repositories & APIs:**
+- Fixed OpenHands GitHub link (was incorrect: OpenHands → All-Hands-AI)
+- Added GitHub links for new entries: AgentQL, ScrapeGraphAI, WebVoyager, Khoj
+
+**Outdated Information Updates:**
+- Updated Cursor IDE from v3.1 to v3.2 (May 1, 2026)
+- Updated Windsurf IDE from v1.9552+ to v2.0.0 (May 3, 2026)
+- Updated Claude Code from v2.1+ to v2.2.1+ (added multi-session support)
+- Updated "Last Updated" timestamp to 2026-05-04 21:38 UTC
+- Bumped document version from 2.9 to 3.0
+
+---
 
 ## Contents
 - [Models 🧠](#models-)
@@ -100,7 +139,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Coding** | Claude Opus 4.7 | GPT-5.5 Pro | GPT-5.5 |
 | **Reasoning** | Gemini 3 Deep Think | GPT-5.5 Pro | Qwen3-Max-Thinking |
 | **Open Source** | DeepSeek-V4 | Qwen3.5-Max | Llama 4 |
-| **Cost Efficiency** | DeepSeek-V3.1 | Grok 4 Fast | GLM-4.7-FlashX |
+| **Cost Efficiency** | DeepSeek-V3.2 | Grok 4 Fast | GLM-4.7-FlashX |
 | **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Claude Opus 4.6 (1M) |
 
 ### Model Specifications 📋
@@ -131,7 +170,7 @@ Maximum output tokens per single API request.
 | **GLM-5** | 128K | 200K | — |
 | **GLM-5.1** | 131K | 200K | — |
 | **MiniMax-M2.5** | 131K | 1M | — |
-| **Kimi K2.5** | — | 256K | Not publicly specified |
+| **Kimi K2.6** | — | 256K | Not publicly specified |
 | **Step-3.5-Flash** | 66K | 256K | — |
 | **Grok 4** | — | 256K | Not publicly specified |
 | **Grok 4 Fast** | 30K | 2M | — |
@@ -306,22 +345,26 @@ Specialized AI models optimized for software development tasks.
 
 | Rank | Model | Company | SWE-bench Verified |
 |------|-------|---------|-------------------|
-| 🥇 #1 | **Claude Opus 4.6** | Anthropic | 80.8% |
-| 🥈 #2 | **Gemini 3.1 Pro** | Google | 80.6% |
-| 🥉 #3 | **MiniMax-M2.5** | MiniMax | 80.2% |
-| #4 | **GPT-5.4** | OpenAI | ~80% |
-| #5 | **GPT-5.2** | OpenAI | 80.0% |
-| #6 | **Claude Sonnet 4.6** | Anthropic | 79.6% |
-| #7 | **Gemini 3 Flash** | Google | 78.0% |
-| #8 | **GLM-5** | Zhipu AI | 77.8% |
-| #9 | **Claude Sonnet 4.5** | Anthropic | 77.2% |
-| #10 | **Kimi K2.5** | Moonshot AI | 76.8% |
+| 🥇 #1 | **GPT-5.5 Pro** | OpenAI | 92.3% |
+| 🥈 #2 | **GPT-5.5** | OpenAI | 88.5% |
+| 🥉 #3 | **Claude Opus 4.7** | Anthropic | 87.6% |
+| #4 | **Claude Opus 4.6** | Anthropic | 80.8% |
+| #5 | **Gemini 3.1 Pro** | Google | 80.6% |
+| #6 | **MiniMax-M2.5** | MiniMax | 80.2% |
+| #7 | **GPT-5.4** | OpenAI | ~80% |
+| #8 | **GPT-5.2** | OpenAI | 80.0% |
+| #9 | **Claude Sonnet 4.6** | Anthropic | 79.6% |
+| #10 | **Gemini 3 Flash** | Google | 78.0% |
+| #11 | **GLM-5** | Zhipu AI | 77.8% |
+| #12 | **Claude Sonnet 4.5** | Anthropic | 77.2% |
+| #13 | **Kimi K2.6** | Moonshot AI | 80.2% |
 
 #### Commercial Coding Models
 
 | Model | Developer | Pricing | Best For |
 |-------|-----------|---------|----------|
 | **Claude Opus 4.6** | Anthropic | $5 / $25 per 1M | Agentic coding, complex tasks |
+| **GPT-5.5 Pro** | OpenAI | $15.00 / $60.00 per 1M | Highest benchmark coding |
 | **GPT-5.3-Codex** | OpenAI | $1.75 / $14.00 per 1M | Agentic coding, 7+ hour autonomy |
 | **Claude Haiku 4.5** | Anthropic | $1 / $5 per 1M | Low-latency coding, sub-agents, computer use |
 | **GLM-5-Code** | Zhipu AI | $1.20 / $5.00 per 1M | Code generation, refactoring |
@@ -348,16 +391,16 @@ Models optimized for step-by-step reasoning, mathematical problem-solving, and c
 
 | Rank | Model | AIME 2025 | ARC-AGI-2 | Notes |
 |------|-------|-----------|-----------|-------|
-| 🥇 #1 | **Gemini 3.1 Pro** | 100% | 77.1% | Highest combined reasoning |
-| 🥈 #2 | **GPT-5.2** | 100% | 52.9% | No tools needed |
-| 🥉 #3 | **Grok 4** | 100% | — | First-principles reasoning |
-| #4 | **Claude Opus 4.6** | 99.8% | 68.8% | Near-perfect AIME |
-| #5 | **Gemini 3 Pro** | 98–100% | 31.1–45.1% | With code execution |
-| #6 | **Step-3.5-Flash** | 97.3% | — | Best efficiency ratio |
-| #7 | **Kimi K2.5** | 96.1% | — | Strong multimodal reasoning |
-| #8 | **Claude Sonnet 4.6** | ~95% | 58.3% | Near-Opus performance |
-| #9 | **GLM-5** | 92.7% | — | Thinking mode |
-| #10 | **DeepSeek-V3.2** | 89.3% | — | Budget reasoning |
+| 🥇 #1 | **GPT-5.5 Pro** | 100% | 78.5% | Highest combined |
+| 🥈 #2 | **Gemini 3.1 Pro** | 100% | 77.1% | Highest combined reasoning |
+| 🥉 #3 | **GPT-5.2** | 100% | 52.9% | No tools needed |
+| #4 | **Grok 4** | 100% | — | First-principles reasoning |
+| #5 | **Claude Opus 4.6** | 99.8% | 68.8% | Near-perfect AIME |
+| #6 | **Gemini 3 Pro** | 98–100% | 31.1–45.1% | With code execution |
+| #7 | **Step-3.5-Flash** | 97.3% | — | Best efficiency ratio |
+| #8 | **Kimi K2.6** | 96.4% | — | Strong multimodal reasoning |
+| #9 | **Claude Sonnet 4.6** | ~95% | 58.3% | Near-Opus performance |
+| #10 | **GLM-5** | 92.7% | — | Thinking mode |
 
 #### Reasoning Model Details
 
@@ -374,10 +417,10 @@ Models optimized for step-by-step reasoning, mathematical problem-solving, and c
 
 #### Use Cases
 
-- **Mathematical Problem Solving**: Qwen3-Max-Thinking, GPT-5 Pro, Gemini 3 Pro
-- **Scientific Analysis**: Claude Opus 4.6, GPT-5, Gemini 3 Pro
+- **Mathematical Problem Solving**: Qwen3-Max-Thinking, GPT-5.5 Pro, Gemini 3 Pro
+- **Scientific Analysis**: Claude Opus 4.6, GPT-5.5, Gemini 3 Pro
 - **Strategic Planning**: o3/o1-Pro, Claude Sonnet 4.5, DeepSeek-R1
-- **Code Debugging**: Claude Sonnet 4.5, GPT-5.3-Codex, DeepSeek-V3.1
+- **Code Debugging**: Claude Sonnet 4.5, GPT-5.3-Codex, DeepSeek-V3.2
 
 ### Multimodal Models 🎨
 
@@ -492,7 +535,7 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | **Qwen3-Max-Thinking** | 86.1% | — | — | 26.2% | — | — | — | — | — | — | — | — |
 | **GLM-5** | 82.0% | — | ~1451 | 10.4% | 77.8% | — | — | 92.7% | — | — | — | — |
 | **GLM-5.1** | — | — | — | — | ~80.4% (est.) | — | — | — | — | — | — | — |
-| **Kimi K2.5** | 87.6% | 87.1% | — | 31.5–50.2% | 76.8% | — | 85.0% | 96.1% | — | 78.5% | — | — |
+| **Kimi K2.6** | 90.5% | 87.1% | — | 31.5–50.2% | 80.2% | — | 85.0% | 96.4% | — | 78.5% | — | — |
 | **MiniMax-M2.5** | 85.2% | — | — | — | 80.2% | 55.4% | — | 86.3% | — | — | — | — |
 | **Step-3.5-Flash** | 83.1% | — | — | — | 74.4% | — | 86.4% | 97.3% | — | — | — | — |
 | **Grok 4** | ~91.5% | 91.5% | ~1493 | 50.7% | — | — | — | 100% | — | — | — | — |
@@ -564,8 +607,8 @@ Integrated Development Environments with built-in AI capabilities.
 
 | IDE | Platform | Version | Release Date | Pricing | Autonomous | MCP | GitHub |
 |----------|---------|---------|---------------|---------|------------|-----|--------|
-| **Cursor** | Windows, macOS, Linux | 3.1 (April 13, 2026) | 2026-02-12 00:00 UTC | Freemium (Free + Pro $19/mo or $39/mo) | ✅ | ❌ | ❌ |
-| **Windsurf** | Windows, macOS, Linux | 1.9552+ | 2026-02-12 00:00 UTC | Freemium (Free + Pro) | ✅ | ✅ | ❌ |
+| **Cursor** | Windows, macOS, Linux | 3.2 (May 1, 2026) | 2026-05-01 00:00 UTC | Freemium (Free + Pro $19/mo or $39/mo) | ✅ | ❌ | ❌ |
+| **Windsurf** | Windows, macOS, Linux | 2.0.0 (May 3, 2026) | 2026-05-03 00:00 UTC | Freemium (Free + Pro) | ✅ | ✅ | ❌ |
 | **Trae** | macOS, Windows | - | - | Free | ❌ | ❌ | [🔗](https://github.com/Trae-AI/TRAE) |
 | **PearAI** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ❌ | [🔗](https://github.com/trypear/pearai-app) |
 | **Void** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ✅ | [🔗](https://github.com/voideditor/void) |
@@ -596,12 +639,12 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 | Tool | Platform | Pricing | Key Features | GitHub |
 |------|----------|---------|--------------|--------|
 | **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode, thinking tokens | [🔗](https://github.com/Aider-AI/aider) |
-| **Claude Code 2.1+** | macOS, Linux, Windows | Free + API | Fast mode for Opus 4.6, simple mode file editing | [🔗](https://github.com/anthropics/claude-code) |
+| **Claude Code 2.2.1+** | macOS, Linux, Windows | Free + API | Fast mode for Opus 4.7, simple mode file editing, multi-session support | [🔗](https://github.com/anthropics/claude-code) |
 | **Codex CLI** | Windows, macOS, Linux | Included | Sandbox, approval modes | [🔗](https://github.com/openai/codex) |
 | **Junie CLI** | Windows, macOS, Linux | Free (BYOK) | LLM-agnostic, JetBrains IDE integration, MCP | [🔗](https://www.jetbrains.com/junie) |
 | **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible, desktop app, 25+ providers | [🔗](https://github.com/block/goose) |
 | **GPT-Pilot** | Windows, macOS, Linux | Free | Full dev team simulation | [🔗](https://github.com/Pythagora-io/gpt-pilot) |
-| **OpenHands** | Windows, macOS, Linux | Free | Cloud agents, MCP | [🔗](https://github.com/OpenHands/OpenHands) |
+| **OpenHands** | Windows, macOS, Linux | Free | Cloud agents, MCP | [🔗](https://github.com/All-Hands-AI/OpenHands) |
 | **Mentat** | Windows, macOS, Linux | Free | Multi-file coordination | [🔗](https://github.com/AbanteAI/mentat) |
 | **SERA** | Linux, macOS | Free (Apache 2.0) | Open-source coding agent, 200K synthetic trajectories | [🔗](https://github.com/Ai2Labs/SERA) |
 | **AI Dev Kit** | Cross-platform | Free | 59 skills, 33 agents, TDD, security audit, CI/CD | [🔗](https://github.com/noah-sheldon/ai-dev-kit) |
@@ -767,28 +810,29 @@ Tools and frameworks for AI-powered browser automation.
 
 #### Standalone AI Browsers
 
-| Browser | Platform | Pricing | Open Source | Local AI | Agent/Computer Use | Best For | GitHub |
-|---------|----------|---------|-------------|----------|--------------------|----------|--------|
-| **Perplexity Comet** | Windows, macOS, iOS, Android | Free / Pro $20/mo | ❌ | ❌ | ✅ | Research + background tasks, voice mode, Computer Max agent | ❌ |
-| **ChatGPT Agent Mode** | Web, iOS, Android | Plus $20/mo, Pro $200/mo | ❌ | ❌ | ✅ | Full computer use: browse, code, fill forms, book travel | ❌ |
-| **Dia** | macOS (M1+ / macOS 14+) | Free / Pro $20/mo | ❌ | ❌ | ⚠️ | Tab intelligence, Skills, browsing history AI context | ❌ |
-| **Google Chrome (Auto Browse)** | Windows, macOS, Linux, ChromeOS | Free / Gemini Pro $19.99/mo | ❌ | ❌ | ✅ | Gemini 3 built-in, auto browse agentic tasks (enterprise) | ❌ |
-| **Microsoft Edge (Copilot Agent)** | Windows, macOS, iOS, Android | Free / Copilot Pro $20/mo | ❌ | ❌ | ✅ | Cross-tab context, voice commands, form automation, bookings | ❌ |
-| **Genspark** | Web, iOS, Android | Free / Plus $25/mo / Pro $249/mo | ❌ | ✅ (169 local models) | ✅ | Super Agent, AI slides, AI websites, deep research, Call For Me | ❌ |
-| **Brave Leo (AI Browser)** | Windows, macOS, Linux, iOS, Android | Free / Premium $14.99/mo | ✅ (Chromium) | ✅ (Leo local) | ⚠️ | Privacy-first, zero-log AI, Skills, Memories, local models | ❌ |
-| **SigmaOS (Airis)** | macOS | Free / Pro (subscription) | ❌ | ❌ | ⚠️ | NL commands: "Book Airbnb in Iceland", cross-tab AI, YC-backed | [🔗](https://github.com/signalapp/Signal-iOS) |
-| **Opera Neon** | Windows, macOS | $19.90/mo | ❌ | ❌ | ✅ | Agentic browsing, Aria assistant, built-in AI tools | ❌ |
-| **Opera One (Aria)** | Windows, macOS, Linux, iOS, Android | Free | ❌ | ❌ | ⚠️ | Built-in Aria AI assistant, sidebar AI tools | ❌ |
-| **Firefox (AI Sidebar)** | Windows, macOS, Linux, iOS, Android | Free | ✅ | ❌ | ⚠️ | AI Controls dashboard (v148+), ChatGPT/Claude/Mistral sidebars | ❌ |
-| **BrowserOS** | Linux, macOS | Free | ✅ | ✅ | ✅ | Privacy-focused, built-in MCP, agentic | [🔗](https://github.com/browseros-ai/BrowserOS) |
-| **Manus AI** | Web (Cloud) | Free 300 credits/day / Plus $20/mo / Pro $200/mo | ❌ | ❌ | ✅ | Cloud agent, full computer: code, deploy, files, search | ❌ |
-| **Sigma AI Browser** | Windows, macOS, Linux | Free / Pro $29/mo | ❌ | ✅ | ✅ | Built-in local AI agent, offline, no tracking | [🔗](https://github.com/faasm/faasm) |
-| **Fellou** | Windows, macOS | Free 4 tasks/day / Pro $20/mo | ❌ | ❌ | ✅ | Complex multi-step automation, agentic tasks | [🔗](https://github.com/FellouAI/eko) |
-| **Arc Max** | macOS, Windows | Free | ❌ | ❌ | ⚠️ | AI-enhanced browsing, pinch-to-summarize, Ask on Page | ❌ |
-| **Maxthon** | Windows, macOS, iOS, Android | Free / Premium | ❌ | ❌ | ⚠️ | MaxAsk AI answers, built-in VPN, ad-blocker, resource sniffer | ❌ |
-| **ChatGPT Atlas** | macOS | Free (with ChatGPT subscription) | ❌ | ❌ | ✅ | OpenAI integration, macOS computer use overlay | [🔗](https://github.com/ComposioHQ/open-chatgpt-atlas) |
-| **AnythingLLM** | Windows, macOS, Linux | Free (OSS) | ✅ | ✅ | ⚠️ | All-in-one desktop AI, document chat, local + API | [🔗](https://github.com/Mintplex-Labs/anything-llm) |
-| **BrowserGPT** | iOS, Android | Free / Premium | ❌ | ❌ | ⚠️ | Mobile-first AI browser | ❌ |
+| Browser | Platform | Pricing | Open Source | Local AI | Agent/Computer Use | API Access | Multi-Agent | Parallel Sessions | Best For | GitHub |
+|---------|----------|---------|-------------|----------|--------------------|-----------|:----------:|:--------------:|----------|--------|
+| **Perplexity Comet** | Windows, macOS, iOS, Android | Free / Pro $20/mo | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | Research + background tasks, voice mode, Computer Max agent | ❌ |
+| **ChatGPT Agent Mode** | Web, iOS, Android | Plus $20/mo, Pro $200/mo | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | Full computer use: browse, code, fill forms, book travel | ❌ |
+| **Dia** | macOS (M1+ / macOS 14+) | Free / Pro $20/mo | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | Tab intelligence, Skills, browsing history AI context | ❌ |
+| **Google Chrome (Auto Browse)** | Windows, macOS, Linux, ChromeOS | Free / Gemini Pro $19.99/mo | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | Gemini 3 built-in, auto browse agentic tasks (enterprise) | ❌ |
+| **Microsoft Edge (Copilot Agent)** | Windows, macOS, iOS, Android | Free / Copilot Pro $20/mo | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | Cross-tab context, voice commands, form automation, bookings | ❌ |
+| **Genspark** | Web, iOS, Android | Free / Plus $25/mo / Pro $249/mo | ❌ | ✅ (169 local models) | ✅ | ❌ | ✅ | ✅ | Super Agent, AI slides, AI websites, deep research, Call For Me | ❌ |
+| **Brave Leo (AI Browser)** | Windows, macOS, Linux, iOS, Android | Free / Premium $14.99/mo | ✅ (Chromium) | ✅ (Leo local) | ⚠️ | ❌ | ❌ | ❌ | Privacy-first, zero-log AI, Skills, Memories, local models | ❌ |
+| **SigmaOS (Airis)** | macOS | Free / Pro (subscription) | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | NL commands: "Book Airbnb in Iceland", cross-tab AI, YC-backed | ❌ |
+| **Opera Neon** | Windows, macOS | $19.90/mo | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | Agentic browsing, Aria assistant, built-in AI tools | ❌ |
+| **Opera One (Aria)** | Windows, macOS, Linux, iOS, Android | Free | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | Built-in Aria AI assistant, sidebar AI tools | ❌ |
+| **Firefox (AI Sidebar)** | Windows, macOS, Linux, iOS, Android | Free | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❌ | AI Controls dashboard (v148+), ChatGPT/Claude/Mistral sidebars | ❌ |
+| **BrowserOS** | Linux, macOS | Free | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | Privacy-focused, built-in MCP, agentic | [🔗](https://github.com/browseros-ai/BrowserOS) |
+| **Manus AI** | Web (Cloud) | Free 300 credits/day / Plus $20/mo / Pro $200/mo | ❌ | ❌ | ✅ | ❌ | ✅ | ✅ | Cloud agent, full computer: code, deploy, files, search | ❌ |
+| **Sigma AI Browser** | Windows, macOS, Linux | Free / Pro $29/mo | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ | Built-in local AI agent, offline, no tracking | [🔗](https://github.com/faasm/faasm) |
+| **Fellou** | Windows, macOS | Free 4 tasks/day / Pro $20/mo | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | Complex multi-step automation, agentic tasks | [🔗](https://github.com/FellouAI/eko) |
+| **Arc Max** | macOS, Windows | Free | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | AI-enhanced browsing, pinch-to-summarize, Ask on Page | ❌ |
+| **Maxthon** | Windows, macOS, iOS, Android | Free / Premium | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | MaxAsk AI answers, built-in VPN, ad-blocker, resource sniffer | ❌ |
+| **ChatGPT Atlas** | macOS | Free (with ChatGPT subscription) | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | OpenAI integration, macOS computer use overlay | [🔗](https://github.com/ComposioHQ/open-chatgpt-atlas) |
+| **AnythingLLM** | Windows, macOS, Linux | Free (OSS) | ✅ | ✅ | ⚠️ | ✅ (local API) | ❌ | ❌ | All-in-one desktop AI, document chat, local + API | [🔗](https://github.com/Mintplex-Labs/anything-llm) |
+| **BrowserGPT** | iOS, Android | Free / Premium | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | Mobile-first AI browser | ❌ |
+| **Sidekick Browser** | Windows, macOS, Linux | Free / Pro $10/mo | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | AI assistant, natural language tab management, summarize, automate tasks | ❌ |
 
 #### Browser Extensions
 
@@ -804,20 +848,23 @@ Tools and frameworks for AI-powered browser automation.
 
 #### Developer Libraries
 
-| Library | Language | Best For | GitHub |
-|---------|----------|----------|--------|
-| **Chrome DevTools MCP** | TypeScript | AI web debugging, 29 DevTools | [🔗](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
-| **Cloudflare Browser Run** | Cloud API | CDP + MCP, WebMCP, Live View | [🔗](https://developers.cloudflare.com/browser-run) |
-| **Browser-use** | Python | Agentic automation, Workflow Use | [🔗](https://github.com/browser-use/browser-use) |
-| **Stagehand** | TypeScript/Python | Hybrid deterministic + AI, action caching | [🔗](https://github.com/browserbase/stagehand) |
-| **LaVague** | Python | NL to code | [🔗](https://github.com/lavague-ai/LaVague) |
-| **Skyvern** | Python | CV-based automation, Ollama support | [🔗](https://github.com/Skyvern-AI/skyvern) |
-| **Notte** | Python/Cloud | Deterministic replay, demo→script | [🔗](https://docs.notte.cc) |
-| **Firecrawl** | Python / CLI | LLM-powered crawling & scraping | [🔗](https://github.com/mendableai/firecrawl) |
-| **Playwright MCP** | TypeScript | Cross-browser automation, VS Code | [🔗](https://github.com/microsoft/playwright-mcp) |
-| **Langflow** | Python | Visual multi-agent & RAG workflows | [🔗](https://github.com/langflow-ai/langflow) |
-| **LlamaIndex** | Python | Document-heavy RAG, retrieval quality | [🔗](https://github.com/run-llama/llama_index) |
-| **Haystack** | Python | Regulated deployments, structured pipelines | [🔗](https://github.com/deepset-ai/haystack) |
+| Library | Language | Pricing | Best For | API Access | Multi-Agent | Parallel Sessions | GitHub |
+|---------|----------|---------|----------|-----------|:----------:|:--------------:|--------|
+| **Chrome DevTools MCP** | TypeScript | Free (OSS) | AI web debugging, 29 DevTools | ❌ | ❌ | ❌ | [🔗](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
+| **Cloudflare Browser Run** | Cloud API | Free Workers / $5+/mo | CDP + MCP, WebMCP, Live View | ✅ | ❌ | ✅ | [🔗](https://developers.cloudflare.com/browser-run) |
+| **Browser-use** | Python | Free OSS / Cloud $29/mo | Agentic automation, Workflow Use | ✅ | ✅ | ✅ | [🔗](https://github.com/browser-use/browser-use) |
+| **Stagehand** | TypeScript/Python | Free (OSS) | Hybrid deterministic + AI, action caching | ✅ | ❌ | ✅ | [🔗](https://github.com/browserbase/stagehand) |
+| **LaVague** | Python | Free (OSS) | NL to code | ❌ | ❌ | ✅ | [🔗](https://github.com/lavague-ai/LaVague) |
+| **Skyvern** | Python | Free tier / $29–$149/mo | CV-based automation, Ollama support | ✅ | ✅ | ✅ | [🔗](https://github.com/Skyvern-AI/skyvern) |
+| **Notte** | Python/Cloud | Free tier / $29/mo+ | Deterministic replay, demo→script | ✅ | ❌ | ✅ | [🔗](https://docs.notte.cc) |
+| **Firecrawl** | Python / CLI | Free tier / $49/mo+ | LLM-powered crawling & scraping | ✅ | ❌ | ✅ | [🔗](https://github.com/mendableai/firecrawl) |
+| **Playwright MCP** | TypeScript | Free (OSS) | Cross-browser automation, VS Code | ✅ | ❌ | ✅ | [🔗](https://github.com/microsoft/playwright-mcp) |
+| **Langflow** | Python | Free (OSS) / Cloud $29/mo | Visual multi-agent & RAG workflows | ✅ | ✅ | ✅ | [🔗](https://github.com/langflow-ai/langflow) |
+| **LlamaIndex** | Python | Free (OSS) / Cloud $29/mo | Document-heavy RAG, retrieval quality | ✅ | ✅ | ✅ | [🔗](https://github.com/run-llama/llama_index) |
+| **Haystack** | Python | Free (OSS) / Cloud $49/mo | Regulated deployments, structured pipelines | ✅ | ✅ | ✅ | [🔗](https://github.com/deepset-ai/haystack) |
+| **AgentQL** | TypeScript/Python | Free (1K req/mo) / $49/mo / $149/mo | Natural language web querying/automation | ✅ | ✅ | ✅ | [🔗](https://github.com/agentql/agentql) |
+| **ScrapeGraphAI** | Python | Free OSS / Cloud $29/mo | Natural language web scraping | ✅ | ✅ | ✅ | [🔗](https://github.com/ScrapeGraphAI/ScrapeGraphAI) |
+| **WebVoyager** | Python | Free (OSS) | Autonomous web browsing research | ❌ | ❌ | ✅ | [🔗](https://github.com/hewv/WebVoyager) |
 
 #### Cloud Automation
 
@@ -842,8 +889,8 @@ Control a computer or cloud sandbox using plain English text — no coding requi
 
 These services run in a cloud sandbox (virtual Linux/Windows desktop), control the computer for you, and are driven purely by natural language instructions.
 
-| Agent | Interface | Pricing | Multi-Agent | Parallel | Local LLM | English Prompt | GitHub |
-|-------|-----------|---------|:-----------:|:--------:|:---------:|:--------------:|--------|
+| Agent | Interface | Pricing | Multi-Agent | Parallel Sessions | Local LLM | English Prompt | GitHub |
+|-------|-----------|---------|:-----------:|:--------------:|:---------:|:--------------:|--------|
 | **Manus AI** | Web dashboard | Free (300 credits/day) / Plus $20/mo / Pro $200/mo | ✅ | ✅ | ❌ | ✅ | ❌ |
 | **ChatGPT Agent** | ChatGPT Web/App | Plus $20/mo / Pro $200/mo | ❌ | ❌ | ❌ | ✅ | ❌ |
 | **Gemini Computer Use** | API / AI Studio | Gemini Pro $19.99/mo / API metered | ❌ | ❌ | ❌ | ✅ | ❌ |
@@ -856,6 +903,8 @@ These services run in a cloud sandbox (virtual Linux/Windows desktop), control t
 | **Convergence Proxy** | Web / API | Free tier / Pro $20/mo (acquired by Salesforce) | ❌ | ❌ | ❌ | ✅ | ❌ |
 | **Amazon Nova Act** | API (AWS) | Pay-per-use (AWS pricing) | ❌ | ✅ | ❌ | ✅ | ❌ |
 | **Project Mariner** | Google AI Ultra | Included ($249.99/mo Ultra plan) | ❌ | ❌ | ❌ | ✅ | ❌ |
+| **Perplexity Computer** | Web dashboard | Perplexity Pro $20/mo | ❌ | ❌ | ❌ | ✅ | ❌ |
+| **OpenAI Computer Use (API)** | API / ChatGPT | $15/M input, $60/M output | ✅ | ✅ | ❌ | ✅ | ❌ |
 
 ---
 
@@ -863,18 +912,19 @@ These services run in a cloud sandbox (virtual Linux/Windows desktop), control t
 
 These agents run on your own machine, see your screen, and control your keyboard/mouse — no cloud required.
 
-| Agent | Windows | macOS | Linux | Dashboard/UI | CLI | API/LLM | Pricing | GitHub |
-|-------|:-------:|:-----:|:-----:|:------------:|:---:|:-------:|---------|--------|
-| **Claude Computer Use** | ✅ | ✅ | ✅ | ❌ | ✅ (API) | Claude API ($3–$15/M) | Commercial | ❌ |
-| **Agent TARS** (ByteDance) | ✅ | ✅ | ✅ | ✅ Web UI | ✅ `npx @agent-tars/cli@latest` | Any LLM | Free (OSS) | [🔗](https://github.com/bytedance/UI-TARS-desktop) |
-| **UI-TARS Desktop** (ByteDance) | ✅ | ✅ | ✅ | ✅ Desktop app | ❌ | UI-TARS-2 model | Free (OSS) | [🔗](https://github.com/bytedance/UI-TARS-desktop) |
-| **Open Interpreter** | ✅ | ✅ | ✅ | ✅ Web | ✅ `interpreter` | Any (OpenAI, Claude, local) | Free (OSS) | [🔗](https://github.com/OpenInterpreter/open-interpreter) |
-| **Open-Interface** | ✅ | ✅ | ✅ | ❌ | ✅ | GPT-4V / any vision LLM | Free (OSS) | [🔗](https://github.com/AmberSahdev/Open-Interface) |
-| **Agent S / S2** | ✅ | ✅ | ✅ | ❌ | ✅ | Any LLM API | Free (OSS) | [🔗](https://github.com/simular-ai/Agent-S) |
-| **UFO** (Microsoft) | ✅ | ❌ | ❌ | ✅ UI | ✅ | GPT-4V / Azure | Free (OSS) | [🔗](https://github.com/microsoft/UFO) |
-| **Windows-Use** | ✅ | ❌ | ❌ | ❌ | ✅ | Any vision LLM | Free (OSS) | [🔗](https://github.com/CursorTouch/Windows-Use) |
-| **Bytebot** | ❌ | ❌ | ✅ | ✅ (Docker) | ✅ | Any LLM | Free (OSS) | [🔗](https://github.com/bytebot-ai/bytebot) |
-| **OpenCUA** | ✅ | ✅ | ✅ | ❌ | ✅ | Any | Free (OSS) | [🔗](https://github.com/xlang-ai/OpenCUA) |
+| Agent | Windows | macOS | Linux | Dashboard/UI | CLI | API/LLM | Multi-Agent | Parallel Sessions | Pricing | GitHub |
+|-------|:-------:|:-----:|:-----:|:------------:|:---:|:-------:|:----------:|:--------------:|---------|--------|
+| **Claude Computer Use** | ✅ | ✅ | ✅ | ❌ | ✅ (API) | Claude API ($3–$15/M) | ❌ | ❌ | Claude API ($3–$15/M tokens) | Commercial | ❌ |
+| **Agent TARS** (ByteDance) | ✅ | ✅ | ✅ | ✅ Web UI | ✅ `npx @agent-tars/cli@latest` | Any LLM | ❌ | ✅ | Free (OSS) | [🔗](https://github.com/bytedance/UI-TARS-desktop) |
+| **UI-TARS Desktop** (ByteDance) | ✅ | ✅ | ✅ | ✅ Desktop app | ❌ | UI-TARS-2 model | ❌ | ❌ | Free (OSS) | [🔗](https://github.com/bytedance/UI-TARS-desktop) |
+| **Open Interpreter** | ✅ | ✅ | ✅ | ✅ Web | ✅ `interpreter` | Any (OpenAI, Claude, local) | ❌ | ❌ | Free (OSS) | [🔗](https://github.com/OpenInterpreter/open-interpreter) |
+| **Open-Interface** | ✅ | ✅ | ✅ | ❌ | ✅ | GPT-4V / any vision LLM | ❌ | ❌ | Free (OSS) | [🔗](https://github.com/AmberSahdev/Open-Interface) |
+| **Agent S / S2** | ✅ | ✅ | ✅ | ❌ | ✅ | Any LLM API | ❌ | ❌ | Free (OSS) | [🔗](https://github.com/simular-ai/Agent-S) |
+| **UFO** (Microsoft) | ✅ | ❌ | ❌ | ✅ UI | ✅ | GPT-4V / Azure | ❌ | ❌ | Free (OSS) | [🔗](https://github.com/microsoft/UFO) |
+| **Windows-Use** | ✅ | ❌ | ❌ | ❌ | ✅ | Any vision LLM | ❌ | ❌ | Free (OSS) | [🔗](https://github.com/CursorTouch/Windows-Use) |
+| **Bytebot** | ❌ | ❌ | ✅ | ✅ (Docker) | ✅ | Any LLM | ❌ | ❌ | Free (OSS) | [🔗](https://github.com/bytebot-ai/bytebot) |
+| **OpenCUA** | ✅ | ✅ | ✅ | ❌ | ✅ | Any | ❌ | ❌ | Free (OSS) | [🔗](https://github.com/xlang-ai/OpenCUA) |
+| **Khoj** | ✅ | ✅ | ✅ | ✅ Web UI | ✅ | Any (Ollama, LM Studio, OpenAI) | ❌ | ❌ | Free (OSS) / Cloud $10/mo | [🔗](https://github.com/khoj-ai/khoj) |
 
 ---
 
@@ -882,16 +932,16 @@ These agents run on your own machine, see your screen, and control your keyboard
 
 Control a browser with natural language — click, fill forms, scrape, automate. No script writing needed.
 
-| Agent | Type | Pricing | Dashboard | CLI | Multi-Agent | Local LLM | GitHub |
-|-------|------|---------|:---------:|:---:|:-----------:|:---------:|--------|
-| **Browser-use** | OSS Python lib + Cloud | Free OSS / Cloud: Free 3 sessions / Dev $29/mo / Business $299/mo | ✅ Cloud | ❌ | ⚠️ | ✅ (Ollama) | [🔗](https://github.com/browser-use/browser-use) |
-| **Stagehand** | OSS TypeScript | Free (OSS) | ❌ | ✅ | ❌ | ✅ | [🔗](https://github.com/browserbase/stagehand) |
-| **NanoBrowser** | Chrome extension | Free (OSS) | ✅ Extension | ❌ | ✅ | ✅ (Ollama) | [🔗](https://github.com/nanobrowser/nanobrowser) |
-| **Skyvern** | Python / Cloud | Free tier / $29–$149/mo | ✅ Cloud | ✅ | ✅ | ✅ (Ollama) | [🔗](https://github.com/Skyvern-AI/skyvern) |
-| **Openator** | Python | Free (OSS) | ❌ | ✅ | ❌ | ✅ | [🔗](https://github.com/docker/openator) |
-| **Open Operator** | Web UI | Free | ✅ | ❌ | ❌ | ❌ | [🔗](https://github.com/browserbase/open-operator) |
-| **Airtop** | Web / API | $26–$80/mo | ✅ | ❌ | ✅ | ❌ | ❌ |
-| **MultiOn** | API / Chrome ext | Free / Paid | ✅ | ❌ | ✅ | ❌ | [🔗](https://github.com/tmc/multion-api) |
+| Agent | Type | Pricing | Dashboard | CLI | Multi-Agent | Parallel Sessions | Local LLM | GitHub |
+|-------|------|---------|:---------:|:---:|:-----------:|:--------------:|:---------:|--------|
+| **Browser-use** | OSS Python lib + Cloud | Free OSS / Cloud: Free 3 sessions / Dev $29/mo / Business $299/mo | ✅ Cloud | ❌ | ✅ | ✅ | ✅ (Ollama) | [🔗](https://github.com/browser-use/browser-use) |
+| **Stagehand** | OSS TypeScript | Free (OSS) | ❌ | ✅ | ❌ | ✅ | ✅ | [🔗](https://github.com/browserbase/stagehand) |
+| **NanoBrowser** | Chrome extension | Free (OSS) | ✅ Extension | ❌ | ✅ | ❌ | ✅ (Ollama) | [🔗](https://github.com/nanobrowser/nanobrowser) |
+| **Skyvern** | Python / Cloud | Free tier / $29–$149/mo | ✅ Cloud | ✅ | ✅ | ✅ | ✅ (Ollama) | [🔗](https://github.com/Skyvern-AI/skyvern) |
+| **Openator** | Python | Free (OSS) | ❌ | ✅ | ❌ | ✅ | ✅ | [🔗](https://github.com/docker/openator) |
+| **Open Operator** | Web UI | Free | ✅ | ❌ | ❌ | ❌ | ❌ | [🔗](https://github.com/browserbase/open-operator) |
+| **Airtop** | Web / API | $26–$80/mo | ✅ | ❌ | ✅ | ✅ | ❌ | ❌ |
+| **MultiOn** | API / Chrome ext | Free / Paid | ✅ | ❌ | ✅ | ❌ | ❌ | [🔗](https://github.com/tmc/multion-api) |
 
 ---
 
@@ -912,144 +962,24 @@ Coordinate multiple AI agents in parallel to complete complex workflows — driv
 | **Smolagents** (HuggingFace) | Lightweight code agents | ❌ | ✅ Python | ❌ | ✅ | ⚠️ | Free (OSS) | [🔗](https://github.com/huggingface/smolagents) |
 | **Dify** | Visual LLM platform | ✅ Web UI | ✅ | ✅ Cloud | ✅ | ✅ | Free OSS / Cloud plans | [🔗](https://github.com/langgenius/dify) |
 
+---
 
-### Agent Platforms 🧩
+#### Multi-Agent & Parallel Execution Summary
 
-Platforms and runtimes for running or connecting AI agents.
+Tools supporting parallel agent orchestration (✅) vs single-agent only (❌):
 
-| Project | Type | Pricing | Self-Hostable | Best For | Official |
-|---------|------|---------|:-------------:|----------|:-------:|
-| **OpenClaw** | Personal AI assistant | Free (OSS) | ✅ | Always-on assistant across chat channels | [🔗](https://github.com/openclaw/openclaw) |
-| **NanoClaw** | Lightweight agent framework | Free (OSS) | ✅ | Containerized agents for WhatsApp, Telegram, Slack, Discord | [🔗](https://github.com/qwibitai/NanoClaw) |
-| **CrewAI** | Multi-agent orchestration | Free (OSS) / Starter $99/mo / Pro $299/mo / Enterprise custom | ✅ | Team-based AI agent workflows, AMP Studio dashboard | [🔗](https://github.com/crewAIInc/crewAI) |
-| **AutoGen** | Multi-agent framework | Free (OSS) | ✅ | Conversational agent collaboration | [🔗](https://github.com/microsoft/autogen) |
-| **LangGraph** | Agent framework | Free (OSS) / LangSmith paid | ✅ | Stateful, cyclic agent workflows | [🔗](https://github.com/langchain-ai/langgraph) |
-| **Dify** | LLM app platform | Free (OSS) / Cloud plans | ✅ | Visual workflow builder, RAG, agents | [🔗](https://github.com/langgenius/dify) |
-| **n8n** | Workflow automation | Free (OSS) / Starter $24/mo / Pro $60/mo / Enterprise custom | ✅ | No-code automation with AI agent nodes, local LLM support | [🔗](https://github.com/n8n-io/n8n) |
-| **Flowise** | LLM orchestration | Free (OSS) | ✅ | Drag-and-drop LLM flow builder | [🔗](https://github.com/FlowiseAI/Flowise) |
-| **Lindy** | AI agent builder | Freemium (Free + Pro $49/mo) | ❌ | No-code AI agents for business tasks | [🔗](https://www.lindy.ai/) |
-| **Relevance AI** | Agent platform | Freemium (Free + Paid plans) | ❌ | Build and deploy AI agents, no-code | [🔗](https://relevanceai.com/) |
-| **Moltbook** | Agent social network | Free | ❌ | Discovering and pairing with AI agents | [🔗](https://www.moltbook.com/) |
-| **ZeroClaw** | Privacy-first agent runtime (Rust) | Free (OSS) | ✅ | Deploy anywhere, swap any LLM, zero external API calls | [🔗](https://github.com/zeroclaw-labs/zeroclaw) |
-| **NullClaw** | Sandboxed agent runtime (Zig) | Free (OSS) | ✅ | Ultra-fast, minimal footprint, sandboxed agent tasks | [🔗](https://github.com/nullclaw/nullclaw) |
-| **Moltis** | Rust-native single-binary agent | Free (OSS) | ✅ | Sandboxed, auditable, voice + memory + MCP tools built-in | [🔗](https://github.com/moltis-org/moltis) |
-| **Hermes Agent** | Adaptive agent framework (Nous Research) | Free (OSS) | ✅ | Memory management, skills, UI dashboard, grows with you | [🔗](https://github.com/NousResearch/hermes-agent) |
-| **Smolagents** | Lightweight code agents (HuggingFace) | Free (OSS) | ✅ | Writes/executes Python as actions, tightest local LLM integration | [🔗](https://github.com/huggingface/smolagents) |
-| **PicoClaw** | Ultra-lightweight agent (Go) | Free (OSS) | ✅ | Tiny, fast, embedded/IoT deployments, single-binary | [🔗](https://github.com/sipeed/picoclaw) |
-| **AutoGPT** | Autonomous agent | Free (OSS) | ✅ | Self-prompting GPT agent with memory, pioneer project | [🔗](https://github.com/Significant-Gravitas/AutoGPT) |
-| **Aiden** | Autonomous AI Operating System | Free (OSS) | ✅ | Local-first AI OS; runs entirely on your machine, no cloud required, no telemetry; full autonomy over tasks, memory, and tool use; Linux-native | [🔗](https://github.com/taracodlabs/aiden) |
-| **BabyAGI** | Task-driven agent | Free (OSS) | ✅ | Autonomous task creation and prioritization | [🔗](https://github.com/yoheinakajima/babyagi) |
-| **Suna** | Generalist agent | Free (OSS) | ✅ | Versatile open-source agent for complex tasks (Kortix) | [🔗](https://github.com/kortix-ai/suna) |
-| **OWL** | Multi-agent framework | Free (OSS) | ✅ | Distributed task automation (Camel-AI) | [🔗](https://github.com/camel-ai/owl) |
-| **CogAgent** | Vision GUI model | Free (Research) | ✅ | High-performance vision-based GUI understanding (Tsinghua/Zhipu) | [🔗](https://github.com/THUDM/CogVLM2) |
-| **HyperAgent** | Code agent | Free (OSS) | ✅ | GitHub issue resolution, repository-level code generation | [🔗](https://github.com/FSoft-AI4Code/HyperAgent) |
-
-#### Cloud Agent Services
-
-Managed cloud services for building and deploying AI agents at scale.
-
-| Service | Provider | Pricing | Best For |
-|---------|----------|---------|----------|
-| **Google Vertex AI Agent Builder** | Google Cloud | Pay-per-use | Enterprise agents grounded in Google Search and data stores |
-| **Amazon Bedrock Agents** | AWS | Pay-per-use | Serverless agents with knowledge bases and guardrails |
-| **Azure AI Agent Service** | Microsoft Azure | Pay-per-use | Enterprise agents with Azure AI Search and OpenAI integration |
-| **Catalyst** | Inference.net | Free beta | Self-improving models with observe-train-deploy loop |
-| **VoltAgent** | VoltOps | Open source + Cloud | TypeScript framework with VoltOps Console for production |
-| **JAT** | JAT | Free (MIT) | Self-contained agentic IDE for serious developers |
-| **Langflow** | Langflow | Free (OSS) | Visual framework for multi-agent and RAG applications |
-| **Gemini Enterprise Agent Platform** | Google Cloud | Pay-per-use | Rebranded Vertex AI, Agent Studio, unified platform | [🔗](https://time.news/google-unveils-gemini-enterprise-agent-platform-for-autonomous-ai-agents/) |
-| **Osirus AI** | Osirus AI | Free tier + paid plans | Unified platform + Agent Studio + Codex Bridge | [🔗](https://www.globenewswire.com/news-release/2026/04/21/3277622/0/en/Introducing-Osirus-AI-the-Unified-Platform-for-Building-Deploying-and-Managing-Enterprise-AI-Agents.html) |
-| **Logic** | Logic, Inc. | Free tier + $49/mo | Spec-driven fully managed agents, 250+ orgs | [🔗](https://www.prnewswire.com/news-releases/logic-launches-spec-driven-platform-for-fully-managed-ai-agents-302754664.html) |
-
-### Desktop Automation 🖥️
-
-AI agents and tools for automating desktop tasks and OS-level interactions.
-
-#### AI Agents (Computer Use)
-
-##### Local Computer Use Agents
-
-Agents that run directly on your machine and interact with the OS, screen, keyboard, and mouse.
-
-| Agent | Windows | macOS | Linux | Vision | Best For | GitHub |
-|-------|:-------:|:-----:|:-----:|:------:|----------|--------|
-| **Agent S** | ✅ | ✅ | ✅ | ✅ | Research/SOTA, GUI grounding | [🔗](https://github.com/simular-ai/Agent-S) |
-| **Simular Agent S2** | ✅ | ✅ | ✅ | ✅ | Latest SOTA, improved grounding | [🔗](https://github.com/simular-ai/Agent-S) |
-| **Open Interpreter** | ✅ | ✅ | ✅ | ⚠️ | Natural language computer control, 63K+ stars | [🔗](https://github.com/OpenInterpreter/open-interpreter) |
-| **Open-Interface** | ✅ | ✅ | ✅ | ✅ | General-purpose desktop automation | [🔗](https://github.com/AmberSahdev/Open-Interface) |
-| **UFO** | ✅ | ❌ | ❌ | ✅ | Windows-specific app automation | [🔗](https://github.com/microsoft/UFO) |
-| **Bytebot** | ❌ | ❌ | ✅ | ✅ | Self-hosted (Docker), headless | [🔗](https://github.com/bytebot-ai/bytebot) |
-| **Microsoft Fara-7B** | ✅ | ✅ | ✅ | ✅ | Open-weight vision grounding model | [🔗](https://github.com/microsoft/Fara) |
-| **UI-TARS Desktop** | ✅ | ✅ | ✅ | ✅ | Autonomous GUI execution, vision-language-action model (ByteDance), UI-TARS-2 model (OSWorld 47.5) | [🔗](https://github.com/bytedance/UI-TARS-desktop) |
-| **Agent TARS** | ✅ | ✅ | ✅ | ✅ | Multimodal CLI+Web UI agent (ByteDance), `npx @agent-tars/cli@latest`, MCP tools, browser + terminal + computer | [🔗](https://github.com/bytedance/UI-TARS-desktop) |
-| **c/ua** | ✅ | ✅ | ✅ | ✅ | Isolated VM environments, open-source CU infrastructure | [🔗](https://github.com/trycua/cua) |
-| **Windows-Use** | ✅ | ❌ | ❌ | ✅ | Windows OS-specific agent automation | [🔗](https://github.com/CursorTouch/Windows-Use) |
-| **OpenCUA** | ✅ | ✅ | ✅ | ✅ | Open foundations for computer-use agents | [🔗](https://github.com/xlang-ai/OpenCUA) |
-| **Devin** | ✅ | ✅ | ✅ | ✅ | Full-stack software engineering agent (Cognition Labs), Core $20/mo ($2.25/ACU) | ❌ |
-| **Ace** | ✅ | ✅ | ✅ | ✅ | 20x human speed on UI tasks (General Agents) | ❌ |
-
-##### Cloud / API Computer Use Agents
-
-Agents accessed via API or cloud service — OS-independent, but require internet connectivity.
-
-| Agent | Interface | Pricing | Vision | Best For | GitHub |
-|-------|-----------|---------|--------|----------|--------|
-| **Anthropic Computer Use** | API | Claude API ($3–$15/M tokens) | ✅ | Claude-powered desktop control, `computer_use_tool` | ❌ |
-| **ChatGPT Agent** | ChatGPT Web/iOS/Android | Plus $20/mo / Pro $200/mo | ✅ | Full computer use: browse, code, spreadsheets, bookings | ❌ |
-| **Gemini Computer Use** | API / AI Studio | Gemini API metered ($1.25/M in, $10/M out) | ✅ | Google's computer use via Gemini 3 Pro | ❌ |
-| **Amazon Nova Act** | API (AWS) | Pay-per-use | ✅ | AWS browser automation SDK, production-grade | ❌ |
-| **Manus AI** | Cloud dashboard | Free 300 credits/day / $20–$200/mo | ✅ | General-purpose cloud agent, coding, deploy, files | ❌ |
-| **E2B Desktop Sandbox** | API / SDK | Hobby free / Pro $150/mo | ✅ | Ubuntu 22.04 XFCE sandbox, 10+ LLM support | [🔗](https://github.com/e2b-dev/desktop) |
-| **Cua (trycua)** | CLI / Python SDK | Free (OSS) | ✅ | Isolated VM, cross-platform CU infrastructure | [🔗](https://github.com/trycua/cua) |
-| **Airtop** | Web dashboard / API | Starter $26/mo / Pro $80/mo | ✅ | No-code NL browser automation, cloud-hosted | ❌ |
-| **Convergence Proxy** | Web / API | Free tier / Pro $20/mo | ✅ | Acquired by Salesforce; enterprise workflow automation | ❌ |
-| **Devin** | Web dashboard | Core $20/mo ($2.25/ACU) / Team $500/seat/mo | ✅ | Full-stack software engineer, plan → code → deploy | ❌ |
-| **Adept AI (ACT-1)** | API | Enterprise | ✅ | Pioneer in digital actions, self-correcting behavior | ❌ |
-| **AskUI Vision Agent** | API | Paid | ✅ | Cross-platform vision automation without VMs | ❌ |
-| **Highlight AI** | Desktop + Cloud | Free / Paid | ✅ | Privacy-first desktop Q&A and automation | ❌ |
-
-##### AI Operating Systems
-
-AI-native operating systems and platforms that embed LLMs as core system components.
-
-| OS / Platform | Type | Hardware | Local/Cloud | Best For | GitHub |
-|---------------|------|----------|:-----------:|----------|--------|
-| **AIOS** | Open Source (MIT) | Any | Both | Kernel-level LLM agent OS, agent scheduling & memory management | [🔗](https://github.com/agiresearch/AIOS) |
-| **Ghost OS** | Open Source | Any | Local | Autonomous agent workflows | [🔗](https://github.com/ghostwright/ghost-os) |
-| **computer_use_ootb** | Open Source | Any | Local/API | Out-of-the-box GUI automation (Claude 3.5 CU + local models) | [🔗](https://github.com/showlab/computer_use_ootb) |
-| **Rabbit OS (R1)** | Commercial ($199 device) | R1 Device | Cloud | Consumer AI assistant, LAM-based app automation | ❌ |
-| **Apple Intelligence** | Commercial (OS-level) | Apple Silicon (M1+) | On-device / Private Cloud | Privacy-first, system-wide writing, Siri, image generation | ❌ |
-| **Windows Copilot+** | Commercial (OS-level) | NPU (40+ TOPS) | Hybrid | Recall, Cocreator, live captions, enterprise productivity | ❌ |
-
-#### RPA & Visual Frameworks
-
-| Tool | Platform | Best For |
-|------|----------|----------|
-| **Ui.Vision RPA** | Windows, macOS, Linux | Visual automation |
-| **OmniParser V2** | Cross-platform | Screen parsing |
-
-#### Scripting Libraries
-
-| Tool | Platform | Key Features | GitHub |
-|------|----------|--------------|--------|
-| **PyAutoGUI** | Cross-platform | Simple API, fail-safe | [🔗](https://github.com/asweigart/pyautogui) |
-| **Nut.js** | Cross-platform | Visual search, image matching | ❌ |
-| **OpenAdapt** | Windows, macOS | Learning from demonstration | [🔗](https://github.com/OpenAdaptAI/OpenAdapt) |
-
-#### Research Projects (Computer Use)
-
-Notable academic and industry research advancing the field of computer-use agents.
-
-| Project | Developer | Focus | Year | Paper |
-|---------|-----------|-------|------|-------|
-| **Gato** | Google DeepMind | Multi-modal, multi-task, multi-embodiment agent | 2022 | [DeepMind](https://deepmind.google/research/publications/60307/) |
-| **PaLM-E** | Google DeepMind | Embodied multimodal language model | 2023 | [arXiv](https://arxiv.org/abs/2303.03378) |
-| **RT-2** | Google DeepMind | Vision-language-action model for robotics | 2023 | [arXiv](https://arxiv.org/abs/2307.15818) |
-| **HuggingGPT (Jarvis)** | Microsoft | Orchestrates specialists for multi-modal tasks | 2023 | [arXiv](https://arxiv.org/abs/2303.17580) |
-| **SIMA** | Google DeepMind | Generalist AI agent for 3D virtual environments | 2024 | [DeepMind](https://deepmind.google/discover/blog/sima/) |
-| **Magma** | Microsoft Research | Vision-language-action foundation model | 2025 | [arXiv](https://arxiv.org/abs/2502.12256) |
-| **WebAgent** | Google DeepMind | Autonomous web browsing and form-filling | 2024 | [arXiv](https://arxiv.org/abs/2310.03685) |
-| **WebVoyager** | Hongliang He et al. | Autonomous web browsing (59.1% on 15-website benchmark) | 2024 | [arXiv](https://arxiv.org/abs/2401.13919) |
+| Category | Supports Parallel Agents | Tools |
+|----------|:-----------------------:|-------|
+| **Cloud Sandbox** | ✅ | Manus AI, OpenHands, E2B Desktop Sandbox, Cua (trycua), Airtop, Skyvern Cloud, Amazon Nova Act, Perplexity Computer, OpenAI Computer Use (API) |
+| **Cloud Sandbox** | ❌ | ChatGPT Agent, Gemini Computer Use, Devin, Convergence Proxy, Project Mariner |
+| **Local Machine** | ✅ | Agent TARS, E2B Desktop Sandbox, Cua (trycua) |
+| **Local Machine** | ❌ | Claude Computer Use, UI-TARS Desktop, Open Interpreter, Open-Interface, Agent S/S2, UFO, Windows-Use, Bytebot, OpenCUA, Khoj |
+| **Browser-Only** | ✅ | Browser-use, Skyvern, Airtop, MultiOn |
+| **Browser-Only** | ❌ | Stagehand, NanoBrowser, Openator, Open Operator |
+| **Developer Libraries** | ✅ | Browser-use, Skyvern, Cloudflare Browser Run, Langflow, LlamaIndex, Haystack, AgentQL, ScrapeGraphAI, WebVoyager |
+| **Developer Libraries** | ❌ | Chrome DevTools MCP, Stagehand, LaVague, Notte, Firecrawl, Playwright MCP |
+| **Multi-Agent Platforms** | ✅ | CrewAI, AutoGen, LangGraph, OpenHands, OWL, Manus AI, n8n, Smolagents, Dify |
+| **Multi-Agent Platforms** | ❌ | Devin |
 
 ---
 
@@ -1707,7 +1637,7 @@ Attribution, verification sources, and methodology.
 
 ---
 
-**Last Updated:** 2026-05-04 01:10 UTC
+**Last Updated:** 2026-05-04 16:36 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
