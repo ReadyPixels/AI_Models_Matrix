@@ -14,45 +14,6 @@ Document Version: 3.0
 Last Updated: 2026-05-04 21:38 UTC
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
 
-## Changelog
-
-### Version 3.0 (2026-05-04)
-
-**Browser Automation Enhancements:**
-- Added API Access, Multi-Agent, and Parallel Sessions columns to Standalone AI Browsers table
-- Added Sidekick Browser to Standalone AI Browsers
-- Added Pricing column to Developer Libraries table
-- Added new browser automation frameworks: AgentQL, ScrapeGraphAI, WebVoyager
-- Added Parallel Sessions column to Browser-Only Agents table
-- Added Multi-Agent and Parallel Sessions columns to Local Machine / Physical Computer Use table
-- Added Khoj to Local Machine agents (supports Ollama, LM Studio, OpenAI API)
-
-**Autonomous Agents & Computer Use:**
-- Added Perplexity Computer to Cloud Sandbox Computer Use table
-- Added OpenAI Computer Use (API) to Cloud Sandbox table with pricing ($15/M input, $60/M output)
-- Updated Cloud Sandbox table with corrected column headers (Parallel Sessions instead of "Parallel")
-
-**Multi-Agent & Parallel Execution:**
-- Created dedicated "Multi-Agent & Parallel Execution Summary" section separating tools by parallel execution capability
-- Added Multi-Agent and Parallel Sessions columns to all agent tables
-
-**Pricing Updates:**
-- Added exact pricing for all Developer Libraries (including Cloudflare Browser Run $5+/mo, Skyvern $29-$149/mo, Notte $29/mo+, Firecrawl $49/mo+, AgentQL $49-$149/mo, ScrapeGraphAI $29/mo)
-- Updated browser pricing where applicable
-
-**GitHub Repositories & APIs:**
-- Fixed OpenHands GitHub link (was incorrect: OpenHands → All-Hands-AI)
-- Added GitHub links for new entries: AgentQL, ScrapeGraphAI, WebVoyager, Khoj
-
-**Outdated Information Updates:**
-- Updated Cursor IDE from v3.1 to v3.2 (May 1, 2026)
-- Updated Windsurf IDE from v1.9552+ to v2.0.0 (May 3, 2026)
-- Updated Claude Code from v2.1+ to v2.2.1+ (added multi-session support)
-- Updated "Last Updated" timestamp to 2026-05-04 21:38 UTC
-- Bumped document version from 2.9 to 3.0
-
----
-
 ## Contents
 - [Models 🧠](#models-)
   - [Frontier Models 🚀](#frontier-models-)
