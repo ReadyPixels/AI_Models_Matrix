@@ -5,6 +5,23 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2026-05-06] - Version 3.3 Developer browser-agent APIs (vs consumer caps)
+
+### Added
+- **Developer Libraries**: Note on scaling browser automation via API/BYOK/self-host vs consumer AI browser quotas (e.g. Perplexity Comet)
+- **Anchor Browser**: Managed browser sessions + AI agent API ([anchorbrowser.io](https://anchorbrowser.io), SDK repos under [@anchorbrowser](https://github.com/anchorbrowser))
+- **Hyperbrowser**: Hosted Browser-Use / Claude·OpenAI·Gemini computer-use / Stagehand / HyperAgent with REST & SDKs; BYOK option ([agents overview](https://hyperbrowser.ai/docs/agents/overview))
+- **Steel**: Open-source Sessions API ([steel-browser](https://github.com/steel-dev/steel-browser)), optional self-hosted Docker, cloud pricing tiers ([steel.dev](https://steel.dev))
+
+### Changed
+- **Document Version**: 3.2 → 3.3
+- **Last Updated**: 2026-05-06 02:41 UTC
+
+### Sources
+- [Steel.dev](https://steel.dev), [Steel docs — pricing & limits](https://docs.steel.dev/overview/pricinglimits)
+- [Hyperbrowser — Agents overview](https://hyperbrowser.ai/docs/agents/overview), [Hyperbrowser pricing](https://www.hyperbrowser.ai/pricing)
+- [Anchor Browser — docs home](https://docs.anchorbrowser.io), [Anchor Browser — pricing](https://docs.anchorbrowser.io/pricing)
+
 ## [2026-05-06] - Version 3.2 README supplement (models, CLI, agents)
 
 ### Added

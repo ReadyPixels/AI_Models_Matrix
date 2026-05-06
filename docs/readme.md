@@ -6,12 +6,12 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--06%2002%3A24%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--06%2002%3A41%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources.
 
-Document Version: 3.2
-Last Updated: 2026-05-06 02:24 UTC
+Document Version: 3.3
+Last Updated: 2026-05-06 02:41 UTC
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
 
 ## Contents
@@ -818,6 +818,8 @@ Tools and frameworks for AI-powered browser automation.
 
 #### Developer Libraries
 
+Consumer-focused AI browsers (for example **Perplexity Comet**) typically bundle chat with browsing but enforce **vendor-side quotas** on usage tiers. The stacks below target **developers**: scale via **your LLM keys** (BYOK where offered), **metered cloud APIs**, or **self-hosted / OSS** runtimes so automation limits follow **your** infrastructure and providers—not the same caps as end-user browser apps.
+
 | Library | Language | Pricing | Best For | API Access | Multi-Agent | Parallel Sessions | GitHub |
 |---------|----------|---------|----------|-----------|:----------:|:--------------:|--------|
 | **Chrome DevTools MCP** | TypeScript | Free (OSS) | AI web debugging, 29 DevTools | ❌ | ❌ | ❌ | [🔗](https://github.com/ChromeDevTools/chrome-devtools-mcp) |
@@ -835,6 +837,9 @@ Tools and frameworks for AI-powered browser automation.
 | **AgentQL** | TypeScript/Python | Free (1K req/mo) / $49/mo / $149/mo | Natural language web querying/automation | ✅ | ✅ | ✅ | [🔗](https://github.com/agentql/agentql) |
 | **ScrapeGraphAI** | Python | Free OSS / Cloud $29/mo | Natural language web scraping | ✅ | ✅ | ✅ | [🔗](https://github.com/ScrapeGraphAI/ScrapeGraphAI) |
 | **WebVoyager** | Python | Free (OSS) | Autonomous web browsing research | ❌ | ❌ | ✅ | [🔗](https://github.com/hewv/WebVoyager) |
+| **Anchor Browser** | TypeScript, Python, REST | Free credits tier / usage-based plans | Managed browser fleets + AI steps for computer-use-style web tasks; see docs.anchorbrowser.io | ✅ | ✅ | ✅ | [🔗](https://github.com/anchorbrowser) |
+| **Hyperbrowser** | TypeScript, Python, REST | Free credits + pay-as-you-go (see hyperbrowser.ai/pricing) | Hosted agents: Browser-Use, Claude/OpenAI/Gemini computer use, Stagehand, HyperAgent; optional BYOK for LLM | ✅ | ✅ | ✅ | [🔗](https://github.com/hyperbrowserai/hyperagent) |
+| **Steel** | Python, Node.js, REST | Hobby credits + paid tiers; OSS self-host via Docker (steel.dev, docs.steel.dev) | Sessions API for Playwright/Puppeteer/Selenium; self-hosted steel-browser avoids vendor browser caps; agent cookbooks | ✅ | ⚠️ | ✅ | [🔗](https://github.com/steel-dev/steel-browser) |
 
 #### Cloud Automation
 
@@ -952,7 +957,7 @@ Tools supporting parallel agent orchestration (✅) vs single-agent only (❌):
 | **Local Machine** | ❌ | Claude Computer Use, UI-TARS Desktop, Open Interpreter, Open-Interface, Agent S/S2, UFO, Windows-Use, Bytebot, OpenCUA, Khoj |
 | **Browser-Only** | ✅ | Browser-use, Skyvern, Airtop, MultiOn |
 | **Browser-Only** | ❌ | Stagehand, NanoBrowser, Openator, Open Operator |
-| **Developer Libraries** | ✅ | Browser-use, Skyvern, Cloudflare Browser Run, Langflow, LlamaIndex, Haystack, AgentQL, ScrapeGraphAI, WebVoyager |
+| **Developer Libraries** | ✅ | Browser-use, Skyvern, Cloudflare Browser Run, Langflow, LlamaIndex, Haystack, AgentQL, ScrapeGraphAI, WebVoyager, Hyperbrowser, Anchor Browser, Steel |
 | **Developer Libraries** | ❌ | Chrome DevTools MCP, Stagehand, LaVague, Notte, Firecrawl, Playwright MCP |
 | **Multi-Agent Platforms** | ✅ | CrewAI, AutoGen, LangGraph, OpenHands, OWL, Manus AI, n8n, Smolagents, Dify |
 | **Multi-Agent Platforms** | ❌ | Devin |
@@ -1620,7 +1625,7 @@ Additional context from the May 2026 research pass (supplements earlier tables; 
 
 ---
 
-**Last Updated:** 2026-05-06 02:24 UTC
+**Last Updated:** 2026-05-06 02:41 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
