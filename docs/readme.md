@@ -6,12 +6,12 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--04%2016%3A36%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--06%2002%3A24%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources.
 
-Document Version: 3.0
-Last Updated: 2026-05-04 21:38 UTC
+Document Version: 3.2
+Last Updated: 2026-05-06 02:24 UTC
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
 
 ## Contents
@@ -54,6 +54,7 @@ Repository: https://github.com/ReadyPixels/AI_Models_Matrix
   - [Glossary 📖](#glossary-)
   - [Comparison Tables 📊](#comparison-tables-)
   - [Data Sources 📚](#data-sources-)
+  - [Supplemental agent & CLI notes 📎](#supplemental-agent--cli-notes-)
 - [License](#license)
 
 ## Models 🧠
@@ -125,7 +126,7 @@ Maximum output tokens per single API request.
 | **Gemini 3 Pro** | 64K | 2M | — |
 | **Gemini 3 Flash** | 64K | 1M | — |
 | **Gemini 3.1 Flash-Lite** | 32K | 1M | — |
-| **DeepSeek-V4** | DeepSeek | 1M | — | — | — | — | $0.30 / $0.50 | 2026-04-26 |
+| **DeepSeek-V4** | 8K | 1M | — |
 | **DeepSeek-V3.2** | 8K / 64K (reasoner) | 128K | Reasoner mode unlocks 64K output |
 | **Qwen3.5-Max** | 65K | 1M | — |
 | **GLM-5** | 128K | 200K | — |
@@ -343,6 +344,7 @@ Specialized AI models optimized for software development tasks.
 | **DeepSeek-Coder-V2** | DeepSeek | MIT | 48-80 GB VRAM |
 | **GLM-4.6** | Zhipu AI | Open Weight | 80-160 GB VRAM |
 | **Phi-4** | Microsoft | MIT | 24-48 GB VRAM |
+| **Qwen3-Coder 7B** | Alibaba | Apache 2.0 | 24-48 GB VRAM |
 
 ### Reasoning Models 🧠
 
@@ -600,7 +602,7 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 | Tool | Platform | Pricing | Key Features | GitHub |
 |------|----------|---------|--------------|--------|
 | **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode, thinking tokens | [🔗](https://github.com/Aider-AI/aider) |
-| **Claude Code 2.2.1+** | macOS, Linux, Windows | Free + API | Fast mode for Opus 4.7, simple mode file editing, multi-session support | [🔗](https://github.com/anthropics/claude-code) |
+| **Claude Code 2.2.1+** | macOS, Linux, Windows | Free + API | Fast mode for Opus 4.7, simple mode file editing, multi-session support, `/autofix-pr`, plan mode, computer use (research preview), CLAUDE.md skills & sub-agents | [🔗](https://github.com/anthropics/claude-code) |
 | **Codex CLI** | Windows, macOS, Linux | Included | Sandbox, approval modes | [🔗](https://github.com/openai/codex) |
 | **Junie CLI** | Windows, macOS, Linux | Free (BYOK) | LLM-agnostic, JetBrains IDE integration, MCP | [🔗](https://www.jetbrains.com/junie) |
 | **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible, desktop app, 25+ providers | [🔗](https://github.com/block/goose) |
@@ -612,12 +614,14 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 
 #### Assisted CLI Tools
 
-| Tool | Developer | Pricing | Best For |
-|------|-----------|---------|----------|
-| **Gemini CLI** | Google | Free | Google ecosystem |
-| **Cursor CLI** | Cursor | Free tier | Terminal + IDE bridge |
-| **Qwen Code** | Alibaba | Free | Qwen optimization |
-| **Qodo CLI** | Qodo | Free tier | Testing and review |
+| Tool | Developer | Pricing | Best For | GitHub |
+|------|-----------|---------|----------|--------|
+| **Gemini CLI** | Google | Free | Google ecosystem & Gemini models in-terminal | [🔗](https://github.com/google-gemini/gemini-cli) |
+| **Cursor CLI** | Cursor | Free tier | Terminal + IDE bridge | [🔗](https://github.com/getcursor/cursor) |
+| **Qwen Code** | Alibaba | Free | Qwen optimization | [🔗](https://github.com/QwenLM/qwen-code) |
+| **Qodo CLI** | Qodo | Free tier | Testing, review & agent workflows | [🔗](https://github.com/qodo-ai/command) |
+
+> **Gemini CLI (release & security notes):** Current CLI generations add offline search, bundled ripgrep, optional color-accessible themes, interactive shell tool invocation, and an [A2A](https://github.com/google/A2A)-style agent registry surface in the tool (see [Gemini CLI changelogs](https://geminicli.com/docs/changelogs/)). Treat upgrades through **v0.39.1+** as mandatory maintenance: public advisories described a critical remote-code path affecting earlier builds (widely reported as CVSS 10.0); confirm your installed build against the release notes for your package channel.
 
 #### CLI Tools by Programming Language
 
@@ -646,7 +650,7 @@ Purpose-built CLI tools for coding across specific languages or polyglot multi-s
 | **Aider** | Polyglot (Python, JS, TS, Go, Rust, any) | All | Free (BYOK) | Git-native multi-file edits, Architect mode, repo maps, thinking tokens | [🔗](https://github.com/Aider-AI/aider) |
 | **Claude Code** | Polyglot | All | Free + API | Computer use, sub-agents, CLAUDE.md skills, Opus 4.7, multi-session | [🔗](https://github.com/anthropics/claude-code) |
 | **Codex CLI** | Python, JS, TS | All | Free (OpenAI account) | Sandbox execution, approval modes, OpenAI models | [🔗](https://github.com/openai/codex) |
-| **OpenHands** | Python, JS, TS, Go, Rust | All | Free (OSS) | Full SDLC agent, MCP, local LLM via Ollama | [🔗](https://github.com/OpenHands/OpenHands) |
+| **OpenHands** | Python, JS, TS, Go, Rust | All | Free (OSS) | Full SDLC agent, MCP, local LLM via Ollama | [🔗](https://github.com/All-Hands-AI/OpenHands) |
 | **Goose** | Polyglot | All | Free (Apache-2.0) | 25+ providers, MCP, extensible extensions, desktop app | [🔗](https://github.com/block/goose) |
 | **Continue** | Polyglot | All | Free (OSS) | VS Code + JetBrains, custom models via Ollama/LM Studio | [🔗](https://github.com/continuedev/continue) |
 | **Qwen Code** | Python, JS, TS, Go | All | Free | Optimized for Qwen3-Coder 480B, Apache 2.0 | ❌ |
@@ -661,7 +665,8 @@ Purpose-built CLI tools for coding across specific languages or polyglot multi-s
 
 | Tool | Platform | Pricing | Key Features |
 |------|----------|---------|--------------|
-| **Warp Terminal** | macOS, Linux, Windows | Free | AI Agents, workflow sharing |
+| **Warp Terminal** | macOS, Linux, Windows | Free | AI Agents, workflow sharing, Warp Drive automation |
+| **Starship** | Cross-platform | Free (OSS) | Fast cross-shell prompt; rich plugins & AI-adjacent ecosystem | [🔗](https://github.com/starship/starship) |
 | **Fig** | macOS, Linux | Free | Autocomplete, AI suggestions |
 
 ### IDE Add-ons 🧩
@@ -773,6 +778,10 @@ Tools and frameworks for AI-powered browser automation.
 
 | Browser | Platform | Pricing | Open Source | Local AI | Agent/Computer Use | API Access | Multi-Agent | Parallel Sessions | Best For | GitHub |
 |---------|----------|---------|-------------|----------|--------------------|-----------|:----------:|:--------------:|----------|--------|
+| **Norton Neo** | Windows, macOS, iOS, Android | Free | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | AI-native browser, Magic Box, Peek & Summarize, Smart Tab Groups | ❌ |
+| **Deta Surf** | macOS, Linux | Free (alpha) | ✅ | ✅ | ⚠️ | ❌ | ✅ | ✅ | Browser + file manager + AI notebook, Surf Memory | ❌ |
+| **Firefox (AI Controls)** | Windows, macOS, Linux, iOS, Android | Free | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❌ | AI Controls dashboard (v148+), ChatGPT/Claude/Mistral sidebars | ❌ |
+| **Dendrite** | Windows, macOS, Linux | Free (OSS) | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | Developer AI browser client for agents | ❌ |
 | **Perplexity Comet** | Windows, macOS, iOS, Android | Free / Pro $20/mo | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | Research + background tasks, voice mode, Computer Max agent | ❌ |
 | **ChatGPT Agent Mode** | Web, iOS, Android | Plus $20/mo, Pro $200/mo | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | Full computer use: browse, code, fill forms, book travel | ❌ |
 | **Dia** | macOS (M1+ / macOS 14+) | Free / Pro $20/mo | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | Tab intelligence, Skills, browsing history AI context | ❌ |
@@ -852,6 +861,8 @@ These services run in a cloud sandbox (virtual Linux/Windows desktop), control t
 
 | Agent | Interface | Pricing | Multi-Agent | Parallel Sessions | Local LLM | English Prompt | GitHub |
 |-------|-----------|---------|:-----------:|:--------------:|:---------:|:--------------:|--------|
+| **Suna (Kortix)** | Web dashboard | Free (OSS self-host); Cloud from $20/mo; Pro $29/mo; Team $199/mo | ✅ | ✅ | ❌ | ✅ | [🔗](https://github.com/kortix-ai/suna) |
+| **OpenManus** | Web dashboard | Free OSS | ✅ | ✅ | ❌ | ✅ | [🔗](https://github.com/FoundationAgents/OpenManus) |
 | **Manus AI** | Web dashboard | Free (300 credits/day) / Plus $20/mo / Pro $200/mo | ✅ | ✅ | ❌ | ✅ | ❌ |
 | **ChatGPT Agent** | ChatGPT Web/App | Plus $20/mo / Pro $200/mo | ❌ | ❌ | ❌ | ✅ | ❌ |
 | **Gemini Computer Use** | API / AI Studio | Gemini Pro $19.99/mo / API metered | ❌ | ❌ | ❌ | ✅ | ❌ |
@@ -877,6 +888,8 @@ These agents run on your own machine, see your screen, and control your keyboard
 |-------|:-------:|:-----:|:-----:|:------------:|:---:|:-------:|:----------:|:--------------:|---------|--------|
 | **Claude Computer Use** | ✅ | ✅ | ✅ | ❌ | ✅ (API) | Claude API ($3–$15/M) | ❌ | ❌ | Claude API ($3–$15/M tokens) | Commercial | ❌ |
 | **Agent TARS** (ByteDance) | ✅ | ✅ | ✅ | ✅ Web UI | ✅ `npx @agent-tars/cli@latest` | Any LLM | ❌ | ✅ | Free (OSS) | [🔗](https://github.com/bytedance/UI-TARS-desktop) |
+| **Aiden** | ❌ | ❌ | ✅ | ✅ Desktop | ✅ | Local / BYO API | ❌ | ❌ | Free (OSS) | [🔗](https://github.com/taracodlabs/aiden) |
+| **Simular Agent S2** | ✅ | ✅ | ✅ | ❌ | ✅ | Any LLM API | ❌ | ❌ | Free (OSS) | [🔗](https://github.com/simular-ai/Agent-S) |
 | **UI-TARS Desktop** (ByteDance) | ✅ | ✅ | ✅ | ✅ Desktop app | ❌ | UI-TARS-2 model | ❌ | ❌ | Free (OSS) | [🔗](https://github.com/bytedance/UI-TARS-desktop) |
 | **Open Interpreter** | ✅ | ✅ | ✅ | ✅ Web | ✅ `interpreter` | Any (OpenAI, Claude, local) | ❌ | ❌ | Free (OSS) | [🔗](https://github.com/OpenInterpreter/open-interpreter) |
 | **Open-Interface** | ✅ | ✅ | ✅ | ❌ | ✅ | GPT-4V / any vision LLM | ❌ | ❌ | Free (OSS) | [🔗](https://github.com/AmberSahdev/Open-Interface) |
@@ -886,6 +899,7 @@ These agents run on your own machine, see your screen, and control your keyboard
 | **Bytebot** | ❌ | ❌ | ✅ | ✅ (Docker) | ✅ | Any LLM | ❌ | ❌ | Free (OSS) | [🔗](https://github.com/bytebot-ai/bytebot) |
 | **OpenCUA** | ✅ | ✅ | ✅ | ❌ | ✅ | Any | ❌ | ❌ | Free (OSS) | [🔗](https://github.com/xlang-ai/OpenCUA) |
 | **Khoj** | ✅ | ✅ | ✅ | ✅ Web UI | ✅ | Any (Ollama, LM Studio, OpenAI) | ❌ | ❌ | Free (OSS) / Cloud $10/mo | [🔗](https://github.com/khoj-ai/khoj) |
+| **Eigent (CAMEL-AI)** | ✅ | ✅ | ✅ | ❌ | ✅ | Any LLM | ✅ | ✅ | Free (OSS) | [🔗](https://github.com/eigent-ai/eigent) |
 
 ---
 
@@ -922,6 +936,7 @@ Coordinate multiple AI agents in parallel to complete complex workflows — driv
 | **Devin** | Software engineering | ✅ Web | ❌ | ✅ | ❌ | ❌ | Core $20/mo ($2.25/ACU) / Team $500/seat | ❌ |
 | **Smolagents** (HuggingFace) | Lightweight code agents | ❌ | ✅ Python | ❌ | ✅ | ⚠️ | Free (OSS) | [🔗](https://github.com/huggingface/smolagents) |
 | **Dify** | Visual LLM platform | ✅ Web UI | ✅ | ✅ Cloud | ✅ | ✅ | Free OSS / Cloud plans | [🔗](https://github.com/langgenius/dify) |
+| **Ruflo** | Multi-agent orchestration | ❌ | ✅ Python | ❌ | ✅ | ✅ | Free OSS / Cloud plans | [🔗](https://github.com/ruvnet/ruflo) |
 
 ---
 
@@ -1595,10 +1610,17 @@ Attribution, verification sources, and methodology.
 3. **Timestamp Verification** - All data includes verification date
 4. **Update Tracking** - Monitor official channels
 
+### Supplemental agent & CLI notes 📎
+
+Additional context from the May 2026 research pass (supplements earlier tables; nothing below removes or supersedes prior entries).
+
+- **[skills.sh](https://skills.sh)** — Primary registry for Agent Skills packages (see [Agent Skills & Registries 🎯](#agent-skills--registries-)); pairs naturally with CLI-first workflows (Claude Code, Gemini CLI, MCP-capable agents).
+- **CrewAI** — Multi-agent framework with OSS core plus AMP Studio / AMP Cloud paths; vendor positioning emphasizes transparent orchestration, visual workflows, broad tool integrations, and team-scale adoption (see the **CrewAI** row in the Multi-Agent / Parallel Agent Platforms table in this document).
+- **Aiden** — Listed above under local desktop agents as a Linux-first autonomous stack for running agents without mandatory cloud offload ([taracodlabs/aiden](https://github.com/taracodlabs/aiden)).
 
 ---
 
-**Last Updated:** 2026-05-04 16:36 UTC
+**Last Updated:** 2026-05-06 02:24 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---

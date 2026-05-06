@@ -1,9 +1,31 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [2026-05-06] - Version 3.2 README supplement (models, CLI, agents)
+
+### Added
+- **Assisted CLI Tools**: GitHub column and repository links (Gemini CLI, Cursor CLI, Qwen Code, Qodo CLI)
+- **Gemini CLI**: Release and security context (A2A registry, v0.39.1+ advisory note, changelog link) as a callout under Assisted CLI Tools
+- **Local desktop agent — Aiden**: Linux-first autonomous stack ([taracodlabs/aiden](https://github.com/taracodlabs/aiden)) in the Local Machine / Physical Computer Use table
+- **Terminal enhancers**: Starship cross-shell prompt; Warp Terminal “Warp Drive” automation call-out
+- **Reference**: “Supplemental agent & CLI notes” subsection (skills.sh, CrewAI positioning, Aiden cross-reference)
+- **Table of contents**: Link to supplemental notes under Reference
+
+### Changed
+- **Document Version**: 3.1 → 3.2
+- **Last Updated**: 2026-05-06 02:24 UTC
+- **Claude Code** (Autonomous Coding Agents): Expanded feature list (`/autofix-pr`, plan mode, computer use research preview, CLAUDE.md skills, sub-agents) per vendor documentation
+- **Output token limits**: Corrected **DeepSeek-V4** row (replaced mis-merged frontier-table cells with 8K max output / 1M context)
+- **OpenHands** (CLI for Programming Languages): GitHub link normalized to `All-Hands-AI/OpenHands`
+
+### Sources
+- Google Gemini CLI documentation and public security advisories (Spring 2026)
+- Anthropic Claude Code product documentation
+- Community research notes consolidated in `docs/2.md` and the long-form update log in `docs/Update file with missing models and missing up to date data and missing CLI... .md`
 
 ## [2026-05-04] - Version 3.0 Major Update
 
@@ -167,6 +189,111 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated Mistral Large 3 description to reflect open-source status
 - Restructured Autonomous Agents section with clearer categorization and visual indicators
 
+## [2026-04-30] - April 30 Browser Automation & Free Models Update
+
+### Added
+- **Browser Automation**: Manus AI (cloud agent), Monica.im (Chrome extension), Chrome DevTools MCP, Cloudflare Browser Run, Notte (deterministic replay), Playwright MCP
+- **CLI Tools**: Junie CLI (JetBrains LLM-agnostic agent)
+- **IDEs & Add-ons**: Google Stitch (UI design tool), Tabby (self-hosted code completion)
+- **API Providers**: Alibaba Cloud (Qwen3.5-Max, Coding Plan), StepFun (Step-3.5-flash), NVIDIA NIM (91 free endpoints)
+- **Open-Source Models**: Gemma 4 family (31B, 27B MoE, E4B, E2B), Qwen3.5-122B MoE, Qwen3.6-27B, updated DeepSeek-V4 pricing with 75% discount (expires May 5, 2026)
+- **Free Models & APIs**: Updated from April 29, 2026 v22 source with Google Jules, Google Stitch, OpenAI Codex CLI, Junie CLI, Aider, OpenHands, Roo Code, Tabby, Fireworks AI, StepFun Step 3.5 Flash
+- **Chinese API Updates**: DeepSeek V4 discount (75% until May 5), GLM-5.1 (MIT license), MiniMax M2.7, Kimi K2.6 open-weight
+
+### Changed
+- Updated browser automation comparison table with new tools from April 30 source
+- Enhanced developer libraries section with MCP-enabled tools
+- Updated cached pricing with DeepSeek V4 discount information
+- Document version 2.4 → 2.8, Last Updated to 2026-04-30 23:14 UTC
+- Added changelog section to README.md per current guidelines
+
+### Sources
+- Browser AI Automation Tools Complete 2026 Comparison (Updated April 30, 2026).md
+- Free Models & APIs for Vibe Coding 2026 v22.md
+- Official provider documentation for pricing and feature updates
+
+## [2026-04-26] - April 2026 AI Models Matrix Update
+
+### Added
+- DeepSeek-V4-Pro (1.6T params, 49B active) and DeepSeek-V4-Flash (284B total, 13B active) released April 24, 2026
+- Gemma 4 (2B, 4B, 26B MoE, 31B Dense) open-source models released April 2, 2026
+- Gemini Robotics ER 1.6 released April 14, 2026
+
+### Changed
+- Updated GPT-5.5: Pricing $5.00/$30.00, GPQA Diamond 93.2%
+- Updated Claude Opus 4.7: GPQA Diamond 94.2%, SWE-bench Verified 87.6%
+- Updated Kimi K2.6: GPQA Diamond 90.5%, AIME 2025 96.4%, SWE-bench Verified 80.2%
+- Updated Gemini 3.1 Flash-Lite: GPQA Diamond 86.9%, Arena Elo 1432
+- Updated Mistral Large 3: GPQA Diamond 43.9%
+- Updated GPT-5.3-Codex: Pricing $1.75/$14.00, SWE-bench Verified 85.0%
+- Updated all verification dates to 2026-04-26
+- Document version 2.3 → 2.4, Last Updated to 2026-04-26 01:37 UTC
+
+### Sources
+- https://openai.com/api/pricing/ (GPT-5.5 pricing)
+- https://buildfastwithai.com/blogs/claude-opus-4-7-review-benchmarks-2026 (Claude Opus 4.7 benchmarks)
+- https://deepmind.google/models/gemini/flash-lite (Gemini 3.1 Flash-Lite benchmarks)
+- https://onmsft.com/news/deepseek-v4-pro-and-flash-launch-with-1m-context-and-lower-ai-costs/ (DeepSeek-V4 updates)
+- https://cloudprice.net/models/openai-gpt-5-3-codex (GPT-5.3-Codex pricing)
+- https://aitoolsrecap.com/Blog/moonshot-ai-kimi-k2-6-release-coding-agent-benchmarks-2026 (Kimi K2.6 benchmarks)
+- https://awesomeagents.ai/models/mistral-large-3/ (Mistral Large 3 benchmarks)
+
+## [2026-02-21] - MiniMax & Missing Models Coverage
+
+### Added
+- MiniMax (MiniMax-M2.5) across Frontier Models, pricing tables, API providers, and data sources
+- Moonshot AI (Kimi) to Frontier Models, API providers, data sources, and comparison tables
+- Perplexity Sonar pricing entries (Sonar, Sonar Pro, Sonar Reasoning Pro) in cost analysis
+- Subscription pricing tables for ChatGPT, Claude, Google AI, and GitHub Copilot
+- Primary sources for ByteDance (Volcengine), Tencent (Hunyuan), and Baidu (ERNIE)
+- Model selection decision table (emoji-first, awesome-style)
+- Release Windows (Month-level) table for entries lacking exact timestamps
+
+### Changed
+- Updated provider/source links for Cohere, AI21, and Perplexity to official documentation pages
+- Updated Copilot pricing ranges to reflect current plan tiers
+- Updated README timestamps
+
+### Sources
+- https://platform.minimax.io/docs/guides/models-intro
+- https://platform.minimax.io/docs/guides/pricing-paygo
+- https://platform.moonshot.ai/docs/overview
+- https://platform.moonshot.ai/docs/guide/kimi-k2-5-quickstart
+- https://platform.moonshot.ai/docs/pricing/chat
+- https://openai.com/index/introducing-chatgpt-go/
+- https://help.openai.com/en/articles/8542115-chatgpt-business-faq
+- https://docs.cohere.com
+- https://docs.ai21.com/docs/jamba-foundation-models
+- https://docs.perplexity.ai/docs/getting-started/pricing
+- https://github.com/features/copilot/plans
+- https://www.anthropic.com/news/claude-pro
+- https://www.anthropic.com/max
+- https://blog.google/products-and-platforms/products/google-one/google-ai-plus-availability/
+- https://one.google.com/about/plans
+- https://blog.google/products-and-platforms/products/google-one/google-ai-ultra/
+- https://www.volcengine.com/docs/82379/1263482
+- https://cloud.tencent.com/document/product/1729/97730
+- https://ai.baidu.com/ai-doc/AISTUDIO/Mmhslv9lf
+
+## [2026-02-20] - Pricing & Consistency Update
+
+### Added
+- Initial comprehensive pricing tables for all major model providers
+- Cost analysis section with detailed pricing comparisons
+- Data sources appendix with verification links
+- Updated all model entries with pricing information where available
+
+### Changed
+- Standardized pricing format across all tables (input/output per 1M tokens)
+- Unified verification date format to YYYY-MM-DD
+- Improved table formatting for better readability
+- Added missing context window specifications for several models
+
+### Sources
+- Official pricing pages for OpenAI, Anthropic, Google, Meta, Mistral, etc.
+- Provider documentation for batch pricing and caching policies
+- Cloud provider pricing calculators for accurate comparisons
+
 ## [Unreleased]
 
 ### Added
@@ -189,9 +316,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - GitHub Actions workflows for automated quality checks:
-  - [link-check](.github/workflows/link-check.yml) - Validates external URLs
-  - [lint](.github/workflows/lint.yml) - Lints markdown files
-  - [awesome-lint](.github/workflows/awesome-lint.yml) - Validates awesome-list format
+  - [link-check](../.github/workflows/link-check.yml) - Validates external URLs
+  - [lint](../.github/workflows/lint.yml) - Lints markdown files
+  - [awesome-lint](../.github/workflows/awesome-lint.yml) - Validates awesome-list format
 
 ### Changed
 - Model entry verification completed with 7 models flagged as unverified
@@ -216,4 +343,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated verification dates to 2026-04-24 for verified models
 - Updated "Last Updated" badge and footer to 2026-04-24 16:26 UTC
 
-[Unreleased]: https://github.com/shariqmehmood/AI_Models_Matrix/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/ReadyPixels/AI_Models_Matrix/compare/v1.0.0...HEAD
