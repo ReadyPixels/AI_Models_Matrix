@@ -5,6 +5,32 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2026-05-08] - Version 3.5 Official pricing alignment (OpenAI, Google Cloud, DeepSeek)
+
+### Changed
+
+- **Document metadata**: `docs/readme.md` document version **3.4 → 3.5**; **Last Updated** set to **2026-05-08 00:00 UTC** (header badge, footer, and “Data as of” labels for Model Specifications / Comprehensive Benchmark Reference updated to May 2026 where refreshed).
+- **OpenAI GPT-5.5 Pro**: Corrected API pricing from **$15 / $60** per 1M tokens to **$30 / $180** per 1M tokens (standard); aligned **context window** to **1.05M** per model reference; propagated updates across Frontier Models, Coding Models, Reasoning Models, SWE-bench summary, and Commercial Coding Models tables.
+- **Google Gemini 3 Flash** (Vertex AI **Gemini 3 Flash Preview**, ≤200K input tier): Corrected consumer-facing comparison pricing from **$0.30 / $2.50** to **$0.50 / $3.00** per 1M tokens (text input / text output); synced Cost Analysis model-pricing tables and “Sort by Price” rankings.
+- **Gemini 3.1 Flash-Lite**: Fixed mislabeled **standard** input rate (**$0.025 → $0.25** per 1M where cached vs standard were swapped) in Cached & Batch Pricing and Cost Analysis sections (cached input remains **$0.025** per Vertex standard tier documentation).
+- **DeepSeek API**: Replaced legacy single **DeepSeek-V4** pricing row with official **deepseek-v4-flash** (**$0.14 / $0.28** per 1M, cache-miss input / output) and **deepseek-v4-pro** promo (**$0.435 / $0.87** per 1M through **2026-05-31 15:59 UTC**, list **$1.74 / $3.48**); updated max output to **384K**; removed expired promo cutoff (**2026-05-05**); refreshed DeepSeek rows in Cached & Batch Pricing, API Providers, Open-Source Models label, Top Models by Category (Open Source / Cost Efficiency), comparison/sort tables, and Primary Sources (merged duplicate DeepSeek URLs).
+- **OpenAI GPT-5.3-Codex**: Replaced **TBD** pricing in “Sort by Latest Update” comparison table with **$1.75 / $14.00** per 1M tokens (matches existing Codex rows elsewhere).
+- **Anthropic Claude Opus 4.7**: Added Opus **4.7** to Cached & Batch Pricing and Commercial Coding Models pricing tables (same standard tier as Opus 4.6 per Claude API pricing).
+- **Reference**: Added explicit Primary Source links for [OpenAI API pricing overview](https://openai.com/api/pricing/), [GPT-5.5 pro model reference](https://developers.openai.com/api/docs/models/gpt-5.5-pro), [GPT-5.3-Codex model reference](https://developers.openai.com/api/docs/models/gpt-5.3-codex), [Anthropic Claude API pricing](https://docs.anthropic.com/en/docs/about-claude/pricing), [Google Cloud Vertex AI Gemini pricing](https://cloud.google.com/vertex-ai/generative-ai/pricing), and [DeepSeek Models & Pricing](https://api-docs.deepseek.com/quick_start/pricing).
+
+### Notes
+
+- **DeepSeek-V3.2** list pricing was **not** changed: rates are not shown on the consolidated DeepSeek “Models & Pricing” page used for the V4 refresh (historical table values retained).
+
+### Sources (verification, 2026-05-08 UTC)
+
+- [OpenAI API Pricing](https://openai.com/api/pricing/) — GPT-5.5, GPT-5.4 family list rates
+- [OpenAI — GPT-5.5 pro model](https://developers.openai.com/api/docs/models/gpt-5.5-pro) — $30/$180 per 1M, 1.05M context, no cached-input discount
+- [OpenAI — GPT-5.3-Codex model](https://developers.openai.com/api/docs/models/gpt-5.3-codex) — $1.75/$14 per 1M
+- [Anthropic — Claude API pricing](https://docs.anthropic.com/en/docs/about-claude/pricing) — Opus/Sonnet/Haiku tiers
+- [Google Cloud — Vertex AI Gemini pricing](https://cloud.google.com/vertex-ai/generative-ai/pricing) — Gemini 3 Flash / Flash-Lite / Pro text token rates
+- [DeepSeek API — Models & Pricing](https://api-docs.deepseek.com/quick_start/pricing) — `deepseek-v4-flash`, `deepseek-v4-pro`, promo end time, max output 384K
+
 ## [2026-05-06] - Version 3.4 Windows AI browser agents (Comet alternatives)
 
 ### Added
