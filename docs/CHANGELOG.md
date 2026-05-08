@@ -5,6 +5,28 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2026-05-06] - Version 3.4 Windows AI browser agents (Comet alternatives)
+
+### Added
+- **Standalone AI Browsers**: New Windows-compatible entries
+  - **Browser Operator**: Open-source multi-agent AI browser for Windows/macOS with local AI (Ollama), privacy-first processing, persistent memory ([browseroperator.io](https://browseroperator.io))
+  - **OpenDia**: Browser extension that works with any browser (Chrome/Firefox/Edge/Brave) on Windows; anti-detection for X/LinkedIn/Facebook; open alternative to Dia/Comet ([opendia](https://github.com/aaronjmars/opendia))
+- **Browser Extensions**: New entry
+  - **OpenDia** added to extensions table
+
+### Changed
+- **Document Version**: 3.3 → 3.4
+- **Last Updated**: 2026-05-06 02:47 UTC
+- **Genspark**: Updated platform from "Web, iOS, Android" → "Windows, macOS, Web, iOS, Android" (Genspark Claw desktop app for Windows launched April 2026)
+- **Opera Neon**: Added MCP Connector API note (launched March 2026) - enables external AI clients (Claude, ChatGPT, n8n) to connect via Model Context Protocol
+- **Multi-Agent Summary**: Added Browser Operator to Browser-Only parallel agents list
+
+### Sources
+- [Browser Operator](https://browseroperator.io), [GitHub releases](https://github.com/BrowserOperator/browser-operator-core/releases)
+- [OpenDia GitHub](https://github.com/aaronjmars/opendia)
+- [Genspark Claw Desktop announcement](https://www.businesswire.com/news/home/20260408545044/en/)
+- [Opera Neon MCP Connector announcement](https://press.opera.com/2026/03/31/opera-neon-adds-mcp-connector/)
+
 ## [2026-05-06] - Version 3.3 Developer browser-agent APIs (vs consumer caps)
 
 ### Added

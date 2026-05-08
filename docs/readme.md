@@ -6,12 +6,12 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--06%2002%3A41%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--06%2002%3A47%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
 > Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources.
 
-Document Version: 3.3
-Last Updated: 2026-05-06 02:41 UTC
+Document Version: 3.4
+Last Updated: 2026-05-06 02:47 UTC
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
 
 ## Contents
@@ -787,10 +787,10 @@ Tools and frameworks for AI-powered browser automation.
 | **Dia** | macOS (M1+ / macOS 14+) | Free / Pro $20/mo | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | Tab intelligence, Skills, browsing history AI context | ❌ |
 | **Google Chrome (Auto Browse)** | Windows, macOS, Linux, ChromeOS | Free / Gemini Pro $19.99/mo | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | Gemini 3 built-in, auto browse agentic tasks (enterprise) | ❌ |
 | **Microsoft Edge (Copilot Agent)** | Windows, macOS, iOS, Android | Free / Copilot Pro $20/mo | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | Cross-tab context, voice commands, form automation, bookings | ❌ |
-| **Genspark** | Web, iOS, Android | Free / Plus $25/mo / Pro $249/mo | ❌ | ✅ (169 local models) | ✅ | ❌ | ✅ | ✅ | Super Agent, AI slides, AI websites, deep research, Call For Me | ❌ |
+| **Genspark** | Windows, macOS, Web, iOS, Android | Free / Plus $25/mo / Pro $249/mo | ❌ | ✅ (169 local models) | ✅ | ❌ | ✅ | ✅ | Super Agent, AI slides, AI websites, deep research, Call For Me, Genspark Claw desktop app | ❌ |
 | **Brave Leo (AI Browser)** | Windows, macOS, Linux, iOS, Android | Free / Premium $14.99/mo | ✅ (Chromium) | ✅ (Leo local) | ⚠️ | ❌ | ❌ | ❌ | Privacy-first, zero-log AI, Skills, Memories, local models | ❌ |
 | **SigmaOS (Airis)** | macOS | Free / Pro (subscription) | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | NL commands: "Book Airbnb in Iceland", cross-tab AI, YC-backed | ❌ |
-| **Opera Neon** | Windows, macOS | $19.90/mo | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | Agentic browsing, Aria assistant, built-in AI tools | ❌ |
+| **Opera Neon** | Windows, macOS | $19.90/mo | ❌ | ❌ | ✅ | ✅ MCP Connector (Mar 2026) | ❌ | ❌ | Agentic browsing, Aria assistant, MCP API for Claude/ChatGPT/n8n integration | ❌ |
 | **Opera One (Aria)** | Windows, macOS, Linux, iOS, Android | Free | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | Built-in Aria AI assistant, sidebar AI tools | ❌ |
 | **Firefox (AI Sidebar)** | Windows, macOS, Linux, iOS, Android | Free | ✅ | ❌ | ⚠️ | ❌ | ❌ | ❌ | AI Controls dashboard (v148+), ChatGPT/Claude/Mistral sidebars | ❌ |
 | **BrowserOS** | Linux, macOS | Free | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | Privacy-focused, built-in MCP, agentic | [🔗](https://github.com/browseros-ai/BrowserOS) |
@@ -803,11 +803,13 @@ Tools and frameworks for AI-powered browser automation.
 | **AnythingLLM** | Windows, macOS, Linux | Free (OSS) | ✅ | ✅ | ⚠️ | ✅ (local API) | ❌ | ❌ | All-in-one desktop AI, document chat, local + API | [🔗](https://github.com/Mintplex-Labs/anything-llm) |
 | **BrowserGPT** | iOS, Android | Free / Premium | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | Mobile-first AI browser | ❌ |
 | **Sidekick Browser** | Windows, macOS, Linux | Free / Pro $10/mo | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | AI assistant, natural language tab management, summarize, automate tasks | ❌ |
+| **Browser Operator** | Windows, macOS | Free (OSS) | ✅ | ✅ (Ollama, 100+ models) | ✅ | ❌ | ✅ | ✅ | Multi-agent automation, privacy-first local processing, persistent memory | [🔗](https://github.com/BrowserOperator/browser-operator-core) |
 
 #### Browser Extensions
 
 | Extension | Pricing | Free | Multi-Agent | Best For | GitHub |
 |-----------|---------|------|-------------|----------|--------|
+| **OpenDia** | Free (OSS) | ✅ | ❌ | Open alternative to Dia/Comet; anti-detection for X/LinkedIn/Facebook; works with Chrome/Firefox/Edge/Brave | [🔗](https://github.com/aaronjmars/opendia) |
 | **Monica.im** | Freemium (Free + ~$9/mo) | ❌ | ✅ | Chrome extension, no browser switch | ❌ |
 | **Harpa AI** | Free | ✅ | ❌ | Automation recipes | [🔗](https://github.com/wvkv/harpa) |
 | **MultiOn** | Free/Paid | ⚠️ | ✅ | Complex tasks | [🔗](https://github.com/tmc/multion-api) |
@@ -955,7 +957,7 @@ Tools supporting parallel agent orchestration (✅) vs single-agent only (❌):
 | **Cloud Sandbox** | ❌ | ChatGPT Agent, Gemini Computer Use, Devin, Convergence Proxy, Project Mariner |
 | **Local Machine** | ✅ | Agent TARS, E2B Desktop Sandbox, Cua (trycua) |
 | **Local Machine** | ❌ | Claude Computer Use, UI-TARS Desktop, Open Interpreter, Open-Interface, Agent S/S2, UFO, Windows-Use, Bytebot, OpenCUA, Khoj |
-| **Browser-Only** | ✅ | Browser-use, Skyvern, Airtop, MultiOn |
+| **Browser-Only** | ✅ | Browser-use, Skyvern, Airtop, MultiOn, Browser Operator |
 | **Browser-Only** | ❌ | Stagehand, NanoBrowser, Openator, Open Operator |
 | **Developer Libraries** | ✅ | Browser-use, Skyvern, Cloudflare Browser Run, Langflow, LlamaIndex, Haystack, AgentQL, ScrapeGraphAI, WebVoyager, Hyperbrowser, Anchor Browser, Steel |
 | **Developer Libraries** | ❌ | Chrome DevTools MCP, Stagehand, LaVague, Notte, Firecrawl, Playwright MCP |
@@ -1625,7 +1627,7 @@ Additional context from the May 2026 research pass (supplements earlier tables; 
 
 ---
 
-**Last Updated:** 2026-05-06 02:41 UTC
+**Last Updated:** 2026-05-06 02:47 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
