@@ -408,4 +408,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated verification dates to 2026-04-24 for verified models
 - Updated "Last Updated" badge and footer to 2026-04-24 16:26 UTC
 
+## [2026-05-09] - Version 3.6
+
+### Added
+- **New Section: Cursor Alternatives & Better Value 🎯**
+  - Comprehensive pricing analysis comparing Cursor with alternatives
+  - Value-for-money ranking with 7 tools compared
+  - Real developer quotes from Reddit, LinkedIn, and social media
+  - Detailed analysis of why specific alternatives beat Cursor
+
+### Updated
+- **Version Information**: Updated from 3.5 to 3.6
+- **Last Updated**: Changed from 2026-05-08 00:00 UTC to 2026-05-09 06:00 UTC
+- **Description**: Added "Includes community-sourced feedback from Reddit, LinkedIn, and developer blogs"
+- **API Providers**: Added AIHubMix as a free models API provider
+- **Pricing Tables**: Updated various pricing comparisons throughout the document
+
+### Fixed
+- Minor formatting and consistency improvements
+
+### Sources (verification, 2026-05-09 06:00 UTC)
+- Official documentation updates for version and pricing information
+- Community feedback sources for developer sentiment analysis
+
 [Unreleased]: https://github.com/ReadyPixels/AI_Models_Matrix/compare/v1.0.0...HEAD

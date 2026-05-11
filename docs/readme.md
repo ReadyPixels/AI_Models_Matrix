@@ -6,12 +6,12 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--08%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--09%2006%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 
-> Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources.
+> Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources. Includes community-sourced feedback from Reddit, LinkedIn, and developer blogs.
 
-Document Version: 3.5
-Last Updated: 2026-05-08 00:00 UTC
+Document Version: 3.6
+Last Updated: 2026-05-09 06:00 UTC
 Repository: https://github.com/ReadyPixels/AI_Models_Matrix
 
 ## Contents
@@ -582,6 +582,66 @@ Integrated Development Environments with built-in AI capabilities.
 | **Kiro** | Windows, macOS, Linux | - | - | Free (Preview) | ✅ | ✅ | [🔗](https://github.com/kirodotdev/Kiro) |
 | **VS Code Agents** | Windows, macOS, Linux | Insiders | 2026-04-21 | Free | ✅ | ✅ | [🔗](https://code.visualstudio.com/updates/v1_115#_visual-studio-code-agents-preview) |
 
+> **Cursor vs. Windsurf Pricing (May 2026):** As of March 2026, both Cursor Pro and Windsurf Pro cost $20/month — earlier $15 Windsurf advantage is gone. Cursor tightens premium request quotas quarterly; heavy users often spend $40–50/mo in overages. For a full alternatives analysis, see [Cursor Alternatives & Better Value ↓](#cursor-alternatives--better-value-).
+
+#### Cursor Alternatives & Better Value 🎯
+
+Cursor Pro is $20/month but **June 2025 credit-switch effectively halved heavy-user limits**, and real-world monthly spend for power users regularly hits $40–60/mo in overages. Reddit threads, developer blogs, and benchmark sites consistently confirm the same verdict: several tools offer better value, higher limits, and comparable (or superior) code quality.
+
+##### Pricing Reality Check (May 2026)
+
+| Tool | Free Tier | Pro / Paid | Premium / Max | Notes |
+|------|-----------|-----------|----------------|-------|
+| **Cursor** | 2K completions + 50 premium req | $20/mo (Pro) | $60/mo (Pro+) / $200/mo (Ultra) | Heavy users report $40–60/mo effective cost; quotas tightened June 2025 |
+| **Claude Code** | Limited | $20/mo (Pro) | $100/mo (Max 5×) / $200/mo (Max 20×) | Significantly higher limits than Cursor Pro at same price |
+| **GitHub Copilot** | 2K completions + 50 premium req | $10/mo (Pro) | $39/mo (Pro+) / $39/user (Enterprise) | Best value for IDE-native workflow; no fork required |
+| **Cline (BYOK)** | Free (bring API key) | Free (pay API costs ~$5–15/mo) | Unlimited | 5M+ installs; zero subscription cost |
+| **Windsurf** | 25 credits/mo | $20/mo (Pro) | $40/seat (Teams) / $200/mo (Max) | Quota-based since March 2026; community complaints about pricing |
+| **Continue.dev** | Free (OSS) | Free (BYOK) | Unlimited | No subscription; supports Ollama, LM Studio, all cloud APIs |
+| **Void** | Free (OSS) | Free (BYOK) | Unlimited | VS Code fork + MCP; privacy-first, no telemetry |
+| **Aider** | Free (BYOK) | Free (BYOK) | Unlimited | Git-native; used by serious OSS contributors |
+| **OpenHands** | Free (OSS) | Free (self-host) | Unlimited | Full SDLC agent; MCP support |
+
+##### Value-For-Money Ranking
+
+| Rank | Tool | $/Month (Real) | SWE-bench | Limits | Verdict |
+|------|------|---------------|-----------|--------|---------|
+| 🥇 1 | **GitHub Copilot Pro** | $10 | 55% | 2K completions + unlimited chat | Best value for light-moderate users |
+| 🥈 2 | **Cline (BYOK)** | ~$5–15 (API) | 80.8% | Unlimited | Best value for power users |
+| 🥉 3 | **Claude Code Pro** | $20 | 80.8% | Higher than Cursor Pro | Best autonomy at $20/mo |
+| 4 | **Continue.dev** | $0 | — | Unlimited | Best free option |
+| 5 | **Cursor Pro** | $20–60 (effective) | Unpublished | Caps hit easily | Good UX, poor value at scale |
+| 6 | **Windsurf Pro** | $20 | — | Quota-based | Cursor alternative, same price |
+| 7 | **Claude Code Max** | $100 | 80.8% | 5× limits | Outclasses Cursor Ultra ($200) |
+
+##### What Developers Are Saying (Reddit & Social Media)
+
+- **"Cursor's June 2025 pricing change effectively cut our Pro usage in half. Switched to Cline + Claude API and now pay ~$12/mo for unlimited."** — r/cursor thread, 2026
+- **"Cline has 5M+ installs. It's free, open-source, achieved 80.8% SWE-bench — literally the same as Claude Code. There's no reason to pay Cursor Pro if you're already comfortable with VS Code."** — morphllm.com tested comparison, 2026
+- **"Claude Code wins on long-running tasks at $100/mo — Cursor would cost $200/mo (Ultra) to match that headroom."** — LinkedIn developer comparison, 2026
+- **"Windsurf is simply destroying its reputation with these disguised new pricing changes."** — r/windsurf, March 2026 (quota changes backlash)
+- **"GitHub Copilot at $10/mo is unbeatable for quick wins. I use it for boilerplate, Cursor for features, Claude Code for heavy autonomy."** — Reddit developer, Jan 2026
+- **"Once you burn through Cursor's initial $20 credit, it basically becomes Cline without advanced features."** — DataCamp comparison, 2025
+
+##### Why Specific Alternatives Beat Cursor
+
+**🥇 Cline (BYOK) — Best Overall Value**
+Free VS Code extension with zero subscription cost. You pay only for your API usage (~$5–15/month for typical developer workloads). Achieved **80.8% SWE-bench Verified** — identical to Claude Code. Supports 100+ providers including local Ollama/LM Studio models, meaning you can run it for **$0/month** with a local model like Qwen3-Coder or DeepSeek-Coder. Over **5 million installs** make it the most-adopted free agent tool. Full MCP support.
+
+**🥈 Claude Code — Best Paid Alternative**
+Anthropic's purpose-built autonomous coding CLI. At $20/mo (Pro), usage limits are substantially higher than Cursor Pro at the same price. **Max 5×** ($100/mo) offers more headroom than **Cursor Ultra** ($200/mo) at half the cost. Claude Code produces code described as ~30% less rework vs. Cursor. Won 67% of blind quality comparisons against Cursor. Integrates natively into VS Code and JetBrains via extension, plus terminal. Multi-session support, computer use (research preview), sub-agents.
+
+**🥉 GitHub Copilot — Best for Teams & IDE-Native Work**
+At **$10/month** (Pro), GitHub Copilot requires no fork, no new editor, no learning curve. Works inside existing VS Code, JetBrains, Vim, Neovim, and more. Free tier includes 2,000 completions/month + 50 premium requests. Pro+ at $39/mo adds enterprise policy controls. Best for developers who want AI assistance without changing their workflow. Dominates for boilerplate and quick completions.
+
+**Continue.dev — Best Free Fully-Featured Option**
+100% open-source, works in VS Code and JetBrains. BYOK means no subscription cost ever. Supports Ollama, LM Studio, and all major cloud APIs. Chat, autocomplete, and agent mode. Active development community. No telemetry by default.
+
+**Void — Best Privacy-First Fork**
+Open-source VS Code fork with full MCP support, BYOK, and no telemetry. Feature-comparable to Cursor with zero subscription cost. Best for teams that need data sovereignty or work in air-gapped environments.
+
+> **🎯 Bottom Line for Sharif's Use Case:** If you use LM Studio and prefer local models, **Cline** or **Continue.dev** (both BYOK, both free) give you unlimited usage at zero subscription cost. For cloud-based work, **Claude Code Pro ($20)** outclasses **Cursor Pro ($20)** with higher limits and better autonomous task completion. **GitHub Copilot ($10)** is the obvious choice if budget is the primary driver.
+
 #### Web-Based IDEs
 
 | IDE | Platform | Version | Release Date | Pricing | Self-Hostable | Best For | GitHub |
@@ -733,6 +793,7 @@ Services for accessing AI models via API.
 | **DeepSeek** | DeepSeek API (`deepseek-v4-flash`, `deepseek-v4-pro`), R1 | Pay-per-token |
 | **Mistral AI** | Mistral Large 3, Codestral | Pay-per-token |
 | **xAI** | Grok-4 | Pay-per-token |
+| **AIHubMix** | Free models API | Free tier + paid plans |
 
 #### Unified APIs & Aggregators
 
@@ -1638,7 +1699,7 @@ Additional context from the May 2026 research pass (supplements earlier tables; 
 
 ---
 
-**Last Updated:** 2026-05-08 00:00 UTC
+**Last Updated:** 2026-05-09 06:00 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
