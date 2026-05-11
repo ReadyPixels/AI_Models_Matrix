@@ -5,6 +5,21 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2026-05-11] - Version 3.7 AIHubMix pricing correction and major documentation updates
+
+### Changed
+
+- **Document metadata**: `docs/readme.md` document version **3.6 → 3.7**; **Last Updated** set to **2026-05-11 00:00 UTC** (header badge, footer, and "Data as of" labels updated to May 2026).
+- **AIHubMix**: Updated description from "Free models API" to "Models API" and corrected pricing model from "Free tier + paid plans" to "Requires topup - accounts not recharged can only try 10 times" to reflect actual usage terms; note that accounts must be recharged to increase the free quota beyond 10 trials.
+
+### Fixed
+
+- **AIHubMix Pricing Accuracy**: Corrected misleading "Free tier" description to accurately reflect the 10-trial limit for non-recharged accounts and requirement for topup to increase usage quota per https://console.aihubmix.com/topup
+
+### Notes
+
+- This update ensures users understand that AIHubMix is not actually free as previously indicated - it requires account recharge to increase the 10-trial limit for free accounts.
+
 ## [2026-05-08] - Version 3.5 Official pricing alignment (OpenAI, Google Cloud, DeepSeek)
 
 ### Changed

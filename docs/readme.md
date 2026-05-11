@@ -6,13 +6,79 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--09%2006%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--11%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Star History](https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Forks](https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Issues](https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix)](https://github.com/ReadyPixels/AI_Models_Matrix/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/ReadyPixels/AI_Models_Matrix)](https://github.com/ReadyPixels/AI_Models_Matrix/pulls)
+[![Contributors](https://img.shields.io/github/contributors/ReadyPixels/AI_Models_Matrix)](https://github.com/ReadyPixels/AI_Models_Matrix/contributors)
 
 > Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources. Includes community-sourced feedback from Reddit, LinkedIn, and developer blogs.
 
-Document Version: 3.6
-Last Updated: 2026-05-09 06:00 UTC
-Repository: https://github.com/ReadyPixels/AI_Models_Matrix
+## 🚀 Quick Start
+
+Looking for the best AI models? Check out our **[Top Models by Category](#top-models-by-category)** table below for quick recommendations. For detailed analysis, explore the comprehensive sections on frontier models, open-source alternatives, and development tools.
+
+### 🔥 Highlights
+- **130+ AI models** from major providers (OpenAI, Anthropic, Google, Meta, etc.)
+- **Latest pricing** and performance benchmarks (updated May 2026)
+- **Self-hosting guides** for open-source models
+- **Development tools** for AI application building
+- **Community-sourced** insights and real-world feedback
+
+## 📊 Top Models by Category
+
+| Category | #1 | #2 | #3 |
+|----------|-----|-----|-----|
+| **Coding** | Claude Opus 4.7 | GPT-5.5 Pro | GPT-5.5 |
+| **Reasoning** | Gemini 3 Deep Think | GPT-5.5 Pro | Qwen3-Max-Thinking |
+| **Open Source** | DeepSeek-V4-Flash | Qwen3.5-Max | Llama 4 |
+| **Cost Efficiency** | DeepSeek-V4-Flash | Grok 4 Fast | GLM-4.7-FlashX |
+| **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Claude Opus 4.6 (1M) |
+
+## 📚 Documentation
+
+- **[Models 🧠](#models-)** - Comprehensive model comparisons and specifications
+- **[Development Tools 🛠️](#development-tools-️)** - IDEs, CLI tools, and API providers
+- **[Automation 🤖](#automation-)** - Browser automation and agent platforms
+- **[Guides 📚](#guides-)** - Getting started and selection guides
+- **[AI Infrastructure 🏗️](#ai-infrastructure-️)** - Models, frameworks, and deployment options
+
+---
+
+## 📋 At a Glance
+
+- **Document Version**: 3.7
+- **Last Updated**: 2026-05-11 00:00 UTC
+- **Repository**: https://github.com/ReadyPixels/AI_Models_Matrix
+- **License**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](../CONTRIBUTING.md) for details.
+
+### Ways to Contribute
+- **Add new models** or update existing ones
+- **Submit pricing corrections** and benchmark updates
+- **Share deployment guides** and tutorials
+- **Report broken links** or outdated information
+- **Improve documentation** and formatting
+
+### Quick Contribution
+1. Fork the repository
+2. Create a feature branch
+3. Add your changes with proper formatting
+4. Submit a pull request with clear description
+
+---
+
+## 🔍 Search & Navigation
+
+- **Ctrl+F** - Use your browser's search to find specific models or topics
+- **Jump to sections** using the table of contents above
+- **Model search** - Use your browser's search to find specific models (e.g., "GPT", "Claude", "Gemini")
+
+---
 
 ## Contents
 - [Models 🧠](#models-)
@@ -793,7 +859,7 @@ Services for accessing AI models via API.
 | **DeepSeek** | DeepSeek API (`deepseek-v4-flash`, `deepseek-v4-pro`), R1 | Pay-per-token |
 | **Mistral AI** | Mistral Large 3, Codestral | Pay-per-token |
 | **xAI** | Grok-4 | Pay-per-token |
-| **AIHubMix** | Free models API | Free tier + paid plans |
+| **AIHubMix** | Models API | Requires topup - accounts not recharged can only try 10 times |
 
 #### Unified APIs & Aggregators
 
@@ -1701,6 +1767,30 @@ Additional context from the May 2026 research pass (supplements earlier tables; 
 
 **Last Updated:** 2026-05-09 06:00 UTC
 **Maintained by:** ReadyPixels LLC
+
+---
+
+## 📖 Additional Resources
+
+### Related Projects
+- **[Awesome AI](https://github.com/ellekasai/awesome-ai)** - Curated list of AI resources
+- **[Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)** - ML frameworks and libraries
+- **[Hugging Face Open Source Models](https://huggingface.co/models)** - Open-source model hub
+
+### Community
+- **Discussions**: [GitHub Discussions](https://github.com/ReadyPixels/AI_Models_Matrix/discussions)
+- **Issues**: [Report Issues](https://github.com/ReadyPixels/AI_Models_Matrix/issues)
+
+### Support
+- **📚 Documentation**: [Full Docs](https://github.com/ReadyPixels/AI_Models_Matrix/blob/main/docs/)
+
+---
+
+## 📄 License
+
+[![CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 ---
 
