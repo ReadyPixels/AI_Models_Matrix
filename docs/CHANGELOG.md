@@ -5,6 +5,29 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2026-05-14] - Version 3.8 - AI Models Matrix major update
+
+### Added
+- New Section: Model Router Services
+- New Section: Budget Model Aggregators  
+- New Section: Hosted Open Source Models
+- New Section: Free Tier APIs
+- New Row in Top Models by Category: Free & Budget
+
+### Changed
+- Document Version: 3.7 -> 3.8
+- Last Updated: 2026-05-14 00:00 UTC
+- Top Models by Category - Coding: Replaced GPT-5.5 with GPT-5.3-Codex
+- API Providers section restructured
+
+### Restored
+- GPU Clouds section restored with all 12 original providers (RunPod, Replicate, Vultr, Hyperbolic, Cerebrium, Together AI, Modal Labs, Fireworks AI, Databricks Mosaic AI, NVIDIA DGX Cloud, Vast.ai, DigitalOcean) plus 3 additional high-performance entries (Groq, Cerebras, NVIDIA NIM)
+
+### Notes
+- Version 3.8 brings the document to 130+ AI models with comprehensive API ecosystem coverage
+
+---
+
 ## [2026-05-11] - Version 3.7 AIHubMix pricing correction and major documentation updates
 
 ### Changed
@@ -447,3 +470,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Community feedback sources for developer sentiment analysis
 
 [Unreleased]: https://github.com/ReadyPixels/AI_Models_Matrix/compare/v1.0.0...HEAD
+
+
