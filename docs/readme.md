@@ -6,7 +6,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--14%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--19%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 [![Star History](https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social)](https://github.com/ReadyPixels/AI_Models_Matrix)
 [![Forks](https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social)](https://github.com/ReadyPixels/AI_Models_Matrix)
 [![Issues](https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix)](https://github.com/ReadyPixels/AI_Models_Matrix/issues)
@@ -34,7 +34,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 | **Reasoning** | Gemini 3 Deep Think | GPT-5.5 Pro | Qwen3-Max-Thinking |
 | **Open Source** | DeepSeek-V4-Flash | Qwen3.5-Max | Llama 4 |
 | **Cost Efficiency** | DeepSeek-V4-Flash | Grok 4 Fast | GLM-4.7-FlashX |
-| **Free & Budget** | GPT-4o mini (free tier) | Claude Haiku (free tier) | Gemini 1.5 Flash (free tier) |
+| **Free & Budget** | Grok 4.3 ($1.25/1M) | Claude Haiku 4.5 ($1/1M) | Gemini 3.1 Flash-Lite ($0.25/1M) |
 | **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Claude Opus 4.6 (1M) |
 
 ## 📚 Documentation
@@ -50,7 +50,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 ## 📋 At a Glance
 
 - **Document Version**: 3.8
-- **Last Updated**: 2026-05-14 00:00 UTC
+- **Last Updated**: 2026-05-19 00:00 UTC
 - **Repository**: https://github.com/ReadyPixels/AI_Models_Matrix
 - **License**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -160,8 +160,10 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Claude Sonnet 4.5** | Anthropic | 200K | 83.4% | — | 77.2% | 87% | $3 / $15 | 2026-04-26 |
 | **Llama 4 Scout** | Meta | 10M | 57.2% | — | — | — | Free (self-host) | 2026-04-26 |
 | **Llama 4 Maverick** | Meta | 128K | 69.8% | — | — | — | Free (self-host) | 2026-04-26 |
-| **Grok 4** | xAI | 128K | ~91.5% | ~1493 (Text) | — | 100% | $3 / $15 | 2026-04-26 |
+| **Grok 4** | xAI | 256K | ~91.5% | ~1493 (Text) | — | 100% | $3 / $15 | 2026-04-26 |
 | **Grok 4 Fast** | xAI | 128K | — | — | — | — | $0.20 / $1.50 | 2026-04-26 |
+| **Grok 4.20** | xAI | 2M | — | — | — | — | $2.00 / $6.00 | 2026-04-26 |
+| **Grok 4.3** | xAI | 1M | — | — | — | — | $1.25 / $2.50 | 2026-05-06 |
 #### Top Models by Category
 
 | Category | #1 | #2 | #3 |
@@ -170,7 +172,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Reasoning** | Gemini 3 Deep Think | GPT-5.5 Pro | Qwen3-Max-Thinking |
 | **Open Source** | DeepSeek-V4-Flash | Qwen3.5-Max | Llama 4 |
 | **Cost Efficiency** | DeepSeek-V4-Flash | Grok 4 Fast | GLM-4.7-FlashX |
-| **Free & Budget** | GPT-4o mini (free tier) | Claude Haiku (free tier) | Gemini 1.5 Flash (free tier) |
+| **Free & Budget** | Grok 4.3 ($1.25/1M) | Claude Haiku 4.5 ($1/1M) | Gemini 3.1 Flash-Lite ($0.25/1M) |
 | **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Claude Opus 4.6 (1M) |
 
 ### Model Specifications 📋
@@ -206,6 +208,8 @@ Maximum output tokens per single API request.
 | **Step-3.5-Flash** | 66K | 256K | — |
 | **Grok 4** | — | 256K | Not publicly specified |
 | **Grok 4 Fast** | 30K | 2M | — |
+| **Grok 4.20** | — | 2M | Largest context window among Western closed models |
+| **Grok 4.3** | 30K | 1M | Always-on reasoning; released 2026-05-01 |
 | **Mistral Large 3** | 32K | 128K | — |
 | **Llama 4 Scout** | 16K | 10M | — |
 | **Llama 4 Maverick** | 16K | 1M | — |
@@ -234,6 +238,8 @@ Discounted pricing tiers for high-volume usage. All prices in USD per million to
 | **GLM-5 / GLM-5.1** | $1.00 | $0.20 | — | — |
 | **Grok 4** | $3.00 | $0.75 | — | — |
 | **Grok 4 Fast** | $0.20 | $0.05 | — | — |
+| **Grok 4.20** | $2.00 | — | — | 78% non-hallucination rate on Artificial Analysis Omniscience |
+| **Grok 4.3** | $1.25 | — | — | ~38% cheaper input than 4.20; released 2026-05-01 |
 | **Mistral Large 3** | $0.50 | — | — | No formal batch/cache tier |
 | **Step-3.5-Flash** | $0.10 | — | — | — |
 
@@ -264,6 +270,7 @@ Knowledge cutoff dates — the point after which a model has no training data.
 | **GPT-5.4 / mini / nano** | Aug 31, 2025 | — |
 | **GPT-5.3-Codex** | Aug 31, 2025 | — |
 | **Grok 4 Fast** | Jul 2025 | — |
+| **Grok 4.20 / 4.3** | Jul 2025 | Approximate; not publicly disclosed |
 | **DeepSeek-V4 (Flash/Pro)** | May 2025 | — |
 | **Gemini 3.1 Flash-Lite** | Jan 2025 | — |
 | **Gemini 3.1 Pro / 3 Pro / 3 Flash** | Jan 2025 | — |
@@ -314,7 +321,7 @@ All frontier models support structured JSON output and function/tool calling exc
 | **Zhipu AI (GLM)** | Global | Z.AI API | MIT license enables self-hosting anywhere |
 | **MiniMax** | Global | MiniMax API | — |
 | **Moonshot AI (Kimi)** | Global | platform.kimi.ai | MIT open-weight |
-| **xAI (Grok)** | US-focused | Oracle OCI (East/Midwest/West) | Limited non-US availability |
+| **xAI (Grok 4 / 4.20 / 4.3)** | US-focused | Oracle OCI (East/Midwest/West) | Limited non-US availability; Grok 4.20 has 2M context |
 | **Mistral** | Global | Azure AI Foundry, AWS, GCP | — |
 | **Meta (Llama)** | Global (self-host) | All major cloud providers | Llama 4 Community License |
 | **StepFun** | Global | HuggingFace | Apache 2.0 open-source |
@@ -350,11 +357,8 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **Step-3.5-flash** | StepFun | 196B / 11B active (MoE) | 256K | Open Weight |
 | **Yi-Coder** | 01.AI | 9B/1.5B | 128K | Apache 2.0 |
 | **Lizzy-7B** | Flower Labs | 7B | — | MIT |
-| **MiMo-V2.5** | Xiaomi | 309B / 15B active | 262K | MIT |
+| **MiMo-V2.5** | Xiaomi | 309B / 15B active | 1M | MIT |
 | **MiMo-V2.5-Pro** | Xiaomi | 1.02T / 42B active | 1M | MIT |
-| **Lizzy-7B** | Flower Labs | 7B | — | MIT |
-| **MiMo-V2.5** | Xiaomi | 310B (15B active) | 1M | MIT |
-| **MiMo-V2.5-Pro** | Xiaomi | 1.02T (42B active) | 1M | MIT |
 
 #### Deployment Options
 
@@ -574,6 +578,8 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | **MiniMax-M2.5** | 85.2% | — | — | — | 80.2% | 55.4% | — | 86.3% | — | — | — | — |
 | **Step-3.5-Flash** | 83.1% | — | — | — | 74.4% | — | 86.4% | 97.3% | — | — | — | — |
 | **Grok 4** | ~91.5% | 91.5% | ~1493 | 50.7% | — | — | — | 100% | — | — | — | — |
+| **Grok 4.20** | — | — | — | — | — | — | — | — | — | — | — | — |
+| **Grok 4.3** | — | — | — | — | — | — | — | — | — | — | — | — |
 | **Llama 4 Maverick** | 69.8% | 80.5% | — | — | — | — | 43.4% | — | — | — | — | — |
 | **Llama 4 Scout** | 57.2% | 74.3% | — | — | — | — | 32.8% | — | — | — | — | — |
 
@@ -968,7 +974,7 @@ Services that provide hosted access to open source models with API endpoints, of
 | **DigitalOcean** | GPU Droplets | Simple fine-tuning workflows, scalable GPU infrastructure |
 | **Groq** | LPU | >500 T/s |
 | **Cerebras** | Wafer-Scale | >2000 T/s |
-| **NVIDIA NIM** | 91 free endpoints, DGX Cloud | 20� faster than NVIDIA GPU |
+| **NVIDIA NIM** | 91 free endpoints, DGX Cloud | 20� faster than NVIDIA GPU |
 
 ## Automation 🤖
 
@@ -1838,7 +1844,7 @@ Additional context from the May 2026 research pass (supplements earlier tables; 
 
 ---
 
-**Last Updated:** 2026-05-09 06:00 UTC
+**Last Updated:** 2026-05-19 00:00 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---

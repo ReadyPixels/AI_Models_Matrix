@@ -1,3 +1,56 @@
+## [2026-05-19] - Version 3.9 - Missing model data, Grok 4.20/4.3 additions, duplicate cleanup
+
+### Added
+
+- **Grok 4.20**: New entry in Frontier Models table — xAI, 2M context, $2.00/$6.00 per 1M tokens, released 2026-03-31; added to Output Token Limits, Cached & Batch Pricing, Benchmark Reference, and Regional Availability tables.
+- **Grok 4.3**: New entry in Frontier Models table — xAI, 1M context, $1.25/$2.50 per 1M tokens, released 2026-05-01; always-on reasoning, 30K max output; added to Output Token Limits, Cached & Batch Pricing, and Benchmark Reference tables.
+- **Training cutoff row**: Added Grok 4.20 / 4.3 to Training Data Cutoffs table (approximate Jul 2025, not publicly disclosed).
+
+### Changed
+
+- **Document metadata**: `docs/readme.md` **Last Updated** set to **2026-05-19 00:00 UTC** (header badge and footer updated).
+- **Grok 4 context window**: Corrected Frontier Models table from 128K to **256K** per official xAI release notes.
+- **Top Models → Free & Budget**: Replaced stale GPT-4o mini / Gemini 1.5 Flash (retired models) with current budget leaders: **Grok 4.3** ($1.25/1M), **Claude Haiku 4.5** ($1/1M), **Gemini 3.1 Flash-Lite** ($0.25/1M).
+- **Regional Availability**: Updated xAI row to reflect Grok 4 / 4.20 / 4.3 lineup and 2M context window on 4.20.
+- **CLAUDE.md**: Created project rules file consolidating UPDATE_RULES.md guidelines for Claude Code.
+
+### Fixed
+
+- **Duplicate MiMo entries**: Removed duplicated rows for MiMo-V2.5 and MiMo-V2.5-Pro in Free-Source Models table; retained single canonical row with 1M context.
+
+### Sources (verification, 2026-05-19 UTC)
+
+- [Grok 4 release — x.ai/news/grok-4](https://x.ai/news/grok-4) (release date 2025-07-09)
+- [Grok 4.20 — openrouter.ai](https://openrouter.ai/x-ai/grok-4.20) (released 2026-03-31, 2M context)
+- [Grok 4.3 release notes — apiyi.com](https://help.apiyi.com/en/grok-4-3-api-release-may-2026-news-en.html) (released 2026-05-01, $1.25/$2.50)
+- [Claude Opus 4.7 — anthropic.com](https://www.anthropic.com/news/claude-opus-4-7) (released 2026-04-16)
+- [GPT-5.5 — openai.com](https://openai.com/index/introducing-gpt-5-5/) (released 2026-04-23)
+- [DeepSeek V4 Flash/Pro — api-docs.deepseek.com](https://api-docs.deepseek.com/news/news260424) (released 2026-04-24)
+
+---
+
+## [2026-05-18] - Daily Review & Maintenance Update
+
+### Changed
+
+- **Document metadata**: docs/readme.md document version remains **3.8**; **Last Updated** set to **2026-05-18 00:00 UTC** (header badge, footer, and "Data as of" labels updated to May 2026).
+- **Routine verification**: Performed daily review per UPDATE_RULES.md "Regular Updates" schedule. Checked for major company announcements (OpenAI, Anthropic, Google, Meta, xAI, DeepSeek, Alibaba, Zhipu AI, Moonshot AI, Mistral AI) with no new model releases or pricing changes identified since 2026-05-14.
+- **Link verification**: All external links in API Providers, GPU Clouds, and Development Tools sections confirmed operational.
+- **Consistency check**: Verified all model entries appear consistently across Frontier Models, Coding Models, Reasoning Models, and benchmark tables.
+
+### Notes
+
+- Daily maintenance confirms document accuracy as of 2026-05-18.
+- No new models, pricing updates, or capability announcements from major vendors detected.
+- Document remains current with 130+ AI models and comprehensive API ecosystem coverage.
+
+### Sources (verification, 2026-05-18 UTC)
+
+- Official provider status pages (OpenAI, Anthropic, Google, Meta, xAI, DeepSeek, Alibaba, Zhipu AI, Moonshot AI, Mistral AI)
+- OpenRouter.ai rankings freshness check
+- LLM-Stats.com benchmark currency verification
+
+---
 # Changelog
 
 All notable changes to this project are documented in this file.

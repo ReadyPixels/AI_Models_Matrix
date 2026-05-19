@@ -1,8 +1,8 @@
 # Documentation files to ignore
 docs/FIXES_SUMMARY.md
-docs/CHANGELOG.md
 docs/GITIGNORE_SUMMARY.md
 docs/UPDATE_RULES.md
+CLAUDE.md
 
 # Plans directory (internal planning documents)
 /plans/
@@ -68,9 +68,47 @@ build/
 .env.local
 .env.*.local
 
-# Package manager lock files (optional, uncomment if needed)
+.research
+.cursor
+.qwen
+.kilo/
+.windsurf/
+.copilot/
+.codeium/
+.continue/
+.aider*
+.tabnine/
+.sourcegraph/
+
+# AI tool cache and session data
+.trae/temp-data/
+.trae/documents/
+
+# Secrets and credentials
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+secrets.json
+credentials.json
+config.local.*
+
+# Coverage and test output
+coverage/
+.coverage
+*.lcov
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Lock files (uncomment if desired)
 # package-lock.json
 # yarn.lock
 # pnpm-lock.yaml
-docs/UPDATE_RULES.md
-.research
+
