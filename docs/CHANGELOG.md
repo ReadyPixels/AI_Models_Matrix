@@ -1,3 +1,36 @@
+## [2026-05-23] - Version 3.10 - Google I/O 2026 updates, Gemini 3.5 Flash, Claude Mythos, and GPT-5.5 Instant
+
+### Added
+
+- **Gemini 3.5 Flash**: New entry in Frontier Models table — Google, 1M context, $1.50/$9.00 per 1M tokens, released 2026-05-19; added to Output Token Limits, Cached & Batch Pricing, Top Models by Category (Reasoning, Cost Efficiency, Agentic Performance) tables; noted as 4x faster than Gemini 3.1 Pro with superior coding benchmarks (76.2% Terminal-Bench 2.1, 83.6% MCP Atlas, 84.2% CharXiv Reasoning).
+- **Claude Mythos Preview**: New entry in Frontier Models table — Anthropic, 1M context, limited availability through Project Glasswing, released 2026-05-19; added to Top Models by Category (Agentic Performance); noted for discovering 10,000+ zero-day vulnerabilities in cybersecurity research.
+- **GPT-5.5 Instant**: New entry in Frontier Models table — OpenAI, 1M context, $5.00/$30.00 per 1M tokens, released 2026-05-05; added to Output Token Limits, Cached & Batch Pricing, and Top Models by Category (Coding, Agentic Performance) tables; noted as default ChatGPT model since May 5, 2026 with 88.7% SWE-bench score and 52.5% hallucination reduction.
+- **Agentic Performance category**: New category added to Top Models by Category table for models optimized for agentic workflows and multi-step task execution.
+
+### Changed
+
+- **Document metadata**: `docs/readme.md` **Last Updated** set to **2026-05-23 00:00 UTC** (header badge and footer updated).
+- **Top Models by Category**: Updated with new models across multiple categories:
+  - Coding: GPT-5.5 Instant replaces GPT-5.3-Codex as #2
+  - Reasoning: Gemini 3.5 Flash added as #3
+  - Cost Efficiency: Gemini 3.5 Flash replaces GLM-4.7-FlashX as #3
+- **GPT-5.5**: Clarified pricing and positioning with GPT-5.5 Instant as consumer default and Pro tier for advanced use cases.
+
+### Fixed
+
+- **Pricing verification**: Confirmed Gemini 3.5 Flash pricing at $1.50 input / $9.00 output per 1M tokens with $0.15 cached input rate from official Google I/O 2026 announcements.
+- **Benchmark accuracy**: Verified Terminal-Bench 2.1 (76.2%), MCP Atlas (83.6%), and GDPval-AA (1656 Elo) scores for Gemini 3.5 Flash from official Google sources.
+
+### Sources (verification, 2026-05-23 UTC)
+
+- [Gemini 3.5 Flash announcement — blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements](https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/) (release date 2026-05-19)
+- [Gemini 3.5 Flash pricing and specs — openrouter.ai/google/gemini-3.5-flash](https://openrouter.ai/google/gemini-3.5-flash) (pricing $1.50/$9.00)
+- [Claude Mythos Preview — anthropic.com/news/claude-mythos-preview](https://www.anthropic.com/news/claude-mythos-preview) (Project Glasswing announcement)
+- [GPT-5.5 Instant default model — chatforest.com/reviews/openai-gpt-5-5-instant](https://chatforest.com/reviews/openai-gpt-5-5-instant) (default since May 5, 2026)
+- [Gemini 3.5 Flash developer docs — docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash) (context window 1M/64K)
+
+---
+
 ## [2026-05-19] - Version 3.9 - Missing model data, Grok 4.20/4.3 additions, duplicate cleanup
 
 ### Added

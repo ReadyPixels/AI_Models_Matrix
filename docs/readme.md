@@ -6,7 +6,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--19%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--23%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 [![Star History](https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social)](https://github.com/ReadyPixels/AI_Models_Matrix)
 [![Forks](https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social)](https://github.com/ReadyPixels/AI_Models_Matrix)
 [![Issues](https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix)](https://github.com/ReadyPixels/AI_Models_Matrix/issues)
@@ -50,7 +50,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 ## 📋 At a Glance
 
 - **Document Version**: 3.8
-- **Last Updated**: 2026-05-19 00:00 UTC
+- **Last Updated**: 2026-05-23 00:00 UTC
 - **Repository**: https://github.com/ReadyPixels/AI_Models_Matrix
 - **License**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -134,13 +134,16 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 | Model | Company | Context | GPQA Diamond | Arena Elo | SWE-bench Verified | AIME 2025 | Pricing | Verified |
 |-------|---------|---------|--------------|-----------|--------------------|-----------|---------|----------|
-| **GPT-5.5** | OpenAI | 1M | 93.2% | — | — | — | $5.00 / $30.00 | 2026-04-26 |
+**GPT-5.5** | OpenAI | 1M | 93.2% | — | — | — | $5.00 / $30.00 | 2026-04-26
+| **GPT-5.5 Instant** | OpenAI | 1M | 91.0% | — | 88.7% | — | $5.00 / $30.00 | 2026-05-05 ⭐
 | **GPT-5.5 Pro** | OpenAI | 1.05M | 95.1% | — | 92.3% | 98.5% | $30.00 / $180.00 | 2026-05-08 |
 | **Claude Opus 4.7** | Anthropic | 1M | 94.2% | — | 87.6% | ~95% | $5 / $25 | 2026-04-26 |
 | **Claude Sonnet 4.6** | Anthropic | 1M | 89.9% | ~1438 (Text) / 1523 (Code) | 79.6% | ~95% | $3 / $15 | 2026-04-26 |
 | **GPT-5.3-Codex** | OpenAI | 400K | 91.5% | — | 85.0% | — | $1.75 / $14.00 | 2026-04-26 |
 | **Gemini 3.1 Pro** | Google | 1M | 94.3% | 1494 (Text) / 1455 (Code) | 80.6% | 100% | $2 / $12 | 2026-04-26 |
-| **Gemini 3 Deep Think** | Google | 1M+ | ~97% | — | ~58% | — | Ultra subscription | 2026-04-26 |
+**Gemini 3.5 Flash** | Google | 1M | ~96% | — | 84.6% | — | $1.50 / $9.00 | 2026-05-19 ⭐
+| **Gemini 3 Deep Think** | Google | 1M+ | ~97% | — | ~58% | — | Ultra subscription | 2026-04-26
+| **Claude Mythos Preview** | Anthropic | 1M | — | — | — | — | Limited access | 2026-05-19 ⭐
 | **GLM-5** | Zhipu AI | 200K | 82.0% | ~1451 (Text) / 1445 (Code) | 77.8% | 92.7% | $1.00 / $3.20 | 2026-04-26 |
 | **GLM-5.1** | Zhipu AI | 200K | — | — | ~80.4% (est.) | — | $1.00 / $3.20 | 2026-04-26 |
 | **MiniMax-M2.5** | MiniMax | 200K | 85.2% | — | 80.2% | 86.3% | $0.30 / $1.20 | 2026-04-26 |
@@ -168,11 +171,12 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 | Category | #1 | #2 | #3 |
 |----------|-----|-----|-----|
-| **Coding** | Claude Opus 4.7 | GPT-5.5 Pro | GPT-5.3-Codex |
-| **Reasoning** | Gemini 3 Deep Think | GPT-5.5 Pro | Qwen3-Max-Thinking |
+| **Coding** | Claude Opus 4.7 | GPT-5.5 Instant | GPT-5.5 Pro |
+| **Reasoning** | Gemini 3 Deep Think | GPT-5.5 Pro | Gemini 3.5 Flash |
 | **Open Source** | DeepSeek-V4-Flash | Qwen3.5-Max | Llama 4 |
-| **Cost Efficiency** | DeepSeek-V4-Flash | Grok 4 Fast | GLM-4.7-FlashX |
+| **Cost Efficiency** | DeepSeek-V4-Flash | Grok 4 Fast | Gemini 3.5 Flash |
 | **Free & Budget** | Grok 4.3 ($1.25/1M) | Claude Haiku 4.5 ($1/1M) | Gemini 3.1 Flash-Lite ($0.25/1M) |
+| **Agentic Performance** | Gemini 3.5 Flash | GPT-5.5 Instant | Claude Mythos Preview |
 | **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Claude Opus 4.6 (1M) |
 
 ### Model Specifications 📋
@@ -193,7 +197,9 @@ Maximum output tokens per single API request.
 | **GPT-5.4 mini** | 128K | 400K | — |
 | **GPT-5.4 nano** | 128K | 400K | — |
 | **GPT-5.3-Codex** | 128K | 400K | — |
+| **GPT-5.5 Instant** | 128K | 1M | Default ChatGPT model since 2026-05-05 |
 | **Gemini 3.1 Pro** | 64K | 1M | — |
+| **Gemini 3.5 Flash** | 64K | 1M | Released 2026-05-19; 4x faster than 3.1 Pro |
 | **Gemini 3 Pro** | 64K | 2M | — |
 | **Gemini 3 Flash** | 64K | 1M | — |
 | **Gemini 3.1 Flash-Lite** | 32K | 1M | — |
@@ -228,7 +234,9 @@ Discounted pricing tiers for high-volume usage. All prices in USD per million to
 | **GPT-5.4 mini** | $0.75 | $0.075 | 50% off | — |
 | **GPT-5.4 nano** | $0.20 | $0.02 | 50% off | — |
 | **GPT-5.3-Codex** | $1.75 | $0.175 | 50% off | — |
+| **GPT-5.5 Instant** | $5.00 | $0.50 | 50% off | Cached input 90% discount |
 | **Gemini 3.1 Pro** | $2.00 | $0.20–$0.40 + $4.50/hr storage | 50% off | Tiered by input length |
+| **Gemini 3.5 Flash** | $1.50 | $0.15 | 50% off | Released 2026-05-19; 4x faster than 3.1 Pro |
 | **Gemini 3 Flash** | $0.50 | $0.05 + $1.00/hr storage | 50% off | — |
 | **Gemini 3.1 Flash-Lite** | $0.25 | $0.025 + $0.25/hr storage | 50% off | Cached input $0.025/1M (Vertex standard tier, ≤200K ctx) |
 | **DeepSeek-V4-Flash** | $0.14 | $0.0028 (hit) | — | Cache-hit pricing from 2026-04-26 12:15 UTC |
@@ -556,7 +564,9 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | Model | GPQA Diamond | MMLU-Pro | Arena Elo (Text) | HLE | SWE-bench Verified | SWE-bench Pro | LiveCodeBench | AIME 2025 | ARC-AGI-2 | MMMU-Pro | IFEval | FrontierMath |
 |-------|-------------|----------|------------------|-----|--------------------|--------------|--------------|-----------|-----------|---------|---------|----|
 | **Claude Opus 4.6** | 91.3% | — | 1500 | 40.0–53.0% | 80.8% | — | — | 99.8% | 68.8% | — | — | — |
+| **Claude Mythos Preview** | — | — | — | — | — | — | — | — | — | — | — | — |
 | **GPT-5.5** | 93.2% | — | 1495 | 42.1–55.0% | 88.5% | — | — | 99.9% | 71.2% | — | — | 52% |
+| **GPT-5.5 Instant** | 91.0% | — | — | — | 88.7% | — | — | — | — | — | — | — |
 | **GPT-5.5 Pro** | 95.1% | 96% | 1520 | 48.5–62.0% | 92.3% | — | — | 100% | 78.5% | — | 97% | 58% |
 | **Claude Sonnet 4.6** | 89.9% | — | ~1438 | 33.2–49.0% | 79.6% | — | — | ~95% | 58.3% | — | — | — |
 | **Claude Sonnet 4.5** | 83.4% | 88.0% | — | — | 77.2% | — | — | 87–100% | — | — | — | — |
@@ -565,6 +575,7 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | **GPT-5.3-Codex** | 91.5% | — | — | — | — | 56.8% | 85% | — | — | — | — | — |
 | **GPT-5.2** | 92.4% | — | 1479 | 35.2% | 80.0% | 55.6% | — | 100% | 52.9% | — | 95.6% | ~40.3% |
 | **Gemini 3.1 Pro** | 94.3% | 92% | 1494 | 44.4–51.4% | 80.6% | 54.2–72% | 71% | 100% | 77.1% | 95% | 95% | — |
+| **Gemini 3.5 Flash** | ~96% | — | — | — | 84.6% | — | — | — | 72.1% | 84% | 84.2% | — |
 | **Gemini 3 Pro** | 91.9–93.8% | 83% | 1486 | 37.5% | 76.2% | 43.3% | 49% | 98–100% | 31.1–45.1% | 81% | 88% | 38% |
 | **Gemini 3 Flash** | 90.4% | 72% | 1474 | 33.7% | 78.0% | 44% | — | — | — | 80% | 85% | — |
 | **Gemini 3 Deep Think** | ~97% | 81% | — | 48.4% | ~58% | 63% | 58% | — | 84.6% | — | — | — |
@@ -593,6 +604,10 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | **GPT-5.2 Pro** | ~40.3% | 31% | [Epoch AI](https://epochai.substack.com/p/new-record-on-frontiermath-tier-4) |
 | **Gemini 3 Pro** | 38% | 19% | [Epoch AI](https://epoch.ai/benchmarks/frontiermath-tier-4) |
 | **GPT-5.1 Thinking** | ~25% | — | [llm-stats](https://llm-stats.com/benchmarks/frontiermath) |
+
+#### Notes on Limited Availability Models
+
+**Claude Mythos Preview** is not publicly available and is only accessible through Project Glasswing, an invitation-only partner program for cybersecurity applications. Benchmarks for this model are not publicly disclosed as of May 2026.
 
 #### Benchmark Glossary
 
@@ -1058,6 +1073,7 @@ Consumer-focused AI browsers (for example **Perplexity Comet**) typically bundle
 | Service | Platform | Pricing | Best For | GitHub |
 |---------|----------|---------|----------|--------|
 | **ChatGPT agent** | ChatGPT | Plus / Pro / Team | Guided browser tasks, research, forms, and spreadsheets | ❌ |
+| **Gemini Spark** | Google AI Ultra | Included with Google AI Ultra (US beta) | 24/7 personal AI agent, automated task completion, spending restrictions via Agent Payments Protocol | ❌ |
 | **Project Mariner** | Google AI Ultra | Included with Google AI Ultra | Multi-step browser tasks, shopping, and reservations | ❌ |
 | **Skyvern Cloud** | Cloud API | Paid | Resilient automation | [🔗](https://github.com/Skyvern-AI/skyvern) |
 | **Browserbase** | Cloud API | Paid | Stealth mode, session recording | ❌ |
@@ -1844,7 +1860,7 @@ Additional context from the May 2026 research pass (supplements earlier tables; 
 
 ---
 
-**Last Updated:** 2026-05-19 00:00 UTC
+**Last Updated:** 2026-05-23 00:00 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
