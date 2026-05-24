@@ -31,7 +31,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 | Category | #1 | #2 | #3 |
 |----------|-----|-----|-----|
 | **Coding** | Claude Opus 4.7 | GPT-5.5 Pro | GPT-5.3-Codex |
-| **Reasoning** | Gemini 3 Deep Think | GPT-5.5 Pro | Qwen3-Max-Thinking |
+| **Reasoning** | Gemini 3 Deep Think | GPT-5.5 Pro | Qwen3.7-Max |
 | **Open Source** | DeepSeek-V4-Flash | Qwen3.5-Max | Llama 4 |
 | **Cost Efficiency** | DeepSeek-V4-Flash | Grok 4 Fast | GLM-4.7-FlashX |
 | **Free & Budget** | Grok 4.3 ($1.25/1M) | Claude Haiku 4.5 ($1/1M) | Gemini 3.1 Flash-Lite ($0.25/1M) |
@@ -167,12 +167,14 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Grok 4 Fast** | xAI | 128K | — | — | — | — | $0.20 / $1.50 | 2026-04-26 |
 | **Grok 4.20** | xAI | 2M | — | — | — | — | $2.00 / $6.00 | 2026-04-26 |
 | **Grok 4.3** | xAI | 1M | — | — | — | — | $1.25 / $2.50 | 2026-05-06 |
+| **Qwen3.7-Max** 🇨🇳 | Alibaba | 1M | 92.4% | — | 80.4% | — | $2.50 / $7.50 | 2026-05-20 ⭐
+| **Qwen3.7-Plus-Preview** 🇨🇳 | Alibaba | 1M | — | — | — | — | Lower than Max | 2026-05-20 ⭐
 #### Top Models by Category
 
 | Category | #1 | #2 | #3 |
 |----------|-----|-----|-----|
 | **Coding** | Claude Opus 4.7 | GPT-5.5 Instant | GPT-5.5 Pro |
-| **Reasoning** | Gemini 3 Deep Think | GPT-5.5 Pro | Gemini 3.5 Flash |
+| **Reasoning** | Gemini 3 Deep Think | GPT-5.5 Pro | Qwen3.7-Max |
 | **Open Source** | DeepSeek-V4-Flash | Qwen3.5-Max | Llama 4 |
 | **Cost Efficiency** | DeepSeek-V4-Flash | Grok 4 Fast | Gemini 3.5 Flash |
 | **Free & Budget** | Grok 4.3 ($1.25/1M) | Claude Haiku 4.5 ($1/1M) | Gemini 3.1 Flash-Lite ($0.25/1M) |
@@ -207,6 +209,7 @@ Maximum output tokens per single API request.
 | **DeepSeek-V4-Pro** | 384K | 1M | API model ID `deepseek-v4-pro`; Pro list ~$1.74 / $3.48 before promo |
 | **DeepSeek-V3.2** | 8K / 64K (reasoner) | 128K | Reasoner mode unlocks 64K output |
 | **Qwen3.5-Max** | 65K | 1M | — |
+| **Qwen3.7-Max** | 65K | 1M | Extended thinking by default; proprietary, API-only |
 | **GLM-5** | 128K | 200K | — |
 | **GLM-5.1** | 131K | 200K | — |
 | **MiniMax-M2.5** | 131K | 1M | — |
@@ -243,6 +246,7 @@ Discounted pricing tiers for high-volume usage. All prices in USD per million to
 | **DeepSeek-V4-Pro** | $0.435 (promo) | $0.003625 (hit, promo) | — | 75% discount until 2026-05-31 15:59 UTC; list $1.74 / $3.48 |
 | **DeepSeek-V3.2** | $0.28 | $0.028 | — | No formal batch API |
 | **Qwen3.5-Max** | $0.40 | Available | 50% off | — |
+| **Qwen3.7-Max** | $2.50 | $0.25 | — | 90% cached discount; proprietary API-only |
 | **GLM-5 / GLM-5.1** | $1.00 | $0.20 | — | — |
 | **Grok 4** | $3.00 | $0.75 | — | — |
 | **Grok 4 Fast** | $0.20 | $0.05 | — | — |
@@ -398,12 +402,13 @@ Specialized AI models optimized for software development tasks.
 | #5 | **Gemini 3.1 Pro** | Google | 80.6% |
 | #6 | **MiniMax-M2.5** | MiniMax | 80.2% |
 | #7 | **GPT-5.4** | OpenAI | ~80% |
-| #8 | **GPT-5.2** | OpenAI | 80.0% |
-| #9 | **Claude Sonnet 4.6** | Anthropic | 79.6% |
-| #10 | **Gemini 3 Flash** | Google | 78.0% |
-| #11 | **GLM-5** | Zhipu AI | 77.8% |
-| #12 | **Claude Sonnet 4.5** | Anthropic | 77.2% |
-| #13 | **Kimi K2.6** | Moonshot AI | 80.2% |
+| #8 | **Kimi K2.6** | Moonshot AI | 80.2% |
+| #9 | **Qwen3.7-Max** | Alibaba | 80.4% |
+| #10 | **GPT-5.2** | OpenAI | 80.0% |
+| #11 | **Claude Sonnet 4.6** | Anthropic | 79.6% |
+| #12 | **Gemini 3 Flash** | Google | 78.0% |
+| #13 | **GLM-5** | Zhipu AI | 77.8% |
+| #14 | **Claude Sonnet 4.5** | Anthropic | 77.2% |
 
 #### Commercial Coding Models
 
@@ -417,6 +422,7 @@ Specialized AI models optimized for software development tasks.
 | **MiniMax-M2.5** | MiniMax | $0.30 / $1.20 per 1M | Code generation, refactoring |
 | **Claude Sonnet 4.5** | Anthropic | $3 / $15 per 1M | Code review, refactoring |
 | **Codestral** | Mistral AI | $0.30 / $0.90 | Real-time completion |
+| **Qwen3.7-Max** | Alibaba | $2.50 / $7.50 per 1M | Agentic coding, long-horizon autonomy, reasoning |
 | **Grok 4 Fast** | xAI | $0.20 / $1.50 | Most used (50% share) |
 
 #### Open-Source Coding Models
@@ -582,6 +588,7 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | **DeepSeek-V3.2** | 87.1% | 85.0% | — | 25.1% | 67.8% | — | — | 89.3% | — | — | — | — |
 | **DeepSeek-R1** | 71.5% | 84.0% | — | 8.5% | 49.2% | — | 63.5% | 70.0% | — | — | — | — |
 | **Qwen3.5-Max** | 89.3% | — | — | — | 76.4% | — | — | 91.3% | — | 79% | — | — |
+| **Qwen3.7-Max** | 92.4% | — | — | 41.4% | 80.4% | — | — | — | — | — | — | — |
 | **Qwen3-Max-Thinking** | 86.1% | — | — | 26.2% | — | — | — | — | — | — | — | — |
 | **GLM-5** | 82.0% | — | ~1451 | 10.4% | 77.8% | — | — | 92.7% | — | — | — | — |
 | **GLM-5.1** | — | — | — | — | ~80.4% (est.) | — | — | — | — | — | — | — |
@@ -743,7 +750,7 @@ Open-source VS Code fork with full MCP support, BYOK, and no telemetry. Feature-
 | **Gitpod** | Web | - | - | Free + Paid | ❌ | Cloud dev environments | ❌ |
 | **Rork** | Web | - | - | Free & Paid (credits) | ❌ | Mobile apps (iOS/Android) | ❌ |
 | **Google Stitch** | Web | - | 2026-03 | Free (Google account, 550 gen/mo) | ❌ | UI design, Figma/React export | ❌ |
-| **Google Antigravity** | Web | - | - | Google AI Pro / Ultra | Agent-first development with Gemini-powered coding | ❌ |
+| **Google Antigravity 2.0** | Windows, macOS, Linux (CLI), Web (IDE) | 2.0 | 2026-05-19 00:00 UTC | Google AI Pro $19.99/mo / Ultra $100/mo (5×) or $200/mo (20×) | Agent-first platform: desktop app + CLI (`agy`) + SDK + Managed Agents API; multi-agent orchestration, parallel tasks, voice control | [🔗](https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/) |
 | **Jules** | Web | - | 2025-05-20 00:00 UTC | Free beta, higher limits on Google AI Pro / Ultra | Async repo agent, reviewable diffs, GitHub integration | ❌ |
 
 ### CLI Tools 🖥️
@@ -770,11 +777,12 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 | Tool | Developer | Pricing | Best For | GitHub |
 |------|-----------|---------|----------|--------|
 | **Gemini CLI** | Google | Free | Google ecosystem & Gemini models in-terminal | [🔗](https://github.com/google-gemini/gemini-cli) |
+| **Antigravity CLI (`agy`)** | Google | Free (Pro/Ultra for higher limits) | Agentic coding, multi-agent orchestration, replacement for Gemini CLI | [🔗](https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/) |
 | **Cursor CLI** | Cursor | Free tier | Terminal + IDE bridge | [🔗](https://github.com/getcursor/cursor) |
 | **Qwen Code** | Alibaba | Free | Qwen optimization | [🔗](https://github.com/QwenLM/qwen-code) |
 | **Qodo CLI** | Qodo | Free tier | Testing, review & agent workflows | [🔗](https://github.com/qodo-ai/command) |
 
-> **Gemini CLI (release & security notes):** Current CLI generations add offline search, bundled ripgrep, optional color-accessible themes, interactive shell tool invocation, and an [A2A](https://github.com/google/A2A)-style agent registry surface in the tool (see [Gemini CLI changelogs](https://geminicli.com/docs/changelogs/)). Treat upgrades through **v0.39.1+** as mandatory maintenance: public advisories described a critical remote-code path affecting earlier builds (widely reported as CVSS 10.0); confirm your installed build against the release notes for your package channel.
+> **Gemini CLI (deprecation & security notes):** Google announced at I/O 2026 that Gemini CLI will be **shut down on June 18, 2026** and replaced by [Antigravity CLI (`agy`)](https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/). Migrate agentic workflows to `agy` before the cutoff. Current CLI generations add offline search, bundled ripgrep, optional color-accessible themes, interactive shell tool invocation, and an [A2A](https://github.com/google/A2A)-style agent registry surface in the tool (see [Gemini CLI changelogs](https://geminicli.com/docs/changelogs/)). Treat upgrades through **v0.39.1+** as mandatory maintenance: public advisories described a critical remote-code path affecting earlier builds (widely reported as CVSS 10.0); confirm your installed build against the release notes for your package channel.
 
 #### CLI Tools by Programming Language
 
@@ -1250,6 +1258,7 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 | Model | Developer | Languages | Real-time | Open Source | Pricing | Best For | GitHub |
 |-------|-----------|-----------|----------|-------------|---------|----------|--------|
 | ElevenLabs Turbo v2.5 | ElevenLabs | 29+ | Yes | No | Free – $1,320/mo | Best quality (4.8 MOS), instant voice cloning | — |
+| Stability Audio 3.0 | Stability AI | Music/SFX | Yes (small/medium OSS) | Yes (small/medium, Apache 2.0) | Free (small/medium OSS weights); commercial via API | Professional-grade music >6 min, open-weight small/medium variants | [🔗](https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/) |
 | OpenAI TTS / TTS HD | OpenAI | 57 | Yes | No | $15 / $30 per 1M chars | Enterprise, seamless GPT integration | — |
 | Sesame CSM | Sesame AI Labs | English | Yes | Yes | Free | Conversational, emotionally expressive (4.7 MOS) | [🔗](https://github.com/SesameAILabs/csm) |
 | Kokoro-82M | Hexgrad | Multilingual | Yes | Yes (Apache 2.0) | Free | Tiny (82M params), CPU-runnable, near-commercial quality | [🔗](https://github.com/hexgrad/kokoro) |
@@ -1424,6 +1433,10 @@ Compact models designed for on-device inference, edge deployment, low-latency AP
 | Phi-4 | Microsoft | 14B | 16K | MIT | Reasoning, math, code — STEM benchmark leader at class size |
 | Phi-4-mini | Microsoft | 3.8B | 128K | MIT | On-device STEM reasoning with long context |
 | Phi-4-multimodal | Microsoft | 5.6B | 128K | MIT | Vision + audio + text multimodal, edge deployment |
+| Gemma 4 31B | Google | 31B dense | 256K | Apache 2.0 | Multimodal (text+image), hybrid-thinking, open-weight reasoning |
+| Gemma 4 26B A4B | Google | 26B MoE (4B active) | 256K | Apache 2.0 | Multimodal, efficient MoE, agentic workflows |
+| Gemma 4 E4B | Google | 4B dense | 256K | Apache 2.0 | On-device, CPU inference, multimodal (text+image+audio) |
+| Gemma 4 E2B | Google | 2B dense | 256K | Apache 2.0 | Ultra-lightweight, on-device, 5GB RAM (4-bit) |
 | Gemma 3 27B | Google | 27B | 128K | Apache 2.0 | Top open model, multilingual (140+ languages) |
 | Gemma 3 4B | Google | 4B | 128K | Apache 2.0 | CPU inference, 140+ languages, mobile-friendly |
 | Gemma 3 1B | Google | 1B | 32K | Apache 2.0 | On-device, embedded, ultra-lightweight |
@@ -1614,7 +1627,7 @@ Comprehensive pricing comparisons and cost calculations.
 |--------|-------------|-------|:---:|
 | **ChatGPT** | Go **$8**, Plus **$20**, Pro **$200**, Business **$25/seat** (annual) or **$30/seat** (monthly), Enterprise (contact sales) | Consumer prices are US-listed; Go is localized in some markets | [🔗](https://openai.com/index/introducing-chatgpt-go/) |
 | **Claude** | Pro **$20**, Max **$100** (5×) or **$200** (20×), Team/Enterprise (see pricing) | Prices shown exclude applicable taxes; availability varies by region | [🔗](https://www.anthropic.com/max) |
-| **Google AI (Gemini)** | Plus **$7.99**, Pro **$19.99**, Ultra **$249.99** | US pricing; some regions/local pricing differ | [🔗](https://blog.google/products-and-platforms/products/google-one/google-ai-ultra/) |
+| **Google AI (Gemini)** | Plus **$7.99**, Pro **$19.99**, Ultra **$100** (5× limits) or **$200** (20× limits) | US pricing; Ultra reduced from $249.99 at I/O 2026; $100 tier added for Antigravity users | [🔗](https://blog.google/products-and-platforms/products/google-one/google-ai-ultra/) |
 
 **Coding assistants**
 
@@ -1637,6 +1650,7 @@ Comprehensive pricing comparisons and cost calculations.
 | **DeepSeek-V3.1** | $0.27 | $0.41 | — | Everything |
 | **DeepSeek-V3.2** | $0.28 | $0.42 | $0.028 | Budget workhorse, reasoning |
 | **MiniMax-M2.5** | $0.30 | $1.20 | Auto (included) | Coding, long context |
+| **Qwen3.7-Max** | $2.50 | $7.50 | $0.25 | Agentic coding, long-horizon autonomy, reasoning |
 | **DeepSeek-V4-Pro** | $0.435 | $0.87 | $0.003625 (hit, promo) | 75% promo until 2026-05-31 15:59 UTC (list $1.74 / $3.48) |
 | **Gemini 3 Flash** | $0.50 | $3.00 | $0.05 | Long context (Vertex Gemini 3 Flash Preview ≤200K ctx) |
 | **Mistral Large 3** | $0.50 | $1.50 | — | Strong open-source frontier model |
@@ -1860,7 +1874,7 @@ Additional context from the May 2026 research pass (supplements earlier tables; 
 
 ---
 
-**Last Updated:** 2026-05-23 00:00 UTC
+**Last Updated:** 2026-05-24 00:00 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---

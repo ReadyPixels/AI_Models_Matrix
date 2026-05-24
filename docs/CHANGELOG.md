@@ -1,3 +1,33 @@
+## [2026-05-24] - Version 3.11 - Qwen3.7-Max, Antigravity 2.0, Stability Audio 3.0, Gemini CLI deprecation, pricing corrections
+
+### Added
+
+- **Qwen3.7-Max**: New entry in Frontier Models table - Alibaba, 1M context, $2.50/$7.50 per 1M tokens ($0.25 cached), released 2026-05-20; added to Output Token Limits, Cached & Batch Pricing, SWE-bench Verified, Detailed Benchmark, Commercial Coding Models, and Top Models by Category (Reasoning - #3). Scores 56.6 AA Intelligence Index, 92.4% GPQA Diamond, 80.4% SWE-bench Verified, 41.4% HLE.
+- **Qwen3.7-Plus-Preview**: New entry in Frontier Models table - Alibaba multimodal variant, 1M context, lower price than Max, released 2026-05-20.
+- **Antigravity 2.0**: Updated Google Antigravity entry in Web-Based IDEs - now a multi-surface platform (desktop app + CLI `agy` + SDK + Managed Agents API), released 2026-05-19 at Google I/O. Pricing: Pro $19.99/mo, Ultra $100/mo (5x) or $200/mo (20x).
+- **Antigravity CLI (`agy`)**: New entry in Assisted CLI Tools - replaces Gemini CLI for agentic coding workflows.
+- **Gemini CLI deprecation notice**: Added note that Gemini CLI will shut down June 18, 2026, replaced by Antigravity CLI.
+- **Gemma 4 SLM models**: Added Gemma 4 31B, 26B A4B, E4B, and E2B to Small Language Models table - Apache 2.0 licensed, multimodal, up to 256K context, released April 2026.
+- **Stability Audio 3.0**: New entry in Text-to-Speech table - generates professional-grade music >6 minutes, open-weight small/medium variants, released 2026-05-20.
+- **Google AI Ultra pricing**: Updated to $100/mo (5x limits) and $200/mo (20x limits), replacing old $249.99 single tier.
+
+### Changed
+
+- **Document metadata**: Updated Last Updated to 2026-05-24 00:00 UTC.
+- **Top Models by Category (Reasoning)**: Qwen3.7-Max replaces Gemini 3.5 Flash as #3.
+- **Top Models by Category (quick start table)**: Qwen3.7-Max replaces Qwen3-Max-Thinking as #3 in Reasoning.
+
+### Sources (verification, 2026-05-24 UTC)
+
+- [Qwen3.7-Max announcement - venturebeat.com/alibabas-proprietary-qwen3-7-max](https://venturebeat.com/technology/alibabas-proprietary-qwen3-7-max-can-run-for-35-hours-autonomously-and-supports-external-harnesses-like-anthropics-claude-code) (release date 2026-05-20)
+- [Qwen3.7-Max benchmarks and pricing - felloai.com/qwen-3-7-max-review](https://felloai.com/qwen-3-7-max-review/) ($2.50/$7.50, AA Index 56.6)
+- [Antigravity 2.0 launch - techcrunch.com/2026/05/19/google-launches-antigravity-2-0](https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/) (I/O 2026)
+- [Stability Audio 3.0 - techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model](https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/) (release 2026-05-20)
+- [Gemma 4 release - en.wikipedia.org/wiki/Gemini_(language_model)](https://en.wikipedia.org/wiki/Gemini_(language_model)) (April 2, 2026)
+- [Google AI Ultra pricing - 9to5google.com/2026/05/19/google-antigravity-agentic-developer-suite](https://9to5google.com/2026/05/19/google-antigravity-agentic-developer-suite/) ($100/$200 tiers)
+
+---
+
 ## [2026-05-23] - Version 3.10 - Google I/O 2026 updates, Gemini 3.5 Flash, Claude Mythos, and GPT-5.5 Instant
 
 ### Added
