@@ -1,3 +1,29 @@
+## [2026-05-25] - Version 3.12 - Chrome Auto Browse 2 at I/O 2026, outdated info cleanup
+
+### Changed
+
+- **Google Chrome (Auto Browse 2)**: Updated entry in Standalone AI Browsers table - reflects I/O 2026 updates: auto browse 2 agentic features, Chrome Skills saveable workflows, Universal Commerce Protocol, WebMCP support.
+- **Document metadata**: Updated Version from 3.8 to 3.12, Last Updated badge and text to 2026-05-25 00:00 UTC.
+- **Frontier Models ⭐ flags**: Added missing ⭐ flags to DeepSeek-V4-Flash, DeepSeek-V4-Pro, Gemini 3 Flash, Grok 4.3, and GPT-5.5 Pro (all updated within last 30 days).
+- **Top Models by Category**: Aligned top-level table with Frontier Models subsection — added Agentic Performance row, updated Coding (#2 GPT-5.5 Instant), Cost Efficiency (#3 Gemini 3.5 Flash).
+- **Comparison tables**: Refreshed "Sort by Latest Update" with recent models (Qwen3.7-Max, Gemini 3.5 Flash, Claude Mythos, GPT-5.5 Instant, GPT-5.5 Pro, Grok 4.3). Updated "Sort by Price" with Grok 4 Fast and Step-3.5-Flash. Replaced "Sort by Performance (Coding)" from HumanEval to SWE-bench Verified with current rankings. Expanded "Sort by Context Window" from 4 to 10 entries.
+- **Release Windows table**: Added May 2026 entries (Qwen3.7-Max, Gemini 3.5 Flash, Claude Mythos, GPT-5.5 Instant, Grok 4.3).
+- **GPU Clouds deduplication**: Removed duplicate GPU Clouds, Inference Clouds, Hosted Open Source Models, and Free Tier APIs sections that appeared twice at the end of API Providers.
+
+### Notes
+
+- No major frontier model releases detected since last update. All model pricing and benchmark data verified current as of May 25, 2026.
+
+### Sources (verification, 2026-05-25 UTC)
+
+- [Chrome at I/O 2026 - developer.chrome.com/blog/chrome-at-io26](https://developer.chrome.com/blog/chrome-at-io26?hl=en) (auto browse 2, WebMCP, UCP)
+- [Google Chrome Auto Browse - blog.google/chrome/gemini-3-auto-browse](https://blog.google/products-and-platforms/products/chrome/gemini-3-auto-browse/) (agentic Chrome features)
+- [AI Flash Report - aiflashreport.com/topics/new-ai-model-releases](https://aiflashreport.com/topics/new-ai-model-releases.html) (no new models in 24-48 hours)
+- [OpenAI API Pricing - openai.com/api/pricing](https://openai.com/api/pricing/) (GPT-5.5 Pro pricing verification)
+- [Gemini 3.5 Flash - llm-stats.com](https://llm-stats.com/blog/research/gemini-3.5-flash-launch) (pricing and benchmark verification)
+
+---
+
 ## [2026-05-24] - Version 3.11 - Qwen3.7-Max, Antigravity 2.0, Stability Audio 3.0, Gemini CLI deprecation, pricing corrections
 
 ### Added
