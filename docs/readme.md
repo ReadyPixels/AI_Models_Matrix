@@ -170,17 +170,6 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Grok 4.3** | xAI | 1M | — | — | — | — | $1.25 / $2.50 | 2026-05-06 ⭐
 | **Qwen3.7-Max** 🇨🇳 | Alibaba | 1M | 92.4% | — | 80.4% | — | $2.50 / $7.50 | 2026-05-20 ⭐
 | **Qwen3.7-Plus-Preview** 🇨🇳 | Alibaba | 1M | — | — | — | — | Lower than Max | 2026-05-20 ⭐
-#### Top Models by Category
-
-| Category | #1 | #2 | #3 |
-|----------|-----|-----|-----|
-| **Coding** | Claude Opus 4.7 | GPT-5.5 Instant | GPT-5.5 Pro |
-| **Reasoning** | Gemini 3 Deep Think | GPT-5.5 Pro | Qwen3.7-Max |
-| **Open Source** | DeepSeek-V4-Flash | Qwen3.5-Max | Llama 4 |
-| **Cost Efficiency** | DeepSeek-V4-Flash | Grok 4 Fast | Gemini 3.5 Flash |
-| **Free & Budget** | Grok 4.3 ($1.25/1M) | Claude Haiku 4.5 ($1/1M) | Gemini 3.1 Flash-Lite ($0.25/1M) |
-| **Agentic Performance** | Gemini 3.5 Flash | GPT-5.5 Instant | Claude Mythos Preview |
-| **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Claude Opus 4.6 (1M) |
 
 ### Model Specifications 📋
 
