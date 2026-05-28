@@ -30,12 +30,12 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 | Category | #1 | #2 | #3 |
 |----------|-----|-----|-----|
-| **Coding** | Claude Opus 4.7 | GPT-5.5 Instant | GPT-5.5 Pro |
+| **Coding** | Claude Opus 4.8 | GPT-5.5 Instant | GPT-5.5 Pro |
 | **Reasoning** | Gemini 3 Deep Think | GPT-5.5 Pro | Qwen3.7-Max |
 | **Open Source** | DeepSeek-V4-Flash | Qwen3.5-Max | Llama 4 |
-| **Cost Efficiency** | DeepSeek-V4-Flash | Grok 4 Fast | Gemini 3.5 Flash |
-| **Free & Budget** | Grok 4.3 ($1.25/1M) | Claude Haiku 4.5 ($1/1M) | Gemini 3.1 Flash-Lite ($0.25/1M) |
-| **Agentic Performance** | Gemini 3.5 Flash | GPT-5.5 Instant | Claude Mythos Preview |
+| **Cost Efficiency** | DeepSeek-V4-Flash | Grok 4.3 | Gemini 3.5 Flash |
+| **Free & Budget** | Gemini 3.1 Flash-Lite ($0.25/1M) | Grok 4.3 ($1.25/1M) | Claude Haiku 4.5 ($1/1M) |
+| **Agentic Performance** | Claude Opus 4.8 | Gemini 3.5 Flash | GPT-5.5 Instant |
 | **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Claude Opus 4.6 (1M) |
 
 ## 📚 Documentation
@@ -50,7 +50,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.14
+- **Document Version**: 3.15
 - **Last Updated**: 2026-05-28 00:00 UTC
 - **Repository**: https://github.com/ReadyPixels/AI_Models_Matrix
 - **License**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
@@ -119,6 +119,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **GPT-5.5** | OpenAI | 1M | 93.2% | — | — | — | $5.00 / $30.00 | 2026-04-26 |
 | **GPT-5.5 Instant** | OpenAI | 1M | 91.0% | — | 88.7% | — | $5.00 / $30.00 | 2026-05-05 ⭐
 | **GPT-5.5 Pro** | OpenAI | 1.05M | 95.1% | — | 92.3% | 98.5% | $30.00 / $180.00 | 2026-05-08 ⭐
+| **Claude Opus 4.8** | Anthropic | 1M | — | — | 88.6% | — | $5.00 / $25.00 | 2026-05-28 ⭐ |
 | **Claude Opus 4.7** | Anthropic | 1M | 94.2% | — | 87.6% | ~95% | $5.00 / $25.00 | 2026-04-26 |
 | **Claude Sonnet 4.6** | Anthropic | 1M | 89.9% | ~1438 (Text) / 1523 (Code) | 79.6% | ~95% | $3.00 / $15.00 | 2026-04-26 |
 | **GPT-5.3-Codex** | OpenAI | 400K | 91.5% | — | 85.0% | — | $1.75 / $14.00 | 2026-04-26 |
@@ -146,8 +147,8 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Llama 4 Scout** | Meta | 10M | 57.2% | — | — | — | Free (self-host) | 2026-04-26 |
 | **Llama 4 Maverick** | Meta | 128K | 69.8% | — | — | — | Free (self-host) | 2026-04-26 |
 | **Grok 4** | xAI | 256K | ~91.5% | ~1493 (Text) | — | 100% | $3.00 / $15.00 | 2026-04-26 |
-| **Grok 4 Fast** | xAI | 128K | — | — | — | — | $0.20 / $1.50 | 2026-04-26 |
-| **Grok 4.20** | xAI | 2M | — | — | — | — | $2.00 / $6.00 | 2026-04-26 |
+| **Grok 4 Fast** | xAI | 128K | — | — | — | — | $0.20 / $0.50 | 2026-05-28 ⭐ |
+| **Grok 4.20** | xAI | 2M | — | — | — | — | $1.25 / $2.50 | 2026-05-28 ⭐ |
 | **Grok 4.3** | xAI | 1M | — | — | — | — | $1.25 / $2.50 | 2026-05-06 ⭐
 | **Qwen3.7-Max** 🇨🇳 | Alibaba | 1M | 92.4% | — | 80.4% | — | $2.50 / $7.50 | 2026-05-20 ⭐
 | **Qwen3.7-Plus-Preview** 🇨🇳 | Alibaba | 1M | — | — | — | — | Lower than Max | 2026-05-20 ⭐
@@ -187,8 +188,8 @@ Maximum output tokens per single API request.
 | **Kimi K2.6** | — | 256K | Not publicly specified |
 | **Step-3.5-Flash** | 66K | 256K | — |
 | **Grok 4** | — | 256K | Not publicly specified |
-| **Grok 4 Fast** | 30K | 2M | — |
-| **Grok 4.20** | — | 2M | Largest context window among Western closed models |
+| **Grok 4 Fast** | 30K | 128K | Now aliased to Grok 4.3; $0.20 / $0.50 |
+| **Grok 4.20** | 30K | 2M | All variants: $1.25 / $2.50 |
 | **Grok 4.3** | 30K | 1M | Always-on reasoning; released 2026-05-01 |
 | **Mistral Large 3** | 32K | 128K | — |
 | **Llama 4 Scout** | 16K | 10M | — |
@@ -201,6 +202,7 @@ Discounted pricing tiers for high-volume usage. All prices in USD per million to
 | Model | Standard Input | Cached Input | Batch Discount | Notes |
 |-------|---------------|-------------|----------------|-------|
 | **Claude Opus 4.7** | $5.00 | $0.50 (hit) / $6.25 (5m write) | 50% off | Batch: $2.50 in / $12.50 out |
+| **Claude Opus 4.8** | $5.00 | $0.50 (hit) / $6.25 (5m write) | 50% off | Same pricing as 4.7; fast mode $10/$50 |
 | **Claude Opus 4.6** | $5.00 | $0.50 (hit) / $6.25 (5m write) | 50% off | Batch: $2.50 in / $12.50 out |
 | **Claude Sonnet 4.6** | $3.00 | $0.30 (hit) / $3.75 (5m write) | 50% off | Batch: $1.50 in / $7.50 out |
 | **Claude Sonnet 4.5** | $3.00 | $0.30 (hit) / $3.75 (5m write) | 50% off | Batch: $1.50 in / $7.50 out |
@@ -220,9 +222,9 @@ Discounted pricing tiers for high-volume usage. All prices in USD per million to
 | **Qwen3.7-Max** | $2.50 | $0.25 | — | 90% cached discount; proprietary API-only |
 | **GLM-5 / GLM-5.1** | $1.00 | $0.20 | — | — |
 | **Grok 4** | $3.00 | $0.75 | — | — |
-| **Grok 4 Fast** | $0.20 | $0.05 | — | — |
-| **Grok 4.20** | $2.00 | — | — | 78% non-hallucination rate on Artificial Analysis Omniscience |
-| **Grok 4.3** | $1.25 | — | — | ~38% cheaper input than 4.20; released 2026-05-01 |
+| **Grok 4 Fast** | $0.20 | $0.05 | — | Aliased to Grok 4.3; output $0.50/1M |
+| **Grok 4.20** | $1.25 | $0.20 | — | All variants: reasoning, non-reasoning, multi-agent |
+| **Grok 4.3** | $1.25 | $0.20 | — | ~38% cheaper input than 4.20; released 2026-05-01 |
 | **Mistral Large 3** | $0.50 | — | — | No formal batch/cache tier |
 | **Step-3.5-Flash** | $0.10 | — | — | — |
 
@@ -304,7 +306,7 @@ All frontier models support structured JSON output and function/tool calling exc
 | **Zhipu AI (GLM)** | Global | Z.AI API | MIT license enables self-hosting anywhere |
 | **MiniMax** | Global | MiniMax API | — |
 | **Moonshot AI (Kimi)** | Global | platform.kimi.ai | MIT open-weight |
-| **xAI (Grok 4 / 4.20 / 4.3)** | US-focused | Oracle OCI (East/Midwest/West) | Limited non-US availability; Grok 4.20 has 2M context |
+| **xAI (Grok 4 / 4.20 / 4.3 / 4 Fast)** | US-focused | Oracle OCI (East/Midwest/West) | Major price cuts: Grok 4.20 now $1.25/$2.50; Grok 4 Fast aliased to 4.3 |
 | **Mistral** | Global | Azure AI Foundry, AWS, GCP | — |
 | **Meta (Llama)** | Global (self-host) | All major cloud providers | Llama 4 Community License |
 | **StepFun** | Global | HuggingFace | Apache 2.0 open-source |
@@ -370,6 +372,7 @@ Specialized AI models optimized for software development tasks.
 | 🥇 #1 | **GPT-5.5 Pro** | OpenAI | 92.3% |
 | 🥈 #2 | **GPT-5.5** | OpenAI | 88.5% |
 | 🥉 #3 | **Claude Opus 4.7** | Anthropic | 87.6% |
+| #3b | **Claude Opus 4.8** | Anthropic | 88.6% |
 | #4 | **Claude Opus 4.6** | Anthropic | 80.8% |
 | #5 | **Gemini 3.1 Pro** | Google | 80.6% |
 | #6 | **MiniMax-M2.5** | MiniMax | 80.2% |
@@ -386,6 +389,7 @@ Specialized AI models optimized for software development tasks.
 
 | Model | Developer | Pricing | Best For |
 |-------|-----------|---------|----------|
+| **Claude Opus 4.8** | Anthropic | $5.00 / $25.00 per 1M | Agentic coding, complex tasks, best Opus |
 | **Claude Opus 4.6** | Anthropic | $5.00 / $25.00 per 1M | Agentic coding, complex tasks |
 | **GPT-5.5 Pro** | OpenAI | $30.00 / $180.00 per 1M | Highest benchmark coding |
 | **GPT-5.3-Codex** | OpenAI | $1.75 / $14.00 per 1M | Agentic coding, 7+ hour autonomy |
@@ -395,7 +399,7 @@ Specialized AI models optimized for software development tasks.
 | **Claude Sonnet 4.5** | Anthropic | $3.00 / $15.00 per 1M | Code review, refactoring |
 | **Codestral** | Mistral AI | $0.30 / $0.90 | Real-time completion |
 | **Qwen3.7-Max** | Alibaba | $2.50 / $7.50 per 1M | Agentic coding, long-horizon autonomy, reasoning |
-| **Grok 4 Fast** | xAI | $0.20 / $1.50 | Most used (50% share) |
+| **Grok 4.3** | xAI | $1.25 / $2.50 per 1M | Flagship reasoning, lowest hallucination |
 
 #### Open-Source Coding Models
 
@@ -542,6 +546,7 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | Model | GPQA Diamond | MMLU-Pro | Arena Elo (Text) | HLE | SWE-bench Verified | SWE-bench Pro | LiveCodeBench | AIME 2025 | ARC-AGI-2 | MMMU-Pro | IFEval | FrontierMath |
 |-------|-------------|----------|------------------|-----|--------------------|--------------|--------------|-----------|-----------|---------|---------|----|
 | **Claude Opus 4.6** | 91.3% | — | 1500 | 40.0–53.0% | 80.8% | — | — | 99.8% | 68.8% | — | — | — |
+| **Claude Opus 4.8** | — | — | — | — | 88.6% | 69.2% | — | — | — | — | — | — |
 | **Claude Mythos Preview** | — | — | — | — | — | — | — | — | — | — | — | — |
 | **GPT-5.5** | 93.2% | — | 1495 | 42.1–55.0% | 88.5% | — | — | 99.9% | 71.2% | — | — | 52% |
 | **GPT-5.5 Instant** | 91.0% | — | — | — | 88.7% | — | — | — | — | — | — | — |
@@ -844,8 +849,8 @@ Services for accessing AI models via API.
 
 | Provider | Models | Pricing |
 |----------|--------|---------|
-| **OpenAI** | GPT-5.4, GPT-5.4 mini, GPT-5.4 nano, o3, Codex | Pay-per-token |
-| **Anthropic** | Claude Opus 4.6, Sonnet 4.6, Haiku 4.5 | Pay-per-token |
+| **OpenAI** | GPT-5.5, GPT-5.5 Instant, GPT-5.5 Pro, GPT-5.4, GPT-5.4 mini, GPT-5.4 nano, o3, Codex | Pay-per-token |
+| **Anthropic** | Claude Opus 4.8, Opus 4.6, Sonnet 4.6, Haiku 4.5 | Pay-per-token |
 | **Alibaba Cloud** | Qwen3.5-Max, Qwen3-Coder, Qwen3.6-27B | Pay-per-token / Coding Plan $50/mo |
 | **Gemini (Google)** | Gemini 3.1 Pro, 3 Pro, 3 Flash | Pay-per-token |
 | **Z.ai (Zhipu AI)** | GLM-5, GLM-5.1, GLM-4.7, GLM-5-Code | Pay-per-token |
@@ -899,20 +904,23 @@ Services that aggregate multiple models through a unified API, often with load b
 
 #### GPU Clouds
 
-| Provider | Type | Best For |
-|----------|------|----------|
-| **RunPod** | GPU Rental | Flexibility, cost-effective fine-tuning & inference |
-| **Replicate** | Model-as-a-Service | Quick deployment, serverless inference |
-| **Vultr** | Global Cloud | Hourly GPU instances |
-| **Hyperbolic** | Decentralized | Crypto/Fiat payments |
-| **Cerebrium** | Serverless GPU | Python-native ML inference & fine-tuning |
-| **Together AI** | AI-Native Cloud | Fast, cost-effective inference & fine-tuning for open models |
-| **Modal Labs** | Serverless GPU | Fine-tuning with LoRA, distributed training |
-| **Fireworks AI** | Inference & Fine-tuning | Fast inference, RFT for model shaping |
-| **Databricks Mosaic AI** | Integrated ML Platform | Enterprise fine-tuning, governed serving, RAG |
-| **NVIDIA DGX Cloud** | Managed AI Training | Co-engineered clusters, maximum ROI for training |
-| **Vast.ai** | GPU Marketplace | Serverless endpoints, diverse GPU options |
-| **DigitalOcean** | GPU Droplets | Simple fine-tuning workflows, scalable GPU infrastructure |
+| Provider | Type | A100 80GB ($/hr) | H100 80GB ($/hr) | Best For |
+|----------|------|-------------------|-------------------|----------|
+| **RunPod** | GPU Rental | $1.19–$1.39 | $1.99–$2.99 | Flexibility, cost-effective fine-tuning & inference |
+| **Vast.ai** | GPU Marketplace | ~$0.28–$1.09 | ~$1.38–$1.89 | Cheapest spot pricing, diverse GPU options |
+| **Lambda Labs** | Cloud GPU | $1.29–$1.79 | $2.49–$3.78 | Reliable on-demand, academic discounts |
+| **DigitalOcean** | GPU Droplets | $1.29 | $2.99 | Simple fine-tuning workflows |
+| **Vultr** | Global Cloud | $1.29–$2.80 | $1.99–$2.99 | Hourly GPU instances, global regions |
+| **Hyperbolic** | Decentralized | ~$1.50 | ~$3.50 | Crypto/Fiat payments |
+| **Cerebrium** | Serverless GPU | ~$2.10 | ~$3.40 | Python-native ML inference & fine-tuning |
+| **Modal Labs** | Serverless GPU | ~$3.95 | ~$3.95 | Fine-tuning with LoRA, distributed training |
+| **Replicate** | Model-as-a-Service | $5.04 | $5.49 | Quick deployment, serverless inference |
+| **Together AI** | AI-Native Cloud | — | — | Fast inference & fine-tuning for open models |
+| **Fireworks AI** | Inference & Fine-tuning | — | — | Fast inference, RFT for model shaping |
+| **Databricks Mosaic AI** | Integrated ML Platform | — | — | Enterprise fine-tuning, governed serving, RAG |
+| **NVIDIA DGX Cloud** | Managed AI Training | Custom | Custom | Co-engineered clusters, maximum ROI for training |
+
+> GPU pricing as of May 2026. RunPod/Vast.ai prices vary by community vs. secure cloud and spot vs. on-demand.
 
 #### Inference Clouds
 
@@ -1068,7 +1076,7 @@ These services run in a cloud sandbox (virtual Linux/Windows desktop), control t
 | **Skyvern Cloud** | Web dashboard / API | Free 1K credits / Hobby $29/mo / Pro $149/mo | ❌ | ✅ | ✅ (Ollama) | ✅ | [🔗](https://github.com/Skyvern-AI/skyvern) |
 | **Convergence Proxy** | Web / API | Free tier / Pro $20/mo (acquired by Salesforce) | ❌ | ❌ | ❌ | ✅ | ❌ |
 | **Amazon Nova Act** | API (AWS) | Pay-per-use (AWS pricing) | ❌ | ✅ | ❌ | ✅ | ❌ |
-| **Project Mariner** | Google AI Ultra | Included ($249.99/mo Ultra plan) | ❌ | ❌ | ❌ | ✅ | ❌ |
+| **Project Mariner** | Google AI Ultra | Included ($100/mo Ultra 5× plan) | ❌ | ❌ | ❌ | ✅ | ❌ |
 | **Perplexity Computer** | Web dashboard | Perplexity Pro $20/mo | ❌ | ❌ | ❌ | ✅ | ❌ |
 | **OpenAI Computer Use (API)** | API / ChatGPT | $15/M input, $60/M output | ✅ | ✅ | ❌ | ✅ | ❌ |
 
@@ -1452,7 +1460,7 @@ These are the raw API endpoints you can use in tools like Cursor (BYOK), Cline, 
 
 | Provider | Free Models | Daily Limit | Best For |
 |----------|-------------|-------------|----------|
-| **Google Gemini API** | Gemini 2.5 Pro (100 req/day), Gemini 2.5 Flash (250 req/day), Gemini 2.5 Flash-Lite (1,000 req/day) | Per-project limits | Prototyping, large context (1M tokens), multimodal |
+| **Google Gemini API** | Gemini 3.1 Flash-Lite (1,000 req/day), Gemini 3 Flash (250 req/day), Gemini 3.1 Pro (100 req/day) | Per-project limits | Prototyping, large context (1M-10M tokens), multimodal |
 | **Groq Cloud** | Llama 4 Scout, DeepSeek R1, Qwen3, GPT-OSS | ~1,000-14,400 req/day | Fast iteration, agentic workflows |
 | **OpenRouter** | 28+ free models including Qwen3 Coder 480B, Devstral 2, MiMo-V2-Flash, DeepSeek R1, GPT-OSS 120B, Llama 3.3 70B | Varies by model | Experimenting with many models |
 | **Cerebras** | Llama 3.3 70B, Qwen3 32B/235B, GPT-OSS 120B | 1M tokens/day | Batch tasks, raw speed (20× faster than GPUs) |
@@ -1564,9 +1572,9 @@ Comprehensive pricing comparisons and cost calculations.
 | Tier | Price Range | Models |
 |------|-------------|--------|
 | 🆓 **Free** | $0 | Self-hosted, free tiers |
-| 💸 **Budget** | $0.025 - $0.50/1M | Gemini 3.1 Flash-Lite, GLM-4.7-FlashX, GPT-5.4 nano, Grok 4 Fast |
-| 💰 **Mid-range** | $0.60 - $15.00/1M | GPT-5.4 mini, Claude Haiku 4.5, Kimi K2.6, Sonar, GLM-5, GPT-5.4, Claude Sonnet |
-| 💎 **Premium** | $15.00 - $600.00/1M | GPT-5.4 Pro, Claude Opus, o1-Pro |
+| 💸 **Budget** | $0.025 - $0.50/1M | Gemini 3.1 Flash-Lite, GLM-4.7-FlashX, GPT-5.4 nano, Grok 4 Fast (aliased to 4.3) |
+| 💰 **Mid-range** | $0.60 - $15.00/1M | GPT-5.4 mini, Claude Haiku 4.5, Kimi K2.6, Sonar, GLM-5, GPT-5.4, Claude Sonnet, Grok 4.3 |
+| 💎 **Premium** | $15.00 - $600.00/1M | GPT-5.5 Pro, Claude Opus 4.8, Claude Opus 4.7, o1-Pro |
 
 #### Subscription Pricing (Monthly, USD)
 
@@ -1576,7 +1584,7 @@ Comprehensive pricing comparisons and cost calculations.
 |--------|-------------|-------|:---:|
 | **ChatGPT** | Go **$8**, Plus **$20**, Pro **$200**, Business **$25/seat** (annual) or **$30/seat** (monthly), Enterprise (contact sales) | Consumer prices are US-listed; Go is localized in some markets | [🔗](https://openai.com/index/introducing-chatgpt-go/) |
 | **Claude** | Pro **$20**, Max **$100** (5×) or **$200** (20×), Team/Enterprise (see pricing) | Prices shown exclude applicable taxes; availability varies by region | [🔗](https://www.anthropic.com/max) |
-| **Google AI (Gemini)** | Plus **$7.99**, Pro **$19.99**, Ultra **$100** (5× limits) or **$200** (20× limits) | US pricing; Ultra reduced from $249.99 at I/O 2026; $100 tier added for Antigravity users | [🔗](https://blog.google/products-and-platforms/products/google-one/google-ai-ultra/) |
+| **Google AI (Gemini)** | Free, Plus **$7.99**, Pro **$19.99**, Ultra **$100** (5× limits) or **$200** (20× limits) | US pricing; Ultra reduced from $249.99 at I/O 2026; $100 tier added | [🔗](https://blog.google/products-and-platforms/products/google-one/google-ai-ultra/) |
 
 **Coding assistants**
 
@@ -1616,8 +1624,8 @@ Comprehensive pricing comparisons and cost calculations.
 | **Perplexity Sonar Pro** | $3.00 | $15.00 | — | Higher quality + search (request fees apply) |
 | **Claude Sonnet 4.5** | $3.00 | $15.00 | $0.30 (hit) | Best coding |
 | **Claude Sonnet 4.6** | $3.00 | $15.00 | $0.30 (hit) | Near-Opus performance |
-| **Claude Opus 4.7** | $5.00 | $25.00 | $0.50 (hit) | Latest Opus |
-| **Claude Opus 4.6** | $5.00 | $25.00 | $0.50 (hit) | Agentic coding |
+| **Claude Opus 4.8** | $5.00 | $25.00 | $0.50 (hit) | Latest Opus; released 2026-05-28 |
+| **Claude Opus 4.7** | $5.00 | $25.00 | $0.50 (hit) | Opus 4.7 |
 
 
 #### Self-Hosting vs API (Monthly)
@@ -1688,6 +1696,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 🏢 Company | 🤖 Model | 📦 Version | 📅 Release Date | 🔄 Latest Updated | 💻 Coding | 📊 Benchmarks | 💰 Price | 🖥️ Self-Host | 🔗 Official Site |
 |:---:|---|---|---|---|:---:|---|---|:---:|:---:|
 | 🇨🇳 Alibaba | Qwen3.7 | Max | 2026-05-20 00:00 UTC | 2026-05-20 00:00 UTC ⭐ | ✅ | GPQA 92.4%, SWE-bench 80.4% | $2.50 / $7.50 | ❌ | [🔗](https://qwenlm.github.io/) |
+| 🤖 Anthropic | Claude | Opus 4.8 | 2026-05-28 00:00 UTC | 2026-05-28 00:00 UTC ⭐ | ✅ | SWE-bench 88.6% | $5.00 / $25.00 | ❌ | [🔗](https://www.anthropic.com/) |
 | 🌐 Google DeepMind | Gemini 3.5 | Flash | 2026-05-19 00:00 UTC | 2026-05-19 00:00 UTC ⭐ | ✅ | GPQA ~90.4%, SWE-bench Pro 55.1% | $1.50 / $9.00 | ❌ | [🔗](https://deepmind.google/models/gemini/) |
 | 🤖 Anthropic | Claude | Mythos Preview | 2026-04-07 00:00 UTC | 2026-04-07 00:00 UTC | — | Not disclosed | $25.00 / $125.00 | ❌ | [🔗](https://www.anthropic.com/) |
 | 🔬 DeepSeek | DeepSeek | V4 (Flash/Pro) | 2026-04-24 00:00 UTC | 2026-05-08 00:00 UTC ⭐ | ✅ | No public benchmarks | From $0.14 / $0.28 (Flash) | ✅ | [🔗](https://www.deepseek.com/) |
@@ -1701,8 +1710,10 @@ Side-by-side comparisons of AI models sorted by various criteria.
 
 | 🏢 Company | 🤖 Model | 📅 Release Window | Notes | 🔗 Official Site |
 |:---:|---|---|---|:---:|
-| 🇨🇳 Alibaba | Qwen3.7-Max | 2026-05 | Request-based API; proprietary; $2.50 / $7.50 | [🔗](https://qwenlm.github.io/) |
+| 🇨🇳 Alibaba | Qwen3.7-Max | 2026-05 | Proprietary; $2.50 / $7.50 | [🔗](https://qwenlm.github.io/) |
 | 🌐 Google DeepMind | Gemini 3.5 Flash | 2026-05 | GA at I/O 2026; 4x faster than 3.1 Pro | [🔗](https://deepmind.google/models/gemini/) |
+| 🤖 Anthropic | Claude Opus 4.8 | 2026-05 | Improved Opus 4.7; SWE-bench 88.6%; fast mode $10/$50 | [🔗](https://www.anthropic.com/) |
+| 🚀 xAI | Grok 4.20 / 4.3 / 4 Fast | 2026-05 | Major price cuts; Grok 4.20 now $1.25/$2.50; 4 Fast → 4.3 alias | [🔗](https://x.ai/) |
 | 🤖 Anthropic | Claude Mythos Preview | 2026-04 | Invitation-only via Project Glasswing | [🔗](https://www.anthropic.com/) |
 | 🤖 OpenAI | GPT-5.5 Instant | 2026-05 | Default ChatGPT model since 2026-05-05 | [🔗](https://openai.com/) |
 | 🚀 xAI | Grok 4.3 | 2026-05 | Always-on reasoning; $1.25 / $2.50 | [🔗](https://x.ai/) |
@@ -1723,7 +1734,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 4 | **GLM-4.7-FlashX** | $0.07 | $0.40 | API |
 | 5 | **GLM-4-32B-0414-128K** | $0.10 | $0.10 | API |
 | 6 | **DeepSeek-V4-Flash** | $0.14 | $0.28 | API |
-| 7 | **Grok 4 Fast** | $0.20 | $1.50 | API |
+| 7 | **Grok 4 Fast** | $0.20 | $0.50 | API |
 | 8 | **GPT-5.4 nano** | $0.20 | $1.25 | Proprietary |
 | 9 | **Gemini 3.1 Flash-Lite** | $0.25 | $1.50 | Proprietary |
 | 10 | **Gemini 3 Flash** | $0.50 | $3.00 | Proprietary |
@@ -1778,6 +1789,7 @@ Attribution, verification sources, and methodology.
 | **OpenAI** | ChatGPT Business pricing | [help.openai.com](https://help.openai.com/en/articles/8542115-chatgpt-business-faq) |
 | **Anthropic** | Claude Documentation | [anthropic.com](https://www.anthropic.com) |
 | **Anthropic** | Claude API pricing | [docs.anthropic.com](https://docs.anthropic.com/en/docs/about-claude/pricing) |
+| **Anthropic** | Claude Opus 4.8 announcement | [anthropic.com](https://www.anthropic.com/news/claude-opus-4-8) |
 | **Anthropic** | Claude Haiku 4.5 announcement | [anthropic.com](https://www.anthropic.com/news/claude-haiku-4-5?type=product) |
 | **Anthropic** | Claude Pro pricing | [anthropic.com](https://www.anthropic.com/news/claude-pro) |
 | **Anthropic** | Max plan pricing | [anthropic.com](https://www.anthropic.com/max) |
@@ -1802,6 +1814,7 @@ Attribution, verification sources, and methodology.
 | **ByteDance (Volcengine)** | Developer Documentation | [volcengine.com](https://www.volcengine.com/docs/82379/1263482) |
 | **Tencent (Hunyuan)** | Cloud Documentation | [cloud.tencent.com](https://cloud.tencent.com/document/product/1729/97730) |
 | **Baidu (ERNIE)** | AI Studio Documentation | [ai.baidu.com](https://ai.baidu.com/ai-doc/AISTUDIO/Mmhslv9lf) |
+| **xAI** | Grok API pricing & models | [docs.x.ai](https://docs.x.ai/developers/models) |
 | **Meta** | Llama Documentation | [llama.meta.com](https://llama.meta.com) |
 
 #### Benchmark Sources
