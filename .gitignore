@@ -84,6 +84,9 @@ build/
 .trae/temp-data/
 .trae/documents/
 
+# Automation folder
+automation/
+
 # Secrets and credentials
 *.pem
 *.key

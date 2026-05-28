@@ -6,7 +6,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--27%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--28%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 [![Star History](https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social)](https://github.com/ReadyPixels/AI_Models_Matrix)
 [![Forks](https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social)](https://github.com/ReadyPixels/AI_Models_Matrix)
 [![Issues](https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix)](https://github.com/ReadyPixels/AI_Models_Matrix/issues)
@@ -50,29 +50,10 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.13
-- **Last Updated**: 2026-05-27 00:00 UTC
+- **Document Version**: 3.14
+- **Last Updated**: 2026-05-28 00:00 UTC
 - **Repository**: https://github.com/ReadyPixels/AI_Models_Matrix
 - **License**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](../CONTRIBUTING.md) for details.
-
-### Ways to Contribute
-- **Add new models** or update existing ones
-- **Submit pricing corrections** and benchmark updates
-- **Share deployment guides** and tutorials
-- **Report broken links** or outdated information
-- **Improve documentation** and formatting
-
-### Quick Contribution
-1. Fork the repository
-2. Create a feature branch
-3. Add your changes with proper formatting
-4. Submit a pull request with clear description
-
----
 
 ## 🔍 Search & Navigation
 
@@ -135,16 +116,16 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 | Model | Company | Context | GPQA Diamond | Arena Elo | SWE-bench Verified | AIME 2025 | Pricing | Verified |
 |-------|---------|---------|--------------|-----------|--------------------|-----------|---------|----------|
-**GPT-5.5** | OpenAI | 1M | 93.2% | — | — | — | $5.00 / $30.00 | 2026-04-26
+| **GPT-5.5** | OpenAI | 1M | 93.2% | — | — | — | $5.00 / $30.00 | 2026-04-26 |
 | **GPT-5.5 Instant** | OpenAI | 1M | 91.0% | — | 88.7% | — | $5.00 / $30.00 | 2026-05-05 ⭐
 | **GPT-5.5 Pro** | OpenAI | 1.05M | 95.1% | — | 92.3% | 98.5% | $30.00 / $180.00 | 2026-05-08 ⭐
-| **Claude Opus 4.7** | Anthropic | 1M | 94.2% | — | 87.6% | ~95% | $5 / $25 | 2026-04-26 |
-| **Claude Sonnet 4.6** | Anthropic | 1M | 89.9% | ~1438 (Text) / 1523 (Code) | 79.6% | ~95% | $3 / $15 | 2026-04-26 |
+| **Claude Opus 4.7** | Anthropic | 1M | 94.2% | — | 87.6% | ~95% | $5.00 / $25.00 | 2026-04-26 |
+| **Claude Sonnet 4.6** | Anthropic | 1M | 89.9% | ~1438 (Text) / 1523 (Code) | 79.6% | ~95% | $3.00 / $15.00 | 2026-04-26 |
 | **GPT-5.3-Codex** | OpenAI | 400K | 91.5% | — | 85.0% | — | $1.75 / $14.00 | 2026-04-26 |
-| **Gemini 3.1 Pro** | Google | 1M | 94.3% | 1494 (Text) / 1455 (Code) | 80.6% | 100% | $2 / $12 | 2026-04-26 |
-**Gemini 3.5 Flash** | Google | 1M | ~90.4% | — | — | — | $1.50 / $9.00 | 2026-05-19 ⭐
+| **Gemini 3.1 Pro** | Google | 1M | 94.3% | 1494 (Text) / 1455 (Code) | 80.6% | 100% | $2.00 / $12.00 | 2026-04-26 |
+| **Gemini 3.5 Flash** | Google | 1M | ~90.4% | — | — | — | $1.50 / $9.00 | 2026-05-19 ⭐ |
 | **Gemini 3 Deep Think** | Google | 1M+ | ~97% | — | ~58% | — | Ultra subscription | 2026-04-26
-| **Claude Mythos Preview** | Anthropic | 1M | — | — | — | — | $25 / $125 | 2026-04-07 ⭐
+| **Claude Mythos Preview** | Anthropic | 1M | — | — | — | — | $25.00 / $125.00 | 2026-04-07 |
 | **GLM-5** | Zhipu AI | 200K | 82.0% | ~1451 (Text) / 1445 (Code) | 77.8% | 92.7% | $1.00 / $3.20 | 2026-04-26 |
 | **GLM-5.1** | Zhipu AI | 200K | — | — | ~80.4% (est.) | — | $1.00 / $3.20 | 2026-04-26 |
 | **MiniMax-M2.5** | MiniMax | 200K | 85.2% | — | 80.2% | 86.3% | $0.30 / $1.20 | 2026-04-26 |
@@ -161,10 +142,10 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **GPT-5.4 nano** | OpenAI | 400K | — | — | — | — | $0.20 / $1.25 | 2026-04-26 |
 | **Step-3.5-Flash** | StepFun | 256K | 83.1% | — | 74.4% | 97.3% | Pay-per-token | 2026-04-26 |
 | **Mistral Large 3** | Mistral AI | 128K | 43.9% | — | — | — | $0.50 / $1.50 | 2026-04-26 |
-| **Claude Sonnet 4.5** | Anthropic | 200K | 83.4% | — | 77.2% | 87% | $3 / $15 | 2026-04-26 |
+| **Claude Sonnet 4.5** | Anthropic | 200K | 83.4% | — | 77.2% | 87% | $3.00 / $15.00 | 2026-04-26 |
 | **Llama 4 Scout** | Meta | 10M | 57.2% | — | — | — | Free (self-host) | 2026-04-26 |
 | **Llama 4 Maverick** | Meta | 128K | 69.8% | — | — | — | Free (self-host) | 2026-04-26 |
-| **Grok 4** | xAI | 256K | ~91.5% | ~1493 (Text) | — | 100% | $3 / $15 | 2026-04-26 |
+| **Grok 4** | xAI | 256K | ~91.5% | ~1493 (Text) | — | 100% | $3.00 / $15.00 | 2026-04-26 |
 | **Grok 4 Fast** | xAI | 128K | — | — | — | — | $0.20 / $1.50 | 2026-04-26 |
 | **Grok 4.20** | xAI | 2M | — | — | — | — | $2.00 / $6.00 | 2026-04-26 |
 | **Grok 4.3** | xAI | 1M | — | — | — | — | $1.25 / $2.50 | 2026-05-06 ⭐
@@ -405,13 +386,13 @@ Specialized AI models optimized for software development tasks.
 
 | Model | Developer | Pricing | Best For |
 |-------|-----------|---------|----------|
-| **Claude Opus 4.6** | Anthropic | $5 / $25 per 1M | Agentic coding, complex tasks |
+| **Claude Opus 4.6** | Anthropic | $5.00 / $25.00 per 1M | Agentic coding, complex tasks |
 | **GPT-5.5 Pro** | OpenAI | $30.00 / $180.00 per 1M | Highest benchmark coding |
 | **GPT-5.3-Codex** | OpenAI | $1.75 / $14.00 per 1M | Agentic coding, 7+ hour autonomy |
-| **Claude Haiku 4.5** | Anthropic | $1 / $5 per 1M | Low-latency coding, sub-agents, computer use |
+| **Claude Haiku 4.5** | Anthropic | $1.00 / $5.00 per 1M | Low-latency coding, sub-agents, computer use |
 | **GLM-5-Code** | Zhipu AI | $1.20 / $5.00 per 1M | Code generation, refactoring |
 | **MiniMax-M2.5** | MiniMax | $0.30 / $1.20 per 1M | Code generation, refactoring |
-| **Claude Sonnet 4.5** | Anthropic | $3 / $15 per 1M | Code review, refactoring |
+| **Claude Sonnet 4.5** | Anthropic | $3.00 / $15.00 per 1M | Code review, refactoring |
 | **Codestral** | Mistral AI | $0.30 / $0.90 | Real-time completion |
 | **Qwen3.7-Max** | Alibaba | $2.50 / $7.50 per 1M | Agentic coding, long-horizon autonomy, reasoning |
 | **Grok 4 Fast** | xAI | $0.20 / $1.50 | Most used (50% share) |
@@ -454,9 +435,9 @@ Models optimized for step-by-step reasoning, mathematical problem-solving, and c
 | **Qwen3-Max-Thinking** | Reasoning/Coding | 128K | $1.20 / $6.00 |
 | **o3 / o1-Pro** | Reasoning | 128K | $2-150 / $8-600 |
 | **GPT-5.5 Pro** | Reasoning | 1.05M | $30.00 / $180.00 |
-| **Gemini 3 Pro** | General/Multimodal | 1M+ | $2 / $12 |
+| **Gemini 3 Pro** | General/Multimodal | 1M+ | $2.00 / $12.00 |
 | **DeepSeek-R1** | Reasoning | 128K | $0.50 / $2.15 |
-| **Claude Sonnet 4.5** | Hybrid | 200K | $3 / $15 |
+| **Claude Sonnet 4.5** | Hybrid | 200K | $3.00 / $15.00 |
 | **GPT-Rosalind** | Life Sciences Reasoning | 128K | Pay-per-token (Research Preview) |
 
 #### Use Cases
@@ -964,9 +945,9 @@ Services that provide hosted access to open source models with API endpoints, of
 
 | Provider | Models | Free Tier Limitations | Best For |
 |----------|--------|----------------------|----------|
-| **OpenAI** | GPT-4o mini | Limited messages, rate limits | Quick testing, prototyping |
-| **Anthropic** | Claude Haiku | Limited messages, rate limits | Development, testing |
-| **Google AI** | Gemini 1.5 Flash | Limited tokens, rate limits | Development, testing |
+| **OpenAI** | GPT-5.4 nano | Limited messages, rate limits | Quick testing, prototyping |
+| **Anthropic** | Claude Haiku 4.5 | Limited messages, rate limits | Development, testing |
+| **Google AI** | Gemini 3.1 Flash-Lite | Limited tokens, rate limits | Development, testing |
 | **DeepInfra** | 50+ models | Limited requests/hour | Experimentation with many models |
 | **TensorZero** | 30+ models | Limited requests/hour | Cost optimization testing |
 | **Hugging Face** | 1000+ models | Limited compute time | Quick model testing |
@@ -1337,10 +1318,6 @@ Modular capability packages that extend AI agents with specialized knowledge, wo
 
 **[skills.sh](https://skills.sh)** is the primary registry and package manager for Agent Skills — an open standard developed by Anthropic for packaging and distributing reusable agent capabilities. Skills follow a **progressive disclosure** pattern: agents load only a skill's name and description at startup, then pull full instructions only when a task matches, keeping context overhead minimal.
 
-**Install a skill in one command:**
-```bash
-npx skills add owner/repo
-```
 
 | Feature | Detail |
 |---------|--------|
@@ -1588,7 +1565,7 @@ Comprehensive pricing comparisons and cost calculations.
 |------|-------------|--------|
 | 🆓 **Free** | $0 | Self-hosted, free tiers |
 | 💸 **Budget** | $0.025 - $0.50/1M | Gemini 3.1 Flash-Lite, GLM-4.7-FlashX, GPT-5.4 nano, Grok 4 Fast |
-| 💰 **Mid-range** | $0.60 - $15.00/1M | GPT-5.4 mini, Claude Haiku 4.5, Kimi K2.5, Sonar, GLM-5, GPT-5.4, Claude Sonnet |
+| 💰 **Mid-range** | $0.60 - $15.00/1M | GPT-5.4 mini, Claude Haiku 4.5, Kimi K2.6, Sonar, GLM-5, GPT-5.4, Claude Sonnet |
 | 💎 **Premium** | $15.00 - $600.00/1M | GPT-5.4 Pro, Claude Opus, o1-Pro |
 
 #### Subscription Pricing (Monthly, USD)
@@ -1626,7 +1603,7 @@ Comprehensive pricing comparisons and cost calculations.
 | **DeepSeek-V4-Pro** | $0.435 | $0.87 | $0.003625 (hit, promo) | 75% promo until 2026-05-31 15:59 UTC (list $1.74 / $3.48) |
 | **Gemini 3 Flash** | $0.50 | $3.00 | $0.05 | Long context (Vertex Gemini 3 Flash Preview ≤200K ctx) |
 | **Mistral Large 3** | $0.50 | $1.50 | — | Strong open-source frontier model |
-| **Kimi K2.5** | $0.60 | $3.00 | Auto (included) | Multimodal + agent tasks |
+| **Kimi K2.6** | $0.60 | $3.00 | Auto (included) | Multimodal + agent tasks |
 | **GPT-5.4 mini** | $0.75 | $4.50 | $0.075 | Fast coding and multimodal tasks |
 | **Claude Haiku 4.5** | $1.00 | $5.00 | — | Low-latency coding and sub-agents |
 | **GLM-5** | $1.00 | $3.20 | $0.20 | Agentic engineering |
@@ -1712,13 +1689,13 @@ Side-by-side comparisons of AI models sorted by various criteria.
 |:---:|---|---|---|---|:---:|---|---|:---:|:---:|
 | 🇨🇳 Alibaba | Qwen3.7 | Max | 2026-05-20 00:00 UTC | 2026-05-20 00:00 UTC ⭐ | ✅ | GPQA 92.4%, SWE-bench 80.4% | $2.50 / $7.50 | ❌ | [🔗](https://qwenlm.github.io/) |
 | 🌐 Google DeepMind | Gemini 3.5 | Flash | 2026-05-19 00:00 UTC | 2026-05-19 00:00 UTC ⭐ | ✅ | GPQA ~90.4%, SWE-bench Pro 55.1% | $1.50 / $9.00 | ❌ | [🔗](https://deepmind.google/models/gemini/) |
-| 🤖 Anthropic | Claude | Mythos Preview | 2026-04-07 00:00 UTC | 2026-04-07 00:00 UTC ⭐ | — | Not disclosed | $25 / $125 | ❌ | [🔗](https://www.anthropic.com/) |
+| 🤖 Anthropic | Claude | Mythos Preview | 2026-04-07 00:00 UTC | 2026-04-07 00:00 UTC | — | Not disclosed | $25.00 / $125.00 | ❌ | [🔗](https://www.anthropic.com/) |
 | 🔬 DeepSeek | DeepSeek | V4 (Flash/Pro) | 2026-04-24 00:00 UTC | 2026-05-08 00:00 UTC ⭐ | ✅ | No public benchmarks | From $0.14 / $0.28 (Flash) | ✅ | [🔗](https://www.deepseek.com/) |
 | 🤖 OpenAI | GPT-5.5 | Pro | 2026-04-26 00:00 UTC | 2026-05-08 00:00 UTC ⭐ | ✅ | GPQA 95.1%, SWE-bench 92.3% | $30.00 / $180.00 | ❌ | [🔗](https://openai.com/) |
 | 🌐 Google DeepMind | Gemini 3 | Flash | 2026-02-12 00:00 UTC | 2026-05-08 00:00 UTC ⭐ | ✅ | GPQA 90.4%, SWE-bench 78.0% | $0.50 / $3.00 | ❌ | [🔗](https://deepmind.google/models/gemini/) |
 | 🚀 xAI | Grok | 4.3 | 2026-05-01 00:00 UTC | 2026-05-06 00:00 UTC ⭐ | ✅ | — | $1.25 / $2.50 | ❌ | [🔗](https://x.ai/) |
 | 🤖 OpenAI | GPT-5.5 | — | 2026-04-26 00:00 UTC | 2026-04-26 00:00 UTC | ✅ | GPQA 93.2%, SWE-bench 88.5% | $5.00 / $30.00 | ❌ | [🔗](https://openai.com/) |
-| 🤖 Anthropic | Claude | Opus 4.7 | 2026-04-22 00:00 UTC | 2026-04-26 00:00 UTC | ✅ | GPQA 94.2%, SWE-bench 87.6% | $5 / $25 | ❌ | [🔗](https://www.anthropic.com/) |
+| 🤖 Anthropic | Claude | Opus 4.7 | 2026-04-22 00:00 UTC | 2026-04-26 00:00 UTC | ✅ | GPQA 94.2%, SWE-bench 87.6% | $5.00 / $25.00 | ❌ | [🔗](https://www.anthropic.com/) |
 
 #### Release Windows (Month-level)
 
@@ -1779,7 +1756,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 7 | **GPT-5.5 Pro** | 1.05M | Premium reasoning with long context |
 | 8 | **Grok 4.3** | 1M | Reasoning with full project context |
 | 9 | **DeepSeek-V4 (Flash/Pro)** | 1M | Cost-effective long context |
-| 10 | **Kimi K2.5** | 256K | Large codebases |
+| 10 | **Kimi K2.6** | 1M | Agentic reasoning with full project context |
 
 ### Data Sources 📚
 
@@ -1862,7 +1839,7 @@ Additional context from the May 2026 research pass (supplements earlier tables; 
 
 ---
 
-**Last Updated:** 2026-05-27 00:00 UTC
+**Last Updated:** 2026-05-28 00:00 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---

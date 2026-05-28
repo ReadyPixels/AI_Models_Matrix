@@ -1,4 +1,14 @@
+## [2026-05-28] - Version 3.14 - Pricing format standardization, ⭐ flag corrections
+
+### Changed
+- **Document metadata**: `docs/readme.md` document version **3.13 → 3.14**; **Last Updated** set to **2026-05-28 00:00 UTC**.
+- **Pricing format standardization**: Corrected `$X / $X` format to `$X.XX / $X.XX` per CLAUDE.md formatting standards for:
+  - Gemini 3.1 Pro ($2 / $12 → $2.00 / $12.00)
+  - Claude Mythos Preview ($25 / $125 → $25.00 / $125.00)
+- **⭐ flag corrections**: Removed incorrect ⭐ flag from Claude Mythos Preview (2026-04-07 is more than 30 days before 2026-05-28).
+
 ## [2026-05-27] - Version 3.13 - Benchmark corrections, new model additions
+
 
 ### Changed
 - **Document metadata**: `docs/readme.md` document version **3.12 → 3.13**; **Last Updated** set to **2026-05-27 00:00 UTC**.
