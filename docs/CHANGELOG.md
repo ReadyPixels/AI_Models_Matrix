@@ -1,3 +1,20 @@
+## [2026-05-27] - Version 3.13 - Benchmark corrections, new model additions
+
+### Changed
+- **Document metadata**: `docs/readme.md` document version **3.12 → 3.13**; **Last Updated** set to **2026-05-27 00:00 UTC**.
+- **Gemini 3.5 Flash benchmarks**: Corrected GPQA Diamond from ~96% to ~90.4% (verified via Google DeepMind benchmark page). Removed incorrect SWE-bench Verified 84.6% (model has SWE-bench Pro 55.1% instead). Added SWE-bench Pro score to benchmark tables.
+- **Claude Mythos Preview**: Corrected release date from 2026-05-19 to 2026-04-07 (per Project Glasswing initial announcement). Updated pricing from "Limited access" to $25 / $125 per 1M tokens (per Anthropic documentation).
+- **DeepSeek-V4-Flash/Pro**: Corrected initial release date in Sort by Latest Update table from 2026-02-17 to 2026-04-24 (official DeepSeek announcement).
+
+### Added
+- **Grok Build CLI**: Added to Autonomous Coding Agents table - xAI terminal-based coding agent with plan mode, Arena mode, 2M context window. Available via $300/mo SuperGrok/X Premium Plus subscription.
+- **Command A+**: Added to Free-Source Models table - Cohere's 218B parameter MoE model (25B active) with 128K context, Apache 2.0 license, optimized for reasoning and tool use.
+
+### Sources (verification, 2026-05-27 UTC)
+- [Gemini 3.5 Flash benchmarks - deepmind.google/models/gemini/flash](https://deepmind.google/models/gemini/flash/) (GPQA ~90.4%, SWE-Bench Pro 55.1%)
+- [Project Glasswing - anthropic.com/glasswing](https://www.anthropic.com/glasswing) (Mythos Preview release date 2026-04-07)
+- [Cohere Command A+ - cohere.com](https://cohere.com) (218B total params, 25B active, Apache 2.0)
+
 ## [2026-05-25] - Version 3.12 - Chrome Auto Browse 2 at I/O 2026, outdated info cleanup
 
 ### Changed

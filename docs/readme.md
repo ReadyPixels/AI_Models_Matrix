@@ -6,7 +6,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--25%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--27%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 [![Star History](https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social)](https://github.com/ReadyPixels/AI_Models_Matrix)
 [![Forks](https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social)](https://github.com/ReadyPixels/AI_Models_Matrix)
 [![Issues](https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix)](https://github.com/ReadyPixels/AI_Models_Matrix/issues)
@@ -50,8 +50,8 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.12
-- **Last Updated**: 2026-05-25 00:00 UTC
+- **Document Version**: 3.13
+- **Last Updated**: 2026-05-27 00:00 UTC
 - **Repository**: https://github.com/ReadyPixels/AI_Models_Matrix
 - **License**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -142,9 +142,9 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Claude Sonnet 4.6** | Anthropic | 1M | 89.9% | ~1438 (Text) / 1523 (Code) | 79.6% | ~95% | $3 / $15 | 2026-04-26 |
 | **GPT-5.3-Codex** | OpenAI | 400K | 91.5% | — | 85.0% | — | $1.75 / $14.00 | 2026-04-26 |
 | **Gemini 3.1 Pro** | Google | 1M | 94.3% | 1494 (Text) / 1455 (Code) | 80.6% | 100% | $2 / $12 | 2026-04-26 |
-**Gemini 3.5 Flash** | Google | 1M | ~96% | — | 84.6% | — | $1.50 / $9.00 | 2026-05-19 ⭐
+**Gemini 3.5 Flash** | Google | 1M | ~90.4% | — | — | — | $1.50 / $9.00 | 2026-05-19 ⭐
 | **Gemini 3 Deep Think** | Google | 1M+ | ~97% | — | ~58% | — | Ultra subscription | 2026-04-26
-| **Claude Mythos Preview** | Anthropic | 1M | — | — | — | — | Limited access | 2026-05-19 ⭐
+| **Claude Mythos Preview** | Anthropic | 1M | — | — | — | — | $25 / $125 | 2026-04-07 ⭐
 | **GLM-5** | Zhipu AI | 200K | 82.0% | ~1451 (Text) / 1445 (Code) | 77.8% | 92.7% | $1.00 / $3.20 | 2026-04-26 |
 | **GLM-5.1** | Zhipu AI | 200K | — | — | ~80.4% (est.) | — | $1.00 / $3.20 | 2026-04-26 |
 | **MiniMax-M2.5** | MiniMax | 200K | 85.2% | — | 80.2% | 86.3% | $0.30 / $1.20 | 2026-04-26 |
@@ -342,6 +342,7 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **Qwen3.5-122B** | Alibaba | 397B / 17B active (MoE) | 262K | Apache 2.0 |
 | **Qwen3.5-27B** | Alibaba | 27B dense | 262K | Apache 2.0 |
 | **Mistral Large 3** | Mistral AI | 123B | 128K | Apache 2.0 |
+| **Command A+** | Cohere | 25B active (218B total MoE) | 128K | Apache 2.0 |
 | **Llama 4 Scout** | Meta | 109B | 10M | Community |
 | **Llama 4 Maverick** | Meta | 400B | 128K | Community |
 | **GPT-OSS-120B** | OpenAI | 117B | 128K | Apache 2.0 |
@@ -571,7 +572,7 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | **GPT-5.3-Codex** | 91.5% | — | — | — | — | 56.8% | 85% | — | — | — | — | — |
 | **GPT-5.2** | 92.4% | — | 1479 | 35.2% | 80.0% | 55.6% | — | 100% | 52.9% | — | 95.6% | ~40.3% |
 | **Gemini 3.1 Pro** | 94.3% | 92% | 1494 | 44.4–51.4% | 80.6% | 54.2–72% | 71% | 100% | 77.1% | 95% | 95% | — |
-| **Gemini 3.5 Flash** | ~96% | — | — | — | 84.6% | — | — | — | 72.1% | 84% | 84.2% | — |
+| **Gemini 3.5 Flash** | ~90.4% | — | — | — | 55.1% | — | — | 72.1% | 83.6% | 84.2% | 40.2% | — |
 | **Gemini 3 Pro** | 91.9–93.8% | 83% | 1486 | 37.5% | 76.2% | 43.3% | 49% | 98–100% | 31.1–45.1% | 81% | 88% | 38% |
 | **Gemini 3 Flash** | 90.4% | 72% | 1474 | 33.7% | 78.0% | 44% | — | — | — | 80% | 85% | — |
 | **Gemini 3 Deep Think** | ~97% | 81% | — | 48.4% | ~58% | 63% | 58% | — | 84.6% | — | — | — |
@@ -756,6 +757,7 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 | **Codex CLI** | Windows, macOS, Linux | Included | Sandbox, approval modes | [🔗](https://github.com/openai/codex) |
 | **Junie CLI** | Windows, macOS, Linux | Free (BYOK) | LLM-agnostic, JetBrains IDE integration, MCP | [🔗](https://www.jetbrains.com/junie) |
 | **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible, desktop app, 25+ providers | [🔗](https://github.com/block/goose) |
+| **Grok Build** | Windows, macOS, Linux | $300/mo (SuperGrok/X Premium Plus) | Plan mode, Arena mode, 2M context window, security-focused | ❌ |
 | **GPT-Pilot** | Windows, macOS, Linux | Free | Full dev team simulation | [🔗](https://github.com/Pythagora-io/gpt-pilot) |
 | **OpenHands** | Windows, macOS, Linux | Free | Cloud agents, MCP | [🔗](https://github.com/All-Hands-AI/OpenHands) |
 | **Mentat** | Windows, macOS, Linux | Free | Multi-file coordination | [🔗](https://github.com/AbanteAI/mentat) |
@@ -1709,10 +1711,9 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 🏢 Company | 🤖 Model | 📦 Version | 📅 Release Date | 🔄 Latest Updated | 💻 Coding | 📊 Benchmarks | 💰 Price | 🖥️ Self-Host | 🔗 Official Site |
 |:---:|---|---|---|---|:---:|---|---|:---:|:---:|
 | 🇨🇳 Alibaba | Qwen3.7 | Max | 2026-05-20 00:00 UTC | 2026-05-20 00:00 UTC ⭐ | ✅ | GPQA 92.4%, SWE-bench 80.4% | $2.50 / $7.50 | ❌ | [🔗](https://qwenlm.github.io/) |
-| 🌐 Google DeepMind | Gemini 3.5 | Flash | 2026-05-19 00:00 UTC | 2026-05-19 00:00 UTC ⭐ | ✅ | GPQA ~96%, SWE-bench 84.6% | $1.50 / $9.00 | ❌ | [🔗](https://deepmind.google/models/gemini/) |
-| 🤖 Anthropic | Claude | Mythos Preview | 2026-05-19 00:00 UTC | 2026-05-19 00:00 UTC ⭐ | — | Not disclosed | Limited access | ❌ | [🔗](https://www.anthropic.com/) |
-| 🤖 OpenAI | GPT-5.5 | Instant | 2026-05-05 00:00 UTC | 2026-05-05 00:00 UTC ⭐ | ✅ | GPQA 91.0%, SWE-bench 88.7% | $5.00 / $30.00 | ❌ | [🔗](https://openai.com/) |
-| 🔬 DeepSeek | DeepSeek | V4 (Flash/Pro) | 2026-02-17 00:00 UTC | 2026-05-08 00:00 UTC ⭐ | ✅ | No public benchmarks | From $0.14 / $0.28 (Flash) | ✅ | [🔗](https://www.deepseek.com/) |
+| 🌐 Google DeepMind | Gemini 3.5 | Flash | 2026-05-19 00:00 UTC | 2026-05-19 00:00 UTC ⭐ | ✅ | GPQA ~90.4%, SWE-bench Pro 55.1% | $1.50 / $9.00 | ❌ | [🔗](https://deepmind.google/models/gemini/) |
+| 🤖 Anthropic | Claude | Mythos Preview | 2026-04-07 00:00 UTC | 2026-04-07 00:00 UTC ⭐ | — | Not disclosed | $25 / $125 | ❌ | [🔗](https://www.anthropic.com/) |
+| 🔬 DeepSeek | DeepSeek | V4 (Flash/Pro) | 2026-04-24 00:00 UTC | 2026-05-08 00:00 UTC ⭐ | ✅ | No public benchmarks | From $0.14 / $0.28 (Flash) | ✅ | [🔗](https://www.deepseek.com/) |
 | 🤖 OpenAI | GPT-5.5 | Pro | 2026-04-26 00:00 UTC | 2026-05-08 00:00 UTC ⭐ | ✅ | GPQA 95.1%, SWE-bench 92.3% | $30.00 / $180.00 | ❌ | [🔗](https://openai.com/) |
 | 🌐 Google DeepMind | Gemini 3 | Flash | 2026-02-12 00:00 UTC | 2026-05-08 00:00 UTC ⭐ | ✅ | GPQA 90.4%, SWE-bench 78.0% | $0.50 / $3.00 | ❌ | [🔗](https://deepmind.google/models/gemini/) |
 | 🚀 xAI | Grok | 4.3 | 2026-05-01 00:00 UTC | 2026-05-06 00:00 UTC ⭐ | ✅ | — | $1.25 / $2.50 | ❌ | [🔗](https://x.ai/) |
@@ -1725,7 +1726,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 |:---:|---|---|---|:---:|
 | 🇨🇳 Alibaba | Qwen3.7-Max | 2026-05 | Request-based API; proprietary; $2.50 / $7.50 | [🔗](https://qwenlm.github.io/) |
 | 🌐 Google DeepMind | Gemini 3.5 Flash | 2026-05 | GA at I/O 2026; 4x faster than 3.1 Pro | [🔗](https://deepmind.google/models/gemini/) |
-| 🤖 Anthropic | Claude Mythos Preview | 2026-05 | Invitation-only via Project Glasswing | [🔗](https://www.anthropic.com/) |
+| 🤖 Anthropic | Claude Mythos Preview | 2026-04 | Invitation-only via Project Glasswing | [🔗](https://www.anthropic.com/) |
 | 🤖 OpenAI | GPT-5.5 Instant | 2026-05 | Default ChatGPT model since 2026-05-05 | [🔗](https://openai.com/) |
 | 🚀 xAI | Grok 4.3 | 2026-05 | Always-on reasoning; $1.25 / $2.50 | [🔗](https://x.ai/) |
 | 🧠 MiniMax | MiniMax M2.5 | 2026-02 | $0.30 / $1.20 | [🔗](https://platform.minimax.io/docs/guides/models-intro) |
@@ -1757,13 +1758,13 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 1 | **GPT-5.5 Pro** | 92.3% | ❌ |
 | 2 | **GPT-5.5 Instant** | 88.7% | ❌ |
 | 3 | **Claude Opus 4.7** | 87.6% | ❌ |
-| 4 | **Gemini 3.5 Flash** | 84.6% | ❌ |
+| 4 | **GPT-5.3-Codex** | 85.0% | ❌ |
 | 5 | **Claude Opus 4.6** | 80.8% | ❌ |
 | 6 | **Gemini 3.1 Pro** | 80.6% | ❌ |
 | 7 | **Kimi K2.6** | 80.2% | ❌ |
 | 8 | **MiniMax-M2.5** | 80.2% | ❌ |
 | 9 | **Qwen3.7-Max** | 80.4% | ❌ |
-| 10 | **GPT-5.3-Codex** | 85.0% | ❌ |
+| 10 | **Claude Sonnet 4.6** | 79.6% | ❌ |
 
 #### Sort by Context Window
 
@@ -1861,7 +1862,7 @@ Additional context from the May 2026 research pass (supplements earlier tables; 
 
 ---
 
-**Last Updated:** 2026-05-25 00:00 UTC
+**Last Updated:** 2026-05-27 00:00 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
