@@ -51,7 +51,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 ## 📋 At a Glance
 
 - **Document Version**: 3.15
-- **Last Updated**: 2026-05-28 00:00 UTC
+- **Last Updated**: 2026-05-29 00:00 UTC
 - **Repository**: https://github.com/ReadyPixels/AI_Models_Matrix
 - **License**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
