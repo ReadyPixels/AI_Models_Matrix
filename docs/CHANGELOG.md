@@ -1,3 +1,66 @@
+## [2026-06-02] - Version 3.16 - Speech & TTS Models major update
+
+### Added
+
+- **Speech & TTS Models section — comprehensive overhaul**: Replaced the outdated April 2026 TTS/STT tables with a full June 2026 update. Added Arena leaderboard table, proprietary TTS table (22 entries), open-source TTS table (12 entries), STT table (9 entries), pricing comparison table (11 providers), and use-case recommendations table.
+- **Gemini 3.1 Flash TTS**: New Google TTS model with audio tags for granular style/pace control, 70+ languages, SynthID watermarking, Elo ~1,216 on Artificial Analysis Arena. Available in preview via Gemini API, AI Studio, Vertex AI.
+- **Realtime TTS-2** (Research Preview): Inworld AI's realtime conversational TTS. Conditions on prior multi-turn audio, natural-language voice direction, cross-lingual identity preservation across 100+ languages. Elo ~1,208.
+- **Sonic 3.5**: Cartesia's fastest TTS — ~40–82ms TTFA, SSM architecture, 42 languages, 500+ voices. Briefly held #1 on Speech Arena (Elo ~1,204).
+- **Eleven v3**: GA release. Most expressive ElevenLabs TTS with inline audio tags, multi-speaker dialogue, 70+ languages.
+- **GPT-Realtime-2**: OpenAI's first voice model with GPT-5-class reasoning for speech-to-speech agents, tool calls, interruptions.
+- **Grok TTS + Grok STT**: xAI's standalone audio APIs. TTS: $15/1M chars, 80+ voices, 25+ languages, speech tags. STT: $0.10/hr batch / $0.20/hr streaming, diarization, multichannel, SOC 2 / HIPAA.
+- **Deepgram Aura-2**: Enterprise TTS at $0.030/1K chars, ~90–200ms latency, 7 languages, 40+ voices, on-prem deployment, HIPAA compliant.
+- **Hume Octave 2**: Speech-language model with emotional intelligence, 11+ languages, voice conversion, phoneme editing.
+- **MiniMax Speech 2.8 HD / Turbo**: HD at $100/1M chars, Turbo at $60/1M chars, 40+ languages, 300+ voices.
+- **Supertonic 3**: Supertone's fast, cost-efficient TTS supporting 31 languages.
+- **Lightning V3.1 / V3.2**: Smallest.ai conversational TTS, MOS 3.89, 15 languages, auto language detection.
+- **StepAudio 2.5 Realtime**: StepFun's end-to-end real-time speech LLM with paralinguistic comprehension and persona RLHF.
+- **Fish Audio S2 Pro**: Highest-ranked open-weight TTS (Elo ~1,123), 80+ languages, Dual-AR architecture, SGLang streaming, fine-grained emotion tags. Blind test #1 overall.
+- **IndexTTS-2**: First autoregressive TTS with precise duration control + emotion/timbre decoupling. Apache 2.0, Chinese + English.
+- **MOSS-TTS-v1.5 / MOSS-TTSD-v1.0 / MOSS-VoiceGenerator / MOSS-TTS-Nano**: OpenMOSS family — multilingual TTS, multi-speaker dialogue, voice design from text, ~100M param Nano variant for CPU.
+- **Darwin-TTS-1.7B-Cross**: Training-free cross-modal LLM→TTS weight transfer.
+- **Qwen3-TTS**: Alibaba's open-source TTS series (0.6B/1.7B), 10 languages, voice design + cloning + instruction control.
+- **Artificial Analysis Speech Arena Top 5 table**: Gemini 3.1 Flash TTS (#1), Realtime TTS-2 (#2), Sonic 3.5 (#3), Realtime TTS 1.5 Max (#4), Fun-Realtime-TTS-Preview (#5).
+- **TTS Pricing Comparison table**: 11 providers ranked by cost per 1M characters.
+- **Use-Case Recommendations table**: 8 use cases with top model picks.
+
+### Changed
+
+- **Speech & TTS section date**: Updated from "April 2026" to "June 2026".
+- **ElevenLabs entries**: Consolidated Turbo v2.5 into Flash v2.5 + Multilingual v2 + v3 entries with updated details.
+- **OpenAI TTS entries**: Added gpt-4o-mini-tts, GPT-Realtime-2, gpt-realtime-mini, gpt-audio-mini alongside existing tts-1/tts-1-hd.
+- **Fish Audio S1**: Retained as legacy open-source option alongside new S2 Pro.
+- **STT section**: Added Grok STT, GPT-4o-mini-transcribe, Deepgram Nova-3 Fast, ElevenLabs Scribe v2 + Scribe v2 Realtime.
+
+### Sources (verification, 2026-06-02 UTC)
+
+- [Gemini 3.1 Flash TTS — Google Blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/) (2026-04-15)
+- [Realtime TTS-2 — Inworld AI](https://inworld.ai/blog/realtime-tts-2) (2026-05-05)
+- [Sonic 3.5 — Cartesia Docs](https://docs.cartesia.ai/build-with-cartesia/tts-models/sonic-3-5) (2026-05)
+- [Cartesia Pricing](https://cartesia.ai/pricing) (2026-06)
+- [Best TTS Models 2026 — MarkTechPost](https://www.marktechpost.com/2026/05/30/best-text-to-speech-tts-models-in-2026-a-benchmark-based-comparison/) (2026-05-30)
+- [ElevenLabs Models Docs](https://elevenlabs.io/docs/overview/models) (2026-06)
+- [OpenAI API Changelog](https://developers.openai.com/api/docs/changelog) (2026-05)
+- [Grok STT & TTS APIs — xAI](https://x.ai/news/grok-stt-and-tts-apis) (2026-04-17)
+- [Grok Voice API Docs](https://docs.x.ai/developers/model-capabilities/audio/voice) (2026-05-30)
+- [Deepgram Aura-2](https://deepgram.com/learn/introducing-aura-2-enterprise-text-to-speech) (2025-04-15)
+- [Deepgram Pricing 2026 — TextToLab](https://texttolab.com/blog/deepgram-pricing) (2026-05-22)
+- [Hume Octave 2](https://www.hume.ai/blog/octave-2-launch) (2025-10-01)
+- [MiniMax Pricing](https://platform.minimax.io/docs/guides/pricing-paygo) (2026-06)
+- [Supertonic 3 — Supertone](https://www.supertone.ai/en/work/faster-and-more-accurate-across-31-languages----introducing-supertonic-3) (2026-05-22)
+- [Lightning V3 — Smallest.ai](https://smallest.ai/blog/lightning-fast-text-to-speech) (2026-05-13)
+- [StepAudio 2.5 Realtime — MarkTechPost](https://www.marktechpost.com/2026/05/24/stepfun-releases-stepaudio-2-5-realtime-an-end-to-end-voice-model-with-roleplay-specific-rlhf-and-paralinguistic-comprehension/) (2026-05-24)
+- [Fish Audio S2 Pro](https://fish.audio/blog/fish-audio-open-sources-s2/) (2026-03-09)
+- [Fish Audio S2 Technical Report](https://arxiv.org/abs/2603.08823) (2026-03)
+- [Fish Audio Blind Test Results](https://fish.audio/blog/blind-tts-provider-comparison-2026/) (2026-04-05)
+- [IndexTTS-2 Paper](https://arxiv.org/abs/2506.21619) (2025-06)
+- [IndexTTS-2 GitHub](https://github.com/index-tts/index-tts) (2025-09)
+- [MOSS-TTS-v1.5](https://github.com/OpenMOSS/MOSS-TTS) (2026-05)
+- [Qwen3-TTS GitHub](https://github.com/QwenLM/Qwen3-TTS/) (2026-01)
+- [Darwin-TTS](https://huggingface.co/blog/FINAL-Bench/darwin-tts) (2026-04-15)
+
+---
+
 ## [2026-05-28] - Version 3.15 - Claude Opus 4.8, Grok pricing cuts, GPU Cloud pricing, model data updates
 
 ### Added

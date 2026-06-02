@@ -6,7 +6,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--05--28%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--06--02%2000%3A00%20UTC-green.svg)](https://github.com/ReadyPixels/AI_Models_Matrix)
 [![Star History](https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social)](https://github.com/ReadyPixels/AI_Models_Matrix)
 [![Forks](https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social)](https://github.com/ReadyPixels/AI_Models_Matrix)
 [![Issues](https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix)](https://github.com/ReadyPixels/AI_Models_Matrix/issues)
@@ -21,7 +21,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ### 🔥 Highlights
 - **130+ AI models** from major providers (OpenAI, Anthropic, Google, Meta, etc.)
-- **Latest pricing** and performance benchmarks (updated May 2026)
+- **Latest pricing** and performance benchmarks (updated June 2026)
 - **Self-hosting guides** for open-source models
 - **Development tools** for AI application building
 - **Community-sourced** insights and real-world feedback
@@ -50,8 +50,8 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.15
-- **Last Updated**: 2026-05-29 00:00 UTC
+- **Document Version**: 3.16
+- **Last Updated**: 2026-06-02 00:00 UTC
 - **Repository**: https://github.com/ReadyPixels/AI_Models_Matrix
 - **License**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -1212,30 +1212,107 @@ Text-to-video and image-to-video generation models for creating short clips from
 
 ### Speech & TTS Models 🔊
 
-Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation, transcription, and real-time audio. *Prices as of April 2026.*
+Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation, transcription, and real-time audio. *Prices as of June 2026.*
 
-#### Text-to-Speech (TTS)
+#### Artificial Analysis Speech Arena — Top 5 (June 2026)
+
+| Rank | Model | Elo | Pricing | Languages |
+|------|-------|-----|---------|-----------|
+| 🥇 #1 | **Gemini 3.1 Flash TTS** | ~1,216 | $18.30 / 1M chars | 70+ |
+| 🥈 #2 | **Realtime TTS-2** (Research Preview) | ~1,208 | $25–$35 / 1M chars | 100+ |
+| 🥉 #3 | **Sonic 3.5** | ~1,204 | ~$37–$46.70 / 1M chars | 42 |
+| #4 | **Realtime TTS 1.5 Max** | ~1,200 | $35 / 1M chars | 100+ |
+| #5 | **Fun-Realtime-TTS-Preview** | ~1,190 | — | — |
+
+> Arena Elo scores shift continuously. Treat rankings as point-in-time readings. Source: [Artificial Analysis](https://artificialanalysis.ai/text-to-speech), May–June 2026.
+
+#### Text-to-Speech (TTS) — Proprietary & API
 
 | Model | Developer | Languages | Real-time | Open Source | Pricing | Best For | GitHub |
 |-------|-----------|-----------|----------|-------------|---------|----------|--------|
-| ElevenLabs Turbo v2.5 | ElevenLabs | 29+ | Yes | No | Free – $1,320/mo | Best quality (4.8 MOS), instant voice cloning | — |
-| Stability Audio 3.0 | Stability AI | Music/SFX | Yes (small/medium OSS) | Yes (small/medium, Apache 2.0) | Free (small/medium OSS weights); commercial via API | Professional-grade music >6 min, open-weight small/medium variants | [🔗](https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/) |
-| OpenAI TTS / TTS HD | OpenAI | 57 | Yes | No | $15 / $30 per 1M chars | Enterprise, seamless GPT integration | — |
-| Sesame CSM | Sesame AI Labs | English | Yes | Yes | Free | Conversational, emotionally expressive (4.7 MOS) | [🔗](https://github.com/SesameAILabs/csm) |
-| Kokoro-82M | Hexgrad | Multilingual | Yes | Yes (Apache 2.0) | Free | Tiny (82M params), CPU-runnable, near-commercial quality | [🔗](https://github.com/hexgrad/kokoro) |
-| Fish Audio S1 | Fish Audio | Multilingual | Yes | Yes | Free / $0.016/1K chars (API) | Voice cloning, multilingual fluency | [🔗](https://github.com/fishaudio/fish-speech) |
-| Parler-TTS | HuggingFace | English | No | Yes (Apache 2.0) | Free | Style-controllable via text descriptions | [🔗](https://github.com/huggingface/parler-tts) |
-| XTTS v2 | Coqui AI | 17 | Yes | Yes (MPL 2.0) | Free | Best open-source multilingual, 6s voice cloning | [🔗](https://github.com/coqui-ai/TTS) |
-| Bark | Suno AI | 13+ | No | Yes (MIT) | Free | Expressive, non-verbal sounds, long-form audio | [🔗](https://github.com/suno-ai/bark) |
+| **Gemini 3.1 Flash TTS** ⭐ | Google | 70+ | Yes | No | $18.30 / 1M chars | Audio tags for granular style/pace control, SynthID watermarking | — |
+| **Realtime TTS-2** (Research Preview) ⭐ | Inworld AI | 100+ | Yes | No | $25–$35 / 1M chars | Realtime conversation, cross-lingual voice identity, emotional perception | — |
+| **Sonic 3.5** ⭐ | Cartesia | 42 | Yes | No | ~$37–$46.70 / 1M chars | Fastest TTFA (~40–82ms), SSM architecture, 500+ voices | — |
+| **Realtime TTS 1.5 Max** | Inworld AI | 100+ | Yes | No | $35 / 1M chars | Realtime conversational agents, low latency + low cost | — |
+| **Eleven v3** | ElevenLabs | 70+ | No | No | Subscription / API | Most expressive TTS, inline audio tags `[whispers]`, `[laughs]`, multi-speaker dialogue | — |
+| **Eleven Flash v2.5** | ElevenLabs | 32 | Yes (~75ms) | No | Subscription / API | Ultra-fast real-time, same voice library as offline | — |
+| **Eleven Multilingual v2** | ElevenLabs | 30 | Yes | No | Subscription / API | Emotionally-aware multilingual synthesis | — |
+| **gpt-4o-mini-tts** | OpenAI | 50+ | Yes | No | $0.60 / $12 per 1M (in/out) | Natural-language voice steering, 13 built-in voices | — |
+| **GPT-Realtime-2** ⭐ | OpenAI | — | Yes | No | — | Speech-to-speech with GPT-5-class reasoning, tool calls, interruptions | — |
+| **gpt-realtime-mini** | OpenAI | — | Yes | No | — | Cost-efficient speech-to-speech | — |
+| **gpt-audio-mini** | OpenAI | — | Yes | No | — | Cost-efficient audio generation | — |
+| **OpenAI TTS / TTS HD** | OpenAI | 57 | Yes | No | $15 / $30 per 1M chars | Enterprise, seamless GPT integration | — |
+| **Grok TTS** ⭐ | xAI | 25+ | Yes | No | $15.00 / 1M chars | Speech tags, 80+ voices, SOC 2 / HIPAA compliant | — |
+| **Deepgram Aura-2** | Deepgram | 7 | Yes (~90–200ms) | No | $0.030 / 1K chars ($30/1M) | Enterprise voice agents, unified STT+TTS stack, on-prem deployment | — |
+| **Hume Octave 2** | Hume AI | 11+ | Yes (~100–200ms) | No | Varies (contact sales) | Emotional intelligence, voice conversion, phoneme editing | — |
+| **MiniMax Speech 2.8 HD** | MiniMax | 40+ | Yes | No | $100 / 1M chars | Studio-quality multilingual, 300+ voices, voice cloning | — |
+| **MiniMax Speech 2.8 Turbo** | MiniMax | 40+ | Yes | No | $60 / 1M chars | Low-latency real-time multilingual | — |
+| **Supertonic 3** ⭐ | Supertone | 31 | Yes | No | Subscription / API | Fast, cost-efficient multilingual narration | — |
+| **Lightning V3.1 / V3.2** ⭐ | Smallest.ai | 15 | Yes | No | Pay-as-you-go | Conversational TTS, MOS 3.89, auto language detection, mid-sentence switching | — |
+| **StepAudio 2.5 Realtime** ⭐ | StepFun | Chinese, English | Yes | No | — | End-to-end real-time speech LLM, paralinguistic comprehension, persona RLHF | — |
+| **Qwen3-TTS** 🇨🇳 | Alibaba | 10 | Yes (streaming) | Yes (Apache 2.0) | Free (self-host) / API | Voice design, voice cloning, instruction control, multilingual | [🔗](https://github.com/QwenLM/Qwen3-TTS) |
+| **Stability Audio 3.0** | Stability AI | Music/SFX | Yes (small/medium OSS) | Yes (small/medium, Apache 2.0) | Free (small/medium OSS weights); commercial via API | Professional-grade music >6 min, open-weight small/medium variants | [🔗](https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/) |
+| **Sesame CSM** | Sesame AI Labs | English | Yes | Yes | Free | Conversational, emotionally expressive (4.7 MOS) | [🔗](https://github.com/SesameAILabs/csm) |
+
+#### Text-to-Speech (TTS) — Open Source
+
+| Model | Developer | Languages | Real-time | License | Pricing | Best For | GitHub |
+|-------|-----------|-----------|----------|---------|---------|----------|--------|
+| **Fish Audio S2 Pro** ⭐ | Fish Audio | 80+ | Yes (~100ms) | Research (commercial license available) | Free (self-host) / $15/1M chars (API) | Highest-ranked open-weight TTS, Dual-AR architecture, fine-grained emotion tags, SGLang streaming | [🔗](https://github.com/fishaudio/fish-speech) |
+| **IndexTTS-2** ⭐ | Bilibili (IndexTeam) | Chinese, English | No | Apache 2.0 | Free | Precise duration control, emotion/timbre decoupling, zero-shot cloning | [🔗](https://github.com/index-tts/index-tts) |
+| **MOSS-TTS-v1.5** ⭐ | OpenMOSS | Multilingual | Yes | Apache 2.0 | Free | Zero-shot cloning, long-form generation, streaming, llama.cpp support | [🔗](https://github.com/OpenMOSS/MOSS-TTS) |
+| **MOSS-TTS-Nano** (~100M) | OpenMOSS | Multilingual | Yes (4 CPU cores) | Apache 2.0 | Free | Ultra-lightweight, 48kHz stereo, real-time on CPU | [🔗](https://github.com/OpenMOSS/MOSS-TTS) |
+| **MOSS-TTSD-v1.0** | OpenMOSS | Multilingual | Yes | Apache 2.0 | Free | Multi-speaker dialogue generation, expressive long-form | [🔗](https://github.com/OpenMOSS/MOSS-TTS) |
+| **MOSS-VoiceGenerator** | OpenMOSS | Multilingual | — | Apache 2.0 | Free | Voice design from text prompts, no reference audio needed | [🔗](https://github.com/OpenMOSS/MOSS-TTS) |
+| **Kokoro-82M** | Hexgrad | ~15 | Yes | Apache 2.0 | Free | Tiny (82M params), CPU-runnable, near-commercial quality | [🔗](https://github.com/hexgrad/kokoro) |
+| **Darwin-TTS-1.7B-Cross** ⭐ | FINAL-Bench | — | — | — | Free | Training-free cross-modal LLM→TTS weight transfer, emotional expression | — |
+| **Fish Audio S1** | Fish Audio | Multilingual | Yes | Apache 2.0 | Free / $0.016/1K chars (API) | Voice cloning, multilingual fluency | [🔗](https://github.com/fishaudio/fish-speech) |
+| **Parler-TTS** | HuggingFace | English | No | Apache 2.0 | Free | Style-controllable via text descriptions | [🔗](https://github.com/huggingface/parler-tts) |
+| **XTTS v2** | Coqui AI | 17 | Yes | MPL 2.0 | Free | Best open-source multilingual, 6s voice cloning | [🔗](https://github.com/coqui-ai/TTS) |
+| **Bark** | Suno AI | 13+ | No | MIT | Free | Expressive, non-verbal sounds, long-form audio | [🔗](https://github.com/suno-ai/bark) |
 
 #### Speech-to-Text (STT / ASR)
 
 | Model | Developer | Languages | Real-time | Open Source | Pricing | Best For | GitHub |
 |-------|-----------|-----------|----------|-------------|---------|----------|--------|
-| Whisper large-v3 | OpenAI | 100+ | No | Yes (MIT) | $0.006/min (API) | Open-source multilingual baseline | [🔗](https://github.com/openai/whisper) |
-| GPT-4o Transcribe | OpenAI | 50+ | Yes | No | $0.006/min | High-accuracy managed STT | — |
-| Deepgram Nova-3 | Deepgram | 36+ | Yes | No | $0.0043/min | Ultra-low latency, production STT | — |
-| AssemblyAI Universal-2 | AssemblyAI | Multilingual | Yes | No | $0.0025/min | Accurate, feature-rich transcription | — |
+| **Grok STT** ⭐ | xAI | 25+ | Yes | No | $0.10/hr (batch) / $0.20/hr (streaming) | Entity recognition (medical/legal/financial), diarization, multichannel, SOC 2 / HIPAA | — |
+| **Whisper large-v3** | OpenAI | 100+ | No | Yes (MIT) | $0.006/min (API) | Open-source multilingual baseline | [🔗](https://github.com/openai/whisper) |
+| **GPT-4o Transcribe** | OpenAI | 50+ | Yes | No | $0.006/min | High-accuracy managed STT | — |
+| **GPT-4o-mini-transcribe** | OpenAI | 50+ | Yes | No | — | Cost-efficient managed STT | — |
+| **Deepgram Nova-3** | Deepgram | 36+ | Yes | No | $0.0043/min | Ultra-low latency, production STT | — |
+| **Deepgram Nova-3 Fast** | Deepgram | 36+ | Yes | No | — | Lowest-latency Deepgram tier | — |
+| **AssemblyAI Universal-2** | AssemblyAI | Multilingual | Yes | No | $0.0025/min | Accurate, feature-rich transcription | — |
+| **ElevenLabs Scribe v2** | ElevenLabs | 90+ | Yes | No | — | State-of-the-art transcription, word-level timestamps, diarization | — |
+| **ElevenLabs Scribe v2 Realtime** | ElevenLabs | 90+ | Yes (~150ms) | No | — | Live transcription, ultra-low latency | — |
+
+#### TTS Pricing Comparison (Per 1M Characters)
+
+| Provider | Model | Cost / 1M chars | Languages | Voice Cloning |
+|----------|-------|-----------------|-----------|---------------|
+| **Fish Audio S2 Pro** | s2-pro | $15 | 80+ | ✅ |
+| **OpenAI** | tts-1 | $15 | 57 | ❌ |
+| **Grok TTS** | grok-tts | $15 | 25+ | ✅ |
+| **Gemini 3.1 Flash TTS** | gemini-3.1-flash-tts | $18.30 | 70+ | ❌ |
+| **Deepgram Aura-2** | aura-2 | $30 | 7 | ❌ |
+| **Inworld** | realtime-tts-1.5-max | $35 | 100+ | ✅ |
+| **Cartesia** | sonic-3.5 | ~$37–$47 | 42 | ✅ |
+| **MiniMax** | speech-2.8-turbo | $60 | 40+ | ✅ |
+| **ElevenLabs** | flash-v2.5 | ~$60 (effective) | 32 | ✅ |
+| **MiniMax** | speech-2.8-hd | $100 | 40+ | ✅ |
+| **OpenAI** | tts-1-hd | $30 | 57 | ❌ |
+
+#### Use-Case Recommendations
+
+| Use Case | Top Picks |
+|----------|-----------|
+| **Real-time voice agents** | Cartesia Sonic 3.5 (fastest TTFA ~40–82ms), Inworld Realtime TTS-2, Deepgram Aura-2 (~90ms) |
+| **Long-form narration / audiobooks** | ElevenLabs v3, Gemini 3.1 Flash TTS, Fish Audio S2 Pro |
+| **Multilingual content** | Gemini 3.1 Flash TTS (70+), ElevenLabs v3 (70+), Fish Audio S2 Pro (80+) |
+| **Emotional fidelity** | Hume Octave 2 (reads for meaning), ElevenLabs v3 (audio tags), Fish Audio S2 Pro |
+| **On-device / low cost** | Kokoro-82M, MOSS-TTS-Nano, Qwen3-TTS (0.6B) |
+| **Video dubbing (duration control)** | IndexTTS-2 (precise duration control + emotion) |
+| **Enterprise / compliance** | Deepgram Aura-2 (on-prem, HIPAA), Grok TTS (SOC 2 / HIPAA) |
+| **Open-source production** | Fish Audio S2 Pro, MOSS-TTS-v1.5, IndexTTS-2 |
 
 ### AI Safety & Guardrails 🛡️
 
