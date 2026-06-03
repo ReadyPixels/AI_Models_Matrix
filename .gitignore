@@ -120,3 +120,5 @@ docs/Plan.md
 apply_updates.py
 apply_updates2.py
 docs/changelog_entry.md
+
+.claudeignore
