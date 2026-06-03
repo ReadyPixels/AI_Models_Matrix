@@ -1,3 +1,62 @@
+## [2026-06-02] - Version 3.17 - Benchmark updates, new models, dev tools
+
+### Added
+
+- **Claude Mythos Preview**: Added to SWE-bench Verified Leaderboard (#1, 93.9%) and Comprehensive Benchmark Reference table (GPQA 94.5%, SWE-bench 93.9%). Mythos leads all models on SWE-bench Verified.
+- **Gemini 3.5 Pro**: Added placeholder entry in Frontier Models table and Sort by Latest Update. Announced at Google I/O 2026, in internal testing/limited Vertex AI enterprise preview, expected June 2026 GA. No public model ID, pricing, or benchmarks yet.
+- **Gemini Omni Flash**: Added to Frontier Models, Multimodal Models, Sort by Latest Update, and Release Windows tables. First model in the Omni family - any-to-any multimodal creation (text/image/audio/video input, video generation). Rolling out to AI Plus/Pro/Ultra subscribers.
+- **Superset** (YC P26): Added to Agentic IDEs table. Open-source agentic IDE for running coding agents (Claude Code, Codex, OpenCode) in parallel with git worktree management and remote workspaces.
+- **Creor**: Added to Agentic IDEs table. AI-native IDE with specialized agents (Build, Plan, Explore), agent auto-routing, MCP support, per-agent permissions.
+- **Sinew**: Added to Agentic IDEs table. Desktop AI coding harness (Tauri 2, Rust), multi-provider, agent swarm (2-8 agents), MCP, skills, rollback.
+- **Vibe** (Mistral): Added to Autonomous Coding Agents table. Agentic coding + work agent, multi-model Mistral harness, VS Code extension, Code Mode web surface, parallel sessions, `/teleport` between terminal and cloud.
+- **C3 Code** (C3 AI): Added to Agent Platforms table. Enterprise AI development platform with full SDLC agents, governed deployment, natural language to production apps.
+- **DeepSeek-V4-Pro (Max)**: Added SWE-bench Verified (80.6%) and benchmark reference entries.
+- **DeepSeek-V4-Flash (Max)**: Added SWE-bench Verified (79.0%) and benchmark reference entries.
+- **Qwen3.6 Plus**: Added SWE-bench Verified (78.8%) and benchmark reference entries.
+- **MiMo-V2-Pro** (Xiaomi): Added SWE-bench Verified (78.0%) and benchmark reference entries.
+- **Mistral Medium 3.5**: Added SWE-bench Verified (77.6%) and benchmark reference entries.
+- **Nemotron 3 Nano 30B** (NVIDIA): Added to AIME 2025 leaderboard (99.2%).
+- **Seed 2.0 Pro** (ByteDance): Added to AIME 2025 leaderboard (98.3%).
+- **Gemini 3 Flash Preview**: Added to AIME 2025 leaderboard (99.7%).
+- **GPT-5**: Added to AIME 2025 leaderboard (99.6%, Thinking with Python).
+- **GLM-4.7** (Zhipu AI): Added to AIME 2025 leaderboard (95.7%).
+- **o4-mini** (OpenAI): Added to AIME 2025 leaderboard (92.7%).
+
+### Changed
+
+- **Document version**: 3.16 -> 3.17; **Last Updated** set to 2026-06-02 00:00 UTC.
+- **Frontier Models GPQA scores**: Updated GPT-5.5 (93.2% -> 93.6%), GPT-5.5 Pro (95.1% -> 94.2%), GPT-5.4 (92.0% -> 92.8%), Grok 4 (~91.5% -> ~91.1%) based on verified scores from BenchGecko, BenchLM, and Artificial Analysis.
+- **GPT-5.5 Pro AIME 2025**: Updated from 98.5% to 100% (verified from OpenAI system card).
+- **Gemini 3 Pro AIME 2025**: Updated from "98-100%" to 100% (verified).
+- **Mistral Large 3**: Corrected context window from 128K to 256K, output tokens from 32K to 8K, params from 123B to 675B/41B active (MoE), added cached pricing ($0.05/1M) across all tables.
+- **SWE-bench Verified Leaderboard**: Full reorder with Mythos Preview at #1 (93.9%), DeepSeek V4 Pro/Flash entries, Qwen3.6 Plus, MiMo-V2-Pro, Mistral Medium 3.5 added.
+- **AIME 2025 Leaderboard**: Expanded from 10 to 20 entries with latest verified scores.
+- **Anthropic Model Labs**: Added Opus 4.7 to the model list.
+- **Google AI Ultra subscription**: Updated description to include 20TB storage and Gemini 3.5 Flash integration details.
+- **Date labels**: Updated all "Data of May 2026" / "Prices as of April 2026" / "Specs as of April 2026" / "As of April 2026" labels to June 2026.
+- **Anthropic billing split warning**: Added note about June 15, 2026 billing change for Claude Agent SDK, `claude -p`, and GitHub Actions.
+
+### Sources (verification, 2026-06-02 UTC)
+
+- [BenchLM.ai SWE-bench Verified](https://benchlm.ai/benchmarks/sweVerified) (June 1, 2026)
+- [BenchGecko GPQA Diamond](https://benchgecko.ai/benchmark/gpqa-diamond) (April 2026)
+- [LLM Stats AIME 2025](https://llm-stats.com/benchmarks/aime-2025) (May 2026)
+- [AI Stats GPQA Diamond](https://ai-stats.phaseo.app/benchmarks/gpqa-diamond) (April 2026)
+- [Gemini 3.5 announcement - Google Blog](https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/) (2026-05-19)
+- [Gemini Omni announcement - Google Blog](https://deepmind.google/blog/introducing-gemini-omni/) (2026-05-19)
+- [Google AI subscriptions - Google Blog](https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/) (2026-05-19)
+- [Mistral Large 3 docs](https://docs.mistral.ai/models/mistral-large-3-25-12) (2026-06)
+- [Mistral Vibe announcement](https://mistral.ai/news/vibe-agent/) (2026-05-28)
+- [Superset Launch HN](https://news.ycombinator.com/item?id=48236770) (2026-05-22)
+- [C3 Code announcement](https://c3.ai/c3-ai-announces-c3-code/) (2026-04-08)
+- [Anthropic June 15 billing split - byteiota](https://byteiota.com/anthropics-june-15-billing-split-what-agent-devs-must-do/) (2026-06-01)
+- [Steel.dev SWE-bench Leaderboard](https://leaderboard.steel.dev/leaderboards/swe-bench-verified/) (2026-05-28)
+- [Marc0.dev SWE-bench Leaderboard](https://www.marc0.dev/en/leaderboard) (May 2026)
+- [OpenAI API Pricing](https://openai.com/api/pricing/) (2026-06)
+- [Mistral Pricing](https://mistral.ai/pricing/) (2026-06)
+
+---
+
 ## [2026-06-02] - Version 3.16 - Speech & TTS Models major update
 
 ### Added
