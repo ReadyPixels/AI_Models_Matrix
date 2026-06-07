@@ -1,3 +1,298 @@
+## [2026-06-07] - Version 3.25 - IDE Add-ons, Output Specs, Benchmark Reference updates
+
+### Added
+- **JetBrains AI Assistant for VS Code** (IDE Add-ons / VS Code Specific): Public preview; multi-file edits, Mellum LLM; JetBrains AI in VS Code/Cursor.
+  - Source: https://www.jetbrains.com/aia-vscode/
+- **ReSharper for VS Code** (IDE Add-ons / VS Code Specific): C# code analysis + refactoring inside VS Code/Cursor; released 2026-03-05.
+  - Source: https://blog.jetbrains.com/dotnet/2026/03/05/resharper-for-visual-studio-code-cursor-and-compatible-editors-is-out/
+- **Mistral Medium 3.5** (Output Token Limits + Benchmark Reference): Added spec rows for 256K context, 8K output, $1.50/$7.50.
+
+### Updated
+- **GitHub Copilot Agent Mode** (IDE Add-ons): Added note that it auto-opens PRs with self-review.
+
+---
+
+## [2026-06-07] - Version 3.24 - Image Generation, AI Safety, SLMs, Open-Source Models, Frontier Models
+
+### Added
+- **GPT Image 2** (Image Generation): OpenAI's replacement for DALL-E 3; released 2026-04-21; 4K output; ~$0.21/img at 1024px high via API.
+  - Source: https://openai.com/index/introducing-chatgpt-images-2-0/
+- **Flux 2** (Image Generation): Black Forest Labs, released Nov 2025; exceptional photorealism + NL understanding; Pro/Dev/Schnell variants; Apache 2.0 (Dev).
+  - Source: https://crazyrouter.com/en/blog/flux-ai-image-generation-complete-guide-2026
+- **LLM Guard** (AI Safety): Protect AI open-source PII + toxicity middleware toolkit; chains multiple scanners; MIT license.
+  - Source: https://github.com/protectai/llm-guard
+- **Qwen3.5 Small Series** (SLMs): 0.8B / 2B / 4B / 9B; Apache 2.0; 256K context; 201 languages; native multimodal (4B+); released 2026-03-02.
+  - Source: https://www.marktechpost.com/2026/03/02/alibaba-just-released-qwen-3-5-small-models-a-family-of-0-8b-to-9b-parameters-built-for-on-device-applications/
+- **Mistral Small 4** (Free-Source Models + SLMs): 119B/6B active MoE (128 experts); Apache 2.0; chat + reasoning + coding + vision; released 2026-03-16.
+  - Source: https://mistral.ai/news/mistral-small-4/
+- **Mistral Medium 3.5** (Frontier Models): 128B dense; 256K context; $1.50/$7.50; SWE-bench 77.6%; AIME 86.3%; released 2026-04-29.
+  - Source: https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04
+
+---
+
+## [2026-06-07] - Version 3.23 - RAG, Fine-tuning, Eval, Guides, Coding Models updates
+
+### Added
+- **Dify** (RAG Frameworks): 131K+ GitHub stars; visual workflow builder, RAG pipelines, MCP client/server, multi-agent, Human Input node, 1M+ production apps; $30M Series Pre-A Mar 2026.
+  - Source: https://github.com/langgenius/dify
+- **SiliconFlow** (Fine-tuning Platforms): Managed fine-tuning + inference cloud; 3-step pipeline (upload→train→deploy); 2.3× faster inference; H100/H200/MI300 infrastructure.
+  - Source: https://www.siliconflow.com/
+- **MLflow** (Evaluation & Observability): Linux Foundation/Databricks open-source AI engineering platform; 30M+ monthly downloads; observability, eval, prompt optimization, governance; no enterprise paywall.
+  - Source: https://mlflow.org/
+
+### Updated
+- **Unsloth** (Fine-tuning Platforms): 2026 update — MoE training 12× faster (vs Transformers v4), FP8 RL support (1.4× faster, 60% less VRAM), Unsloth Studio web UI, Windows officially supported.
+  - Source: https://unslothai.substack.com/p/unsloth-2026-update-faster-moe
+- **OpenAI Fine-tuning** (Fine-tuning Platforms): Updated to GPT-4.1/GPT-4.1-mini (SFT/DPO)/o4-mini (RFT); closed to new users as of 2026; existing users only.
+  - Source: https://explainx.ai/blog/openai-gpt-55-pricing-fine-tuning-api-wind-down-2026
+- **Google Vertex AI** (Fine-tuning Platforms): Updated model list from Gemini 2.5 → Gemini 3.1 Pro/Flash, Gemma 4.
+- **Model Recommendations by Task** (Guides): Updated stale GPT-5.4/Claude Opus 4.6 references → GPT-5.5 Instant, Claude Opus 4.8, GPT-5.5 Pro, Qwen3-Coder.
+- **Open-Source Coding Models** (Coding Models): GLM-4.6 → GLM-5.1 (MIT license, 754B/40B active).
+- **DeepEval** (Evaluation & Observability): Added production anomaly detection and 50+ research-backed metrics details.
+
+---
+
+## [2026-06-07] - Version 3.22 - Video Generation, Embedding & Reranking, MCP updates
+
+### Added
+
+- **Seedance 2.0** (Video Generation): ByteDance video model, 1080p up to 16s, #1 Artificial Analysis leaderboard (Elo 1213 as of June 2026); accepts 9 images + 3 clips + 3 audio in one generation.
+  - Source: https://wavespeed.ai/blog/posts/ai-video-generation-news-2026/
+- **Luma Ray3.14** (Video Generation): Native 1080p, 4× faster sampling at 720p vs Ray2, 3× lower cost, released 2026-01-26.
+  - Source: https://magichour.ai/blog/ai-video-model-release-tracker-2026
+- **LTX-2** (Video Generation): Lightricks open-source 4K audio+video model, 19B DiT params, Apache 2.0, runs on consumer GPU, released 2026-01-06. Replaces LTX Video entry.
+  - Source: https://www.globenewswire.com/news-release/2026/01/06/3213304/0/en/Lightricks-Open-Sources-LTX-2
+- **Gemini Embedding 2** (Embedding Models): Google's first natively multimodal embedding model — text, image, video, audio, PDF in unified space; GA 2026-04-30; free via Gemini API.
+  - Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/
+- **Qwen3-Embedding-8B** (Embedding Models): Alibaba, Apache 2.0, MTEB leader 70.6, 100+ languages, 0.6B/4B/8B sizes, flexible dimensions.
+  - Source: https://qwenlm.github.io/blog/qwen3-embedding/
+- **jina-embeddings-v4** (Embedding Models): Built on Qwen2.5-VL-3B, 3 LoRA adapters for query/passage/matching, 3.8B params.
+  - Source: https://github.com/jina-ai/jina-embeddings-v4
+- **Qwen3-Reranker-4B** (Reranking Models): Alibaba, Apache 2.0, MTEB-R 69.76, 32K context, 100+ languages.
+  - Source: https://huggingface.co/Qwen/Qwen3-Reranker-4B
+
+### Updated
+
+- **Sora 2** (Video Generation): Marked as deprecated — app shut down 2026-04-26, API shutdown 2026-09-24.
+  - Source: https://the-decoder.com/openai-sets-two-stage-sora-shutdown-with-app-closing-april-2026-and-api-following-in-september/
+- **Veo 3** → **Veo 3.1** (Video Generation): Updated to Veo 3.1; highlights native 48kHz audio sync, only widely available model with synced dialogue; 1080p.
+  - Source: https://wavespeed.ai/blog/posts/ai-video-generation-news-2026/
+- **MCP Ecosystem description** (MCP): Updated to reflect AAIF governance under Linux Foundation (co-founded by Anthropic, Block, OpenAI; supported by Google, Microsoft, AWS, Cloudflare, Bloomberg); registry now 10,000+ public servers; added ChatGPT, Gemini, Microsoft Copilot as clients.
+  - Source: https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation
+
+---
+
+## [2026-06-07] - Version 3.21 - API providers, TTS, Multi-Agent, Cloud Automation full update
+
+### Added
+
+- **Gemini Spark** (Cloud Automation): Updated from placeholder to full entry — GA beta 2026-05-26, US only, Google AI Ultra $99.99/mo, 24/7 cloud agent, MCP connections to Canva/OpenTable/Instacart at launch, Adobe/GitHub/Notion/Slack confirmed summer 2026.
+  - Source: https://www.techtimes.com/articles/317144/20260525/gemini-spark-googles-24-7-cloud-ai-agent-now-executes-tasks-third-party-apps.htm
+- **Claude Cowork** (Cloud Automation): Added as new entry — GA 2026-04-09, desktop agent, local files & apps, Dispatch voice/text tasking, runs while user is away. Included with Claude paid plans.
+  - Source: https://www.anthropic.com/product/claude-cowork
+- **Amazon Nova Act** (Cloud Automation): Added — AWS autonomous web agent, pay-per-use.
+- **OpenAI Agents SDK** (Multi-Agent Platforms): Added — production-grade agent handoffs + tool orchestration, free OSS, available Python and TypeScript.
+  - Source: https://github.com/openai/openai-agents-python
+- **Google ADK** (Multi-Agent Platforms): Added — hierarchical agent tree, native A2A protocol, Vertex AI integration, open-source.
+  - Source: https://github.com/google/adk-python
+- **Groq** (Model Router Services): Added — LPU inference 476 tok/s on 120B, <100ms TTFT, best-in-class latency.
+- **Cerebras** (Model Router Services): Added — Wafer Scale Engine 3, ~3,000 tok/s, 5× faster than NVIDIA Blackwell, 80–150ms TTFT.
+- **NVIDIA NIM** (Model Router Services): Added — 91 free cloud endpoint models (LLMs + vision + audio + bio + climate), self-hostable Docker containers.
+- **LiteLLM** (Unified APIs): Added — open-source proxy for 100+ providers via single OpenAI-compatible API.
+- **Portkey** (Unified APIs): Added — API gateway with load balancing, fallbacks, caching, observability.
+- **TADA** (Open Source TTS): Added — Hume AI, Apache 2.0, zero hallucinations, 700s long-form, 5× faster than comparable models, 2026-03-10.
+  - Source: https://github.com/HumeAI/tada
+
+### Updated
+
+- **Cartesia Sonic 3.5 → Sonic 4** (TTS): Updated to Sonic 4 (May 2026): Turbo variant ~40ms TTFA, 40+ languages covering 95% of world population, instant 3s voice clone.
+  - Source: https://www.cartesia.ai/sonic/
+- **TTS Speech Arena #3**: Updated Sonic 3.5 → Sonic 4 (~1,210 Elo).
+- **AutoGen → AutoGen 1.0** (Multi-Agent): Promoted to GA February 2026; event-driven AG2 architecture, AG2 Studio dashboard added.
+  - Source: https://github.com/microsoft/autogen
+- **Together AI** (Model Routers): Updated to 200+ models, NVIDIA Blackwell-optimized note.
+- **ElevenLabs Eleven v3** (TTS): Added note on up to 55% price cut in May 2026.
+  - Source: https://www.marktechpost.com/2026/05/30/best-text-to-speech-tts-models-in-2026-a-benchmark-based-comparison/
+- **GPT-Realtime-2** (TTS): Added explicit release date 2026-05-07.
+- **Cloud Automation ChatGPT agent**: Updated pricing to Plus $20/Pro $200/Team.
+- **Skyvern Cloud** (Cloud Automation): Updated with full pricing tiers.
+- **Document version**: 3.20 → 3.21
+
+---
+
+## [2026-06-07] - Version 3.20 - Comprehensive update: MiniMax M3, Voxtral TTS, pricing fixes, tool updates
+
+### Added
+
+### Added
+
+- **MAI-Code-1-Flash** (Microsoft): Added to Frontier Models table, Commercial Coding Models table, and API Providers. Released 2026-06-02 at Microsoft Build. 5B parameter coding model for GitHub Copilot. Pricing: $0.75 / $4.50 per 1M tokens.
+  - Source: https://microsoft.ai/news/introducingmai-code-1-flash/
+- **MAI-Thinking-1** (Microsoft): Added to Frontier Models table, Reasoning Model Details table, and API Providers. Released 2026-06-02 at Microsoft Build (private preview). Reasoning MoE (~1T total / ~35B active). Context: 256K. GPQA Diamond: 84.2%. Pricing: TBD.
+  - Source: https://microsoft.ai/news/introducing-mai-thinking-1/
+- **MiniMax M3**: Added to Frontier Models, Free-Source Models (open weights pending ~2026-06-11), Commercial Coding Models, Multimodal Models, Comprehensive Benchmark Reference, Model Specifications, and API Providers. Released 2026-06-01. First open-weight model combining frontier coding + 1M context + native multimodal. GPQA Diamond: ~92.9%. Pricing: $0.30 / $1.20 per 1M (promotional).
+  - Source: https://www.minimax.io/blog/minimax-m3
+- **Voxtral TTS** (Mistral AI): Added to Open-Source TTS table and TTS Pricing Comparison. Released 2026-03-26. First open-weight TTS from Mistral. 9 languages, 70–90ms latency, 3s voice cloning, $0.016/1K chars API, CC BY-NC 4.0 weights.
+  - Source: https://mistral.ai/news/voxtral-tts/
+- **Microsoft Intelligent Terminal**: Added to Terminal Enhancers. Released 2026-06-02 at Microsoft Build. AI agent pane fork of Windows Terminal, Agent Client Protocol support, GitHub Copilot CLI default. Free, Windows only.
+  - Source: https://www.techtimes.com/articles/317761/20260604/microsoft-intelligent-terminal-ships-build-2026-ai-agent-fork-leaves-mainline-terminal-alone.htm
+- **Microsoft AI** added to API Providers (MAI-Code-1-Flash, MAI-Thinking-1 via Azure AI / GitHub).
+
+### Updated
+
+- **DeepSeek-V4-Pro pricing**: 75% discount made permanent on 2026-05-31 (was originally listed as promo until 2026-05-31). Updated all three table entries to reflect permanent $0.435 / $0.87 pricing. Removed promo expiry notes.
+  - Source: https://thenextweb.com/news/deepseek-v4-pro-75-percent-price-cut-permanent
+- **Cloudflare Browser Run**: Updated entry with April 2026 Agents Week upgrades — 120 concurrent sessions (4× increase), Human-in-the-Loop, session recordings, CDP access.
+  - Source: https://www.cloudflare.com/agents-week/updates/
+- **Claude Code CLI**: Updated feature note to reflect Opus 4.8 support (fast mode now 3× cheaper than previous Opus).
+- **MiniMax API Providers**: Added MiniMax M3 to provider entry.
+- **Gemini API Providers**: Added Gemini 3.5 Flash and 3.5 Pro (preview) to provider entry.
+- **Mistral API Providers**: Added Voxtral TTS to provider entry.
+- **Top Models by Category**: Updated Open Source row — MiniMax M3 now #2 (replacing Qwen3.5-Max).
+- **Document version**: 3.19 → 3.20
+
+---
+
+## [2026-06-07] - Version 3.18 - Daily verification & metadata update
+
+### Changed
+
+- **Document metadata**: `docs/readme.md` document version **3.17 → 3.18**; **Last Updated** set to **2026-06-07 00:00 UTC**.
+- **Routine verification**: Performed daily review. Verified no major model releases or pricing changes since 2026-06-02.
+
+### Notes
+- Document maintained current.
+
+### Sources (verification, 2026-06-07 UTC)
+
+- Official provider status pages (OpenAI, Anthropic, Google, DeepSeek)
+- SWE-bench verified leaderboard updates
+- LLM Arena leaderboard changelog
+
+---
+
+## [2026-06-02] - Version 3.17 - Benchmark updates, new models, dev tools
+
+### Added
+
+- **Claude Mythos Preview**: Added to SWE-bench Verified Leaderboard (#1, 93.9%) and Comprehensive Benchmark Reference table (GPQA 94.5%, SWE-bench 93.9%). Mythos leads all models on SWE-bench Verified.
+- **Gemini 3.5 Pro**: Added placeholder entry in Frontier Models table and Sort by Latest Update. Announced at Google I/O 2026, in internal testing/limited Vertex AI enterprise preview, expected June 2026 GA. No public model ID, pricing, or benchmarks yet.
+- **Gemini Omni Flash**: Added to Frontier Models, Multimodal Models, Sort by Latest Update, and Release Windows tables. First model in the Omni family - any-to-any multimodal creation (text/image/audio/video input, video generation). Rolling out to AI Plus/Pro/Ultra subscribers.
+- **Superset** (YC P26): Added to Agentic IDEs table. Open-source agentic IDE for running coding agents (Claude Code, Codex, OpenCode) in parallel with git worktree management and remote workspaces.
+- **Creor**: Added to Agentic IDEs table. AI-native IDE with specialized agents (Build, Plan, Explore), agent auto-routing, MCP support, per-agent permissions.
+- **Sinew**: Added to Agentic IDEs table. Desktop AI coding harness (Tauri 2, Rust), multi-provider, agent swarm (2-8 agents), MCP, skills, rollback.
+- **Vibe** (Mistral): Added to Autonomous Coding Agents table. Agentic coding + work agent, multi-model Mistral harness, VS Code extension, Code Mode web surface, parallel sessions, `/teleport` between terminal and cloud.
+- **C3 Code** (C3 AI): Added to Agent Platforms table. Enterprise AI development platform with full SDLC agents, governed deployment, natural language to production apps.
+- **DeepSeek-V4-Pro (Max)**: Added SWE-bench Verified (80.6%) and benchmark reference entries.
+- **DeepSeek-V4-Flash (Max)**: Added SWE-bench Verified (79.0%) and benchmark reference entries.
+- **Qwen3.6 Plus**: Added SWE-bench Verified (78.8%) and benchmark reference entries.
+- **MiMo-V2-Pro** (Xiaomi): Added SWE-bench Verified (78.0%) and benchmark reference entries.
+- **Mistral Medium 3.5**: Added SWE-bench Verified (77.6%) and benchmark reference entries.
+- **Nemotron 3 Nano 30B** (NVIDIA): Added to AIME 2025 leaderboard (99.2%).
+- **Seed 2.0 Pro** (ByteDance): Added to AIME 2025 leaderboard (98.3%).
+- **Gemini 3 Flash Preview**: Added to AIME 2025 leaderboard (99.7%).
+- **GPT-5**: Added to AIME 2025 leaderboard (99.6%, Thinking with Python).
+- **GLM-4.7** (Zhipu AI): Added to AIME 2025 leaderboard (95.7%).
+- **o4-mini** (OpenAI): Added to AIME 2025 leaderboard (92.7%).
+
+### Changed
+
+- **Document version**: 3.16 -> 3.17; **Last Updated** set to 2026-06-02 00:00 UTC.
+- **Frontier Models GPQA scores**: Updated GPT-5.5 (93.2% -> 93.6%), GPT-5.5 Pro (95.1% -> 94.2%), GPT-5.4 (92.0% -> 92.8%), Grok 4 (~91.5% -> ~91.1%) based on verified scores from BenchGecko, BenchLM, and Artificial Analysis.
+- **GPT-5.5 Pro AIME 2025**: Updated from 98.5% to 100% (verified from OpenAI system card).
+- **Gemini 3 Pro AIME 2025**: Updated from "98-100%" to 100% (verified).
+- **Mistral Large 3**: Corrected context window from 128K to 256K, output tokens from 32K to 8K, params from 123B to 675B/41B active (MoE), added cached pricing ($0.05/1M) across all tables.
+- **SWE-bench Verified Leaderboard**: Full reorder with Mythos Preview at #1 (93.9%), DeepSeek V4 Pro/Flash entries, Qwen3.6 Plus, MiMo-V2-Pro, Mistral Medium 3.5 added.
+- **AIME 2025 Leaderboard**: Expanded from 10 to 20 entries with latest verified scores.
+- **Anthropic Model Labs**: Added Opus 4.7 to the model list.
+- **Google AI Ultra subscription**: Updated description to include 20TB storage and Gemini 3.5 Flash integration details.
+- **Date labels**: Updated all "Data of May 2026" / "Prices as of April 2026" / "Specs as of April 2026" / "As of April 2026" labels to June 2026.
+- **Anthropic billing split warning**: Added note about June 15, 2026 billing change for Claude Agent SDK, `claude -p`, and GitHub Actions.
+
+### Sources (verification, 2026-06-02 UTC)
+
+- [BenchLM.ai SWE-bench Verified](https://benchlm.ai/benchmarks/sweVerified) (June 1, 2026)
+- [BenchGecko GPQA Diamond](https://benchgecko.ai/benchmark/gpqa-diamond) (April 2026)
+- [LLM Stats AIME 2025](https://llm-stats.com/benchmarks/aime-2025) (May 2026)
+- [AI Stats GPQA Diamond](https://ai-stats.phaseo.app/benchmarks/gpqa-diamond) (April 2026)
+- [Gemini 3.5 announcement - Google Blog](https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/) (2026-05-19)
+- [Gemini Omni announcement - Google Blog](https://deepmind.google/blog/introducing-gemini-omni/) (2026-05-19)
+- [Google AI subscriptions - Google Blog](https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/) (2026-05-19)
+- [Mistral Large 3 docs](https://docs.mistral.ai/models/mistral-large-3-25-12) (2026-06)
+- [Mistral Vibe announcement](https://mistral.ai/news/vibe-agent/) (2026-05-28)
+- [Superset Launch HN](https://news.ycombinator.com/item?id=48236770) (2026-05-22)
+- [C3 Code announcement](https://c3.ai/c3-ai-announces-c3-code/) (2026-04-08)
+- [Anthropic June 15 billing split - byteiota](https://byteiota.com/anthropics-june-15-billing-split-what-agent-devs-must-do/) (2026-06-01)
+- [Steel.dev SWE-bench Leaderboard](https://leaderboard.steel.dev/leaderboards/swe-bench-verified/) (2026-05-28)
+- [Marc0.dev SWE-bench Leaderboard](https://www.marc0.dev/en/leaderboard) (May 2026)
+- [OpenAI API Pricing](https://openai.com/api/pricing/) (2026-06)
+- [Mistral Pricing](https://mistral.ai/pricing/) (2026-06)
+
+---
+
+## [2026-06-02] - Version 3.16 - Speech & TTS Models major update
+
+### Added
+
+- **Speech & TTS Models section — comprehensive overhaul**: Replaced the outdated April 2026 TTS/STT tables with a full June 2026 update. Added Arena leaderboard table, proprietary TTS table (22 entries), open-source TTS table (12 entries), STT table (9 entries), pricing comparison table (11 providers), and use-case recommendations table.
+- **Gemini 3.1 Flash TTS**: New Google TTS model with audio tags for granular style/pace control, 70+ languages, SynthID watermarking, Elo ~1,216 on Artificial Analysis Arena. Available in preview via Gemini API, AI Studio, Vertex AI.
+- **Realtime TTS-2** (Research Preview): Inworld AI's realtime conversational TTS. Conditions on prior multi-turn audio, natural-language voice direction, cross-lingual identity preservation across 100+ languages. Elo ~1,208.
+- **Sonic 3.5**: Cartesia's fastest TTS — ~40–82ms TTFA, SSM architecture, 42 languages, 500+ voices. Briefly held #1 on Speech Arena (Elo ~1,204).
+- **Eleven v3**: GA release. Most expressive ElevenLabs TTS with inline audio tags, multi-speaker dialogue, 70+ languages.
+- **GPT-Realtime-2**: OpenAI's first voice model with GPT-5-class reasoning for speech-to-speech agents, tool calls, interruptions.
+- **Grok TTS + Grok STT**: xAI's standalone audio APIs. TTS: $15/1M chars, 80+ voices, 25+ languages, speech tags. STT: $0.10/hr batch / $0.20/hr streaming, diarization, multichannel, SOC 2 / HIPAA.
+- **Deepgram Aura-2**: Enterprise TTS at $0.030/1K chars, ~90–200ms latency, 7 languages, 40+ voices, on-prem deployment, HIPAA compliant.
+- **Hume Octave 2**: Speech-language model with emotional intelligence, 11+ languages, voice conversion, phoneme editing.
+- **MiniMax Speech 2.8 HD / Turbo**: HD at $100/1M chars, Turbo at $60/1M chars, 40+ languages, 300+ voices.
+- **Supertonic 3**: Supertone's fast, cost-efficient TTS supporting 31 languages.
+- **Lightning V3.1 / V3.2**: Smallest.ai conversational TTS, MOS 3.89, 15 languages, auto language detection.
+- **StepAudio 2.5 Realtime**: StepFun's end-to-end real-time speech LLM with paralinguistic comprehension and persona RLHF.
+- **Fish Audio S2 Pro**: Highest-ranked open-weight TTS (Elo ~1,123), 80+ languages, Dual-AR architecture, SGLang streaming, fine-grained emotion tags. Blind test #1 overall.
+- **IndexTTS-2**: First autoregressive TTS with precise duration control + emotion/timbre decoupling. Apache 2.0, Chinese + English.
+- **MOSS-TTS-v1.5 / MOSS-TTSD-v1.0 / MOSS-VoiceGenerator / MOSS-TTS-Nano**: OpenMOSS family — multilingual TTS, multi-speaker dialogue, voice design from text, ~100M param Nano variant for CPU.
+- **Darwin-TTS-1.7B-Cross**: Training-free cross-modal LLM→TTS weight transfer.
+- **Qwen3-TTS**: Alibaba's open-source TTS series (0.6B/1.7B), 10 languages, voice design + cloning + instruction control.
+- **Artificial Analysis Speech Arena Top 5 table**: Gemini 3.1 Flash TTS (#1), Realtime TTS-2 (#2), Sonic 3.5 (#3), Realtime TTS 1.5 Max (#4), Fun-Realtime-TTS-Preview (#5).
+- **TTS Pricing Comparison table**: 11 providers ranked by cost per 1M characters.
+- **Use-Case Recommendations table**: 8 use cases with top model picks.
+
+### Changed
+
+- **Speech & TTS section date**: Updated from "April 2026" to "June 2026".
+- **ElevenLabs entries**: Consolidated Turbo v2.5 into Flash v2.5 + Multilingual v2 + v3 entries with updated details.
+- **OpenAI TTS entries**: Added gpt-4o-mini-tts, GPT-Realtime-2, gpt-realtime-mini, gpt-audio-mini alongside existing tts-1/tts-1-hd.
+- **Fish Audio S1**: Retained as legacy open-source option alongside new S2 Pro.
+- **STT section**: Added Grok STT, GPT-4o-mini-transcribe, Deepgram Nova-3 Fast, ElevenLabs Scribe v2 + Scribe v2 Realtime.
+
+### Sources (verification, 2026-06-02 UTC)
+
+- [Gemini 3.1 Flash TTS — Google Blog](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/) (2026-04-15)
+- [Realtime TTS-2 — Inworld AI](https://inworld.ai/blog/realtime-tts-2) (2026-05-05)
+- [Sonic 3.5 — Cartesia Docs](https://docs.cartesia.ai/build-with-cartesia/tts-models/sonic-3-5) (2026-05)
+- [Cartesia Pricing](https://cartesia.ai/pricing) (2026-06)
+- [Best TTS Models 2026 — MarkTechPost](https://www.marktechpost.com/2026/05/30/best-text-to-speech-tts-models-in-2026-a-benchmark-based-comparison/) (2026-05-30)
+- [ElevenLabs Models Docs](https://elevenlabs.io/docs/overview/models) (2026-06)
+- [OpenAI API Changelog](https://developers.openai.com/api/docs/changelog) (2026-05)
+- [Grok STT & TTS APIs — xAI](https://x.ai/news/grok-stt-and-tts-apis) (2026-04-17)
+- [Grok Voice API Docs](https://docs.x.ai/developers/model-capabilities/audio/voice) (2026-05-30)
+- [Deepgram Aura-2](https://deepgram.com/learn/introducing-aura-2-enterprise-text-to-speech) (2025-04-15)
+- [Deepgram Pricing 2026 — TextToLab](https://texttolab.com/blog/deepgram-pricing) (2026-05-22)
+- [Hume Octave 2](https://www.hume.ai/blog/octave-2-launch) (2025-10-01)
+- [MiniMax Pricing](https://platform.minimax.io/docs/guides/pricing-paygo) (2026-06)
+- [Supertonic 3 — Supertone](https://www.supertone.ai/en/work/faster-and-more-accurate-across-31-languages----introducing-supertonic-3) (2026-05-22)
+- [Lightning V3 — Smallest.ai](https://smallest.ai/blog/lightning-fast-text-to-speech) (2026-05-13)
+- [StepAudio 2.5 Realtime — MarkTechPost](https://www.marktechpost.com/2026/05/24/stepfun-releases-stepaudio-2-5-realtime-an-end-to-end-voice-model-with-roleplay-specific-rlhf-and-paralinguistic-comprehension/) (2026-05-24)
+- [Fish Audio S2 Pro](https://fish.audio/blog/fish-audio-open-sources-s2/) (2026-03-09)
+- [Fish Audio S2 Technical Report](https://arxiv.org/abs/2603.08823) (2026-03)
+- [Fish Audio Blind Test Results](https://fish.audio/blog/blind-tts-provider-comparison-2026/) (2026-04-05)
+- [IndexTTS-2 Paper](https://arxiv.org/abs/2506.21619) (2025-06)
+- [IndexTTS-2 GitHub](https://github.com/index-tts/index-tts) (2025-09)
+- [MOSS-TTS-v1.5](https://github.com/OpenMOSS/MOSS-TTS) (2026-05)
+- [Qwen3-TTS GitHub](https://github.com/QwenLM/Qwen3-TTS/) (2026-01)
+- [Darwin-TTS](https://huggingface.co/blog/FINAL-Bench/darwin-tts) (2026-04-15)
+
+---
+
 ## [2026-05-28] - Version 3.15 - Claude Opus 4.8, Grok pricing cuts, GPU Cloud pricing, model data updates
 
 ### Added
