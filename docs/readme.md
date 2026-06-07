@@ -117,8 +117,8 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | Model | Company | Context | GPQA Diamond | Arena Elo | SWE-bench Verified | AIME 2025 | Pricing | Verified |
 |-------|---------|---------|--------------|-----------|--------------------|-----------|---------|----------|
 | **GPT-5.5** | OpenAI | 1M | 93.6% | 1495 | 88.5% | 99.9% | $5.00 / $30.00 | 2026-04-26 |
-| **GPT-5.5 Instant** | OpenAI | 1M | 91.0% | — | 88.7% | — | $5.00 / $30.00 | 2026-05-05
-| **GPT-5.5 Pro** | OpenAI | 1.05M | 94.2% | — | 92.3% | 100% | $30.00 / $180.00 | 2026-05-08 ⭐
+| **GPT-5.5 Instant** | OpenAI | 1M | 91.0% | — | 88.7% | — | $5.00 / $30.00 | 2026-05-05 |
+| **GPT-5.5 Pro** | OpenAI | 1.05M | 94.2% | — | 92.3% | 100% | $30.00 / $180.00 | 2026-05-08 ⭐ |
 | **Claude Opus 4.8** | Anthropic | 1M | — | — | 88.6% | — | $5.00 / $25.00 | 2026-05-28 ⭐ |
 | **Claude Opus 4.7** | Anthropic | 1M | 94.2% | — | 87.6% | ~95% | $5.00 / $25.00 | 2026-04-26 |
 | **Claude Sonnet 4.6** | Anthropic | 1M | 89.9% | ~1438 (Text) / 1523 (Code) | 79.6% | ~95% | $3.00 / $15.00 | 2026-04-26 |
@@ -127,19 +127,19 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Gemini 3.5 Flash** | Google | 1M | ~90.4% | — | — | — | $1.50 / $9.00 | 2026-05-19 ⭐ |
 | **Gemini 3.5 Pro** | Google | 2M (est.) | — | — | — | — | TBD | June 2026 (Preview) ⭐ |
 | **Gemini Omni Flash** | Google | — | — | — | — | — | Included with AI Plus/Pro/Ultra | 2026-05-19 ⭐ |
-| **Gemini 3 Deep Think** | Google | 1M+ | ~97% | — | ~58% | — | Ultra subscription | 2026-04-26
+| **Gemini 3 Deep Think** | Google | 1M+ | ~97% | — | ~58% | — | Ultra subscription | 2026-04-26 |
 | **Claude Mythos Preview** | Anthropic | 1M | — | — | — | — | $25.00 / $125.00 | 2026-04-07 |
 | **GLM-5** | Zhipu AI | 200K | 82.0% | ~1451 (Text) / 1445 (Code) | 77.8% | 92.7% | $1.00 / $3.20 | 2026-04-26 |
 | **GLM-5.1** | Zhipu AI | 200K | — | — | ~80.4% (est.) | — | $1.00 / $3.20 | 2026-04-26 |
 | **MiniMax M3** | MiniMax | 1M | ~92.9% | — | — | — | $0.30 / $1.20 | 2026-06-01 ⭐ |
 | **MiniMax-M2.5** | MiniMax | 200K | 85.2% | — | 80.2% | 86.3% | $0.30 / $1.20 | 2026-04-26 |
 | **Kimi K2.6** | Moonshot AI | 262K | 90.5% | — | 80.2% | 96.4% | $0.60 / $3.00 | 2026-04-26 |
-| **DeepSeek-V4-Flash** | DeepSeek | 1M | — | — | — | — | $0.14 / $0.28 | 2026-05-08 ⭐
-| **DeepSeek-V4-Pro** | DeepSeek | 1M | — | — | — | — | $0.435 / $0.87 | 2026-05-08 ⭐
+| **DeepSeek-V4-Flash** | DeepSeek | 1M | — | — | — | — | $0.14 / $0.28 | 2026-05-08 ⭐ |
+| **DeepSeek-V4-Pro** | DeepSeek | 1M | — | — | — | — | $0.435 / $0.87 | 2026-05-08 ⭐ |
 | **DeepSeek-V3.2** | DeepSeek | 164K | 87.1% | — | 67.8% | 89.3% | $0.28 / $0.42 | 2026-04-26 |
 | **Qwen3.5-Max** | Alibaba | 128K | 89.3% | — | 76.4% | 91.3% | Pay-per-token | 2026-04-26 |
 | **Gemini 3 Pro** | Google | 1M+ | 91.9% | 1486 (Text) / 1438 (Code) | 76.2% | 100% | Tiered pricing | 2026-04-26 |
-| **Gemini 3 Flash** | Google | 10M | 90.4% | 1474 (Text) / 1438 (Code) | 78.0% | — | $0.50 / $3.00 | 2026-05-08 ⭐
+| **Gemini 3 Flash** | Google | 10M | 90.4% | 1474 (Text) / 1438 (Code) | 78.0% | — | $0.50 / $3.00 | 2026-05-08 ⭐ |
 | **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
 | **GPT-5.4** | OpenAI | 1M | 92.0% | 1484 (Text) / 1457 (Code) | ~80% | 88% | $2.50 / $15.00 | 2026-04-26 |
 | **GPT-5.4 mini** | OpenAI | 400K | 87.5% | — | — | — | $0.75 / $4.50 | 2026-04-26 |
@@ -153,10 +153,10 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Grok 4** | xAI | 256K | ~91.1% | ~1493 (Text) | — | 100% | $3.00 / $15.00 | 2026-04-26 |
 | **Grok 4 Fast** | xAI | 128K | — | — | — | — | $0.20 / $0.50 | 2026-05-28 ⭐ |
 | **Grok 4.20** | xAI | 2M | — | — | — | — | $1.25 / $2.50 | 2026-05-28 ⭐ |
-| **Grok 4.3** | xAI | 1M | — | — | — | — | $1.25 / $2.50 | 2026-05-06
-| **Qwen3.7-Max** 🇨🇳 | Alibaba | 1M | 92.4% | — | 80.4% | — | $2.50 / $7.50 | 2026-05-20 ⭐
-| **Qwen3.7-Plus-Preview** 🇨🇳 | Alibaba | 1M | — | — | — | — | Lower than Max | 2026-05-20 ⭐
-| **MAI-Thinking-1** | Microsoft | 256K | 84.2% | — | — | — | TBD (Private Preview) | 2026-06-02 ⭐
+| **Grok 4.3** | xAI | 1M | — | — | — | — | $1.25 / $2.50 | 2026-05-06 |
+| **Qwen3.7-Max** 🇨🇳 | Alibaba | 1M | 92.4% | — | 80.4% | — | $2.50 / $7.50 | 2026-05-20 ⭐ |
+| **Qwen3.7-Plus-Preview** 🇨🇳 | Alibaba | 1M | — | — | — | — | Lower than Max | 2026-05-20 ⭐ |
+| **MAI-Thinking-1** | Microsoft | 256K | 84.2% | — | — | — | TBD (Private Preview) | 2026-06-02 ⭐ |
 | **MAI-Code-1-Flash** | Microsoft | — | — | — | — | — | $0.75 / $4.50 | 2026-06-02 ⭐ |
 | **NVIDIA Nemotron 3 Ultra** | NVIDIA | 262K | — | — | — | — | Free (NVIDIA NIM) | 2026-06-05 ⭐ |
 
@@ -519,7 +519,7 @@ Models capable of processing and generating multiple types of content: text, ima
 
 | Model | Developer | License | Best For |
 |-------|-----------|---------|----------|
-| **GPT Image 2** ⭐ | OpenAI | Proprietary | DALL-E 3 replacement; 4K output; released 2026-04-21; ~$0.21/img (1024px high) via API | 
+| **GPT Image 2** ⭐ | OpenAI | Proprietary | DALL-E 3 replacement; 4K output; released 2026-04-21; ~$0.21/img (1024px high) via API |
 | **MAI-Image-2-Efficient** | Microsoft | Proprietary | Production-ready quality, 41% lower cost |
 | **Flux 2** ⭐ | Black Forest Labs | Apache 2.0 (Dev); Proprietary (Pro) | Released Nov 2025; exceptional photorealism + natural language; Flux 2 Pro/Dev/Schnell variants |
 | **Flux.1** | Black Forest Labs | Apache 2.0 | High-fidelity art (original Flux family) |
@@ -803,6 +803,7 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 | **Google Colab CLI** ⭐ | Google | Free (Colab account) | Run Python on remote Colab GPUs/TPUs from local terminal; AI agent compatible; released 2026-06-06 | <a href="https://github.com/googlecolab/colab-cli" rel="nofollow">🔗</a> |
 
 > **⚠️ Anthropic June 15 Billing Split:** Starting 2026-06-15, Anthropic moves Claude Agent SDK, `claude -p`, and Claude Code GitHub Actions to separate metered credits billed at full API rates. Pro subscribers get $20/mo credit; Max 20x gets $200/mo. Interactive Claude Code and Claude.ai remain on standard subscription.
+
 | **Cursor CLI** | Cursor | Free tier | Terminal + IDE bridge | <a href="https://github.com/getcursor/cursor" rel="nofollow">🔗</a> |
 | **Qwen Code** | Alibaba | Free | Qwen optimization | <a href="https://github.com/QwenLM/qwen-code" rel="nofollow">🔗</a> |
 | **Qodo CLI** | Qodo | Free tier | Testing, review & agent workflows | <a href="https://github.com/qodo-ai/command" rel="nofollow">🔗</a> |
@@ -1316,7 +1317,7 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 | **Lightning V3.1 / V3.2** ⭐ | Smallest.ai | 15 | Yes | No | Pay-as-you-go | Conversational TTS, MOS 3.89, auto language detection, mid-sentence switching | — |
 | **StepAudio 2.5 Realtime** ⭐ | StepFun | Chinese, English | Yes | No | — | End-to-end real-time speech LLM, paralinguistic comprehension, persona RLHF | — |
 | **Qwen3-TTS** 🇨🇳 | Alibaba | 10 | Yes (streaming) | Yes (Apache 2.0) | Free (self-host) / API | Voice design, voice cloning, instruction control, multilingual | <a href="https://github.com/QwenLM/Qwen3-TTS" rel="nofollow">🔗</a> |
-| **Stability Audio 3.0** | Stability AI | Music/SFX | Yes (small/medium OSS) | Yes (small/medium, Apache 2.0) | Free (small/medium OSS weights); commercial via API | Professional-grade music >6 min, open-weight small/medium variants | <a href="https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/" rel="nofollow">🔗</a> |
+| **Stability Audio 3.0** | Stability AI | Music/SFX | Yes (small/medium OSS) | Yes (small/medium, Apache 2.0) | Free (small/medium OSS weights); commercial via API |Professional-grade music >6 min, open-weight small/medium variants | <a href="https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/" rel="nofollow">🔗</a> |
 | **Sesame CSM** | Sesame AI Labs | English | Yes | Yes | Free | Conversational, emotionally expressive (4.7 MOS) | <a href="https://github.com/SesameAILabs/csm" rel="nofollow">🔗</a> |
 
 #### Text-to-Speech (TTS) — Open Source
