@@ -1,3 +1,14 @@
+## [2026-06-07] - Version 3.19 - Microsoft MAI models added
+
+### Added
+
+- **MAI-Code-1-Flash** (Microsoft): Added to Frontier Models table and Commercial Coding Models table. Released 2026-06-02 at Microsoft Build. 5B parameter coding model for GitHub Copilot integration. Pricing: $0.75 / $4.50 per 1M tokens. Outperforms Claude Haiku 4.5 on coding benchmarks.
+  - Source: https://microsoft.ai/news/introducingmai-code-1-flash/
+- **MAI-Thinking-1** (Microsoft): Added to Frontier Models table and Reasoning Model Details table. Released 2026-06-02 at Microsoft Build (private preview via Microsoft Foundry). Reasoning model trained from scratch (~1T total / ~35B active MoE). Context: 256K. GPQA Diamond: 84.2%. Pricing: TBD.
+  - Source: https://microsoft.ai/news/introducing-mai-thinking-1/
+
+---
+
 ## [2026-06-07] - Version 3.18 - Daily verification & metadata update
 
 ### Changed

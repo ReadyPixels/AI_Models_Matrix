@@ -50,7 +50,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.18
+- **Document Version**: 3.19
 - **Last Updated**: 2026-06-07 00:00 UTC
 - **Repository**: https://github.com/ReadyPixels/AI_Models_Matrix
 - **License**: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
@@ -154,6 +154,8 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Grok 4.3** | xAI | 1M | — | — | — | — | $1.25 / $2.50 | 2026-05-06 ⭐
 | **Qwen3.7-Max** 🇨🇳 | Alibaba | 1M | 92.4% | — | 80.4% | — | $2.50 / $7.50 | 2026-05-20 ⭐
 | **Qwen3.7-Plus-Preview** 🇨🇳 | Alibaba | 1M | — | — | — | — | Lower than Max | 2026-05-20 ⭐
+| **MAI-Thinking-1** | Microsoft | 256K | 84.2% | — | — | — | TBD (Private Preview) | 2026-06-02 ⭐
+| **MAI-Code-1-Flash** | Microsoft | — | — | — | — | — | $0.75 / $4.50 | 2026-06-02 ⭐
 
 ### Model Specifications 📋
 
@@ -409,6 +411,7 @@ Specialized AI models optimized for software development tasks.
 | **Codestral** | Mistral AI | $0.30 / $0.90 | Real-time completion |
 | **Qwen3.7-Max** | Alibaba | $2.50 / $7.50 per 1M | Agentic coding, long-horizon autonomy, reasoning |
 | **Grok 4.3** | xAI | $1.25 / $2.50 per 1M | Flagship reasoning, lowest hallucination |
+| **MAI-Code-1-Flash** | Microsoft | $0.75 / $4.50 per 1M | GitHub Copilot integration, fast everyday coding |
 
 #### Open-Source Coding Models
 
@@ -459,6 +462,7 @@ Models optimized for step-by-step reasoning, mathematical problem-solving, and c
 | **DeepSeek-R1** | Reasoning | 128K | $0.50 / $2.15 |
 | **Claude Sonnet 4.5** | Hybrid | 200K | $3.00 / $15.00 |
 | **GPT-Rosalind** | Life Sciences Reasoning | 128K | Pay-per-token (Research Preview) |
+| **MAI-Thinking-1** | Reasoning | 256K | TBD (Private Preview) |
 
 #### Use Cases
 
