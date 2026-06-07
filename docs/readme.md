@@ -50,7 +50,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.25
+- **Document Version**: 3.26
 - **Last Updated**: 2026-06-07 00:00 UTC
 - **Repository**: https://github.com/ReadyPixels/AI_Models_Matrix
 - **License**: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">CC BY-NC 4.0</a>
@@ -116,8 +116,8 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 | Model | Company | Context | GPQA Diamond | Arena Elo | SWE-bench Verified | AIME 2025 | Pricing | Verified |
 |-------|---------|---------|--------------|-----------|--------------------|-----------|---------|----------|
-| **GPT-5.5** | OpenAI | 1M | 93.6% | — | — | — | $5.00 / $30.00 | 2026-04-26 |
-| **GPT-5.5 Instant** | OpenAI | 1M | 91.0% | — | 88.7% | — | $5.00 / $30.00 | 2026-05-05 ⭐
+| **GPT-5.5** | OpenAI | 1M | 93.6% | 1495 | 88.5% | 99.9% | $5.00 / $30.00 | 2026-04-26 |
+| **GPT-5.5 Instant** | OpenAI | 1M | 91.0% | — | 88.7% | — | $5.00 / $30.00 | 2026-05-05
 | **GPT-5.5 Pro** | OpenAI | 1.05M | 94.2% | — | 92.3% | 100% | $30.00 / $180.00 | 2026-05-08 ⭐
 | **Claude Opus 4.8** | Anthropic | 1M | — | — | 88.6% | — | $5.00 / $25.00 | 2026-05-28 ⭐ |
 | **Claude Opus 4.7** | Anthropic | 1M | 94.2% | — | 87.6% | ~95% | $5.00 / $25.00 | 2026-04-26 |
@@ -133,7 +133,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **GLM-5.1** | Zhipu AI | 200K | — | — | ~80.4% (est.) | — | $1.00 / $3.20 | 2026-04-26 |
 | **MiniMax M3** | MiniMax | 1M | ~92.9% | — | — | — | $0.30 / $1.20 | 2026-06-01 ⭐ |
 | **MiniMax-M2.5** | MiniMax | 200K | 85.2% | — | 80.2% | 86.3% | $0.30 / $1.20 | 2026-04-26 |
-| **Kimi K2.6** | Moonshot AI | 256K | 90.5% | — | 80.2% | 96.4% | $0.60 / $3.00 | 2026-04-26 |
+| **Kimi K2.6** | Moonshot AI | 262K | 90.5% | — | 80.2% | 96.4% | $0.60 / $3.00 | 2026-04-26 |
 | **DeepSeek-V4-Flash** | DeepSeek | 1M | — | — | — | — | $0.14 / $0.28 | 2026-05-08 ⭐
 | **DeepSeek-V4-Pro** | DeepSeek | 1M | — | — | — | — | $0.435 / $0.87 | 2026-05-08 ⭐
 | **DeepSeek-V3.2** | DeepSeek | 164K | 87.1% | — | 67.8% | 89.3% | $0.28 / $0.42 | 2026-04-26 |
@@ -145,7 +145,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **GPT-5.4 mini** | OpenAI | 400K | 87.5% | — | — | — | $0.75 / $4.50 | 2026-04-26 |
 | **GPT-5.4 nano** | OpenAI | 400K | — | — | — | — | $0.20 / $1.25 | 2026-04-26 |
 | **Step-3.5-Flash** | StepFun | 256K | 83.1% | — | 74.4% | 97.3% | Pay-per-token | 2026-04-26 |
-| **Mistral Medium 3.5** ⭐ | Mistral AI | 256K | — | — | 77.6% | 86.3% | $1.50 / $7.50 | 2026-04-29 ⭐ |
+| **Mistral Medium 3.5** | Mistral AI | 256K | — | — | 77.6% | 86.3% | $1.50 / $7.50 | 2026-04-29 |
 | **Mistral Large 3** | Mistral AI | 256K | 43.9% | — | — | — | $0.50 / $1.50 | 2026-04-26 |
 | **Claude Sonnet 4.5** | Anthropic | 200K | 83.4% | — | 77.2% | 87% | $3.00 / $15.00 | 2026-04-26 |
 | **Llama 4 Scout** | Meta | 10M | 57.2% | — | — | — | Free (self-host) | 2026-04-26 |
@@ -153,11 +153,12 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Grok 4** | xAI | 256K | ~91.1% | ~1493 (Text) | — | 100% | $3.00 / $15.00 | 2026-04-26 |
 | **Grok 4 Fast** | xAI | 128K | — | — | — | — | $0.20 / $0.50 | 2026-05-28 ⭐ |
 | **Grok 4.20** | xAI | 2M | — | — | — | — | $1.25 / $2.50 | 2026-05-28 ⭐ |
-| **Grok 4.3** | xAI | 1M | — | — | — | — | $1.25 / $2.50 | 2026-05-06 ⭐
+| **Grok 4.3** | xAI | 1M | — | — | — | — | $1.25 / $2.50 | 2026-05-06
 | **Qwen3.7-Max** 🇨🇳 | Alibaba | 1M | 92.4% | — | 80.4% | — | $2.50 / $7.50 | 2026-05-20 ⭐
 | **Qwen3.7-Plus-Preview** 🇨🇳 | Alibaba | 1M | — | — | — | — | Lower than Max | 2026-05-20 ⭐
 | **MAI-Thinking-1** | Microsoft | 256K | 84.2% | — | — | — | TBD (Private Preview) | 2026-06-02 ⭐
-| **MAI-Code-1-Flash** | Microsoft | — | — | — | — | — | $0.75 / $4.50 | 2026-06-02 ⭐
+| **MAI-Code-1-Flash** | Microsoft | — | — | — | — | — | $0.75 / $4.50 | 2026-06-02 ⭐ |
+| **NVIDIA Nemotron 3 Ultra** | NVIDIA | 262K | — | — | — | — | Free (NVIDIA NIM) | 2026-06-05 ⭐ |
 
 ### Model Specifications 📋
 
@@ -192,7 +193,7 @@ Maximum output tokens per single API request.
 | **GLM-5.1** | 131K | 200K | — |
 | **MiniMax M3** | 512K | 1M (guaranteed 512K min) | Native multimodal (text/image/video); open weights pending ~2026-06-11 |
 | **MiniMax-M2.5** | 131K | 1M | — |
-| **Kimi K2.6** | — | 256K | Not publicly specified |
+| **Kimi K2.6** | 262K | 262K | Max output = 262,144 tokens (MIT open-weight) |
 | **Step-3.5-Flash** | 66K | 256K | — |
 | **Grok 4** | — | 256K | Not publicly specified |
 | **Grok 4 Fast** | 30K | 128K | Now aliased to Grok 4.3; $0.20 / $0.50 |
@@ -354,6 +355,7 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **Lizzy-7B** | Flower Labs | 7B | — | MIT |
 | **MiMo-V2.5** | Xiaomi | 309B / 15B active | 1M | MIT |
 | **MiMo-V2.5-Pro** | Xiaomi | 1.02T / 42B active | 1M | MIT |
+| **NVIDIA Nemotron 3 Ultra** | NVIDIA | 550B / 55B active (MoE) | 262K (BF16) / 1M (NVFP4 Blackwell) | Open Weight (NVIDIA) |
 | **MiniMax M3** | MiniMax | — (open weights pending ~2026-06-11) | 1M | Apache 2.0 (pending) |
 
 #### Deployment Options
@@ -579,12 +581,13 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | **Claude Opus 4.6** | 91.3% | — | 1500 | 40.0–53.0% | 80.8% | — | — | 99.8% | 68.8% | — | — | — |
 | **Claude Opus 4.8** | — | — | — | — | 88.6% | 69.2% | — | — | — | — | — | — |
 | **Claude Mythos Preview** | 94.5% | — | — | — | 93.9% | — | — | — | — | — | — | — |
-| **GPT-5.5** | 93.2% | — | 1495 | 42.1–55.0% | 88.5% | — | — | 99.9% | 71.2% | — | — | 52% |
+| **GPT-5.5** | 93.6% | — | 1495 | 42.1–55.0% | 88.5% | — | — | 99.9% | 71.2% | — | — | 52% |
 | **GPT-5.5 Instant** | 91.0% | — | — | — | 88.7% | — | — | — | — | — | — | — |
+| **NVIDIA Nemotron 3 Ultra** | — | — | — | — | — | — | — | — | — | — | — | — |
 | **GPT-5.5 Pro** | 95.1% | 96% | 1520 | 48.5–62.0% | 92.3% | — | — | 100% | 78.5% | — | 97% | 58% |
 | **Claude Sonnet 4.6** | 89.9% | — | ~1438 | 33.2–49.0% | 79.6% | — | — | ~95% | 58.3% | — | — | — |
 | **Claude Sonnet 4.5** | 83.4% | 88.0% | — | — | 77.2% | — | — | 87–100% | — | — | — | — |
-| **Mistral Medium 3.5** ⭐ | — | — | — | — | 77.6% | — | — | 86.3% | — | — | — | — |
+| **Mistral Medium 3.5** | — | — | — | — | 77.6% | — | — | 86.3% | — | — | — | — |
 | **GPT-5.4** | 92.0% | 94% | 1484 | 36.6–41.6% | ~80% | 57.7% | 84–88% | 88% | 73.3% | 94% | — | 50% (Pro) |
 | **GPT-5.4 mini** | 87.5% | — | — | — | — | 54.4% | — | — | — | — | — | — |
 | **GPT-5.3-Codex** | 91.5% | — | — | — | — | 56.8% | 85% | — | — | — | — | — |
@@ -797,6 +800,7 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 |------|-----------|---------|----------|--------|
 | **Gemini CLI** | Google | Free | Google ecosystem & Gemini models in-terminal | <a href="https://github.com/google-gemini/gemini-cli" rel="nofollow">🔗</a> |
 | **Antigravity CLI (`agy`)** | Google | Free (Pro/Ultra for higher limits) | Agentic coding, multi-agent orchestration, replacement for Gemini CLI | <a href="https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/" rel="nofollow">🔗</a> |
+| **Google Colab CLI** ⭐ | Google | Free (Colab account) | Run Python on remote Colab GPUs/TPUs from local terminal; AI agent compatible; released 2026-06-06 | <a href="https://github.com/googlecolab/colab-cli" rel="nofollow">🔗</a> |
 
 > **⚠️ Anthropic June 15 Billing Split:** Starting 2026-06-15, Anthropic moves Claude Agent SDK, `claude -p`, and Claude Code GitHub Actions to separate metered credits billed at full API rates. Pro subscribers get $20/mo credit; Max 20x gets $200/mo. Interactive Claude Code and Claude.ai remain on standard subscription.
 | **Cursor CLI** | Cursor | Free tier | Terminal + IDE bridge | <a href="https://github.com/getcursor/cursor" rel="nofollow">🔗</a> |
@@ -921,7 +925,7 @@ Services for accessing AI models via API.
 
 | Provider | Models | Key Features |
 |----------|--------|--------------|
-| **OpenRouter** | 350+ | Unified API, crypto/fiat, model rankings, fallback routing |
+| **OpenRouter** | 370+ | Unified API, crypto/fiat, model rankings, fallback routing, Speech & Transcription APIs (June 2026), Model Fusion, private models, enterprise workspace controls |
 | **Hugging Face** | Thousands | Serverless inference, free tier |
 | **LiteLLM** | 100+ | Open-source proxy; single OpenAI-compatible API for any provider | <a href="https://github.com/BerriAI/litellm" rel="nofollow">🔗</a> |
 | **Portkey** | 200+ | Gateway: load balance, fallbacks, caching, observability |
@@ -1182,7 +1186,7 @@ Coordinate multiple AI agents in parallel to complete complex workflows — driv
 | Platform | Type | Dashboard | CLI | Cloud | Local LLM | Parallel | Pricing | GitHub |
 |----------|------|:---------:|:---:|:-----:|:---------:|:--------:|---------|--------|
 | **CrewAI** | Multi-agent OSS + Cloud | ✅ AMP Studio | ✅ `crewai` | ✅ AMP | ✅ | ✅ | Free OSS / Starter $99/mo / Pro $299/mo / Enterprise custom | <a href="https://github.com/crewAIInc/crewAI" rel="nofollow">🔗</a> |
-| **AutoGen 1.0** (Microsoft) | Multi-agent conversations (GA Feb 2026) | ✅ AG2 Studio | ✅ Python | ✅ Azure | ✅ | ✅ | Free (OSS) / Azure pay-per-token | <a href="https://github.com/microsoft/autogen" rel="nofollow">🔗</a> |
+| **Microsoft Agent Framework** (AutoGen + Semantic Kernel unified) | Multi-agent conversations (v1.0 GA April 2026) | ✅ AG2 Studio | ✅ Python | ✅ Azure | ✅ | ✅ | Free (OSS) / Azure pay-per-token | <a href="https://github.com/microsoft/autogen" rel="nofollow">🔗</a> |
 | **LangGraph** | Stateful agent graphs | ✅ LangSmith | ✅ Python | ✅ Cloud | ✅ | ✅ | Free OSS / Professional $99/mo | <a href="https://github.com/langchain-ai/langgraph" rel="nofollow">🔗</a> |
 | **OpenHands** | Dev-focused multi-agent | ✅ Web UI | ✅ | ✅ Cloud | ✅ | ✅ | Free (OSS + Cloud free tier) | <a href="https://github.com/All-Hands-AI/OpenHands" rel="nofollow">🔗</a> |
 | **OWL** (Camel-AI) | Distributed multi-agent | ❌ | ✅ Python | ❌ | ✅ | ✅ | Free (OSS) | <a href="https://github.com/camel-ai/owl" rel="nofollow">🔗</a> |
@@ -2003,7 +2007,7 @@ Additional context from the May 2026 research pass (supplements earlier tables; 
 
 ---
 
-**Last Updated:** 2026-06-02 00:00 UTC
+**Last Updated:** 2026-06-08 00:00 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
