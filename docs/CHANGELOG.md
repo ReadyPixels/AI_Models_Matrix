@@ -1,3 +1,21 @@
+## [2026-06-07] - Version 3.18 - Daily verification & metadata update
+
+### Changed
+
+- **Document metadata**: `docs/readme.md` document version **3.17 → 3.18**; **Last Updated** set to **2026-06-07 00:00 UTC**.
+- **Routine verification**: Performed daily review. Verified no major model releases or pricing changes since 2026-06-02.
+
+### Notes
+- Document maintained current.
+
+### Sources (verification, 2026-06-07 UTC)
+
+- Official provider status pages (OpenAI, Anthropic, Google, DeepSeek)
+- SWE-bench verified leaderboard updates
+- LLM Arena leaderboard changelog
+
+---
+
 ## [2026-06-02] - Version 3.17 - Benchmark updates, new models, dev tools
 
 ### Added
