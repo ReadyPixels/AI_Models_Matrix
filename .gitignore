@@ -1,13 +1,21 @@
-# Documentation files to ignore
+# ─── Local / Internal docs ────────────────────────────────────────────────────
+CLAUDE.md
 docs/FIXES_SUMMARY.md
 docs/GITIGNORE_SUMMARY.md
 docs/UPDATE_RULES.md
-CLAUDE.md
+docs/Plan.md
+docs/changelog_entry.md
 
-# Plans directory (internal planning documents)
+# ─── Local automation (not for public repo) ───────────────────────────────────
+automation/
+
+# ─── Temp folder (one-off scripts, drafts, experimental files) ────────────────
+tmp/
+
+# ─── Plans ────────────────────────────────────────────────────────────────────
 /plans/
 
-# Operating System files
+# ─── Operating system ─────────────────────────────────────────────────────────
 .DS_Store
 .DS_Store?
 ._*
@@ -17,37 +25,43 @@ ehthumbs.db
 Thumbs.db
 Desktop.ini
 
-# Editor directories and files
+# ─── Editors & IDEs ───────────────────────────────────────────────────────────
 .vscode/
-.kiro/
-.kilo/
 .idea/
-.trae/
-!.trae/logs/
-*.swp
-*.swo
-*~
 .project
 .classpath
 .settings/
 *.sublime-project
 *.sublime-workspace
-
-# Temporary files
-*.tmp
-*.temp
-*.log
-*.bak
-*.backup
+*.swp
+*.swo
 *~
 
-# Node modules (if any scripts are added)
+# ─── AI tool directories ──────────────────────────────────────────────────────
+.trae/
+!.trae/logs/
+.trae/temp-data/
+.trae/documents/
+.cursor
+.kiro/
+.kilo/
+.qwen
+.research
+.windsurf/
+.copilot/
+.codeium/
+.continue/
+.aider*
+.tabnine/
+.sourcegraph/
+
+# ─── Node ─────────────────────────────────────────────────────────────────────
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Python (if any scripts are added)
+# ─── Python ───────────────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *$py.class
@@ -57,37 +71,19 @@ env/
 venv/
 ENV/
 .venv
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# Build outputs
+# ─── Build outputs ────────────────────────────────────────────────────────────
 dist/
 build/
 *.egg-info/
 
-# Local environment files
+# ─── Secrets & credentials ────────────────────────────────────────────────────
 .env
 .env.local
 .env.*.local
-
-.research
-.cursor
-.qwen
-.kilo/
-.windsurf/
-.copilot/
-.codeium/
-.continue/
-.aider*
-.tabnine/
-.sourcegraph/
-
-# AI tool cache and session data
-.trae/temp-data/
-.trae/documents/
-
-# Automation folder
-automation/
-
-# Secrets and credentials
 *.pem
 *.key
 *.cert
@@ -97,26 +93,19 @@ secrets.json
 credentials.json
 config.local.*
 
-# Coverage and test output
+# ─── Test & coverage ──────────────────────────────────────────────────────────
 coverage/
 .coverage
 *.lcov
 htmlcov/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
 
-# Jupyter
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
 .ipynb_checkpoints/
 *.ipynb
 
-# Lock files (uncomment if desired)
-# package-lock.json
-# yarn.lock
-# pnpm-lock.yaml
-
-docs/Plan.md
-docs/changelog_entry.md
-apply_updates2.py
-apply_updates.py
-.claudeignore
+# ─── Temporary files ──────────────────────────────────────────────────────────
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
