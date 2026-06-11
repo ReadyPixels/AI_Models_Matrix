@@ -1,3 +1,59 @@
+## [2026-06-11] - Version 3.28 - Claude Fable 5, Mythos 5, SWE-bench leaderboard reshuffle, Arena Elo updates, GPU Clouds pricing refresh
+
+### Added
+- **Claude Fable 5** (Frontier Models, Coding Models, Benchmark Reference): First publicly available Mythos-class model from Anthropic; SWE-bench Verified 95.0%, SWE-bench Pro 80.3%, GPQA Diamond 94.5%, FrontierCode Diamond 29.3%, Terminal-Bench 2.1 88.0%; $10/$50 per 1M tokens; 1M context, 128K max output; free on subscription plans through June 22; released 2026-06-09.
+  - Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
+- **Claude Mythos 5** (Frontier Models, Benchmark Reference): Restricted variant of Fable 5 with safeguards lifted for cyber/bio/chem; available via Project Glasswing (~150 organizations); SWE-bench Verified 95.5%, GPQA Diamond ~94.1%; same $10/$50 pricing; released 2026-06-09.
+  - Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
+- **Claude Fable 5** (Commercial Coding Models): Added as top-tier coding model entry.
+- **Claude Fable 5 / Mythos 5** (Output Token Limits, Cached & Batch Pricing, Sort by Latest Update, Release Windows, Data Sources): New rows/entries added across all spec tables.
+
+### Updated
+- **SWE-bench Verified Leaderboard**: Mythos 5 now #1 (95.5%), Fable 5 #2 (95.0%), Mythos Preview dropped to #3 (93.9%). All subsequent rankings shifted accordingly.
+  - Source: https://benchlm.ai/benchmarks/sweVerified
+- **Arena Elo scores** (Frontier Models table): Updated Claude Opus 4.8 to ~1512, Claude Opus 4.7 to ~1505, GPT-5.5 to 1506, Gemini 3.1 Pro to 1505 based on LMArena June 2026 data.
+  - Source: https://www.swfte.com/lmarena
+- **Top Models by Category**: Coding #1 changed to Claude Fable 5; Agentic Performance #1 changed to Claude Fable 5.
+- **Sort by Performance (Coding)**: Updated top 10 with Fable 5 (#2, 95.0%) and Mythos 5 (#1, 95.5%).
+- **Pricing Tiers**: Added Fable 5 to Premium tier.
+- **Model Recommendations by Task**: Coding premium changed to Claude Fable 5; Chat premium changed to Claude Fable 5.
+- **Anthropic billing note**: Updated to reflect June 15 billing split has taken effect; added Fable 5 subscription access details (free through June 22).
+- **Kimi Code CLI** (Autonomous Coding Agents): Updated description to note it is the successor to kimi-cli with expanded subagent support (coder/explore/plan) and ACP integration.
+- **Benchmark Reference table**: Added rows for Fable 5 and Mythos 5 with verified scores.
+- **GPU Clouds pricing table**: Updated all provider rates with verified June 2026 pricing. Key changes: Vast.ai A100 ~$0.28-$1.00, H100 ~$1.38-$2.13; RunPod A100 $1.19-$2.19, H100 $1.99-$3.29; Lambda Labs A100 $1.29-$2.79, H100 $2.49-$3.99; Modal Labs A100 ~$2.50-$3.40, H100 ~$3.95; CoreWeave A100 ~$2.70, H100 ~$6.16. Added note on Modal production multipliers (3.75x).
+  - Sources: https://lambda.ai/pricing, https://www.runpod.io/pricing, https://vast.ai/pricing, https://modal.com/pricing, https://www.coreweave.com/pricing, https://gpucost.org/cloud-gpu-pricing, https://getdeploying.com/gpus/nvidia-h100
+- **Stale ⭐ markers removed**: Removed ⭐ from 20 entries older than 30 days: GPT Image 2, Flux 2, ReSharper for VS Code, Claude Cowork, GPT-Realtime-2, Qwen3-Embedding-8B, jina-embeddings-v4, Qwen3-Reranker-4B, Veo 3.1, Seedance 2.0, Luma Ray3.14, LTX-2, Gemini 3.1 Flash TTS, Realtime TTS-2, Grok TTS, Lightning V3.1/V3.2, Fish Audio S2 Pro, IndexTTS-2, Darwin-TTS-1.7B-Cross, Voxtral TTS, JetBrains AI Assistant, Unsloth, SiliconFlow, Qwen3.5-9B/4B/2B/0.8B, MOSS-TTS-v1.5, Grok STT, DeepSeek V4 (Sort by Latest), GPT-5.5 Pro (Sort by Latest), Grok 4.3 (Sort by Latest), Gemini 3 Flash (Frontier Models + Sort by Latest).
+- **Document Version**: 3.27 -> 3.28; Last Updated badge updated to 2026-06-11.
+
+---
+
+## [2026-06-10] - Version 3.27 - Kimi Code CLI, Mistral Small 4 corrections, Kling 3.0, Gemini Embedding 2 pricing, stale markers
+
+### Added
+- **Kimi Code CLI** (Autonomous Coding Agents): Open-source MIT-licensed terminal agent by Moonshot AI; TypeScript; powered by Kimi K2.6 (1T MoE, 32B active); 256K context; subagent support; SWE-bench Pro 58.6%; released 2026-06-06.
+  - Source: https://www.marktechpost.com/2026/06/06/moonshot-ai-releases-kimi-code-cli-a-terminal-ai-coding-agent-built-in-typescript-for-next-gen-agents/
+- **Mistral Small 4** (Free-Source Models table): Added as open-source frontier-capable entry with pricing $0.15/$0.60; confirmed 256K context (corrected from 128K).
+  - Source: https://mistral.ai/news/mistral-small-4/ and https://openrouter.ai/mistralai/mistral-small-2603
+
+### Updated
+- **Kling** (Video Generation): Updated from Kling 2.0 to Kling 3.0 (released 2026-02-04); duration now up to 15s; Multi-Shot Storyboard feature.
+  - Source: https://www.getaiperks.com/en/blogs/44-best-ai-video-generators-2026
+- **Gemini Embedding 2** (Embedding Models): Added confirmed pricing $0.20/1M text tokens; removed stale ⭐ (released 2026-04-30, now >30 days).
+  - Source: https://cloudprice.net/models/google-gemini-embedding-2-preview
+- **Mistral Small 4** (Free-Source Models + SLMs): Corrected context window from 128K to 256K; removed stale ⭐.
+  - Source: https://docs.mistral.ai/models/overview
+- **Microsoft Agent Framework** (Multi-Agent Platforms): Corrected GA date from February 2026 to April 2026 (official GA was April 2-3, 2026).
+  - Source: https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-at-build-2026-announce
+- **Moonshot AI** (Model Labs): Updated model list to Kimi K2.6 and Kimi Code CLI with pricing.
+- **Stale ⭐ removed**: GPT-5.5 Pro (2026-05-08), DeepSeek-V4-Flash (2026-05-08), DeepSeek-V4-Pro (2026-05-08) - all older than 30 days from 2026-06-10. Gemini 3.5 Flash, Gemini Omni Flash (2026-05-19) and Qwen3.7-Max/Plus-Preview (2026-05-20) retain ⭐ (within 30 days).
+- **Mistral Small 4** (Frontier + Benchmark Reference): Added GPQA Diamond ~71.2% from model card reporting.
+  - Source: https://huggingface.co/mistralai/Mistral-Small-4-119B-2603
+- **Benchmark gaps filled** (Frontier Models table): Claude Opus 4.8 GPQA Diamond 93.6%; DeepSeek-V4-Flash GPQA ~88.1% / SWE-bench ~79%; DeepSeek-V4-Pro GPQA ~90.1% / SWE-bench ~80.6% (DeepSeek internal claims, marked as estimates); Grok 4.3 GPQA 83.3% / SWE-bench ~69.1%.
+  - Sources: https://www.vellum.ai/blog/claude-opus-4-8-benchmarks-explained, https://www.morphllm.com/deepseek-v4, https://openrouter.ai/x-ai/grok-4.3/benchmarks
+- **Document Version**: 3.26 → 3.27; Last Updated badge updated to 2026-06-10.
+
+---
+
 ## [2026-06-08] - Version 3.26 - Nemotron 3 Ultra, Colab CLI, OpenRouter Speech API, benchmark & staleness fixes
 
 ### Added
