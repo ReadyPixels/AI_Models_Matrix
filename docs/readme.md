@@ -6,7 +6,7 @@
 
 <a href="https://awesome.re" rel="nofollow"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
-<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--06--11%2000%3A00%20UTC-green.svg" alt="Last Updated"></a>
+<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--06--17%2000%3A00%20UTC-green.svg" alt="Last Updated"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social" alt="Star History"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social" alt="Forks"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix/issues" rel="nofollow"><img src="https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix" alt="Issues"></a>
@@ -21,7 +21,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ### 🔥 Highlights
 - **130+ AI models** from major providers (OpenAI, Anthropic, Google, Meta, etc.)
-- **Latest pricing** and performance benchmarks (updated June 2026 - v3.28)
+- **Latest pricing** and performance benchmarks (updated June 2026 - v3.29)
 - **Self-hosting guides** for open-source models
 - **Development tools** for AI application building
 - **Community-sourced** insights and real-world feedback
@@ -30,13 +30,13 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 | Category | #1 | #2 | #3 |
 |----------|-----|-----|-----|
-| **Coding** | Claude Fable 5 | Claude Opus 4.8 | GPT-5.5 Pro |
+| **Coding** | Claude Opus 4.8 | GPT-5.5 | Claude Sonnet 4.6 |
 | **Reasoning** | Gemini 3 Deep Think | GPT-5.5 Pro | Qwen3.7-Max |
-| **Open Source** | DeepSeek-V4-Flash | Kimi K2.6 | Qwen3.5-Max |
-| **Cost Efficiency** | DeepSeek-V4-Flash | Grok 4.3 | Gemini 3.5 Flash |
+| **Open Source** | MiniMax M3 | DeepSeek-V4-Flash | Kimi K2.7 Code |
+| **Cost Efficiency** | DeepSeek-V4-Flash | MiniMax M3 | Gemini 3.5 Flash |
 | **Free & Budget** | Gemini 3.1 Flash-Lite ($0.25/1M) | Grok 4.3 ($1.25/1M) | Claude Haiku 4.5 ($1/1M) |
-| **Agentic Performance** | Claude Fable 5 | Claude Opus 4.8 | GPT-5.5 |
-| **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Claude Opus 4.6 (1M) |
+| **Agentic Performance** | Claude Opus 4.8 | GPT-5.5 | Gemini 3.1 Pro |
+| **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Claude Opus 4.8 (1M) |
 
 ## 📚 Documentation
 
@@ -50,8 +50,8 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.28
-- **Last Updated**: 2026-06-11 00:00 UTC
+- **Document Version**: 3.29
+- **Last Updated**: 2026-06-17 00:00 UTC
 - **Repository**: https://github.com/ReadyPixels/AI_Models_Matrix
 - **License**: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">CC BY-NC 4.0</a>
 
@@ -116,55 +116,24 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 | Model | Company | Context | GPQA Diamond | Arena Elo | SWE-bench Verified | AIME 2025 | Pricing | Verified |
 |-------|---------|---------|--------------|-----------|--------------------|-----------|---------|----------|
-| **GPT-5.5** | OpenAI | 1M | 93.6% | 1506 | 88.5% | 99.9% | $5.00 / $30.00 | 2026-04-26 |
+| **Claude Opus 4.8** | Anthropic | 1M | 93.6% | 1483 | 88.6% | — | $5.00 / $25.00 | 2026-05-28 |
+| **Claude Opus 4.7** | Anthropic | 1M | 94.2% | 1502 | 87.6% | ~95% | $5.00 / $25.00 | 2026-04-26 |
+| **GPT-5.5** | OpenAI | 1M | 93.6% | 1481 | 88.5% | 99.9% | $5.00 / $30.00 | 2026-04-26 |
 | **GPT-5.5 Instant** | OpenAI | 1M | 91.0% | — | 88.7% | — | $5.00 / $30.00 | 2026-05-05 |
 | **GPT-5.5 Pro** | OpenAI | 1.05M | 94.2% | — | 92.3% | 100% | $30.00 / $180.00 | 2026-05-08 |
-| **Claude Opus 4.8** | Anthropic | 1M | 93.6% | ~1512 | 88.6% | — | $5.00 / $25.00 | 2026-05-28 ⭐ |
-| **Claude Opus 4.7** | Anthropic | 1M | 94.2% | ~1505 | 87.6% | ~95% | $5.00 / $25.00 | 2026-04-26 |
-| **Claude Sonnet 4.6** | Anthropic | 1M | 89.9% | ~1438 (Text) / 1523 (Code) | 79.6% | ~95% | $3.00 / $15.00 | 2026-04-26 |
-| **GPT-5.3-Codex** | OpenAI | 400K | 91.5% | — | 85.0% | — | $1.75 / $14.00 | 2026-04-26 |
-| **Gemini 3.1 Pro** | Google | 1M | 94.3% | 1505 | 80.6% | 100% | $2.00 / $12.00 | 2026-04-26 |
-| **Gemini 3.5 Flash** | Google | 1M | ~90.4% | — | — | — | $1.50 / $9.00 | 2026-05-19 ⭐ |
-| **Gemini 3.5 Pro** | Google | 2M (est.) | — | — | — | — | TBD | June 2026 (Preview) ⭐ |
-| **Gemini Omni Flash** | Google | — | — | — | — | — | Included with AI Plus/Pro/Ultra | 2026-05-19 ⭐ |
-| **Gemini 3 Deep Think** | Google | 1M+ | ~97% | — | ~58% | — | Ultra subscription | 2026-04-26 |
-| **Claude Mythos Preview** | Anthropic | 1M | — | — | — | — | $25.00 / $125.00 | 2026-04-07 |
-| **GLM-5** | Zhipu AI | 200K | 82.0% | ~1451 (Text) / 1445 (Code) | 77.8% | 92.7% | $1.00 / $3.20 | 2026-04-26 |
-| **GLM-5.1** | Zhipu AI | 200K | — | — | ~80.4% (est.) | — | $1.00 / $3.20 | 2026-04-26 |
-| **MiniMax M3** | MiniMax | 1M | ~92.9% | — | — | — | $0.30 / $1.20 | 2026-06-01 ⭐ |
-| **MiniMax-M2.5** | MiniMax | 200K | 85.2% | — | 80.2% | 86.3% | $0.30 / $1.20 | 2026-04-26 |
-| **Kimi K2.6** | Moonshot AI | 262K | 90.5% | — | 80.2% | 96.4% | $0.60 / $3.00 | 2026-04-26 |
-| **DeepSeek-V4-Flash** | DeepSeek | 1M | ~88.1% | — | ~79% | — | $0.14 / $0.28 | 2026-05-08 |
-| **DeepSeek-V4-Pro** | DeepSeek | 1M | ~90.1% | — | ~80.6% | — | $0.435 / $0.87 | 2026-05-08 |
-| **DeepSeek-V3.2** | DeepSeek | 164K | 87.1% | — | 67.8% | 89.3% | $0.28 / $0.42 | 2026-04-26 |
-| **Qwen3.5-Max** | Alibaba | 128K | 89.3% | — | 76.4% | 91.3% | Pay-per-token | 2026-04-26 |
-| **Gemini 3 Pro** | Google | 1M+ | 91.9% | 1486 (Text) / 1438 (Code) | 76.2% | 100% | Tiered pricing | 2026-04-26 |
-| **Gemini 3 Flash** | Google | 10M | 90.4% | 1474 (Text) / 1438 (Code) | 78.0% | — | $0.50 / $3.00 | 2026-05-08 |
-| **Gemini 3.1 Flash-Lite** | Google | 1M | 86.9% | 1432 | — | — | $0.25 / $1.50 | 2026-04-26 |
-| **GPT-5.4** | OpenAI | 1M | 92.0% | 1484 (Text) / 1457 (Code) | ~80% | 88% | $2.50 / $15.00 | 2026-04-26 |
-| **GPT-5.4 mini** | OpenAI | 400K | 87.5% | — | — | — | $0.75 / $4.50 | 2026-04-26 |
-| **GPT-5.4 nano** | OpenAI | 400K | — | — | — | — | $0.20 / $1.25 | 2026-04-26 |
-| **Step-3.5-Flash** | StepFun | 256K | 83.1% | — | 74.4% | 97.3% | Pay-per-token | 2026-04-26 |
-| **Mistral Medium 3.5** | Mistral AI | 256K | — | — | 77.6% | 86.3% | $1.50 / $7.50 | 2026-04-29 |
-| **Mistral Large 3** | Mistral AI | 256K | 43.9% | — | — | — | $0.50 / $1.50 | 2026-04-26 |
-| **Claude Sonnet 4.5** | Anthropic | 200K | 83.4% | — | 77.2% | 87% | $3.00 / $15.00 | 2026-04-26 |
-| **Llama 4 Scout** | Meta | 10M | 57.2% | — | — | — | Free (self-host) | 2026-04-26 |
-| **Llama 4 Maverick** | Meta | 128K | 69.8% | — | — | — | Free (self-host) | 2026-04-26 |
-| **Grok 4** | xAI | 256K | ~91.1% | ~1493 (Text) | — | 100% | $3.00 / $15.00 | 2026-04-26 |
-| **Grok 4 Fast** | xAI | 128K | — | — | — | — | $0.20 / $0.50 | 2026-05-28 ⭐ |
-| **Grok 4.20** | xAI | 2M | — | — | — | — | $1.25 / $2.50 | 2026-05-28 ⭐ |
-| **Grok 4.3** | xAI | 1M | 83.3% | — | ~69.1% | — | $1.25 / $2.50 | 2026-05-06 |
-| **Qwen3.7-Max** 🇨🇳 | Alibaba | 1M | 92.4% | — | 80.4% | — | $2.50 / $7.50 | 2026-05-20 ⭐ |
-| **Qwen3.7-Plus-Preview** 🇨🇳 | Alibaba | 1M | — | — | — | — | Lower than Max | 2026-05-20 ⭐ |
-| **MAI-Thinking-1** | Microsoft | 256K | 84.2% | — | — | — | TBD (Private Preview) | 2026-06-02 ⭐ |
-| **MAI-Code-1-Flash** | Microsoft | — | — | — | — | — | $0.75 / $4.50 | 2026-06-02 ⭐ |
-| **Claude Fable 5** ⭐ | Anthropic | 1M | 94.5% | — | 95.0% | — | $10.00 / $50.00 | 2026-06-09 ⭐ |
-| **Claude Mythos 5** ⭐ | Anthropic | 1M | ~94.1% | — | 95.5% | — | $10.00 / $50.00 | 2026-06-09 ⭐ |
-| **NVIDIA Nemotron 3 Ultra** | NVIDIA | 262K | — | — | — | — | Free (NVIDIA NIM) | 2026-06-05 ⭐ |
+| **Gemini 3.1 Pro** | Google | 1M | 94.3% | 1486 | 80.6% | 100% | $2.00 / $12.00 | 2026-04-26 |
+| **Claude Fable 5** ⚠️ | Anthropic | 1M | 94.5% | 1508 | 95.0% | — | $10.00 / $50.00 | 2026-06-09 ⭐ |
+| **Claude Mythos 5** ⚠️ | Anthropic | 1M | ~94.1% | — | 95.5% | — | $10.00 / $50.00 | 2026-06-09 ⭐ |
+| **NVIDIA Nemotron 3 Ultra** | NVIDIA | 262K | — | — | — | — | Free (NVIDIA NIM) | 2026-06-05 |
+| **Kimi K2.7 Code** ⭐ | Moonshot AI | 262K | 65.8% | — | 78.2% | 91.5% | $0.95 / $4.00 | 2026-06-12 ⭐ |
+| **MAI-Thinking-1** ⭐ | Microsoft | 256K | 84.2% | — | — | 97% | TBD (Private Preview) | 2026-06-02 ⭐ |
+| **MAI-Code-1-Flash** ⭐ | Microsoft | — | — | — | — | — | $0.75 / $4.50 | 2026-06-02 ⭐ |
+
+> ⚠️ **Claude Fable 5 and Mythos 5 suspended**: On June 12, 2026, Anthropic disabled global access to both models following a US government export control directive. Access may be restored for US-based users around July 1, 2026. Use Claude Opus 4.8 as an alternative. Source: [Anthropic Statement](https://www.anthropic.com/news/fable-mythos-access)
 
 ### Model Specifications 📋
 
-Detailed technical specifications, pricing, and capabilities for all frontier models. Data as of 2026-06-11.
+Detailed technical specifications, pricing, and capabilities for all frontier models. Data as of 2026-06-17.
 
 #### Output Token Limits
 
@@ -196,6 +165,7 @@ Maximum output tokens per single API request.
 | **MiniMax M3** | 512K | 1M (guaranteed 512K min) | Native multimodal (text/image/video); open weights pending ~2026-06-11 |
 | **MiniMax-M2.5** | 131K | 1M | — |
 | **Kimi K2.6** | 262K | 262K | Max output = 262,144 tokens (MIT open-weight) |
+| **Kimi K2.7 Code** | 262K | 262K | Coding-focused variant of K2.6; 30% fewer thinking tokens; Modified MIT |
 | **Step-3.5-Flash** | 66K | 256K | — |
 | **Grok 4** | — | 256K | Not publicly specified |
 | **Grok 4 Fast** | 30K | 128K | Now aliased to Grok 4.3; $0.20 / $0.50 |
@@ -364,7 +334,9 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **MiMo-V2.5** | Xiaomi | 309B / 15B active | 1M | MIT |
 | **MiMo-V2.5-Pro** | Xiaomi | 1.02T / 42B active | 1M | MIT |
 | **NVIDIA Nemotron 3 Ultra** | NVIDIA | 550B / 55B active (MoE) | 262K (BF16) / 1M (NVFP4 Blackwell) | Open Weight (NVIDIA) |
-| **MiniMax M3** ⭐ | MiniMax | — (open weights releasing ~2026-06-11) | 1M | Apache 2.0 (pending) |
+| **MiniMax M3** ⭐ | MiniMax | — (open weights released ~2026-06-11) | 1M | MIT |
+| **Kimi K2.7 Code** ⭐ | Moonshot AI | 1T / 32B active (MoE) | 262K | Modified MIT |
+| **Kimi K2.6** | Moonshot AI | 1T / 32B active (MoE) | 262K | Modified MIT |
 
 #### Deployment Options
 
@@ -389,37 +361,40 @@ Specialized AI models optimized for software development tasks.
 
 | Rank | Model | Company | SWE-bench Verified |
 |------|-------|---------|-------------------|
-| 🥇 #1 | **Claude Mythos 5** | Anthropic | 95.5% |
-| 🥈 #2 | **Claude Fable 5** | Anthropic | 95.0% |
+| 🥇 #1 | **Claude Mythos 5** ⚠️ | Anthropic | 95.5% |
+| 🥈 #2 | **Claude Fable 5** ⚠️ | Anthropic | 95.0% |
 | 🥉 #3 | **Claude Mythos Preview** | Anthropic | 93.9% |
 | #4 | **GPT-5.5 Pro** | OpenAI | 92.3% |
-| #5 | **Claude Opus 4.8** | Anthropic | 88.6% |
-| #6 | **Claude Opus 4.7** | Anthropic | 87.6% |
-| #7 | **GPT-5.5** | OpenAI | 88.7% |
+| #5 | **GPT-5.5** | OpenAI | 88.7% |
+| #6 | **Claude Opus 4.8** | Anthropic | 88.6% |
+| #7 | **Claude Opus 4.7** | Anthropic | 87.6% |
 | #8 | **GPT-5.3-Codex** | OpenAI | 85.0% |
 | #9 | **Claude Opus 4.5** | Anthropic | 80.9% |
 | #10 | **Claude Opus 4.6** | Anthropic | 80.8% |
 | #11 | **DeepSeek-V4-Pro (Max)** | DeepSeek | 80.6% |
 | #11 | **Gemini 3.1 Pro** | Google | 80.6% |
-| #13 | **MiniMax-M2.5** | MiniMax | 80.5% |
+| #13 | **MiniMax M3** ⭐ | MiniMax | 80.5% |
 | #14 | **Qwen3.7-Max** | Alibaba | 80.4% |
 | #15 | **Kimi K2.6** | Moonshot AI | 80.2% |
-| #16 | **GPT-5.2** | OpenAI | 80.0% |
-| #17 | **Claude Sonnet 4.6** | Anthropic | 79.6% |
-| #18 | **DeepSeek-V4-Flash (Max)** | DeepSeek | 79.0% |
-| #19 | **Qwen3.6 Plus** | Alibaba | 78.8% |
-| #20 | **Gemini 3 Flash** | Google | 78.0% |
-| #20 | **MiMo-V2-Pro** | Xiaomi | 78.0% |
-| #22 | **GLM-5** | Zhipu AI | 77.8% |
-| #23 | **Mistral Medium 3.5** | Mistral AI | 77.6% |
-| #24 | **Claude Sonnet 4.5** | Anthropic | 77.2% |
+| #16 | **MiniMax-M2.5** | MiniMax | 80.2% |
+| #17 | **GPT-5.2** | OpenAI | 80.0% |
+| #18 | **Claude Sonnet 4.6** | Anthropic | 79.6% |
+| #19 | **DeepSeek-V4-Flash (Max)** | DeepSeek | 79.0% |
+| #20 | **Qwen3.6 Plus** | Alibaba | 78.8% |
+| #21 | **Kimi K2.7 Code** ⭐ | Moonshot AI | 78.2% |
+| #22 | **Gemini 3 Flash** | Google | 78.0% |
+| #22 | **MiMo-V2-Pro** | Xiaomi | 78.0% |
+| #24 | **GLM-5** | Zhipu AI | 77.8% |
+| #25 | **Mistral Medium 3.5** | Mistral AI | 77.6% |
+| #26 | **Claude Sonnet 4.5** | Anthropic | 77.2% |
 
 #### Commercial Coding Models
 
 | Model | Developer | Pricing | Best For |
 |-------|-----------|---------|----------|
-| **Claude Fable 5** ⭐ | Anthropic | $10.00 / $50.00 per 1M | Mythos-class coding; SWE-bench 95.0%; free on subscription plans through June 22 |
-| **Claude Opus 4.8** | Anthropic | $5.00 / $25.00 per 1M | Agentic coding, complex tasks, best Opus |
+| **Claude Fable 5** ⚠️ ⭐ | Anthropic | $10.00 / $50.00 per 1M | Mythos-class coding; SWE-bench 95.0%; **suspended globally June 12, 2026** |
+| **Claude Opus 4.8** | Anthropic | $5.00 / $25.00 per 1M | Agentic coding, complex tasks, best available Opus |
+| **Kimi K2.7 Code** ⭐ | Moonshot AI | $0.95 / $4.00 per 1M | Open-weight coding agent; 30% fewer thinking tokens vs K2.6 |
 | **Claude Opus 4.6** | Anthropic | $5.00 / $25.00 per 1M | Agentic coding, complex tasks |
 | **GPT-5.5 Pro** | OpenAI | $30.00 / $180.00 per 1M | Highest benchmark coding |
 | **GPT-5.3-Codex** | OpenAI | $1.75 / $14.00 per 1M | Agentic coding, 7+ hour autonomy |
@@ -438,6 +413,8 @@ Specialized AI models optimized for software development tasks.
 
 | Model | Developer | License | Hardware |
 |-------|-----------|---------|----------|
+| **Kimi K2.7 Code** ⭐ | Moonshot AI | Modified MIT | 80-160 GB VRAM |
+| **MiniMax M3** ⭐ | MiniMax | MIT | 80-160 GB VRAM |
 | **GPT-OSS-120B** | OpenAI | Apache 2.0 | 80-160 GB VRAM |
 | **Qwen3-Coder** | Alibaba | Apache 2.0 | 160-320 GB VRAM |
 | **DeepSeek-Coder-V2** | DeepSeek | MIT | 48-80 GB VRAM |
@@ -453,17 +430,16 @@ Models optimized for step-by-step reasoning, mathematical problem-solving, and c
 
 | Rank | Model | AIME 2025 | ARC-AGI-2 | Notes |
 |------|-------|-----------|-----------|-------|
-| 🥇 #1 | **GPT-5.2** | 100% | 52.9% | Perfect AIME (self-reported) |
-| 🥇 #1 | **Gemini 3 Pro** | 100% | 31.1–45.1% | Perfect AIME with code execution |
-| 🥇 #1 | **Grok 4** | 100% | — | First-principles reasoning |
-| #4 | **GPT-5.5 Pro** | 100% | 78.5% | Highest combined |
-| #5 | **Claude Opus 4.6** | 99.8% | 68.8% | Near-perfect AIME (without tools) |
-| #6 | **Gemini 3.1 Pro** | 100% | 77.1% | Highest combined reasoning |
-| #7 | **Gemini 3 Flash Preview** | 99.7% | — | Near-perfect (self-reported) |
-| #8 | **GPT-5** | 99.6% | — | Thinking with Python |
-| #9 | **Nemotron 3 Nano 30B** | 99.2% | — | Near-perfect from NVIDIA |
-| #10 | **Seed 2.0 Pro** | 98.3% | — | ByteDance flagship |
-| #11 | **o3** | 98.4% | — | OpenAI reasoning model |
+| 🥇 #1 | **MAI-Thinking-1** ⭐ | 97% | — | Microsoft's first in-house reasoning model; private preview |
+| #2 | **Kimi K2.5 (Reasoning)** | 96.1% | — | Moonshot AI reasoning variant |
+| #2 | **Kimi K2.5** | 96.1% | — | Open-weight reasoning |
+| #4 | **GLM-4.7** | 95.7% | — | Zhipu AI open-weight |
+| #5 | **MiMo-V2-Flash** | 94.1% | — | Xiaomi open-weight |
+| #6 | **Claude Sonnet 4.5** | 87% | — | — |
+| #7 | **Exaone 4.0 32B** | 85.3% | — | LG AI Research |
+| #8 | **Nemotron 3 Nano Omni 30B** | 82.1% | — | NVIDIA |
+| #9 | **LFM2.5-8B-A1B** | 42.5% | — | LiquidAI |
+| #10 | **MiniCPM5-1B** | 40.4% | — | OpenBMB |
 | #12 | **Step-3.5-Flash** | 97.3% | — | Best efficiency ratio |
 | #13 | **Kimi K2.6** | 96.4% | — | Strong multimodal reasoning |
 | #14 | **GLM-4.7** | 95.7% | — | Zhipu AI strong performer |
@@ -798,7 +774,7 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 |------|----------|---------|--------------|--------|
 | **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode, thinking tokens | <a href="https://github.com/Aider-AI/aider" rel="nofollow">🔗</a> |
 | **Claude Code 2.2.1+** | macOS, Linux, Windows | Free + API | Opus 4.8 support (fast mode 3× cheaper), simple mode file editing, multi-session support, `/autofix-pr`, plan mode, computer use (research preview), CLAUDE.md skills & sub-agents | <a href="https://github.com/anthropics/claude-code" rel="nofollow">🔗</a> |
-| **Codex CLI** | Windows, macOS, Linux | Included | Sandbox, approval modes | <a href="https://github.com/openai/codex" rel="nofollow">🔗</a> |
+| **Codex CLI** | Windows, macOS, Linux | Included | Rust-native rewrite; sandbox, approval modes, /goal persistent workflows, Chrome extension, GPT-5-Codex default; v0.140+ | <a href="https://github.com/openai/codex" rel="nofollow">🔗</a> |
 | **Junie CLI** | Windows, macOS, Linux | Free (BYOK) | LLM-agnostic, JetBrains IDE integration, MCP | <a href="https://www.jetbrains.com/junie" rel="nofollow">🔗</a> |
 | **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible, desktop app, 25+ providers | <a href="https://github.com/block/goose" rel="nofollow">🔗</a> |
 | **Grok Build** | Windows, macOS, Linux | $300/mo (SuperGrok/X Premium Plus) | Plan mode, Arena mode, 2M context window, security-focused | ❌ |
@@ -806,7 +782,8 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 | **OpenHands** | Windows, macOS, Linux | Free | Cloud agents, MCP | <a href="https://github.com/All-Hands-AI/OpenHands" rel="nofollow">🔗</a> |
 | **Mentat** | Windows, macOS, Linux | Free | Multi-file coordination | <a href="https://github.com/AbanteAI/mentat" rel="nofollow">🔗</a> |
 | **SERA** | Linux, macOS | Free (Apache 2.0) | Open-source coding agent, 200K synthetic trajectories | <a href="https://github.com/Ai2Labs/SERA" rel="nofollow">🔗</a> |
-| **Kimi Code CLI** ⭐ | Windows, macOS, Linux | Free (MIT) | TypeScript CLI by Moonshot AI; successor to kimi-cli; powered by Kimi K2.6 (1T MoE); subagent support (coder/explore/plan); 262K context; SWE-bench Pro 58.6%; ACP (Zed, JetBrains); released 2026-06-06 | <a href="https://github.com/moonshot-labs-uk/kimi-code" rel="nofollow">🔗</a> |
+| **Kimi K2.7 Code** ⭐ | Windows, macOS, Linux | $0.95 / $4.00 per 1M | Coding-focused agent; 30% fewer thinking tokens vs K2.6; Modified MIT; 262K context; released 2026-06-12 | <a href="https://github.com/MoonshotAI/Kimi-K2.7-Code" rel="nofollow">🔗</a> |
+| **Kimi Code CLI** | Windows, macOS, Linux | Free (MIT) | TypeScript CLI by Moonshot AI; successor to kimi-cli; powered by Kimi K2.6 (1T MoE); subagent support (coder/explore/plan); 262K context; SWE-bench Pro 58.6%; ACP (Zed, JetBrains); released 2026-06-06 | <a href="https://github.com/moonshot-labs-uk/kimi-code" rel="nofollow">🔗</a> |
 | **Vibe** (Mistral) | Windows, macOS, Linux | Free (Le Chat) / API | Agentic coding + work agent, multi-model Mistral harness, VS Code extension, Code Mode web surface, parallel sessions | <a href="https://mistral.ai/news/vibe-agent/" rel="nofollow">🔗</a> |
 | **AI Dev Kit** | Cross-platform | Free | 59 skills, 33 agents, TDD, security audit, CI/CD | <a href="https://github.com/noah-sheldon/ai-dev-kit" rel="nofollow">🔗</a> |
 
@@ -2032,7 +2009,7 @@ Additional context from the May 2026 research pass (supplements earlier tables; 
 
 ---
 
-**Last Updated:** 2026-06-11 00:00 UTC
+**Last Updated:** 2026-06-17 00:00 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
