@@ -6,7 +6,7 @@
 
 <a href="https://awesome.re" rel="nofollow"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
-<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--06--17%2000%3A00%20UTC-green.svg" alt="Last Updated"></a>
+<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--06--18%2000%3A00%20UTC-green.svg" alt="Last Updated"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social" alt="Star History"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social" alt="Forks"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix/issues" rel="nofollow"><img src="https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix" alt="Issues"></a>
@@ -21,7 +21,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ### 🔥 Highlights
 - **130+ AI models** from major providers (OpenAI, Anthropic, Google, Meta, etc.)
-- **Latest pricing** and performance benchmarks (updated June 2026 - v3.29)
+- **Latest pricing** and performance benchmarks (updated June 2026 - v3.30)
 - **Self-hosting guides** for open-source models
 - **Development tools** for AI application building
 - **Community-sourced** insights and real-world feedback
@@ -50,7 +50,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.29
+- **Document Version**: 3.30
 - **Last Updated**: 2026-06-18 00:00 UTC
 - **Repository**: https://github.com/ReadyPixels/AI_Models_Matrix
 - **License**: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">CC BY-NC 4.0</a>
@@ -133,7 +133,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 ### Model Specifications 📋
 
-Detailed technical specifications, pricing, and capabilities for all frontier models. Data as of 2026-06-17.
+Detailed technical specifications, pricing, and capabilities for all frontier models. Data as of 2026-06-18.
 
 #### Output Token Limits
 
@@ -791,7 +791,7 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 
 | Tool | Developer | Pricing | Best For | GitHub |
 |------|-----------|---------|----------|--------|
-| **Gemini CLI** | Google | Free | Google ecosystem & Gemini models in-terminal | <a href="https://github.com/google-gemini/gemini-cli" rel="nofollow">🔗</a> |
+| **Gemini CLI** ⚠️ | Google | Free (now shut down) | Google ecosystem & Gemini models in-terminal; **stopped serving requests June 18, 2026** for AI Pro/Ultra/free users; migrate to Antigravity CLI | <a href="https://github.com/google-gemini/gemini-cli" rel="nofollow">🔗</a> |
 | **Antigravity CLI (`agy`)** | Google | Free (Pro/Ultra for higher limits) | Agentic coding, multi-agent orchestration, replacement for Gemini CLI | <a href="https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/" rel="nofollow">🔗</a> |
 | **Google Colab CLI** ⭐ | Google | Free (Colab account) | Run Python on remote Colab GPUs/TPUs from local terminal; AI agent compatible; released 2026-06-06 | <a href="https://github.com/googlecolab/colab-cli" rel="nofollow">🔗</a> |
 
@@ -801,7 +801,7 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 | **Qwen Code** | Alibaba | Free | Qwen optimization | <a href="https://github.com/QwenLM/qwen-code" rel="nofollow">🔗</a> |
 | **Qodo CLI** | Qodo | Free tier | Testing, review & agent workflows | <a href="https://github.com/qodo-ai/command" rel="nofollow">🔗</a> |
 
-> **Gemini CLI (deprecation & security notes):** Google announced at I/O 2026 that Gemini CLI will be **shut down on June 18, 2026** and replaced by <a href="https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/" rel="nofollow">Antigravity CLI (`agy`)</a>. Migrate agentic workflows to `agy` before the cutoff. Current CLI generations add offline search, bundled ripgrep, optional color-accessible themes, interactive shell tool invocation, and an <a href="https://github.com/google/A2A" rel="nofollow">A2A</a>-style agent registry surface in the tool (see <a href="https://geminicli.com/docs/changelogs/" rel="nofollow">Gemini CLI changelogs</a>). Treat upgrades through **v0.39.1+** as mandatory maintenance: public advisories described a critical remote-code path affecting earlier builds (widely reported as CVSS 10.0); confirm your installed build against the release notes for your package channel.
+> **Gemini CLI (deprecation & security notes):** As of **June 18, 2026**, Gemini CLI and the Gemini Code Assist IDE extensions have **stopped serving requests** for Google AI Pro, Ultra, and free Gemini Code Assist for individuals, per Google's official announcement. Google ecosystem users should migrate agentic workflows to <a href="https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/" rel="nofollow">Antigravity CLI (`agy`)</a>. Enterprise Code Assist Standard/Enterprise licensees retain access. Current CLI generations add offline search, bundled ripgrep, optional color-accessible themes, interactive shell tool invocation, and an <a href="https://github.com/google/A2A" rel="nofollow">A2A</a>-style agent registry surface in the tool (see <a href="https://geminicli.com/docs/changelogs/" rel="nofollow">Gemini CLI changelogs</a>). Treat upgrades through **v0.39.1+** as mandatory maintenance: public advisories described a critical remote-code path affecting earlier builds (widely reported as CVSS 10.0); confirm your installed build against the release notes for your package channel. Source: <a href="https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/" rel="nofollow">Google Developers Blog</a>
 
 #### CLI Tools by Programming Language
 
@@ -2009,7 +2009,7 @@ Additional context from the May 2026 research pass (supplements earlier tables; 
 
 ---
 
-**Last Updated:** 2026-06-17 00:00 UTC
+**Last Updated:** 2026-06-18 00:00 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---

@@ -1,3 +1,17 @@
+## [2026-06-18] - Version 3.30 - Gemini CLI shutdown takes effect, metadata refresh
+
+### Updated
+- **Gemini CLI** (Assisted CLI Tools): Shutdown took effect June 18, 2026. Updated table row to mark ⚠️ "stopped serving requests" for Google AI Pro/Ultra/free Gemini Code Assist for individuals; Enterprise Code Assist Standard/Enterprise licensees retain access. Migrate to Antigravity CLI (`agy`).
+  - Source: https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/
+- **Gemini CLI deprecation note**: Reworded from future-tense "will be shut down on June 18" to present-tense "As of June 18, 2026 ... stopped serving requests"; added Google Developers Blog source link.
+- **Document Version**: 3.29 -> 3.30; Last Updated badge updated to 2026-06-18; At a Glance, Highlights, Model Specifications "Data as of", and footer Last Updated bumped to 2026-06-18.
+
+### Notes
+- No new frontier model launches in the 24-48 hours since v3.29 (most recent tracked release remains NVIDIA Nemotron 3 Ultra, 2026-06-04). SWE-bench Verified leaderboard unchanged as of June 16/17 (Mythos 5 #1 95.5%, Fable 5 #2 95.0%, vals.ai confirms Fable 5 95.00% updated 6/17). Fable 5/Mythos 5 remain suspended since June 12; no restoration yet (Anthropic working toward early-July deal).
+  - Sources: https://www.vals.ai/benchmarks/swebench, https://www.anthropic.com/news/claude-fable-5-mythos-5
+
+---
+
 ## [2026-06-17] - Version 3.29 - Fable/Mythos suspension, Kimi K2.7 Code, MiniMax M3 GA, Arena Elo refresh, stale markers
 
 ### Added
