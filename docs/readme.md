@@ -20,8 +20,8 @@
 Looking for the best AI models? Check out our **[Top Models by Category](#top-models-by-category)** table below for quick recommendations. For detailed analysis, explore the comprehensive sections on frontier models, open-source alternatives, and development tools.
 
 ### 🔥 Highlights
-- **130+ AI models** from major providers (OpenAI, Anthropic, Google, Meta, etc.)
-- **Latest pricing** and performance benchmarks (updated June 2026 - v3.30)
+- **135+ AI models** from major providers (OpenAI, Anthropic, Google, Meta, etc.)
+- **Latest pricing** and performance benchmarks (updated June 2026 - v3.31)
 - **Self-hosting guides** for open-source models
 - **Development tools** for AI application building
 - **Community-sourced** insights and real-world feedback
@@ -32,7 +32,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 |----------|-----|-----|-----|
 | **Coding** | Claude Opus 4.8 | GPT-5.5 | Claude Sonnet 4.6 |
 | **Reasoning** | Gemini 3 Deep Think | GPT-5.5 Pro | Qwen3.7-Max |
-| **Open Source** | MiniMax M3 | DeepSeek-V4-Flash | Kimi K2.7 Code |
+| **Open Source** | GLM-5.2 | MiniMax M3 | DeepSeek-V4-Flash |
 | **Cost Efficiency** | DeepSeek-V4-Flash | MiniMax M3 | Gemini 3.5 Flash |
 | **Free & Budget** | Gemini 3.1 Flash-Lite ($0.25/1M) | Grok 4.3 ($1.25/1M) | Claude Haiku 4.5 ($1/1M) |
 | **Agentic Performance** | Claude Opus 4.8 | GPT-5.5 | Gemini 3.1 Pro |
@@ -50,7 +50,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.30
+- **Document Version**: 3.31
 - **Last Updated**: 2026-06-18 00:00 UTC
 - **Repository**: https://github.com/ReadyPixels/AI_Models_Matrix
 - **License**: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">CC BY-NC 4.0</a>
@@ -117,7 +117,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | Model | Company | Context | GPQA Diamond | Arena Elo | SWE-bench Verified | AIME 2025 | Pricing | Verified |
 |-------|---------|---------|--------------|-----------|--------------------|-----------|---------|----------|
 | **Claude Opus 4.8** | Anthropic | 1M | 93.6% | 1483 | 88.6% | — | $5.00 / $25.00 | 2026-05-28 |
-| **Claude Opus 4.7** | Anthropic | 1M | 94.2% | 1502 | 87.6% | ~95% | $5.00 / $25.00 | 2026-04-26 |
+| **Claude Opus 4.7** | Anthropic | 1M | 94.2% | 1493 | 87.6% | ~95% | $5.00 / $25.00 | 2026-04-26 |
 | **GPT-5.5** | OpenAI | 1M | 93.6% | 1481 | 88.5% | 99.9% | $5.00 / $30.00 | 2026-04-26 |
 | **GPT-5.5 Instant** | OpenAI | 1M | 91.0% | — | 88.7% | — | $5.00 / $30.00 | 2026-05-05 |
 | **GPT-5.5 Pro** | OpenAI | 1.05M | 94.2% | — | 92.3% | 100% | $30.00 / $180.00 | 2026-05-08 |
@@ -126,6 +126,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Claude Mythos 5** ⚠️ | Anthropic | 1M | ~94.1% | — | 95.5% | — | $10.00 / $50.00 | 2026-06-09 ⭐ |
 | **NVIDIA Nemotron 3 Ultra** | NVIDIA | 262K | — | — | — | — | Free (NVIDIA NIM) | 2026-06-05 |
 | **Kimi K2.7 Code** ⭐ | Moonshot AI | 262K | 65.8% | — | 78.2% | 91.5% | $0.95 / $4.00 | 2026-06-12 ⭐ |
+| **GLM-5.2** ⭐ | Zhipu AI | 753B / 40B active (MoE) | 1M | ~91.2% | — | — | 99.2% (AIME 2026) | $1.40 / $4.40 | 2026-06-13 ⭐ |
 | **MAI-Thinking-1** ⭐ | Microsoft | 256K | 84.2% | — | — | 97% | TBD (Private Preview) | 2026-06-02 ⭐ |
 | **MAI-Code-1-Flash** ⭐ | Microsoft | — | — | — | — | — | $0.75 / $4.50 | 2026-06-02 ⭐ |
 
@@ -322,9 +323,10 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **GLM-5.1** | Zhipu AI | 754B / 40B active (MoE) | 200K | MIT |
 | **GLM-4.7** | Zhipu AI | 400B+ MoE | 205K | Open Weight |
 | **Gemma 4 31B** | Google | 31B dense | 256K | Apache 2.0 |
-| **Gemma 4 27B** | Google | 27B MoE (4B active) | 256K | Apache 2.0 |
+| **Gemma 4 26B-A4B** | Google | 26B MoE (4B active) | 256K | Apache 2.0 |
 | **Gemma 4 E4B** | Google | 4B dense | 256K | Apache 2.0 |
 | **Gemma 4 E2B** | Google | 2B dense | 256K | Apache 2.0 |
+| **Gemma 4 12B** | Google | 12B dense | 256K | Apache 2.0 |
 | **Qwen3-Coder 7B** | Alibaba | 7B dense | 128K | Apache 2.0 |
 | **Qwen 2.5 Coder 32B** | Alibaba | 32B dense | 128K | Apache 2.0 |
 | **DeepSeek Coder-V2** | DeepSeek | 236B / 2.4B active | 128K | MIT |
@@ -335,6 +337,7 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **MiMo-V2.5-Pro** | Xiaomi | 1.02T / 42B active | 1M | MIT |
 | **NVIDIA Nemotron 3 Ultra** | NVIDIA | 550B / 55B active (MoE) | 262K (BF16) / 1M (NVFP4 Blackwell) | Open Weight (NVIDIA) |
 | **MiniMax M3** ⭐ | MiniMax | — (open weights released ~2026-06-11) | 1M | MIT |
+| **GLM-5.2** ⭐ | Zhipu AI | 753B / 40B active (MoE) | 1M | MIT |
 | **Kimi K2.7 Code** ⭐ | Moonshot AI | 1T / 32B active (MoE) | 262K | Modified MIT |
 | **Kimi K2.6** | Moonshot AI | 1T / 32B active (MoE) | 262K | Modified MIT |
 
@@ -414,6 +417,7 @@ Specialized AI models optimized for software development tasks.
 | Model | Developer | License | Hardware |
 |-------|-----------|---------|----------|
 | **Kimi K2.7 Code** ⭐ | Moonshot AI | Modified MIT | 80-160 GB VRAM |
+| **GLM-5.2** ⭐ | Zhipu AI | MIT | 80-160 GB VRAM |
 | **MiniMax M3** ⭐ | MiniMax | MIT | 80-160 GB VRAM |
 | **GPT-OSS-120B** | OpenAI | Apache 2.0 | 80-160 GB VRAM |
 | **Qwen3-Coder** | Alibaba | Apache 2.0 | 160-320 GB VRAM |
@@ -441,6 +445,7 @@ Models optimized for step-by-step reasoning, mathematical problem-solving, and c
 | #9 | **LFM2.5-8B-A1B** | 42.5% | — | LiquidAI |
 | #10 | **MiniCPM5-1B** | 40.4% | — | OpenBMB |
 | #12 | **Step-3.5-Flash** | 97.3% | — | Best efficiency ratio |
+| #12 | **GLM-5.2** ⭐ | 99.2% (AIME 2026) | — | Zhipu AI open-weight; leads AIME 2026 leaderboard |
 | #13 | **Kimi K2.6** | 96.4% | — | Strong multimodal reasoning |
 | #14 | **GLM-4.7** | 95.7% | — | Zhipu AI strong performer |
 | #15 | **Claude Sonnet 4.6** | ~95%–95.6% | 58.3% | Near-Opus performance |
@@ -560,7 +565,7 @@ Comprehensive hardware specifications for self-hosting AI models.
 
 ### Comprehensive Benchmark Reference 📈
 
-Detailed benchmark scores across all major evaluations. Scores are percentages (%) unless noted. Arena Elo scores are integers. `—` = not publicly reported. Data as of 2026-06-11.
+Detailed benchmark scores across all major evaluations. Scores are percentages (%) unless noted. Arena Elo scores are integers. `—` = not publicly reported. Data as of 2026-06-18.
 
 #### Full Benchmark Table
 
@@ -600,6 +605,7 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | **MiMo-V2-Pro** | 87.0% | — | — | — | 78.0% | — | — | — | — | — | — | — |
 | **GLM-5.1** | — | — | — | — | ~80.4% (est.) | — | — | — | — | — | — | — |
 | **Kimi K2.6** | 90.5% | 87.1% | — | 31.5–50.2% | 80.2% | — | 85.0% | 96.4% | — | 78.5% | — | — |
+| **GLM-5.2** ⭐ | ~91.2% | — | — | — | — | 62.1% | 76.8% (MCP-Atlas) | 99.2% | — | — | — | — |
 | **MiniMax M3** | ~92.9% | — | — | — | — | — | — | — | — | — | — | — |
 | **MiniMax-M2.5** | 85.2% | — | — | — | 80.2% | 55.4% | — | 86.3% | — | — | — | — |
 | **Step-3.5-Flash** | 83.1% | — | — | — | 74.4% | — | 86.4% | 97.3% | — | — | — | — |
@@ -897,7 +903,7 @@ Services for accessing AI models via API.
 | **Anthropic** | Claude Fable 5, Claude Mythos 5 (restricted), Claude Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 4.6, Haiku 4.5 | Pay-per-token |
 | **Alibaba Cloud** | Qwen3.5-Max, Qwen3-Coder, Qwen3.6-27B | Pay-per-token / Coding Plan $50/mo |
 | **Gemini (Google)** | Gemini 3.5 Flash, Gemini 3.5 Pro (preview), Gemini 3.1 Pro, 3 Pro, 3 Flash | Pay-per-token |
-| **Z.ai (Zhipu AI)** | GLM-5, GLM-5.1, GLM-4.7, GLM-5-Code | Pay-per-token |
+| **Z.ai (Zhipu AI)** | GLM-5.2 ⭐, GLM-5, GLM-5.1, GLM-4.7, GLM-5-Code | Pay-per-token |
 | **MiniMax** | MiniMax M3, MiniMax-M2.5/M2.7/M2 | Pay-per-token |
 | **Cohere** | Command, Embed, Rerank | Pay-per-token |
 | **AI21 Labs** | Jamba | Pay-per-token |
@@ -1152,6 +1158,7 @@ These agents run on your own machine, see your screen, and control your keyboard
 | **Windows-Use** | ✅ | ❌ | ❌ | ❌ | ✅ | Any vision LLM | ❌ | ❌ | Free (OSS) | <a href="https://github.com/CursorTouch/Windows-Use" rel="nofollow">🔗</a> |
 | **Bytebot** | ❌ | ❌ | ✅ | ✅ (Docker) | ✅ | Any LLM | ❌ | ❌ | Free (OSS) | <a href="https://github.com/bytebot-ai/bytebot" rel="nofollow">🔗</a> |
 | **OpenCUA** | ✅ | ✅ | ✅ | ❌ | ✅ | Any | ❌ | ❌ | Free (OSS) | <a href="https://github.com/xlang-ai/OpenCUA" rel="nofollow">🔗</a> |
+| **Windows Agent Framework** (Microsoft) | ✅ | ❌ | ❌ | Agent Designer in VS 2026 | ✅ `wagent` | Any LLM | ❌ | ❌ | Free (MIT) | <a href="https://github.com/microsoft/agent-framework" rel="nofollow">🔗</a> |
 | **Khoj** | ✅ | ✅ | ✅ | ✅ Web UI | ✅ | Any (Ollama, LM Studio, OpenAI) | ❌ | ❌ | Free (OSS) / Cloud $10/mo | <a href="https://github.com/khoj-ai/khoj" rel="nofollow">🔗</a> |
 | **Eigent (CAMEL-AI)** | ✅ | ✅ | ✅ | ❌ | ✅ | Any LLM | ✅ | ✅ | Free (OSS) | <a href="https://github.com/eigent-ai/eigent" rel="nofollow">🔗</a> |
 
@@ -1442,7 +1449,7 @@ Tools for tracing LLM calls, evaluating output quality, debugging RAG pipelines,
 
 ### MCP Ecosystem 🔌
 
-The <a href="https://modelcontextprotocol.io" rel="nofollow">Model Context Protocol (MCP)</a> is an open standard originally by Anthropic, now governed by the **Agentic AI Foundation (AAIF)** under the Linux Foundation (co-founded by Anthropic, Block, and OpenAI; supported by Google, Microsoft, AWS, Cloudflare, Bloomberg). It connects LLMs to external tools and data sources via a unified JSON-RPC 2.0 interface, supporting STDIO and Streamable HTTP transports. The official MCP registry at <a href="https://mcp.so" rel="nofollow">mcp.so</a> lists **10,000+ active public servers**.
+The <a href="https://modelcontextprotocol.io" rel="nofollow">Model Context Protocol (MCP)</a> is an open standard originally by Anthropic, now governed by the **Agentic AI Foundation (AAIF)** under the Linux Foundation (co-founded by Anthropic, Block, and OpenAI; supported by Google, Microsoft, AWS, Cloudflare, Bloomberg). It connects LLMs to external tools and data sources via a unified JSON-RPC 2.0 interface, supporting STDIO and Streamable HTTP transports. The official MCP registry at <a href="https://mcp.so" rel="nofollow">mcp.so</a> lists **10,000+ active public servers**. MCP SDK downloads exceeded **97 million monthly** by March 2026. The next spec release (2026-07-28 RC) introduces stateless transport, Tasks primitive, and enterprise auth hardening.
 
 **MCP Clients:** Claude Desktop, Claude Code, Cursor, Windsurf, VS Code (Copilot), Continue.dev, Zed, ChatGPT, Gemini, Microsoft Copilot, LibreChat, and more.
 
@@ -1538,6 +1545,9 @@ Compact models designed for on-device inference, edge deployment, low-latency AP
 | Gemma 4 26B A4B | Google | 26B MoE (4B active) | 256K | Apache 2.0 | Multimodal, efficient MoE, agentic workflows |
 | Gemma 4 E4B | Google | 4B dense | 256K | Apache 2.0 | On-device, CPU inference, multimodal (text+image+audio) |
 | Gemma 4 E2B | Google | 2B dense | 256K | Apache 2.0 | Ultra-lightweight, on-device, 5GB RAM (4-bit) |
+| **Gemma 4 12B** | Google | 12B dense | 256K | Apache 2.0 | Encoder-free unified multimodal (text+image+audio), hybrid-thinking |
+| **Aion 1.0 Instruct** | Microsoft | — | — | — | On-device SLM for Windows; smaller, faster, smarter |
+| **Aion 1.0 Plan** | Microsoft | — | — | — | On-device reasoning/tool-calling SLM for local agentic capabilities |
 | Gemma 3 27B | Google | 27B | 128K | Apache 2.0 | Top open model, multilingual (140+ languages) |
 | Gemma 3 4B | Google | 4B | 128K | Apache 2.0 | CPU inference, 140+ languages, mobile-friendly |
 | Gemma 3 1B | Google | 1B | 32K | Apache 2.0 | On-device, embedded, ultra-lightweight |
@@ -1594,7 +1604,7 @@ A beginner-friendly introduction to AI models and how to start using them effect
 | Task | Free Option | Premium Option |
 |------|-------------|----------------|
 | **Chat** | Llama 4 (self-hosted) | Claude Fable 5, GPT-5.5 Instant |
-| **Coding** | Qwen3-Coder (self-hosted) | Claude Fable 5, Claude Opus 4.8 |
+| **Coding** | GLM-5.2, Qwen3-Coder (self-hosted) | Claude Fable 5, Claude Opus 4.8 |
 | **Reasoning** | DeepSeek-R1 | Gemini 3 Deep Think, GPT-5.5 Pro |
 | **Long docs** | Llama 4 Scout | Gemini 3 Flash |
 | **Vision** | Llama 4 Maverick | GPT-5.5, Gemini 3.1 Pro |
@@ -1765,6 +1775,7 @@ Comprehensive pricing comparisons and cost calculations.
 | **GPT-5.4 mini** | $0.75 | $4.50 | $0.075 | Fast coding and multimodal tasks |
 | **Claude Haiku 4.5** | $1.00 | $5.00 | — | Low-latency coding and sub-agents |
 | **GLM-5** | $1.00 | $3.20 | $0.20 | Agentic engineering |
+| **GLM-5.2** ⭐ | $1.40 | $4.40 | — | Frontier open-weight coding + 1M context; MIT license |
 | **Perplexity Sonar** | $1.00 | $1.00 | — | Web-grounded chat (request fees apply) |
 | **GPT-5.3-Codex** | $1.75 | $14.00 | $0.175 | Agentic coding, 7+ hour autonomy |
 | **Gemini 3.1 Pro** | $2.00 | $12.00 | $0.20–$0.40 + $4.50/hr | Frontier reasoning |
@@ -1849,6 +1860,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 🤖 Anthropic | Claude | Fable 5 | 2026-06-09 00:00 UTC | 2026-06-09 00:00 UTC ⭐ | ✅ | GPQA 94.5%, SWE-bench 95.0% | $10.00 / $50.00 | ❌ | <a href="https://www.anthropic.com/" rel="nofollow">🔗</a> |
 | 🤖 Anthropic | Claude | Mythos 5 | 2026-06-09 00:00 UTC | 2026-06-09 00:00 UTC ✅ | — | GPQA ~94.1%, SWE-bench 95.5% | $10.00 / $50.00 | ❌ | <a href="https://www.anthropic.com/" rel="nofollow">🔗</a> |
 | 🇨🇳 Alibaba | Qwen3.7 | Max | 2026-05-20 00:00 UTC | 2026-05-20 00:00 UTC ⭐ | ✅ | GPQA 92.4%, SWE-bench 80.4% | $2.50 / $7.50 | ❌ | <a href="https://qwenlm.github.io/" rel="nofollow">🔗</a> |
+| 🇨🇳 Zhipu AI | GLM-5.2 | — | 2026-06-13 00:00 UTC | 2026-06-17 00:00 UTC ⭐ | ✅ | AIME 2026 99.2%, SWE-bench Pro 62.1%, FrontierSWE 74.4% | $1.40 / $4.40 | ✅ | <a href="https://z.ai/" rel="nofollow">🔗</a> |
 | 🤖 Anthropic | Claude | Opus 4.8 | 2026-05-28 00:00 UTC | 2026-05-28 00:00 UTC ⭐ | ✅ | SWE-bench 88.6% | $5.00 / $25.00 | ❌ | <a href="https://www.anthropic.com/" rel="nofollow">🔗</a> |
 | 🌐 Google DeepMind | Gemini 3.5 | Flash | 2026-05-19 00:00 UTC | 2026-05-19 00:00 UTC ⭐ | ✅ | GPQA ~90.4%, SWE-bench Pro 55.1% | $1.50 / $9.00 | ❌ | <a href="https://deepmind.google/models/gemini/" rel="nofollow">🔗</a> |
 | 🤖 Anthropic | Claude | Mythos Preview | 2026-04-07 00:00 UTC | 2026-04-07 00:00 UTC | — | Not disclosed | $25.00 / $125.00 | ❌ | <a href="https://www.anthropic.com/" rel="nofollow">🔗</a> |
@@ -1866,6 +1878,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 🤖 Anthropic | Claude | Fable 5 | 2026-06 | First publicly available Mythos-class model; $10/$50; free on subscription through June 22 | <a href="https://www.anthropic.com/" rel="nofollow">🔗</a> |
 | 🤖 Anthropic | Claude | Mythos 5 | 2026-06 | Restricted to Project Glasswing partners; same model as Fable 5 with safeguards lifted | <a href="https://www.anthropic.com/" rel="nofollow">🔗</a> |
 | 🇨🇳 Alibaba | Qwen3.7-Max | 2026-05 | Proprietary; $2.50 / $7.50 | <a href="https://qwenlm.github.io/" rel="nofollow">🔗</a> |
+| 🇨🇳 Zhipu AI | GLM-5.2 | 2026-06 | 753B params, 1M context, MIT open-weight; AIME 2026 99.2%; API $1.40/$4.40 | <a href="https://z.ai/" rel="nofollow">🔗</a> |
 | 🌐 Google DeepMind | Gemini 3.5 Flash | 2026-05 | GA at I/O 2026; 4x faster than 3.1 Pro |
 | 🌐 Google DeepMind | Gemini Omni Flash | 2026-05 | Any-to-any multimodal creation; rolling out to AI Plus/Pro/Ultra | <a href="https://deepmind.google/models/gemini/" rel="nofollow">🔗</a> |
 | 🤖 Anthropic | Claude Opus 4.8 | 2026-05 | Improved Opus 4.7; SWE-bench 88.6%; fast mode $10/$50 | <a href="https://www.anthropic.com/" rel="nofollow">🔗</a> |
@@ -1893,7 +1906,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 7 | **Grok 4 Fast** | $0.20 | $0.50 | API |
 | 8 | **GPT-5.4 nano** | $0.20 | $1.25 | Proprietary |
 | 9 | **Gemini 3.1 Flash-Lite** | $0.25 | $1.50 | Proprietary |
-| 10 | **Gemini 3 Flash** | $0.50 | $3.00 | Proprietary |
+| 10 | **GLM-5.2** ⭐ | $1.40 | $4.40 | MIT (open-weight) |
 
 #### Sort by Performance (Coding)
 
@@ -1905,10 +1918,10 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 4 | **Claude Opus 4.8** | 88.6% | ❌ |
 | 5 | **Claude Opus 4.7** | 87.6% | ❌ |
 | 6 | **GPT-5.3-Codex** | 85.0% | ❌ |
-| 7 | **Claude Opus 4.6** | 80.8% | ❌ |
-| 8 | **Gemini 3.1 Pro** | 80.6% | ❌ |
-| 9 | **Kimi K2.6** | 80.2% | ❌ |
-| 10 | **MiniMax-M2.5** | 80.2% | ❌ |
+| 7 | **GLM-5.2** ⭐ | 62.1% (SWE-bench Pro) | ✅ |
+| 8 | **Claude Opus 4.6** | 80.8% | ❌ |
+| 9 | **Gemini 3.1 Pro** | 80.6% | ❌ |
+| 10 | **Kimi K2.6** | 80.2% | ❌ |
 
 #### Sort by Context Window
 
@@ -1919,11 +1932,11 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 3 | **Grok 4.20** | 2M | Large codebases with full context |
 | 4 | **Gemini 3 Pro** | 1M+ | Research papers |
 | 5 | **Gemini 3.1 Pro** | 1M | Complex multi-document analysis |
-| 6 | **Claude Opus 4.7** | 1M | Agentic coding with full codebase |
-| 7 | **GPT-5.5 Pro** | 1.05M | Premium reasoning with long context |
-| 8 | **Grok 4.3** | 1M | Reasoning with full project context |
-| 9 | **DeepSeek-V4 (Flash/Pro)** | 1M | Cost-effective long context |
-| 10 | **Kimi K2.6** | 1M | Agentic reasoning with full project context |
+| 6 | **GLM-5.2** ⭐ | 1M | Frontier open-weight coding + long context |
+| 7 | **Gemini 3.5 Flash** | 1M | Fast multimodal reasoning |
+| 8 | **Claude Opus 4.7** | 1M | Agentic coding with full codebase |
+| 9 | **GPT-5.5 Pro** | 1.05M | Premium reasoning with long context |
+| 10 | **Grok 4.3** | 1M | Reasoning with full project context |
 
 ### Data Sources 📚
 
@@ -1960,6 +1973,7 @@ Attribution, verification sources, and methodology.
 | **Google** | Google AI Ultra pricing | <a href="https://blog.google/products-and-platforms/products/google-one/google-ai-ultra/" rel="nofollow">blog.google</a> |
 | **GitHub** | Copilot plans & pricing | <a href="https://github.com/features/copilot/plans" rel="nofollow">github.com</a> |
 | **Zhipu AI (Z.ai)** | Developer Documentation | <a href="https://docs.z.ai/" rel="nofollow">docs.z.ai</a> |
+| **Zhipu AI (Z.ai)** | GLM-5.2 announcement | <a href="https://z.ai/blog/glm-5.2" rel="nofollow">z.ai</a> |
 | **DeepSeek** | Models & API pricing; corporate site | <a href="https://api-docs.deepseek.com/quick_start/pricing" rel="nofollow">api-docs.deepseek.com</a>, <a href="https://www.deepseek.com" rel="nofollow">deepseek.com</a> |
 | **MiniMax** | Developer Documentation | <a href="https://platform.minimax.io/docs/guides/models-intro" rel="nofollow">platform.minimax.io</a> |
 | **MiniMax** | Pricing (Pay‑as‑you‑go) | <a href="https://platform.minimax.io/docs/guides/pricing-paygo" rel="nofollow">platform.minimax.io</a> |
@@ -2001,8 +2015,12 @@ Attribution, verification sources, and methodology.
 
 ### Supplemental agent & CLI notes 📎
 
-Additional context from the May 2026 research pass (supplements earlier tables; nothing below removes or supersedes prior entries).
+Additional context from the June 2026 research pass (supplements earlier tables; nothing below removes or supersedes prior entries).
 
+- **Google I/O 2026 agent announcements** - Antigravity 2.0 (desktop + CLI + SDK) GA on 2026-05-19; Gemini Spark (24/7 personal agent) included with AI Ultra; Android CLI 1.0 stable for AI agent Android development; Gemini CLI sunset on 2026-06-18.
+- **Microsoft Build 2026** - Windows Agent Framework open-sourced (MIT); Aion 1.0 Instruct and Aion 1.0 Plan on-device SLMs announced; Windows 365 for Agents GA; Surface RTX Spark Dev Box and DGX Station for Windows announced.
+- **GLM-5.2 open-source release** - Zhipu AI open-sourced GLM-5.2 (753B MoE, 1M context, MIT license) on 2026-06-17; available via API at $1.40/$4.40 per 1M; leads AIME 2026 at 99.2%.
+- **MCP 2026-07-28 spec RC** - Largest revision since initial release; six breaking changes including stateless transport, two new required HTTP headers, Tasks lifecycle primitive; SDK maintainers have 10 weeks to ship support.
 - **<a href="https://skills.sh" rel="nofollow">skills.sh</a>** — Primary registry for Agent Skills packages (see [Agent Skills & Registries 🎯](#agent-skills--registries-)); pairs naturally with CLI-first workflows (Claude Code, Gemini CLI, MCP-capable agents).
 - **CrewAI** — Multi-agent framework with OSS core plus AMP Studio / AMP Cloud paths; vendor positioning emphasizes transparent orchestration, visual workflows, broad tool integrations, and team-scale adoption (see the **CrewAI** row in the Multi-Agent / Parallel Agent Platforms table in this document).
 - **Aiden** — Listed above under local desktop agents as a Linux-first autonomous stack for running agents without mandatory cloud offload (<a href="https://github.com/taracodlabs/aiden" rel="nofollow">taracodlabs/aiden</a>).
@@ -2041,8 +2059,3 @@ This work is licensed under a <a href="https://creativecommons.org/licenses/by-n
 Made with ❤️ by ReadyPixels LLC
 
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social" alt="Star on GitHub"></a>
-
-
-
-
-| 🌍 Google DeepMind | Gemini Omni | Flash | 2026-05-19 00:00 UTC | 2026-05-19 00:00 UTC ⭐ | ✅ | Multimodal creation | Included with AI Plus/Pro/Ultra | ❌ | <a href="https://deepmind.google/models/" rel="nofollow">🔗</a> |
