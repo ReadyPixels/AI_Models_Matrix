@@ -6,7 +6,7 @@
 
 <a href="https://awesome.re" rel="nofollow"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
-<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--06--18%2000%3A00%20UTC-green.svg" alt="Last Updated"></a>
+<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--06--20%2000%3A00%20UTC-green.svg" alt="Last Updated"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social" alt="Star History"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social" alt="Forks"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix/issues" rel="nofollow"><img src="https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix" alt="Issues"></a>
@@ -21,7 +21,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ### 🔥 Highlights
 - **135+ AI models** from major providers (OpenAI, Anthropic, Google, Meta, etc.)
-- **Latest pricing** and performance benchmarks (updated June 2026 - v3.31)
+- **Latest pricing** and performance benchmarks (updated June 2026 - v3.32)
 - **Self-hosting guides** for open-source models
 - **Development tools** for AI application building
 - **Community-sourced** insights and real-world feedback
@@ -31,7 +31,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 | Category | #1 | #2 | #3 |
 |----------|-----|-----|-----|
 | **Coding** | Claude Opus 4.8 | GPT-5.5 | Claude Sonnet 4.6 |
-| **Reasoning** | Gemini 3 Deep Think | GPT-5.5 Pro | Qwen3.7-Max |
+| **Reasoning** | Gemini 3.1 Pro | GPT-5.5 Pro | Qwen3.7-Max |
 | **Open Source** | GLM-5.2 | MiniMax M3 | DeepSeek-V4-Flash |
 | **Cost Efficiency** | DeepSeek-V4-Flash | MiniMax M3 | Gemini 3.5 Flash |
 | **Free & Budget** | Gemini 3.1 Flash-Lite ($0.25/1M) | Grok 4.3 ($1.25/1M) | Claude Haiku 4.5 ($1/1M) |
@@ -50,8 +50,8 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.31
-- **Last Updated**: 2026-06-19 00:00 UTC
+- **Document Version**: 3.32
+- **Last Updated**: 2026-06-20 00:00 UTC
 - **Repository**: https://github.com/ReadyPixels/AI_Models_Matrix
 - **License**: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">CC BY-NC 4.0</a>
 
@@ -116,25 +116,30 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 | Model | Company | Context | GPQA Diamond | Arena Elo | SWE-bench Verified | AIME 2025 | Pricing | Verified |
 |-------|---------|---------|--------------|-----------|--------------------|-----------|---------|----------|
-| **Claude Opus 4.8** | Anthropic | 1M | 93.6% | 1483 | 88.6% | — | $5.00 / $25.00 | 2026-05-28 |
-| **Claude Opus 4.7** | Anthropic | 1M | 94.2% | 1493 | 87.6% | ~95% | $5.00 / $25.00 | 2026-04-26 |
-| **GPT-5.5** | OpenAI | 1M | 93.6% | 1481 | 88.5% | 99.9% | $5.00 / $30.00 | 2026-04-26 |
-| **GPT-5.5 Instant** | OpenAI | 1M | 91.0% | — | 88.7% | — | $5.00 / $30.00 | 2026-05-05 |
-| **GPT-5.5 Pro** | OpenAI | 1.05M | 94.2% | — | 92.3% | 100% | $30.00 / $180.00 | 2026-05-08 |
-| **Gemini 3.1 Pro** | Google | 1M | 94.3% | 1486 | 80.6% | 100% | $2.00 / $12.00 | 2026-04-26 |
-| **Claude Fable 5** ⚠️ | Anthropic | 1M | 94.5% | 1508 | 95.0% | — | $10.00 / $50.00 | 2026-06-09 ⭐ |
+| **Claude Opus 4.8** | Anthropic | 1M | 93.6% | 1506 | 88.6% | — | $5.00 / $25.00 | 2026-05-28 |
+| **Claude Opus 4.7** | Anthropic | 1M | 94.2% | 1505 | 87.6% | ~95% | $5.00 / $25.00 | 2026-04-26 |
+| **GPT-5.5** | OpenAI | 1M | 93.6% | 1506 | 88.5% | 99.9% | $5.00 / $30.00 | 2026-04-26 |
+| **GPT-5.5 Instant** | OpenAI | 1M | 91.0% | — | 88.7% | — | $0.20 / $1.00 | 2026-05-05 |
+| **GPT-5.5 Pro** | OpenAI | 1.05M | 94.2% | 1551 | 92.3% | 100% | $30.00 / $180.00 | 2026-05-08 |
+| **Gemini 3.1 Pro** | Google | 1M | 94.3% | 1505 | 80.6% | 100% | $2.00 / $12.00 | 2026-04-26 |
+| **Claude Fable 5** ⚠️ | Anthropic | 1M | 94.5% | 1510 | 95.0% | — | $10.00 / $50.00 | 2026-06-09 ⭐ |
 | **Claude Mythos 5** ⚠️ | Anthropic | 1M | ~94.1% | — | 95.5% | — | $10.00 / $50.00 | 2026-06-09 ⭐ |
-| **NVIDIA Nemotron 3 Ultra** | NVIDIA | 262K | — | — | — | — | Free (NVIDIA NIM) | 2026-06-05 |
+| **NVIDIA Nemotron 3 Ultra** | NVIDIA | 262K | 87.0% | — | — | — | Free (NVIDIA NIM) | 2026-06-05 |
 | **Kimi K2.7 Code** ⭐ | Moonshot AI | 262K | 65.8% | — | 78.2% | 91.5% | $0.95 / $4.00 | 2026-06-12 ⭐ |
 | **GLM-5.2** ⭐ | Zhipu AI | 753B / 40B active (MoE) | 1M | ~91.2% | — | — | 99.2% (AIME 2026) | $1.40 / $4.40 | 2026-06-13 ⭐ |
 | **MAI-Thinking-1** ⭐ | Microsoft | 256K | 84.2% | — | — | 97% | TBD (Private Preview) | 2026-06-02 ⭐ |
-| **MAI-Code-1-Flash** ⭐ | Microsoft | — | — | — | — | — | $0.75 / $4.50 | 2026-06-02 ⭐ |
+| **MAI-Code-1-Flash** ⭐ | Microsoft | — | — | — | — | — | Free (Copilot) | 2026-06-02 ⭐ |
+| **MiniMax M3** ⭐ | MiniMax | ~428B / ~23B active (MoE) | 1M | — | — | 80.5% | — | $0.30 / $1.20 | 2026-06-01 ⭐ |
+| **Qwen3.7-Plus** ⭐ | Alibaba | 1M | — | — | — | — | — | $0.40 / $2.40 | 2026-06-03 ⭐ |
+| **Step 3.7 Flash** ⭐ | StepFun | 1M | — | — | — | — | — | Free (limited) | 2026-05-28 ⭐ |
 
 > ⚠️ **Claude Fable 5 and Mythos 5 suspended**: On June 12, 2026, Anthropic disabled global access to both models following a US government export control directive. Access may be restored for US-based users around July 1, 2026. Use Claude Opus 4.8 as an alternative. Source: [Anthropic Statement](https://www.anthropic.com/news/fable-mythos-access)
+>
+> ⚠️ **GPT-5.5 Instant pricing correction**: The API pricing for GPT-5.5 Instant is $0.20/$1.00 per 1M tokens (input/output), not $5.00/$30.00 which is the standard GPT-5.5 rate. GPT-5.5 Instant replaced GPT-5.3 Instant as the free-tier ChatGPT default on May 5, 2026.
 
 ### Model Specifications 📋
 
-Detailed technical specifications, pricing, and capabilities for all frontier models. Data as of 2026-06-18.
+Detailed technical specifications, pricing, and capabilities for all frontier models. Data as of 2026-06-20.
 
 #### Output Token Limits
 
@@ -195,7 +200,7 @@ Discounted pricing tiers for high-volume usage. All prices in USD per million to
 | **GPT-5.4 mini** | $0.75 | $0.075 | 50% off | — |
 | **GPT-5.4 nano** | $0.20 | $0.02 | 50% off | — |
 | **GPT-5.3-Codex** | $1.75 | $0.175 | 50% off | — |
-| **GPT-5.5 Instant** | $5.00 | $0.50 | 50% off | Cached input 90% discount |
+| **GPT-5.5 Instant** | $0.20 | $0.02 | 50% off | Free-tier ChatGPT default since 2026-05-05; API pricing $0.20/$1.00 |
 | **Gemini 3.1 Pro** | $2.00 | $0.20–$0.40 + $4.50/hr storage | 50% off | Tiered by input length |
 | **Gemini 3.5 Flash** | $1.50 | $0.15 | 50% off | Released 2026-05-19; 4x faster than 3.1 Pro |
 | **Gemini 3 Flash** | $0.50 | $0.05 + $1.00/hr storage | 50% off | — |
@@ -215,6 +220,10 @@ Discounted pricing tiers for high-volume usage. All prices in USD per million to
 | **Step-3.5-Flash** | $0.10 | — | — | — |
 | **Claude Fable 5** | $10.00 | $1.00 (hit) / $12.50 (5m write) | 50% off | Batch: $5.00 in / $25.00 out; fast mode $20/$100 |
 | **Claude Mythos 5** | $10.00 | $1.00 (hit) / $12.50 (5m write) | 50% off | Same pricing as Fable 5; restricted access via Project Glasswing |
+| **MiniMax M3** (≤512K) | $0.30 | $0.06 (hit) | — | Extended context (>512K): $0.60/$2.40; released 2026-06-01 |
+| **Qwen3.7-Plus** | $0.40 | — | — | Released 2026-06-03; 1M context |
+| **Step 3.7 Flash** | Free | — | — | Free tier available; 1M context; released 2026-05-28 |
+| **NVIDIA Nemotron 3 Ultra** | Free | — | — | Free via NVIDIA NIM; 262K context |
 
 #### Speed & Latency
 
@@ -336,7 +345,7 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **MiMo-V2.5** | Xiaomi | 309B / 15B active | 1M | MIT |
 | **MiMo-V2.5-Pro** | Xiaomi | 1.02T / 42B active | 1M | MIT |
 | **NVIDIA Nemotron 3 Ultra** | NVIDIA | 550B / 55B active (MoE) | 262K (BF16) / 1M (NVFP4 Blackwell) | Open Weight (NVIDIA) |
-| **MiniMax M3** ⭐ | MiniMax | — (open weights released ~2026-06-11) | 1M | MIT |
+| **MiniMax M3** ⭐ | MiniMax | ~428B / ~23B active (MoE) | 1M | MiniMax Community |
 | **GLM-5.2** ⭐ | Zhipu AI | 753B / 40B active (MoE) | 1M | MIT |
 | **Kimi K2.7 Code** ⭐ | Moonshot AI | 1T / 32B active (MoE) | 262K | Modified MIT |
 | **Kimi K2.6** | Moonshot AI | 1T / 32B active (MoE) | 262K | Modified MIT |
@@ -781,7 +790,7 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 | **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode, thinking tokens | <a href="https://github.com/Aider-AI/aider" rel="nofollow">🔗</a> |
 | **Claude Code 2.2.1+** | macOS, Linux, Windows | Free + API | Opus 4.8 support (fast mode 3× cheaper), simple mode file editing, multi-session support, `/autofix-pr`, plan mode, computer use (research preview), CLAUDE.md skills & sub-agents | <a href="https://github.com/anthropics/claude-code" rel="nofollow">🔗</a> |
 | **Codex CLI** | Windows, macOS, Linux | Included | Rust-native rewrite; sandbox, approval modes, /goal persistent workflows, Chrome extension, GPT-5-Codex default; v0.140+ | <a href="https://github.com/openai/codex" rel="nofollow">🔗</a> |
-| **Junie CLI** | Windows, macOS, Linux | Free (BYOK) | LLM-agnostic, JetBrains IDE integration, MCP | <a href="https://www.jetbrains.com/junie" rel="nofollow">🔗</a> |
+| **Junie CLI** ⭐ | Windows, macOS, Linux | Free (BYOK) | LLM-agnostic, JetBrains IDE integration (ACP), GA 2026-06-17, agentic debugging, PR review, local model support (LiteLLM/LMStudio/Ollama) | <a href="https://www.jetbrains.com/junie" rel="nofollow">🔗</a> |
 | **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible, desktop app, 25+ providers | <a href="https://github.com/block/goose" rel="nofollow">🔗</a> |
 | **Grok Build** | Windows, macOS, Linux | $300/mo (SuperGrok/X Premium Plus) | Plan mode, Arena mode, 2M context window, security-focused | ❌ |
 | **GPT-Pilot** | Windows, macOS, Linux | Free | Full dev team simulation | <a href="https://github.com/Pythagora-io/gpt-pilot" rel="nofollow">🔗</a> |
@@ -791,6 +800,8 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 | **Kimi K2.7 Code** ⭐ | Windows, macOS, Linux | $0.95 / $4.00 per 1M | Coding-focused agent; 30% fewer thinking tokens vs K2.6; Modified MIT; 262K context; released 2026-06-12 | <a href="https://github.com/MoonshotAI/Kimi-K2.7-Code" rel="nofollow">🔗</a> |
 | **Kimi Code CLI** | Windows, macOS, Linux | Free (MIT) | TypeScript CLI by Moonshot AI; successor to kimi-cli; powered by Kimi K2.6 (1T MoE); subagent support (coder/explore/plan); 262K context; SWE-bench Pro 58.6%; ACP (Zed, JetBrains); released 2026-06-06 | <a href="https://github.com/moonshot-labs-uk/kimi-code" rel="nofollow">🔗</a> |
 | **Vibe** (Mistral) | Windows, macOS, Linux | Free (Le Chat) / API | Agentic coding + work agent, multi-model Mistral harness, VS Code extension, Code Mode web surface, parallel sessions | <a href="https://mistral.ai/news/vibe-agent/" rel="nofollow">🔗</a> |
+| **Google Agents CLI** ⭐ | Windows, macOS, Linux | Free | Unified ADLC for Google Cloud Agent Platform; scaffold/run/evaluate/deploy agents; released 2026-04-22 | <a href="https://developers.googleblog.com/agents-cli-in-agent-platform-create-to-production-in-one-cli/" rel="nofollow">🔗</a> |
+| **Peri** ⭐ | Windows, macOS, Linux | Free (Apache-2.0) | Rust terminal coding agent; Claude Code compatible; multi-LLM; MCP & ACP support; 95%+ prompt cache; released 2026-03-20 | <a href="https://github.com/KonghaYao/peri" rel="nofollow">🔗</a> |
 | **AI Dev Kit** | Cross-platform | Free | 59 skills, 33 agents, TDD, security audit, CI/CD | <a href="https://github.com/noah-sheldon/ai-dev-kit" rel="nofollow">🔗</a> |
 
 #### Assisted CLI Tools
@@ -883,13 +894,16 @@ Extensions and plugins that add AI capabilities to existing IDEs.
 | **JetBrains AI Assistant** | $10/mo (Pro) | ✅ | ❌ | JetBrains-quality AI now in VS Code (public preview); multi-file edits, Mellum LLM | ❌ |
 | **ReSharper for VS Code** | Included with JetBrains subscription | ❌ | ❌ | C# code analysis + refactoring inside VS Code/Cursor; released 2026-03-05 | ❌ |
 | **Keploy** | OSS/Enterprise | ❌ | ❌ | Testing | ❌ |
+| **Microsoft Foundry Toolkit for VS Code** ⭐ | Free (Azure account) | ✅ | ✅ | End-to-end Hosted Agent lifecycle; GA 2026-04-16; consolidated AI Toolkit + Foundry extension; LangGraph samples; released 2026-06-02 | <a href="https://github.com/microsoft/vscode-ai-toolkit" rel="nofollow">🔗</a> |
+| **VS Code ACP Client** ⭐ | Free (MIT) | ✅ | ✅ | Agent Client Protocol client; connects 11+ AI agents (Claude Code, Codex, Cursor, etc.) to VS Code; released 2026-06-10 | <a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.acp-client" rel="nofollow">🔗</a> |
 
 #### JetBrains Specific
 
-| Add-on | Pricing | Claude Agent | Best For |
-|--------|---------|--------------|----------|
-| **JetBrains AI Assistant** | $10/mo (Pro), $249/yr (Ultimate) | ✅ | Deep IDE integration |
-| **JetBrains Claude Agent** | Included in subscription | ✅ | Native agent |
+| Add-on | Pricing | Claude Agent | Junie (GA) | Best For |
+|--------|---------|--------------|------------|----------|
+| **JetBrains AI Assistant** | $10/mo (Pro), $249/yr (Ultimate) | ✅ | ✅ | Deep IDE integration; Junie GA 2026-06-17 |
+| **JetBrains Claude Agent** | Included in subscription | ✅ | — | Native agent |
+| **JetBrains Junie** ⭐ | Included in subscription | — | ✅ | GA 2026-06-17; ACP-based IDE integration; agentic debugging; BYOK; local model support |
 
 ### API Providers 🔌
 
@@ -925,7 +939,7 @@ Services for accessing AI models via API.
 
 | Provider | Models | Key Features |
 |----------|--------|--------------|
-| **OpenRouter** | 370+ | Unified API, crypto/fiat, model rankings, fallback routing, Speech & Transcription APIs (June 2026), Model Fusion, private models, enterprise workspace controls |
+| **OpenRouter** | 400+ | Unified API, crypto/fiat, model rankings, fallback routing, Speech & Transcription APIs, Model Fusion, private models, enterprise workspace controls; new models: Claude Opus 4.8, Step 3.7 Flash, MiniMax M3, Qwen3.7-Plus, NVIDIA Nemotron 3 Ultra, Microsoft MAI models (June 2026) |
 | **Hugging Face** | Thousands | Serverless inference, free tier |
 | **LiteLLM** | 100+ | Open-source proxy; single OpenAI-compatible API for any provider | <a href="https://github.com/BerriAI/litellm" rel="nofollow">🔗</a> |
 | **Portkey** | 200+ | Gateway: load balance, fallbacks, caching, observability |
@@ -941,6 +955,7 @@ Services that aggregate multiple models through a unified API, often with load b
 | **Groq** | 20+ | $0.05-$0.90/1M | Fastest LPU inference: 476 tok/s on 120B, <100ms TTFT, deterministic latency |
 | **Cerebras** | 10+ | $0.10-$1.00/1M | Wafer-scale engine: ~3,000 tok/s, 5× faster than NVIDIA Blackwell, 80–150ms TTFT |
 | **NVIDIA NIM** | 91+ | Free (cloud endpoints) / self-host | Broadest model variety: LLMs + vision + audio + bio + climate; self-hostable Docker containers |
+| **Mercury 2** (Inception Labs) ⭐ | 1 | $0.25/$0.75/1M | Diffusion LLM; 1,009 tok/s on Blackwell; tunable reasoning; 128K context; released 2026-05-12 |
 | **Anyscale** | 100+ | $0.20-$2.00/1M | OpenAI-compatible, HIPAA/SOC 2/EU data residency, enterprise contracts |
 | **Replicate** | 50+ | $0.20-$2.00/1M | Model-as-a-service, versioning, GPU rental |
 | **OctoAI** | 20+ | $0.25-$2.00/1M | High-performance inference |
@@ -1054,6 +1069,12 @@ Tools and frameworks for AI-powered browser automation.
 | **BrowserGPT** | iOS, Android | Free / Premium | ❌ | ❌ | ⚠️ | ❌ | ❌ | ❌ | Mobile-first AI browser | ❌ |
 | **Sidekick Browser** | Windows, macOS, Linux | Free / Pro $10/mo | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | AI assistant, natural language tab management, summarize, automate tasks | ❌ |
 | **Browser Operator** | Windows, macOS | Free (OSS) | ✅ | ✅ (Ollama, 100+ models) | ✅ | ❌ | ✅ | ✅ | Multi-agent automation, privacy-first local processing, persistent memory | <a href="https://github.com/BrowserOperator/browser-operator-core" rel="nofollow">🔗</a> |
+| **Browserless Agent** ⭐ | Cloud (MCP) | Free tier / paid | ❌ | ❌ | ✅ | ✅ (MCP-native) | ❌ | ❌ | Fastest MCP browser agent; stateful sessions; command batching; released 2026-06-12 | <a href="https://www.browserless.io/blog/introducing-browserless-agent" rel="nofollow">🔗</a> |
+| **Lightpanda Agent** ⭐ | Windows, macOS, Linux | Free (OSS) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | Native headless browser agent; PandaScript reproducible scripts; LLM at build-time not runtime; released 2026-06-17 | <a href="https://lightpanda.io/blog/posts/introducing-lightpanda-agent-and-pandascript" rel="nofollow">🔗</a> |
+| **Kane CLI** ⭐ | Windows, macOS, Linux | Free | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | Browser automation testing for AI agents; deterministic pass/fail; released 2026-05-24 | <a href="https://www.testmuai.com/blog/introducing-kane-cli/" rel="nofollow">🔗</a> |
+| **Browsewright** ⭐ | Python | Free (MIT) | ✅ | ✅ | ✅ | ✅ (MCP) | ❌ | ❌ | Open-source browser agent; LLM-driven form filling; structured JSON output; released 2026-06-16 | <a href="https://github.com/krishnashakula/browsewright" rel="nofollow">🔗</a> |
+| **Webwright** (Microsoft) ⭐ | Python | Free (MIT) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | SOTA on long-horizon web tasks; terminal-based; Codex/Claude Code plugins; released 2026-04-08 | <a href="https://github.com/microsoft/Webwright" rel="nofollow">🔗</a> |
+| **SimuLang** ⭐ | Python/TypeScript | Free (OSS) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | Playwright for the entire desktop; browser + native apps + OS workflows; released 2026-05-19 | <a href="https://www.simular.ai/articles/introducing-simulang-playwright-for-the-entire-desktop" rel="nofollow">🔗</a> |
 
 #### Browser Extensions
 
@@ -1104,6 +1125,14 @@ Consumer-focused AI browsers (for example **Perplexity Comet**) typically bundle
 | **Skyvern Cloud** | Cloud API | Free 1K credits / Hobby $29/mo / Pro $149/mo | Resilient CV-based automation, Ollama support | <a href="https://github.com/Skyvern-AI/skyvern" rel="nofollow">🔗</a> |
 | **Browserbase** | Cloud API | Free credits / paid tiers | Stealth mode, session recording, CDP access | ❌ |
 | **Amazon Nova Act** | API (AWS) | Pay-per-use | Autonomous web agent, multi-step browser workflows | ❌ |
+| **Amazon Bedrock AgentCore Harness** ⭐ | AWS | Pay-per-use | GA 2026-06-18; 2 API calls to production agent; sandboxed runtime; memory; skills; web search; CloudWatch tracing | ❌ |
+| **Databricks Genie One** ⭐ | Databricks | Free $10/user/mo | GA 2026-06-16; data-smart agentic coworker; iOS/Android/web; 50+ app integrations; Genie Ontology context layer | ❌ |
+| **Thoughtworks Agent/works** ⭐ | Multi-cloud | Enterprise | GA 2026-06-16; governed runtime for enterprise agents; single control plane; any cloud deployment | ❌ |
+| **Kore.ai Artemis** ⭐ | Azure (initial) | Enterprise | GA 2026-05-21; AI-native agent platform; governance + observability; 40+ channels; Microsoft Foundry integration | ❌ |
+| **Huawei Cloud AgentArts** ⭐ | Huawei Cloud | Enterprise | GA 2026-06-08; enterprise-grade agent platform; open-source edition (openJiuwen); AgentArts Orchard portal | ❌ |
+| **Zensar ZenseAI.AgentMesh** ⭐ | Multi-cloud | Enterprise | GA 2026-06-19; 80+ pre-built agents; governed orchestration; EU AI Act alignment | ❌ |
+| **Sedai AI Agent Optimization** ⭐ | Multi-cloud | Early access | GA planned late 2026; smart model routing; governance + observability; supports OpenAI/Bedrock/Vertex/Azure | ❌ |
+| **GMI Cloud AgentBox** ⭐ | GMI Cloud | Usage-based | GA 2026-06-08; marketplace for AI agents; 100+ models via single key; MaaS inference | ❌ |
 
 ---
 
@@ -1201,6 +1230,12 @@ Coordinate multiple AI agents in parallel to complete complex workflows — driv
 | **OpenAI Agents SDK** | Agent handoffs + tool orchestration | ❌ | ✅ Python / TS | ✅ OpenAI API | ❌ | ✅ | Free (OSS) / OpenAI API costs | <a href="https://github.com/openai/openai-agents-python" rel="nofollow">🔗</a> |
 | **Google ADK** | Hierarchical agent tree, A2A protocol | ✅ Vertex AI | ✅ Python | ✅ Vertex AI | ❌ | ✅ | Free (OSS) / Vertex AI pay-per-token | <a href="https://github.com/google/adk-python" rel="nofollow">🔗</a> |
 | **Ruflo** | Multi-agent orchestration | ❌ | ✅ Python | ❌ | ✅ | ✅ | Free OSS / Cloud plans | <a href="https://github.com/ruvnet/ruflo" rel="nofollow">🔗</a> |
+| **Vercel eve** ⭐ | Open-source agent framework | ✅ Web | ✅ `npx eve@latest init` | ✅ Vercel | ✅ | ✅ | Free (OSS) / Vercel hosting costs | <a href="https://github.com/vercel/eve" rel="nofollow">🔗</a> |
+| **Omnigent** (Databricks) ⭐ | Meta-harness for agents | ✅ Web/App | ✅ | ✅ | ✅ | ✅ | Free (Apache 2.0) | <a href="https://github.com/databricks/omnigent" rel="nofollow">🔗</a> |
+| **GitKraken Kepler** ⭐ | Agentic Development Environment | ✅ Desktop | ✅ | ❌ | ✅ | ✅ | Free tier / paid plans | <a href="https://www.gitkraken.com/blog/introducing-kepler-the-delivery-engine-for-agent-driven-development" rel="nofollow">🔗</a> |
+| **LangChain Deep Agents** ⭐ | Long-horizon agent harness | ❌ | ✅ Python | ❌ | ✅ | ✅ | Free (MIT) | <a href="https://github.com/langchain-ai/deepagents" rel="nofollow">🔗</a> |
+| **Wheelie** (Continua) ⭐ | Agentic dev OS + service runtime | ✅ Web | ✅ | ✅ VMs | ✅ | ✅ | Free (waiting list) | <a href="https://blog.continua.ai/p/introducing-wheelie" rel="nofollow">🔗</a> |
+| **Cloudflare Flue** ⭐ | Agent framework on Workers | ✅ Dashboard | ✅ | ✅ Cloudflare | ❌ | ✅ | Free (OSS) / Workers pricing | <a href="https://github.com/cloudflare/workers-sdk" rel="nofollow">🔗</a> |
 
 ---
 
@@ -1235,7 +1270,12 @@ Specialized models for converting text (or images) into dense vector representat
 
 | Model | Developer | Dimensions | Max Tokens | Pricing | Best For | GitHub |
 |-------|-----------|-----------|------------|---------|----------|--------|
-| Gemini Embedding 2 | Google | 3,072 | 8,192 text / 6 images / 120s video / 180s audio | $0.20/1M text tokens; preview (GA 2026-04-30) | First natively multimodal embedding — text, image, video, audio, PDF in one space | — |
+| Gemini Embedding 2 | Google | 3,072 | 8,192 text / 6 images / 120s video / 180s audio | $0.20/1M text tokens; GA 2026-04-22 | First natively multimodal embedding — text, image, video, audio, PDF in one space | — |
+| Granite Embedding Multilingual R2 (311M) ⭐ | IBM | 768 | 32,768 | Free (Apache 2.0) | MTEB Multilingual Retrieval 65.2 (#2 open <500M); 200+ languages; 32K context (64x R1) | <a href="https://huggingface.co/ibm-granite/granite-embedding-311m-multilingual-r2" rel="nofollow">🔗</a> |
+| Granite Embedding Multilingual R2 (97M) ⭐ | IBM | 384 | 32,768 | Free (Apache 2.0) | Best sub-100M multilingual embedder (MTEB 60.3); 200+ languages | <a href="https://huggingface.co/ibm-granite/granite-embedding-97m-multilingual-r2" rel="nofollow">🔗</a> |
+| pplx-embed-v1 (4B) | Perplexity | 3,072 | 8,192 | API pay-per-use | MTEB Multilingual leader; web-scale retrieval; contextual variant available | <a href="https://huggingface.co/perplexity-ai/pplx-embed-v1-4b" rel="nofollow">🔗</a> |
+| LFM2.5-Embedding-350M ⭐ | Liquid AI | 1,024 | 8,192 | Free (open-source) | 350M-param bidirectional embedder; 11 languages; best-in-class multilingual; runs on CPU/edge | <a href="https://huggingface.co/LiquidAI/LFM2.5-Embedding-350M" rel="nofollow">🔗</a> |
+| ML-Embed-0.6B (CodeFuse) ⭐ | CodeFuse AI | 1,024 | 8,192 | Free (Apache 2.0) | 3D Matryoshka Learning; multilingual; ICML 2026 paper | <a href="https://huggingface.co/codefuse-ai/ML-Embed-0.6B" rel="nofollow">🔗</a> |
 | Qwen3-Embedding-8B | Alibaba / Qwen | 4,096 (flex) | 32K | Free (Apache 2.0) | MTEB leader (70.6); 100+ languages, instruction-aware, flexible dimensions; 0.6B/4B/8B sizes | <a href="https://huggingface.co/Qwen/Qwen3-Embedding-8B" rel="nofollow">🔗</a> |
 | jina-embeddings-v4 | Jina AI | 32–2,048 (flex) | 8,192 | API pay-per-use | Built on Qwen2.5-VL-3B (3.8B); 3 LoRA adapters (query/passage/matching) | <a href="https://github.com/jina-ai/jina-embeddings-v4" rel="nofollow">🔗</a> |
 | text-embedding-3-small | OpenAI | 1,536 | 8,191 | $0.02/1M tokens | Cost-effective English embeddings | — |
@@ -1274,6 +1314,13 @@ Text-to-video and image-to-video generation models for creating short clips from
 | MiniMax Video-01 | MiniMax | 720p | Up to 6s | ~$0.40/video | No | Strong text-motion responsiveness | — |
 | HunyuanVideo | Tencent | 720p–2K | Up to 16s | Free (self-host; ~60GB VRAM) | Yes (Apache 2.0) | High per-frame fidelity, long clips | <a href="https://github.com/Tencent/HunyuanVideo" rel="nofollow">🔗</a> |
 | Wan 2.2 (14B) | Alibaba | 480p–1080p | Up to 10s | ~$0.10–$0.30/clip (API) | Yes (Apache 2.0) | Motion quality, VBench #1 benchmark | <a href="https://github.com/Wan-Video/Wan2.1" rel="nofollow">🔗</a> |
+| **Grok Imagine Video 1.5** ⭐ | xAI | 720p | Up to 15s | $0.06/s ($4.20/min at 720p) | No | #1 Image-to-Video Arena leaderboard (Elo 1330); native audio+video sync; Fast variant 25s for 6s clip; GA 2026-06-16 | — |
+| **HappyHorse-1.0** ⭐ | Alibaba (ATH) | 1080p | Up to 5s | Free (open-source) | Yes (open-source) | #1 on Artificial Analysis video leaderboard; unified Transformer; simultaneous audio/video; 15B params; API coming 2026-04-30 | <a href="https://github.com/Alibaba-ATH/HappyHorse" rel="nofollow">🔗</a> |
+| **Seedance 2.1** ⭐ | ByteDance | 1080p | Up to 16s | API pay-per-use | No | Sharper motion, tighter character consistency; available on Atlas Cloud Day 0 | — |
+| **Microsoft Mirage** ⭐ | Microsoft Research | — | — | Free (research) | Research | Video world model with persistent spatial memory; 10.57x faster generation; built on Wan2.2 | <a href="https://github.com/microsoft/mirage" rel="nofollow">🔗</a> |
+| **MoVerse** ⭐ | Academic/MSFT | — | — | Free (research) | Research | Real-time video world model; panoramic Gaussian scaffold; 8 FPS on RTX 4090 | — |
+| **Echo-Infinity** ⭐ | JD/Echo Team | — | 24h+ rollouts | Free (research) | Research | Real-time infinite video generation; learnable evolving memory; 1.3M+ frames | <a href="https://github.com/Echo-Team-Joy-Future-Academy-JD/Echo-Infinity" rel="nofollow">🔗</a> |
+| **JoyAI-Echo** ⭐ | JD | Up to 1080p | Minute-level | Free (research) | Research | Multi-shot audio-video generation; 7.5x speedup via DMD distillation | <a href="https://github.com/jd-opensource/joyai-echo" rel="nofollow">🔗</a> |
 | Mochi 1 | Genmo | 480p | Up to 5.4s @ 30fps | Free (open-source) | Yes (Apache 2.0) | High-quality open text-to-video | <a href="https://github.com/genmoai/mochi" rel="nofollow">🔗</a> |
 | CogVideoX | Zhipu AI / Tsinghua | 720p | ~6s | Free (open-source) | Yes (Apache 2.0) | Image-to-video quality, LoRA fine-tuning | <a href="https://github.com/THUDM/CogVideo" rel="nofollow">🔗</a> |
 
@@ -1320,30 +1367,24 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 | **Qwen3-TTS** 🇨🇳 | Alibaba | 10 | Yes (streaming) | Yes (Apache 2.0) | Free (self-host) / API | Voice design, voice cloning, instruction control, multilingual | <a href="https://github.com/QwenLM/Qwen3-TTS" rel="nofollow">🔗</a> |
 | **Stability Audio 3.0** | Stability AI | Music/SFX | Yes (small/medium OSS) | Yes (small/medium, Apache 2.0) | Free (small/medium OSS weights); commercial via API |Professional-grade music >6 min, open-weight small/medium variants | <a href="https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/" rel="nofollow">🔗</a> |
 | **Sesame CSM** | Sesame AI Labs | English | Yes | Yes | Free | Conversational, emotionally expressive (4.7 MOS) | <a href="https://github.com/SesameAILabs/csm" rel="nofollow">🔗</a> |
-
-#### Text-to-Speech (TTS) — Open Source
-
-| Model | Developer | Languages | Real-time | License | Pricing | Best For | GitHub |
-|-------|-----------|-----------|----------|---------|---------|----------|--------|
-| **Fish Audio S2 Pro** | Fish Audio | 80+ | Yes (~100ms) | Research (commercial license available) | Free (self-host) / $15/1M chars (API) | Highest-ranked open-weight TTS, Dual-AR architecture, fine-grained emotion tags, SGLang streaming | <a href="https://github.com/fishaudio/fish-speech" rel="nofollow">🔗</a> |
-| **IndexTTS-2** | Bilibili (IndexTeam) | Chinese, English | No | Apache 2.0 | Free | Precise duration control, emotion/timbre decoupling, zero-shot cloning | <a href="https://github.com/index-tts/index-tts" rel="nofollow">🔗</a> |
-| **MOSS-TTS-v1.5** | OpenMOSS | Multilingual | Yes | Apache 2.0 | Free | Zero-shot cloning, long-form generation, streaming, llama.cpp support | <a href="https://github.com/OpenMOSS/MOSS-TTS" rel="nofollow">🔗</a> |
-| **MOSS-TTS-Nano** (~100M) | OpenMOSS | Multilingual | Yes (4 CPU cores) | Apache 2.0 | Free | Ultra-lightweight, 48kHz stereo, real-time on CPU | <a href="https://github.com/OpenMOSS/MOSS-TTS" rel="nofollow">🔗</a> |
-| **MOSS-TTSD-v1.0** | OpenMOSS | Multilingual | Yes | Apache 2.0 | Free | Multi-speaker dialogue generation, expressive long-form | <a href="https://github.com/OpenMOSS/MOSS-TTS" rel="nofollow">🔗</a> |
-| **MOSS-VoiceGenerator** | OpenMOSS | Multilingual | — | Apache 2.0 | Free | Voice design from text prompts, no reference audio needed | <a href="https://github.com/OpenMOSS/MOSS-TTS" rel="nofollow">🔗</a> |
-| **Kokoro-82M** | Hexgrad | ~15 | Yes | Apache 2.0 | Free | Tiny (82M params), CPU-runnable, near-commercial quality | <a href="https://github.com/hexgrad/kokoro" rel="nofollow">🔗</a> |
-| **Darwin-TTS-1.7B-Cross** | FINAL-Bench | — | — | — | Free | Training-free cross-modal LLM→TTS weight transfer, emotional expression | — |
-| **Voxtral TTS** | Mistral AI | 9 (EN, FR, DE, ES, NL, PT, IT, HI, AR) | Yes (streaming) | CC BY-NC 4.0 (weights) | Free (self-host) / $0.016/1K chars (API) | First open-weight TTS from Mistral; 70–90ms latency, 3s voice cloning, rivals ElevenLabs Flash v2.5 | <a href="https://huggingface.co/mistralai/Voxtral-TTS" rel="nofollow">🔗</a> |
-| **Fish Audio S1** | Fish Audio | Multilingual | Yes | Apache 2.0 | Free / $0.016/1K chars (API) | Voice cloning, multilingual fluency | <a href="https://github.com/fishaudio/fish-speech" rel="nofollow">🔗</a> |
-| **TADA** | Hume AI | English | No | Apache 2.0 | Free | Zero hallucinations (structural impossibility); 700s long-form in single pass; 5× faster than comparable models; 2026-03-10 | <a href="https://github.com/HumeAI/tada" rel="nofollow">🔗</a> |
-| **Parler-TTS** | HuggingFace | English | No | Apache 2.0 | Free | Style-controllable via text descriptions | <a href="https://github.com/huggingface/parler-tts" rel="nofollow">🔗</a> |
-| **XTTS v2** | Coqui AI | 17 | Yes | MPL 2.0 | Free | Best open-source multilingual, 6s voice cloning | <a href="https://github.com/coqui-ai/TTS" rel="nofollow">🔗</a> |
-| **Bark** | Suno AI | 13+ | No | MIT | Free | Expressive, non-verbal sounds, long-form audio | <a href="https://github.com/suno-ai/bark" rel="nofollow">🔗</a> |
+| **MAI-Voice-2** ⭐ | Microsoft | 15 | Yes | No | API (Foundry) | Most expressive Microsoft TTS; granular emotion control (whisper/sad/etc.); 15 languages; custom voice from 5-60s clip; released 2026-06-02 | — |
+| **Higgs Audio v3 TTS** ⭐ | Boson AI | 100+ | Yes | No | API / free (self-host) | Voice chat optimized; inline emotion/style/prosody tags; zero-shot voice cloning; released 2026-06-04 | <a href="https://huggingface.co/bosonai/higgs-audio-v3-tts" rel="nofollow">🔗</a> |
+| **Chatterbox Multilingual v3** ⭐ | Resemble AI | 25 | Yes | Yes (MIT) | Free (self-host) / API | 0.5B Llama backbone; PerTh watermarking; improved speaker similarity; released 2026-06-10 | <a href="https://github.com/resemble-ai/chatterbox" rel="nofollow">🔗</a> |
+| **MisoTTS** ⭐ | Miso Labs | — | Yes | Yes (Modified MIT) | Free (self-host) / API pending | 8B emotive TTS; RVQ scales vocabulary; conditions on text + audio; released 2026-06-03 | <a href="https://huggingface.co/miso-labs/misoTTS" rel="nofollow">🔗</a> |
+| **MiniMax Speech 2.6** ⭐ | MiniMax | 40+ | Yes | No | API | <250ms end-to-end latency; Fluent LoRA; non-standard text format handling; released 2026-06-20 | — |
+| **MiniMax Speech-01-HD** ⭐ | MiniMax | 17 | Yes | No | API | 300+ pre-built voices; high-fidelity voice cloning from 10s audio; released 2026-06-19 | — |
+| **dots.tts** ⭐ | RedNote (Xiaohongshu) | — | Yes | Yes (Apache 2.0) | Free | 2B fully continuous AR TTS; 48kHz AudioVAE; no discrete tokens; released 2026-06 | <a href="https://github.com/rednote-hilab/dots.tts" rel="nofollow">🔗</a> |
 
 #### Speech-to-Text (STT / ASR)
 
 | Model | Developer | Languages | Real-time | Open Source | Pricing | Best For | GitHub |
 |-------|-----------|-----------|----------|-------------|---------|----------|--------|
+| **MAI-Transcribe-1.5** ⭐ | Microsoft | 43 | Yes | No | API (Foundry) | SOTA on FLEURS; #3 Artificial Analysis; 5x faster than Gemini 3.1; keyword biasing; 1hr audio in <15s; released 2026-06-02 | — |
+| **Cohere Transcribe** ⭐ | Cohere | 14 | No | Yes (Apache 2.0) | Free (self-host) / Model Vault | #1 HuggingFace Open ASR Leaderboard (5.42% WER); 2B Conformer; released 2026-03-26 | <a href="https://huggingface.co/CohereLabs/cohere-transcribe-03-2026" rel="nofollow">🔗</a> |
+| **Gladia Solaria-3** ⭐ | Gladia | 5 (EU) | Yes | No | API | #1 on business audio; optimized for noisy/real-world European languages; released 2026-06-10 | — |
+| **Speechmatics Melia** ⭐ | Speechmatics | 55+ | Yes (preview) | No | From $0.129/hr (10hr free) | Code-switching across 55+ languages; lowest-priced Speechmatics model; released 2026-06-17 | — |
+| **Voxtral Realtime** ⭐ | Mistral AI | 13 | Yes | Yes (Apache 2.0) | Free (self-host) | Natively streaming ASR; 480ms delay matches Whisper quality; 4B params; released 2026-02 | <a href="https://huggingface.co/mistralai/Voxtral-Realtime" rel="nofollow">🔗</a> |
+| **Gnani Prisma v2.5** ⭐ | Gnani AI | 9 (Indian) | Yes | No | API | #1 in 8/9 Indian languages on real-world benchmarks; 15% lower WER for rural Hindi; released 2026-06-19 | — |
 | **Grok STT** | xAI | 25+ | Yes | No | $0.10/hr (batch) / $0.20/hr (streaming) | Entity recognition (medical/legal/financial), diarization, multichannel, SOC 2 / HIPAA | — |
 | **Whisper large-v3** | OpenAI | 100+ | No | Yes (MIT) | $0.006/min (API) | Open-source multilingual baseline | <a href="https://github.com/openai/whisper" rel="nofollow">🔗</a> |
 | **GPT-4o Transcribe** | OpenAI | 50+ | Yes | No | $0.006/min | High-accuracy managed STT | — |
@@ -1399,6 +1440,13 @@ Tools and frameworks for detecting unsafe content, preventing prompt injection, 
 | LLM Guard | Protect AI | Open-source middleware toolkit | Yes (MIT) | Free | PII + toxicity filtering; chains multiple scanners; drop-in middleware | <a href="https://github.com/protectai/llm-guard" rel="nofollow">🔗</a> |
 | Rebuff | Protect AI | Prompt injection detector | Yes | Free | Self-hardening anti-injection using vector memory | <a href="https://github.com/protectai/rebuff" rel="nofollow">🔗</a> |
 | Lakera Guard | Lakera | Managed LLM security API | No | Free tier + Enterprise | Runtime LLM security, <50ms latency, PII + injection | — |
+| **Sponsio** ⭐ | Sponsio Labs | Runtime contract enforcement | Yes (Apache 2.0) | Free (OSS) | Deterministic agent safety; trajectory-level policy enforcement; <0.01ms per tool call; OWASP Agentic Top 10 bundles; released 2026-05-06 | <a href="https://github.com/SponsioLabs/Sponsio" rel="nofollow">🔗</a> |
+| **ToolShield** ⭐ | CHATS-lab (ICML 2026) | Multi-turn safety defense | Yes (MIT) | Free | Training-free MCP tool guard; 30% attack reduction; plug-and-play for 5 coding agents | <a href="https://github.com/CHATS-lab/ToolShield" rel="nofollow">🔗</a> |
+| **AgentGuard** ⭐ | WhitzardAgent | Attribute-based access control | Yes (GPL-3.0) | Free | Tool-call-level access control; supports LangChain/AutoGen/OpenAI Agents SDK | <a href="https://github.com/WhitzardAgent/AgentGuard" rel="nofollow">🔗</a> |
+| **Mirage** ⭐ | ysham123 | Policy gateway | Yes (MIT) | Free | Deterministic policy DSL; same YAML for CI and production; no LLM in decision loop | <a href="https://github.com/ysham123/Mirage" rel="nofollow">🔗</a> |
+| **ToolSafe** ⭐ | MurrayTom | Step-level guardrail | Yes | Free | Proactive monitoring + feedback-driven reasoning; reduces harmful tool executions | <a href="https://github.com/MurrayTom/ToolSafe" rel="nofollow">🔗</a> |
+| **SafeHarbor** ⭐ | ljj-cyber (ICML 2026) | Memory-augmented guardrail | Yes | Free | Hierarchical Risk Tree; Safety Projector; no fine-tuning of underlying model | <a href="https://github.com/ljj-cyber/SafeHarbor" rel="nofollow">🔗</a> |
+| **NEXUS** ⭐ | eliashossain001 | Runtime safety monitor | Yes | Free | Structured plan IR; 4 graded interventions (allow/block/confirm/revise); deterministic + learned | <a href="https://github.com/eliashossain001/nexus" rel="nofollow">🔗</a> |
 
 ### RAG Frameworks 🗂️
 
@@ -1415,6 +1463,9 @@ Frameworks and libraries for building Retrieval-Augmented Generation (RAG) pipel
 | Mem0 | Mem0 AI | Python / JS | Persistent memory layer, graph memory, session recall | Yes (Apache 2.0) | <a href="https://github.com/mem0ai/mem0" rel="nofollow">🔗</a> |
 | txtai | NeuML | Python | All-in-one semantic search + workflow automation | Yes (Apache 2.0) | <a href="https://github.com/neuml/txtai" rel="nofollow">🔗</a> |
 | R2R | SciPhi | Python | Lightweight, low-latency, REST API, production-first | Yes (MIT) | <a href="https://github.com/SciPhi-AI/R2R" rel="nofollow">🔗</a> |
+| **Ultra RAG** ⭐ | rblake2320 | Python | 7-stage ingestion + 10-step query pipeline; KG+PPR, RAPTOR, CRAG, Self-RAG, HyDE; adversarial self-testing | Yes (MIT) | <a href="https://github.com/rblake2320/ultra-rag" rel="nofollow">🔗</a> |
+| **ForgeRAG** ⭐ | deeplethe | Python | Production-ready; structure-aware reasoning; BM25+vector+KG; pixel-precise citations | Yes (MIT) | <a href="https://github.com/deeplethe/ForgeRAG" rel="nofollow">🔗</a> |
+| **GRIP** (ACL 2026) ⭐ | WisdomShell | Python | Retrieval-as-generation; token-level retrieval control; self-triggered information planning | Yes (MIT) | <a href="https://github.com/WisdomShell/GRIP" rel="nofollow">🔗</a> |
 
 ### Fine-tuning Platforms ⚙️
 
@@ -1431,6 +1482,13 @@ Tools and platforms for adapting pre-trained LLMs to specific tasks or domains v
 | PEFT | Hugging Face | All Hugging Face models | Free | LoRA, QLoRA, prefix tuning, prompt tuning — full HF ecosystem | <a href="https://github.com/huggingface/peft" rel="nofollow">🔗</a> |
 | LLaMA-Factory | Community | 100+ models | Free | Web UI, low-code interface, beginner-friendly fine-tuning | <a href="https://github.com/hiyouga/LLaMA-Factory" rel="nofollow">🔗</a> |
 | torchtune | PyTorch | Llama, Gemma, Mistral, Phi | Free | PyTorch-native, composable training recipes | <a href="https://github.com/pytorch/torchtune" rel="nofollow">🔗</a> |
+| **Pioneer** (Fastino Labs) ⭐ | Managed agentic fine-tuning | Qwen, Gemma, Llama, GLiNER | API-based | First agentic fine-tuning agent; synthetic dataset generation; 10-min fine-tuning; adaptive inference | <a href="https://pioneer.ai/blog/introducing-pioneer" rel="nofollow">🔗</a> |
+| **Langtrain** ⭐ | Managed platform | 20+ open-source models | Public beta (free) | Sovereign AI platform; LoRA/QLoRA/DPO/GRPO; 100% on-prem; SOC 2 Type II | <a href="https://www.langtrain.xyz/" rel="nofollow">🔗</a> |
+| **Fireworks Training** ⭐ | Managed cloud | 100B+ models (Kimi K2.5 1T, etc.) | Preview (contact sales) | Full-parameter training; custom loss functions; frontier RL; multi-LoRA serving | <a href="https://fireworks.ai/training" rel="nofollow">🔗</a> |
+| **Together AI Fine-tuning** ⭐ | Managed cloud | 100B+ open-source models | Pay-per-use | Multi-node orchestration; 100B+ models; fine-tuning + inference in one platform | <a href="https://www.together.ai/fine-tuning" rel="nofollow">🔗</a> |
+| **Tuning Engines** ⭐ | Unified AI control layer | 100+ models | Free tier + paid | Single OpenAI-compatible endpoint; fine-tuning + routing + guardrails + policy-as-code | <a href="https://shinylaunch.com/product/tuning-engines" rel="nofollow">🔗</a> |
+| **NeuralForge** ⭐ | Local-first platform | 1-3B models on consumer GPUs | Free (OSS) | QLoRA training on consumer GPUs; web UI; GGUF export; single 12GB card sufficient | <a href="https://github.com/isilderrr1/NeuralForge" rel="nofollow">🔗</a> |
+| **LLM Fine-Tuner v3.2** ⭐ | No-code local tool | Most HF models | Free (GPL-3.0) | No-code web UI; SFT/DPO/RLHF/ORPO; GGUF export; Unsloth 2-5x acceleration | <a href="https://huggingface.co/spaces/Yog-Sotho/LLM-fine-tuner" rel="nofollow">🔗</a> |
 
 ### Evaluation & Observability 📊
 
@@ -1446,12 +1504,18 @@ Tools for tracing LLM calls, evaluating output quality, debugging RAG pipelines,
 | MLflow | Linux Foundation / Databricks | Full AI engineering platform | Yes (Apache 2.0) | Free (OSS); Databricks managed paid | 30M+ monthly downloads; observability, eval, prompt optimization, governance — no enterprise paywall | <a href="https://github.com/mlflow/mlflow" rel="nofollow">🔗</a> |
 | Ragas | Ragas | RAG evaluation framework | Yes | Free | RAG-specific metrics: faithfulness, recall, precision | <a href="https://github.com/explodinggradients/ragas" rel="nofollow">🔗</a> |
 | DeepEval | Confident AI | LLM evaluation framework | Yes | Free (OSS); cloud paid | 14+ built-in metrics, pytest-style eval runner, 50+ research-backed metrics, production anomaly detection | <a href="https://github.com/confident-ai/deepeval" rel="nofollow">🔗</a> |
+| **Laminar** ⭐ | Open-source observability | Yes (MIT) | Free (OSS); managed platform paid | Rust-based; ultra-fast; OpenTelemetry-native; traces + evals + AI monitoring; YC S24 | <a href="https://github.com/lmnr-ai/lmnr" rel="nofollow">🔗</a> |
+| **Peekr** ⭐ | Zero-config observability | Yes (MIT) | Free | Auto-instruments OpenAI/Anthropic/LiteLLM; claim-level hallucination detection; HIPAA/GDPR guardrails | <a href="https://github.com/ashwanijha04/peekr" rel="nofollow">🔗</a> |
+| **TraceMind** ⭐ | Open-source eval + observability | Yes | Free | Self-hosted; automatic quality scoring; eval suites; regression alerts; hallucination detection | <a href="https://github.com/Aayush-engineer/TraceMind" rel="nofollow">🔗</a> |
+| **Agentic CLEAR** (ACL 2026) ⭐ | IBM Research | Multi-level agent eval | Yes (OSS) | Free | Automated multi-level evaluation; dynamic issue discovery; MLflow/Langfuse integration | <a href="https://ibm.github.io/CLEAR/" rel="nofollow">🔗</a> |
+| **Styxx** ⭐ | Cognitive observability | Yes (MIT) | Free | 9 cognometric instruments; hallucination/refusal/tool-call drift/goal-drift detection; per-step localization | <a href="https://github.com/fathom-lab/styxx" rel="nofollow">🔗</a> |
+| **Aether** ⭐ | Local-first cognition debugger | Yes | Free | Chrome DevTools for AI; real-time reasoning tree inspection; VS Code extension; hallucination debugging | <a href="https://github.com/Samanyu-dev/Aether" rel="nofollow">🔗</a> |
 
 ### MCP Ecosystem 🔌
 
-The <a href="https://modelcontextprotocol.io" rel="nofollow">Model Context Protocol (MCP)</a> is an open standard originally by Anthropic, now governed by the **Agentic AI Foundation (AAIF)** under the Linux Foundation (co-founded by Anthropic, Block, and OpenAI; supported by Google, Microsoft, AWS, Cloudflare, Bloomberg). It connects LLMs to external tools and data sources via a unified JSON-RPC 2.0 interface, supporting STDIO and Streamable HTTP transports. The official MCP registry at <a href="https://mcp.so" rel="nofollow">mcp.so</a> lists **10,000+ active public servers**. MCP SDK downloads exceeded **97 million monthly** by March 2026. The next spec release (2026-07-28 RC) introduces stateless transport, Tasks primitive, and enterprise auth hardening.
+The <a href="https://modelcontextprotocol.io" rel="nofollow">Model Context Protocol (MCP)</a> is an open standard originally by Anthropic, now governed by the **Agentic AI Foundation (AAIF)** under the Linux Foundation (co-founded by Anthropic, Block, and OpenAI; supported by Google, Microsoft, AWS, Cloudflare, Bloomberg). It connects LLMs to external tools and data sources via a unified JSON-RPC 2.0 interface, supporting STDIO and Streamable HTTP transports. The official MCP registry at <a href="https://mcp.so" rel="nofollow">mcp.so</a> lists **10,000+ active public servers**. MCP SDK downloads exceeded **97 million monthly** by March 2026. The **2026-07-28 spec release candidate** (locked May 21, 2026) introduces stateless core transport, Tasks extension for long-running work, MCP Apps for server-rendered UIs, OAuth 2.1 alignment, and a formal deprecation policy. Docker Custom MCP Catalogs and Profiles reached GA in May 2026. Microsoft Power BI MCP server released June 2026.
 
-**MCP Clients:** Claude Desktop, Claude Code, Cursor, Windsurf, VS Code (Copilot), Continue.dev, Zed, ChatGPT, Gemini, Microsoft Copilot, LibreChat, and more.
+**MCP Clients:** Claude Desktop, Claude Code, Cursor, Windsurf, VS Code (Copilot + ACP Client), Continue.dev, Zed, ChatGPT, Gemini, Microsoft Copilot, LibreChat, and more.
 
 #### Popular MCP Servers
 
@@ -1564,12 +1628,19 @@ Compact models designed for on-device inference, edge deployment, low-latency AP
 | Granite 3.3 8B | IBM | 8B | 128K | Apache 2.0 | Enterprise tasks, tool use, business-domain |
 | MiniCPM 3.0 | ModelBest / Tsinghua | 4B | 32K | Apache 2.0 | Compact yet capable, mobile and edge |
 | Danube 3 500M | H2O.ai | 500M | 8K | Apache 2.0 | Ultra-lightweight on-device, IoT |
+| **MobileMoE** ⭐ | Academic | 0.3B–0.9B active (1.3B–5.3B total) | 128K | Research | First sub-billion MoE family for on-device; 1.8-3.8x faster than dense baselines |
+| **SLM-10M** (Liodon AI) ⭐ | Liodon AI | 9.97M | 1K | Apache 2.0 | Leads sub-10M Open SLM Leaderboard (32.38%); beats Pythia-31M with 1/3 params |
+| **MiniGPT-16MB** ⭐ | david-spies | 1.46M | 256 | MIT | Sub-16MB model; runs in browser via WebAssembly; 60-120+ tok/s |
+| **Micro Language Models (muLMs)** ⭐ | Sensente | 8M–30M | — | Research | Instant on-device response initiation; masks cloud latency; collaborative generation |
+| **PhoneLM** ⭐ | UbiquitousLearning | 0.5B / 1.5B | 32K / 128K | Apache 2.0 | Smartphone-native SLM; architecture searched for NPU efficiency; Android intent invocation |
 
 **Notable GitHub repos:**
 - SmolLM / SmolLM2: <a href="https://github.com/huggingface/smollm" rel="nofollow">🔗</a>
 - Granite 3.x: <a href="https://github.com/ibm-granite/granite-3.0-language-models" rel="nofollow">🔗</a>
 - MiniCPM: <a href="https://github.com/OpenBMB/MiniCPM" rel="nofollow">🔗</a>
 - Danube 3: <a href="https://github.com/h2oai/h2o-danube3" rel="nofollow">🔗</a>
+- MobileMoE: <a href="https://github.com/UCBerkeley-MobileMoE/MobileMoE" rel="nofollow">🔗</a>
+- SLM-10M: <a href="https://huggingface.co/liodon-ai/slm-10m" rel="nofollow">🔗</a>
 
 
 ---
