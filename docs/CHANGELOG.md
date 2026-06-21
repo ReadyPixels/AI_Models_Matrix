@@ -1,3 +1,243 @@
+## [2026-06-21] - Version 3.33 - MiniMax Hailuo 02 video model, MiniMax Speech 2.6, Mistral Voxtral TTS 4B, Apple Core AI/Foundation Models at WWDC26, Aion 1.0 on-device SLMs, Gemini CLI shutdown/Antigravity CLI replacement, Amazon Bedrock AgentCore Harness GA, Databricks Genie One GA, Vercel eve agent framework, Omnigent meta-harness, GitKraken Kepler ADE, Zensar AgentMesh, Konecta Kolibri, Sedai AI Agent Optimization, GMI Cloud AgentBox, OpenRouter Fusion, GLM 5.2 on Fireworks, Gemma 4 on Cerebras, MCP 2026-07-28 stateless spec RC, new VS Code extensions, browser automation tools, AI safety updates
+
+### Added
+- **MiniMax Hailuo 02** (Video Generation): 3x params vs predecessor, 4x training data, native 1080p, #2 Artificial Analysis Video Arena; released 2026-06-20.
+  - Source: https://www.minimax.io/news/minimax-hailuo-02
+- **MiniMax Video-01** (Video Generation): First AI-native video model from MiniMax; 720p/25fps; text-to-video and image-to-video; up to 6s clips; released 2026-06-20.
+  - Source: https://www.minimax.io/news/video-01
+- **MiniMax Speech 2.6** (TTS Proprietary): <250ms latency; Fluent LoRA; non-standard text handling; released 2026-06-20.
+  - Source: https://www.minimax.io/news/minimax-speech-26
+- **Mistral Voxtral TTS** (TTS Proprietary): 4B parameter TTS; 9 languages; 70ms latency; voice cloning from 3s audio; $0.016/1K chars; released 2026-06-18.
+  - Source: https://mistral.ai/news/voxtral-tts
+- **Apple Core AI / Foundation Models** (SLMs / On-Device): WWDC26 announcement; successor to Core ML; on-device inference + Private Cloud Compute; hybrid platform spanning on-device, PCC, and third-party models (Claude/Gemini); open-source Swift framework; Aion 1.0 Instruct (open weights, Edge Insider preview) and Aion 1.0 Plan (14B reasoning, 32K context, agentic, shipping in-box "in the coming months"); released 2026-06-20.
+  - Source: https://developer.apple.com/documentation/coreai, https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/
+- **Aion 1.0** (SLMs): Microsoft on-device AI family; Aion 1.0 Instruct (small open-weights SLM for everyday tasks, Edge Insider preview, HuggingFace open-source July 2026) and Aion 1.0 Plan (14B reasoning model, 32K context, agentic workflows, shipping in-box Windows "in the coming months"); released 2026-06-02.
+  - Source: https://blogs.windows.com/windowsdeveloper/2026/06/02/build-2026-furthering-windows-as-the-trusted-platform-for-development/
+- **Antigravity CLI (`agy`)** (CLI Tools): Google's replacement for Gemini CLI; Go-based; async multi-agent workflows; free tier ~20 req/day; released 2026-06-18.
+  - Source: https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/
+- **Vercel eve** (Multi-Agent Platforms): Open-source agent framework; filesystem-first TypeScript; durable execution; sandboxed compute; human-in-the-loop; public preview 2026-06-17.
+  - Source: https://vercel.com/blog/introducing-eve
+- **Omnigent** (Multi-Agent Platforms): Databricks open-source meta-harness; composes multiple agents (Claude Code, Codex, Pi); stateful policies; session sharing; Apache 2.0; alpha 2026-06-13.
+  - Source: https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents
+- **GitKraken Kepler** (Agent Platforms): Agentic Development Environment; multi-agent orchestration; conflict resolver; branch intelligence; released 2026-06-15.
+  - Source: https://www.gitkraken.com/blog/introducing-kepler-the-delivery-engine-for-agent-driven-development
+- **Zensar ZenseAI.AgentMesh** (Agent Platforms): Enterprise agentic AI platform; 80+ pre-built agents; governed orchestration; EU AI Act alignment; GA 2026-06-19.
+  - Source: https://www.prnewswire.com/news-releases/zensar-technologies-launches-zenseaiagentmesh-to-accelerate-enterprise-ai-adoption-at-scale-302792208.html
+- **Konecta Kolibri** (Agent Platforms): Agentic AI orchestration platform; 80% pre-built use cases; FinOps dashboards; GA 2026-06-16.
+  - Source: https://konecta.com/news-insights/konecta-launches-kolibri-an-agentic-platform-to-speed-up-enterprise-deployment-of-agentic-ai-and-end-pilot-purgatory
+- **Sedai AI Agent Optimization** (Agent Platforms): Autonomous platform for AI agent optimization; governance, observability, smart routing; early access 2026-06-09.
+  - Source: https://www.prnewswire.com/news-releases/sedai-launches-the-first-autonomous-platform-for-ai-agent-optimization-302792208.html
+- **GMI Cloud AgentBox** (Agent Platforms): Marketplace for AI agents; 100+ models via single key; usage-based pricing; GA 2026-06-08.
+  - Source: https://www.gmicloud.ai/en/blog/agentbox-is-live-the-whole-stack-for-production-ai-agents-in-one-place
+- **OpenRouter Fusion** (API Providers): Model synthesis tool; combines multiple model outputs via judge; Fable 5 + GPT-5.5 fusion scored 69.0% surpassing individual models; launched 2026-06-12.
+  - Source: https://openrouter.ai/blog/announcements/fusion-beats-frontier/
+- **Kilo for GitHub** (CLI Tools): AI coding agent living in GitHub; @kilocode-bot mentions in issues/PRs; Cloud Agent backend; released 2026-06-18.
+  - Source: https://blog.kilo.ai/p/introducing-kilo-for-github
+- **Qoder 1.0** (IDEs): Alibaba Cloud Autonomous Development Desktop; Quest window for agent command; editor + agent parallel workspaces; GA 2026-06-16.
+  - Source: https://www.alibabacloud.com/blog/introducing-qoder-1-0-from-ai-ide-to-autonomous-development-desktop_603260
+- **OpenHands Agent Canvas** (Agent Platforms): Workspace for creating automations integrating Slack, GitHub; self-hostable; released 2026-06-16.
+  - Source: https://www.openhands.dev/blog/introducing-agent-canvas
+- **Hermes Agent v0.17.0** (CLI Tools): Major desktop app update; live subagent watch-windows; VS Code theme support; released 2026-06-19.
+  - Source: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19
+- **Mastra Harness** (Multi-Agent Platforms): Agent loop abstraction; persistent sessions; tool approval; model switching; available in @mastra/core@1.43.0; released 2026-06-18.
+  - Source: https://mastra.ai/blog/announcing-agent-harness
+- **Kling 3.0 Turbo** (Video Generation): Fast-preview mode; 1-15s clips at 480p/720p; rapid iteration before full Kling 3.0 production; released 2026-06-17.
+  - Source: https://news.financenewsworld.com/story/564950/kling-30-turbo-released-kling-ai-brings-fast-video-previews-for-rapid-creative-iteration.html
+- **ZONOS2** (TTS Open Source): Zyphra 8B MoE TTS; Apache 2.0; multilingual + code-switched; zero-shot voice cloning; ECAPA-TDNN speaker embeddings; released 2026-06-12.
+  - Source: https://www.zyphra.com/our-work/zonos2
+- **dots.tts** (TTS Open Source): RedNote 2B fully continuous AR TTS; 48kHz AudioVAE; no discrete tokens; Apache 2.0; released 2026-06.
+  - Source: https://github.com/rednote-hilab/dots.tts
+- **Soniox v5 Async** (STT): Structured speech-to-text; speaker separation; language IDs; normalized structured entities; released 2026-06-11.
+  - Source: https://soniox.com/blog/soniox-v5-async
+- **Gnani Prisma v2.5** (STT): #1 in 8 of 9 Indian languages; 15% lower WER rural Hindi; 14M hours training data; released 2026-06-19.
+  - Source: https://cxotoday.com/media-coverage/gnani-ai-launches-prisma-v2-5-ranked-1-in-8-of-9-indian-languages-on-real-world-and-noisy-asr-benchmarks/
+- **NVIDIA Nemotron 3.5 ASR Streaming 0.6B** (STT): 40 language-locales; language-ID prompt conditioning; punctuation/capitalization; released 2026-06-04.
+  - Source: https://huggingface.co/nvidia/nemotron-speech-streaming-en-0.6b
+- **Infron** (API Providers): Enterprise AI model inference provider; unified API; up to 35% off direct pricing; provisioned throughput plan; released 2026-06-10.
+  - Source: https://infron.ai/
+- **Aethir Mesh** (API Providers): Open-source LLM API platform; single API for open-source models (DeepSeek V4, Kimi K2.6, etc.); decentralized GPU infrastructure; released 2026-06-12.
+  - Source: https://aethir.com/blog-posts/aethir-mesh-opens-the-llm-api-layer-to-everyone-leverage-top-tier-open-source-llms
+- **Unsloth Studio** (Fine-tuning Platforms): No-code local training and inference; runs 100% offline; GGUF/Safetensors; tool-calling; web search; released 2026-06-18.
+  - Source: https://unsloth.ai/
+- **Arkor** (Fine-tuning Platforms): TypeScript framework for fine-tuning open-weight LLMs; type-safe configs; local Studio; managed GPUs; alpha 2026-06-11.
+  - Source: https://github.com/WlyZhang/arkor
+- **Langtrain** (Fine-tuning Platforms): Sovereign AI platform; fine-tune, align, deploy on own infrastructure; 20+ models; public beta 2026-06.
+  - Source: https://www.langtrain.xyz/
+- **Dynatrace dt-evals** (Evaluation & Observability): Open-source CLI for LLM/agent quality evaluation from real traces; LLM judge scoring; CI/CD integration; released 2026-06-11.
+  - Source: https://www.dynatrace.com/news/blog/evaluate-llm-and-agent-quality-in-dynatrace-ai-observability/
+- **Currai** (Evaluation & Observability): AI observability platform; prompt tracing; A/B testing; LLM evaluations; cost analytics; released 2026-06-18.
+  - Source: https://www.currai.app
+- **Agentic CLEAR** (Evaluation & Observability): IBM multi-level agent evaluation; LLM-as-judge with Key Point Analysis; ACL 2026; released 2026.
+  - Source: https://ibm.github.io/CLEAR/
+- **tracesage** (Evaluation & Observability): Local-first observability for LangChain/LangGraph agents; interactive graph + timeline UI; MCP tool-source attribution; pytest fixture; MIT; released 2026-06-16.
+  - Source: https://dev.to/kjgpta/tracesage-see-inside-your-langgraph-agents-55ek
+- **MOTHRAG** (RAG Frameworks): Deterministic multi-hop RAG; research-SOTA parity on commodity LLM APIs; no GPU; proof tree per answer; Apache 2.0; released 2026-06-17.
+  - Source: https://github.com/juliangeymonat-jpg/mothrag
+- **AkasicDB / Omni RAG** (RAG Frameworks): Unified vector-graph-relational DBMS; Omni RAG improves accuracy by 78% vs conventional RAG; 20x faster complex queries; SIGMOD 2026; released 2026-06-19.
+  - Source: https://techxplore.com/news/2026-06-generation-database-ai-hallucinations-accuracy.html
+- **Ennoia** (RAG Frameworks): Declarative Document Indexing framework; typed schemas; hybrid filter + vector search; MCP tool surface; Apache 2.0; alpha 2026-06.
+  - Source: https://github.com/vunone/ennoia
+- **VORTEXRAG** (RAG Frameworks): 7-layer pipeline solving semantic drift + context poisoning; EM=74.8 on multi-hop QA; MIT; released 2026-05-18.
+  - Source: https://github.com/vignesh2027/VORTEXRAG
+- **MemGraphRAG** (RAG Frameworks): Memory-based multi-agent graph RAG; three-layer memory architecture; KDD 2026; MIT; released 2026-05-17.
+  - Source: https://github.com/XMUDeepLIT/MemGraphRAG
+- **UnWeaver** (RAG Frameworks): Entity-based decomposition RAG; better than GraphRAG precision without explicit graph; ICLR 2026; released 2026-06-08.
+  - Source: https://arxiv.org/html/2603.29875
+- **Google Agentic RAG** (RAG Frameworks): Gemini Enterprise Agent Platform; multi-agent workflow with sufficient context agent; +34% accuracy vs standard RAG; public preview 2026-06-05.
+  - Source: https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/
+- **LFM2.5 Retrievers** (Embedding Models): Liquid AI bidirectional embedder; LFM2.5-ColBERT-350M and LFM2.5-Embedding-350M; 11 languages; runs on CPU/edge; released 2026-06-18.
+  - Source: https://www.liquid.ai/blog/lfm2-5-retrievers
+- **edge-lm** (SLMs): Gemma 4 edge-optimized checkpoints; 7x smaller; E2B in 1.44GB; MLX-ready; MIT; released 2026-06-02.
+  - Source: https://github.com/TheStageAI/edge-lm
+- **Atome LM** (SLMs): Ternary zero-heap LM for microcontrollers; 60K params; runs on ESP32; Apache 2.0; released 2026-05-23.
+  - Source: https://github.com/TilelliLab/atome-lm
+- **mech-gov-framework** (AI Safety): Mechanical Governance for LLM decisions; model-agnostic; hard gates; entropy commit-reveal; Apache 2.0; released 2026-06-17.
+  - Source: https://github.com/SantanderAI/mech-gov-framework
+- **Vermillio** (AI Safety): AI-Guardrails-as-a-Service SDK; real-time prompt/response filtering; copyright and data leakage protection; released 2026-06-11.
+  - Source: https://www.archynewsy.com/vermillio-launches-sdk-and-ai-guardrails-as-a-service/
+- **Amazon Bedrock Guardrails InvokeGuardrailChecks API** (AI Safety): Granular per-request safeguard checks; numeric scores; custom thresholds; detect-only mode; released 2026-06-16.
+  - Source: https://aws.amazon.com/blogs/machine-learning/safeguard-your-agentic-ai-applications-with-the-amazon-bedrock-guardrails-invokeguardrailchecks-api/
+- **Google AI Control Roadmap** (AI Safety): Defense-in-depth framework for agent security; MITRE ATT&CK-based threat modeling; AI supervisor monitoring; detection/prevention/response levels; published 2026-06-18.
+  - Source: https://deepmind.google/blog/securing-the-future-of-ai-agents/
+- **Prompt Foundry** (IDE Add-ons): VS Code/Cursor extension; modular prompt blocks with Liquid syntax; MCP server for context updates; released 2026-06-18.
+  - Source: https://github.com/simondevries/prompt-foundry
+- **GrackerAI** (IDE Add-ons): Free VS Code extension; validates llms.txt, robots.txt, AI visibility signals; released 2026-06-16.
+  - Source: https://gracker.ai/blog/grackerai-brings-ai-visibility-checks-into-vs-code
+- **A11yResolver** (IDE Add-ons): VS Code extension for accessibility remediation; AI agent flags WCAG issues; 50-70% time reduction; free during beta; released 2026-06-18.
+  - Source: https://dev.to/a11ysolutions/how-i-cut-accessibility-remediation-time-by-70-without-leaving-vs-code-igi
+- **Dev Browser** (Browser Automation): Claude Code plugin for browser automation; stateful Playwright wrapper; released 2026-06-19.
+  - Source: https://blog.brightcoding.dev/2026/06/19/dev-browser-the-revolutionary-claude-code-automation-plugin
+- **Intuned** (Browser Automation): YC-backed browser automation as code; AI agent generates Playwright code; auto-healing; released 2026-06-08.
+  - Source: https://runany.dev/blog/intuned-browser-automation-yc-s22/
+- **Veilbrowser** (Browser Automation): Stealth browser for AI agents; real Chrome over raw CDP; passes sannysoft 57/57; MCP-native; MIT; released 2026-06-09.
+  - Source: https://github.com/acunningham-ship-it/veilbrowser
+- **Stagehand v3.6** (Browser Automation): WebMCP support; Claude Fable 5 support; Microsoft Entra ID auth; released 2026-06-19.
+  - Source: https://github.com/browserbase/stagehand/releases/tag/@browserbasehq%2Fstagehand@3.6.0
+
+### Updated
+- **Gemini CLI** (CLI Tools): Service stopped June 18, 2026 for free/Pro/Ultra users; migrate to Antigravity CLI. Enterprise Code Assist licensees retain access.
+  - Source: https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/
+- **Amazon Bedrock AgentCore Harness** (Cloud Automation): GA 2026-06-18; 2 API calls to production agent; sandboxed runtime; memory; skills; web search; CloudWatch tracing.
+  - Source: https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-is-now-generally-available-go-from-idea-to-production-grade-agent-in-minutes/
+- **Databricks Genie One** (Cloud Automation): GA 2026-06-16; data-smart agentic coworker; iOS/Android/web; 50+ app integrations; Genie Ontology context layer; $10 free/user/mo.
+  - Source: https://www.databricks.com/company/newsroom/press-releases/databricks-launches-genie-one-all-new-agentic-coworker-every-team
+- **GLM 5.2** (Model Router Services): Now live on Fireworks inference with day-zero support; GPQA-Diamond 91.4% validated; MIT license; cached input $0.26/1M.
+  - Source: https://fireworks.ai/blog/glm-5p2
+- **Gemma 4 on Cerebras** (Model Router Services): Private preview 2026-06-18; 1,500+ tok/s; first multimodal model on Cerebras; Apache 2.0.
+  - Source: https://www.cerebras.ai/blog/gemma-4-on-cerebras-the-fastest-inference-is-now-multimodal
+- **MCP 2026-07-28 Release Candidate** (MCP Ecosystem): Largest revision since launch; stateless core; no sessions; no initialize handshake; MCP Apps extension; Tasks extension; OAuth 2.0 alignment; 12-month deprecation policy; final spec July 28, 2026.
+  - Source: https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/
+- **OpenRouter** (API Providers): Added Fusion model synthesis; Nano Banana 2 and Nano Banana Pro image models; GLM 5.2; total 400+ models.
+  - Source: https://openrouter.ai/models
+- **Together AI** (Model Router Services): GLM-5.1 cached input $0.26/1M (81% discount); Qwen3.5-397B cached $0.35/1M; NVIDIA HGX B200 support; Instant Clusters GA.
+  - Source: https://docs.together.ai/docs/changelog
+- **Fireworks AI** (Model Router Services): GLM 5.2 day-zero; Nemotron 3 Ultra day-zero; Nemotron Nano 3 30B A3B added.
+  - Source: https://fireworks.ai/blog/glm-5p2, https://fireworks.ai/blog/nemotron-3-ultra
+- **xAI Grok Imagine Video 1.5** (Video Generation): GA 2026-06-16; #1 Image-to-Video Arena (Elo 1,473); $4.20/min 720p; native synced audio; Video 1.5 Fast ~25s for 6s clip.
+  - Source: https://www.techtimes.com/articles/318635/20260618/grok-imagine-video-15-goes-live-xai-tops-ai-video-leaderboard-86-percent-below-sora.htm
+- **MiniMax Speech 2.5** (TTS Proprietary): 40+ languages; enhanced voice cloning; released 2026-06-12.
+  - Source: https://www.minimax.io/news/minimax-speech-25
+- **MAI-Voice-2** (TTS Proprietary): 18 languages; 72% preference vs predecessor; custom voice from 5-60s clip; released 2026-06-02.
+  - Source: https://microsoft.ai/news/mai-voice-2/
+- **MAI-Transcribe-1.5** (STT): 43 languages; 2.4% WER (#3 Artificial Analysis); 276x real-time; keyword biasing; released 2026-06-02.
+  - Source: https://awesomeagents.ai/models/mai-transcribe-1-5/
+- **Gladia Solaria-3** (STT): #1 on business audio; 5 European languages; released 2026-06-10.
+  - Source: https://www.gladia.io/blog/solaria-3-speech-to-text-model-for-european-languages
+- **Speechmatics Melia** (STT): Code-switching across 55+ languages; from $0.129/hr; 10hr/mo free; production preview 2026-06-17.
+  - Source: https://www.speechmatics.com/company/articles-and-news/introducing-melia-multilingual-speech-to-text-model
+- **Higgs Audio v3 TTS** (TTS Proprietary): 100+ languages; inline emotion/style tags; zero-shot cloning; released 2026-06-04.
+  - Source: https://www.boson.ai/blog/higgs-audio-v3-tts
+- **Chatterbox Multilingual v3** (TTS Open Source): 25 languages; 0.5B Llama backbone; PerTh watermarking; MIT; released 2026-06-10.
+  - Source: https://www.resemble.ai/resources/chatterbox-multilingual-v3-tts-with-embedded-watermarking-for-25-languages
+- **MisoTTS** (TTS Open Source): 8B emotive TTS; RVQ; conditions on text + audio; modified MIT; released 2026-06-04.
+  - Source: https://www.marktechpost.com/2026/06/04/miso-labs-releases-misotts-an-8b-emotive-text-to-speech-model-with-open-weights/
+- **Gemini Embedding 2** (Embedding Models): First natively multimodal embedding model; text/image/video/audio/documents; 3072 dimensions; 100+ languages; public preview 2026-03-10.
+  - Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2/
+- **Granite Embedding Multilingual R2** (Embedding Models): 97M and 311M variants; best sub-100M multilingual embedder; 32K context; Apache 2.0; released 2026-05-14.
+  - Source: https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2
+- **pplx-embed** (Embedding Models): 0.6B and 4B; MTEB Multilingual leader; web-scale retrieval; MIT; released 2026-02-26.
+  - Source: https://research.perplexity.ai/articles/pplx-embed-state-of-the-art-embedding-models-for-web-scale-retrieval
+- **ML-Embed-0.6B** (Embedding Models): CodeFuse AI; 3D Matryoshka Learning; ICML 2026; Apache 2.0; released 2026-05-14.
+  - Source: https://huggingface.co/codefuse-ai/ML-Embed-0.6B
+- **Echo-Infinity** (Video Generation): Real-time infinite video generation; 24-hour rollouts; constant compute cost per frame; released 2026-06-04.
+  - Source: https://arxiv.org/pdf/2606.04527
+- **Microsoft Mirage** (Video Generation): Video world model with persistent spatial memory; 10.57x faster; built on Wan2.2; released 2026-06-14.
+  - Source: https://the-decoder.com/microsoft-researchs-mirage-gives-video-generation-a-persistent-spatial-memory-that-doesnt-forget-whats-around-the-corner/
+- **MobileMoE** (SLMs): Sub-billion MoE family; 0.3B-0.9B active; 1.8-3.8x faster than dense; released 2026-06.
+  - Source: https://huggingface.co/blog/MobileMoE/mobilemoe-sub-billion-moe-models-for-edge-ai
+- **SLM-10M** (SLMs): 9.97M params; leads sub-10M tier; Apache 2.0; released 2026-06-14.
+  - Source: https://huggingface.co/blog/PY-AI-Dev/slm10-blog
+- **Gemma 4 12B** (Free-Source Models): Encoder-free multimodal; native audio+vision; 16GB VRAM laptop-ready; MTP drafters; Apache 2.0; released 2026-06-03.
+  - Source: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/
+- **GPT-5.5 Instant** (Frontier Models): Health performance comparable to frontier Thinking models; free-tier ChatGPT default since 2026-05-05; API pricing $0.20/$1.00 per 1M.
+  - Source: https://openai.com/index/improving-health-intelligence-in-chatgpt/
+- **GPT-Rosalind** (Frontier Models): Life sciences research model; GPT-5.5 agentic coding + tool-use; trusted-access deployment; released 2026-06-03.
+  - Source: https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/
+- **GPT-Realtime-2** (Frontier Models): GPT-5-class reasoning voice model; $32/$64 per 1M audio tokens; released 2026-05-07.
+  - Source: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/
+- **Xcode 27** (IDEs): Integrates coding agents from Anthropic, Google, OpenAI; MCP via mcpbridge; Device Hub for iOS Simulator; released 2026-06-08.
+  - Source: https://developer.apple.com/xcode/
+- **Junie** (IDE Add-ons): GA 2026-06-17; ACP-based IDE integration; agentic debugging; BYOK; local model support.
+  - Source: https://blog.jetbrains.com/de/junie/2026/06/junie-coding-agent-out-of-beta/
+- **JetBrains Marketplace Security** (IDE Add-ons): 15 malicious AI plugins removed; 7 publisher accounts terminated; remote kill-switch triggered; users should revoke exposed API keys.
+  - Source: https://blog.jetbrains.com/platform/2026/06/marketplace-ecosystem-security-update-malicious-ai-plugins/
+- **GitHub Copilot CLI for JetBrains** (IDE Add-ons): Copilot CLI agent as default; agent picker; slash commands; agent debug panel; released 2026-06-02.
+  - Source: https://github.blog/changelog/2026-06-02-introducing-copilot-cli-and-agentic-capabilities-enhancements-in-jetbrains-ides/
+- **Rider 2026.2 EAP 5** (IDE Add-ons): Quality-check hooks for Claude Code and Codex; Explain with AI from build errors; released 2026-06-08.
+  - Source: https://blog.jetbrains.com/dotnet/2026/06/08/rider-2026-2-code-quality-check-hooks-for-ai-agents/
+- **Cursor** (VS Code Forks): Version 3.2 released 2026-05-01; unified agent workspace; local/cloud agent switching.
+  - Source: https://test-news.aibase.com/news/26844
+- **Windsurf** (VS Code Forks): Version 2.0.0 released 2026-05-03.
+- **Google Antigravity 2.0** (Web-Based IDEs): Agent-first platform; desktop app + CLI (`agy`) + SDK + Managed Agents API; multi-agent orchestration; released 2026-05-19.
+  - Source: https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/
+- **ClickHouse Agents** (Cloud Automation): Claude-powered agentic analytics; no-code agent builder; public beta 2026-06-09.
+  - Source: https://clickhouse.com/blog/clickhouse-agents-beta
+- **Google Data Agents** (Cloud Automation): Data Science Agent, Database Agent, Looker Dashboard Agent, Data Insights Agent, Deep Research Agent; preview 2026-06-16.
+  - Source: https://cloud.google.com/blog/products/data-analytics/new-data-agents-across-the-agentic-data-cloud/
+- **C1 Autonomous Worker** (Cloud Automation): Agent that runs work loops, carries state, executes code; available via Slack; released 2026-06-15.
+  - Source: https://www.c1.ai/blog/introducing-the-c1-autonomous-worker
+- **Salesforce Agentforce 3** (MCP Ecosystem): Anchors around MCP interoperability; Salesforce DX, Heroku, MuleSoft MCP servers; released 2026-06-23.
+  - Source: https://www.salesforce.com/news/news-releases/2026/06/23/salesforce-announces-agentforce-3/
+- **LangGraph** (Multi-Agent Platforms): v1.0 GA October 2025; GitHub stars ~34,547.
+- **CrewAI** (Multi-Agent Platforms): v1.14.7 released 2026-06-11; GitHub stars ~53,357.
+- **AutoGen** (Multi-Agent Platforms): In maintenance mode; Microsoft Agent Framework is the successor; AG2 community fork active.
+  - Source: https://github.com/microsoft/autogen
+- **Microsoft Agent Framework** (Multi-Agent Platforms): v1.0 GA April 2026; unified successor to AutoGen + Semantic Kernel; Python + .NET runtimes.
+  - Source: https://github.com/microsoft/agent-framework
+- **agno (formerly phidata)** (Multi-Agent Platforms): AgentOS runtime; multi-tenant APIs; RBAC; audit logs; GitHub stars ~40,662.
+- **LangChain Deep Agents** (Multi-Agent Platforms): Long-horizon agent harness; MIT; released 2026.
+- **Wheelie (Continua)** (Multi-Agent Platforms): Agentic dev OS + service runtime; free waiting list; released 2026.
+- **Cloudflare Flue** (Multi-Agent Platforms): Agent framework on Workers; OSS; released 2026.
+- **NVIDIA NIM** (Model Router Services): Release 1.15.0; TRT-LLM PyTorch backend stable; DGX Spark support; CUDA 13.0; prompt embeddings; telemetry; supports Qwen3-Coder-Next, Qwen3-Next-80B-A3B-Instruct, Step-3.5-Flash.
+  - Source: https://docs.nvidia.com/nim/large-language-models/latest/release-notes.html
+- **Langfuse** (Evaluation & Observability): 2,300+ companies; billions of observations/month; 80+ integrations; Launch Week 5 code evaluators.
+  - Source: https://langfuse.com/
+- **Opik** (Evaluation & Observability): Built by Comet; evaluation, testing, monitoring, optimization; Opik Guardrails.
+  - Source: https://github.com/comet-ml/opik
+- **Laminar** (Evaluation & Observability): Open-source agent observability; signals; SQL access; HIPAA/SOC 2 compliant.
+  - Source: https://laminar.sh/
+- **Orq.ai** (Evaluation & Observability): Real-time monitoring; automated evaluations; trace automation; custom dashboards.
+  - Source: https://orq.ai/platform/observability-monitoring
+- **GPQA Diamond** (Benchmarks): Gemini 3.1 Pro leads at 94.3%; Claude Opus 4.7 (Adaptive) 94.2%; Claude Opus 4.8 93.6%; Qwen3.7 Max 92.4%; GLM-5.2 91.2%.
+  - Source: https://benchlm.ai/benchmarks/gpqaDiamond
+- **AIME 2025** (Benchmarks): GPT-5.2 Pro leads at 99.0%; GPT-5 Codex 98.7%; Gemini 3 Flash 97.0%; Step-3.5-Flash 97.3%; GLM-5.2 99.2% (AIME 2026).
+  - Source: https://pricepertoken.com/leaderboards/benchmark/aime-25
+- **Arena Elo** (Benchmarks): Claude Fable 5 1510; Claude Opus 4.8 1512; GPT-5.5 1506; Gemini 3.1 Pro 1505; GPT-5.5 Pro 1510.
+  - Source: https://awesomeagents.ai/leaderboards/overall-llm-rankings-jun-2026/
+- **SWE-bench Verified** (Benchmarks): Claude Mythos 5 95.5%; Claude Fable 5 95.0%; Claude Opus 4.8 88.6%; GPT-5.5 88.7%; GPT-5.5 Pro 92.3%.
+  - Source: https://benchlm.ai/benchmarks/sweVerified
+- **SWE-bench Pro** (Benchmarks): GPT-5.4 (xHigh) leads standardized at 59.1%; Claude Opus 4.8 vendor-reported 69.2%; Claude Fable 5 80.3%.
+  - Source: https://www.morphllm.com/swe-bench-pro
+- **Sora 2** (Video Generation): Consumer app discontinued April 26, 2026; API sunsetting September 24, 2026.
+  - Source: https://www.techtimes.com/articles/318635/20260618/grok-imagine-video-15-goes-live-xai-tops-ai-video-leaderboard-86-percent-below-sora.htm
+
+### Removed / Deprecated
+- **Gemini CLI** (CLI Tools): Shut down June 18, 2026 for free/Pro/Ultra users. Migrate to Antigravity CLI.
+- **Sora 2** (Video Generation): API sunsetting September 24, 2026.
+- **AutoGen** (Multi-Agent Platforms): In maintenance mode. Use Microsoft Agent Framework for new projects.
+
+---
+
 ## [2026-06-20] - Version 3.32 - Claude Fable 5/Mythos 5 suspended, MiniMax M3 open-weight release, Junie GA, Cursor 1.0, Amazon Bedrock AgentCore Harness GA, Databricks Genie One, Vercel eve, Omnigent, new TTS/STT models, browser automation updates, AI safety tools
 
 ### Added
