@@ -1426,6 +1426,7 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 | **Supertonic 3** ⭐ | Supertone | 31 | Yes | No | Subscription / API | Fast, cost-efficient multilingual narration | — |
 | **Lightning V3.1 / V3.2** | Smallest.ai | 15 | Yes | No | Pay-as-you-go | Conversational TTS, MOS 3.89, auto language detection, mid-sentence switching | — |
 | **StepAudio 2.5 Realtime** ⭐ | StepFun | Chinese, English | Yes | No | — | End-to-end real-time speech LLM, paralinguistic comprehension, persona RLHF | — |
+| **VibeVoice-Realtime-0.5B** ⭐ | Microsoft | English (9 experimental langs) | Yes (~300ms) | Yes (MIT) | Free (self-host) | 0.5B real-time TTS; streaming text input; 10-min robust generation; Qwen2.5 base; <300ms TTFA; released 2025-12-03; HuggingFace integration 2026-03-06 | <a href="https://github.com/microsoft/VibeVoice" rel="nofollow">🔗</a> |
 | **Qwen3-TTS** 🇨🇳 | Alibaba | 10 | Yes (streaming) | Yes (Apache 2.0) | Free (self-host) / API | Voice design, voice cloning, instruction control, multilingual | <a href="https://github.com/QwenLM/Qwen3-TTS" rel="nofollow">🔗</a> |
 | **Stability Audio 3.0** | Stability AI | Music/SFX | Yes (small/medium OSS) | Yes (small/medium, Apache 2.0) | Free (small/medium OSS weights); commercial via API |Professional-grade music >6 min, open-weight small/medium variants | <a href="https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/" rel="nofollow">🔗</a> |
 | **Sesame CSM** | Sesame AI Labs | English | Yes | Yes | Free | Conversational, emotionally expressive (4.7 MOS) | <a href="https://github.com/SesameAILabs/csm" rel="nofollow">🔗</a> |
@@ -1446,6 +1447,7 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 | **Ink-2** ⭐ | Cartesia | 40+ | Yes (~100ms) | No | Credit-based (from $5/mo Pro) | #1 Artificial Analysis Speech-to-Text leaderboard; real-time streaming; native turn detection; released 2026-06-21 | — |
 | **MAI-Transcribe-1.5** ⭐ | Microsoft | 43 | Yes | No | API (Foundry) | SOTA on FLEURS; #3 Artificial Analysis; 5x faster than Gemini 3.1; keyword biasing; 1hr audio in <15s; released 2026-06-02 | — |
 | **Cohere Transcribe** ⭐ | Cohere | 14 | No | Yes (Apache 2.0) | Free (self-host) / Model Vault | #1 HuggingFace Open ASR Leaderboard (5.42% WER); 2B Conformer; released 2026-03-26 |
+| **VibeVoice-ASR-7B** ⭐ | Microsoft | 50+ | Yes (~15s for 60min audio) | Yes (MIT) | Free (self-host) | 60-min single-pass ASR; speaker diarization + timestamps; 50+ languages; structured Who/When/What output; released 2026-01-21; HuggingFace transformers integration 2026-03-06 | <a href="https://github.com/microsoft/VibeVoice" rel="nofollow">🔗</a> |
 | **Cohere Transcribe v2** ⭐ | Cohere | 14 | Yes | Yes (Apache 2.0) | Free (self-host) | Real-time streaming STT; open-source; released 2026-05 | <a href="https://huggingface.co/CohereLabs/cohere-transcribe-03-2026" rel="nofollow">🔗</a> |
 | **Gladia Solaria-3** ⭐ | Gladia | 5 (EU) | Yes | No | API | #1 on business audio; optimized for noisy/real-world European languages; released 2026-06-10 | — |
 | **Speechmatics Melia** ⭐ | Speechmatics | 55+ | Yes (preview) | No | From $0.129/hr (10hr free) | Code-switching across 55+ languages; lowest-priced Speechmatics model; released 2026-06-17 | — |
@@ -1469,6 +1471,7 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 
 | Provider | Model | Cost / 1M chars | Languages | Voice Cloning |
 |----------|-------|-----------------|-----------|---------------|
+| **VibeVoice-Realtime** | vibevoice-realtime-0.5b | Free | English (9 experimental) | ✅ |
 | **Mistral Voxtral TTS** | voxtral-tts | $16 | 9 | ✅ |
 | **Fish Audio S2 Pro** | s2-pro | $15 | 80+ | ✅ |
 | **OpenAI** | tts-1 | $15 | 57 | ❌ |
@@ -1489,7 +1492,7 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 | **Long-form narration / audiobooks** | ElevenLabs v3, Gemini 3.1 Flash TTS, Fish Audio S2 Pro |
 | **Multilingual content** | Gemini 3.1 Flash TTS (70+), ElevenLabs v3 (70+), Fish Audio S2 Pro (80+), Sonic-3.5 (40+) |
 | **Emotional fidelity** | Hume Octave 2 (reads for meaning), ElevenLabs v3 (audio tags), Fish Audio S2 Pro |
-| **On-device / low cost** | Kokoro-82M, MOSS-TTS-Nano, Qwen3-TTS (0.6B), Voxtral TTS (4B) |
+| **On-device / low cost** | Kokoro-82M, MOSS-TTS-Nano, Qwen3-TTS (0.6B), Voxtral TTS (4B), VibeVoice-Realtime (0.5B) |
 | **Video dubbing (duration control)** | IndexTTS-2 (precise duration control + emotion) |
 | **Enterprise / compliance** | Deepgram Aura-2 (on-prem, HIPAA), Grok TTS (SOC 2 / HIPAA) |
 | **Open-source production** | Fish Audio S2 Pro, MOSS-TTS-v1.5, IndexTTS-2, Chatterbox Multilingual v3, ZONOS2 |
@@ -2048,6 +2051,8 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 🇨🇳 MiniMax | Speech | 2.8 | 2026-06-20 00:00 UTC | 2026-06-20 00:00 UTC ⭐ | — | $100/1M chars; 40+ languages | API | ❌ | <a href="https://www.minimax.io/" rel="nofollow">🔗</a> |
 | 🇨🇳 MiniMax | Video-01 | — | 2026-06-20 00:00 UTC | 2026-06-20 00:00 UTC ⭐ | — | 720p/25fps | ~$0.40/video | ❌ | <a href="https://www.minimax.io/" rel="nofollow">🔗</a> |
 | 🇫🇷 Mistral AI | Voxtral TTS | — | 2026-06-18 00:00 UTC | 2026-06-18 00:00 UTC ⭐ | — | 4B, 9 languages, 70ms | $0.016/1K chars | ✅ | <a href="https://mistral.ai/" rel="nofollow">🔗</a> |
+| **🤖 Microsoft** | **VibeVoice Realtime (0.5B)** ⭐ | — | 2025-12-03 00:00 UTC | 2026-03-06 00:00 UTC ⭐ | — | 0.5B real-time TTS; <300ms TTFA; streaming input | Free (MIT) | ✅ | <a href="https://github.com/microsoft/VibeVoice" rel="nofollow">🔗</a> |
+| **🤖 Microsoft** | **VibeVoice ASR (7B)** ⭐ | — | 2026-01-21 00:00 UTC | 2026-03-06 00:00 UTC ⭐ | — | 60-min ASR with diarization + timestamps | Free (MIT) | ✅ | <a href="https://github.com/microsoft/VibeVoice" rel="nofollow">🔗</a> |
 | **🤖 OpenAI** | **GPT-4.1** ⭐ | — | 2026-04-14 00:00 UTC | 2026-04-14 00:00 UTC | ✅ | 1M context, improved coding/instruction following | $2.00 / $8.00 | ❌ | <a href="https://openai.com/" rel="nofollow">🔗</a> |
 | **🤖 OpenAI** | **GPT-4.1 mini** ⭐ | — | 2026-04-14 00:00 UTC | 2026-04-14 00:00 UTC | ✅ | 1M context, best value for large-context needs | $0.40 / $1.60 | ❌ | <a href="https://openai.com/" rel="nofollow">🔗</a> |
 | **🇺🇸 Zyphra** | ZONOS2 | — | 2026-06-12 00:00 UTC | 2026-06-12 00:00 UTC ⭐ | — | 8B MoE TTS, multilingual | Free (Apache 2.0) | ✅ | <a href="https://www.zyphra.com/" rel="nofollow">🔗</a> |

@@ -3,6 +3,8 @@
 ### Added
 - **GPT Image 2** (Image Generation): ChatGPT Images 2.0; 2K resolution; agentic reasoning; multilingual text rendering; released 2026-04-21; $0.006-$0.211/image (quality/resolution); $8/1M image input tokens; $30/1M image output tokens. Source: https://openai.com/index/introducing-chatgpt-images-2-0/
 - **Apple Foundation Models 3rd Generation** (SLMs): AFM 3 Core (3B dense), AFM 3 Core Advanced (20B sparse, 1-4B active), AFM 3 Cloud, ADM 3 Cloud (Image), AFM 3 Cloud Pro. Announced June 8, 2026 at WWDC 2026. Not available via public API; power Apple Intelligence on-device and Private Cloud Compute. Source: https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models
+- **Microsoft VibeVoice-Realtime (0.5B)** (TTS Open Source): Real-time streaming TTS; 0.5B params; <300ms TTFA; streaming text input; ~10-min robust generation; Qwen2.5 base; MIT license; released 2025-12-03. Source: https://github.com/microsoft/VibeVoice
+- **Microsoft VibeVoice-ASR (7B)** (STT Open Source): 60-min single-pass ASR with speaker diarization and timestamps; 50+ languages; structured Who/When/What output; MIT license; released 2026-01-21. Source: https://github.com/microsoft/VibeVoice
 
 ### Updated
 - **GPU Cloud pricing table**: Updated RunPod RTX 4090 to $0.34-$0.69/hr; updated Vast.ai to ~$0.09-$0.59/hr. Source: https://www.runpod.io/pricing, https://www.buildmvpfast.com/api-costs/gpu
