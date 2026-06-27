@@ -1,3 +1,98 @@
+## [2026-06-26] - Version 3.37 - GPT-Image-2, Apple Foundation Models 3, GPU pricing update, Cursor $20/$60/$200, Windsurf $15 Pro, GPT-4.1 ChatGPT retirement, Gemini 3.1 Flash Image pricing fix, MiniMax Speech 2.8 in Comparison Tables
+
+### Added
+- **GPT Image 2** (Image Generation): ChatGPT Images 2.0; 2K resolution; agentic reasoning; multilingual text rendering; released 2026-04-21; $0.006-$0.211/image (quality/resolution); $8/1M image input tokens; $30/1M image output tokens. Source: https://openai.com/index/introducing-chatgpt-images-2-0/
+- **Apple Foundation Models 3rd Generation** (SLMs): AFM 3 Core (3B dense), AFM 3 Core Advanced (20B sparse, 1-4B active), AFM 3 Cloud, ADM 3 Cloud (Image), AFM 3 Cloud Pro. Announced June 8, 2026 at WWDC 2026. Not available via public API; power Apple Intelligence on-device and Private Cloud Compute. Source: https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models
+
+### Updated
+- **GPU Cloud pricing table**: Updated RunPod RTX 4090 to $0.34-$0.69/hr; updated Vast.ai to ~$0.09-$0.59/hr. Source: https://www.runpod.io/pricing, https://www.buildmvpfast.com/api-costs/gpu
+- **OpenRouter** (Unified APIs): Added GPT-Image-1.5, GPT-Image-2, Poolside Laguna, Qwen3-Coder to new models list. Source: https://openrouter.ai/models
+- **GPT-4.1 / mini / nano**: Added ChatGPT retirement date (Feb 13, 2026) across all relevant tables. API remains available. Source: https://openai.com/index/retiring-gpt-4o-and-older-models/
+- **Gemini 3.1 Flash Image pricing**: Corrected to $0.50/1M text+image input tokens; output images by resolution ($0.045/512px, $0.067/1Kpx). Source: https://ai.google.dev/gemini-api/docs/pricing
+- **Cursor pricing**: Updated to Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Source: https://felloai.com/cursor-pricing/
+- **Windsurf pricing**: Updated Pro tier to $15/mo. Source: https://uibakery.io/blog/windsurf-vs-cursor-pricing
+- **Cursor vs Windsurf comparison**: Updated to June 2026 pricing.
+- **Value-For-Money Ranking**: Updated to reflect Windsurf Pro at $15/mo as best value paid tier.
+- **Claude Fable 5** (Frontier Models note): Clarified status -- removed from subscription plans June 23, requires usage credits. Mythos 5 only via Project Glasswing.
+- **MiniMax Speech** (Comparison Tables): Updated from v2.6 to v2.8.
+- **Data Sources**: Added Apple Foundation Models, OpenAI GPT-4.1 retirement, GPT-Image-2 sources.
+- **Header & Metadata**: Updated Last Updated badge to 2026-06-26 19:03 UTC; incremented document version to 3.37.
+
+---
+
+## [2026-06-26] - Version 3.36 - Corrected GPT-4.5 API retirement (July 2025), Gemini 3.1 Flash image pricing (resolution-based output), Cursor $20/$60/$200, Windsurf $15 Pro, GPT-4.1 ChatGPT retirement (Feb 2026)
+
+### Corrected
+- **GPT-4.5** (Training Data Cutoffs): Previous note said "API unaffected" -- actually retired from API July 2025. Source: https://developers.openai.com/api/docs/deprecations
+- **GPT-4.5** (Comprehensive Benchmark): Added retirement tracking note.
+- **Gemini 3.1 Flash Image pricing**: Previous "$0.25/$1.50 per 1M" was incorrect (that was Flash-Lite pricing). Corrected to $0.50/1M text+image input; output by resolution ($0.045/512px, $0.067/1Kpx). Source: https://ai.google.dev/gemini-api/docs/pricing
+- **GPT-4.1 / mini / nano**: Added ChatGPT retirement date (Feb 13, 2026) across all tables. API remains available. Source: https://openai.com/index/retiring-gpt-4o-and-older-models/
+- **Cursor pricing**: Updated from $19/$39 to actual 2026 pricing: Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Source: https://felloai.com/cursor-pricing/
+- **Windsurf pricing**: Updated Pro tier from $20 to $15/mo. Source: https://uibakery.io/blog/windsurf-vs-cursor-pricing
+- **Claude Fable 5** (Frontier Models note): Clarified status -- removed from subscription plans June 23, requires usage credits. Mythos 5 only accessible via Project Glasswing.
+
+---
+
+## [2026-06-26] - Version 3.35 - Cartesia Sonic-3.5/Ink-2 (TTS/STT), MiniMax M2.7 to LLM tables, MiniMax Speech 2.8, Cohere Command A+/Transcribe v2, Google AI Ultra $99.99 pricing, Seed 2.1 Pro tracking note, Cursor $20/$60/$200 pricing, Windsurf $15 Pro, GPT-4.1 ChatGPT retirement, GPT-4.5 API correction, Gemini 3.1 Flash Image pricing fix
+
+### Added
+- **Cartesia Sonic-3.5** (TTS Proprietary): #1 Artificial Analysis Speech Arena; ~$39/1M chars; 40+ languages; ~100ms TTFA; released 2026-06-21. Source: https://www.cartesia.ai/launch/
+- **Cartesia Ink-2** (STT): #1 Artificial Analysis Speech-to-Text leaderboard; real-time streaming; native turn detection; released 2026-06-21. Source: https://www.cartesia.ai/launch/
+- **MiniMax M2.7** (Cached & Batch Pricing, Model Pricing Comparison, Commercial Coding Models, Output Token Limits, Free-Source Models): Self-evolution LLM; $0.30/$1.20; 205K context; SWE-Pro 56.22%; Agent Teams native; released 2026-03-18. Source: https://www.minimax.io/news/minimax-m27-en
+- **Cohere Command A+** (Cached & Batch Pricing, Model Pricing Comparison): 25B active (218B total MoE); open-weight; faster than GPT-5.4 nano, Claude Haiku, Grok 4.3; released 2026-05. Source: https://artificialanalysis.ai/articles/cohere-launches-open-weights-model-command-a-more-than-a-year-since-the-command-a-release
+- **Cohere Transcribe v2** (STT): Real-time streaming STT; open-source Apache 2.0; released 2026-05. Source: https://betakit.com/qa-behind-the-scenes-of-coheres-new-ai-transcription-model/
+- **MiniMax Speech 2.8 / 2.8 HD** (TTS Proprietary): 40+ languages; 300+ voices; $100/1M chars (HD); released 2026-06-20. Source: https://www.minimax.io/news/minimax-speech-28
+- **North Mini Code** (Commercial Coding Models): 30B MoE (3B active); Apache 2.0; free on OpenRouter; released 2026-06-09. Source: https://andrew.ooo/answers/what-is-north-mini-code-cohere-developer-model-june-2026/
+- **MiniMax Hailuo 2.3** (Video Generation): Successor to Hailuo 02; 1080p; released 2026-06-22. Source: https://www.minimax.io/news/minimax-hailuo-23
+- **Cohere** (Free Tier APIs): North Mini Code, Command A+ available with limited free tier.
+- **Seed 2.1 Pro** (Frontier Models note): Early-access preview; #8 Code Arena Frontend (1539); on par with Claude Opus 4.6; no public API yet. Source: https://felloai.com/seed-2-1-pro/
+
+### Updated
+- **Speech Arena table**: Sonic-3.5 now #1 (was Gemini 3.1 Flash TTS). Source: https://artificialanalysis.ai/text-to-speech, June 2026.
+- **Google AI Ultra pricing**: Corrected from $100 to $99.99/mo. Source: https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/
+- **Google Antigravity pricing**: Updated to reflect $99.99 Ultra tier.
+- **MiniMax Speech 2.5/2.6**: Superseded by 2.8/2.8 HD in TTS table.
+- **Claude Fable 5** (Frontier Models note): Updated status -- removed from subscription plans June 23; requires usage credits. Mythos 5 remains offline, accessible only via Project Glasswing. Source: https://www.anthropic.com/news/fable-mythos-access
+- **GPT-4.5** (Training Data Cutoffs): Corrected -- retired from API July 2025; retiring from ChatGPT June 27, 2026. Source: https://developers.openai.com/api/docs/deprecations, https://help.openai.com/en/articles/9624314-model-release-notes
+- **GPT-4.1 / mini / nano**: Added ChatGPT retirement note (Feb 13, 2026); API still available. Updated across Output Token Limits, Cached & Batch Pricing, Model Pricing Comparison, Training Data Cutoffs, Free Tier APIs tables. Source: https://openai.com/index/retiring-gpt-4o-and-older-models/
+- **Gemini 3.1 Flash Image pricing**: Corrected from $0.25/$1.50 to actual pricing -- $0.50/1M text+image input tokens; output images by resolution ($0.045/512px, $0.067/1Kpx). Source: https://ai.google.dev/gemini-api/docs/pricing, https://deepmind.google/models/model-cards/gemini-3-1-flash-image/
+- **Cursor pricing**: Updated to 2026 values -- Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Source: https://felloai.com/cursor-pricing/
+- **Windsurf pricing**: Updated Pro tier to $15/mo. Source: https://uibakery.io/blog/windsurf-vs-cursor-pricing
+- **Cursor vs Windsurf comparison**: Updated to June 2026 pricing; Windsurf Pro now $15/mo vs Cursor Pro $20/mo.
+- **Value-For-Money Ranking**: Updated to reflect Windsurf Pro at $15/mo as best value paid tier.
+- **Data Sources** (Reference): Added ByteDance Seed blog URL. Source: https://seed.bytedance.com/en/blog/seed-2-1-preview-model-release-on-arena
+- **Header & Metadata**: Updated Last Updated badge to 2026-06-26 17:30 UTC; incremented document version to 3.35.
+
+### Removed / Deprecated
+- **MiniMax Speech 2.6** (TTS table): Superseded by Speech 2.8.
+- **GPT-4.5 from Training Cutoffs**: Previous note "API unaffected" was incorrect; GPT-4.5 API was retired July 2025.
+
+---
+
+## [2026-06-26] - Version 3.34 - GPT-4.1 family pricing, Grok 4.3 on Amazon Bedrock, Claude Tag (Slack AI teammate), Claude Fable 5 usage credits, Gemini 3.1 Flash Image GA pricing, GPT-4.5 ChatGPT retirement notice
+
+### Added
+- **GPT-4.1 / mini / nano** (Pricing & Specs): Added to Output Token Limits, Cached & Batch Pricing, Training Data Cutoffs, Model Pricing Comparison tables. Pricing: GPT-4.1 $2/$8, GPT-4.1 mini $0.40/$1.60, GPT-4.1 nano $0.10/$0.40. 1M context, June 2024 knowledge cutoff. Source: https://openai.com/index/gpt-4-1/
+- **Grok 4.3 on Amazon Bedrock** (API Providers): Added to xAI model list and Regional Availability. Pricing $1.25/$2.50 on-demand; 1M token context. Source: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026/
+- **Claude Tag** (IDE Add-ons note): Anthropic's always-on AI teammate for Slack; persistent memory per channel; Team/Enterprise plans. Source: https://www.anthropic.com/news/introducing-claude-tag
+- **Gemini 3.1 Flash Image** (Image Generation): Added to Image Generation table; GA June 2026; $0.25/$1.50 per 1M (standard API), $60/1M image output tokens. Source: https://deepmind.google/models/model-cards/gemini-3-1-flash-image/
+
+### Updated
+- **Claude Fable 5** (Frontier Models note): Removed from Pro/Max/Team/Enterprise subscription plans on June 23; now requires usage credits at standard API rates. Mythos 5 remains offline. Source: https://www.anthropic.com/news/claude-fable-5-mythos-5
+- **GPT-4.5** (Training Data Cutoffs): Added note: retiring from ChatGPT on June 27, 2026; API unaffected. Source: https://help.openai.com/en/articles/9624314-model-release-notes
+- **xAI Regional Availability**: Added Amazon Bedrock as distribution channel (June 2026). Source: https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026/
+- **Model Pricing Comparison table**: Re-sorted by input price; added GPT-4.1 models, Gemini 3.1 Flash Image, Qwen3.7-Max (was missing). Data as of 2026-06-26.
+- **Free AI APIs for Coding**: Added OpenAI GPT-4.1 nano (free credits for new accounts).
+- **Pricing Tiers Budget row**: Added GPT-4.1 nano.
+- **Release Windows**: Added GPT-4.1 family (2026-04).
+- **Sort by Latest Update**: Added GPT-4.1/4.1 mini entries.
+
+### Removed / Deprecated
+- **Gemini 3.1 Flash-Lite Preview**: Deprecated 2026-05-11, shutting down July 9, 2026. Migrate to gemini-3-1-flash-lite. Source: https://ai.google.dev/gemini-api/docs/changelog
+- **Gemini 3.1 Flash Image Preview / Gemini 3 Pro Image Preview**: Shut down June 25, 2026. Migrate to GA gemini-3-1-flash-image. Source: https://ai.google.dev/gemini-api/docs/changelog.md.txt
+
+---
+
 ## [2026-06-21] - Version 3.33 - MiniMax Hailuo 02 video model, MiniMax Speech 2.6, Mistral Voxtral TTS 4B, Apple Core AI/Foundation Models at WWDC26, Aion 1.0 on-device SLMs, Gemini CLI shutdown/Antigravity CLI replacement, Amazon Bedrock AgentCore Harness GA, Databricks Genie One GA, Vercel eve agent framework, Omnigent meta-harness, GitKraken Kepler ADE, Zensar AgentMesh, Konecta Kolibri, Sedai AI Agent Optimization, GMI Cloud AgentBox, OpenRouter Fusion, GLM 5.2 on Fireworks, Gemma 4 on Cerebras, MCP 2026-07-28 stateless spec RC, new VS Code extensions, browser automation tools, AI safety updates
 
 ### Added

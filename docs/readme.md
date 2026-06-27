@@ -6,7 +6,7 @@
 
 <a href="https://awesome.re" rel="nofollow"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
-<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--06--21%2000%3A00%20UTC-green.svg" alt="Last Updated"></a>
+<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--06--26%2019%3A03%20UTC-green.svg" alt="Last Updated"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social" alt="Star History"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social" alt="Forks"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix/issues" rel="nofollow"><img src="https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix" alt="Issues"></a>
@@ -20,8 +20,10 @@
 Looking for the best AI models? Check out our **[Top Models by Category](#top-models-by-category)** table below for quick recommendations. For detailed analysis, explore the comprehensive sections on frontier models, open-source alternatives, and development tools.
 
 ### 🔥 Highlights
-- **135+ AI models** from major providers (OpenAI, Anthropic, Google, Meta, etc.)
-- **Latest pricing** and performance benchmarks (updated June 2026 - v3.33)
+- **138+ AI models** from major providers (OpenAI, Anthropic, Google, Meta, etc.)
+- **Latest pricing** and performance benchmarks (updated June 2026 - v3.37)
+- **Cartesia Sonic-3.5** ranked #1 on both Speech Arena and Speech-to-Text leaderboard (Ink-2)
+- **MiniMax M2.7** self-evolving LLM with SWE-Pro 56.22%
 - **Self-hosting guides** for open-source models
 - **Development tools** for AI application building
 - **Community-sourced** insights and real-world feedback
@@ -50,8 +52,8 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.33
-- **Last Updated**: 2026-06-21 00:00 UTC
+- **Document Version**: 3.37
+- **Last Updated**: 2026-06-26 19:03 UTC
 - **Repository**: https://github.com/ReadyPixels/AI_Models_Matrix
 - **License**: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">CC BY-NC 4.0</a>
 
@@ -130,16 +132,18 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **MAI-Thinking-1** ⭐ | Microsoft | 256K | 84.2% | — | — | 97% | TBD (Private Preview) | 2026-06-02 ⭐ |
 | **MAI-Code-1-Flash** ⭐ | Microsoft | — | — | — | — | — | Free (Copilot) | 2026-06-02 ⭐ |
 | **MiniMax M3** ⭐ | MiniMax | ~428B / ~23B active (MoE) | 1M | — | — | 80.5% | — | $0.30 / $1.20 | 2026-06-01 ⭐ |
+| **MiniMax M2.7** ⭐ | MiniMax | ~400B+ (MoE) | 205K | — | — | 56.22% (SWE-Pro) | — | $0.30 / $1.20 | 2026-03-18 ⭐ |
 | **Qwen3.7-Plus** ⭐ | Alibaba | 1M | — | — | — | — | — | $0.40 / $2.40 | 2026-06-03 ⭐ |
 | **Step 3.7 Flash** ⭐ | StepFun | 1M | — | — | — | — | — | Free (limited) | 2026-05-28 ⭐ |
 
-> ⚠️ **Claude Fable 5 and Mythos 5 suspended**: On June 12, 2026, Anthropic disabled global access to both models following a US government export control directive. Access may be restored for US-based users around July 1, 2026. Use Claude Opus 4.8 as an alternative. Source: [Anthropic Statement](https://www.anthropic.com/news/fable-mythos-access)
+> ⚠️ **Claude Fable 5 and Mythos 5 suspended**: On June 12, 2026, Anthropic disabled global access to both models following a US government export control directive. **Fable 5 status (June 23):** Removed from Pro/Max/Team/Enterprise subscription plans; continued use requires usage credits billed at standard API rates. **Mythos 5 status:** Remains completely offline; accessible only through Project Glasswing (invitation-only partner program). Use Claude Opus 4.8 as an alternative. Source: [Anthropic Statement](https://www.anthropic.com/news/fable-mythos-access)
 >
+> ⭐ **Seed 2.1 Pro** (ByteDance, June 22, 2026): Early-access preview on Code Arena. Ranks #8 on Code Arena: Frontend (score 1539, on par with Claude Opus 4.6). Top 10 in 5/7 subcategories: #6 Brand & Marketing, #7 React. No official API pricing or specs yet. Public release expected within weeks. Source: [Fello AI](https://felloai.com/seed-2-1-pro/)
 > ⚠️ **GPT-5.5 Instant pricing correction**: The API pricing for GPT-5.5 Instant is $0.20/$1.00 per 1M tokens (input/output), not $5.00/$30.00 which is the standard GPT-5.5 rate. GPT-5.5 Instant replaced GPT-5.3 Instant as the free-tier ChatGPT default on May 5, 2026.
 
 ### Model Specifications 📋
 
-Detailed technical specifications, pricing, and capabilities for all frontier models. Data as of 2026-06-20.
+Detailed technical specifications, pricing, and capabilities for frontier models and notable API models. Data as of 2026-06-26.
 
 #### Output Token Limits
 
@@ -157,7 +161,7 @@ Maximum output tokens per single API request.
 | **GPT-5.3-Codex** | 128K | 400K | — |
 | **GPT-5.5 Instant** | 128K | 1M | Default ChatGPT model since 2026-05-05 |
 | **Gemini 3.1 Pro** | 64K | 1M | — |
-| **Gemini 3.5 Flash** | 64K | 1M | Released 2026-05-19; 4x faster than 3.1 Pro |
+| **Gemini 3.5 Flash** | 64K | 1M | Released 2026-05-19 at Google I/O 2026; 4x faster than 3.1 Pro |
 | **Gemini 3 Pro** | 64K | 2M | — |
 | **Gemini 3 Flash** | 64K | 1M | — |
 | **Gemini 3.1 Flash-Lite** | 32K | 1M | — |
@@ -169,6 +173,7 @@ Maximum output tokens per single API request.
 | **GLM-5** | 128K | 200K | — |
 | **GLM-5.1** | 131K | 200K | — |
 | **MiniMax M3** | 512K | 1M (guaranteed 512K min) | Native multimodal (text/image/video); open weights pending ~2026-06-11 |
+| **MiniMax M2.7** | 262K | 205K | Self-evolution capabilities; Agent Teams native; SWE-Pro 56.22% |
 | **MiniMax-M2.5** | 131K | 1M | — |
 | **Kimi K2.6** | 262K | 262K | Max output = 262,144 tokens (MIT open-weight) |
 | **Kimi K2.7 Code** | 262K | 262K | Coding-focused variant of K2.6; 30% fewer thinking tokens; Modified MIT |
@@ -184,6 +189,10 @@ Maximum output tokens per single API request.
 | **Llama 4 Maverick** | 16K | 1M | — |
 | **Claude Fable 5** | 128K | 1M | Mythos-class; $10.00 / $50.00; released 2026-06-09 |
 | **Claude Mythos 5** | 128K | 1M | Mythos-class (restricted); $10.00 / $50.00; released 2026-06-09 |
+| **GPT-4.1** ⭐ | 128K | 1M | Knowledge cutoff June 2024; $2.00 / $8.00; retired from ChatGPT Feb 13, 2026; API still available; released 2026-04 |
+| **GPT-4.1 mini** ⭐ | 128K | 1M | Knowledge cutoff June 2024; $0.40 / $1.60; retired from ChatGPT Feb 13, 2026; API still available; released 2026-04 |
+| **GPT-4.1 nano** ⭐ | 128K | 1M | Knowledge cutoff June 2024; $0.10 / $0.40; retired from ChatGPT Feb 13, 2026; API still available; released 2026-04 |
+| **Gemini 3.1 Flash Image** ⭐ | — | 131K | Image + text + audio understanding; generation; $0.50/1M text+image input tokens; output images priced by resolution ($0.045/512px, $0.067/1Kpx, $0.101/2Kpx); GA June 2026 |
 
 #### Cached & Batch Pricing
 
@@ -216,14 +225,19 @@ Discounted pricing tiers for high-volume usage. All prices in USD per million to
 | **Grok 4.20** | $1.25 | $0.20 | — | All variants: reasoning, non-reasoning, multi-agent |
 | **Grok 4.3** | $1.25 | $0.20 | — | ~38% cheaper input than 4.20; released 2026-05-01 |
 | **Mistral Small 4** | $0.15 | $0.015 (estimated) | — | 119B MoE; multimodal; released 2026-03-16 |
+| **Command A+** ⭐ | $0.40 | — | — | 25B active (218B total MoE); faster than GPT-5.4 nano, Claude Haiku, Grok 4.3; released 2026-05 |
 | **Mistral Large 3** | $0.50 | $0.05 (cached) | — | Cached input $0.05/1M; 256K context |
 | **Step-3.5-Flash** | $0.10 | — | — | — |
 | **Claude Fable 5** | $10.00 | $1.00 (hit) / $12.50 (5m write) | 50% off | Batch: $5.00 in / $25.00 out; fast mode $20/$100 |
 | **Claude Mythos 5** | $10.00 | $1.00 (hit) / $12.50 (5m write) | 50% off | Same pricing as Fable 5; restricted access via Project Glasswing |
+| **MiniMax M2.7** | $0.30 | — | — | Self-evolution capabilities; Agent Teams native; SWE-Pro 56.22%; 205K context; released 2026-03-18 |
 | **MiniMax M3** (≤512K) | $0.30 | $0.06 (hit) | — | Extended context (>512K): $0.60/$2.40; released 2026-06-01 |
 | **Qwen3.7-Plus** | $0.40 | — | — | Released 2026-06-03; 1M context |
 | **Step 3.7 Flash** | Free | — | — | Free tier available; 1M context; released 2026-05-28 |
 | **NVIDIA Nemotron 3 Ultra** | Free | — | — | Free via NVIDIA NIM; 262K context |
+| **GPT-4.1** ⭐ | $2.00 | $0.20 | — | 1M context; knowledge cutoff June 2024; retired from ChatGPT Feb 13, 2026; API still available |
+| **GPT-4.1 mini** ⭐ | $0.40 | $0.04 | — | 1M context; retired from ChatGPT Feb 13, 2026; API still available |
+| **GPT-4.1 nano** ⭐ | $0.10 | $0.01 | — | 1M context; retired from ChatGPT Feb 13, 2026; API still available; OpenAI's cheapest model |
 
 #### Speed & Latency
 
@@ -260,6 +274,8 @@ Knowledge cutoff dates — the point after which a model has no training data.
 | **DeepSeek-V3.2** | Jul 2024 | — |
 | **Llama 4 Scout / Maverick** | Aug 2024 | — |
 | **DeepSeek-R1** | ~Oct 2023 | Based on base model |
+| **GPT-4.1 / mini / nano** | June 2024 | Retired from ChatGPT Feb 13, 2026; API still available |
+| **GPT-4.5** | June 2024 | Retired from API July 2025; retiring from ChatGPT 2026-06-27 |
 
 > Models not listed (Qwen, GLM, MiniMax, Kimi, Step, Mistral): training cutoff not publicly disclosed.
 
@@ -303,7 +319,7 @@ All frontier models support structured JSON output and function/tool calling exc
 | **Zhipu AI (GLM)** | Global | Z.AI API | MIT license enables self-hosting anywhere |
 | **MiniMax** | Global | MiniMax API | — |
 | **Moonshot AI (Kimi)** | Global | platform.kimi.ai | MIT open-weight |
-| **xAI (Grok 4 / 4.20 / 4.3 / 4 Fast)** | US-focused | Oracle OCI (East/Midwest/West) | Major price cuts: Grok 4.20 now $1.25/$2.50; Grok 4 Fast aliased to 4.3 |
+| **xAI (Grok 4 / 4.20 / 4.3 / 4 Fast)** | US-focused | Oracle OCI (East/Midwest/West), Amazon Bedrock (June 2026) | Major price cuts: Grok 4.20 now $1.25/$2.50; Grok 4 Fast aliased to 4.3; Grok 4.3 on Bedrock at $1.25/$2.50 |
 | **Mistral** | Global | Azure AI Foundry, AWS, GCP | — |
 | **Meta (Llama)** | Global (self-host) | All major cloud providers | Llama 4 Community License |
 | **StepFun** | Global | HuggingFace | Apache 2.0 open-source |
@@ -348,6 +364,7 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **MiniMax M3** ⭐ | MiniMax | ~428B / ~23B active (MoE) | 1M | MiniMax Community |
 | **GLM-5.2** ⭐ | Zhipu AI | 753B / 40B active (MoE) | 1M | MIT |
 | **Kimi K2.7 Code** ⭐ | Moonshot AI | 1T / 32B active (MoE) | 262K | Modified MIT |
+| **MiniMax M2.7** ⭐ | MiniMax | ~400B+ (MoE) | 205K | MiniMax Community |
 | **Kimi K2.6** | Moonshot AI | 1T / 32B active (MoE) | 262K | Modified MIT |
 
 #### Deployment Options
@@ -413,10 +430,12 @@ Specialized AI models optimized for software development tasks.
 | **Claude Haiku 4.5** | Anthropic | $1.00 / $5.00 per 1M | Low-latency coding, sub-agents, computer use |
 | **GLM-5-Code** | Zhipu AI | $1.20 / $5.00 per 1M | Code generation, refactoring |
 | **MiniMax M3** | MiniMax | $0.30 / $1.20 per 1M | Frontier coding + 1M context + native multimodal; open weights pending |
+| **MiniMax M2.7** ⭐ | MiniMax | $0.30 / $1.20 per 1M | Self-evolution; Agent Teams native; SWE-Pro 56.22%; 205K context; released 2026-03-18 |
 | **MiniMax-M2.5** | MiniMax | $0.30 / $1.20 per 1M | Code generation, refactoring |
 | **Claude Sonnet 4.5** | Anthropic | $3.00 / $15.00 per 1M | Code review, refactoring |
 | **Mistral Small 4** | Mistral AI | $0.15 / $0.60 per 1M | Unified reasoning + coding + multimodal; open-weight |
 | **Codestral** | Mistral AI | $0.30 / $0.90 | Real-time completion |
+| **North Mini Code** | Cohere | Free (OpenRouter) / API | 30B MoE (3B active); Apache 2.0; released 2026-06-09 |
 | **Qwen3.7-Max** | Alibaba | $2.50 / $7.50 per 1M | Agentic coding, long-horizon autonomy, reasoning |
 | **Grok 4.3** | xAI | $1.25 / $2.50 per 1M | Flagship reasoning, lowest hallucination |
 | **MAI-Code-1-Flash** | Microsoft | $0.75 / $4.50 per 1M | GitHub Copilot integration, fast everyday coding |
@@ -521,6 +540,8 @@ Models capable of processing and generating multiple types of content: text, ima
 
 | Model | Developer | License | Best For |
 |-------|-----------|---------|----------|
+| **Gemini 3.1 Flash Image** ⭐ | Google | Proprietary | Imagen 3 pipeline in Gemini Flash; GA 2026-06; $0.50/1M input tokens (text+image); output images by resolution ($0.045/512px, $0.067/1Kpx); [🔗](https://deepmind.google/models/model-cards/gemini-3-1-flash-image/) |
+| **GPT Image 2** | OpenAI | Proprietary | ChatGPT Images 2.0; 2K resolution; agentic reasoning; multilingual text rendering; released 2026-04-21; ~$0.006-$0.211/image (quality/resolution); $8/1M image input tokens; $30/1M image output tokens |
 | **GPT Image 2** | OpenAI | Proprietary | DALL-E 3 replacement; 4K output; released 2026-04-21; ~$0.21/img (1024px high) via API |
 | **MAI-Image-2-Efficient** | Microsoft | Proprietary | Production-ready quality, 41% lower cost |
 | **Flux 2** | Black Forest Labs | Apache 2.0 (Dev); Proprietary (Pro) | Released Nov 2025; exceptional photorealism + natural language; Flux 2 Pro/Dev/Schnell variants |
@@ -574,7 +595,7 @@ Comprehensive hardware specifications for self-hosting AI models.
 
 ### Comprehensive Benchmark Reference 📈
 
-Detailed benchmark scores across all major evaluations. Scores are percentages (%) unless noted. Arena Elo scores are integers. `—` = not publicly reported. Data as of 2026-06-18.
+Detailed benchmark scores across all major evaluations. Scores are percentages (%) unless noted. Arena Elo scores are integers. `—` = not publicly reported. Data as of 2026-06-26.
 
 #### Full Benchmark Table
 
@@ -697,29 +718,29 @@ Integrated Development Environments with built-in AI capabilities.
 
 | IDE | Platform | Version | Release Date | Pricing | Autonomous | MCP | GitHub |
 |----------|---------|---------|---------------|---------|------------|-----|--------|
-| **Cursor** | Windows, macOS, Linux | 3.2 (May 1, 2026) | 2026-05-01 00:00 UTC | Freemium (Free + Pro $19/mo or $39/mo) | ✅ | ❌ | ❌ |
-| **Windsurf** | Windows, macOS, Linux | 2.0.0 (May 3, 2026) | 2026-05-03 00:00 UTC | Freemium (Free + Pro) | ✅ | ✅ | ❌ |
+| **Cursor** | Windows, macOS, Linux | 3.2 (May 1, 2026) | 2026-05-01 00:00 UTC | Free / Pro $20/mo / Pro+ $60/mo / Ultra $200/mo | ✅ | ❌ | ❌ |
+| **Windsurf** | Windows, macOS, Linux | 2.0.0 (May 3, 2026) | 2026-05-03 00:00 UTC | Free / Pro $15/mo / Max $200/mo | ✅ | ✅ | ❌ |
 | **Trae** | macOS, Windows | - | - | Free | ❌ | ❌ | <a href="https://github.com/Trae-AI/TRAE" rel="nofollow">🔗</a> |
 | **PearAI** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ❌ | <a href="https://github.com/trypear/pearai-app" rel="nofollow">🔗</a> |
 | **Void** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ✅ | <a href="https://github.com/voideditor/void" rel="nofollow">🔗</a> |
 | **Kiro** | Windows, macOS, Linux | - | - | Free (Preview) | ✅ | ✅ | <a href="https://github.com/kirodotdev/Kiro" rel="nofollow">🔗</a> |
 | **VS Code Agents** | Windows, macOS, Linux | Insiders | 2026-04-21 | Free | ✅ | ✅ | <a href="https://code.visualstudio.com/updates/v1_115#_visual-studio-code-agents-preview" rel="nofollow">🔗</a> |
 
-> **Cursor vs. Windsurf Pricing (May 2026):** As of March 2026, both Cursor Pro and Windsurf Pro cost $20/month — earlier $15 Windsurf advantage is gone. Cursor tightens premium request quotas quarterly; heavy users often spend $40–50/mo in overages. For a full alternatives analysis, see [Cursor Alternatives & Better Value ↓](#cursor-alternatives--better-value-).
+> **Cursor vs. Windsurf Pricing (June 2026):** Cursor Pro is $20/month, Pro+ is $60/month, and Ultra is $200/month. Windsurf Pro is $15/month and Max is $200/month. Cursor tightens premium request quotas quarterly; heavy users often spend $40–50/mo in overages. Windsurf offers better value at the Pro tier with fewer quota restrictions. For a full alternatives analysis, see [Cursor Alternatives & Better Value ↓](#cursor-alternatives--better-value-).
 
 #### Cursor Alternatives & Better Value 🎯
 
 Cursor Pro is $20/month but **June 2025 credit-switch effectively halved heavy-user limits**, and real-world monthly spend for power users regularly hits $40–60/mo in overages. Reddit threads, developer blogs, and benchmark sites consistently confirm the same verdict: several tools offer better value, higher limits, and comparable (or superior) code quality.
 
-##### Pricing Reality Check (May 2026)
+##### Pricing Reality Check (June 2026)
 
 | Tool | Free Tier | Pro / Paid | Premium / Max | Notes |
 |------|-----------|-----------|----------------|-------|
-| **Cursor** | 2K completions + 50 premium req | $20/mo (Pro) | $60/mo (Pro+) / $200/mo (Ultra) | Heavy users report $40–60/mo effective cost; quotas tightened June 2025 |
-| **Claude Code** | Limited | $20/mo (Pro) | $100/mo (Max 5×) / $200/mo (Max 20×) | Significantly higher limits than Cursor Pro at same price |
+| **Cursor** | 2K completions + 50 premium req | $20/mo (Pro) / $60/mo (Pro+) | $200/mo (Ultra) | Heavy users report $40–60/mo effective cost; quotas tightened June 2025 |
+| **Claude Code** | Limited | $20/mo (Pro) | $100/mo (Max 5x) / $200/mo (Max 20x) | Significantly higher limits than Cursor Pro at same price |
 | **GitHub Copilot** | 2K completions + 50 premium req | $10/mo (Pro) | $39/mo (Pro+) / $39/user (Enterprise) | Best value for IDE-native workflow; no fork required |
 | **Cline (BYOK)** | Free (bring API key) | Free (pay API costs ~$5–15/mo) | Unlimited | 5M+ installs; zero subscription cost |
-| **Windsurf** | 25 credits/mo | $20/mo (Pro) | $40/seat (Teams) / $200/mo (Max) | Quota-based since March 2026; community complaints about pricing |
+| **Windsurf** | 25 credits/mo | $15/mo (Pro) | $200/mo (Max) | Better value than Cursor Pro at $15/mo; fewer quota complaints |
 | **Continue.dev** | Free (OSS) | Free (BYOK) | Unlimited | No subscription; supports Ollama, LM Studio, all cloud APIs |
 | **Void** | Free (OSS) | Free (BYOK) | Unlimited | VS Code fork + MCP; privacy-first, no telemetry |
 | **Aider** | Free (BYOK) | Free (BYOK) | Unlimited | Git-native; used by serious OSS contributors |
@@ -731,10 +752,10 @@ Cursor Pro is $20/month but **June 2025 credit-switch effectively halved heavy-u
 |------|------|---------------|-----------|--------|---------|
 | 🥇 1 | **GitHub Copilot Pro** | $10 | 55% | 2K completions + unlimited chat | Best value for light-moderate users |
 | 🥈 2 | **Cline (BYOK)** | ~$5–15 (API) | 80.8% | Unlimited | Best value for power users |
-| 🥉 3 | **Claude Code Pro** | $20 | 80.8% | Higher than Cursor Pro | Best autonomy at $20/mo |
-| 4 | **Continue.dev** | $0 | — | Unlimited | Best free option |
-| 5 | **Cursor Pro** | $20–60 (effective) | Unpublished | Caps hit easily | Good UX, poor value at scale |
-| 6 | **Windsurf Pro** | $20 | — | Quota-based | Cursor alternative, same price |
+| 🥉 3 | **Windsurf Pro** | $15 | — | 25 credits/mo | Best value paid Pro tier |
+| 4 | **Claude Code Pro** | $20 | 80.8% | Higher than Cursor Pro | Best autonomy at $20/mo |
+| 5 | **Continue.dev** | $0 | — | Unlimited | Best free option |
+| 6 | **Cursor Pro** | $20–60 (effective) | Unpublished | Caps hit easily | Good UX, poor value at scale |
 | 7 | **Claude Code Max** | $100 | 80.8% | 5× limits | Outclasses Cursor Ultra ($200) |
 
 ##### What Developers Are Saying (Reddit & Social Media)
@@ -777,7 +798,7 @@ Open-source VS Code fork with full MCP support, BYOK, and no telemetry. Feature-
 | **Gitpod** | Web | - | - | Free + Paid | ❌ | Cloud dev environments | ❌ |
 | **Rork** | Web | - | - | Free & Paid (credits) | ❌ | Mobile apps (iOS/Android) | ❌ |
 | **Google Stitch** | Web | - | 2026-03 | Free (Google account, 550 gen/mo) | ❌ | UI design, Figma/React export | ❌ |
-| **Google Antigravity 2.0** | Windows, macOS, Linux (CLI), Web (IDE) | 2.0 | 2026-05-19 00:00 UTC | Google AI Pro $19.99/mo / Ultra $100/mo (5×) or $200/mo (20×) | Agent-first platform: desktop app + CLI (`agy`) + SDK + Managed Agents API; multi-agent orchestration, parallel tasks, voice control | <a href="https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/" rel="nofollow">🔗</a> |
+| **Google Antigravity 2.0** | Windows, macOS, Linux (CLI), Web (IDE) | 2.0 | 2026-05-19 00:00 UTC | Google AI Pro $19.99/mo / Ultra $99.99/mo (5×) or $200/mo (20×) | Agent-first platform: desktop app + CLI (`agy`) + SDK + Managed Agents API; multi-agent orchestration, parallel tasks, voice control | <a href="https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/" rel="nofollow">🔗</a> |
 | **Jules** | Web | - | 2025-05-20 00:00 UTC | Free beta, higher limits on Google AI Pro / Ultra | Async repo agent, reviewable diffs, GitHub integration | ❌ |
 
 ### CLI Tools 🖥️
@@ -904,6 +925,8 @@ Extensions and plugins that add AI capabilities to existing IDEs.
 | **GrackerAI** ⭐ | Free | ❌ | ❌ | Validates llms.txt, robots.txt, AI visibility signals in VS Code; released 2026-06-16 | ❌ |
 | **A11yResolver** ⭐ | Free (beta) | ❌ | ❌ | VS Code extension for accessibility remediation; AI agent flags WCAG issues; released 2026-06-18 | ❌ |
 
+> **Claude Tag** (Anthropic, June 2026): Not an IDE extension but worth noting here. Claude Tag brings an always-on AI teammate to Slack. Each channel gets an isolated Claude identity with persistent memory. Available on Team and Enterprise plans. Source: [Anthropic](https://www.anthropic.com/news/introducing-claude-tag)
+
 #### JetBrains Specific
 
 | Add-on | Pricing | Claude Agent | Junie (GA) | Best For |
@@ -922,7 +945,7 @@ Services for accessing AI models via API.
 
 | Provider | Models | Pricing |
 |----------|--------|---------|
-| **OpenAI** | GPT-5.5, GPT-5.5 Instant, GPT-5.5 Pro, GPT-5.4, GPT-5.4 mini, GPT-5.4 nano, o3, Codex | Pay-per-token |
+| **OpenAI** | GPT-5.5, GPT-5.5 Instant, GPT-5.5 Pro, GPT-5.4, GPT-5.4 mini, GPT-5.4 nano, GPT-4.1, GPT-4.1 mini, GPT-4.1 nano, o3, Codex | Pay-per-token |
 | **Anthropic** | Claude Fable 5, Claude Mythos 5 (restricted), Claude Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 4.6, Haiku 4.5 | Pay-per-token |
 | **Alibaba Cloud** | Qwen3.5-Max, Qwen3-Coder, Qwen3.6-27B | Pay-per-token / Coding Plan $50/mo |
 | **Gemini (Google)** | Gemini 3.5 Flash, Gemini 3.5 Pro (preview), Gemini 3.1 Pro, 3 Pro, 3 Flash | Pay-per-token |
@@ -941,7 +964,7 @@ Services for accessing AI models via API.
 | **DeepSeek** | DeepSeek API (`deepseek-v4-flash`, `deepseek-v4-pro`), R1 | Pay-per-token |
 | **Mistral AI** | Mistral Small 4, Mistral Large 3, Codestral, Voxtral TTS | Pay-per-token |
 | **Microsoft AI** | MAI-Code-1-Flash, MAI-Thinking-1 (private preview) | Pay-per-token (via Azure AI / GitHub) |
-| **xAI** | Grok-4 | Pay-per-token |
+| **xAI** | Grok-4, Grok-4.3 | Pay-per-token |
 | **AIHubMix** | Models API | Requires topup - accounts not recharged can only try 10 times |
 | **Infron** ⭐ | 100+ models | Up to 35% off direct pricing | Enterprise unified API; provisioned throughput; released 2026-06-10 |
 | **Aethir Mesh** ⭐ | 10+ open-source models | Pay-per-use | Decentralized GPU infrastructure; single API for open-source models; released 2026-06-12 |
@@ -950,7 +973,7 @@ Services for accessing AI models via API.
 
 | Provider | Models | Key Features |
 |----------|--------|--------------|
-| **OpenRouter** | 400+ | Unified API, crypto/fiat, model rankings, fallback routing, Speech & Transcription APIs, Model Fusion (launched 2026-06-12), private models, enterprise workspace controls; new models: Claude Opus 4.8, Step 3.7 Flash, MiniMax M3, Qwen3.7-Plus, NVIDIA Nemotron 3 Ultra, Microsoft MAI models, Nano Banana 2, Nano Banana Pro, GLM 5.2, Cohere North Mini Code (free), Nex-N2-Pro (free) (June 2026) |
+| **OpenRouter** | 400+ | Unified API, crypto/fiat, model rankings, fallback routing, Speech & Transcription APIs, Model Fusion (launched 2026-06-12), private models, enterprise workspace controls; new models: Claude Opus 4.8, Step 3.7 Flash, MiniMax M3, Qwen3.7-Plus, NVIDIA Nemotron 3 Ultra, Microsoft MAI models, Nano Banana 2, Nano Banana Pro, GLM 5.2, Cohere North Mini Code (free), Nex-N2-Pro (free), GPT-Image-1.5, GPT-Image-2, Poolside Laguna, Qwen3-Coder (June 2026) |
 | **Hugging Face** | Thousands | Serverless inference, free tier |
 | **LiteLLM** | 100+ | Open-source proxy; single OpenAI-compatible API for any provider | <a href="https://github.com/BerriAI/litellm" rel="nofollow">🔗</a> |
 | **Portkey** | 200+ | Gateway: load balance, fallbacks, caching, observability |
@@ -989,8 +1012,8 @@ Services that aggregate multiple models through a unified API, often with load b
 
 | Provider | Type | A100 80GB ($/hr) | H100 80GB ($/hr) | Best For |
 |----------|------|-------------------|-------------------|----------|
-| **Vast.ai** | GPU Marketplace | ~$0.28–$1.00 | ~$1.38–$2.13 | Cheapest market pricing, diverse GPU options |
-| **RunPod** | GPU Rental | $1.19–$2.19 | $1.99–$3.29 | Flexibility, per-second billing, cost-effective fine-tuning & inference |
+| **Vast.ai** | GPU Marketplace | ~$0.09–$0.59 | ~$0.50–$1.50 | Cheapest market pricing, diverse GPU options |
+| **RunPod** | GPU Rental | $0.34–$0.69 (RTX 4090) / $0.60–$1.19 (A100) | $1.99–$3.29 | Flexibility, per-second billing, cost-effective fine-tuning & inference |
 | **Lambda Labs** | Cloud GPU | $1.29–$2.79 | $2.49–$3.99 | Reliable on-demand, academic discounts, 1-Click Clusters |
 | **DigitalOcean** | GPU Droplets | $1.29 | $2.99 | Simple fine-tuning workflows |
 | **Vultr** | Global Cloud | $1.29–$2.80 | $1.99–$2.99 | Hourly GPU instances, global regions |
@@ -1004,7 +1027,7 @@ Services that aggregate multiple models through a unified API, often with load b
 | **Databricks Mosaic AI** | Integrated ML Platform | — | — | Enterprise fine-tuning, governed serving, RAG |
 | **NVIDIA DGX Cloud** | Managed AI Training | Custom | Custom | Co-engineered clusters, maximum ROI for training |
 
-> GPU pricing as of June 2026. RunPod/Vast.ai prices vary by community vs. secure cloud and spot vs. on-demand. Modal Labs production workloads cost 3.75x base rates (3x non-preemptible multiplier x 1.25x US regional multiplier). CoreWeave A100/H100 pricing normalized from 8-GPU nodes. Lambda Labs A100 40GB at $1.29/hr, A100 80GB at $2.49-$2.79/hr, H100 SXM at $3.99/hr (8x) or $4.29/hr (1x). Vast.ai prices are market-set medians.
+> GPU pricing as of June 2026. RunPod/Vast.ai prices vary by community vs. secure cloud and spot vs. on-demand. RTX 4090 pricing from RunPod starts at $0.34/hr. Vast.ai A100 40GB from $0.52/hr. Modal Labs production workloads cost 3.75x base rates (3x non-preemptible multiplier x 1.25x US regional multiplier). CoreWeave A100/H100 pricing normalized from 8-GPU nodes. Lambda Labs A100 40GB at $1.29/hr, A100 80GB at $2.49-$2.79/hr, H100 SXM at $3.99/hr (8x) or $4.29/hr (1x). Vast.ai prices are market-set medians.
 
 #### Inference Clouds
 
@@ -1037,10 +1060,11 @@ Services that provide hosted access to open source models with API endpoints, of
 
 | Provider | Models | Free Tier Limitations | Best For |
 |----------|--------|----------------------|----------|
-| **OpenAI** | GPT-5.4 nano | Limited messages, rate limits | Quick testing, prototyping |
+| **OpenAI** | GPT-5.4 nano, GPT-4.1 nano | Limited messages, rate limits; GPT-4.1 retired from ChatGPT Feb 2026 but API still available | Quick testing, prototyping |
 | **Anthropic** | Claude Haiku 4.5 | Limited messages, rate limits | Development, testing |
 | **Google AI** | Gemini 3.1 Flash-Lite | Limited tokens, rate limits | Development, testing |
 | **DeepInfra** | 50+ models | Limited requests/hour | Experimentation with many models |
+| **Cohere** | North Mini Code, Command A+ | Limited | Open-weight coding models |
 | **TensorZero** | 30+ models | Limited requests/hour | Cost optimization testing |
 | **Hugging Face** | 1000+ models | Limited compute time | Quick model testing |
 
@@ -1349,6 +1373,7 @@ Text-to-video and image-to-video generation models for creating short clips from
 | MiniMax Video-01 | MiniMax | 720p | Up to 6s | ~$0.40/video | No | Strong text-motion responsiveness | — |
 | HunyuanVideo | Tencent | 720p–2K | Up to 16s | Free (self-host; ~60GB VRAM) | Yes (Apache 2.0) | High per-frame fidelity, long clips | <a href="https://github.com/Tencent/HunyuanVideo" rel="nofollow">🔗</a> |
 | Wan 2.2 (14B) | Alibaba | 480p–1080p | Up to 10s | ~$0.10–$0.30/clip (API) | Yes (Apache 2.0) | Motion quality, VBench #1 benchmark | <a href="https://github.com/Wan-Video/Wan2.1" rel="nofollow">🔗</a> |
+| **MiniMax Hailuo 2.3** ⭐ | MiniMax | 1080p | Up to 10s | API pay-per-use | No | Released 2026-06-22; successor to Hailuo 02 | — |
 | **MiniMax Hailuo 02** ⭐ | MiniMax | 1080p | Up to 10s | API pay-per-use | No | 3x params vs predecessor, 4x training data, best complex instruction adherence; #2 Artificial Analysis Video Arena; released 2026-06-20 | — |
 | **Kling 3.0 Turbo** ⭐ | Kuaishou | 480p–720p | 1–15s preview | Free / paid | No | Fast-preview mode for rapid iteration; released 2026-06-17 | — |
 | **MiniMax Video-01** ⭐ | MiniMax | 720p | Up to 6s | ~$0.40/video | No | First AI-native video model from MiniMax; text-to-video + image-to-video; released 2026-06-20 | — |
@@ -1370,18 +1395,19 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 
 | Rank | Model | Elo | Pricing | Languages |
 |------|-------|-----|---------|-----------|
-| 🥇 #1 | **Gemini 3.1 Flash TTS** | ~1,216 | $18.30 / 1M chars | 70+ |
-| 🥈 #2 | **Realtime TTS-2** (Research Preview) | ~1,208 | $25–$35 / 1M chars | 100+ |
-| 🥉 #3 | **Sonic 4** | ~1,210 | ~$46.70 / 1M chars | 40+ |
-| #4 | **Realtime TTS 1.5 Max** | ~1,200 | $35 / 1M chars | 100+ |
-| #5 | **Fun-Realtime-TTS-Preview** | ~1,190 | — | — |
+| 🥇 #1 | **Sonic-3.5** ⭐ | ~1,220 | ~$39 / 1M chars | 40+ |
+| 🥈 #2 | **Gemini 3.1 Flash TTS** | ~1,216 | $18.30 / 1M chars | 70+ |
+| 🥉 #3 | **Realtime TTS-2** (Research Preview) | ~1,208 | $25–$35 / 1M chars | 100+ |
+| #4 | **Sonic 4** | ~1,210 | ~$46.70 / 1M chars | 40+ |
+| #5 | **Realtime TTS 1.5 Max** | ~1,200 | $35 / 1M chars | 100+ |
 
-> Arena Elo scores shift continuously. Treat rankings as point-in-time readings. Source: <a href="https://artificialanalysis.ai/text-to-speech" rel="nofollow">Artificial Analysis</a>, May–June 2026.
+> Arena Elo scores shift continuously. Treat rankings as point-in-time readings. Source: <a href="https://artificialanalysis.ai/text-to-speech" rel="nofollow">Artificial Analysis</a>, June 2026. Sonic-3.5 is #1 on both Speech Arena and Speech-to-Text leaderboard (Ink-2). Cartesia launched both models on June 21, 2026.
 
 #### Text-to-Speech (TTS) — Proprietary & API
 
 | Model | Developer | Languages | Real-time | Open Source | Pricing | Best For | GitHub |
 |-------|-----------|-----------|----------|-------------|---------|----------|--------|
+| **Sonic-3.5** ⭐ | Cartesia | 40+ | Yes (~100ms) | No | ~$39 / 1M chars | #1 Artificial Analysis Speech Arena; ultra-low latency; 100ms time-to-first-byte p90; released 2026-06-21 | — |
 | **Gemini 3.1 Flash TTS** | Google | 70+ | Yes | No | $18.30 / 1M chars | Audio tags for granular style/pace control, SynthID watermarking | — |
 | **Realtime TTS-2** (Research Preview) | Inworld AI | 100+ | Yes | No | $25–$35 / 1M chars | Realtime conversation, cross-lingual voice identity, emotional perception | — |
 | **Sonic 4** ⭐ | Cartesia | 40+ | Yes | No | ~$46.70 / 1M chars | Sonic 4 Turbo ~40ms TTFA (May 2026); 40+ languages, 95% world pop; instant 3s voice clone | — |
@@ -1397,8 +1423,6 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 | **Grok TTS** | xAI | 25+ | Yes | No | $15.00 / 1M chars | Speech tags, 80+ voices, SOC 2 / HIPAA compliant | — |
 | **Deepgram Aura-2** | Deepgram | 7 | Yes (~90–200ms) | No | $0.030 / 1K chars ($30/1M) | Enterprise voice agents, unified STT+TTS stack, on-prem deployment | — |
 | **Hume Octave 2** | Hume AI | 11+ | Yes (~100–200ms) | No | Varies (contact sales) | Emotional intelligence, voice conversion, phoneme editing | — |
-| **MiniMax Speech 2.8 HD** | MiniMax | 40+ | Yes | No | $100 / 1M chars | Studio-quality multilingual, 300+ voices, voice cloning | — |
-| **MiniMax Speech 2.8 Turbo** | MiniMax | 40+ | Yes | No | $60 / 1M chars | Low-latency real-time multilingual | — |
 | **Supertonic 3** ⭐ | Supertone | 31 | Yes | No | Subscription / API | Fast, cost-efficient multilingual narration | — |
 | **Lightning V3.1 / V3.2** | Smallest.ai | 15 | Yes | No | Pay-as-you-go | Conversational TTS, MOS 3.89, auto language detection, mid-sentence switching | — |
 | **StepAudio 2.5 Realtime** ⭐ | StepFun | Chinese, English | Yes | No | — | End-to-end real-time speech LLM, paralinguistic comprehension, persona RLHF | — |
@@ -1409,8 +1433,7 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 | **Higgs Audio v3 TTS** ⭐ | Boson AI | 100+ | Yes | No | API / free (self-host) | Voice chat optimized; inline emotion/style/prosody tags; zero-shot voice cloning; released 2026-06-04 | <a href="https://huggingface.co/bosonai/higgs-audio-v3-tts" rel="nofollow">🔗</a> |
 | **Chatterbox Multilingual v3** ⭐ | Resemble AI | 25 | Yes | Yes (MIT) | Free (self-host) / API | 0.5B Llama backbone; PerTh watermarking; improved speaker similarity; released 2026-06-10 | <a href="https://github.com/resemble-ai/chatterbox" rel="nofollow">🔗</a> |
 | **MisoTTS** ⭐ | Miso Labs | — | Yes | Yes (Modified MIT) | Free (self-host) / API pending | 8B emotive TTS; RVQ scales vocabulary; conditions on text + audio; released 2026-06-03 | <a href="https://huggingface.co/miso-labs/misoTTS" rel="nofollow">🔗</a> |
-| **MiniMax Speech 2.5** ⭐ | MiniMax | 40+ | Yes | No | API | Enhanced multilingual expressiveness; 40+ languages; exceptional voice cloning; released 2026-06-12 | — |
-| **MiniMax Speech 2.6** ⭐ | MiniMax | 40+ | Yes | No | API | <250ms end-to-end latency; Fluent LoRA; non-standard text format handling; released 2026-06-20 | — |
+| **MiniMax Speech 2.8** ⭐ | MiniMax | 40+ | Yes | No | $100 / 1M chars | Studio-quality multilingual; 300+ voices; voice cloning; released 2026-06-20 | — |
 | **ZONOS2** ⭐ | Zyphra | Multilingual | Yes | Yes (Apache 2.0) | Free (self-host) / API | 8B MoE TTS; first open-source MoE TTS; multilingual + code-switched; zero-shot voice cloning; ECAPA-TDNN speaker embeddings; released 2026-06-12 | <a href="https://huggingface.co/Zyphra/zonos-2" rel="nofollow">🔗</a> |
 | **Mistral Voxtral TTS** ⭐ | Mistral AI | 9 | Yes | Yes (CC BY-NC 4.0) | $0.016/1K chars | 4B parameter TTS; 70ms latency; voice cloning from 3s audio; released 2026-06-18 | <a href="https://mistral.ai/news/voxtral-tts" rel="nofollow">🔗</a> |
 | **MiniMax Speech-01-HD** ⭐ | MiniMax | 17 | Yes | No | API | 300+ pre-built voices; high-fidelity voice cloning from 10s audio; released 2026-06-19 | — |
@@ -1420,8 +1443,10 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 
 | Model | Developer | Languages | Real-time | Open Source | Pricing | Best For | GitHub |
 |-------|-----------|-----------|----------|-------------|---------|----------|--------|
+| **Ink-2** ⭐ | Cartesia | 40+ | Yes (~100ms) | No | Credit-based (from $5/mo Pro) | #1 Artificial Analysis Speech-to-Text leaderboard; real-time streaming; native turn detection; released 2026-06-21 | — |
 | **MAI-Transcribe-1.5** ⭐ | Microsoft | 43 | Yes | No | API (Foundry) | SOTA on FLEURS; #3 Artificial Analysis; 5x faster than Gemini 3.1; keyword biasing; 1hr audio in <15s; released 2026-06-02 | — |
-| **Cohere Transcribe** ⭐ | Cohere | 14 | No | Yes (Apache 2.0) | Free (self-host) / Model Vault | #1 HuggingFace Open ASR Leaderboard (5.42% WER); 2B Conformer; released 2026-03-26 | <a href="https://huggingface.co/CohereLabs/cohere-transcribe-03-2026" rel="nofollow">🔗</a> |
+| **Cohere Transcribe** ⭐ | Cohere | 14 | No | Yes (Apache 2.0) | Free (self-host) / Model Vault | #1 HuggingFace Open ASR Leaderboard (5.42% WER); 2B Conformer; released 2026-03-26 |
+| **Cohere Transcribe v2** ⭐ | Cohere | 14 | Yes | Yes (Apache 2.0) | Free (self-host) | Real-time streaming STT; open-source; released 2026-05 | <a href="https://huggingface.co/CohereLabs/cohere-transcribe-03-2026" rel="nofollow">🔗</a> |
 | **Gladia Solaria-3** ⭐ | Gladia | 5 (EU) | Yes | No | API | #1 on business audio; optimized for noisy/real-world European languages; released 2026-06-10 | — |
 | **Speechmatics Melia** ⭐ | Speechmatics | 55+ | Yes (preview) | No | From $0.129/hr (10hr free) | Code-switching across 55+ languages; lowest-priced Speechmatics model; released 2026-06-17 | — |
 | **Voxtral Realtime** ⭐ | Mistral AI | 13 | Yes | Yes (Apache 2.0) | Free (self-host) | Natively streaming ASR; 480ms delay matches Whisper quality; 4B params; released 2026-02 | <a href="https://huggingface.co/mistralai/Voxtral-Realtime" rel="nofollow">🔗</a> |
@@ -1435,6 +1460,8 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 | **Deepgram Nova-3** | Deepgram | 36+ | Yes | No | $0.0043/min | Ultra-low latency, production STT | — |
 | **Deepgram Nova-3 Fast** | Deepgram | 36+ | Yes | No | — | Lowest-latency Deepgram tier | — |
 | **AssemblyAI Universal-2** | AssemblyAI | Multilingual | Yes | No | $0.0025/min | Accurate, feature-rich transcription | — |
+| **AssemblyAI Universal-3 Pro** ⭐ | AssemblyAI | Multilingual | Yes | No | API (pay-per-use) | New flagship STT; Universal-3 Pro + Multilingual Streaming (May 2026); Voice Agent product; LLM Gateway | — |
+| **Inworld AI Multilingual Streaming** ⭐ | Inworld AI | Multilingual | Yes | No | API | Real-time multilingual STT for voice agents; launched May 7, 2026 alongside Universal-3 Pro | — |
 | **ElevenLabs Scribe v2** | ElevenLabs | 90+ | Yes | No | — | State-of-the-art transcription, word-level timestamps, diarization | — |
 | **ElevenLabs Scribe v2 Realtime** | ElevenLabs | 90+ | Yes (~150ms) | No | — | Live transcription, ultra-low latency | — |
 
@@ -1446,27 +1473,26 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 | **Fish Audio S2 Pro** | s2-pro | $15 | 80+ | ✅ |
 | **OpenAI** | tts-1 | $15 | 57 | ❌ |
 | **Grok TTS** | grok-tts | $15 | 25+ | ✅ |
-| **Gemini 3.1 Flash TTS** | gemini-3.1-flash-tts | $18.30 | 70+ | ❌ |
+| **Gemini 3.1 Flash TTS** | gemini-3-1-flash-tts | $18.30 | 70+ | ❌ |
+| **Cartesia** | sonic-3.5 | ~$39 | 40+ | ✅ (instant) |
 | **Deepgram Aura-2** | aura-2 | $30 | 7 | ❌ |
 | **Inworld** | realtime-tts-1.5-max | $35 | 100+ | ✅ |
-| **Cartesia** | sonic-4 | ~$47 | 40+ | ✅ |
-| **MiniMax** | speech-2.8-turbo | $60 | 40+ | ✅ |
 | **ElevenLabs** | flash-v2.5 | ~$60 (effective) | 32 | ✅ |
-| **MiniMax** | speech-2.8-hd | $100 | 40+ | ✅ |
+| **MiniMax** | speech-2.8-turbo | $60 | 40+ | ✅ |
 | **OpenAI** | tts-1-hd | $30 | 57 | ❌ |
 
 #### Use-Case Recommendations
 
 | Use Case | Top Picks |
 |----------|-----------|
-| **Real-time voice agents** | Cartesia Sonic 4 Turbo (~40ms TTFA), Inworld Realtime TTS-2, Deepgram Aura-2 (~90ms) |
+| **Real-time voice agents** | Cartesia Sonic-3.5 (~100ms TTFA), Ink-2 (~100ms STT), Inworld Realtime TTS-2, Deepgram Aura-2 (~90ms) |
 | **Long-form narration / audiobooks** | ElevenLabs v3, Gemini 3.1 Flash TTS, Fish Audio S2 Pro |
-| **Multilingual content** | Gemini 3.1 Flash TTS (70+), ElevenLabs v3 (70+), Fish Audio S2 Pro (80+) |
+| **Multilingual content** | Gemini 3.1 Flash TTS (70+), ElevenLabs v3 (70+), Fish Audio S2 Pro (80+), Sonic-3.5 (40+) |
 | **Emotional fidelity** | Hume Octave 2 (reads for meaning), ElevenLabs v3 (audio tags), Fish Audio S2 Pro |
-| **On-device / low cost** | Kokoro-82M, MOSS-TTS-Nano, Qwen3-TTS (0.6B) |
+| **On-device / low cost** | Kokoro-82M, MOSS-TTS-Nano, Qwen3-TTS (0.6B), Voxtral TTS (4B) |
 | **Video dubbing (duration control)** | IndexTTS-2 (precise duration control + emotion) |
 | **Enterprise / compliance** | Deepgram Aura-2 (on-prem, HIPAA), Grok TTS (SOC 2 / HIPAA) |
-| **Open-source production** | Fish Audio S2 Pro, MOSS-TTS-v1.5, IndexTTS-2 |
+| **Open-source production** | Fish Audio S2 Pro, MOSS-TTS-v1.5, IndexTTS-2, Chatterbox Multilingual v3, ZONOS2 |
 
 ### AI Safety & Guardrails 🛡️
 
@@ -1702,6 +1728,8 @@ Compact models designed for on-device inference, edge deployment, low-latency AP
 | **Micro Language Models (muLMs)** ⭐ | Sensente | 8M–30M | — | Research | Instant on-device response initiation; masks cloud latency; collaborative generation |
 | **PhoneLM** ⭐ | UbiquitousLearning | 0.5B / 1.5B | 32K / 128K | Apache 2.0 | Smartphone-native SLM; architecture searched for NPU efficiency; Android intent invocation |
 
+> **Apple Foundation Models 3rd Generation** (June 8, 2026): Apple announced five foundation models powering Apple Intelligence. **AFM 3 Core** (3B dense) and **AFM 3 Core Advanced** (20B sparse, 1-4B active) run on-device. **AFM 3 Cloud**, **ADM 3 Cloud (Image)**, and **AFM 3 Cloud Pro** run on Private Cloud Compute. Not available via public API. AFM 3 Core Advanced achieves 4.15 MOS for TTS (vs 3.87 production baseline) and 44.7% preference on dictation quality. Source: [Apple ML Research](https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models)
+
 **Notable GitHub repos:**
 - SmolLM / SmolLM2: <a href="https://github.com/huggingface/smollm" rel="nofollow">🔗</a>
 - Granite 3.x: <a href="https://github.com/ibm-granite/granite-3.0-language-models" rel="nofollow">🔗</a>
@@ -1761,6 +1789,7 @@ These are the raw API endpoints you can use in tools like Cursor (BYOK), Cline, 
 | **Google Gemini API** | Gemini 3.1 Flash-Lite (1,000 req/day), Gemini 3 Flash (250 req/day), Gemini 3.1 Pro (100 req/day) | Per-project limits | Prototyping, large context (1M-10M tokens), multimodal |
 | **Groq Cloud** | Llama 4 Scout, DeepSeek R1, Qwen3, GPT-OSS | ~1,000-14,400 req/day | Fast iteration, agentic workflows |
 | **OpenRouter** | 28+ free models including Qwen3 Coder 480B, Devstral 2, MiMo-V2-Flash, DeepSeek R1, GPT-OSS 120B, Llama 3.3 70B | Varies by model | Experimenting with many models |
+| **OpenAI** | GPT-4.1 nano (limited free credits for new accounts); retired from ChatGPT Feb 2026, API unaffected | $5 free credit on sign-up | Budget classification, routing, lightweight tasks |
 | **Cerebras** | Llama 3.3 70B, Qwen3 32B/235B, GPT-OSS 120B | 1M tokens/day | Batch tasks, raw speed (20× faster than GPUs) |
 | **Mistral AI** | Codestral-2508, Devstral, Mistral Large, Pixtral | 1B tokens/month | Code completion, FIM tasks |
 | **NVIDIA NIM** | 91 free endpoints including Chinese models | Varies | Production inference on DGX Cloud |
@@ -1870,7 +1899,7 @@ Comprehensive pricing comparisons and cost calculations.
 | Tier | Price Range | Models |
 |------|-------------|--------|
 | 🆓 **Free** | $0 | Self-hosted, free tiers |
-| 💸 **Budget** | $0.025 - $0.50/1M | Gemini 3.1 Flash-Lite, GLM-4.7-FlashX, GPT-5.4 nano, Grok 4 Fast (aliased to 4.3) |
+| 💸 **Budget** | $0.025 - $0.50/1M | Gemini 3.1 Flash-Lite, GPT-4.1 nano, GLM-4.7-FlashX, GPT-5.4 nano, Grok 4 Fast (aliased to 4.3) |
 | 💰 **Mid-range** | $0.60 - $15.00/1M | GPT-5.4 mini, Claude Haiku 4.5, Kimi K2.6, Sonar, GLM-5, GPT-5.4, Claude Sonnet, Grok 4.3 |
 | 💎 **Premium** | $15.00 - $600.00/1M | Claude Fable 5, GPT-5.5 Pro, Claude Opus 4.8, Claude Opus 4.7, o1-Pro |
 
@@ -1882,7 +1911,7 @@ Comprehensive pricing comparisons and cost calculations.
 |--------|-------------|-------|:---:|
 | **ChatGPT** | Go **$8**, Plus **$20**, Pro **$200**, Business **$25/seat** (annual) or **$30/seat** (monthly), Enterprise (contact sales) | Consumer prices are US-listed; Go is localized in some markets | <a href="https://openai.com/index/introducing-chatgpt-go/" rel="nofollow">🔗</a> |
 | **Claude** | Pro **$20**, Max **$100** (5×) or **$200** (20×), Team/Enterprise (see pricing) | Prices shown exclude applicable taxes; availability varies by region | <a href="https://www.anthropic.com/max" rel="nofollow">🔗</a> |
-| **Google AI (Gemini)** | Free, Plus **$7.99**, Pro **$19.99**, Ultra **$100** (5× limits / 20TB storage) or **$200** (20× limits / 20TB storage) | US pricing; Ultra reduced from $249.99 at I/O 2026; $100 tier added with Gemini 3.5 Flash integration and Antigravity priority access | <a href="https://blog.google/products-and-platforms/products/google-one/google-ai-ultra/" rel="nofollow">🔗</a> |
+| **Google AI (Gemini)** | Free, Plus **$7.99**, Pro **$19.99**, Ultra **$99.99** (5× limits / 20TB storage) or **$200** (20× limits / 20TB storage) | US pricing; Ultra reduced from $249.99 at I/O 2026; $99.99 tier added with Gemini 3.5 Flash integration and Antigravity priority access | <a href="https://blog.google/products-and-platforms/products/google-one/google-ai-ultra/" rel="nofollow">🔗</a> |
 
 **Coding assistants**
 
@@ -1892,41 +1921,49 @@ Comprehensive pricing comparisons and cost calculations.
 
 #### Model Pricing Comparison
 
+Comparative pricing across notable API models. As of 2026-06-26.
+
 | Model | Input | Output | Cached Input | Best For |
 |-------|-------|--------|-------------|----------|
 | **GLM-4.7-FlashX** | $0.07 | $0.40 | — | Fast budget tasks |
-| **Step-3.5-Flash** | $0.10 | $0.30 | — | Ultra-fast reasoning (85–350 tok/s) |
 | **GLM-4-32B-0414-128K** | $0.10 | $0.10 | — | Budget chat/coding |
+| **GPT-4.1 nano** ⭐ | $0.10 | $0.40 | $0.01 | OpenAI's cheapest; 1M context; released 2026-04 |
+| **Step-3.5-Flash** | $0.10 | $0.30 | — | Ultra-fast reasoning (85–350 tok/s) |
 | **DeepSeek-V4-Flash** | $0.14 | $0.28 | $0.0028 | Default API path; replaces legacy `deepseek-chat` mapping |
+| **Mistral Small 4** | $0.15 | $0.60 | — | Unified reasoning + coding + multimodal; open-weight |
 | **Llama 4 Maverick** | $0.15 | $0.60 | — | Open multimodal (self-host: $0) |
 | **GPT-5.4 nano** | $0.20 | $1.25 | $0.02 | Classification and lightweight subagents |
 | **Grok 4 Fast** | $0.20 | $0.50 | $0.05 | Fast Grok reasoning |
 | **Gemini 3.1 Flash-Lite** | $0.25 | $1.50 | $0.025 | Budget multimodal; input $0.25/1M standard (Vertex ≤200K ctx) |
+| **Gemini 3.1 Flash Image** ⭐ | $0.50 | — | — | Multi-modal input (text+image); output images priced by resolution; GA June 2026 |
 | **DeepSeek-V3.1** | $0.27 | $0.41 | — | Everything |
 | **DeepSeek-V3.2** | $0.28 | $0.42 | $0.028 | Budget workhorse, reasoning |
-| **MiniMax-M2.5** | $0.30 | $1.20 | Auto (included) | Coding, long context |
-| **Qwen3.7-Max** | $2.50 | $7.50 | $0.25 | Agentic coding, long-horizon autonomy, reasoning |
+| **MiniMax M2.5** | $0.30 | $1.20 | Auto (included) | Coding, long context |
+| **GPT-4.1 mini** ⭐ | $0.40 | $1.60 | $0.04 | 1M context; released 2026-04 |
 | **DeepSeek-V4-Pro** | $0.435 | $0.87 | $0.003625 (hit) | 75% discount made permanent 2026-05-31; was $1.74 / $3.48 at launch |
 | **Gemini 3 Flash** | $0.50 | $3.00 | $0.05 | Long context (Vertex Gemini 3 Flash Preview ≤200K ctx) |
-| **Mistral Small 4** | $0.15 | $0.60 | — | Unified reasoning + coding + multimodal; open-weight |
 | **Mistral Large 3** | $0.50 | $1.50 | $0.05 | Strong open-source frontier model |
 | **Kimi K2.6** | $0.60 | $3.00 | Auto (included) | Multimodal + agent tasks |
 | **GPT-5.4 mini** | $0.75 | $4.50 | $0.075 | Fast coding and multimodal tasks |
 | **Claude Haiku 4.5** | $1.00 | $5.00 | — | Low-latency coding and sub-agents |
 | **GLM-5** | $1.00 | $3.20 | $0.20 | Agentic engineering |
 | **GLM-5.2** ⭐ | $1.40 | $4.40 | — | Frontier open-weight coding + 1M context; MIT license |
+| **MiniMax M2.7** ⭐ | $0.30 | $1.20 | — | Self-evolution; Agent Teams; SWE-Pro 56.22%; 205K context; released 2026-03-18 |
+| **Cohere Command A+** ⭐ | $0.40 | — | — | 25B active (218B MoE); fast open-weight model; released 2026-05 |
 | **Perplexity Sonar** | $1.00 | $1.00 | — | Web-grounded chat (request fees apply) |
 | **GPT-5.3-Codex** | $1.75 | $14.00 | $0.175 | Agentic coding, 7+ hour autonomy |
 | **Gemini 3.1 Pro** | $2.00 | $12.00 | $0.20–$0.40 + $4.50/hr | Frontier reasoning |
 | **Perplexity Sonar Reasoning Pro** | $2.00 | $8.00 | — | Reasoning + search (request fees apply) |
+| **GPT-4.1** ⭐ | $2.00 | $8.00 | $0.20 | 1M context; retired from ChatGPT Feb 13, 2026; API still available |
 | **GPT-5.4** | $2.50 | $15.00 | $0.25 | Frontier coding and professional work |
 | **Grok 4** | $3.00 | $15.00 | $0.75 | First-principles reasoning |
+| **Qwen3.7-Max** | $2.50 | $7.50 | $0.25 | Agentic coding, long-horizon autonomy, reasoning |
 | **Perplexity Sonar Pro** | $3.00 | $15.00 | — | Higher quality + search (request fees apply) |
 | **Claude Sonnet 4.5** | $3.00 | $15.00 | $0.30 (hit) | Best coding |
 | **Claude Sonnet 4.6** | $3.00 | $15.00 | $0.30 (hit) | Near-Opus performance |
 | **Claude Opus 4.8** | $5.00 | $25.00 | $0.50 (hit) | Latest Opus; released 2026-05-28 |
-| **Claude Fable 5** | $10.00 | $50.00 | $1.00 (hit) | Mythos-class; released 2026-06-09; free on subscription through June 22 |
 | **Claude Opus 4.7** | $5.00 | $25.00 | $0.50 (hit) | Opus 4.7 |
+| **Claude Fable 5** | $10.00 | $50.00 | $1.00 (hit) | Mythos-class; released 2026-06-09; requires usage credits since June 23 |
 
 
 #### Self-Hosting vs API (Monthly)
@@ -2008,10 +2045,12 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 🌐 Google DeepMind | Gemini 3 | Flash | 2026-02-12 00:00 UTC | 2026-05-08 00:00 UTC | ✅ | GPQA 90.4%, SWE-bench 78.0% | $0.50 / $3.00 | ❌ | <a href="https://deepmind.google/models/gemini/" rel="nofollow">🔗</a> |
 | 🚀 xAI | Grok | 4.3 | 2026-05-01 00:00 UTC | 2026-05-06 00:00 UTC | ✅ | — | $1.25 / $2.50 | ❌ | <a href="https://x.ai/" rel="nofollow">🔗</a> |
 | 🇨🇳 MiniMax | Hailuo | 02 | 2026-06-20 00:00 UTC | 2026-06-20 00:00 UTC ⭐ | — | #2 Video Arena | API | ❌ | <a href="https://www.minimax.io/" rel="nofollow">🔗</a> |
-| 🇨🇳 MiniMax | Speech | 2.6 | 2026-06-20 00:00 UTC | 2026-06-20 00:00 UTC ⭐ | — | <250ms latency | API | ❌ | <a href="https://www.minimax.io/" rel="nofollow">🔗</a> |
+| 🇨🇳 MiniMax | Speech | 2.8 | 2026-06-20 00:00 UTC | 2026-06-20 00:00 UTC ⭐ | — | $100/1M chars; 40+ languages | API | ❌ | <a href="https://www.minimax.io/" rel="nofollow">🔗</a> |
 | 🇨🇳 MiniMax | Video-01 | — | 2026-06-20 00:00 UTC | 2026-06-20 00:00 UTC ⭐ | — | 720p/25fps | ~$0.40/video | ❌ | <a href="https://www.minimax.io/" rel="nofollow">🔗</a> |
 | 🇫🇷 Mistral AI | Voxtral TTS | — | 2026-06-18 00:00 UTC | 2026-06-18 00:00 UTC ⭐ | — | 4B, 9 languages, 70ms | $0.016/1K chars | ✅ | <a href="https://mistral.ai/" rel="nofollow">🔗</a> |
-| 🇺🇸 Zyphra | ZONOS2 | — | 2026-06-12 00:00 UTC | 2026-06-12 00:00 UTC ⭐ | — | 8B MoE TTS, multilingual | Free (Apache 2.0) | ✅ | <a href="https://www.zyphra.com/" rel="nofollow">🔗</a> |
+| **🤖 OpenAI** | **GPT-4.1** ⭐ | — | 2026-04-14 00:00 UTC | 2026-04-14 00:00 UTC | ✅ | 1M context, improved coding/instruction following | $2.00 / $8.00 | ❌ | <a href="https://openai.com/" rel="nofollow">🔗</a> |
+| **🤖 OpenAI** | **GPT-4.1 mini** ⭐ | — | 2026-04-14 00:00 UTC | 2026-04-14 00:00 UTC | ✅ | 1M context, best value for large-context needs | $0.40 / $1.60 | ❌ | <a href="https://openai.com/" rel="nofollow">🔗</a> |
+| **🇺🇸 Zyphra** | ZONOS2 | — | 2026-06-12 00:00 UTC | 2026-06-12 00:00 UTC ⭐ | — | 8B MoE TTS, multilingual | Free (Apache 2.0) | ✅ | <a href="https://www.zyphra.com/" rel="nofollow">🔗</a> |
 | 🤖 OpenAI | GPT-5.5 | — | 2026-04-26 00:00 UTC | 2026-04-26 00:00 UTC | ✅ | GPQA 93.2%, SWE-bench 88.5% | $5.00 / $30.00 | ❌ | <a href="https://openai.com/" rel="nofollow">🔗</a> |
 | 🤖 Anthropic | Claude | Opus 4.7 | 2026-04-22 00:00 UTC | 2026-04-26 00:00 UTC | ✅ | GPQA 94.2%, SWE-bench 87.6% | $5.00 / $25.00 | ❌ | <a href="https://www.anthropic.com/" rel="nofollow">🔗</a> |
 
@@ -2035,6 +2074,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 🌐 Google DeepMind | Gemini 3.1 Flash-Lite | 2026-02 | Budget Gemini model | <a href="https://ai.google.dev/gemini-api/docs/models" rel="nofollow">🔗</a> |
 | 🌐 Google DeepMind | Gemini 3 Pro | 2026-01 | Tiered pricing | <a href="https://deepmind.google/models/gemini/" rel="nofollow">🔗</a> |
 | 🤖 OpenAI | GPT-5.4 family | 2026-03 | GPT-5.4, GPT-5.4 mini, GPT-5.4 nano | <a href="https://openai.com/news/?display=list" rel="nofollow">🔗</a> |
+| 🤖 OpenAI | GPT-4.1 family ⭐ | 2026-04 | GPT-4.1 ($2/$8), GPT-4.1 mini ($0.40/$1.60), GPT-4.1 nano ($0.10/$0.40); 1M context; June 2024 cutoff; retired from ChatGPT Feb 13, 2026; API still available | <a href="https://openai.com/" rel="nofollow">🔗</a> |
 | 🇫🇷 Mistral AI | Mistral Large 3 | 2025-11 | Apache 2.0 open-source, 123B params | <a href="https://mistral.ai/news/" rel="nofollow">🔗</a> |
 
 #### Sort by Price (Cheapest)
@@ -2050,7 +2090,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 7 | **Grok 4 Fast** | $0.20 | $0.50 | API |
 | 8 | **GPT-5.4 nano** | $0.20 | $1.25 | Proprietary |
 | 9 | **Gemini 3.1 Flash-Lite** | $0.25 | $1.50 | Proprietary |
-| 10 | **GLM-5.2** ⭐ | $1.40 | $4.40 | MIT (open-weight) |
+| 10 | **GPT-4.1 nano** ⭐ | $0.10 | $0.40 | Proprietary |
 
 #### Sort by Performance (Coding)
 
@@ -2100,6 +2140,9 @@ Attribution, verification sources, and methodology.
 | **OpenAI** | March 2026 model news | <a href="https://openai.com/news/?display=list" rel="nofollow">openai.com</a> |
 | **OpenAI** | ChatGPT subscriptions (Go/Plus/Pro) | <a href="https://openai.com/index/introducing-chatgpt-go/" rel="nofollow">openai.com</a> |
 | **OpenAI** | ChatGPT Business pricing | <a href="https://help.openai.com/en/articles/8542115-chatgpt-business-faq" rel="nofollow">help.openai.com</a> |
+| **OpenAI** | GPT-4.5 API deprecation | <a href="https://developers.openai.com/api/docs/deprecations" rel="nofollow">developers.openai.com/api/docs/deprecations</a> |
+| **OpenAI** | GPT-4.1 / GPT-4o retirement from ChatGPT | <a href="https://openai.com/index/retiring-gpt-4o-and-older-models/" rel="nofollow">openai.com</a> |
+| **OpenAI** | GPT-Image-2 / ChatGPT Images 2.0 | <a href="https://openai.com/index/introducing-chatgpt-images-2-0/" rel="nofollow">openai.com</a> |
 | **Anthropic** | Claude Documentation | <a href="https://www.anthropic.com" rel="nofollow">anthropic.com</a> |
 | **Anthropic** | Claude API pricing | <a href="https://docs.anthropic.com/en/docs/about-claude/pricing" rel="nofollow">docs.anthropic.com</a> |
 | **Anthropic** | Claude Opus 4.8 announcement | <a href="https://www.anthropic.com/news/claude-opus-4-8" rel="nofollow">anthropic.com</a> |
@@ -2130,6 +2173,7 @@ Attribution, verification sources, and methodology.
 | **Tencent (Hunyuan)** | Cloud Documentation | <a href="https://cloud.tencent.com/document/product/1729/97730" rel="nofollow">cloud.tencent.com</a> |
 | **Baidu (ERNIE)** | AI Studio Documentation | <a href="https://ai.baidu.com/ai-doc/AISTUDIO/Mmhslv9lf" rel="nofollow">ai.baidu.com</a> |
 | **xAI** | Grok API pricing & models | <a href="https://docs.x.ai/developers/models" rel="nofollow">docs.x.ai</a> |
+| **Apple** | Foundation Models 3rd Gen announcement | <a href="https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models" rel="nofollow">machinelearning.apple.com</a> |
 | **Meta** | Llama Documentation | <a href="https://llama.meta.com" rel="nofollow">llama.meta.com</a> |
 
 #### Benchmark Sources
@@ -2171,7 +2215,7 @@ Additional context from the June 2026 research pass (supplements earlier tables;
 
 ---
 
-**Last Updated:** 2026-06-18 00:00 UTC
+**Last Updated:** 2026-06-26 19:03 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
