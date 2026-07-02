@@ -6,7 +6,7 @@
 
 <a href="https://awesome.re" rel="nofollow"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
-<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--06--26%2019%3A03%20UTC-green.svg" alt="Last Updated"></a>
+<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--07--02%2000%3A30%20UTC-green.svg" alt="Last Updated"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social" alt="Star History"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social" alt="Forks"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix/issues" rel="nofollow"><img src="https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix" alt="Issues"></a>
@@ -21,7 +21,9 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ### 🔥 Highlights
 - **138+ AI models** from major providers (OpenAI, Anthropic, Google, Meta, etc.)
-- **Latest pricing** and performance benchmarks (updated June 2026 - v3.37)
+- **Latest pricing** and performance benchmarks (updated July 2026 - v3.38)
+- **Claude Sonnet 5** launched 2026-06-30 00:00 UTC with 1M context, 128K output, $2.00 / $10.00 introductory pricing, and 85.2% SWE-bench Verified
+- **Claude Fable 5 and Mythos 5** access restored 2026-07-01 00:00 UTC after export controls were lifted
 - **Cartesia Sonic-3.5** ranked #1 on both Speech Arena and Speech-to-Text leaderboard (Ink-2)
 - **MiniMax M2.7** self-evolving LLM with SWE-Pro 56.22%
 - **Self-hosting guides** for open-source models
@@ -32,7 +34,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 | Category | #1 | #2 | #3 |
 |----------|-----|-----|-----|
-| **Coding** | Claude Opus 4.8 | GPT-5.5 | Claude Sonnet 4.6 |
+| **Coding** | Claude Opus 4.8 | GPT-5.5 | Claude Sonnet 5 |
 | **Reasoning** | Gemini 3.1 Pro | GPT-5.5 Pro | Qwen3.7-Max |
 | **Open Source** | GLM-5.2 | MiniMax M3 | DeepSeek-V4-Flash |
 | **Cost Efficiency** | DeepSeek-V4-Flash | MiniMax M3 | Gemini 3.5 Flash |
@@ -52,8 +54,8 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.37
-- **Last Updated**: 2026-06-26 19:03 UTC
+- **Document Version**: 3.38
+- **Last Updated**: 2026-07-02 00:30 UTC
 - **Repository**: https://github.com/ReadyPixels/AI_Models_Matrix
 - **License**: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">CC BY-NC 4.0</a>
 
@@ -119,6 +121,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | Model | Company | Context | GPQA Diamond | Arena Elo | SWE-bench Verified | AIME 2025 | Pricing | Verified |
 |-------|---------|---------|--------------|-----------|--------------------|-----------|---------|----------|
 | **Claude Opus 4.8** | Anthropic | 1M | 93.6% | 1506 | 88.6% | — | $5.00 / $25.00 | 2026-05-28 |
+| **Claude Sonnet 5** ⭐ | Anthropic | 1M | — | — | 85.2% | — | $2.00 / $10.00 (intro) | 2026-06-30 00:00 UTC ⭐ |
 | **Claude Opus 4.7** | Anthropic | 1M | 94.2% | 1505 | 87.6% | ~95% | $5.00 / $25.00 | 2026-04-26 |
 | **GPT-5.5** | OpenAI | 1M | 93.6% | 1506 | 88.5% | 99.9% | $5.00 / $30.00 | 2026-04-26 |
 | **GPT-5.5 Instant** | OpenAI | 1M | 91.0% | — | 88.7% | — | $0.20 / $1.00 | 2026-05-05 |
@@ -136,14 +139,14 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Qwen3.7-Plus** ⭐ | Alibaba | 1M | — | — | — | — | — | $0.40 / $2.40 | 2026-06-03 ⭐ |
 | **Step 3.7 Flash** ⭐ | StepFun | 1M | — | — | — | — | — | Free (limited) | 2026-05-28 ⭐ |
 
-> ⚠️ **Claude Fable 5 and Mythos 5 suspended**: On June 12, 2026, Anthropic disabled global access to both models following a US government export control directive. **Fable 5 status (June 23):** Removed from Pro/Max/Team/Enterprise subscription plans; continued use requires usage credits billed at standard API rates. **Mythos 5 status:** Remains completely offline; accessible only through Project Glasswing (invitation-only partner program). Use Claude Opus 4.8 as an alternative. Source: [Anthropic Statement](https://www.anthropic.com/news/fable-mythos-access)
+> ⭐ **Claude Fable 5 and Mythos 5 redeployed**: Anthropic says export controls were lifted on 2026-06-30 00:00 UTC, and access to Fable 5 and Mythos 5 was restored on 2026-07-01 00:00 UTC. Fable 5 is available globally on Claude Platform, Claude.ai, Claude Code, and Claude Cowork, with cloud partner re-enablement in progress. Mythos 5 access is restored for approved US organizations and remains limited to Project Glasswing partners. Source: <a href="https://www.anthropic.com/news/redeploying-fable-5" rel="nofollow">🔗</a>
 >
 > ⭐ **Seed 2.1 Pro** (ByteDance, June 22, 2026): Early-access preview on Code Arena. Ranks #8 on Code Arena: Frontend (score 1539, on par with Claude Opus 4.6). Top 10 in 5/7 subcategories: #6 Brand & Marketing, #7 React. No official API pricing or specs yet. Public release expected within weeks. Source: [Fello AI](https://felloai.com/seed-2-1-pro/)
 > ⚠️ **GPT-5.5 Instant pricing correction**: The API pricing for GPT-5.5 Instant is $0.20/$1.00 per 1M tokens (input/output), not $5.00/$30.00 which is the standard GPT-5.5 rate. GPT-5.5 Instant replaced GPT-5.3 Instant as the free-tier ChatGPT default on May 5, 2026.
 
 ### Model Specifications 📋
 
-Detailed technical specifications, pricing, and capabilities for frontier models and notable API models. Data as of 2026-06-26.
+Detailed technical specifications, pricing, and capabilities for frontier models and notable API models. Data as of 2026-07-02.
 
 #### Output Token Limits
 
@@ -154,6 +157,7 @@ Maximum output tokens per single API request.
 | **Claude Opus 4.6** | 128K (300K via beta) | 1M | Extended output via `output-128k-2025-02-19` beta header |
 | **Claude Opus 4.7** | 128K (300K via beta) | 1M | Extended output via `output-128k-2025-02-19` beta header |
 | **Claude Sonnet 4.6** | 64K | 1M | — |
+| **Claude Sonnet 5** ⭐ | 128K (300K via beta) | 1M | Released 2026-06-30 00:00 UTC; adaptive thinking on by default; batch API supports 300K with `output-300k-2026-03-24` beta header |
 | **Claude Sonnet 4.5** | 64K | 200K | — |
 | **GPT-5.4** | 128K | 1.05M | — |
 | **GPT-5.4 mini** | 128K | 400K | — |
@@ -204,6 +208,7 @@ Discounted pricing tiers for high-volume usage. All prices in USD per million to
 | **Claude Opus 4.8** | $5.00 | $0.50 (hit) / $6.25 (5m write) | 50% off | Same pricing as 4.7; fast mode $10/$50 |
 | **Claude Opus 4.6** | $5.00 | $0.50 (hit) / $6.25 (5m write) | 50% off | Batch: $2.50 in / $12.50 out |
 | **Claude Sonnet 4.6** | $3.00 | $0.30 (hit) / $3.75 (5m write) | 50% off | Batch: $1.50 in / $7.50 out |
+| **Claude Sonnet 5** ⭐ | $2.00 (intro) / $3.00 standard | $0.20 hit / $2.50 5m write (intro) | 50% off | Intro pricing through 2026-08-31 00:00 UTC: $2.00 / $10.00; standard from 2026-09-01 00:00 UTC: $3.00 / $15.00 |
 | **Claude Sonnet 4.5** | $3.00 | $0.30 (hit) / $3.75 (5m write) | 50% off | Batch: $1.50 in / $7.50 out |
 | **GPT-5.4** | $2.50 | $0.25 | 50% off | Data residency +10% |
 | **GPT-5.4 mini** | $0.75 | $0.075 | 50% off | — |
@@ -262,6 +267,7 @@ Knowledge cutoff dates — the point after which a model has no training data.
 | Model | Training Cutoff | Notes |
 |-------|----------------|-------|
 | **Claude Sonnet 4.6** | Jan 2026 | Most recent cutoff among frontier models |
+| **Claude Sonnet 5** ⭐ | Jan 2026 | Reliable knowledge cutoff Jan 2026; released 2026-06-30 00:00 UTC |
 | **Claude Opus 4.6** | Aug 2025 | Reliable knowledge: May 2025 |
 | **GPT-5.4 / mini / nano** | Aug 31, 2025 | — |
 | **GPT-5.3-Codex** | Aug 31, 2025 | — |
@@ -290,7 +296,7 @@ Knowledge cutoff dates — the point after which a model has no training data.
 | **Gemini 3.1 Pro / 3 Pro** | 100+ | — |
 | **Gemini 3.1 Flash-Lite** | 100 | 91.3% MMMLU score |
 | **Llama 4 Maverick** | 12 | Output languages |
-| **Claude (all)** | Many | English-optimized; broad multilingual |
+| **Claude (all)** | Many | English-optimized; broad multilingual; Sonnet 5 supports multilingual capabilities and vision |
 | **GPT-5.4 (all)** | Many | Broad multilingual coverage |
 | **DeepSeek (all)** | Many | Chinese + English focused |
 | **Grok (all)** | Many | — |
@@ -397,11 +403,12 @@ Specialized AI models optimized for software development tasks.
 | #5 | **GPT-5.5** | OpenAI | 88.7% |
 | #6 | **Claude Opus 4.8** | Anthropic | 88.6% |
 | #7 | **Claude Opus 4.7** | Anthropic | 87.6% |
-| #8 | **GPT-5.3-Codex** | OpenAI | 85.0% |
-| #9 | **Claude Opus 4.5** | Anthropic | 80.9% |
-| #10 | **Claude Opus 4.6** | Anthropic | 80.8% |
-| #11 | **DeepSeek-V4-Pro (Max)** | DeepSeek | 80.6% |
-| #11 | **Gemini 3.1 Pro** | Google | 80.6% |
+| #8 | **Claude Sonnet 5** ⭐ | Anthropic | 85.2% |
+| #9 | **GPT-5.3-Codex** | OpenAI | 85.0% |
+| #10 | **Claude Opus 4.5** | Anthropic | 80.9% |
+| #11 | **Claude Opus 4.6** | Anthropic | 80.8% |
+| #12 | **DeepSeek-V4-Pro (Max)** | DeepSeek | 80.6% |
+| #12 | **Gemini 3.1 Pro** | Google | 80.6% |
 | #13 | **MiniMax M3** ⭐ | MiniMax | 80.5% |
 | #14 | **Qwen3.7-Max** | Alibaba | 80.4% |
 | #15 | **Kimi K2.6** | Moonshot AI | 80.2% |
@@ -421,8 +428,9 @@ Specialized AI models optimized for software development tasks.
 
 | Model | Developer | Pricing | Best For |
 |-------|-----------|---------|----------|
-| **Claude Fable 5** ⚠️ ⭐ | Anthropic | $10.00 / $50.00 per 1M | Mythos-class coding; SWE-bench 95.0%; **suspended globally June 12, 2026** |
+| **Claude Fable 5** ⚠️ ⭐ | Anthropic | $10.00 / $50.00 per 1M | Mythos-class coding; SWE-bench 95.0%; restored globally 2026-07-01 00:00 UTC with stronger safeguards |
 | **Claude Opus 4.8** | Anthropic | $5.00 / $25.00 per 1M | Agentic coding, complex tasks, best available Opus |
+| **Claude Sonnet 5** ⭐ | Anthropic | $2.00 / $10.00 per 1M intro through 2026-08-31 00:00 UTC | Agentic coding at Sonnet latency and price; 85.2% SWE-bench Verified; 63.2% SWE-bench Pro |
 | **Kimi K2.7 Code** ⭐ | Moonshot AI | $0.95 / $4.00 per 1M | Open-weight coding agent; 30% fewer thinking tokens vs K2.6 |
 | **Claude Opus 4.6** | Anthropic | $5.00 / $25.00 per 1M | Agentic coding, complex tasks |
 | **GPT-5.5 Pro** | OpenAI | $30.00 / $180.00 per 1M | Highest benchmark coding |
@@ -491,15 +499,16 @@ Models optimized for step-by-step reasoning, mathematical problem-solving, and c
 | **Gemini 3 Pro** | General/Multimodal | 1M+ | $2.00 / $12.00 |
 | **DeepSeek-R1** | Reasoning | 128K | $0.50 / $2.15 |
 | **Claude Sonnet 4.5** | Hybrid | 200K | $3.00 / $15.00 |
+| **Claude Sonnet 5** ⭐ | Hybrid | 1M | $2.00 / $10.00 intro; $3.00 / $15.00 standard |
 | **GPT-Rosalind** | Life Sciences Reasoning | 128K | Pay-per-token (Research Preview) |
 | **MAI-Thinking-1** | Reasoning | 256K | TBD (Private Preview) |
 
 #### Use Cases
 
 - **Mathematical Problem Solving**: Qwen3-Max-Thinking, GPT-5.5 Pro, Gemini 3 Pro
-- **Scientific Analysis**: Claude Opus 4.6, GPT-5.5, Gemini 3 Pro
+- **Scientific Analysis**: Claude Sonnet 5, Claude Opus 4.6, GPT-5.5, Gemini 3 Pro
 - **Strategic Planning**: o3/o1-Pro, Claude Sonnet 4.5, DeepSeek-R1
-- **Code Debugging**: Claude Sonnet 4.5, GPT-5.3-Codex, DeepSeek-V3.2
+- **Code Debugging**: Claude Sonnet 5, Claude Sonnet 4.5, GPT-5.3-Codex, DeepSeek-V3.2
 
 ### Multimodal Models 🎨
 
@@ -512,6 +521,7 @@ Models capable of processing and generating multiple types of content: text, ima
 | **GPT-5.4** | OpenAI | 1M | Unified multimodal, audio |
 | **Gemini 3 Pro** | Google | 1M+ | Native multimodal, video |
 | **Claude Sonnet 4.5** | Anthropic | 200K | Document understanding |
+| **Claude Sonnet 5** ⭐ | Anthropic | 1M | Text and image input, 128K output, agentic coding and tool use |
 | **Llama 4 Maverick** | Meta | 128K | Open multimodal |
 | **Gemini Omni Flash** | Google | — | Native multimodal (text+image+audio+video input, video generation), any-to-any creation |
 | **Nemotron 3 Nano Omni** | NVIDIA | 30B (3B active) | Vision, audio, language unified, 9x throughput |
@@ -595,7 +605,7 @@ Comprehensive hardware specifications for self-hosting AI models.
 
 ### Comprehensive Benchmark Reference 📈
 
-Detailed benchmark scores across all major evaluations. Scores are percentages (%) unless noted. Arena Elo scores are integers. `—` = not publicly reported. Data as of 2026-06-26.
+Detailed benchmark scores across all major evaluations. Scores are percentages (%) unless noted. Arena Elo scores are integers. `—` = not publicly reported. Data as of 2026-07-02.
 
 #### Full Benchmark Table
 
@@ -609,6 +619,7 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | **NVIDIA Nemotron 3 Ultra** | — | — | — | — | — | — | — | — | — | — | — | — |
 | **GPT-5.5 Pro** | 95.1% | 96% | 1520 | 48.5–62.0% | 92.3% | — | — | 100% | 78.5% | — | 97% | 58% |
 | **Claude Sonnet 4.6** | 89.9% | — | ~1438 | 33.2–49.0% | 79.6% | — | — | ~95% | 58.3% | — | — | — |
+| **Claude Sonnet 5** ⭐ | — | — | — | 43.2% no tools / 57.4% tools | 85.2% | 63.2% | — | — | — | — | — | — |
 | **Claude Sonnet 4.5** | 83.4% | 88.0% | — | — | 77.2% | — | — | 87–100% | — | — | — | — |
 | **Claude Fable 5** | 94.5% | — | — | — | 95.0% | 80.3% | 29.3% (FrontierCode) | — | — | — | — | — |
 | **Claude Mythos 5** | ~94.1% | — | — | — | 95.5% | — | — | — | — | — | — | — |
@@ -810,7 +821,7 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 | Tool | Platform | Pricing | Key Features | GitHub |
 |------|----------|---------|--------------|--------|
 | **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode, thinking tokens | <a href="https://github.com/Aider-AI/aider" rel="nofollow">🔗</a> |
-| **Claude Code 2.2.1+** | macOS, Linux, Windows | Free + API | Opus 4.8 support (fast mode 3× cheaper), simple mode file editing, multi-session support, `/autofix-pr`, plan mode, computer use (research preview), CLAUDE.md skills & sub-agents | <a href="https://github.com/anthropics/claude-code" rel="nofollow">🔗</a> |
+| **Claude Code 2.2.1+** | macOS, Linux, Windows | Free + API | Sonnet 5 default support via Claude Code 2.1.197+; Opus 4.8 support; Fable 5 access restored globally 2026-07-01 00:00 UTC; simple mode file editing, multi-session support, `/autofix-pr`, plan mode, computer use (research preview), CLAUDE.md skills & sub-agents | <a href="https://github.com/anthropics/claude-code" rel="nofollow">🔗</a> |
 | **Codex CLI** | Windows, macOS, Linux | Included | Rust-native rewrite; sandbox, approval modes, /goal persistent workflows, Chrome extension, GPT-5-Codex default; v0.140+ | <a href="https://github.com/openai/codex" rel="nofollow">🔗</a> |
 | **Junie CLI** ⭐ | Windows, macOS, Linux | Free (BYOK) | LLM-agnostic, JetBrains IDE integration (ACP), GA 2026-06-17, agentic debugging, PR review, local model support (LiteLLM/LMStudio/Ollama) | <a href="https://www.jetbrains.com/junie" rel="nofollow">🔗</a> |
 | **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible, desktop app, 25+ providers | <a href="https://github.com/block/goose" rel="nofollow">🔗</a> |
@@ -946,7 +957,7 @@ Services for accessing AI models via API.
 | Provider | Models | Pricing |
 |----------|--------|---------|
 | **OpenAI** | GPT-5.5, GPT-5.5 Instant, GPT-5.5 Pro, GPT-5.4, GPT-5.4 mini, GPT-5.4 nano, GPT-4.1, GPT-4.1 mini, GPT-4.1 nano, o3, Codex | Pay-per-token |
-| **Anthropic** | Claude Fable 5, Claude Mythos 5 (restricted), Claude Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 4.6, Haiku 4.5 | Pay-per-token |
+| **Anthropic** | Claude Fable 5, Claude Mythos 5 (restricted), Claude Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 5, Sonnet 4.6, Haiku 4.5 | Pay-per-token |
 | **Alibaba Cloud** | Qwen3.5-Max, Qwen3-Coder, Qwen3.6-27B | Pay-per-token / Coding Plan $50/mo |
 | **Gemini (Google)** | Gemini 3.5 Flash, Gemini 3.5 Pro (preview), Gemini 3.1 Pro, 3 Pro, 3 Flash | Pay-per-token |
 | **Z.ai (Zhipu AI)** | GLM-5.2 ⭐, GLM-5, GLM-5.1, GLM-4.7, GLM-5-Code | Pay-per-token |
@@ -1924,7 +1935,7 @@ Comprehensive pricing comparisons and cost calculations.
 
 #### Model Pricing Comparison
 
-Comparative pricing across notable API models. As of 2026-06-26.
+Comparative pricing across notable API models. As of 2026-07-02.
 
 | Model | Input | Output | Cached Input | Best For |
 |-------|-------|--------|-------------|----------|
@@ -1958,6 +1969,7 @@ Comparative pricing across notable API models. As of 2026-06-26.
 | **Gemini 3.1 Pro** | $2.00 | $12.00 | $0.20–$0.40 + $4.50/hr | Frontier reasoning |
 | **Perplexity Sonar Reasoning Pro** | $2.00 | $8.00 | — | Reasoning + search (request fees apply) |
 | **GPT-4.1** ⭐ | $2.00 | $8.00 | $0.20 | 1M context; retired from ChatGPT Feb 13, 2026; API still available |
+| **Claude Sonnet 5** ⭐ | $2.00 intro / $3.00 standard | $10.00 intro / $15.00 standard | $0.20 intro hit | 1M context, 128K output; intro pricing through 2026-08-31 00:00 UTC |
 | **GPT-5.4** | $2.50 | $15.00 | $0.25 | Frontier coding and professional work |
 | **Grok 4** | $3.00 | $15.00 | $0.75 | First-principles reasoning |
 | **Qwen3.7-Max** | $2.50 | $7.50 | $0.25 | Agentic coding, long-horizon autonomy, reasoning |
@@ -2036,6 +2048,8 @@ Side-by-side comparisons of AI models sorted by various criteria.
 
 | 🏢 Company | 🤖 Model | 📦 Version | 📅 Release Date | 🔄 Latest Updated | 💻 Coding | 📊 Benchmarks | 💰 Price | 🖥️ Self-Host | 🔗 Official Site |
 |:---:|---|---|---|---|:---:|---|---|:---:|:---:|
+| 🤖 Anthropic | Claude | Fable 5 redeployed | 2026-06-09 00:00 UTC | 2026-07-01 00:00 UTC ⭐ | ✅ | SWE-bench 95.0% | $10.00 / $50.00 | ❌ | <a href="https://www.anthropic.com/news/redeploying-fable-5" rel="nofollow">🔗</a> |
+| 🤖 Anthropic | Claude | Sonnet 5 | 2026-06-30 00:00 UTC | 2026-06-30 00:00 UTC ⭐ | ✅ | SWE-bench 85.2%, SWE-bench Pro 63.2%, HLE 57.4% with tools | $2.00 / $10.00 intro | ❌ | <a href="https://www.anthropic.com/news/claude-sonnet-5" rel="nofollow">🔗</a> |
 | 🤖 Anthropic | Claude | Fable 5 | 2026-06-09 00:00 UTC | 2026-06-09 00:00 UTC ⭐ | ✅ | GPQA 94.5%, SWE-bench 95.0% | $10.00 / $50.00 | ❌ | <a href="https://www.anthropic.com/" rel="nofollow">🔗</a> |
 | 🤖 Anthropic | Claude | Mythos 5 | 2026-06-09 00:00 UTC | 2026-06-09 00:00 UTC ✅ | — | GPQA ~94.1%, SWE-bench 95.5% | $10.00 / $50.00 | ❌ | <a href="https://www.anthropic.com/" rel="nofollow">🔗</a> |
 | 🇨🇳 Alibaba | Qwen3.7 | Max | 2026-05-20 00:00 UTC | 2026-05-20 00:00 UTC ⭐ | ✅ | GPQA 92.4%, SWE-bench 80.4% | $2.50 / $7.50 | ❌ | <a href="https://qwenlm.github.io/" rel="nofollow">🔗</a> |
@@ -2106,11 +2120,11 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 3 | **GPT-5.5 Pro** | 92.3% | ❌ |
 | 4 | **Claude Opus 4.8** | 88.6% | ❌ |
 | 5 | **Claude Opus 4.7** | 87.6% | ❌ |
-| 6 | **GPT-5.3-Codex** | 85.0% | ❌ |
-| 7 | **GLM-5.2** ⭐ | 62.1% (SWE-bench Pro) | ✅ |
-| 8 | **Claude Opus 4.6** | 80.8% | ❌ |
-| 9 | **Gemini 3.1 Pro** | 80.6% | ❌ |
-| 10 | **Kimi K2.6** | 80.2% | ❌ |
+| 6 | **Claude Sonnet 5** ⭐ | 85.2% | ❌ |
+| 7 | **GPT-5.3-Codex** | 85.0% | ❌ |
+| 8 | **GLM-5.2** ⭐ | 62.1% (SWE-bench Pro) | ✅ |
+| 9 | **Claude Opus 4.6** | 80.8% | ❌ |
+| 10 | **Gemini 3.1 Pro** | 80.6% | ❌ |
 
 #### Sort by Context Window
 
@@ -2150,6 +2164,9 @@ Attribution, verification sources, and methodology.
 | **OpenAI** | GPT-Image-2 / ChatGPT Images 2.0 | <a href="https://openai.com/index/introducing-chatgpt-images-2-0/" rel="nofollow">openai.com</a> |
 | **Anthropic** | Claude Documentation | <a href="https://www.anthropic.com" rel="nofollow">anthropic.com</a> |
 | **Anthropic** | Claude API pricing | <a href="https://docs.anthropic.com/en/docs/about-claude/pricing" rel="nofollow">docs.anthropic.com</a> |
+| **Anthropic** | Claude Sonnet 5 announcement | <a href="https://www.anthropic.com/news/claude-sonnet-5" rel="nofollow">anthropic.com</a> |
+| **Anthropic** | Claude Sonnet 5 system card | <a href="https://www-cdn.anthropic.com/480e0bb54327b9622282e9c39a83a4f490ed377e/Claude%20Sonnet%205%20System%20Card.pdf" rel="nofollow">anthropic.com</a> |
+| **Anthropic** | Claude Fable 5 redeployment | <a href="https://www.anthropic.com/news/redeploying-fable-5" rel="nofollow">anthropic.com</a> |
 | **Anthropic** | Claude Opus 4.8 announcement | <a href="https://www.anthropic.com/news/claude-opus-4-8" rel="nofollow">anthropic.com</a> |
 | **Anthropic** | Claude Fable 5 / Mythos 5 announcement | <a href="https://www.anthropic.com/news/claude-fable-5-mythos-5" rel="nofollow">anthropic.com</a> |
 | **Anthropic** | Claude Haiku 4.5 announcement | <a href="https://www.anthropic.com/news/claude-haiku-4-5?type=product" rel="nofollow">anthropic.com</a> |
@@ -2212,6 +2229,8 @@ Additional context from the June 2026 research pass (supplements earlier tables;
 
 - **Google I/O 2026 agent announcements** - Antigravity 2.0 (desktop + CLI + SDK) GA on 2026-05-19; Gemini Spark (24/7 personal agent) included with AI Ultra; Android CLI 1.0 stable for AI agent Android development; Gemini CLI sunset on 2026-06-18.
 - **Microsoft Build 2026** - Windows Agent Framework open-sourced (MIT); Aion 1.0 Instruct and Aion 1.0 Plan on-device SLMs announced; Windows 365 for Agents GA; Surface RTX Spark Dev Box and DGX Station for Windows announced.
+- **Claude Sonnet 5 launch** - Anthropic launched Sonnet 5 on 2026-06-30 00:00 UTC with 1M context, 128K output, adaptive thinking, $2.00 / $10.00 introductory pricing through 2026-08-31 00:00 UTC, and 85.2% SWE-bench Verified.
+- **Claude Fable 5 redeployment** - Anthropic restored Fable 5 and Mythos 5 access on 2026-07-01 00:00 UTC after export controls were lifted; Fable 5 is available globally, while Mythos 5 remains limited to approved Project Glasswing partners.
 - **GLM-5.2 open-source release** - Zhipu AI open-sourced GLM-5.2 (753B MoE, 1M context, MIT license) on 2026-06-17; available via API at $1.40/$4.40 per 1M; leads AIME 2026 at 99.2%.
 - **MCP 2026-07-28 spec RC** - Largest revision since initial release; six breaking changes including stateless transport, two new required HTTP headers, Tasks lifecycle primitive; SDK maintainers have 10 weeks to ship support.
 - **<a href="https://skills.sh" rel="nofollow">skills.sh</a>** — Primary registry for Agent Skills packages (see [Agent Skills & Registries 🎯](#agent-skills--registries-)); pairs naturally with CLI-first workflows (Claude Code, Gemini CLI, MCP-capable agents).
@@ -2220,7 +2239,7 @@ Additional context from the June 2026 research pass (supplements earlier tables;
 
 ---
 
-**Last Updated:** 2026-06-26 19:03 UTC
+**Last Updated:** 2026-07-02 00:30 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
