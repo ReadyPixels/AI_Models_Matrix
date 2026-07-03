@@ -1,3 +1,20 @@
+## [2026-07-03] - Version 3.41 - Browser automation refresh
+
+### Added
+- **Browser Harness** (Browser Automation - Developer Libraries): added Browser Use's self-healing CDP harness for direct LLM control of Chrome. Source: <a href="https://github.com/browser-use/browser-harness" rel="nofollow">🔗</a>
+- **Vercel agent-browser** (Browser Automation - Developer Libraries): added the Rust/Node browser automation CLI for AI agents, with compact snapshots, ref-based actions, Chrome and Lightpanda engines, and packaged agent skill. Source: <a href="https://agent-browser.dev/" rel="nofollow">🔗</a>
+
+### Updated
+- **Header metadata**: bumped document version to 3.41 and refreshed the Last Updated timestamp to 2026-07-03 16:32 UTC.
+- **Browser-use** (Browser Automation): updated developer-library and browser-only rows for Browser Use CLI 3.0, Browser Harness integration, `browser-use skill`, Cloud v3 premium agent, current free prompt / pay-as-you-go pricing, scheduling, persistent memory, skills, and integrations. Sources: <a href="https://github.com/browser-use/browser-use/releases" rel="nofollow">🔗</a>, <a href="https://browser-use.com/pricing" rel="nofollow">🔗</a>, <a href="https://docs.browser-use.com/cloud/faq" rel="nofollow">🔗</a>
+- **Multi-Agent & Parallel Execution Summary** (Automation): updated the Developer Libraries category list to include Browser Harness and Vercel agent-browser.
+- **Primary Sources**: added Browser Use, Browser Harness, and Vercel agent-browser sources used in this pass.
+
+### Removed / Deprecated
+- None
+
+---
+
 ## [2026-07-03] - Version 3.40 - Official July coding-agent refresh
 
 ### Added
@@ -7,6 +24,8 @@
 - **Header metadata**: bumped document version to 3.40 and refreshed the Last Updated timestamp to 2026-07-03 16:06 UTC.
 - **Codex CLI** (Autonomous Coding Agents): updated to v0.142.5 and noted the Responses WebSocket trace logging fix. Source: <a href="https://developers.openai.com/codex/changelog" rel="nofollow">🔗</a>
 - **GitHub Copilot** (IDE Add-ons): updated Copilot rows with July 2 enterprise agent session streaming, AI credit pools, and `GITHUB_TOKEN` support for Copilot CLI in GitHub Actions. Sources: <a href="https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview/" rel="nofollow">🔗</a>, <a href="https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions/" rel="nofollow">🔗</a>
+- **GitHub Copilot model availability** (IDE Add-ons): noted Copilot-only deprecation of Gemini 2.5 Pro and Gemini 3 Flash on 2026-07-31. Source: <a href="https://github.blog/changelog/2026-07-02-upcoming-deprecation-of-gemini-2-5-pro-and-gemini-3-flash/" rel="nofollow">🔗</a>
+- **Claude Opus 4.7 fast mode** (Speed & Latency): noted Anthropic's 2026-07-24 fast-mode removal guidance and Opus 4.8 migration path. Source: <a href="https://docs.anthropic.com/en/docs/about-claude/models/choosing-a-model" rel="nofollow">🔗</a>
 - **Primary Sources**: added the GitHub Copilot changelog source used in this pass.
 
 ### Removed / Deprecated

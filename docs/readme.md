@@ -6,7 +6,7 @@
 
 <a href="https://awesome.re" rel="nofollow"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
-<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--07--03%2016%3A06%20UTC-green.svg" alt="Last Updated"></a>
+<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--07--03%2016%3A32%20UTC-green.svg" alt="Last Updated"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social" alt="Star History"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social" alt="Forks"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix/issues" rel="nofollow"><img src="https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix" alt="Issues"></a>
@@ -28,6 +28,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 - **MiniMax Speech 2.8** official page verified: native sound tags, high-fidelity cloning, and studio-grade multilingual TTS
 - **Kiro 1.0.52**, **Cursor Team Marketplace MCPs**, **Codex CLI 0.142.0**, and **Windsurf quota-based plans** refreshed from official release notes
 - **Codex CLI 0.142.5** patched WebSocket trace logging, and **GitHub Copilot** added enterprise agent session streaming plus `GITHUB_TOKEN` support for Copilot CLI in GitHub Actions
+- **Browser Use CLI 3.0**, **Browser Harness**, and **Vercel agent-browser** refreshed in Browser Automation from official project docs and releases
 - **MiniMax M2.7** self-evolving LLM with SWE-Pro 56.22%
 - **MAI-1**, **MAI-1 Plan**, and **MAI-Frontier Tunings** launched July 2026 with Microsoft Frontier Tuning framework reaching GA status
 - **New pricing tiers** across providers including GPT-5.6 Sol/Terra/Luna pricing structure [$1.00-$5.00 input / $6.00-$30.00 output tokens], xAI Grok 4.3 API pricing updates [$1.25/$2.50 per million tokens], and Microsoft MAI model tiered pricing
@@ -60,8 +61,8 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.40
-- **Last Updated**: 2026-07-03 00:00 UTC
+- **Document Version**: 3.41
+- **Last Updated**: 2026-07-03 16:32 UTC
 - **Repository**: <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow">github.com/ReadyPixels/AI_Models_Matrix</a>
 - **License**: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">CC BY-NC 4.0</a>
 
@@ -156,7 +157,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 ### Model Specifications 📋
 
-Detailed technical specifications, pricing, and capabilities for frontier models and notable API models. Data as of 2026-07-03 16:06 UTC.
+Detailed technical specifications, pricing, and capabilities for frontier models and notable API models. Data as of 2026-07-03 16:32 UTC.
 
 #### Output Token Limits
 
@@ -275,6 +276,7 @@ Output throughput and time-to-first-token from <a href="https://artificialanalys
 | **MiniMax-M2.5 Standard** | ~50 | — | — |
 
 > Most frontier models (Claude Opus/Sonnet 4.6, GPT-5.4, Gemini 3.1 Pro, etc.) have not yet been benchmarked on Artificial Analysis as of April 2026.
+> Anthropic notes that fast mode on Claude Opus 4.7 is deprecated and scheduled for removal on 2026-07-24 00:00 UTC; use Claude Opus 4.8 for current Opus fast-mode workflows. Source: <a href="https://docs.anthropic.com/en/docs/about-claude/models/choosing-a-model" rel="nofollow">🔗</a>
 
 #### Training Data Cutoffs
 
@@ -934,7 +936,7 @@ Extensions and plugins that add AI capabilities to existing IDEs.
 
 | Add-on | Platform | Pricing | Context | Best For | GitHub |
 |--------|----------|---------|---------|----------|--------|
-| **GitHub Copilot** ⭐ | VS Code, JetBrains, Vim | Usage-based AI Credits since June 1, 2026 | Large | General coding; Kimi K2.7 Code available in model picker (July 1, 2026); enterprise agent session streaming/API public preview and AI credit pools added July 2, 2026 | <a href="https://github.blog/changelog/label/copilot/" rel="nofollow">🔗</a> |
+| **GitHub Copilot** ⭐ | VS Code, JetBrains, Vim | Usage-based AI Credits since June 1, 2026 | Large | General coding; Kimi K2.7 Code available in model picker (July 1, 2026); enterprise session streaming/API, AI credit pools, and Copilot-only Gemini 2.5 Pro / Gemini 3 Flash deprecation on 2026-07-31 | <a href="https://github.blog/changelog/label/copilot/" rel="nofollow">🔗</a> |
 | **Supermaven** | VS Code, JetBrains, Neovim | Free / $10/mo | 1M | Large codebases | ❌ |
 | **Codeium** | VS Code, JetBrains, Vim | Free / $15/mo / $60/mo | Medium | Free alternative | ❌ |
 | **Continue** | VS Code, JetBrains | Free (OSS) | Custom | Self-hosted | <a href="https://github.com/continuedev/continue" rel="nofollow">🔗</a> |
@@ -1171,7 +1173,9 @@ Consumer-focused AI browsers (for example **Perplexity Comet**) typically bundle
 |---------|----------|---------|----------|-----------|:----------:|:--------------:|--------|
 | **Chrome DevTools MCP** | TypeScript | Free (OSS) | AI web debugging, 29 DevTools | ❌ | ❌ | ❌ | <a href="https://github.com/ChromeDevTools/chrome-devtools-mcp" rel="nofollow">🔗</a> |
 | **Cloudflare Browser Run** | Cloud API | Free Workers / $5+/mo | CDP + MCP, WebMCP, Live View, Human-in-the-Loop, 120 concurrent (4× upgrade, Agents Week Apr 2026), session recordings | ✅ | ❌ | ✅ | <a href="https://developers.cloudflare.com/browser-run" rel="nofollow">🔗</a> |
-| **Browser-use** | Python | Free OSS / Cloud $29/mo | Agentic automation, Workflow Use | ✅ | ✅ | ✅ | <a href="https://github.com/browser-use/browser-use" rel="nofollow">🔗</a> |
+| **Browser-use** ⭐ | Python / Cloud API | Free OSS / Cloud: 5 free prompts, pay-as-you-go $100 credits | Browser Use CLI 3.0 powered by Browser Harness; `browser-use skill` installs agent skills for Claude Code, Codex, Cursor, Gemini, OpenCode, and related skill directories; Cloud v3 premium agent supports scheduling, persistent memory, skills, and integrations | ✅ | ✅ | ✅ | <a href="https://github.com/browser-use/browser-use/releases" rel="nofollow">🔗</a> |
+| **Browser Harness** ⭐ | Python / CDP | Free (OSS) | Thin self-healing CDP harness for direct LLM control of real Chrome; packaged skill for coding agents; pinned by Browser Use CLI 3.0 | ✅ | ❌ | ✅ | <a href="https://github.com/browser-use/browser-harness" rel="nofollow">🔗</a> |
+| **Vercel agent-browser** ⭐ | Rust / Node CLI | Free (OSS) | Browser automation CLI for AI agents; compact text snapshots, ref-based actions, Chrome and Lightpanda engines, packaged agent skill | ✅ | ❌ | ✅ | <a href="https://agent-browser.dev/" rel="nofollow">🔗</a> |
 | **Stagehand v3.6** ⭐ | TypeScript/Python | Free (OSS) | v3.6 (2026-06-19): WebMCP support; Claude Fable 5 support; Microsoft Entra ID auth; full CDP rewrite, 44% faster, action caching, hybrid deterministic + AI | ✅ | ❌ | ✅ | <a href="https://github.com/browserbase/stagehand" rel="nofollow">🔗</a> |
 | **LaVague** | Python | Free (OSS) | NL to code | ❌ | ❌ | ✅ | <a href="https://github.com/lavague-ai/LaVague" rel="nofollow">🔗</a> |
 | **Skyvern** | Python | Free tier / $29–$149/mo | CV-based automation, Ollama support | ✅ | ✅ | ✅ | <a href="https://github.com/Skyvern-AI/skyvern" rel="nofollow">🔗</a> |
@@ -1279,7 +1283,7 @@ Control a browser with natural language — click, fill forms, scrape, automate.
 
 | Agent | Type | Pricing | Dashboard | CLI | Multi-Agent | Parallel Sessions | Local LLM | GitHub |
 |-------|------|---------|:---------:|:---:|:-----------:|:--------------:|:---------:|--------|
-| **Browser-use** | OSS Python lib + Cloud | Free OSS / Cloud: Free 3 sessions / Dev $29/mo / Business $299/mo | ✅ Cloud | ❌ | ✅ | ✅ | ✅ (Ollama) | <a href="https://github.com/browser-use/browser-use" rel="nofollow">🔗</a> |
+| **Browser-use** ⭐ | OSS Python lib + Cloud | Free OSS / Cloud: 5 free prompts, pay-as-you-go $100 credits; v3 premium agent | ✅ Cloud | ✅ CLI 3.0 | ✅ | ✅ | ✅ (Ollama) | <a href="https://docs.browser-use.com/cloud/faq" rel="nofollow">🔗</a> |
 | **Stagehand** | OSS TypeScript | Free (OSS) | ❌ | ✅ | ❌ | ✅ | ✅ | <a href="https://github.com/browserbase/stagehand" rel="nofollow">🔗</a> |
 | **NanoBrowser** | Chrome extension | Free (OSS) | ✅ Extension | ❌ | ✅ | ❌ | ✅ (Ollama) | <a href="https://github.com/nanobrowser/nanobrowser" rel="nofollow">🔗</a> |
 | **Skyvern** | Python / Cloud | Free tier / $29–$149/mo | ✅ Cloud | ✅ | ✅ | ✅ | ✅ (Ollama) | <a href="https://github.com/Skyvern-AI/skyvern" rel="nofollow">🔗</a> |
@@ -1339,7 +1343,7 @@ Tools supporting parallel agent orchestration (✅) vs single-agent only (❌):
 | **Local Machine** | ❌ | Claude Computer Use, UI-TARS Desktop, Open Interpreter, Open-Interface, Agent S/S2, UFO, Windows-Use, Bytebot, OpenCUA, Khoj |
 | **Browser-Only** | ✅ | Browser-use, Skyvern, Airtop, MultiOn, Browser Operator |
 | **Browser-Only** | ❌ | Stagehand, NanoBrowser, Openator, Open Operator |
-| **Developer Libraries** | ✅ | Browser-use, Skyvern, Cloudflare Browser Run, Langflow, LlamaIndex, Haystack, AgentQL, ScrapeGraphAI, WebVoyager, Hyperbrowser, Anchor Browser, Steel |
+| **Developer Libraries** | ✅ | Browser-use, Browser Harness, Vercel agent-browser, Skyvern, Cloudflare Browser Run, Langflow, LlamaIndex, Haystack, AgentQL, ScrapeGraphAI, WebVoyager, Hyperbrowser, Anchor Browser, Steel |
 | **Developer Libraries** | ❌ | Chrome DevTools MCP, Stagehand, LaVague, Notte, Firecrawl, Playwright MCP |
 | **Multi-Agent Platforms** | ✅ | CrewAI, AutoGen, LangGraph, OpenHands, OWL, Manus AI, n8n, Smolagents, Dify |
 | **Multi-Agent Platforms** | ❌ | Devin |
@@ -1955,7 +1959,7 @@ Comprehensive pricing comparisons and cost calculations.
 
 #### Model Pricing Comparison
 
-Comparative pricing across notable API models. As of 2026-07-03 16:06 UTC.
+Comparative pricing across notable API models. As of 2026-07-03 16:32 UTC.
 
 | Model | Input | Output | Cached Input | Best For |
 |-------|-------|--------|-------------|----------|
@@ -2205,6 +2209,7 @@ Attribution, verification sources, and methodology.
 | **Anthropic** | Claude Haiku 4.5 announcement | <a href="https://www.anthropic.com/news/claude-haiku-4-5?type=product" rel="nofollow">anthropic.com</a> |
 | **Anthropic** | Claude Pro pricing | <a href="https://www.anthropic.com/news/claude-pro" rel="nofollow">anthropic.com</a> |
 | **Anthropic** | Max plan pricing | <a href="https://www.anthropic.com/max" rel="nofollow">anthropic.com</a> |
+| **Anthropic** | Claude model selection and deprecations | <a href="https://docs.anthropic.com/en/docs/about-claude/models/choosing-a-model" rel="nofollow">docs.anthropic.com</a> |
 | **Google** | Gemini Documentation | <a href="https://deepmind.google/models/gemini/" rel="nofollow">deepmind.google</a> |
 | **Google Cloud** | Vertex AI Gemini pricing | <a href="https://cloud.google.com/vertex-ai/generative-ai/pricing" rel="nofollow">cloud.google.com</a> |
 | **Google** | Gemini API models (Flash-Lite pricing) | <a href="https://ai.google.dev/gemini-api/docs/models" rel="nofollow">ai.google.dev</a> |
@@ -2231,6 +2236,9 @@ Attribution, verification sources, and methodology.
 | **Cohere** | Developer Documentation | <a href="https://docs.cohere.com" rel="nofollow">docs.cohere.com</a> |
 | **Cartesia** | Sonic 3.5 / Ink-2 launch and docs | <a href="https://www.cartesia.ai/launch" rel="nofollow">cartesia.ai</a>, <a href="https://docs.cartesia.ai/build-with-cartesia/tts-models/latest" rel="nofollow">docs.cartesia.ai</a> |
 | **AWS** | Amazon Bedrock AgentCore | <a href="https://aws.amazon.com/bedrock/agentcore/" rel="nofollow">aws.amazon.com</a> |
+| **Browser Use** | Browser Use pricing, cloud docs, and releases | <a href="https://browser-use.com/pricing" rel="nofollow">browser-use.com</a>, <a href="https://docs.browser-use.com/cloud/faq" rel="nofollow">docs.browser-use.com</a>, <a href="https://github.com/browser-use/browser-use/releases" rel="nofollow">github.com</a> |
+| **Browser Use** | Browser Harness | <a href="https://github.com/browser-use/browser-harness" rel="nofollow">github.com</a> |
+| **Vercel** | agent-browser docs | <a href="https://agent-browser.dev/" rel="nofollow">agent-browser.dev</a> |
 | **AI21 Labs** | Developer Documentation | <a href="https://docs.ai21.com/docs/jamba-foundation-models" rel="nofollow">docs.ai21.com</a> |
 | **Perplexity** | Developer Documentation | <a href="https://docs.perplexity.ai" rel="nofollow">docs.perplexity.ai</a> |
 | **ByteDance (Volcengine)** | Developer Documentation | <a href="https://www.volcengine.com/docs/82379/1263482" rel="nofollow">volcengine.com</a> |
@@ -2284,7 +2292,7 @@ Additional context from the June 2026 research pass (supplements earlier tables;
 
 ---
 
-**Last Updated:** 2026-07-03 16:06 UTC
+**Last Updated:** 2026-07-03 16:32 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
