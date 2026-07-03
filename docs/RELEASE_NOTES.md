@@ -1,20 +1,22 @@
-# Release v3.38
+# Release v3.40
 
-Release v3.38: [2026-07-02] - Version 3.38 - Claude Sonnet 5 launch and Fable 5 redeployment
+Release v3.40: [2026-07-03] - Version 3.40 - Official July coding-agent refresh
 
 ## Latest Changelog Entry
 
-### [2026-07-02] - Version 3.38 - Claude Sonnet 5 launch and Fable 5 redeployment
+### [2026-07-03] - Version 3.40 - Official July coding-agent refresh
 
 ### Added
-- **Claude Sonnet 5** (Frontier Models, Model Specifications, Coding Models, Benchmarks, API Providers, Cost Analysis): added official release, 1M context, 128K output, introductory $2.00 / $10.00 pricing, 85.2% SWE-bench Verified, 63.2% SWE-bench Pro, and HLE tool/no-tool results. Source: https://www.anthropic.com/news/claude-sonnet-5, https://www-cdn.anthropic.com/480e0bb54327b9622282e9c39a83a4f490ed377e/Claude%20Sonnet%205%20System%20Card.pdf, https://docs.anthropic.com/en/docs/about-claude/pricing
+- **GitHub Copilot enterprise agent session streaming** (IDE Add-ons): added public preview enterprise session streaming/API coverage for Copilot clients. Source: <a href="https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview/" rel="nofollow">🔗</a>
 
 ### Updated
-- **Claude Fable 5 / Claude Mythos 5** (Frontier Models, Coding Models, Comparison Tables): updated status from suspended to redeployed; Fable 5 global access restored July 1, 2026, while Mythos 5 remains limited to approved Project Glasswing partners. Source: https://www.anthropic.com/news/redeploying-fable-5
-- **Header & Metadata**: updated Last Updated badge to 2026-07-02 00:30 UTC and incremented document version to 3.38. Source: https://www.anthropic.com/news/claude-sonnet-5
+- **Header metadata**: bumped document version to 3.40 and refreshed the Last Updated timestamp to 2026-07-03 16:06 UTC.
+- **Codex CLI** (Autonomous Coding Agents): updated to v0.142.5 and noted the Responses WebSocket trace logging fix. Source: <a href="https://developers.openai.com/codex/changelog" rel="nofollow">🔗</a>
+- **GitHub Copilot** (IDE Add-ons): updated Copilot rows with July 2 enterprise agent session streaming, AI credit pools, and `GITHUB_TOKEN` support for Copilot CLI in GitHub Actions. Sources: <a href="https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview/" rel="nofollow">🔗</a>, <a href="https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions/" rel="nofollow">🔗</a>
+- **Primary Sources**: added the GitHub Copilot changelog source used in this pass.
 
 ### Removed / Deprecated
-- **Claude Fable 5 suspended-status note** (Frontier Models): replaced with redeployment status after Anthropic restored access. Source: https://www.anthropic.com/news/redeploying-fable-5
+- None
 
 ---
 
@@ -24,4 +26,4 @@ Release v3.38: [2026-07-02] - Version 3.38 - Claude Sonnet 5 launch and Fable 5 
 - docs/readme.pdf
 
 ---
-*Generated on 2026-07-02T00:38:34.467Z*
+*Generated on 2026-07-03T16:13:51.994Z*
