@@ -6,7 +6,7 @@
 
 <a href="https://awesome.re" rel="nofollow"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
-<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--07--02%2000%3A30%20UTC-green.svg" alt="Last Updated"></a>
+<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--07--03%2016%3A06%20UTC-green.svg" alt="Last Updated"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social" alt="Star History"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social" alt="Forks"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix/issues" rel="nofollow"><img src="https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix" alt="Issues"></a>
@@ -21,10 +21,13 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ### 🔥 Highlights
 - **138+ AI models** from major providers (OpenAI, Anthropic, Google, Meta, xAI, Microsoft, and others)
-- **Latest pricing** and performance benchmarks (updated daily - latest data through July 2, 2026)
+- **Latest pricing** and performance benchmarks (updated daily - latest data through July 3, 2026)
 - **Claude Sonnet 5** launched 2026-06-30 00:00 UTC with 1M context, 128K output, $2.00 / $10.00 introductory pricing through 2026-08-31 00:00 UTC, and 92.4% SWE-bench Verified
 - **Claude Fable 5 and Mythos 5** access restored 2026-07-01 00:00 UTC after export controls were lifted; Fable 5 globally available while Mythos 5 remains restricted to Project Glasswing partners
-- **Cartessa Sonic-3.5** ranked #1 on both Speech Arena and Speech-to-Text leaderboard (Ink-2)
+- **Cartesia Sonic-3.5 and Ink-2** are now official production speech models for low-latency voice agents
+- **MiniMax Speech 2.8** official page verified: native sound tags, high-fidelity cloning, and studio-grade multilingual TTS
+- **Kiro 1.0.52**, **Cursor Team Marketplace MCPs**, **Codex CLI 0.142.0**, and **Windsurf quota-based plans** refreshed from official release notes
+- **Codex CLI 0.142.5** patched WebSocket trace logging, and **GitHub Copilot** added enterprise agent session streaming plus `GITHUB_TOKEN` support for Copilot CLI in GitHub Actions
 - **MiniMax M2.7** self-evolving LLM with SWE-Pro 56.22%
 - **MAI-1**, **MAI-1 Plan**, and **MAI-Frontier Tunings** launched July 2026 with Microsoft Frontier Tuning framework reaching GA status
 - **New pricing tiers** across providers including GPT-5.6 Sol/Terra/Luna pricing structure [$1.00-$5.00 input / $6.00-$30.00 output tokens], xAI Grok 4.3 API pricing updates [$1.25/$2.50 per million tokens], and Microsoft MAI model tiered pricing
@@ -57,9 +60,9 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.38
-- **Last Updated**: 2026-07-02 00:00 UTC
-- **Repository**: https://github.com/ReadyPixels/AI_Models_Matrix
+- **Document Version**: 3.40
+- **Last Updated**: 2026-07-03 16:06 UTC
+- **Repository**: <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow">github.com/ReadyPixels/AI_Models_Matrix</a>
 - **License**: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">CC BY-NC 4.0</a>
 
 ## 🔍 Search & Navigation
@@ -149,13 +152,11 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 >
 > ⭐ **GPT-5.6 Sol/Terra/Luna** (OpenAI, June 26, 2026): Limited preview release. Three-tier family: Sol ($5.00/$30.00), Terra ($2.50/$15.00), Luna ($1.00/$6.00) per 1M tokens. Cache writes at 1.25x input rate, cached reads 90% discount. US government restricted initial rollout to trusted partners. Source: <a href="https://openai.com/index/previewing-gpt-5-6-sol/" rel="nofollow">🔗</a>
 >
-> ⭐ **Seed 2.1 Pro** (ByteDance, June 22, 2026): Early-access preview on Code Arena. Ranks #8 on Code Arena: Frontend (score 1539, on par with Claude Opus 4.6). Top 10 in 5/7 subcategories: #6 Brand & Marketing, #7 React. No official API pricing or specs yet. Public release expected within weeks. Source: [Fello AI](https://felloai.com/seed-2-1-pro/)
->
 > ⚠️ **GPT-5.5 Instant pricing correction**: The API pricing for GPT-5.5 Instant is $0.20/$1.00 per 1M tokens (input/output), not $5.00/$30.00 which is the standard GPT-5.5 rate. GPT-5.5 Instant replaced GPT-5.3 Instant as the free-tier ChatGPT default on May 5, 2026.
 
 ### Model Specifications 📋
 
-Detailed technical specifications, pricing, and capabilities for frontier models and notable API models. Data as of 2026-07-02.
+Detailed technical specifications, pricing, and capabilities for frontier models and notable API models. Data as of 2026-07-03 16:06 UTC.
 
 #### Output Token Limits
 
@@ -572,10 +573,9 @@ Models capable of processing and generating multiple types of content: text, ima
 
 | Model | Developer | License | Best For |
 |-------|-----------|---------|----------|
-| **Gemini 3.1 Flash Image** ⭐ | Google | Proprietary | Imagen 3 pipeline in Gemini Flash; GA 2026-06; $0.50/1M input tokens (text+image); output images by resolution ($0.045/512px, $0.067/1Kpx); [🔗](https://deepmind.google/models/model-cards/gemini-3-1-flash-image/) |
+| **Gemini 3.1 Flash-Lite Image** ⭐ | Google | Proprietary | Gemini image model card updated 2026-06-30 00:00 UTC; image + text + audio understanding and generation; output images priced by resolution | <a href="https://deepmind.google/models/model-cards/gemini-3-1-flash-lite-image/" rel="nofollow">🔗</a> |
 | **Nano Banana 2 Lite** ⭐ | Google | Proprietary | Fastest Gemini Image model; 4s generation; GA 2026-06-30; $0.034 per 1K images; rolling out to Gemini app, Search, NotebookLM, Photos, Stitch, Flow, Ads | <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/" rel="nofollow">🔗</a> |
-| **GPT Image 2** | OpenAI | Proprietary | ChatGPT Images 2.0; 2K resolution; agentic reasoning; multilingual text rendering; released 2026-04-21; ~$0.006-$0.211/image (quality/resolution); $8/1M image input tokens; $30/1M image output tokens |
-| **GPT Image 2** | OpenAI | Proprietary | DALL-E 3 replacement; 4K output; released 2026-04-21; ~$0.21/img (1024px high) via API |
+| **GPT Image 2** | OpenAI | Proprietary | ChatGPT Images 2.0; improved text rendering, multilingual support, advanced visual reasoning; released 2026-04-21; API pricing varies by quality/resolution | <a href="https://openai.com/index/introducing-chatgpt-images-2-0/" rel="nofollow">🔗</a> |
 | **MAI-Image-2-Efficient** | Microsoft | Proprietary | Production-ready quality, 41% lower cost |
 | **Flux 2** | Black Forest Labs | Apache 2.0 (Dev); Proprietary (Pro) | Released Nov 2025; exceptional photorealism + natural language; Flux 2 Pro/Dev/Schnell variants |
 | **Flux.1** | Black Forest Labs | Apache 2.0 | High-fidelity art (original Flux family) |
@@ -628,7 +628,7 @@ Comprehensive hardware specifications for self-hosting AI models.
 
 ### Comprehensive Benchmark Reference 📈
 
-Detailed benchmark scores across all major evaluations. Scores are percentages (%) unless noted. Arena Elo scores are integers. `—` = not publicly reported. Data as of 2026-07-02.
+Detailed benchmark scores across all major evaluations. Scores are percentages (%) unless noted. Arena Elo scores are integers. `—` = not publicly reported. Data as of 2026-07-02 23:00 UTC.
 
 #### Full Benchmark Table
 
@@ -752,12 +752,12 @@ Integrated Development Environments with built-in AI capabilities.
 
 | IDE | Platform | Version | Release Date | Pricing | Autonomous | MCP | GitHub |
 |----------|---------|---------|---------------|---------|------------|-----|--------|
-| **Cursor** | Windows, macOS, Linux | 3.2 (May 1, 2026) | 2026-05-01 00:00 UTC | Free / Pro $20/mo / Pro+ $60/mo / Ultra $200/mo | ✅ | ❌ | ❌ |
-| **Windsurf** | Windows, macOS, Linux | 2.0.0 (May 3, 2026) | 2026-05-03 00:00 UTC | Free / Pro $15/mo / Max $200/mo | ✅ | ✅ | ❌ |
+| **Cursor** | Windows, macOS, Linux | Changelog 2026-06-30 | 2026-06-30 00:00 UTC ⭐ | Free / Pro $20/mo / Pro+ $60/mo / Ultra $200/mo; Team marketplaces now support Team MCPs and organization groups | ✅ | ✅ | ❌ |
+| **Windsurf** | Windows, macOS, Linux | Quota plans | 2026-03-19 00:00 UTC | Free / Pro $20/mo / Teams $40/user/mo / Max $200/mo | ✅ | ✅ | ❌ |
 | **Trae** | macOS, Windows | - | - | Free | ❌ | ❌ | <a href="https://github.com/Trae-AI/TRAE" rel="nofollow">🔗</a> |
 | **PearAI** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ❌ | <a href="https://github.com/trypear/pearai-app" rel="nofollow">🔗</a> |
 | **Void** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ✅ | <a href="https://github.com/voideditor/void" rel="nofollow">🔗</a> |
-| **Kiro** | Windows, macOS, Linux | - | - | Free (Preview) | ✅ | ✅ | <a href="https://github.com/kirodotdev/Kiro" rel="nofollow">🔗</a> |
+| **Kiro** | Windows, macOS, Linux | 1.0.52 | 2026-06-25 00:00 UTC ⭐ | Free preview; custom agents, permissions, agent focus mode, natural-language hooks, dockable chat tabs; auto-updates paused for 1.0.x | ✅ | ✅ | <a href="https://kiro.dev/changelog/ide/" rel="nofollow">🔗</a> |
 | **VS Code Agents** | Windows, macOS, Linux | Insiders | 2026-04-21 | Free | ✅ | ✅ | <a href="https://code.visualstudio.com/updates/v1_115#_visual-studio-code-agents-preview" rel="nofollow">🔗</a> |
 
 > **Cursor vs. Windsurf Pricing (June 2026):** Cursor Pro is $20/month, Pro+ is $60/month, and Ultra is $200/month. Windsurf Pro is $15/month and Max is $200/month. Cursor tightens premium request quotas quarterly; heavy users often spend $40–50/mo in overages. Windsurf offers better value at the Pro tier with fewer quota restrictions. For a full alternatives analysis, see [Cursor Alternatives & Better Value ↓](#cursor-alternatives--better-value-).
@@ -774,7 +774,7 @@ Cursor Pro is $20/month but **June 2025 credit-switch effectively halved heavy-u
 | **Claude Code** | Limited | $20/mo (Pro) | $100/mo (Max 5x) / $200/mo (Max 20x) | Significantly higher limits than Cursor Pro at same price |
 | **GitHub Copilot** | Limited AI Credits | $10/mo (Pro) | $39/mo (Pro+) / $39/user (Enterprise) | Usage-based billing since June 1, 2026; AI Credits consumed per token; free models removed; no credit rollover |
 | **Cline (BYOK)** | Free (bring API key) | Free (pay API costs ~$5–15/mo) | Unlimited | 5M+ installs; zero subscription cost |
-| **Windsurf** | 25 credits/mo | $15/mo (Pro) | $200/mo (Max) | Better value than Cursor Pro at $15/mo; fewer quota complaints |
+| **Windsurf** | Light quota | $20/mo (Pro) / $40/user/mo (Teams) | $200/mo (Max) | Quota-based plans replaced older credit plans in March 2026 |
 | **Continue.dev** | Free (OSS) | Free (BYOK) | Unlimited | No subscription; supports Ollama, LM Studio, all cloud APIs |
 | **Void** | Free (OSS) | Free (BYOK) | Unlimited | VS Code fork + MCP; privacy-first, no telemetry |
 | **Aider** | Free (BYOK) | Free (BYOK) | Unlimited | Git-native; used by serious OSS contributors |
@@ -845,7 +845,7 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 |------|----------|---------|--------------|--------|
 | **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode, thinking tokens | <a href="https://github.com/Aider-AI/aider" rel="nofollow">🔗</a> |
 | **Claude Code 2.2.1+** | macOS, Linux, Windows | Free + API | Sonnet 5 default support via Claude Code 2.1.197+; Opus 4.8 support; Fable 5 access restored globally 2026-07-01 00:00 UTC; simple mode file editing, multi-session support, `/autofix-pr`, plan mode, computer use (research preview), CLAUDE.md skills & sub-agents | <a href="https://github.com/anthropics/claude-code" rel="nofollow">🔗</a> |
-| **Codex CLI** | Windows, macOS, Linux | Included | Rust-native rewrite; sandbox, approval modes, /goal persistent workflows, Chrome extension, GPT-5-Codex default; v0.140+ | <a href="https://github.com/openai/codex" rel="nofollow">🔗</a> |
+| **Codex CLI** ⭐ | Windows, macOS, Linux | Included with ChatGPT Plus/Pro/Business/Edu/Enterprise or API key | Rust-native local coding agent; sandbox, approval modes, subagents, command autocomplete, workspace search; v0.142.5 release 2026-07-01 patched Responses WebSocket trace logging | <a href="https://developers.openai.com/codex/changelog" rel="nofollow">🔗</a> |
 | **Junie CLI** ⭐ | Windows, macOS, Linux | Free (BYOK) | LLM-agnostic, JetBrains IDE integration (ACP), GA 2026-06-17, agentic debugging, PR review, local model support (LiteLLM/LMStudio/Ollama) | <a href="https://www.jetbrains.com/junie" rel="nofollow">🔗</a> |
 | **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible, desktop app, 25+ providers | <a href="https://github.com/block/goose" rel="nofollow">🔗</a> |
 | **Grok Build** | Windows, macOS, Linux | $300/mo (SuperGrok/X Premium Plus) | Plan mode, Arena mode, 2M context window, security-focused | ❌ |
@@ -934,7 +934,7 @@ Extensions and plugins that add AI capabilities to existing IDEs.
 
 | Add-on | Platform | Pricing | Context | Best For | GitHub |
 |--------|----------|---------|---------|----------|--------|
-| **GitHub Copilot** | VS Code, JetBrains, Vim | Usage-based AI Credits since June 1, 2026 | Large | General coding; Kimi K2.7 Code available in model picker (July 1, 2026) | ❌ |
+| **GitHub Copilot** ⭐ | VS Code, JetBrains, Vim | Usage-based AI Credits since June 1, 2026 | Large | General coding; Kimi K2.7 Code available in model picker (July 1, 2026); enterprise agent session streaming/API public preview and AI credit pools added July 2, 2026 | <a href="https://github.blog/changelog/label/copilot/" rel="nofollow">🔗</a> |
 | **Supermaven** | VS Code, JetBrains, Neovim | Free / $10/mo | 1M | Large codebases | ❌ |
 | **Codeium** | VS Code, JetBrains, Vim | Free / $15/mo / $60/mo | Medium | Free alternative | ❌ |
 | **Continue** | VS Code, JetBrains | Free (OSS) | Custom | Self-hosted | <a href="https://github.com/continuedev/continue" rel="nofollow">🔗</a> |
@@ -948,7 +948,7 @@ Extensions and plugins that add AI capabilities to existing IDEs.
 |--------|---------|------------|-----|----------|--------|
 | **Codex** | Free (with ChatGPT Plus $20/mo or Pro $200/mo) | ✅ | ✅ | OpenAI's official coding agent | <a href="https://github.com/openai/codex" rel="nofollow">🔗</a> |
 | **Cline** | Free | ✅ | ✅ | Full agent | <a href="https://github.com/cline/cline" rel="nofollow">🔗</a> |
-| **GitHub Copilot (Agent Mode)** | Usage-based AI Credits since June 1, 2026 | ⚠️ | ❌ | Guided agent workflows; auto-opens PRs with self-review; Kimi K2.7 Code available in model picker (July 1, 2026) | ❌ |
+| **GitHub Copilot (Agent Mode)** ⭐ | Usage-based AI Credits since June 1, 2026 | ⚠️ | ❌ | Guided agent workflows; auto-opens PRs with self-review; Kimi K2.7 Code available; Copilot CLI in GitHub Actions now supports `GITHUB_TOKEN` with `copilot-requests: write` | <a href="https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions/" rel="nofollow">🔗</a> |
 | **RooCode** | Free/Pro | ⚠️ | ❌ | Complex tasks | <a href="https://github.com/RooCodeInc/Roo-Code" rel="nofollow">🔗</a> |
 | **JetBrains AI Assistant** | $10/mo (Pro) | ✅ | ❌ | JetBrains-quality AI now in VS Code (public preview); multi-file edits, Mellum LLM | ❌ |
 | **ReSharper for VS Code** | Included with JetBrains subscription | ❌ | ❌ | C# code analysis + refactoring inside VS Code/Cursor; released 2026-03-05 | ❌ |
@@ -959,7 +959,7 @@ Extensions and plugins that add AI capabilities to existing IDEs.
 | **GrackerAI** ⭐ | Free | ❌ | ❌ | Validates llms.txt, robots.txt, AI visibility signals in VS Code; released 2026-06-16 | ❌ |
 | **A11yResolver** ⭐ | Free (beta) | ❌ | ❌ | VS Code extension for accessibility remediation; AI agent flags WCAG issues; released 2026-06-18 | ❌ |
 
-> **Claude Tag** (Anthropic, June 2026): Not an IDE extension but worth noting here. Claude Tag brings an always-on AI teammate to Slack. Each channel gets an isolated Claude identity with persistent memory. Available on Team and Enterprise plans. Source: [Anthropic](https://www.anthropic.com/news/introducing-claude-tag)
+> **Claude Tag** (Anthropic, June 2026): Not an IDE extension but worth noting here. Claude Tag brings an always-on AI teammate to Slack. Each channel gets an isolated Claude identity with persistent memory. Available on Team and Enterprise plans. Source: <a href="https://www.anthropic.com/news/introducing-claude-tag" rel="nofollow">🔗</a>
 
 #### JetBrains Specific
 
@@ -1141,7 +1141,6 @@ Tools and frameworks for AI-powered browser automation.
 | **Sidekick Browser** | Windows, macOS, Linux | Free / Pro $10/mo | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | AI assistant, natural language tab management, summarize, automate tasks | ❌ |
 | **Browser Operator** | Windows, macOS | Free (OSS) | ✅ | ✅ (Ollama, 100+ models) | ✅ | ❌ | ✅ | ✅ | Multi-agent automation, privacy-first local processing, persistent memory | <a href="https://github.com/BrowserOperator/browser-operator-core" rel="nofollow">🔗</a> |
 | **Browserless Agent** ⭐ | Cloud (MCP) | Free tier / paid | ❌ | ❌ | ✅ | ✅ (MCP-native) | ❌ | ❌ | Fastest MCP browser agent; stateful sessions; command batching; released 2026-06-12 | <a href="https://www.browserless.io/blog/introducing-browserless-agent" rel="nofollow">🔗</a> |
-| **Lightpanda Agent** ⭐ | Windows, macOS, Linux | Free (OSS) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | Native headless browser agent; PandaScript reproducible scripts; LLM at build-time not runtime; released 2026-06-17 | <a href="https://lightpanda.io/blog/posts/introducing-lightpanda-agent-and-pandascript" rel="nofollow">🔗</a> |
 | **Kane CLI** ⭐ | Windows, macOS, Linux | Free | ❌ | ❌ | ✅ | ❌ | ❌ | ❌ | Browser automation testing for AI agents; deterministic pass/fail; released 2026-05-24 | <a href="https://www.testmuai.com/blog/introducing-kane-cli/" rel="nofollow">🔗</a> |
 | **Browsewright** ⭐ | Python | Free (MIT) | ✅ | ✅ | ✅ | ✅ (MCP) | ❌ | ❌ | Open-source browser agent; LLM-driven form filling; structured JSON output; released 2026-06-16 | <a href="https://github.com/krishnashakula/browsewright" rel="nofollow">🔗</a> |
 | **Lightpanda Agent** ⭐ | Windows, macOS, Linux | Free (OSS) | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | Native headless browser agent; PandaScript reproducible scripts; LLM at build-time not runtime; released 2026-06-17 | <a href="https://lightpanda.io/blog/posts/introducing-lightpanda-agent-and-pandascript" rel="nofollow">🔗</a> |
@@ -1200,7 +1199,9 @@ Consumer-focused AI browsers (for example **Perplexity Comet**) typically bundle
 | **Skyvern Cloud** | Cloud API | Free 1K credits / Hobby $29/mo / Pro $149/mo | Resilient CV-based automation, Ollama support | <a href="https://github.com/Skyvern-AI/skyvern" rel="nofollow">🔗</a> |
 | **Browserbase** | Cloud API | Free credits / paid tiers | Stealth mode, session recording, CDP access | ❌ |
 | **Amazon Nova Act** | API (AWS) | Pay-per-use | Autonomous web agent, multi-step browser workflows | ❌ |
-| **Amazon Bedrock AgentCore Harness** ⭐ | AWS | Pay-per-use | GA 2026-06-18; 2 API calls to production agent; sandboxed runtime; memory; skills; web search; CloudWatch tracing | ❌ |
+| **Amazon Bedrock AgentCore** ⭐ | AWS | Pay-per-use | Platform for building, connecting, securing, tracing, and operating production agents with any model or framework; includes Runtime, Gateway, Memory, Browser tool, Code Interpreter, Identity, and Observability | <a href="https://aws.amazon.com/bedrock/agentcore/" rel="nofollow">🔗</a> |
+| **OpenAI Workspace Agents** | ChatGPT Business, Enterprise, Edu, Teachers | Credit-based after preview | Research-preview workplace agents usable in ChatGPT and Slack channels; role-based admin controls | <a href="https://openai.com/index/introducing-workspace-agents-in-chatgpt/" rel="nofollow">🔗</a> |
+| **Claude Science** ⭐ | Anthropic | Applications through 2026-07-15 00:00 UTC | AI workbench for scientists; auditable artifacts, package/tool integration, flexible compute access, up to $30K Claude credits for selected projects | <a href="https://www.anthropic.com/news/claude-science-ai-workbench" rel="nofollow">🔗</a> |
 | **Databricks Genie One** ⭐ | Databricks | Free $10/user/mo | GA 2026-06-16; data-smart agentic coworker; iOS/Android/web; 50+ app integrations; Genie Ontology context layer | ❌ |
 | **Thoughtworks Agent/works** ⭐ | Multi-cloud | Enterprise | GA 2026-06-16; governed runtime for enterprise agents; single control plane; any cloud deployment | ❌ |
 | **Kore.ai Artemis** ⭐ | Azure (initial) | Enterprise | GA 2026-05-21; AI-native agent platform; governance + observability; 40+ channels; Microsoft Foundry integration | ❌ |
@@ -1315,11 +1316,6 @@ Coordinate multiple AI agents in parallel to complete complex workflows — driv
 | **LangChain Deep Agents** ⭐ | Long-horizon agent harness | ❌ | ✅ Python | ❌ | ✅ | ✅ | Free (MIT) | <a href="https://github.com/langchain-ai/deepagents" rel="nofollow">🔗</a> |
 | **Wheelie** (Continua) ⭐ | Agentic dev OS + service runtime | ✅ Web | ✅ | ✅ VMs | ✅ | ✅ | Free (waiting list) | <a href="https://blog.continua.ai/p/introducing-wheelie" rel="nofollow">🔗</a> |
 | **Cloudflare Flue** ⭐ | Agent framework on Workers | ✅ Dashboard | ✅ | ✅ Cloudflare | ❌ | ✅ | Free (OSS) / Workers pricing | <a href="https://github.com/cloudflare/workers-sdk" rel="nofollow">🔗</a> |
-| **Salesforce Agentforce 3** ⭐ | MCP-native agent platform | ✅ Web | ❌ | ✅ | ❌ | ✅ | Enterprise pricing | ❌ |
-| **Kore.ai Artemis** ⭐ | AI-native agent platform | ✅ | ❌ | ✅ (Azure) | ❌ | ✅ | Enterprise | ❌ |
-| **Konecta Kolibri** ⭐ | Agentic AI orchestration | ✅ | ❌ | ✅ | ❌ | ✅ | Enterprise | ❌ |
-| **Zensar ZenseAI.AgentMesh** ⭐ | Enterprise agentic AI | ✅ | ❌ | ✅ | ❌ | ✅ | Enterprise | ❌ |
-| **Sedai AI Agent Optimization** ⭐ | Agent optimization | ✅ | ❌ | ✅ | ❌ | ✅ | Early access | ❌ |
 | **C1 Autonomous Worker** ⭐ | Enterprise agent | ✅ (Slack) | ❌ | ✅ | ❌ | ❌ | Enterprise | ❌ |
 | **ClickHouse Agents** ⭐ | Agentic analytics | ✅ | ❌ | ✅ | ❌ | ✅ | Free (public beta) | ❌ |
 | **Google Data Agents** ⭐ | Data agents | ✅ | ❌ | ✅ | ❌ | ✅ | Free (preview) | ❌ |
@@ -1436,13 +1432,13 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 | #4 | **Sonic 4** | ~1,210 | ~$46.70 / 1M chars | 40+ |
 | #5 | **Realtime TTS 1.5 Max** | ~1,200 | $35 / 1M chars | 100+ |
 
-> Arena Elo scores shift continuously. Treat rankings as point-in-time readings. Source: <a href="https://artificialanalysis.ai/text-to-speech" rel="nofollow">Artificial Analysis</a>, June 2026. Sonic-3.5 is #1 on both Speech Arena and Speech-to-Text leaderboard (Ink-2). Cartesia launched both models on June 21, 2026.
+> Arena Elo scores shift continuously. Treat rankings as point-in-time readings. Source: <a href="https://artificialanalysis.ai/text-to-speech" rel="nofollow">Artificial Analysis</a>, June 2026. Cartesia positions Sonic-3.5 and Ink-2 as its latest production speech stack for real-time voice agents. Source: <a href="https://www.cartesia.ai/launch" rel="nofollow">🔗</a>
 
 #### Text-to-Speech (TTS) — Proprietary & API
 
 | Model | Developer | Languages | Real-time | Open Source | Pricing | Best For | GitHub |
 |-------|-----------|-----------|----------|-------------|---------|----------|--------|
-| **Sonic-3.5** ⭐ | Cartesia | 40+ | Yes (~100ms) | No | ~$39 / 1M chars | #1 Artificial Analysis Speech Arena; ultra-low latency; 100ms time-to-first-byte p90; released 2026-06-21 | — |
+| **Sonic-3.5** ⭐ | Cartesia | 42 | Yes (sub-90ms) | No | See Cartesia pricing | Fastest, most natural Cartesia TTS model; ranked #1 for naturalness; GA in 2026 changelog | <a href="https://docs.cartesia.ai/build-with-cartesia/tts-models/latest" rel="nofollow">🔗</a> |
 | **Gemini 3.1 Flash TTS** | Google | 70+ | Yes | No | $18.30 / 1M chars | Audio tags for granular style/pace control, SynthID watermarking | — |
 | **Realtime TTS-2** (Research Preview) | Inworld AI | 100+ | Yes | No | $25–$35 / 1M chars | Realtime conversation, cross-lingual voice identity, emotional perception | — |
 | **Sonic 4** ⭐ | Cartesia | 40+ | Yes | No | ~$46.70 / 1M chars | Sonic 4 Turbo ~40ms TTFA (May 2026); 40+ languages, 95% world pop; instant 3s voice clone | — |
@@ -1469,7 +1465,7 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 | **Higgs Audio v3 TTS** ⭐ | Boson AI | 100+ | Yes | No | API / free (self-host) | Voice chat optimized; inline emotion/style/prosody tags; zero-shot voice cloning; released 2026-06-04 | <a href="https://huggingface.co/bosonai/higgs-audio-v3-tts" rel="nofollow">🔗</a> |
 | **Chatterbox Multilingual v3** ⭐ | Resemble AI | 25 | Yes | Yes (MIT) | Free (self-host) / API | 0.5B Llama backbone; PerTh watermarking; improved speaker similarity; released 2026-06-10 | <a href="https://github.com/resemble-ai/chatterbox" rel="nofollow">🔗</a> |
 | **MisoTTS** ⭐ | Miso Labs | — | Yes | Yes (Modified MIT) | Free (self-host) / API pending | 8B emotive TTS; RVQ scales vocabulary; conditions on text + audio; released 2026-06-03 | <a href="https://huggingface.co/miso-labs/misoTTS" rel="nofollow">🔗</a> |
-| **MiniMax Speech 2.8** ⭐ | MiniMax | 40+ | Yes | No | $100 / 1M chars | Studio-quality multilingual; 300+ voices; voice cloning; released 2026-06-20 | — |
+| **MiniMax Speech 2.8** | MiniMax | 40+ | Yes | No | API pay-per-use | Native sound tags, high-fidelity cloning, studio-grade clarity; introduced 2026-01-23 00:00 UTC | <a href="https://www.minimax.io/news/minimax-speech-28" rel="nofollow">🔗</a> |
 | **ZONOS2** ⭐ | Zyphra | Multilingual | Yes | Yes (Apache 2.0) | Free (self-host) / API | 8B MoE TTS; first open-source MoE TTS; multilingual + code-switched; zero-shot voice cloning; ECAPA-TDNN speaker embeddings; released 2026-06-12 | <a href="https://huggingface.co/Zyphra/zonos-2" rel="nofollow">🔗</a> |
 | **Mistral Voxtral TTS** ⭐ | Mistral AI | 9 | Yes | Yes (CC BY-NC 4.0) | $0.016/1K chars | 4B parameter TTS; 70ms latency; voice cloning from 3s audio; released 2026-06-18 | <a href="https://mistral.ai/news/voxtral-tts" rel="nofollow">🔗</a> |
 | **MiniMax Speech-01-HD** ⭐ | MiniMax | 17 | Yes | No | API | 300+ pre-built voices; high-fidelity voice cloning from 10s audio; released 2026-06-19 | — |
@@ -1479,7 +1475,7 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 
 | Model | Developer | Languages | Real-time | Open Source | Pricing | Best For | GitHub |
 |-------|-----------|-----------|----------|-------------|---------|----------|--------|
-| **Ink-2** ⭐ | Cartesia | 40+ | Yes (~100ms) | No | Credit-based (from $5/mo Pro) | #1 Artificial Analysis Speech-to-Text leaderboard; real-time streaming; native turn detection; released 2026-06-21 | — |
+| **Ink-2** ⭐ | Cartesia | 40+ | Yes (~100ms) | No | Credit-based | Real-time transcription model paired with Sonic-3.5 for voice-agent workflows; launched 2026-06-30 00:00 UTC | <a href="https://www.cartesia.ai/launch" rel="nofollow">🔗</a> |
 | **MAI-Transcribe-1.5** ⭐ | Microsoft | 43 | Yes | No | API (Foundry) | SOTA on FLEURS; #3 Artificial Analysis; 5x faster than Gemini 3.1; keyword biasing; 1hr audio in <15s; released 2026-06-02 | — |
 | **Cohere Transcribe** ⭐ | Cohere | 14 | No | Yes (Apache 2.0) | Free (self-host) / Model Vault | #1 HuggingFace Open ASR Leaderboard (5.42% WER); 2B Conformer; released 2026-03-26 |
 | **VibeVoice-ASR-7B** ⭐ | Microsoft | 50+ | Yes (~15s for 60min audio) | Yes (MIT) | Free (self-host) | 60-min single-pass ASR; speaker diarization + timestamps; 50+ languages; structured Who/When/What output; released 2026-01-21; HuggingFace transformers integration 2026-03-06 | <a href="https://github.com/microsoft/VibeVoice" rel="nofollow">🔗</a> |
@@ -1661,7 +1657,7 @@ The <a href="https://modelcontextprotocol.io" rel="nofollow">Model Context Proto
 | Context7 | Upstash | Dev Tools | Yes | Up-to-date library docs for AI coding assistants | <a href="https://github.com/upstash/context7" rel="nofollow">🔗</a> |
 
 > **MCP 2026-07-28 Release Candidate** (May 21, 2026): The largest revision since launch. Key changes: stateless core (no sessions, no initialize handshake, plain HTTP load balancing), MCP Apps extension (server-rendered UIs), Tasks extension (long-running work), OAuth 2.0/OpenID Connect alignment, 12-month deprecation policy. Final spec ships July 28, 2026. This is a breaking change -- servers using session state must migrate to explicit handles.
-> Source: [MCP Blog](https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/)
+> Source: <a href="https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/" rel="nofollow">🔗</a>
 
 ### Agent Skills & Registries 🎯
 
@@ -1766,7 +1762,7 @@ Compact models designed for on-device inference, edge deployment, low-latency AP
 | **Micro Language Models (muLMs)** ⭐ | Sensente | 8M–30M | — | Research | Instant on-device response initiation; masks cloud latency; collaborative generation |
 | **PhoneLM** ⭐ | UbiquitousLearning | 0.5B / 1.5B | 32K / 128K | Apache 2.0 | Smartphone-native SLM; architecture searched for NPU efficiency; Android intent invocation |
 
-> **Apple Foundation Models 3rd Generation** (June 8, 2026): Apple announced five foundation models powering Apple Intelligence. **AFM 3 Core** (3B dense) and **AFM 3 Core Advanced** (20B sparse, 1-4B active) run on-device. **AFM 3 Cloud**, **ADM 3 Cloud (Image)**, and **AFM 3 Cloud Pro** run on Private Cloud Compute. Not available via public API. AFM 3 Core Advanced achieves 4.15 MOS for TTS (vs 3.87 production baseline) and 44.7% preference on dictation quality. Source: [Apple ML Research](https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models)
+> **Apple Foundation Models 3rd Generation** (June 8, 2026): Apple announced five foundation models powering Apple Intelligence. **AFM 3 Core** (3B dense) and **AFM 3 Core Advanced** (20B sparse, 1-4B active) run on-device. **AFM 3 Cloud**, **ADM 3 Cloud (Image)**, and **AFM 3 Cloud Pro** run on Private Cloud Compute. Not available via public API. AFM 3 Core Advanced achieves 4.15 MOS for TTS (vs 3.87 production baseline) and 44.7% preference on dictation quality. Source: <a href="https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models" rel="nofollow">🔗</a>
 
 **Notable GitHub repos:**
 - SmolLM / SmolLM2: <a href="https://github.com/huggingface/smollm" rel="nofollow">🔗</a>
@@ -1959,7 +1955,7 @@ Comprehensive pricing comparisons and cost calculations.
 
 #### Model Pricing Comparison
 
-Comparative pricing across notable API models. As of 2026-07-02.
+Comparative pricing across notable API models. As of 2026-07-03 16:06 UTC.
 
 | Model | Input | Output | Cached Input | Best For |
 |-------|-------|--------|-------------|----------|
@@ -2091,7 +2087,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 🌐 Google DeepMind | Gemini 3 | Flash | 2026-02-12 00:00 UTC | 2026-05-08 00:00 UTC | ✅ | GPQA 90.4%, SWE-bench 78.0% | $0.50 / $3.00 | ❌ | <a href="https://deepmind.google/models/gemini/" rel="nofollow">🔗</a> |
 | 🚀 xAI | Grok | 4.3 | 2026-05-01 00:00 UTC | 2026-05-06 00:00 UTC | ✅ | — | $1.25 / $2.50 | ❌ | <a href="https://x.ai/" rel="nofollow">🔗</a> |
 | 🇨🇳 MiniMax | Hailuo | 02 | 2026-06-20 00:00 UTC | 2026-06-20 00:00 UTC ⭐ | — | #2 Video Arena | API | ❌ | <a href="https://www.minimax.io/" rel="nofollow">🔗</a> |
-| 🇨🇳 MiniMax | Speech | 2.8 | 2026-06-20 00:00 UTC | 2026-06-20 00:00 UTC ⭐ | — | $100/1M chars; 40+ languages | API | ❌ | <a href="https://www.minimax.io/" rel="nofollow">🔗</a> |
+| 🇨🇳 MiniMax | Speech | 2.8 | 2026-01-23 00:00 UTC | 2026-07-02 23:00 UTC ⭐ | — | Native sound tags, high-fidelity cloning, studio-grade clarity | API | ❌ | <a href="https://www.minimax.io/news/minimax-speech-28" rel="nofollow">🔗</a> |
 | 🇨🇳 MiniMax | Video-01 | — | 2026-06-20 00:00 UTC | 2026-06-20 00:00 UTC ⭐ | — | 720p/25fps | ~$0.40/video | ❌ | <a href="https://www.minimax.io/" rel="nofollow">🔗</a> |
 | 🇫🇷 Mistral AI | Voxtral TTS | — | 2026-06-18 00:00 UTC | 2026-06-18 00:00 UTC ⭐ | — | 4B, 9 languages, 70ms | $0.016/1K chars | ✅ | <a href="https://mistral.ai/" rel="nofollow">🔗</a> |
 | **🤖 Microsoft** | **VibeVoice Realtime (0.5B)** ⭐ | — | 2025-12-03 00:00 UTC | 2026-03-06 00:00 UTC ⭐ | — | 0.5B real-time TTS; <300ms TTFA; streaming input | Free (MIT) | ✅ | <a href="https://github.com/microsoft/VibeVoice" rel="nofollow">🔗</a> |
@@ -2195,6 +2191,8 @@ Attribution, verification sources, and methodology.
 | **OpenAI** | GPT-4.5 API deprecation | <a href="https://developers.openai.com/api/docs/deprecations" rel="nofollow">developers.openai.com/api/docs/deprecations</a> |
 | **OpenAI** | GPT-4.1 / GPT-4o retirement from ChatGPT | <a href="https://openai.com/index/retiring-gpt-4o-and-older-models/" rel="nofollow">openai.com</a> |
 | **OpenAI** | GPT-Image-2 / ChatGPT Images 2.0 | <a href="https://openai.com/index/introducing-chatgpt-images-2-0/" rel="nofollow">openai.com</a> |
+| **OpenAI** | Codex changelog and CLI docs | <a href="https://developers.openai.com/codex/changelog" rel="nofollow">developers.openai.com</a> |
+| **OpenAI** | Workspace agents in ChatGPT | <a href="https://openai.com/index/introducing-workspace-agents-in-chatgpt/" rel="nofollow">openai.com</a> |
 | **Anthropic** | Claude Documentation | <a href="https://www.anthropic.com" rel="nofollow">anthropic.com</a> |
 | **Anthropic** | Claude API pricing | <a href="https://docs.anthropic.com/en/docs/about-claude/pricing" rel="nofollow">docs.anthropic.com</a> |
 | **Anthropic** | Claude Sonnet 5 announcement | <a href="https://www.anthropic.com/news/claude-sonnet-5" rel="nofollow">anthropic.com</a> |
@@ -2202,6 +2200,8 @@ Attribution, verification sources, and methodology.
 | **Anthropic** | Claude Fable 5 redeployment | <a href="https://www.anthropic.com/news/redeploying-fable-5" rel="nofollow">anthropic.com</a> |
 | **Anthropic** | Claude Opus 4.8 announcement | <a href="https://www.anthropic.com/news/claude-opus-4-8" rel="nofollow">anthropic.com</a> |
 | **Anthropic** | Claude Fable 5 / Mythos 5 announcement | <a href="https://www.anthropic.com/news/claude-fable-5-mythos-5" rel="nofollow">anthropic.com</a> |
+| **Anthropic** | Claude Tag announcement | <a href="https://www.anthropic.com/news/introducing-claude-tag" rel="nofollow">anthropic.com</a> |
+| **Anthropic** | Claude Science workbench | <a href="https://www.anthropic.com/news/claude-science-ai-workbench" rel="nofollow">anthropic.com</a> |
 | **Anthropic** | Claude Haiku 4.5 announcement | <a href="https://www.anthropic.com/news/claude-haiku-4-5?type=product" rel="nofollow">anthropic.com</a> |
 | **Anthropic** | Claude Pro pricing | <a href="https://www.anthropic.com/news/claude-pro" rel="nofollow">anthropic.com</a> |
 | **Anthropic** | Max plan pricing | <a href="https://www.anthropic.com/max" rel="nofollow">anthropic.com</a> |
@@ -2213,15 +2213,24 @@ Attribution, verification sources, and methodology.
 | **Google** | Google AI Plus pricing | <a href="https://blog.google/products-and-platforms/products/google-one/google-ai-plus-availability/" rel="nofollow">blog.google</a> |
 | **Google** | Google AI Pro pricing | <a href="https://one.google.com/about/plans" rel="nofollow">one.google.com</a> |
 | **Google** | Google AI Ultra pricing | <a href="https://blog.google/products-and-platforms/products/google-one/google-ai-ultra/" rel="nofollow">blog.google</a> |
+| **Google** | Gemini API model catalog | <a href="https://ai.google.dev/gemini-api/docs/models" rel="nofollow">ai.google.dev</a> |
+| **Google** | Gemini image model cards | <a href="https://deepmind.google/models/model-cards/" rel="nofollow">deepmind.google</a> |
 | **GitHub** | Copilot plans & pricing | <a href="https://github.com/features/copilot/plans" rel="nofollow">github.com</a> |
+| **GitHub** | Copilot changelog | <a href="https://github.blog/changelog/label/copilot/" rel="nofollow">github.blog</a> |
+| **Kiro** | IDE changelog | <a href="https://kiro.dev/changelog/ide/" rel="nofollow">kiro.dev</a> |
+| **Cursor** | Pricing and changelog | <a href="https://cursor.com/pricing" rel="nofollow">cursor.com</a>, <a href="https://cursor.com/changelog" rel="nofollow">cursor.com</a> |
+| **Windsurf** | Pricing and usage docs | <a href="https://windsurf.com/pricing" rel="nofollow">windsurf.com</a>, <a href="https://docs.windsurf.com/windsurf/accounts/usage" rel="nofollow">docs.windsurf.com</a> |
 | **Zhipu AI (Z.ai)** | Developer Documentation | <a href="https://docs.z.ai/" rel="nofollow">docs.z.ai</a> |
 | **Zhipu AI (Z.ai)** | GLM-5.2 announcement | <a href="https://z.ai/blog/glm-5.2" rel="nofollow">z.ai</a> |
 | **DeepSeek** | Models & API pricing; corporate site | <a href="https://api-docs.deepseek.com/quick_start/pricing" rel="nofollow">api-docs.deepseek.com</a>, <a href="https://www.deepseek.com" rel="nofollow">deepseek.com</a> |
 | **MiniMax** | Developer Documentation | <a href="https://platform.minimax.io/docs/guides/models-intro" rel="nofollow">platform.minimax.io</a> |
 | **MiniMax** | Pricing (Pay‑as‑you‑go) | <a href="https://platform.minimax.io/docs/guides/pricing-paygo" rel="nofollow">platform.minimax.io</a> |
+| **MiniMax** | Speech 2.8 announcement | <a href="https://www.minimax.io/news/minimax-speech-28" rel="nofollow">minimax.io</a> |
 | **Moonshot AI** | Developer Documentation | <a href="https://platform.moonshot.ai/docs/overview" rel="nofollow">platform.moonshot.ai</a> |
 | **Moonshot AI** | Models & Pricing | <a href="https://platform.moonshot.ai/docs/pricing/chat" rel="nofollow">platform.moonshot.ai</a> |
 | **Cohere** | Developer Documentation | <a href="https://docs.cohere.com" rel="nofollow">docs.cohere.com</a> |
+| **Cartesia** | Sonic 3.5 / Ink-2 launch and docs | <a href="https://www.cartesia.ai/launch" rel="nofollow">cartesia.ai</a>, <a href="https://docs.cartesia.ai/build-with-cartesia/tts-models/latest" rel="nofollow">docs.cartesia.ai</a> |
+| **AWS** | Amazon Bedrock AgentCore | <a href="https://aws.amazon.com/bedrock/agentcore/" rel="nofollow">aws.amazon.com</a> |
 | **AI21 Labs** | Developer Documentation | <a href="https://docs.ai21.com/docs/jamba-foundation-models" rel="nofollow">docs.ai21.com</a> |
 | **Perplexity** | Developer Documentation | <a href="https://docs.perplexity.ai" rel="nofollow">docs.perplexity.ai</a> |
 | **ByteDance (Volcengine)** | Developer Documentation | <a href="https://www.volcengine.com/docs/82379/1263482" rel="nofollow">volcengine.com</a> |
@@ -2275,7 +2284,7 @@ Additional context from the June 2026 research pass (supplements earlier tables;
 
 ---
 
-**Last Updated:** 2026-07-02 00:30 UTC
+**Last Updated:** 2026-07-03 16:06 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
