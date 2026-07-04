@@ -6,14 +6,14 @@
 
 <a href="https://awesome.re" rel="nofollow"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
-<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--07--03%2016%3A32%20UTC-green.svg" alt="Last Updated"></a>
+<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--07--03%2021%3A56%20UTC-green.svg" alt="Last Updated"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social" alt="Star History"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social" alt="Forks"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix/issues" rel="nofollow"><img src="https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix" alt="Issues"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix/pulls" rel="nofollow"><img src="https://img.shields.io/github/issues-pr/ReadyPixels/AI_Models_Matrix" alt="Pull Requests"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix/contributors" rel="nofollow"><img src="https://img.shields.io/github/contributors/ReadyPixels/AI_Models_Matrix" alt="Contributors"></a>
 
-> Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources. Includes community-sourced feedback from Reddit, LinkedIn, and developer blogs.
+> Research-based list of AI models, development tools, and automation resources. Use it to compare releases, pricing, benchmarks, and deployment options from official sources.
 
 ## 🚀 Quick Start
 
@@ -21,7 +21,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ### 🔥 Highlights
 - **138+ AI models** from major providers (OpenAI, Anthropic, Google, Meta, xAI, Microsoft, and others)
-- **Latest pricing** and performance benchmarks (updated daily - latest data through July 3, 2026)
+- **Latest pricing** and performance benchmarks (updated daily - latest data through July 3, 2026 21:56 UTC)
 - **Claude Sonnet 5** launched 2026-06-30 00:00 UTC with 1M context, 128K output, $2.00 / $10.00 introductory pricing through 2026-08-31 00:00 UTC, and 92.4% SWE-bench Verified
 - **Claude Fable 5 and Mythos 5** access restored 2026-07-01 00:00 UTC after export controls were lifted; Fable 5 globally available while Mythos 5 remains restricted to Project Glasswing partners
 - **Cartesia Sonic-3.5 and Ink-2** are now official production speech models for low-latency voice agents
@@ -29,13 +29,14 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 - **Kiro 1.0.52**, **Cursor Team Marketplace MCPs**, **Codex CLI 0.142.0**, and **Windsurf quota-based plans** refreshed from official release notes
 - **Codex CLI 0.142.5** patched WebSocket trace logging, and **GitHub Copilot** added enterprise agent session streaming plus `GITHUB_TOKEN` support for Copilot CLI in GitHub Actions
 - **Browser Use CLI 3.0**, **Browser Harness**, and **Vercel agent-browser** refreshed in Browser Automation from official project docs and releases
+- **Vercel AI Gateway routing rules**, **eve Agent Runs in Vercel MCP/CLI**, and **Vercel Sandbox FUSE support** added from official July 2026 changelogs
+- **Cloudflare Browser Run /json Quick Action**, **Jina v5 Omni embeddings**, and official MCP Registry references refreshed from official docs
 - **MiniMax M2.7** self-evolving LLM with SWE-Pro 56.22%
 - **MAI-1**, **MAI-1 Plan**, and **MAI-Frontier Tunings** launched July 2026 with Microsoft Frontier Tuning framework reaching GA status
 - **New pricing tiers** across providers including GPT-5.6 Sol/Terra/Luna pricing structure [$1.00-$5.00 input / $6.00-$30.00 output tokens], xAI Grok 4.3 API pricing updates [$1.25/$2.50 per million tokens], and Microsoft MAI model tiered pricing
 - **Google AI Plus price drop**: $7.99 → $4.99/month with storage doubled to 400GB (effective June 8, 2026)
 - **Self-hosting guides** for open-source models
 - **Development tools** for AI application building
-- **Community-sourced** insights and real-world feedback
 
 ## 📊 Top Models by Category
 
@@ -61,8 +62,8 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.41
-- **Last Updated**: 2026-07-03 16:32 UTC
+- **Document Version**: 3.43
+- **Last Updated**: 2026-07-03 21:56 UTC
 - **Repository**: <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow">github.com/ReadyPixels/AI_Models_Matrix</a>
 - **License**: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">CC BY-NC 4.0</a>
 
@@ -157,7 +158,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 ### Model Specifications 📋
 
-Detailed technical specifications, pricing, and capabilities for frontier models and notable API models. Data as of 2026-07-03 16:32 UTC.
+Detailed technical specifications, pricing, and capabilities for frontier models and notable API models. Data as of 2026-07-03 21:56 UTC.
 
 #### Output Token Limits
 
@@ -392,6 +393,7 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **Kimi K2.7 Code** ⭐ | Moonshot AI | 1T / 32B active (MoE) | 262K | Modified MIT |
 | **MiniMax M2.7** ⭐ | MiniMax | ~400B+ (MoE) | 205K | MiniMax Community |
 | **Kimi K2.6** | Moonshot AI | 1T / 32B active (MoE) | 262K | Modified MIT |
+| **Ornith-1.0** ⭐ | DeepReinforce | 9B / 31B / 35B-MoE / 397B-MoE | — | MIT |
 
 #### Deployment Options
 
@@ -425,11 +427,12 @@ Specialized AI models optimized for software development tasks.
 | #7 | **Claude Opus 4.8** | Anthropic | 88.6% |
 | #8 | **Claude Opus 4.7** | Anthropic | 87.6% |
 | #9 | **GPT-5.3-Codex** | OpenAI | 85.0% |
-| #10 | **Claude Opus 4.5** | Anthropic | 80.9% |
-| #11 | **Claude Opus 4.6** | Anthropic | 80.8% |
-| #12 | **DeepSeek-V4-Pro (Max)** | DeepSeek | 80.6% |
-| #12 | **Gemini 3.1 Pro** | Google | 80.6% |
-| #13 | **MiniMax M3** ⭐ | MiniMax | 80.5% |
+| #10 | **Ornith-1.0-397B** ⭐ | DeepReinforce | 82.4% |
+| #11 | **Claude Opus 4.5** | Anthropic | 80.9% |
+| #12 | **Claude Opus 4.6** | Anthropic | 80.8% |
+| #13 | **DeepSeek-V4-Pro (Max)** | DeepSeek | 80.6% |
+| #13 | **Gemini 3.1 Pro** | Google | 80.6% |
+| #14 | **MiniMax M3** ⭐ | MiniMax | 80.5% |
 | #14 | **Qwen3.7-Max** | Alibaba | 80.4% |
 | #15 | **Kimi K2.6** | Moonshot AI | 80.2% |
 | #16 | **MiniMax-M2.5** | MiniMax | 80.2% |
@@ -479,7 +482,8 @@ Specialized AI models optimized for software development tasks.
 | **MiniMax M2** ⭐ | MiniMax | Apache 2.0 | 48-80 GB VRAM |
 | **MiniMax M2.1** ⭐ | MiniMax | Apache 2.0 | 48-80 GB VRAM |
 | **MiniMax M3** ⭐ | MiniMax | MIT | 80-160 GB VRAM |
-| **MiniMax M2** ⭐ | MiniMax | Open Weight | 80-160 GB VRAM |
+| **MiniMax M2.7** ⭐ | MiniMax | MiniMax Community | 80-160 GB VRAM |
+| **Ornith-1.0** ⭐ | DeepReinforce | MIT | 160-320 GB VRAM |
 | **GPT-OSS-120B** | OpenAI | Apache 2.0 | 80-160 GB VRAM |
 | **Qwen3-Coder** | Alibaba | Apache 2.0 | 160-320 GB VRAM |
 | **DeepSeek-Coder-V2** | DeepSeek | MIT | 48-80 GB VRAM |
@@ -630,7 +634,7 @@ Comprehensive hardware specifications for self-hosting AI models.
 
 ### Comprehensive Benchmark Reference 📈
 
-Detailed benchmark scores across all major evaluations. Scores are percentages (%) unless noted. Arena Elo scores are integers. `—` = not publicly reported. Data as of 2026-07-02 23:00 UTC.
+Detailed benchmark scores across all major evaluations. Scores are percentages (%) unless noted. Arena Elo scores are integers. `—` = not publicly reported. Data as of 2026-07-03 21:56 UTC.
 
 #### Full Benchmark Table
 
@@ -642,6 +646,7 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | **GPT-5.5** | 93.6% | — | 1495 | 42.1–55.0% | 88.5% | — | — | 99.9% | 71.2% | — | — | 52% |
 | **GPT-5.5 Instant** | 91.0% | — | — | — | 88.7% | — | — | — | — | — | — | — |
 | **NVIDIA Nemotron 3 Ultra** | — | — | — | — | — | — | — | — | — | — | — | — |
+| **Ornith-1.0-397B** ⭐ | — | — | — | — | 82.4% | — | — | — | — | — | — | — |
 | **GPT-5.5 Pro** | 95.1% | 96% | 1520 | 48.5–62.0% | 92.3% | — | — | 100% | 78.5% | — | 97% | 58% |
 | **Claude Sonnet 4.6** | 89.9% | — | ~1438 | 33.2–49.0% | 79.6% | — | — | ~95% | 58.3% | — | — | — |
 | **Claude Sonnet 5** ⭐ | — | — | — | 43.2% no tools / 57.4% tools | 92.4% | 63.2% | — | — | — | — | — | — |
@@ -766,7 +771,7 @@ Integrated Development Environments with built-in AI capabilities.
 
 #### Cursor Alternatives & Better Value 🎯
 
-Cursor Pro is $20/month but **June 2025 credit-switch effectively halved heavy-user limits**, and real-world monthly spend for power users regularly hits $40–60/mo in overages. Reddit threads, developer blogs, and benchmark sites consistently confirm the same verdict: several tools offer better value, higher limits, and comparable (or superior) code quality.
+Cursor Pro is $20/month, while several official pricing pages and product docs show lower-cost or BYOK alternatives with similar agent workflows, local-model support, or broader IDE coverage.
 
 ##### Pricing Reality Check (June 2026)
 
@@ -794,14 +799,9 @@ Cursor Pro is $20/month but **June 2025 credit-switch effectively halved heavy-u
 | 6 | **Cursor Pro** | $20–60 (effective) | Unpublished | Caps hit easily | Good UX, poor value at scale |
 | 7 | **Claude Code Max** | $100 | 80.8% | 5× limits | Outclasses Cursor Ultra ($200) |
 
-##### What Developers Are Saying (Reddit & Social Media)
+##### Official Source Basis
 
-- **"Cursor's June 2025 pricing change effectively cut our Pro usage in half. Switched to Cline + Claude API and now pay ~$12/mo for unlimited."** — r/cursor thread, 2026
-- **"Cline has 5M+ installs. It's free, open-source, achieved 80.8% SWE-bench — literally the same as Claude Code. There's no reason to pay Cursor Pro if you're already comfortable with VS Code."** — morphllm.com tested comparison, 2026
-- **"Claude Code wins on long-running tasks at $100/mo — Cursor would cost $200/mo (Ultra) to match that headroom."** — LinkedIn developer comparison, 2026
-- **"Windsurf is simply destroying its reputation with these disguised new pricing changes."** — r/windsurf, March 2026 (quota changes backlash)
-- **"GitHub Copilot at $10/mo is unbeatable for quick wins. I use it for boilerplate, Cursor for features, Claude Code for heavy autonomy."** — Reddit developer, Jan 2026
-- **"Once you burn through Cursor's initial $20 credit, it basically becomes Cline without advanced features."** — DataCamp comparison, 2025
+This comparison uses official pricing pages, official changelogs, official extension marketplaces, and official GitHub repositories. Unofficial social feedback is not used for eligibility, pricing, or benchmark claims.
 
 ##### Why Specific Alternatives Beat Cursor
 
@@ -936,7 +936,7 @@ Extensions and plugins that add AI capabilities to existing IDEs.
 
 | Add-on | Platform | Pricing | Context | Best For | GitHub |
 |--------|----------|---------|---------|----------|--------|
-| **GitHub Copilot** ⭐ | VS Code, JetBrains, Vim | Usage-based AI Credits since June 1, 2026 | Large | General coding; Kimi K2.7 Code available in model picker (July 1, 2026); enterprise session streaming/API, AI credit pools, and Copilot-only Gemini 2.5 Pro / Gemini 3 Flash deprecation on 2026-07-31 | <a href="https://github.blog/changelog/label/copilot/" rel="nofollow">🔗</a> |
+| **GitHub Copilot** ⭐ | VS Code, JetBrains, Vim | Usage-based AI Credits since June 1, 2026 | Large | General coding; Kimi K2.7 Code available in model picker (July 1, 2026); Copilot Vision GA (July 1, 2026); enterprise session streaming/API, AI credit pools, and Copilot-only Gemini 2.5 Pro / Gemini 3 Flash deprecation on 2026-07-31 | <a href="https://github.blog/changelog/label/copilot/" rel="nofollow">🔗</a> |
 | **Supermaven** | VS Code, JetBrains, Neovim | Free / $10/mo | 1M | Large codebases | ❌ |
 | **Codeium** | VS Code, JetBrains, Vim | Free / $15/mo / $60/mo | Medium | Free alternative | ❌ |
 | **Continue** | VS Code, JetBrains | Free (OSS) | Custom | Self-hosted | <a href="https://github.com/continuedev/continue" rel="nofollow">🔗</a> |
@@ -1025,6 +1025,7 @@ Services that aggregate multiple models through a unified API, often with load b
 | **Groq** | 20+ | $0.05-$0.90/1M | Fastest LPU inference: 476 tok/s on 120B, <100ms TTFT, deterministic latency |
 | **Cerebras** | 10+ | $0.10-$1.00/1M | Wafer-scale engine: ~3,000 tok/s, 5× faster than NVIDIA Blackwell, 80–150ms TTFT |
 | **NVIDIA NIM** | 91+ | Free (cloud endpoints) / self-host | Broadest model variety: LLMs + vision + audio + bio + climate; self-hostable Docker containers |
+| **Vercel AI Gateway** ⭐ | 100+ | $5/mo free credits; paid credits at provider list rates, zero markup | Unified API for text, image, video, realtime, speech, embeddings, and reranking; BYOK on paid tier; model fallbacks, provider routing, budgets, observability, and Routing Rules beta |
 | **Mercury 2** (Inception Labs) ⭐ | 1 | $0.25/$0.75/1M | Diffusion LLM; 1,009 tok/s on Blackwell; tunable reasoning; 128K context; released 2026-05-12 |
 | **Anyscale** | 100+ | $0.20-$2.00/1M | OpenAI-compatible, HIPAA/SOC 2/EU data residency, enterprise contracts |
 | **Replicate** | 50+ | $0.20-$2.00/1M | Model-as-a-service, versioning, GPU rental |
@@ -1103,6 +1104,7 @@ Services that provide hosted access to open source models with API endpoints, of
 | **Cohere** | North Mini Code, Command A+ | Limited | Open-weight coding models |
 | **TensorZero** | 30+ models | Limited requests/hour | Cost optimization testing |
 | **Hugging Face** | 1000+ models | Limited compute time | Quick model testing |
+| **Vercel AI Gateway** ⭐ | Free-tier eligible Gateway models | $5/month included; lower per-model rate limits; BYOK requires paid tier | Unified API testing with zero-markup token pricing |
 
 ## Automation 🤖
 
@@ -1172,7 +1174,7 @@ Consumer-focused AI browsers (for example **Perplexity Comet**) typically bundle
 | Library | Language | Pricing | Best For | API Access | Multi-Agent | Parallel Sessions | GitHub |
 |---------|----------|---------|----------|-----------|:----------:|:--------------:|--------|
 | **Chrome DevTools MCP** | TypeScript | Free (OSS) | AI web debugging, 29 DevTools | ❌ | ❌ | ❌ | <a href="https://github.com/ChromeDevTools/chrome-devtools-mcp" rel="nofollow">🔗</a> |
-| **Cloudflare Browser Run** | Cloud API | Free Workers / $5+/mo | CDP + MCP, WebMCP, Live View, Human-in-the-Loop, 120 concurrent (4× upgrade, Agents Week Apr 2026), session recordings | ✅ | ❌ | ✅ | <a href="https://developers.cloudflare.com/browser-run" rel="nofollow">🔗</a> |
+| **Cloudflare Browser Run** | Cloud API | Free Workers / paid browser hours | CDP + MCP, WebMCP, Live View, Human-in-the-Loop, session recordings; `/json` Quick Action extracts schema-shaped data with Workers AI or BYOK (2026-07-01) | ✅ | ❌ | ✅ | <a href="https://developers.cloudflare.com/browser-run/quick-actions/json-endpoint/" rel="nofollow">🔗</a> |
 | **Browser-use** ⭐ | Python / Cloud API | Free OSS / Cloud: 5 free prompts, pay-as-you-go $100 credits | Browser Use CLI 3.0 powered by Browser Harness; `browser-use skill` installs agent skills for Claude Code, Codex, Cursor, Gemini, OpenCode, and related skill directories; Cloud v3 premium agent supports scheduling, persistent memory, skills, and integrations | ✅ | ✅ | ✅ | <a href="https://github.com/browser-use/browser-use/releases" rel="nofollow">🔗</a> |
 | **Browser Harness** ⭐ | Python / CDP | Free (OSS) | Thin self-healing CDP harness for direct LLM control of real Chrome; packaged skill for coding agents; pinned by Browser Use CLI 3.0 | ✅ | ❌ | ✅ | <a href="https://github.com/browser-use/browser-harness" rel="nofollow">🔗</a> |
 | **Vercel agent-browser** ⭐ | Rust / Node CLI | Free (OSS) | Browser automation CLI for AI agents; compact text snapshots, ref-based actions, Chrome and Lightpanda engines, packaged agent skill | ✅ | ❌ | ✅ | <a href="https://agent-browser.dev/" rel="nofollow">🔗</a> |
@@ -1204,6 +1206,7 @@ Consumer-focused AI browsers (for example **Perplexity Comet**) typically bundle
 | **Browserbase** | Cloud API | Free credits / paid tiers | Stealth mode, session recording, CDP access | ❌ |
 | **Amazon Nova Act** | API (AWS) | Pay-per-use | Autonomous web agent, multi-step browser workflows | ❌ |
 | **Amazon Bedrock AgentCore** ⭐ | AWS | Pay-per-use | Platform for building, connecting, securing, tracing, and operating production agents with any model or framework; includes Runtime, Gateway, Memory, Browser tool, Code Interpreter, Identity, and Observability | <a href="https://aws.amazon.com/bedrock/agentcore/" rel="nofollow">🔗</a> |
+| **Vercel Sandbox** ⭐ | Vercel | Usage-based Vercel platform | Agent/runtime sandbox for code execution; FUSE mounts for S3, network, and custom filesystems added 2026-07-03; pairs with AI SDK and eve workflows | <a href="https://vercel.com/changelog/vercel-sandbox-now-supports-fuse-based-filesystems" rel="nofollow">🔗</a> |
 | **OpenAI Workspace Agents** | ChatGPT Business, Enterprise, Edu, Teachers | Credit-based after preview | Research-preview workplace agents usable in ChatGPT and Slack channels; role-based admin controls | <a href="https://openai.com/index/introducing-workspace-agents-in-chatgpt/" rel="nofollow">🔗</a> |
 | **Claude Science** ⭐ | Anthropic | Applications through 2026-07-15 00:00 UTC | AI workbench for scientists; auditable artifacts, package/tool integration, flexible compute access, up to $30K Claude credits for selected projects | <a href="https://www.anthropic.com/news/claude-science-ai-workbench" rel="nofollow">🔗</a> |
 | **Databricks Genie One** ⭐ | Databricks | Free $10/user/mo | GA 2026-06-16; data-smart agentic coworker; iOS/Android/web; 50+ app integrations; Genie Ontology context layer | ❌ |
@@ -1313,8 +1316,12 @@ Coordinate multiple AI agents in parallel to complete complex workflows — driv
 | **Dify** | Visual LLM platform | ✅ Web UI | ✅ | ✅ Cloud | ✅ | ✅ | Free OSS / Cloud plans | <a href="https://github.com/langgenius/dify" rel="nofollow">🔗</a> |
 | **OpenAI Agents SDK** | Agent handoffs + tool orchestration | ❌ | ✅ Python / TS | ✅ OpenAI API | ❌ | ✅ | Free (OSS) / OpenAI API costs | <a href="https://github.com/openai/openai-agents-python" rel="nofollow">🔗</a> |
 | **Google ADK** | Hierarchical agent tree, A2A protocol | ✅ Vertex AI | ✅ Python | ✅ Vertex AI | ❌ | ✅ | Free (OSS) / Vertex AI pay-per-token | <a href="https://github.com/google/adk-python" rel="nofollow">🔗</a> |
+| **ADK Go 2.0** ⭐ | Graph-based agent workflow engine | — | ✅ `go run` | ✅ Google Cloud | ❌ | ✅ | Free (OSS) | <a href="https://github.com/google/adk-go" rel="nofollow">🔗</a> |
+| **Genkit Agents** ⭐ | Full-stack agent framework | ✅ Developer UI | — | — | ✅ | ✅ | Free (OSS) | <a href="https://github.com/genkit-ai/genkit" rel="nofollow">🔗</a> |
+| **AI SDK 7** ⭐ | Production agent platform (TypeScript) | — | ✅ `@ai-sdk/tui` | ✅ Vercel | ✅ | ✅ | Free (OSS) | <a href="https://vercel.com/changelog/ai-sdk-7" rel="nofollow">🔗</a> |
+| **Mastra** ⭐ | Agent framework with file-based agents, skills, workspace, and subagents | — | ✅ `mastra` | ✅ Vercel | ✅ | ✅ | Free (OSS) | <a href="https://mastra.ai/blog/introducing-file-based-agents" rel="nofollow">🔗</a> |
 | **Ruflo** | Multi-agent orchestration | ❌ | ✅ Python | ❌ | ✅ | ✅ | Free OSS / Cloud plans | <a href="https://github.com/ruvnet/ruflo" rel="nofollow">🔗</a> |
-| **Vercel eve** ⭐ | Open-source agent framework | ✅ Web | ✅ `npx eve@latest init` | ✅ Vercel | ✅ | ✅ | Free (OSS) / Vercel hosting costs | <a href="https://github.com/vercel/eve" rel="nofollow">🔗</a> |
+| **Vercel eve** ⭐ | Open-source agent framework with Agent Runs traces via Vercel MCP/CLI | ✅ Web | ✅ `vercel agent-runs` | ✅ Vercel | ✅ | ✅ | Free (OSS) / Vercel hosting costs | <a href="https://vercel.com/changelog" rel="nofollow">🔗</a> |
 | **Omnigent** (Databricks) ⭐ | Meta-harness for agents | ✅ Web/App | ✅ | ✅ | ✅ | ✅ | Free (Apache 2.0) | <a href="https://github.com/databricks/omnigent" rel="nofollow">🔗</a> |
 | **GitKraken Kepler** ⭐ | Agentic Development Environment | ✅ Desktop | ✅ | ❌ | ✅ | ✅ | Free tier / paid plans | <a href="https://www.gitkraken.com/blog/introducing-kepler-the-delivery-engine-for-agent-driven-development" rel="nofollow">🔗</a> |
 | **LangChain Deep Agents** ⭐ | Long-horizon agent harness | ❌ | ✅ Python | ❌ | ✅ | ✅ | Free (MIT) | <a href="https://github.com/langchain-ai/deepagents" rel="nofollow">🔗</a> |
@@ -1345,7 +1352,7 @@ Tools supporting parallel agent orchestration (✅) vs single-agent only (❌):
 | **Browser-Only** | ❌ | Stagehand, NanoBrowser, Openator, Open Operator |
 | **Developer Libraries** | ✅ | Browser-use, Browser Harness, Vercel agent-browser, Skyvern, Cloudflare Browser Run, Langflow, LlamaIndex, Haystack, AgentQL, ScrapeGraphAI, WebVoyager, Hyperbrowser, Anchor Browser, Steel |
 | **Developer Libraries** | ❌ | Chrome DevTools MCP, Stagehand, LaVague, Notte, Firecrawl, Playwright MCP |
-| **Multi-Agent Platforms** | ✅ | CrewAI, AutoGen, LangGraph, OpenHands, OWL, Manus AI, n8n, Smolagents, Dify |
+| **Multi-Agent Platforms** | ✅ | CrewAI, Microsoft Agent Framework, LangGraph, OpenHands, OWL, Manus AI, n8n, Smolagents, Dify, OpenAI Agents SDK, Google ADK, ADK Go 2.0, Genkit Agents, AI SDK 7, Mastra, Vercel eve |
 | **Multi-Agent Platforms** | ❌ | Devin |
 
 ---
@@ -1370,6 +1377,7 @@ Specialized models for converting text (or images) into dense vector representat
 | LFM2.5-ColBERT-350M ⭐ | Liquid AI | Per-token vectors | 8,192 | Free (open-source) | First bidirectional ColBERT; word-by-word matching for higher accuracy; 11 languages; runs on CPU/edge | <a href="https://huggingface.co/LiquidAI/LFM2.5-ColBERT-350M" rel="nofollow">🔗</a> |
 | ML-Embed-0.6B (CodeFuse) ⭐ | CodeFuse AI | 1,024 | 8,192 | Free (Apache 2.0) | 3D Matryoshka Learning; multilingual; ICML 2026 paper | <a href="https://huggingface.co/codefuse-ai/ML-Embed-0.6B" rel="nofollow">🔗</a> |
 | Qwen3-Embedding-8B | Alibaba / Qwen | 4,096 (flex) | 32K | Free (Apache 2.0) | MTEB leader (70.6); 100+ languages, instruction-aware, flexible dimensions; 0.6B/4B/8B sizes | <a href="https://huggingface.co/Qwen/Qwen3-Embedding-8B" rel="nofollow">🔗</a> |
+| jina-embeddings-v5-omni-small ⭐ | Jina AI / Elastic | 1,024 (Matryoshka 32-1,024) | 32K text; image, video, audio, PDF | API pay-per-use | Multimodal embedding model for text, image, video, audio, and PDF search; frozen v5 text backbone keeps text outputs aligned with v5-text-small | <a href="https://jina.ai/models/jina-embeddings-v5-omni-small/" rel="nofollow">🔗</a> |
 | jina-embeddings-v4 | Jina AI | 32–2,048 (flex) | 8,192 | API pay-per-use | Built on Qwen2.5-VL-3B (3.8B); 3 LoRA adapters (query/passage/matching) | <a href="https://github.com/jina-ai/jina-embeddings-v4" rel="nofollow">🔗</a> |
 | text-embedding-3-small | OpenAI | 1,536 | 8,191 | $0.02/1M tokens | Cost-effective English embeddings | — |
 | text-embedding-3-large | OpenAI | 3,072 | 8,191 | $0.13/1M tokens | Highest-quality English retrieval | — |
@@ -1640,7 +1648,7 @@ Tools for tracing LLM calls, evaluating output quality, debugging RAG pipelines,
 
 ### MCP Ecosystem 🔌
 
-The <a href="https://modelcontextprotocol.io" rel="nofollow">Model Context Protocol (MCP)</a> is an open standard originally by Anthropic, now governed by the **Agentic AI Foundation (AAIF)** under the Linux Foundation (co-founded by Anthropic, Block, and OpenAI; supported by Google, Microsoft, AWS, Cloudflare, Bloomberg). It connects LLMs to external tools and data sources via a unified JSON-RPC 2.0 interface, supporting STDIO and Streamable HTTP transports. The official MCP registry at <a href="https://mcp.so" rel="nofollow">mcp.so</a> lists **10,000+ active public servers**. MCP SDK downloads exceeded **97 million monthly** by March 2026. The **2026-07-28 spec release candidate** (locked May 21, 2026) introduces stateless core transport, Tasks extension for long-running work, MCP Apps for server-rendered UIs, OAuth 2.1 alignment, and a formal deprecation policy. Docker Custom MCP Catalogs and Profiles reached GA in May 2026. Microsoft Power BI MCP server released June 2026.
+The <a href="https://modelcontextprotocol.io" rel="nofollow">Model Context Protocol (MCP)</a> is an open standard originally by Anthropic, now governed by the **Agentic AI Foundation (AAIF)** under the Linux Foundation (co-founded by Anthropic, Block, and OpenAI; supported by Google, Microsoft, AWS, Cloudflare, Bloomberg). It connects LLMs to external tools and data sources via a unified JSON-RPC 2.0 interface, supporting STDIO and Streamable HTTP transports. The official MCP Registry at <a href="https://registry.modelcontextprotocol.io/" rel="nofollow">registry.modelcontextprotocol.io</a> is the preview centralized metadata repository for publicly accessible MCP servers, with registry docs at <a href="https://modelcontextprotocol.io/registry/about" rel="nofollow">modelcontextprotocol.io/registry</a>. MCP SDK downloads exceeded **97 million monthly** by March 2026. The **2026-07-28 spec release candidate** (locked May 21, 2026) introduces stateless core transport, Tasks extension for long-running work, MCP Apps for server-rendered UIs, OAuth 2.1 alignment, and a formal deprecation policy. Docker Custom MCP Catalogs and Profiles reached GA in May 2026. Microsoft Power BI MCP server released June 2026.
 
 **MCP Clients:** Claude Desktop, Claude Code, Cursor, Windsurf, VS Code (Copilot + ACP Client), Continue.dev, Zed, ChatGPT, Gemini, Microsoft Copilot, LibreChat, and more.
 
@@ -1662,6 +1670,7 @@ The <a href="https://modelcontextprotocol.io" rel="nofollow">Model Context Proto
 
 > **MCP 2026-07-28 Release Candidate** (May 21, 2026): The largest revision since launch. Key changes: stateless core (no sessions, no initialize handshake, plain HTTP load balancing), MCP Apps extension (server-rendered UIs), Tasks extension (long-running work), OAuth 2.0/OpenID Connect alignment, 12-month deprecation policy. Final spec ships July 28, 2026. This is a breaking change -- servers using session state must migrate to explicit handles.
 > Source: <a href="https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/" rel="nofollow">🔗</a>
+> **MCP SDK beta support** (2026-06-29): Python, TypeScript, Go, and C# SDK beta releases now support the 2026-07-28 release candidate, so server maintainers can test stateless transport, Tasks, MCP Apps, and auth changes before final. Source: <a href="https://blog.modelcontextprotocol.io/posts/sdk-betas-2026-07-28/" rel="nofollow">🔗</a>
 
 ### Agent Skills & Registries 🎯
 
@@ -1670,6 +1679,8 @@ Modular capability packages that extend AI agents with specialized knowledge, wo
 #### skills.sh
 
 **<a href="https://skills.sh" rel="nofollow">skills.sh</a>** is the primary registry and package manager for Agent Skills — an open standard developed by Anthropic for packaging and distributing reusable agent capabilities. Skills follow a **progressive disclosure** pattern: agents load only a skill's name and description at startup, then pull full instructions only when a task matches, keeping context overhead minimal.
+
+Vercel's official Agent Resources now publish installable skills for React, Next.js, AI SDK, design/UI, browser automation, deployment, commerce, and workflow use cases. Source: <a href="https://vercel.com/docs/agent-resources/skills" rel="nofollow">🔗</a>
 
 
 | Feature | Detail |
@@ -1831,6 +1842,7 @@ These are the raw API endpoints you can use in tools like Cursor (BYOK), Cline, 
 | **Cerebras** | Llama 3.3 70B, Qwen3 32B/235B, GPT-OSS 120B | 1M tokens/day | Batch tasks, raw speed (20× faster than GPUs) |
 | **Mistral AI** | Codestral-2508, Devstral, Mistral Large, Pixtral | 1B tokens/month | Code completion, FIM tasks |
 | **NVIDIA NIM** | 91 free endpoints including Chinese models | Varies | Production inference on DGX Cloud |
+| **Vercel AI Gateway** ⭐ | Free-tier eligible Gateway models | $5/month included; lower per-model limits | Testing many providers through one zero-markup endpoint |
 
 #### Free Vibe Coding IDEs & Platforms
 
@@ -1857,7 +1869,7 @@ Google's **Chrome DevTools MCP** connects AI agents directly to Chrome for debug
 Managed browser infrastructure for AI agents:
 - Chrome DevTools Protocol (CDP) direct endpoint
 - MCP client support (Claude, Cursor, OpenCode)
-- Session recordings, Live View, WebMCP
+- Session recordings, Live View, WebMCP, and `/json` schema extraction with Workers AI or BYOK
 - Free Workers plan / $5+/mo paid
 - <a href="https://developers.cloudflare.com/browser-run/" rel="nofollow">Browser Run</a>
 
@@ -1959,7 +1971,7 @@ Comprehensive pricing comparisons and cost calculations.
 
 #### Model Pricing Comparison
 
-Comparative pricing across notable API models. As of 2026-07-03 16:32 UTC.
+Comparative pricing across notable API models. As of 2026-07-03 21:56 UTC.
 
 | Model | Input | Output | Cached Input | Best For |
 |-------|-------|--------|-------------|----------|
@@ -2091,7 +2103,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 🌐 Google DeepMind | Gemini 3 | Flash | 2026-02-12 00:00 UTC | 2026-05-08 00:00 UTC | ✅ | GPQA 90.4%, SWE-bench 78.0% | $0.50 / $3.00 | ❌ | <a href="https://deepmind.google/models/gemini/" rel="nofollow">🔗</a> |
 | 🚀 xAI | Grok | 4.3 | 2026-05-01 00:00 UTC | 2026-05-06 00:00 UTC | ✅ | — | $1.25 / $2.50 | ❌ | <a href="https://x.ai/" rel="nofollow">🔗</a> |
 | 🇨🇳 MiniMax | Hailuo | 02 | 2026-06-20 00:00 UTC | 2026-06-20 00:00 UTC ⭐ | — | #2 Video Arena | API | ❌ | <a href="https://www.minimax.io/" rel="nofollow">🔗</a> |
-| 🇨🇳 MiniMax | Speech | 2.8 | 2026-01-23 00:00 UTC | 2026-07-02 23:00 UTC ⭐ | — | Native sound tags, high-fidelity cloning, studio-grade clarity | API | ❌ | <a href="https://www.minimax.io/news/minimax-speech-28" rel="nofollow">🔗</a> |
+| 🇨🇳 MiniMax | Speech | 2.8 | 2026-01-23 00:00 UTC | 2026-07-03 21:56 UTC ⭐ | — | Native sound tags, high-fidelity cloning, studio-grade clarity | API | ❌ | <a href="https://www.minimax.io/news/minimax-speech-28" rel="nofollow">🔗</a> |
 | 🇨🇳 MiniMax | Video-01 | — | 2026-06-20 00:00 UTC | 2026-06-20 00:00 UTC ⭐ | — | 720p/25fps | ~$0.40/video | ❌ | <a href="https://www.minimax.io/" rel="nofollow">🔗</a> |
 | 🇫🇷 Mistral AI | Voxtral TTS | — | 2026-06-18 00:00 UTC | 2026-06-18 00:00 UTC ⭐ | — | 4B, 9 languages, 70ms | $0.016/1K chars | ✅ | <a href="https://mistral.ai/" rel="nofollow">🔗</a> |
 | **🤖 Microsoft** | **VibeVoice Realtime (0.5B)** ⭐ | — | 2025-12-03 00:00 UTC | 2026-03-06 00:00 UTC ⭐ | — | 0.5B real-time TTS; <300ms TTFA; streaming input | Free (MIT) | ✅ | <a href="https://github.com/microsoft/VibeVoice" rel="nofollow">🔗</a> |
@@ -2236,9 +2248,21 @@ Attribution, verification sources, and methodology.
 | **Cohere** | Developer Documentation | <a href="https://docs.cohere.com" rel="nofollow">docs.cohere.com</a> |
 | **Cartesia** | Sonic 3.5 / Ink-2 launch and docs | <a href="https://www.cartesia.ai/launch" rel="nofollow">cartesia.ai</a>, <a href="https://docs.cartesia.ai/build-with-cartesia/tts-models/latest" rel="nofollow">docs.cartesia.ai</a> |
 | **AWS** | Amazon Bedrock AgentCore | <a href="https://aws.amazon.com/bedrock/agentcore/" rel="nofollow">aws.amazon.com</a> |
+| **Cloudflare** | Browser Run and `/json` Quick Action | <a href="https://developers.cloudflare.com/browser-run/quick-actions/json-endpoint/" rel="nofollow">developers.cloudflare.com</a> |
 | **Browser Use** | Browser Use pricing, cloud docs, and releases | <a href="https://browser-use.com/pricing" rel="nofollow">browser-use.com</a>, <a href="https://docs.browser-use.com/cloud/faq" rel="nofollow">docs.browser-use.com</a>, <a href="https://github.com/browser-use/browser-use/releases" rel="nofollow">github.com</a> |
 | **Browser Use** | Browser Harness | <a href="https://github.com/browser-use/browser-harness" rel="nofollow">github.com</a> |
 | **Vercel** | agent-browser docs | <a href="https://agent-browser.dev/" rel="nofollow">agent-browser.dev</a> |
+| **Vercel** | AI SDK 7 | <a href="https://vercel.com/changelog/ai-sdk-7" rel="nofollow">vercel.com</a> |
+| **Vercel** | AI Gateway routing rules and pricing | <a href="https://vercel.com/changelog/ai-gateway-routing-rules" rel="nofollow">vercel.com</a>, <a href="https://vercel.com/docs/ai-gateway/pricing" rel="nofollow">vercel.com</a> |
+| **Vercel** | eve Agent Runs in MCP/CLI | <a href="https://vercel.com/changelog" rel="nofollow">vercel.com</a> |
+| **Vercel** | Sandbox FUSE support | <a href="https://vercel.com/changelog/vercel-sandbox-now-supports-fuse-based-filesystems" rel="nofollow">vercel.com</a> |
+| **Vercel** | Agent Resources skills | <a href="https://vercel.com/docs/agent-resources/skills" rel="nofollow">vercel.com</a> |
+| **Google** | ADK 2.0 and ADK Go 2.0 | <a href="https://adk.dev/2.0/" rel="nofollow">adk.dev</a>, <a href="https://developers.googleblog.com/announcing-adk-go-20/" rel="nofollow">developers.googleblog.com</a> |
+| **Google** | Genkit Agents | <a href="https://developers.googleblog.com/build-agentic-full-stack-apps-with-genkit/" rel="nofollow">developers.googleblog.com</a> |
+| **Mastra** | File-based agents | <a href="https://mastra.ai/blog/introducing-file-based-agents" rel="nofollow">mastra.ai</a> |
+| **DeepReinforce** | Ornith-1.0 model family | <a href="https://huggingface.co/collections/deepreinforce-ai/ornith-10" rel="nofollow">huggingface.co</a>, <a href="https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B" rel="nofollow">huggingface.co</a> |
+| **Jina AI** | jina-embeddings-v5-omni | <a href="https://jina.ai/models/jina-embeddings-v5-omni-small/" rel="nofollow">jina.ai</a> |
+| **Model Context Protocol** | Official registry and 2026-07-28 SDK betas | <a href="https://registry.modelcontextprotocol.io/" rel="nofollow">registry.modelcontextprotocol.io</a>, <a href="https://blog.modelcontextprotocol.io/posts/sdk-betas-2026-07-28/" rel="nofollow">blog.modelcontextprotocol.io</a> |
 | **AI21 Labs** | Developer Documentation | <a href="https://docs.ai21.com/docs/jamba-foundation-models" rel="nofollow">docs.ai21.com</a> |
 | **Perplexity** | Developer Documentation | <a href="https://docs.perplexity.ai" rel="nofollow">docs.perplexity.ai</a> |
 | **ByteDance (Volcengine)** | Developer Documentation | <a href="https://www.volcengine.com/docs/82379/1263482" rel="nofollow">volcengine.com</a> |
@@ -2292,7 +2316,7 @@ Additional context from the June 2026 research pass (supplements earlier tables;
 
 ---
 
-**Last Updated:** 2026-07-03 16:32 UTC
+**Last Updated:** 2026-07-03 21:56 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
