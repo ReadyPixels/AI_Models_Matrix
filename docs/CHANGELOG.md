@@ -1,3 +1,44 @@
+## [2026-07-11] - Version 3.46 - API pricing and free-tier refocus
+
+### Updated
+- **API Providers - Model Labs (Direct)**: replaced generic provider coverage with cheapest verified direct text APIs and documented free or trial access for Groq, Google Gemini, DeepSeek, Mistral, Cohere, OpenAI, Anthropic, and xAI. Sources: <a href="https://groq.com/pricing" rel="nofollow">🔗</a>, <a href="https://groq.com/groqcloud" rel="nofollow">🔗</a>, <a href="https://ai.google.dev/gemini-api/docs/pricing" rel="nofollow">🔗</a>, <a href="https://api-docs.deepseek.com/quick_start/pricing" rel="nofollow">🔗</a>, <a href="https://docs.mistral.ai/models/model-cards/mistral-small-4-0-26-03" rel="nofollow">🔗</a>, <a href="https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key" rel="nofollow">🔗</a>, <a href="https://docs.cohere.com/docs/command-r" rel="nofollow">🔗</a>, <a href="https://docs.cohere.com/docs/how-does-cohere-pricing-work" rel="nofollow">🔗</a>, <a href="https://developers.openai.com/api/docs/pricing" rel="nofollow">🔗</a>, <a href="https://developers.openai.com/api/docs/quickstart" rel="nofollow">🔗</a>, <a href="https://platform.claude.com/docs/en/about-claude/pricing" rel="nofollow">🔗</a>, <a href="https://claude.com/pricing" rel="nofollow">🔗</a>, <a href="https://docs.x.ai/developers/pricing" rel="nofollow">🔗</a>
+- **Free Tier APIs, Free AI APIs for Coding, Model Pricing Comparison, and Sort by Price**: rewrote these sections to focus on the cheapest official APIs and explicitly documented free access, including Groq Llama 3.1 8B Instant, Gemini 2.5 Flash-Lite, DeepSeek-V4-Flash, Mistral Small 4, Command R, GPT-5.4 nano, and Claude Haiku 4.5. Sources: <a href="https://groq.com/pricing" rel="nofollow">🔗</a>, <a href="https://ai.google.dev/gemini-api/docs/pricing" rel="nofollow">🔗</a>, <a href="https://api-docs.deepseek.com/quick_start/pricing" rel="nofollow">🔗</a>, <a href="https://docs.mistral.ai/models/model-cards/mistral-small-4-0-26-03" rel="nofollow">🔗</a>, <a href="https://docs.cohere.com/docs/command-r" rel="nofollow">🔗</a>, <a href="https://developers.openai.com/api/docs/pricing" rel="nofollow">🔗</a>, <a href="https://platform.claude.com/docs/en/about-claude/pricing" rel="nofollow">🔗</a>
+- **Primary Sources**: added current official pricing and free-access references for OpenAI, Anthropic, Google Gemini, DeepSeek, Mistral, Cohere, Groq, xAI, and Vercel AI Gateway. Source: <a href="https://vercel.com/docs/ai-gateway/pricing" rel="nofollow">🔗</a>
+- **Header metadata**: bumped document version to 3.46 and refreshed the Last Updated timestamp to 2026-07-11 19:14 UTC.
+
+### Removed / Deprecated
+- **Unsupported recurring free-tier claims**: removed standing free-tier wording for OpenAI and DeepSeek where the official pages did not support it.
+
+---
+
+## [2026-07-11] - Version 3.45 - GPT-Live voice models and Realtime API 2.1
+
+### Added
+- **GPT-Live (1 / 1 mini / Medium / High)** (Speech & TTS): OpenAI's full-duplex voice model family powering ChatGPT Voice, announced 2026-07-08; GPT-Live-1 default for paid tiers, GPT-Live-1 mini for Free; GPT-5.5 backend delegates complex work; API pending. Source: <a href="https://openai.com/index/introducing-gpt-live/" rel="nofollow">🔗</a>
+- **GPT-Realtime 2.1 / 2.1-mini** (Speech & TTS): newer Realtime API speech-to-speech models with function calling, MCP servers, and SIP; shipped 2026-07-06. Source: <a href="https://platform.openai.com/docs/guides/realtime" rel="nofollow">🔗</a>
+
+### Updated
+- **Speech & TTS section**: refreshed "Prices as of" date to July 2026 and added GPT-Live and GPT-Realtime 2.1 rows to the TTS Proprietary table.
+- **Sort by Latest Update**: added a GPT-Live row dated 2026-07-08.
+- **Primary Sources**: added OpenAI GPT-Live announcement and Realtime API 2.1 documentation sources.
+- **Supplemental agent & CLI notes**: added a GPT-Live voice models note.
+- **Evaluation & Observability**: refreshed the "As of" date to July 2026 and added Braintrust Topics active-observability GA (June 2026) to the Braintrust row. Source: <a href="https://www.braintrust.dev/blog/topics-ga" rel="nofollow">🔗</a>
+- **Header metadata**: bumped document version to 3.45 and refreshed the Last Updated timestamp to 2026-07-11 21:56 UTC.
+
+### Removed / Deprecated
+- None.
+
+---
+
+## [2026-07-11] - Version 3.44 - GPT-5.6 GA and Gemma 4 refresh
+
+### Added
+- **Gemma 4**: recorded the 2026-07-06 public release of Gemma 4 31B and Gemma 4 26B-A4B through the Gemini API and AI Studio. Source: <a href="https://ai.google.dev/gemini-api/docs/changelog" rel="nofollow">🔗</a>
+
+### Updated
+- **GPT-5.6**: changed Sol, Terra, and Luna from limited preview to general availability and refreshed release dates to 2026-07-09. Source: <a href="https://openai.com/index/gpt-5-6/" rel="nofollow">🔗</a>
+- **Header metadata**: bumped document version to 3.44 and refreshed the Last Updated timestamp to 2026-07-11 00:00 UTC.
+
 ## [2026-07-03] - Version 3.43 - Deep infrastructure and source consistency refresh
 
 ### Added
