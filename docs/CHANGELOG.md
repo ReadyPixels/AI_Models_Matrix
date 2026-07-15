@@ -1,3 +1,19 @@
+## [2026-07-15] - Version 3.47 - xAI Grok-4.5, Codex CLI 0.144.3, MCP registry growth
+
+### Added
+- **Grok-4.5** (Frontier Models, Model Specifications, Model Labs (Direct), Full Benchmark Table): new xAI frontier multimodal LLM (2026-07-08) with 500K context, text+image input, function calling, structured outputs, and reasoning; API pricing $2.00 input / $0.50 cached input / $6.00 output per 1M tokens; available in Palantir AIP from 2026-07-14. Source: <a href="https://docs.x.ai/developers/models/grok-4.5" rel="nofollow">🔗</a>
+- **Grok-4.5** (Sort by Latest Update, Model Pricing Comparison): mirrored the new flagship into the reference and pricing derived tables. Source: <a href="https://docs.x.ai/developers/models/grok-4.5" rel="nofollow">🔗</a>
+
+### Updated
+- **Codex CLI** (Autonomous Coding Agents): bumped tracked version from 0.142.5 (2026-07-01) to 0.144.3 (2026-07-13, version-only) and 0.144.2 (2026-07-13, restored Guardian auto-review policy after a prompting regression). Source: <a href="https://developers.openai.com/codex/changelog" rel="nofollow">🔗</a>
+- **MCP Ecosystem**: refreshed the Glama community registry server count to 55,658 on 2026-07-15 (up from ~19,831 in March 2026). Sources: <a href="https://registry.modelcontextprotocol.io/" rel="nofollow">🔗</a>, <a href="https://glama.ai/mcp/servers" rel="nofollow">🔗</a>
+- **Header metadata**: bumped document version to 3.47 and refreshed the Last Updated timestamp to 2026-07-15 13:24 UTC; refreshed the "latest data" reference date and added Grok-4.5 and Codex CLI highlights.
+
+### Removed / Deprecated
+- None.
+
+---
+
 ## [2026-07-11] - Version 3.46 - API pricing and free-tier refocus
 
 ### Updated

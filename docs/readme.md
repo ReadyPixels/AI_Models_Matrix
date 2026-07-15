@@ -6,7 +6,7 @@
 
 <a href="https://awesome.re" rel="nofollow"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
-<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--07--11%2019%3A14%20UTC-green.svg" alt="Last Updated"></a>
+<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--07--15%2013%3A24%20UTC-green.svg" alt="Last Updated"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social" alt="Star History"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social" alt="Forks"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix/issues" rel="nofollow"><img src="https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix" alt="Issues"></a>
@@ -21,8 +21,10 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ### 🔥 Highlights
 - **138+ AI models** from major providers (OpenAI, Anthropic, Google, Meta, xAI, Microsoft, and others)
-- **Latest pricing** and performance benchmarks (latest data through 2026-07-11 19:14 UTC)
+- **Latest pricing** and performance benchmarks (latest data through 2026-07-15 13:24 UTC)
 - **GPT-5.6** reached general availability on 2026-07-09 across ChatGPT, Codex, and the OpenAI API; Sol, Terra, and Luna remain the three-tier family.
+- **Grok-4.5** (xAI, 2026-07-08): new frontier multimodal LLM with a 500K context window, text+image input, function calling, structured outputs, and reasoning; API pricing $2.00 / $0.50 cached / $6.00 per 1M tokens. Now the xAI flagship route over Grok 4.3. Source: <a href="https://docs.x.ai/developers/models/grok-4.5" rel="nofollow">🔗</a>
+- **Codex CLI 0.144.3** (2026-07-13) shipped a version-only release; **0.144.2** (2026-07-13) restored the previous Guardian auto-review policy after a prompting regression. Prior doc tracked 0.142.5 (2026-07-01).
 - **Gemma 4** models were released through the Gemini API and AI Studio on 2026-07-06, including Gemma 4 31B and Gemma 4 26B-A4B.
 - **Claude Sonnet 5** launched 2026-06-30 00:00 UTC with 1M context, 128K output, $2.00 / $10.00 introductory pricing through 2026-08-31 00:00 UTC, and 92.4% SWE-bench Verified
 - **Claude Fable 5 and Mythos 5** access restored 2026-07-01 00:00 UTC after export controls were lifted; Fable 5 globally available while Mythos 5 remains restricted to Project Glasswing partners
@@ -65,8 +67,8 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.46
-- **Last Updated**: 2026-07-11 19:14 UTC
+- **Document Version**: 3.47
+- **Last Updated**: 2026-07-15 13:24 UTC
 - **Repository**: <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow">github.com/ReadyPixels/AI_Models_Matrix</a>
 - **License**: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">CC BY-NC 4.0</a>
 
@@ -152,16 +154,19 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **GPT-5.6 Sol** ⭐ | OpenAI | 1M+ | — | — | — | — | $5.00 / $30.00 | 2026-07-09 ⭐ |
 | **GPT-5.6 Terra** ⭐ | OpenAI | 1M+ | — | — | — | — | $2.50 / $15.00 | 2026-07-09 ⭐ |
 | **GPT-5.6 Luna** ⭐ | OpenAI | 1M+ | — | — | — | — | $1.00 / $6.00 | 2026-07-09 ⭐ |
+| **Grok-4.5** ⭐ | xAI | 500K | — | — | — | — | $2.00 / $6.00 | 2026-07-08 ⭐ |
 
 > ⭐ **Claude Fable 5 and Mythos 5 redeployed**: Anthropic says export controls were lifted on 2026-06-30 00:00 UTC, and access to Fable 5 and Mythos 5 was restored on 2026-07-01 00:00 UTC. Fable 5 is available globally on Claude Platform, Claude.ai, Claude Code, and Claude Cowork, with cloud partner re-enablement in progress. Mythos 5 access is restored for approved US organizations and remains limited to Project Glasswing partners. Fable 5 has a 30-day data retention requirement, uses a different tokenizer (+30% token overhead vs Opus), and is unavailable for Zero Data Retention (ZDR) agreements. Source: <a href="https://www.anthropic.com/news/redeploying-fable-5" rel="nofollow">🔗</a>
 >
 > ⭐ **GPT-5.6 Sol/Terra/Luna** (OpenAI, 2026-07-09): General availability release following the limited preview. Three-tier family: Sol ($5.00/$30.00), Terra ($2.50/$15.00), Luna ($1.00/$6.00) per 1M tokens. Source: <a href="https://openai.com/index/gpt-5-6/" rel="nofollow">🔗</a>
 >
+> ⭐ **Grok-4.5** (xAI, 2026-07-08): New frontier multimodal LLM — the xAI flagship route over Grok 4.3. 500K context window, text+image input and text output, with function calling, structured outputs, and reasoning. API pricing $2.00 input / $0.50 cached input / $6.00 output per 1M tokens. Released 2026-07-08; available in Palantir AIP from 2026-07-14. Source: <a href="https://docs.x.ai/developers/models/grok-4.5" rel="nofollow">🔗</a>
+>
 > ⚠️ **GPT-5.5 Instant pricing correction**: The API pricing for GPT-5.5 Instant is $0.20/$1.00 per 1M tokens (input/output), not $5.00/$30.00 which is the standard GPT-5.5 rate. GPT-5.5 Instant replaced GPT-5.3 Instant as the free-tier ChatGPT default on May 5, 2026.
 
 ### Model Specifications 📋
 
-Detailed technical specifications, pricing, and capabilities for frontier models and notable API models. Data as of 2026-07-03 21:56 UTC.
+Detailed technical specifications, pricing, and capabilities for frontier models and notable API models. Data as of 2026-07-15 13:24 UTC.
 
 #### Output Token Limits
 
@@ -201,6 +206,7 @@ Maximum output tokens per single API request.
 | **Grok 4 Fast** | 30K | 128K | Now aliased to Grok 4.3; $0.20 / $0.50 |
 | **Grok 4.20** | 30K | 2M | All variants: $1.25 / $2.50 |
 | **Grok 4.3** | 30K | 1M | Always-on reasoning; released 2026-05-01 |
+| **Grok-4.5** ⭐ | — | 500K | Multimodal (text+image); function calling, structured outputs, reasoning; $2.00 / $6.00; released 2026-07-08 |
 | **Mistral Small 4** | 8K | 256K | 119B MoE; multimodal (text+image); $0.15 / $0.60 |
 | **Mistral Medium 3.5** | 8K | 256K | Released 2026-04-29; 128B dense; $1.50/$7.50 |
 | **Mistral Large 3** | 8K | 256K | — |
@@ -247,6 +253,7 @@ Discounted pricing tiers for high-volume usage. All prices in USD per million to
 | **Grok 4 Fast** | $0.20 | $0.05 | — | Aliased to Grok 4.3; output $0.50/1M |
 | **Grok 4.20** | $1.25 | $0.20 | — | All variants: reasoning, non-reasoning, multi-agent |
 | **Grok 4.3** | $1.25 | $0.20 | — | ~38% cheaper input than 4.20; released 2026-05-01 |
+| **Grok-4.5** ⭐ | $2.00 | $0.50 (hit) | — | Multimodal text+image; function calling, structured outputs, reasoning; released 2026-07-08 |
 | **Mistral Small 4** | $0.15 | $0.015 (estimated) | — | 119B MoE; multimodal; released 2026-03-16 |
 | **Command A+** ⭐ | $0.40 | — | — | 25B active (218B total MoE); faster than GPT-5.4 nano, Claude Haiku, Grok 4.3; released 2026-05 |
 | **Mistral Large 3** | $0.50 | $0.05 (cached) | — | Cached input $0.05/1M; 256K context |
@@ -295,6 +302,7 @@ Knowledge cutoff dates — the point after which a model has no training data.
 | **GPT-5.3-Codex** | Aug 31, 2025 | — |
 | **Grok 4 Fast** | Jul 2025 | — |
 | **Grok 4.20 / 4.3** | Jul 2025 | Approximate; not publicly disclosed |
+| **Grok-4.5** ⭐ | ~Nov 2024 | Same cutoff family as Grok 4; approximate; not separately disclosed |
 | **DeepSeek-V4 (Flash/Pro)** | May 2025 | — |
 | **Gemini 3.1 Flash-Lite** | Jan 2025 | — |
 | **Gemini 3.1 Pro / 3 Pro / 3 Flash** | Jan 2025 | — |
@@ -347,7 +355,7 @@ All frontier models support structured JSON output and function/tool calling exc
 | **Zhipu AI (GLM)** | Global | Z.AI API | MIT license enables self-hosting anywhere |
 | **MiniMax** | Global | MiniMax API | — |
 | **Moonshot AI (Kimi)** | Global | platform.kimi.ai | MIT open-weight |
-| **xAI (Grok 4 / 4.20 / 4.3 / 4 Fast)** | US-focused | Oracle OCI (East/Midwest/West), Amazon Bedrock (June 2026) | Major price cuts: Grok 4.20 now $1.25/$2.50; Grok 4 Fast aliased to 4.3; Grok 4.3 on Bedrock at $1.25/$2.50 |
+| **xAI (Grok 4 / 4.20 / 4.3 / 4.5 / 4 Fast)** | US-focused | Oracle OCI (East/Midwest/West), Amazon Bedrock (June 2026) | Major price cuts: Grok 4.20 now $1.25/$2.50; Grok 4 Fast aliased to 4.3; Grok 4.3 on Bedrock at $1.25/$2.50; Grok-4.5 flagship at $2.00/$6.00 (500K context, text+image) |
 | **Mistral** | Global | Azure AI Foundry, AWS, GCP | — |
 | **Meta (Llama)** | Global (self-host) | All major cloud providers | Llama 4 Community License |
 | **StepFun** | Global | HuggingFace | Apache 2.0 open-source |
@@ -637,7 +645,7 @@ Comprehensive hardware specifications for self-hosting AI models.
 
 ### Comprehensive Benchmark Reference 📈
 
-Detailed benchmark scores across all major evaluations. Scores are percentages (%) unless noted. Arena Elo scores are integers. `—` = not publicly reported. Data as of 2026-07-03 21:56 UTC.
+Detailed benchmark scores across all major evaluations. Scores are percentages (%) unless noted. Arena Elo scores are integers. `—` = not publicly reported. Data as of 2026-07-15 13:24 UTC.
 
 #### Full Benchmark Table
 
@@ -686,6 +694,7 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | **Grok 4** | ~91.5% | 91.5% | ~1493 | 50.7% | — | — | — | 100% | — | — | — | — |
 | **Grok 4.20** | — | — | — | — | — | — | — | — | — | — | — | — |
 | **Grok 4.3** | — | — | — | — | — | — | — | — | — | — | — | — |
+| **Grok-4.5** ⭐ | — | — | — | — | — | — | — | — | — | — | — | — |
 | **Llama 4 Maverick** | 69.8% | 80.5% | — | — | — | — | 43.4% | — | — | — | — | — |
 | **Llama 4 Scout** | 57.2% | 74.3% | — | — | — | — | 32.8% | — | — | — | — | — |
 
@@ -850,7 +859,7 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 |------|----------|---------|--------------|--------|
 | **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode, thinking tokens | <a href="https://github.com/Aider-AI/aider" rel="nofollow">🔗</a> |
 | **Claude Code 2.2.1+** | macOS, Linux, Windows | Free + API | Sonnet 5 default support via Claude Code 2.1.197+; Opus 4.8 support; Fable 5 access restored globally 2026-07-01 00:00 UTC; simple mode file editing, multi-session support, `/autofix-pr`, plan mode, computer use (research preview), CLAUDE.md skills & sub-agents | <a href="https://github.com/anthropics/claude-code" rel="nofollow">🔗</a> |
-| **Codex CLI** ⭐ | Windows, macOS, Linux | Included with ChatGPT Plus/Pro/Business/Edu/Enterprise or API key | Rust-native local coding agent; sandbox, approval modes, subagents, command autocomplete, workspace search; v0.142.5 release 2026-07-01 patched Responses WebSocket trace logging | <a href="https://developers.openai.com/codex/changelog" rel="nofollow">🔗</a> |
+| **Codex CLI** ⭐ | Windows, macOS, Linux | Included with ChatGPT Plus/Pro/Business/Edu/Enterprise or API key | Rust-native local coding agent; sandbox, approval modes, subagents, command autocomplete, workspace search; v0.144.3 release 2026-07-13 (version-only); v0.144.2 restored Guardian auto-review policy; v0.142.5 (2026-07-01) patched Responses WebSocket trace logging | <a href="https://developers.openai.com/codex/changelog" rel="nofollow">🔗</a> |
 | **Junie CLI** ⭐ | Windows, macOS, Linux | Free (BYOK) | LLM-agnostic, JetBrains IDE integration (ACP), GA 2026-06-17, agentic debugging, PR review, local model support (LiteLLM/LMStudio/Ollama) | <a href="https://www.jetbrains.com/junie" rel="nofollow">🔗</a> |
 | **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible, desktop app, 25+ providers | <a href="https://github.com/block/goose" rel="nofollow">🔗</a> |
 | **Grok Build** | Windows, macOS, Linux | $300/mo (SuperGrok/X Premium Plus) | Plan mode, Arena mode, 2M context window, security-focused | ❌ |
@@ -991,7 +1000,7 @@ Services for accessing AI models via API. This pass prioritizes the cheapest ver
 | **Cohere** | Command R | $0.15 input / $0.60 output | Trial API keys are free but limited; Command A+ is free until rate limits are reached | Low-cost RAG and tool use option | <a href="https://docs.cohere.com/docs/command-r" rel="nofollow">🔗</a>, <a href="https://docs.cohere.com/docs/how-does-cohere-pricing-work" rel="nofollow">🔗</a>, <a href="https://docs.cohere.com/docs/command-a-plus" rel="nofollow">🔗</a> |
 | **OpenAI** | GPT-5.4 nano | $0.20 input / $1.25 output | OpenAI quickstart includes one free test API request | Batch and Flex drop to $0.10 / $0.625 | <a href="https://developers.openai.com/api/docs/pricing" rel="nofollow">🔗</a>, <a href="https://developers.openai.com/api/docs/quickstart" rel="nofollow">🔗</a> |
 | **Anthropic** | Claude Haiku 4.5 | $1.00 input / $5.00 output | New users receive a small amount of free credits | Lowest-cost Claude API model | <a href="https://platform.claude.com/docs/en/about-claude/pricing" rel="nofollow">🔗</a>, <a href="https://claude.com/pricing" rel="nofollow">🔗</a> |
-| **xAI** | Grok 4.3 | $1.25 input / $2.50 output | No public free tier listed on pricing page | Grok 4.5 is $2.00 / $6.00 | <a href="https://docs.x.ai/developers/pricing" rel="nofollow">🔗</a> |
+| **xAI** | Grok-4.5 | $2.00 input / $0.50 cached / $6.00 output | No public free tier listed on pricing page | New flagship (2026-07-08); 500K context, text+image; Grok 4.3 remains $1.25 / $2.50 | <a href="https://docs.x.ai/developers/models/grok-4.5" rel="nofollow">🔗</a> |
 
 #### Unified APIs & Aggregators
 
@@ -1637,7 +1646,7 @@ Tools for tracing LLM calls, evaluating output quality, debugging RAG pipelines,
 
 ### MCP Ecosystem 🔌
 
-The <a href="https://modelcontextprotocol.io" rel="nofollow">Model Context Protocol (MCP)</a> is an open standard originally by Anthropic, now governed by the **Agentic AI Foundation (AAIF)** under the Linux Foundation (co-founded by Anthropic, Block, and OpenAI; supported by Google, Microsoft, AWS, Cloudflare, Bloomberg). It connects LLMs to external tools and data sources via a unified JSON-RPC 2.0 interface, supporting STDIO and Streamable HTTP transports. The official MCP Registry at <a href="https://registry.modelcontextprotocol.io/" rel="nofollow">registry.modelcontextprotocol.io</a> is the preview centralized metadata repository for publicly accessible MCP servers, with registry docs at <a href="https://modelcontextprotocol.io/registry/about" rel="nofollow">modelcontextprotocol.io/registry</a>. MCP SDK downloads exceeded **97 million monthly** by March 2026. The **2026-07-28 spec release candidate** (locked May 21, 2026) introduces stateless core transport, Tasks extension for long-running work, MCP Apps for server-rendered UIs, OAuth 2.1 alignment, and a formal deprecation policy. Docker Custom MCP Catalogs and Profiles reached GA in May 2026. Microsoft Power BI MCP server released June 2026.
+The <a href="https://modelcontextprotocol.io" rel="nofollow">Model Context Protocol (MCP)</a> is an open standard originally by Anthropic, now governed by the **Agentic AI Foundation (AAIF)** under the Linux Foundation (co-founded by Anthropic, Block, and OpenAI; supported by Google, Microsoft, AWS, Cloudflare, Bloomberg). It connects LLMs to external tools and data sources via a unified JSON-RPC 2.0 interface, supporting STDIO and Streamable HTTP transports. The official MCP Registry at <a href="https://registry.modelcontextprotocol.io/" rel="nofollow">registry.modelcontextprotocol.io</a> is the preview centralized metadata repository for publicly accessible MCP servers, with registry docs at <a href="https://modelcontextprotocol.io/registry/about" rel="nofollow">modelcontextprotocol.io/registry</a>. MCP SDK downloads exceeded **97 million monthly** by March 2026, and the Glama community registry now indexes **55,000+ servers** (55,658 on 2026-07-15, up from ~19,831 in March 2026). The **2026-07-28 spec release candidate** (locked May 21, 2026) introduces stateless core transport, Tasks extension for long-running work, MCP Apps for server-rendered UIs, OAuth 2.1 alignment, and a formal deprecation policy. Docker Custom MCP Catalogs and Profiles reached GA in May 2026. Microsoft Power BI MCP server released June 2026.
 
 **MCP Clients:** Claude Desktop, Claude Code, Cursor, Windsurf, VS Code (Copilot + ACP Client), Continue.dev, Zed, ChatGPT, Gemini, Microsoft Copilot, LibreChat, and more.
 
@@ -1959,7 +1968,7 @@ Comprehensive pricing comparisons and cost calculations.
 
 #### Model Pricing Comparison
 
-Comparative pricing across the cheapest official public APIs verified in this pass. Only providers and models rechecked against current official pricing pages are included below. As of 2026-07-11 19:14 UTC.
+Comparative pricing across the cheapest official public APIs verified in this pass. Only providers and models rechecked against current official pricing pages are included below. As of 2026-07-15 13:24 UTC.
 
 | Model | Input | Output | Cached Input | Best For | Source |
 |-------|-------|--------|--------------|----------|--------|
@@ -1972,6 +1981,7 @@ Comparative pricing across the cheapest official public APIs verified in this pa
 | **GPT-5.4 nano** | $0.20 | $1.25 | $0.02 | OpenAI lowest-cost standard model | <a href="https://developers.openai.com/api/docs/pricing" rel="nofollow">🔗</a> |
 | **Claude Haiku 4.5** | $1.00 | $5.00 | $0.10 (read) | Lowest-cost Claude model | <a href="https://claude.com/pricing" rel="nofollow">🔗</a> |
 | **GPT-5.6 Luna** | $1.00 | $6.00 | $0.10 | Cheapest current GPT-5.6 tier | <a href="https://developers.openai.com/api/docs/pricing" rel="nofollow">🔗</a> |
+| **Grok-4.5** | $2.00 | $6.00 | $0.50 (hit) | xAI new flagship (2026-07-08); 500K context, text+image; function calling, structured outputs, reasoning | <a href="https://docs.x.ai/developers/models/grok-4.5" rel="nofollow">🔗</a> |
 | **Grok 4.3** | $1.25 | $2.50 | $0.20 | xAI flagship at the current public rate card | <a href="https://docs.x.ai/developers/pricing" rel="nofollow">🔗</a> |
 | **Claude Sonnet 5** | $2.00 intro / $3.00 standard | $10.00 intro / $15.00 standard | $0.20 intro read | Strong coding model if the budget can stretch | <a href="https://claude.com/pricing" rel="nofollow">🔗</a> |
 
@@ -2046,6 +2056,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 🤖 Anthropic | Claude | Fable 5 redeployed | 2026-06-09 00:00 UTC | 2026-07-01 00:00 UTC ⭐ | ✅ | SWE-bench 95.0% | $10.00 / $50.00 | ❌ | <a href="https://www.anthropic.com/news/redeploying-fable-5" rel="nofollow">🔗</a> |
 | 🤖 Anthropic | Claude | Sonnet 5 | 2026-06-30 00:00 UTC | 2026-06-30 00:00 UTC ⭐ | ✅ | SWE-bench 92.4%, SWE-bench Pro 63.2%, HLE 57.4% with tools | $2.00 / $10.00 intro | ❌ | <a href="https://www.anthropic.com/news/claude-sonnet-5" rel="nofollow">🔗</a> |
 | 🤖 OpenAI | GPT-5.6 | Sol / Terra / Luna | 2026-07-09 00:00 UTC | 2026-07-09 00:00 UTC ⭐ | ✅ | General availability; Sol $5/$30, Terra $2.50/$15, Luna $1/$6 | ❌ | <a href="https://openai.com/index/gpt-5-6/" rel="nofollow">🔗</a> |
+| 🚀 xAI | Grok | 4.5 | 2026-07-08 00:00 UTC | 2026-07-08 00:00 UTC ⭐ | ✅ | New frontier multimodal LLM; 500K context; $2.00/$6.00 | ❌ | <a href="https://docs.x.ai/developers/models/grok-4.5" rel="nofollow">🔗</a> |
 | 🤖 OpenAI | GPT-Live | 1 / 1 mini | 2026-07-08 00:00 UTC | 2026-07-08 00:00 UTC ⭐ | — | Full-duplex voice models powering ChatGPT Voice; GPT-5.5 backend; API pending | ❌ | <a href="https://openai.com/index/introducing-gpt-live/" rel="nofollow">🔗</a> |
 | 🇨🇳 MiniMax | M2 / M2.1 | Open-source | 2026-07-02 00:00 UTC | 2026-07-02 00:00 UTC ⭐ | ✅ | 230B/10B active MoE, 1M context, Apache 2.0 | ✅ | <a href="https://www.minimax.io/news/minimax-m2" rel="nofollow">🔗</a> |
 | 🌐 Google DeepMind | Gemini Omni Flash | — | 2026-06-30 00:00 UTC | 2026-06-30 00:00 UTC ⭐ | ✅ | $0.10/s video; any-to-any multimodal | ❌ | <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/" rel="nofollow">🔗</a> |
@@ -2234,7 +2245,7 @@ Attribution, verification sources, and methodology.
 | **ByteDance (Volcengine)** | Developer Documentation | <a href="https://www.volcengine.com/docs/82379/1263482" rel="nofollow">volcengine.com</a> |
 | **Tencent (Hunyuan)** | Cloud Documentation | <a href="https://cloud.tencent.com/document/product/1729/97730" rel="nofollow">cloud.tencent.com</a> |
 | **Baidu (ERNIE)** | AI Studio Documentation | <a href="https://ai.baidu.com/ai-doc/AISTUDIO/Mmhslv9lf" rel="nofollow">ai.baidu.com</a> |
-| **xAI** | Grok API pricing & models | <a href="https://docs.x.ai/developers/pricing" rel="nofollow">docs.x.ai</a>, <a href="https://docs.x.ai/developers/models/grok-4.3" rel="nofollow">docs.x.ai</a> |
+| **xAI** | Grok API pricing & models | <a href="https://docs.x.ai/developers/pricing" rel="nofollow">docs.x.ai</a>, <a href="https://docs.x.ai/developers/models/grok-4.5" rel="nofollow">docs.x.ai</a> |
 | **Apple** | Foundation Models 3rd Gen announcement | <a href="https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models" rel="nofollow">machinelearning.apple.com</a> |
 | **Meta** | Llama Documentation | <a href="https://llama.meta.com" rel="nofollow">llama.meta.com</a> |
 
@@ -2283,7 +2294,7 @@ Additional context from the June 2026 research pass (supplements earlier tables;
 
 ---
 
-**Last Updated:** 2026-07-11 19:14 UTC
+**Last Updated:** 2026-07-15 13:24 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
