@@ -6,7 +6,7 @@
 
 <a href="https://awesome.re" rel="nofollow"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
-<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--07--15%2013%3A24%20UTC-green.svg" alt="Last Updated"></a>
+<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--07--16%2007%3A03%20UTC-green.svg" alt="Last Updated"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social" alt="Star History"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social" alt="Forks"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix/issues" rel="nofollow"><img src="https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix" alt="Issues"></a>
@@ -21,17 +21,17 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ### 🔥 Highlights
 - **138+ AI models** from major providers (OpenAI, Anthropic, Google, Meta, xAI, Microsoft, and others)
-- **Latest pricing** and performance benchmarks (latest data through 2026-07-15 13:24 UTC)
+- **Latest pricing** and performance benchmarks (latest data through 2026-07-16 07:03 UTC)
 - **GPT-5.6** reached general availability on 2026-07-09 across ChatGPT, Codex, and the OpenAI API; Sol, Terra, and Luna remain the three-tier family.
 - **Grok-4.5** (xAI, 2026-07-08): new frontier multimodal LLM with a 500K context window, text+image input, function calling, structured outputs, and reasoning; API pricing $2.00 / $0.50 cached / $6.00 per 1M tokens. Now the xAI flagship route over Grok 4.3. Source: <a href="https://docs.x.ai/developers/models/grok-4.5" rel="nofollow">🔗</a>
-- **Codex CLI 0.144.3** (2026-07-13) shipped a version-only release; **0.144.2** (2026-07-13) restored the previous Guardian auto-review policy after a prompting regression. Prior doc tracked 0.142.5 (2026-07-01).
+- **Codex CLI 0.144.5** (2026-07-16) improved dangerous-command detection and clearer rejection reasons; **0.144.4** (2026-07-14) had no user-facing changes; **0.144.3** (2026-07-13) was version-only.
 - **Gemma 4** models were released through the Gemini API and AI Studio on 2026-07-06, including Gemma 4 31B and Gemma 4 26B-A4B.
 - **Claude Sonnet 5** launched 2026-06-30 00:00 UTC with 1M context, 128K output, $2.00 / $10.00 introductory pricing through 2026-08-31 00:00 UTC, and 92.4% SWE-bench Verified
 - **Claude Fable 5 and Mythos 5** access restored 2026-07-01 00:00 UTC after export controls were lifted; Fable 5 globally available while Mythos 5 remains restricted to Project Glasswing partners
 - **Cartesia Sonic-3.5 and Ink-2** are now official production speech models for low-latency voice agents
 - **MiniMax Speech 2.8** official page verified: native sound tags, high-fidelity cloning, and studio-grade multilingual TTS
 - **GPT-Live** (OpenAI, 2026-07-08): full-duplex voice model family powering ChatGPT Voice; GPT-Live-1 default for paid tiers, GPT-Live-1 mini for Free; no API yet (`soon`); GPT-5.5 backend delegates complex work. GPT-Realtime 2.1 / 2.1-mini shipped 2026-07-06 in the Realtime API with function calling, MCP, and SIP support
-- **Kiro 1.0.52**, **Cursor Team Marketplace MCPs**, **Codex CLI 0.142.0**, and **Windsurf quota-based plans** refreshed from official release notes
+- **Cursor 3.11**, **Kiro 1.0.138**, and **Codex CLI 0.144.5** refreshed from official release notes
 - **Codex CLI 0.142.5** patched WebSocket trace logging, and **GitHub Copilot** added enterprise agent session streaming plus `GITHUB_TOKEN` support for Copilot CLI in GitHub Actions
 - **Browser Use CLI 3.0**, **Browser Harness**, and **Vercel agent-browser** refreshed in Browser Automation from official project docs and releases
 - **Vercel AI Gateway routing rules**, **eve Agent Runs in Vercel MCP/CLI**, and **Vercel Sandbox FUSE support** added from official July 2026 changelogs
@@ -67,8 +67,8 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.47
-- **Last Updated**: 2026-07-15 13:24 UTC
+- **Document Version**: 3.48
+- **Last Updated**: 2026-07-16 07:03 UTC
 - **Repository**: <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow">github.com/ReadyPixels/AI_Models_Matrix</a>
 - **License**: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">CC BY-NC 4.0</a>
 
@@ -771,12 +771,12 @@ Integrated Development Environments with built-in AI capabilities.
 
 | IDE | Platform | Version | Release Date | Pricing | Autonomous | MCP | GitHub |
 |----------|---------|---------|---------------|---------|------------|-----|--------|
-| **Cursor** | Windows, macOS, Linux | Changelog 2026-06-30 | 2026-06-30 00:00 UTC ⭐ | Free / Pro $20/mo / Pro+ $60/mo / Ultra $200/mo; Team marketplaces now support Team MCPs and organization groups | ✅ | ✅ | ❌ |
+| **Cursor** ⭐ | Windows, macOS, Linux | 3.11 | 2026-07-10 00:00 UTC ⭐ | Free / Pro $20/mo / Pro+ $60/mo / Ultra $200/mo; side chats, conversation search, and simpler project/repo pickers | ✅ | ✅ | ❌ |
 | **Windsurf** | Windows, macOS, Linux | Quota plans | 2026-03-19 00:00 UTC | Free / Pro $20/mo / Teams $40/user/mo / Max $200/mo | ✅ | ✅ | ❌ |
 | **Trae** | macOS, Windows | - | - | Free | ❌ | ❌ | <a href="https://github.com/Trae-AI/TRAE" rel="nofollow">🔗</a> |
 | **PearAI** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ❌ | <a href="https://github.com/trypear/pearai-app" rel="nofollow">🔗</a> |
 | **Void** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ✅ | <a href="https://github.com/voideditor/void" rel="nofollow">🔗</a> |
-| **Kiro** | Windows, macOS, Linux | 1.0.52 | 2026-06-25 00:00 UTC ⭐ | Free preview; custom agents, permissions, agent focus mode, natural-language hooks, dockable chat tabs; auto-updates paused for 1.0.x | ✅ | ✅ | <a href="https://kiro.dev/changelog/ide/" rel="nofollow">🔗</a> |
+| **Kiro** ⭐ | Windows, macOS, Linux | 1.0.138 | 2026-07-13 00:00 UTC ⭐ | Free preview; faster session startup, PowerShell trust on Windows, compaction-loop fix for long sessions, and improved MCP tool recovery; latest 1.0.x builds download directly while auto-updates roll out gradually | ✅ | ✅ | <a href="https://kiro.dev/changelog/ide/" rel="nofollow">🔗</a> |
 | **VS Code Agents** | Windows, macOS, Linux | Insiders | 2026-04-21 | Free | ✅ | ✅ | <a href="https://code.visualstudio.com/updates/v1_115#_visual-studio-code-agents-preview" rel="nofollow">🔗</a> |
 
 > **Cursor vs. Windsurf Pricing (June 2026):** Cursor Pro is $20/month, Pro+ is $60/month, and Ultra is $200/month. Windsurf Pro is $15/month and Max is $200/month. Cursor tightens premium request quotas quarterly; heavy users often spend $40–50/mo in overages. Windsurf offers better value at the Pro tier with fewer quota restrictions. For a full alternatives analysis, see [Cursor Alternatives & Better Value ↓](#cursor-alternatives--better-value-).
@@ -859,7 +859,7 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 |------|----------|---------|--------------|--------|
 | **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode, thinking tokens | <a href="https://github.com/Aider-AI/aider" rel="nofollow">🔗</a> |
 | **Claude Code 2.2.1+** | macOS, Linux, Windows | Free + API | Sonnet 5 default support via Claude Code 2.1.197+; Opus 4.8 support; Fable 5 access restored globally 2026-07-01 00:00 UTC; simple mode file editing, multi-session support, `/autofix-pr`, plan mode, computer use (research preview), CLAUDE.md skills & sub-agents | <a href="https://github.com/anthropics/claude-code" rel="nofollow">🔗</a> |
-| **Codex CLI** ⭐ | Windows, macOS, Linux | Included with ChatGPT Plus/Pro/Business/Edu/Enterprise or API key | Rust-native local coding agent; sandbox, approval modes, subagents, command autocomplete, workspace search; v0.144.3 release 2026-07-13 (version-only); v0.144.2 restored Guardian auto-review policy; v0.142.5 (2026-07-01) patched Responses WebSocket trace logging | <a href="https://developers.openai.com/codex/changelog" rel="nofollow">🔗</a> |
+| **Codex CLI** ⭐ | Windows, macOS, Linux | Included with ChatGPT Plus/Pro/Business/Edu/Enterprise or API key | Rust-native local coding agent; sandbox, approval modes, subagents, command autocomplete, workspace search; v0.144.5 (2026-07-16) improved dangerous-command detection and denial messaging; v0.144.4 (2026-07-14) had no user-facing changes; v0.144.2 restored Guardian auto-review policy | <a href="https://developers.openai.com/codex/changelog" rel="nofollow">🔗</a> |
 | **Junie CLI** ⭐ | Windows, macOS, Linux | Free (BYOK) | LLM-agnostic, JetBrains IDE integration (ACP), GA 2026-06-17, agentic debugging, PR review, local model support (LiteLLM/LMStudio/Ollama) | <a href="https://www.jetbrains.com/junie" rel="nofollow">🔗</a> |
 | **Goose** | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible, desktop app, 25+ providers | <a href="https://github.com/block/goose" rel="nofollow">🔗</a> |
 | **Grok Build** | Windows, macOS, Linux | $300/mo (SuperGrok/X Premium Plus) | Plan mode, Arena mode, 2M context window, security-focused | ❌ |
@@ -2288,13 +2288,15 @@ Additional context from the June 2026 research pass (supplements earlier tables;
 - **GLM-5.2 open-source release** - Zhipu AI open-sourced GLM-5.2 (753B MoE, 1M context, MIT license) on 2026-06-17; available via API at $1.40/$4.40 per 1M; leads AIME 2026 at 99.2%.
 - **MCP 2026-07-28 spec RC** - Largest revision since initial release; six breaking changes including stateless transport, two new required HTTP headers, Tasks lifecycle primitive; SDK maintainers have 10 weeks to ship support.
 - **GPT-Live voice models** - OpenAI launched GPT-Live (1, 1 mini, Medium, High) on 2026-07-08, replacing Advanced Voice Mode inside ChatGPT; full-duplex consumer voice stack with GPT-5.5 backend delegation. No developer API at launch (Realtime API with gpt-realtime-2.1, shipped 2026-07-06, is the API path). See the TTS Proprietary table entry.
+- **Codex CLI 0.144.5** - OpenAI shipped a patch release on 2026-07-16 that expands dangerous-command detection, including more forced `rm` forms, and returns clearer denial reasons when a command is blocked.
+- **Cursor 3.11 and Kiro 1.0.138** - Cursor added side chats, conversation search, and simpler project/repo pickers on 2026-07-10. Kiro's 2026-07-13 IDE release improved session startup, fixed compaction loops on large sessions, added full PowerShell trust on Windows, and improved MCP tool recovery after transient network failures.
 - **<a href="https://skills.sh" rel="nofollow">skills.sh</a>** — Primary registry for Agent Skills packages (see [Agent Skills & Registries 🎯](#agent-skills--registries-)); pairs naturally with CLI-first workflows (Claude Code, Gemini CLI, MCP-capable agents).
 - **CrewAI** — Multi-agent framework with OSS core plus AMP Studio / AMP Cloud paths; vendor positioning emphasizes transparent orchestration, visual workflows, broad tool integrations, and team-scale adoption (see the **CrewAI** row in the Multi-Agent / Parallel Agent Platforms table in this document).
 - **Aiden** — Listed above under local desktop agents as a local-first, Windows-native autonomous stack for running agents without mandatory cloud offload (<a href="https://github.com/taracodlabs/aiden" rel="nofollow">taracodlabs/aiden</a>).
 
 ---
 
-**Last Updated:** 2026-07-15 13:24 UTC
+**Last Updated:** 2026-07-16 07:03 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---

@@ -1,3 +1,19 @@
+## [2026-07-16] - Version 3.48 - Codex CLI 0.144.5 and IDE release-note refresh
+
+### Added
+- None.
+
+### Updated
+- **Codex CLI** (CLI Tools - Autonomous Coding Agents, Highlights, Supplemental notes): updated tracked release from 0.144.3 to 0.144.5 and noted the 2026-07-16 dangerous-command detection patch plus the 0.144.4 no-op patch on 2026-07-14. Source: <a href="https://developers.openai.com/codex/changelog" rel="nofollow">🔗</a>
+- **Cursor** (IDEs - VS Code Forks, Highlights, Supplemental notes): updated the tracked release from 2026-06-30 to Cursor 3.11 on 2026-07-10 with side chats, conversation search, and simplified project/repo pickers. Source: <a href="https://cursor.com/changelog" rel="nofollow">🔗</a>
+- **Kiro** (IDEs - VS Code Forks, Highlights, Supplemental notes): updated the tracked IDE release from 1.0.52 to 1.0.138 on 2026-07-13 with faster sessions, PowerShell trust on Windows, compaction fixes, and improved MCP tool recovery. Source: <a href="https://kiro.dev/changelog/ide/" rel="nofollow">🔗</a>
+- **Header metadata**: bumped document version to 3.48 and refreshed the Last Updated timestamp to 2026-07-16 07:03 UTC.
+
+### Removed / Deprecated
+- None.
+
+---
+
 ## [2026-07-15] - Version 3.47 - xAI Grok-4.5, Codex CLI 0.144.3, MCP registry growth
 
 ### Added
