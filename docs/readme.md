@@ -772,28 +772,28 @@ Integrated Development Environments with built-in AI capabilities.
 | IDE | Platform | Version | Release Date | Pricing | Autonomous | MCP | GitHub |
 |----------|---------|---------|---------------|---------|------------|-----|--------|
 | **Cursor** ⭐ | Windows, macOS, Linux | 3.11 | 2026-07-10 00:00 UTC ⭐ | Free / Pro $20/mo / Pro+ $60/mo / Ultra $200/mo; side chats, conversation search, and simpler project/repo pickers | ✅ | ✅ | ❌ |
-| **Windsurf** | Windows, macOS, Linux | Quota plans | 2026-03-19 00:00 UTC | Free / Pro $20/mo / Teams $40/user/mo / Max $200/mo | ✅ | ✅ | ❌ |
+| **Windsurf** | Windows, macOS, Linux | Quota plans | 2026-03-19 00:00 UTC | Free / Pro $20/mo / Max $200/mo / Teams from $40 flex seat or $80 full user per month | ✅ | ✅ | ❌ |
 | **Trae** | macOS, Windows | - | - | Free | ❌ | ❌ | <a href="https://github.com/Trae-AI/TRAE" rel="nofollow">🔗</a> |
 | **PearAI** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ❌ | <a href="https://github.com/trypear/pearai-app" rel="nofollow">🔗</a> |
 | **Void** | Windows, macOS, Linux | - | - | Free (OSS) | ✅ | ✅ | <a href="https://github.com/voideditor/void" rel="nofollow">🔗</a> |
 | **Kiro** ⭐ | Windows, macOS, Linux | 1.0.138 | 2026-07-13 00:00 UTC ⭐ | Free preview; faster session startup, PowerShell trust on Windows, compaction-loop fix for long sessions, and improved MCP tool recovery; latest 1.0.x builds download directly while auto-updates roll out gradually | ✅ | ✅ | <a href="https://kiro.dev/changelog/ide/" rel="nofollow">🔗</a> |
 | **VS Code Agents** | Windows, macOS, Linux | Insiders | 2026-04-21 | Free | ✅ | ✅ | <a href="https://code.visualstudio.com/updates/v1_115#_visual-studio-code-agents-preview" rel="nofollow">🔗</a> |
 
-> **Cursor vs. Windsurf Pricing (June 2026):** Cursor Pro is $20/month, Pro+ is $60/month, and Ultra is $200/month. Windsurf Pro is $15/month and Max is $200/month. Cursor tightens premium request quotas quarterly; heavy users often spend $40–50/mo in overages. Windsurf offers better value at the Pro tier with fewer quota restrictions. For a full alternatives analysis, see [Cursor Alternatives & Better Value ↓](#cursor-alternatives--better-value-).
+> **Cursor vs. Windsurf Pricing (July 2026):** Cursor Pro is $20/month, Pro+ is $60/month, and Ultra is $200/month. Windsurf Pro is $20/month and Max is $200/month, with Teams offering $40 flex seats or $80 full users per month. Cursor's current differentiator is broader cloud-agent and customization surface, while Windsurf's post-March 2026 quota plans simplify spend predictability. For a full alternatives analysis, see [Cursor Alternatives & Better Value ↓](#cursor-alternatives--better-value-).
 
 #### Cursor Alternatives & Better Value 🎯
 
 Cursor Pro is $20/month, while several official pricing pages and product docs show lower-cost or BYOK alternatives with similar agent workflows, local-model support, or broader IDE coverage.
 
-##### Pricing Reality Check (June 2026)
+##### Pricing Reality Check (July 2026)
 
 | Tool | Free Tier | Pro / Paid | Premium / Max | Notes |
 |------|-----------|-----------|----------------|-------|
 | **Cursor** | 2K completions + 50 premium req | $20/mo (Pro) / $60/mo (Pro+) | $200/mo (Ultra) | Heavy users report $40–60/mo effective cost; quotas tightened June 2025 |
 | **Claude Code** | Limited | $20/mo (Pro) | $100/mo (Max 5x) / $200/mo (Max 20x) | Significantly higher limits than Cursor Pro at same price |
-| **GitHub Copilot** | Limited AI Credits | $10/mo (Pro) | $39/mo (Pro+) / $39/user (Enterprise) | Usage-based billing since June 1, 2026; AI Credits consumed per token; free models removed; no credit rollover |
+| **GitHub Copilot** | Limited AI Credits | $10/mo base + $5 included AI Credits (Pro) | $39/mo base + $31 included AI Credits (Pro+) / $39/user (Enterprise) | Usage-based billing since June 1, 2026; bundled credits are consumed by chat, agent mode, cloud agent, CLI, and apps |
 | **Cline (BYOK)** | Free (bring API key) | Free (pay API costs ~$5–15/mo) | Unlimited | 5M+ installs; zero subscription cost |
-| **Windsurf** | Light quota | $20/mo (Pro) / $40/user/mo (Teams) | $200/mo (Max) | Quota-based plans replaced older credit plans in March 2026 |
+| **Windsurf** | Light quota | $20/mo (Pro) / Teams from $40 flex seat or $80 full user | $200/mo (Max) | Quota-based plans replaced older credit plans in March 2026 |
 | **Continue.dev** | Free (OSS) | Free (BYOK) | Unlimited | No subscription; supports Ollama, LM Studio, all cloud APIs |
 | **Void** | Free (OSS) | Free (BYOK) | Unlimited | VS Code fork + MCP; privacy-first, no telemetry |
 | **Aider** | Free (BYOK) | Free (BYOK) | Unlimited | Git-native; used by serious OSS contributors |
@@ -803,9 +803,9 @@ Cursor Pro is $20/month, while several official pricing pages and product docs s
 
 | Rank | Tool | $/Month (Real) | SWE-bench | Limits | Verdict |
 |------|------|---------------|-----------|--------|---------|
-| 🥇 1 | **GitHub Copilot Pro** | $10 | 55% | Usage-based AI Credits (incl. allowance) | Best value for light-moderate users |
+| 🥇 1 | **GitHub Copilot Pro** | $10 base + $5 credits | 55% | Usage-based AI Credits (with bundled allowance) | Best value for light-moderate users |
 | 🥈 2 | **Cline (BYOK)** | ~$5–15 (API) | 80.8% | Unlimited | Best value for power users |
-| 🥉 3 | **Windsurf Pro** | $15 | — | 25 credits/mo | Best value paid Pro tier |
+| 🥉 3 | **Windsurf Pro** | $20 | — | Quota-based plan | Best value paid Pro tier |
 | 4 | **Claude Code Pro** | $20 | 80.8% | Higher than Cursor Pro | Best autonomy at $20/mo |
 | 5 | **Continue.dev** | $0 | — | Unlimited | Best free option |
 | 6 | **Cursor Pro** | $20–60 (effective) | Unpublished | Caps hit easily | Good UX, poor value at scale |
@@ -824,7 +824,7 @@ Free VS Code extension with zero subscription cost. You pay only for your API us
 Anthropic's purpose-built autonomous coding CLI. At $20/mo (Pro), usage limits are substantially higher than Cursor Pro at the same price. **Max 5×** ($100/mo) offers more headroom than **Cursor Ultra** ($200/mo) at half the cost. Claude Code produces code described as ~30% less rework vs. Cursor. Won 67% of blind quality comparisons against Cursor. Integrates natively into VS Code and JetBrains via extension, plus terminal. Multi-session support, computer use (research preview), sub-agents.
 
 **🥉 GitHub Copilot — Best for Teams & IDE-Native Work**
-At **$10/month** (Pro), GitHub Copilot requires no fork, no new editor, no learning curve. Works inside existing VS Code, JetBrains, Vim, Neovim, and more. Since June 1, 2026, billing switched to usage-based AI Credits; free models are no longer included, and unused credits do not roll over. Pro+ at $39/mo adds enterprise policy controls. Best for developers who want AI assistance without changing their workflow. Dominates for boilerplate and quick completions.
+At **$10/month base with $5 in bundled AI Credits** (Pro), GitHub Copilot requires no fork, no new editor, and no learning curve. Works inside existing VS Code, JetBrains, Vim, Neovim, and more. Since June 1, 2026, billing switched to usage-based AI Credits; chat, agent mode, cloud agent, CLI, and apps all consume the same credit pool. Pro+ starts at $39/month base with larger included credits. Best for developers who want AI assistance without changing their workflow.
 
 **Continue.dev — Best Free Fully-Featured Option**
 100% open-source, works in VS Code and JetBrains. BYOK means no subscription cost ever. Supports Ollama, LM Studio, and all major cloud APIs. Chat, autocomplete, and agent mode. Active development community. No telemetry by default.
@@ -832,7 +832,7 @@ At **$10/month** (Pro), GitHub Copilot requires no fork, no new editor, no learn
 **Void — Best Privacy-First Fork**
 Open-source VS Code fork with full MCP support, BYOK, and no telemetry. Feature-comparable to Cursor with zero subscription cost. Best for teams that need data sovereignty or work in air-gapped environments.
 
-> **🎯 Bottom Line for Sharif's Use Case:** If you use LM Studio and prefer local models, **Cline** or **Continue.dev** (both BYOK, both free) give you unlimited usage at zero subscription cost. For cloud-based work, **Claude Code Pro ($20)** outclasses **Cursor Pro ($20)** with higher limits and better autonomous task completion. **GitHub Copilot ($10)** is the obvious choice if budget is the primary driver.
+> **🎯 Bottom Line for Sharif's Use Case:** If you use LM Studio and prefer local models, **Cline** or **Continue.dev** (both BYOK, both free) give you unlimited usage at zero subscription cost. For cloud-based work, **Claude Code Pro ($20)** remains the strongest autonomy-first alternative at the same entry price as **Cursor Pro ($20)**. **GitHub Copilot** is still the easiest low-friction option if you want to stay inside your current IDE and manage against a usage-credit budget.
 
 #### Web-Based IDEs
 
@@ -1022,7 +1022,7 @@ Services that aggregate multiple models through a unified API, often with load b
 | **Groq** | 20+ | $0.05-$0.90/1M | Fastest LPU inference: 476 tok/s on 120B, <100ms TTFT, deterministic latency |
 | **Cerebras** | 10+ | $0.10-$1.00/1M | Wafer-scale engine: ~3,000 tok/s, 5× faster than NVIDIA Blackwell, 80–150ms TTFT |
 | **NVIDIA NIM** | 91+ | Free (cloud endpoints) / self-host | Broadest model variety: LLMs + vision + audio + bio + climate; self-hostable Docker containers |
-| **Vercel AI Gateway** ⭐ | 100+ | $5/mo free credits; paid credits at provider list rates, zero markup | Unified API for text, image, video, realtime, speech, embeddings, and reranking; BYOK on paid tier; model fallbacks, provider routing, budgets, observability, and Routing Rules beta |
+| **Vercel AI Gateway** ⭐ | 100+ | $5/mo free credits; paid credits at provider list rates, zero markup | Available on all plans; unified API for text, image, video, realtime, speech, embeddings, and reranking; BYOK on paid tier; model fallbacks, provider preferences, budgets, observability, and Routing Rules beta |
 | **Mercury 2** (Inception Labs) ⭐ | 1 | $0.25/$0.75/1M | Diffusion LLM; 1,009 tok/s on Blackwell; tunable reasoning; 128K context; released 2026-05-12 |
 | **Anyscale** | 100+ | $0.20-$2.00/1M | OpenAI-compatible, HIPAA/SOC 2/EU data residency, enterprise contracts |
 | **Replicate** | 50+ | $0.20-$2.00/1M | Model-as-a-service, versioning, GPU rental |
@@ -1171,7 +1171,7 @@ Consumer-focused AI browsers (for example **Perplexity Comet**) typically bundle
 |---------|----------|---------|----------|-----------|:----------:|:--------------:|--------|
 | **Chrome DevTools MCP** | TypeScript | Free (OSS) | AI web debugging, 29 DevTools | ❌ | ❌ | ❌ | <a href="https://github.com/ChromeDevTools/chrome-devtools-mcp" rel="nofollow">🔗</a> |
 | **Cloudflare Browser Run** | Cloud API | Free Workers / paid browser hours | CDP + MCP, WebMCP, Live View, Human-in-the-Loop, session recordings; `/json` Quick Action extracts schema-shaped data with Workers AI or BYOK (2026-07-01) | ✅ | ❌ | ✅ | <a href="https://developers.cloudflare.com/browser-run/quick-actions/json-endpoint/" rel="nofollow">🔗</a> |
-| **Browser-use** ⭐ | Python / Cloud API | Free OSS / Cloud: 5 free prompts, pay-as-you-go $100 credits | Browser Use CLI 3.0 powered by Browser Harness; `browser-use skill` installs agent skills for Claude Code, Codex, Cursor, Gemini, OpenCode, and related skill directories; Cloud v3 premium agent supports scheduling, persistent memory, skills, and integrations | ✅ | ✅ | ✅ | <a href="https://github.com/browser-use/browser-use/releases" rel="nofollow">🔗</a> |
+| **Browser-use** ⭐ | Python / Cloud API | Free OSS / Cloud free tier: 3 concurrent sessions and 10 agent tasks/mo; paid cloud from $40/mo or PAYG credits | Browser Use CLI 3.0 powered by Browser Harness; `browser-use skill` installs agent skills for Claude Code, Codex, Cursor, Gemini, OpenCode, and related skill directories; managed cloud adds stealth browsers, CAPTCHA solving, scheduling, persistent memory, skills, and integrations | ✅ | ✅ | ✅ | <a href="https://github.com/browser-use/browser-use/releases" rel="nofollow">🔗</a> |
 | **Browser Harness** ⭐ | Python / CDP | Free (OSS) | Thin self-healing CDP harness for direct LLM control of real Chrome; packaged skill for coding agents; pinned by Browser Use CLI 3.0 | ✅ | ❌ | ✅ | <a href="https://github.com/browser-use/browser-harness" rel="nofollow">🔗</a> |
 | **Vercel agent-browser** ⭐ | Rust / Node CLI | Free (OSS) | Browser automation CLI for AI agents; compact text snapshots, ref-based actions, Chrome and Lightpanda engines, packaged agent skill | ✅ | ❌ | ✅ | <a href="https://agent-browser.dev/" rel="nofollow">🔗</a> |
 | **Stagehand v3.6** ⭐ | TypeScript/Python | Free (OSS) | v3.6 (2026-06-19): WebMCP support; Claude Fable 5 support; Microsoft Entra ID auth; full CDP rewrite, 44% faster, action caching, hybrid deterministic + AI | ✅ | ❌ | ✅ | <a href="https://github.com/browserbase/stagehand" rel="nofollow">🔗</a> |
@@ -1282,7 +1282,7 @@ Control a browser with natural language — click, fill forms, scrape, automate.
 
 | Agent | Type | Pricing | Dashboard | CLI | Multi-Agent | Parallel Sessions | Local LLM | GitHub |
 |-------|------|---------|:---------:|:---:|:-----------:|:--------------:|:---------:|--------|
-| **Browser-use** ⭐ | OSS Python lib + Cloud | Free OSS / Cloud: 5 free prompts, pay-as-you-go $100 credits; v3 premium agent | ✅ Cloud | ✅ CLI 3.0 | ✅ | ✅ | ✅ (Ollama) | <a href="https://docs.browser-use.com/cloud/faq" rel="nofollow">🔗</a> |
+| **Browser-use** ⭐ | OSS Python lib + Cloud | Free OSS / Cloud free tier: 3 concurrent sessions and 10 tasks/mo; paid cloud from $40/mo or PAYG credits | ✅ Cloud | ✅ CLI 3.0 | ✅ | ✅ | ✅ (Ollama) | <a href="https://docs.browser-use.com/cloud/faq" rel="nofollow">🔗</a> |
 | **Stagehand** | OSS TypeScript | Free (OSS) | ❌ | ✅ | ❌ | ✅ | ✅ | <a href="https://github.com/browserbase/stagehand" rel="nofollow">🔗</a> |
 | **NanoBrowser** | Chrome extension | Free (OSS) | ✅ Extension | ❌ | ✅ | ❌ | ✅ (Ollama) | <a href="https://github.com/nanobrowser/nanobrowser" rel="nofollow">🔗</a> |
 | **Skyvern** | Python / Cloud | Free tier / $29–$149/mo | ✅ Cloud | ✅ | ✅ | ✅ | ✅ (Ollama) | <a href="https://github.com/Skyvern-AI/skyvern" rel="nofollow">🔗</a> |
@@ -1646,7 +1646,7 @@ Tools for tracing LLM calls, evaluating output quality, debugging RAG pipelines,
 
 ### MCP Ecosystem 🔌
 
-The <a href="https://modelcontextprotocol.io" rel="nofollow">Model Context Protocol (MCP)</a> is an open standard originally by Anthropic, now governed by the **Agentic AI Foundation (AAIF)** under the Linux Foundation (co-founded by Anthropic, Block, and OpenAI; supported by Google, Microsoft, AWS, Cloudflare, Bloomberg). It connects LLMs to external tools and data sources via a unified JSON-RPC 2.0 interface, supporting STDIO and Streamable HTTP transports. The official MCP Registry at <a href="https://registry.modelcontextprotocol.io/" rel="nofollow">registry.modelcontextprotocol.io</a> is the preview centralized metadata repository for publicly accessible MCP servers, with registry docs at <a href="https://modelcontextprotocol.io/registry/about" rel="nofollow">modelcontextprotocol.io/registry</a>. MCP SDK downloads exceeded **97 million monthly** by March 2026, and the Glama community registry now indexes **55,000+ servers** (55,658 on 2026-07-15, up from ~19,831 in March 2026). The **2026-07-28 spec release candidate** (locked May 21, 2026) introduces stateless core transport, Tasks extension for long-running work, MCP Apps for server-rendered UIs, OAuth 2.1 alignment, and a formal deprecation policy. Docker Custom MCP Catalogs and Profiles reached GA in May 2026. Microsoft Power BI MCP server released June 2026.
+The <a href="https://modelcontextprotocol.io" rel="nofollow">Model Context Protocol (MCP)</a> is an open standard originally by Anthropic, now governed by the **Agentic AI Foundation (AAIF)** under the Linux Foundation (co-founded by Anthropic, Block, and OpenAI; supported by Google, Microsoft, AWS, Cloudflare, Bloomberg). It connects LLMs to external tools and data sources via a unified JSON-RPC 2.0 interface, supporting STDIO and Streamable HTTP transports. The official MCP Registry at <a href="https://registry.modelcontextprotocol.io/" rel="nofollow">registry.modelcontextprotocol.io</a> is currently in preview as the centralized metadata repository for publicly accessible MCP servers, with registry docs at <a href="https://modelcontextprotocol.io/registry/about" rel="nofollow">modelcontextprotocol.io/registry</a>. Official registry docs now explicitly position it as metadata infrastructure for downstream aggregators and compatible registries, not the primary direct integration point for host apps. The **2026-07-28 spec release candidate** (locked May 21, 2026) introduces stateless core transport, Tasks extension for long-running work, MCP Apps for server-rendered UIs, OAuth 2.1 alignment, a formal deprecation policy, and deprecates legacy roots and sampling features on the new spec line. Docker Custom MCP Catalogs and Profiles reached GA in May 2026. Microsoft Power BI MCP server released June 2026.
 
 **MCP Clients:** Claude Desktop, Claude Code, Cursor, Windsurf, VS Code (Copilot + ACP Client), Continue.dev, Zed, ChatGPT, Gemini, Microsoft Copilot, LibreChat, and more.
 
@@ -1964,11 +1964,11 @@ Comprehensive pricing comparisons and cost calculations.
 
 | Tool | Plans (USD) | Notes | Official Source |
 |------|-------------|-------|:---:|
-| **GitHub Copilot** | Free **$0**, Pro **$10**, Pro+ **$39**, Business **$19/user**, Enterprise **$39/user** | Usage-based billing since June 1, 2026; AI Credits per token; free models removed; no credit rollover | <a href="https://github.com/features/copilot/plans" rel="nofollow">🔗</a> |
+| **GitHub Copilot** | Free **$0**, Pro **$10** base + **$5** monthly bundled AI Credits, Pro+ **$39** base + **$31** bundled AI Credits, Business **$19/user**, Enterprise **$39/user** | Usage-based billing since June 1, 2026; chat, agent mode, code review, cloud agent, CLI, and apps draw from GitHub AI Credits | <a href="https://github.com/features/copilot/plans" rel="nofollow">🔗</a> |
 
 #### Model Pricing Comparison
 
-Comparative pricing across the cheapest official public APIs verified in this pass. Only providers and models rechecked against current official pricing pages are included below. As of 2026-07-15 13:24 UTC.
+Comparative pricing across the cheapest official public APIs verified in this pass. Only providers and models rechecked against current official pricing pages are included below. As of 2026-07-16 07:03 UTC.
 
 | Model | Input | Output | Cached Input | Best For | Source |
 |-------|-------|--------|--------------|----------|--------|
