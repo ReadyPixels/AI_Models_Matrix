@@ -6,7 +6,7 @@
 
 <a href="https://awesome.re" rel="nofollow"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
-<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--07--19%2011%3A02%20UTC-green.svg" alt="Last Updated"></a>
+<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--07--19%2016%3A54%20UTC-green.svg" alt="Last Updated"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social" alt="Star History"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social" alt="Forks"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix/issues" rel="nofollow"><img src="https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix" alt="Issues"></a>
@@ -21,11 +21,13 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ### 🔥 Highlights
 - **138+ AI models** from major providers (OpenAI, Anthropic, Google, Meta, xAI, Microsoft, and others)
-- **Latest pricing** and performance benchmarks (latest data through 2026-07-19 11:02 UTC)
+- **Latest pricing** and performance benchmarks (latest data through 2026-07-19 16:54 UTC)
 - **GPT-5.6** reached general availability on 2026-07-09 across ChatGPT, Codex, and the OpenAI API; Sol, Terra, and Luna remain the three-tier family.
 - **Grok-4.5** (xAI, 2026-07-08): new frontier multimodal LLM with a 500K context window, text+image input, function calling, structured outputs, and reasoning; API pricing $2.00 / $0.50 cached / $6.00 per 1M tokens. Now the xAI flagship route over Grok 4.3. Source: <a href="https://docs.x.ai/developers/models/grok-4.5" rel="nofollow">🔗</a>
 - **Kimi K3** (Moonshot AI, 2026-07-16): new 2.8T-parameter open-weight frontier model with 1M context, native vision, $3.00 / $15.00 API pricing, and 90% cache-hit discount; open weights promised by 2026-07-27 under a modified MIT license. Source: <a href="https://www.kimi.com/blog/kimi-k3" rel="nofollow">🔗</a>
 - **Meta Muse Spark 1.1** (Meta, 2026-07-09): new closed-weights frontier multimodal reasoning model for agentic tool and computer use, 1M context, available via Meta Model API in public preview for US developers. Source: <a href="https://ai.meta.com/blog/introducing-muse-spark-meta-model-api" rel="nofollow">🔗</a>
+- **Inkling** (Thinking Machines Lab, 2026-07-15): new 975B-parameter open-weight model with 1M context, native multimodal (text/image/audio), Apache 2.0 license, $1.87/$4.68 API pricing. Source: <a href="https://www.artificialanalysis.ai/articles/inkling" rel="nofollow">🔗</a>
+- **Qwen 3.8** (Alibaba, 2026-07-19): new 2.4T-parameter open-weight model in preview on Token Plan/Qoder/QoderWork; claims to be "second only to Fable 5" on coding benchmarks. Source: <a href="https://qwenlm.github.io/" rel="nofollow">🔗</a>
 - **Codex CLI 0.144.5** (2026-07-16) improved dangerous-command detection and clearer rejection reasons; **0.144.4** (2026-07-14) had no user-facing changes; **0.144.3** (2026-07-13) was version-only.
 - **Gemma 4** models were released through the Gemini API and AI Studio on 2026-07-06, including Gemma 4 31B and Gemma 4 26B-A4B.
 - **Claude Sonnet 5** launched 2026-06-30 00:00 UTC with 1M context, 128K output, $2.00 / $10.00 introductory pricing through 2026-08-31 00:00 UTC, and 92.4% SWE-bench Verified
@@ -69,8 +71,8 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.49
-- **Last Updated**: 2026-07-19 11:02 UTC
+- **Document Version**: 3.50
+- **Last Updated**: 2026-07-19 16:54 UTC
 - **Repository**: <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow">github.com/ReadyPixels/AI_Models_Matrix</a>
 - **License**: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">CC BY-NC 4.0</a>
 
@@ -144,9 +146,11 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Gemini 3.1 Pro** | Google | 1M | 94.3% | 1505 | 80.6% | 100% | $2.00 / $12.00 | 2026-04-26 |
 | **Claude Fable 5** ⚠️ | Anthropic | 1M | 94.5% | 1510 | 95.0% | — | $10.00 / $50.00 | 2026-06-09 ⭐ |
 | **Claude Mythos 5** ⚠️ | Anthropic | 1M | ~94.1% | — | 95.5% | — | $10.00 / $50.00 | 2026-06-09 ⭐ |
-| **NVIDIA Nemotron 3 Ultra** | NVIDIA | 262K | 87.0% | — | — | — | Free (NVIDIA NIM) | 2026-06-05 |
+| **NVIDIA Nemotron 3 Ultra** | NVIDIA | 1M | 87.0% | — | — | — | Free (NVIDIA NIM) | 2026-06-05 |
 | **Kimi K3** ⭐ | Moonshot AI | 1M | 93.5% | — | 88.3% (Terminal-Bench 2.1) | — | $3.00 / $15.00 | 2026-07-16 ⭐ |
 | **Meta Muse Spark 1.1** ⭐ | Meta | 1M | — | — | 61.5% (SWE-Bench Pro) | — | API-only (Meta Model API) | 2026-07-09 ⭐ |
+| **Inkling** ⭐ | Thinking Machines Lab | 1M | — | — | — | — | $1.87 / $4.68 | 2026-07-15 ⭐ |
+| **Qwen 3.8** ⭐ | Alibaba | 1M | — | — | — | — | API-only (preview) | 2026-07-19 ⭐ |
 | **Kimi K2.7 Code** ⭐ | Moonshot AI | 262K | 65.8% | — | 78.2% | 91.5% | $0.95 / $4.00 | 2026-06-12 ⭐ |
 | **GLM-5.2** ⭐ | Zhipu AI | 1M | ~91.2% | — | — | 99.2% (AIME 2026) | $1.40 / $4.40 | 2026-06-13 ⭐ |
 | **MAI-Thinking-1** ⭐ | Microsoft | 256K | 84.2% | — | — | 97% | TBD (Private Preview) | 2026-06-02 ⭐ |
@@ -174,7 +178,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 ### Model Specifications 📋
 
-Detailed technical specifications, pricing, and capabilities for frontier models and notable API models. Data as of 2026-07-19 11:02 UTC.
+Detailed technical specifications, pricing, and capabilities for frontier models and notable API models. Data as of 2026-07-19 16:54 UTC.
 
 #### Output Token Limits
 
@@ -211,6 +215,8 @@ Maximum output tokens per single API request.
 | **Kimi K2.7 Code** | 262K | 262K | Coding-focused variant of K2.6; 30% fewer thinking tokens; Modified MIT |
 | **Kimi K3** ⭐ | 128K | 1M | 2.8T MoE (16 of 896 experts active); open weights promised by 2026-07-27; $3.00 / $15.00 |
 | **Meta Muse Spark 1.1** ⭐ | — | 1M | Closed-weights frontier multimodal reasoning model; agentic tool and computer use; API-only (Meta Model API) |
+| **Inkling** ⭐ | — | 1M | 975B/41B active MoE; Apache 2.0; multimodal (text/image/audio); released 2026-07-15 |
+| **Qwen 3.8** ⭐ | — | 1M | 2.4T parameters; open-weight promised; preview on Token Plan/Qoder/QoderWork; released 2026-07-19 |
 | **Step-3.5-Flash** | 66K | 256K | — |
 | **Grok 4** | — | 256K | Not publicly specified |
 | **Grok 4 Fast** | 30K | 128K | Now aliased to Grok 4.3; $0.20 / $0.50 |
@@ -276,9 +282,11 @@ Discounted pricing tiers for high-volume usage. All prices in USD per million to
 | **MiniMax M3** (≤512K) | $0.30 | $0.06 (hit) | — | Extended context (>512K): $0.60/$2.40; released 2026-06-01 |
 | **Kimi K3** ⭐ | $3.00 | $0.30 (hit, 90% cached) | — | 2.8T MoE; 1M context; open weights promised by 2026-07-27; released 2026-07-16 |
 | **Meta Muse Spark 1.1** ⭐ | API-only | — | — | Closed-weights; 1M context; agentic tool and computer use; released 2026-07-09 |
+| **Inkling** ⭐ | $1.87 | — | — | 975B/41B active MoE; 1M context; Apache 2.0; multimodal; released 2026-07-15 |
+| **Qwen 3.8** ⭐ | API-only | — | — | 2.4T parameters; open-weight promised; preview on Token Plan/Qoder/QoderWork; released 2026-07-19 |
 | **Qwen3.7-Plus** | $0.40 | — | — | Released 2026-06-03; 1M context |
 | **Step 3.7 Flash** | Free | — | — | Free tier available; 1M context; released 2026-05-28 |
-| **NVIDIA Nemotron 3 Ultra** | Free | — | — | Free via NVIDIA NIM; 262K context |
+| **NVIDIA Nemotron 3 Ultra** | Free | — | — | Free via NVIDIA NIM; 1M context (NVFP4 Blackwell) |
 | **GPT-4.1** ⭐ | $2.00 | $0.20 | — | 1M context; knowledge cutoff June 2024; retired from ChatGPT Feb 13, 2026; API still available |
 | **GPT-4.1 mini** ⭐ | $0.40 | $0.04 | — | 1M context; retired from ChatGPT Feb 13, 2026; API still available |
 | **GPT-4.1 nano** ⭐ | $0.10 | $0.01 | — | 1M context; retired from ChatGPT Feb 13, 2026; API still available; OpenAI's cheapest model |
@@ -328,6 +336,8 @@ Knowledge cutoff dates — the point after which a model has no training data.
 | **GPT-4.5** | June 2024 | Retired from API July 2025; retiring from ChatGPT 2026-06-27 |
 | **Kimi K3** ⭐ | ~Jul 2025 | Approximate; not separately disclosed; released 2026-07-16 |
 | **Meta Muse Spark 1.1** ⭐ | ~Jan 2026 | Approximate; not separately disclosed; released 2026-07-09 |
+| **Inkling** ⭐ | ~Jan 2026 | Approximate; not separately disclosed; released 2026-07-15 |
+| **Qwen 3.8** ⭐ | ~Jan 2026 | Approximate; not separately disclosed; released 2026-07-19 |
 
 > Models not listed (Qwen, GLM, MiniMax, Kimi, Step, Mistral): training cutoff not publicly disclosed.
 
@@ -347,6 +357,8 @@ Knowledge cutoff dates — the point after which a model has no training data.
 | **DeepSeek (all)** | Many | Chinese + English focused |
 | **Grok (all)** | Many | — |
 | **GLM-5 / GLM-5.1** | Many | 28.5T token training data |
+| **Inkling** ⭐ | Many | Multimodal (text/image/audio); released 2026-07-15 |
+| **Qwen 3.8** ⭐ | Many | Multilingual support; released 2026-07-19 |
 
 #### Structured Output & Function Calling
 
@@ -375,6 +387,8 @@ All frontier models support structured JSON output and function/tool calling exc
 | **Mistral** | Global | Azure AI Foundry, AWS, GCP | — |
 | **Meta (Llama)** | Global (self-host) | All major cloud providers | Llama 4 Community License |
 | **Meta (Muse Spark 1.1)** | US-only (public preview) | Meta Model API | Closed-weights frontier multimodal reasoning model; public preview for US developers; released 2026-07-09 |
+| **Thinking Machines Lab (Inkling)** | US-focused | Inkling API | Open-weight model (Apache 2.0); 975B/41B active MoE; 1M context; released 2026-07-15 |
+| **Alibaba (Qwen 3.8)** | Global (preview) | Token Plan / Qoder / QoderWork | Open-weight model; 2.4T parameters; preview access; released 2026-07-19 |
 | **StepFun** | Global | HuggingFace | Apache 2.0 open-source |
 
 
@@ -422,6 +436,8 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **MiniMax M2.7** ⭐ | MiniMax | ~400B+ (MoE) | 205K | MiniMax Community |
 | **Kimi K2.6** | Moonshot AI | 1T / 32B active (MoE) | 262K | Modified MIT |
 | **Kimi K3** ⭐ | Moonshot AI | 2.8T / 16 active (MoE) | 1M | Modified MIT |
+| **LongCat-2.0** ⭐ | Meituan | 1.6T / ~48B active (MoE) | 1M | MIT |
+| **Hy3** ⭐ | Tencent | 295B / 21B active (MoE) | 256K | Apache 2.0 |
 | **Ornith-1.0** ⭐ | DeepReinforce | 9B / 31B / 35B-MoE / 397B-MoE | — | MIT |
 
 #### Deployment Options
@@ -508,6 +524,7 @@ Specialized AI models optimized for software development tasks.
 |-------|-----------|---------|----------|
 | **Kimi K2.7 Code** ⭐ | Moonshot AI | Modified MIT | 80-160 GB VRAM |
 | **Kimi K3** ⭐ | Moonshot AI | Modified MIT | 160-320 GB VRAM |
+| **LongCat-2.0** ⭐ | Meituan | MIT | 320+ GB VRAM |
 | **GLM-5.2** ⭐ | Zhipu AI | MIT | 80-160 GB VRAM |
 | **MiniMax M2** ⭐ | MiniMax | Apache 2.0 | 48-80 GB VRAM |
 | **MiniMax M2.1** ⭐ | MiniMax | Apache 2.0 | 48-80 GB VRAM |
@@ -666,7 +683,7 @@ Comprehensive hardware specifications for self-hosting AI models.
 
 ### Comprehensive Benchmark Reference 📈
 
-Detailed benchmark scores across all major evaluations. Scores are percentages (%) unless noted. Arena Elo scores are integers. `—` = not publicly reported. Data as of 2026-07-15 13:24 UTC.
+Detailed benchmark scores across all major evaluations. Scores are percentages (%) unless noted. Arena Elo scores are integers. `—` = not publicly reported. Data as of 2026-07-19 16:54 UTC.
 
 #### Full Benchmark Table
 
@@ -894,6 +911,7 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 | **Kilo for GitHub** ⭐ | GitHub (Cloud) | Free (Kilo credits) | @kilocode-bot coding agent in GitHub issues/PRs; Cloud Agent backend; reads full thread context; released 2026-06-18 | <a href="https://blog.kilo.ai/p/introducing-kilo-for-github" rel="nofollow">🔗</a> |
 | **Hermes Agent v0.17.0** ⭐ | Windows, macOS, Linux | Free (OSS) | Major desktop app update; live subagent watch-windows; VS Code theme support; 199K GitHub stars; released 2026-06-19 | <a href="https://github.com/NousResearch/hermes-agent" rel="nofollow">🔗</a> |
 | **Kimi Code CLI** | Windows, macOS, Linux | Free (MIT) | TypeScript CLI by Moonshot AI; successor to kimi-cli; powered by Kimi K2.6 (1T MoE); subagent support (coder/explore/plan); 262K context; SWE-bench Pro 58.6%; ACP (Zed, JetBrains); released 2026-06-06 | <a href="https://github.com/moonshot-labs-uk/kimi-code" rel="nofollow">🔗</a> |
+| **MiMo Code** ⭐ | Windows, macOS, Linux | Free (MIT) | Xiaomi open-source terminal coding agent; 62% SWE-bench Pro; integrated with Claude Code, OpenClaw, Hermes; released 2026-06-11 | <a href="https://github.com/xiaomi/mimo-code" rel="nofollow">🔗</a> |
 | **Vibe** (Mistral) | Windows, macOS, Linux | Free (Le Chat) / API | Agentic coding + work agent, multi-model Mistral harness, VS Code extension, Code Mode web surface, parallel sessions | <a href="https://mistral.ai/news/vibe-agent/" rel="nofollow">🔗</a> |
 | **Google Agents CLI** ⭐ | Windows, macOS, Linux | Free | Unified ADLC for Google Cloud Agent Platform; scaffold/run/evaluate/deploy agents; released 2026-04-22 | <a href="https://developers.googleblog.com/agents-cli-in-agent-platform-create-to-production-in-one-cli/" rel="nofollow">🔗</a> |
 | **Peri** ⭐ | Windows, macOS, Linux | Free (Apache-2.0) | Rust terminal coding agent; Claude Code compatible; multi-LLM; MCP & ACP support; 95%+ prompt cache; released 2026-03-20 | <a href="https://github.com/KonghaYao/peri" rel="nofollow">🔗</a> |
@@ -1085,7 +1103,7 @@ Services that aggregate multiple models through a unified API, often with load b
 | **Databricks Mosaic AI** | Integrated ML Platform | — | — | Enterprise fine-tuning, governed serving, RAG |
 | **NVIDIA DGX Cloud** | Managed AI Training | Custom | Custom | Co-engineered clusters, maximum ROI for training |
 
-> GPU pricing as of June 2026. RunPod/Vast.ai prices vary by community vs. secure cloud and spot vs. on-demand. RTX 4090 pricing from RunPod starts at $0.34/hr. Vast.ai A100 40GB from $0.52/hr. Modal Labs production workloads cost 3.75x base rates (3x non-preemptible multiplier x 1.25x US regional multiplier). CoreWeave A100/H100 pricing normalized from 8-GPU nodes. Lambda Labs A100 40GB at $1.29/hr, A100 80GB at $2.49-$2.79/hr, H100 SXM at $3.99/hr (8x) or $4.29/hr (1x). Vast.ai prices are market-set medians.
+> GPU pricing as of July 2026. RunPod/Vast.ai prices vary by community vs. secure cloud and spot vs. on-demand. RTX 4090 pricing from RunPod starts at $0.34/hr. Vast.ai A100 40GB from $0.52/hr. Modal Labs production workloads cost 3.75x base rates (3x non-preemptible multiplier x 1.25x US regional multiplier). CoreWeave A100/H100 pricing normalized from 8-GPU nodes. Lambda Labs A100 40GB at $1.29/hr, A100 80GB at $2.49-$2.79/hr, H100 SXM at $3.99/hr (8x) or $4.29/hr (1x). Vast.ai prices are market-set medians.
 
 #### Inference Clouds
 
@@ -1383,7 +1401,7 @@ Tools, frameworks, and specialized models for building production AI systems —
 
 ### Embedding & Reranking Models 🧲
 
-Specialized models for converting text (or images) into dense vector representations and for reranking retrieval results. Essential infrastructure for RAG pipelines and semantic search. *Prices as of June 2026.*
+Specialized models for converting text (or images) into dense vector representations and for reranking retrieval results. Essential infrastructure for RAG pipelines and semantic search. *Prices as of July 2026.*
 
 #### Embedding Models
 
@@ -1420,7 +1438,7 @@ Specialized models for converting text (or images) into dense vector representat
 
 ### Video Generation Models 🎬
 
-Text-to-video and image-to-video generation models for creating short clips from prompts. The field is moving rapidly — resolutions, durations, and pricing change frequently. *Specs as of June 2026.*
+Text-to-video and image-to-video generation models for creating short clips from prompts. The field is moving rapidly — resolutions, durations, and pricing change frequently. *Specs as of July 2026.*
 
 | Model | Developer | Resolution | Duration | Pricing | Open Source | Best For | GitHub |
 |-------|-----------|-----------|---------|---------|-------------|----------|--------|
@@ -1564,7 +1582,7 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 
 ### AI Safety & Guardrails 🛡️
 
-Tools and frameworks for detecting unsafe content, preventing prompt injection, validating outputs, and enforcing policy compliance in LLM-powered applications. *As of June 2026.*
+Tools and frameworks for detecting unsafe content, preventing prompt injection, validating outputs, and enforcing policy compliance in LLM-powered applications. *As of July 2026.*
 
 | Tool | Developer | Type | Open Source | Pricing | Best For | GitHub |
 |------|-----------|------|-------------|---------|----------|--------|
@@ -1591,7 +1609,7 @@ Tools and frameworks for detecting unsafe content, preventing prompt injection, 
 
 ### RAG Frameworks 🗂️
 
-Frameworks and libraries for building Retrieval-Augmented Generation (RAG) pipelines — connecting LLMs to external knowledge sources. *As of June 2026.*
+Frameworks and libraries for building Retrieval-Augmented Generation (RAG) pipelines — connecting LLMs to external knowledge sources. *As of July 2026.*
 
 | Framework | Developer | Language | Key Features | Open Source | GitHub |
 |-----------|-----------|---------|--------------|-------------|--------|
@@ -1617,7 +1635,7 @@ Frameworks and libraries for building Retrieval-Augmented Generation (RAG) pipel
 
 ### Fine-tuning Platforms ⚙️
 
-Tools and platforms for adapting pre-trained LLMs to specific tasks or domains via supervised fine-tuning, RLHF, LoRA/QLoRA, and related methods. *Prices as of June 2026.*
+Tools and platforms for adapting pre-trained LLMs to specific tasks or domains via supervised fine-tuning, RLHF, LoRA/QLoRA, and related methods. *Prices as of July 2026.*
 
 | Platform | Type | Supported Models | Pricing | Best For | GitHub |
 |----------|------|-----------------|---------|----------|--------|
@@ -1747,7 +1765,7 @@ Vercel's official Agent Resources now publish installable skills for React, Next
 
 ### Model Routers & Load Balancers 🔀
 
-Tools for routing LLM requests across multiple providers, models, and deployments — optimizing for cost, latency, quality, or reliability. *Prices as of June 2026.*
+Tools for routing LLM requests across multiple providers, models, and deployments — optimizing for cost, latency, quality, or reliability. *Prices as of July 2026.*
 
 | Tool | Developer | Key Features | Open Source | Pricing | GitHub |
 |------|-----------|-------------|-------------|---------|--------|
@@ -1761,7 +1779,7 @@ Tools for routing LLM requests across multiple providers, models, and deployment
 
 ### Small Language Models (SLMs) 📱
 
-Compact models designed for on-device inference, edge deployment, low-latency APIs, and resource-constrained environments. Generally defined as models under ~15B parameters. *Specs as of June 2026.*
+Compact models designed for on-device inference, edge deployment, low-latency APIs, and resource-constrained environments. Generally defined as models under ~15B parameters. *Specs as of July 2026.*
 
 | Model | Developer | Params | Context | License | Best For |
 |-------|-----------|--------|---------|---------|----------|
@@ -1992,7 +2010,7 @@ Comprehensive pricing comparisons and cost calculations.
 
 #### Model Pricing Comparison
 
-Comparative pricing across the cheapest official public APIs verified in this pass. Only providers and models rechecked against current official pricing pages are included below. As of 2026-07-19 11:02 UTC.
+Comparative pricing across the cheapest official public APIs verified in this pass. Only providers and models rechecked against current official pricing pages are included below. As of 2026-07-19 16:54 UTC.
 
 | Model | Input | Output | Cached Input | Best For | Source |
 |-------|-------|--------|--------------|----------|--------|
@@ -2334,7 +2352,7 @@ Additional context from the June 2026 research pass (supplements earlier tables;
 
 ---
 
-**Last Updated:** 2026-07-19 11:02 UTC
+**Last Updated:** 2026-07-19 16:54 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---

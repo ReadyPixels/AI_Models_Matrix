@@ -1,14 +1,17 @@
-## [2026-07-19] - Version 3.49 - Kimi K3 and Meta Muse Spark 1.1 additions
+## [2026-07-19] - Version 3.50 - Inkling, Qwen 3.8, LongCat-2.0, Hy3, and MiMo Code additions
 
 ### Added
-- **Kimi K3** (Frontier Models, Model Specifications, Top Models by Category, Model Pricing Comparison, Sort by Latest Update): new Moonshot AI 2.8T-parameter open-weight frontier model (2026-07-16) with 1M context, native vision, $3.00/$15.00 API pricing, 90% cache-hit discount ($0.30 cached input), and open weights promised by 2026-07-27 under a modified MIT license. Source: <a href="https://www.kimi.com/blog/kimi-k3" rel="nofollow">🔗</a>
-- **Meta Muse Spark 1.1** (Frontier Models, Model Specifications, Model Labs (Direct), Sort by Latest Update): new Meta closed-weights frontier multimodal reasoning model (2026-07-09) built for agentic tool and computer use, 1M context, available via Meta Model API in public preview for US developers. Source: <a href="https://ai.meta.com/blog/introducing-muse-spark-meta-model-api" rel="nofollow">🔗</a>
+- **Inkling** (Thinking Machines Lab, 2026-07-15): new 975B-parameter open-weight model with 1M context, native multimodal (text/image/audio), Apache 2.0 license, $1.87/$4.68 API pricing, 41 on Artificial Analysis Intelligence Index. Added to Frontier Models, Model Specifications (Output Token Limits, Cached & Batch Pricing, Training Data Cutoffs, Multilingual Support, Regional Availability), and Comparison Tables. Source: <a href="https://www.artificialanalysis.ai/articles/inkling" rel="nofollow">🔗</a>
+- **Qwen 3.8** (Alibaba, 2026-07-19): new 2.4T-parameter open-weight model in preview on Token Plan/Qoder/QoderWork; claims "second only to Fable 5" on coding benchmarks. Added to Frontier Models, Model Specifications (Output Token Limits, Cached & Batch Pricing, Training Data Cutoffs, Multilingual Support, Regional Availability), and Comparison Tables. Source: <a href="https://qwenlm.github.io/" rel="nofollow">🔗</a>
+- **LongCat-2.0** (Meituan, 2026-06-30): new 1.6T-parameter open-weight model with ~48B active parameters per token, 1M context, MIT license, agentic coding focus, trained on domestic Chinese ASICs. Added to Free-Source Models and Open-Source Coding Models. Source: <a href="https://longcat.chat/blog/longcat-2.0/" rel="nofollow">🔗</a>
+- **Hy3** (Tencent, 2026-07-06): new 295B-parameter open-weight model with 21B active parameters per token, 256K context, Apache 2.0 license, integrated into WeChat. Added to Free-Source Models. Source: <a href="https://cloud.tencent.com/document/product/1729/97730" rel="nofollow">🔗</a>
+- **MiMo Code** (Xiaomi, 2026-06-11): new open-source terminal coding agent, MIT-licensed, 62% SWE-bench Pro, integrated with Claude Code, OpenClaw, and Hermes. Added to CLI Tools > Autonomous Coding Agents. Source: <a href="https://github.com/xiaomi/mimo-code" rel="nofollow">🔗</a>
 
 ### Updated
-- **Header metadata**: bumped document version to 3.49 and refreshed the Last Updated timestamp to 2026-07-19 11:02 UTC.
-- **Top Models by Category**: updated the Open Source #1 slot to Kimi K3, reflecting its open-weight status and frontier performance.
-- **Frontier Models notes**: added Kimi K3 and Meta Muse Spark 1.1 callouts with official source links.
-- **Model Specifications**: added Kimi K3 and Meta Muse Spark 1.1 rows to Output Token Limits, Cached & Batch Pricing, and Training Data Cutoffs tables.
+- **NVIDIA Nemotron 3 Ultra** (Frontier Models): updated context from 262K to 1M (NVFP4 Blackwell), reflecting the official 1M-token context specification. Source: <a href="https://research.nvidia.com/labs/nemotron/Nemotron-3-Ultra/" rel="nofollow">🔗</a>
+- **Header metadata**: bumped document version to 3.50 and refreshed the Last Updated timestamp to 2026-07-19 16:54 UTC.
+- **Highlights**: added Inkling, Qwen 3.8, LongCat-2.0, Hy3, and MiMo Code highlights with official source links.
+- **Model Specifications**: added Inkling and Qwen 3.8 to Output Token Limits, Cached & Batch Pricing, Training Data Cutoffs, Multilingual Support, and Regional Availability tables.
 
 ### Removed / Deprecated
 - None.
