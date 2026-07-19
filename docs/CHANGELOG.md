@@ -1,3 +1,20 @@
+## [2026-07-19] - Version 3.49 - Kimi K3 and Meta Muse Spark 1.1 additions
+
+### Added
+- **Kimi K3** (Frontier Models, Model Specifications, Top Models by Category, Model Pricing Comparison, Sort by Latest Update): new Moonshot AI 2.8T-parameter open-weight frontier model (2026-07-16) with 1M context, native vision, $3.00/$15.00 API pricing, 90% cache-hit discount ($0.30 cached input), and open weights promised by 2026-07-27 under a modified MIT license. Source: <a href="https://www.kimi.com/blog/kimi-k3" rel="nofollow">🔗</a>
+- **Meta Muse Spark 1.1** (Frontier Models, Model Specifications, Model Labs (Direct), Sort by Latest Update): new Meta closed-weights frontier multimodal reasoning model (2026-07-09) built for agentic tool and computer use, 1M context, available via Meta Model API in public preview for US developers. Source: <a href="https://ai.meta.com/blog/introducing-muse-spark-meta-model-api" rel="nofollow">🔗</a>
+
+### Updated
+- **Header metadata**: bumped document version to 3.49 and refreshed the Last Updated timestamp to 2026-07-19 11:02 UTC.
+- **Top Models by Category**: updated the Open Source #1 slot to Kimi K3, reflecting its open-weight status and frontier performance.
+- **Frontier Models notes**: added Kimi K3 and Meta Muse Spark 1.1 callouts with official source links.
+- **Model Specifications**: added Kimi K3 and Meta Muse Spark 1.1 rows to Output Token Limits, Cached & Batch Pricing, and Training Data Cutoffs tables.
+
+### Removed / Deprecated
+- None.
+
+---
+
 ## [2026-07-16] - Version 3.48 - Codex CLI 0.144.5 and IDE release-note refresh
 
 ### Added

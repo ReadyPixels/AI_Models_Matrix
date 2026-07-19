@@ -6,7 +6,7 @@
 
 <a href="https://awesome.re" rel="nofollow"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
-<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--07--16%2007%3A03%20UTC-green.svg" alt="Last Updated"></a>
+<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--07--19%2011%3A02%20UTC-green.svg" alt="Last Updated"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social" alt="Star History"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social" alt="Forks"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix/issues" rel="nofollow"><img src="https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix" alt="Issues"></a>
@@ -21,9 +21,11 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ### 🔥 Highlights
 - **138+ AI models** from major providers (OpenAI, Anthropic, Google, Meta, xAI, Microsoft, and others)
-- **Latest pricing** and performance benchmarks (latest data through 2026-07-16 07:03 UTC)
+- **Latest pricing** and performance benchmarks (latest data through 2026-07-19 11:02 UTC)
 - **GPT-5.6** reached general availability on 2026-07-09 across ChatGPT, Codex, and the OpenAI API; Sol, Terra, and Luna remain the three-tier family.
 - **Grok-4.5** (xAI, 2026-07-08): new frontier multimodal LLM with a 500K context window, text+image input, function calling, structured outputs, and reasoning; API pricing $2.00 / $0.50 cached / $6.00 per 1M tokens. Now the xAI flagship route over Grok 4.3. Source: <a href="https://docs.x.ai/developers/models/grok-4.5" rel="nofollow">🔗</a>
+- **Kimi K3** (Moonshot AI, 2026-07-16): new 2.8T-parameter open-weight frontier model with 1M context, native vision, $3.00 / $15.00 API pricing, and 90% cache-hit discount; open weights promised by 2026-07-27 under a modified MIT license. Source: <a href="https://www.kimi.com/blog/kimi-k3" rel="nofollow">🔗</a>
+- **Meta Muse Spark 1.1** (Meta, 2026-07-09): new closed-weights frontier multimodal reasoning model for agentic tool and computer use, 1M context, available via Meta Model API in public preview for US developers. Source: <a href="https://ai.meta.com/blog/introducing-muse-spark-meta-model-api" rel="nofollow">🔗</a>
 - **Codex CLI 0.144.5** (2026-07-16) improved dangerous-command detection and clearer rejection reasons; **0.144.4** (2026-07-14) had no user-facing changes; **0.144.3** (2026-07-13) was version-only.
 - **Gemma 4** models were released through the Gemini API and AI Studio on 2026-07-06, including Gemma 4 31B and Gemma 4 26B-A4B.
 - **Claude Sonnet 5** launched 2026-06-30 00:00 UTC with 1M context, 128K output, $2.00 / $10.00 introductory pricing through 2026-08-31 00:00 UTC, and 92.4% SWE-bench Verified
@@ -49,7 +51,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 |----------|-----|-----|-----|
 | **Coding** | Claude Opus 4.8 | GPT-5.5 | Claude Sonnet 5 |
 | **Reasoning** | Gemini 3.1 Pro | GPT-5.5 Pro | Qwen3.7-Max |
-| **Open Source** | GLM-5.2 | MiniMax M3 | DeepSeek-V4-Flash |
+| **Open Source** | Kimi K3 | GLM-5.2 | MiniMax M3 |
 | **Cost Efficiency** | Llama 3.1 8B Instant | Gemini 2.5 Flash-Lite | DeepSeek-V4-Flash |
 | **Free & Budget** | Gemini 2.5 Flash-Lite | Command A+ | Mistral Small 4 |
 | **Agentic Performance** | Claude Opus 4.8 | GPT-5.5 | Gemini 3.1 Pro |
@@ -67,8 +69,8 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.48
-- **Last Updated**: 2026-07-16 07:03 UTC
+- **Document Version**: 3.49
+- **Last Updated**: 2026-07-19 11:02 UTC
 - **Repository**: <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow">github.com/ReadyPixels/AI_Models_Matrix</a>
 - **License**: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">CC BY-NC 4.0</a>
 
@@ -143,6 +145,8 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **Claude Fable 5** ⚠️ | Anthropic | 1M | 94.5% | 1510 | 95.0% | — | $10.00 / $50.00 | 2026-06-09 ⭐ |
 | **Claude Mythos 5** ⚠️ | Anthropic | 1M | ~94.1% | — | 95.5% | — | $10.00 / $50.00 | 2026-06-09 ⭐ |
 | **NVIDIA Nemotron 3 Ultra** | NVIDIA | 262K | 87.0% | — | — | — | Free (NVIDIA NIM) | 2026-06-05 |
+| **Kimi K3** ⭐ | Moonshot AI | 1M | 93.5% | — | 88.3% (Terminal-Bench 2.1) | — | $3.00 / $15.00 | 2026-07-16 ⭐ |
+| **Meta Muse Spark 1.1** ⭐ | Meta | 1M | — | — | 61.5% (SWE-Bench Pro) | — | API-only (Meta Model API) | 2026-07-09 ⭐ |
 | **Kimi K2.7 Code** ⭐ | Moonshot AI | 262K | 65.8% | — | 78.2% | 91.5% | $0.95 / $4.00 | 2026-06-12 ⭐ |
 | **GLM-5.2** ⭐ | Zhipu AI | 1M | ~91.2% | — | — | 99.2% (AIME 2026) | $1.40 / $4.40 | 2026-06-13 ⭐ |
 | **MAI-Thinking-1** ⭐ | Microsoft | 256K | 84.2% | — | — | 97% | TBD (Private Preview) | 2026-06-02 ⭐ |
@@ -156,6 +160,10 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **GPT-5.6 Luna** ⭐ | OpenAI | 1M+ | — | — | — | — | $1.00 / $6.00 | 2026-07-09 ⭐ |
 | **Grok-4.5** ⭐ | xAI | 500K | — | — | — | — | $2.00 / $6.00 | 2026-07-08 ⭐ |
 
+> ⭐ **Kimi K3** (Moonshot AI, 2026-07-16): New 2.8T-parameter open-weight frontier model, 1M context, native vision, $3.00/$15.00 per 1M tokens with 90% cache-hit discount ($0.30 cached input). Open weights promised by 2026-07-27 under a modified MIT license. Source: <a href="https://www.kimi.com/blog/kimi-k3" rel="nofollow">🔗</a>
+>
+> ⭐ **Meta Muse Spark 1.1** (Meta, 2026-07-09): New closed-weights frontier multimodal reasoning model built for agentic tool and computer use, 1M context, native multimodal perception, available via Meta Model API in public preview for US developers. Source: <a href="https://ai.meta.com/blog/introducing-muse-spark-meta-model-api" rel="nofollow">🔗</a>
+>
 > ⭐ **Claude Fable 5 and Mythos 5 redeployed**: Anthropic says export controls were lifted on 2026-06-30 00:00 UTC, and access to Fable 5 and Mythos 5 was restored on 2026-07-01 00:00 UTC. Fable 5 is available globally on Claude Platform, Claude.ai, Claude Code, and Claude Cowork, with cloud partner re-enablement in progress. Mythos 5 access is restored for approved US organizations and remains limited to Project Glasswing partners. Fable 5 has a 30-day data retention requirement, uses a different tokenizer (+30% token overhead vs Opus), and is unavailable for Zero Data Retention (ZDR) agreements. Source: <a href="https://www.anthropic.com/news/redeploying-fable-5" rel="nofollow">🔗</a>
 >
 > ⭐ **GPT-5.6 Sol/Terra/Luna** (OpenAI, 2026-07-09): General availability release following the limited preview. Three-tier family: Sol ($5.00/$30.00), Terra ($2.50/$15.00), Luna ($1.00/$6.00) per 1M tokens. Source: <a href="https://openai.com/index/gpt-5-6/" rel="nofollow">🔗</a>
@@ -166,7 +174,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 ### Model Specifications 📋
 
-Detailed technical specifications, pricing, and capabilities for frontier models and notable API models. Data as of 2026-07-15 13:24 UTC.
+Detailed technical specifications, pricing, and capabilities for frontier models and notable API models. Data as of 2026-07-19 11:02 UTC.
 
 #### Output Token Limits
 
@@ -201,6 +209,8 @@ Maximum output tokens per single API request.
 | **MiniMax-M2.5** | 131K | 1M | — |
 | **Kimi K2.6** | 262K | 262K | Max output = 262,144 tokens (MIT open-weight) |
 | **Kimi K2.7 Code** | 262K | 262K | Coding-focused variant of K2.6; 30% fewer thinking tokens; Modified MIT |
+| **Kimi K3** ⭐ | 128K | 1M | 2.8T MoE (16 of 896 experts active); open weights promised by 2026-07-27; $3.00 / $15.00 |
+| **Meta Muse Spark 1.1** ⭐ | — | 1M | Closed-weights frontier multimodal reasoning model; agentic tool and computer use; API-only (Meta Model API) |
 | **Step-3.5-Flash** | 66K | 256K | — |
 | **Grok 4** | — | 256K | Not publicly specified |
 | **Grok 4 Fast** | 30K | 128K | Now aliased to Grok 4.3; $0.20 / $0.50 |
@@ -214,6 +224,8 @@ Maximum output tokens per single API request.
 | **Llama 4 Maverick** | 16K | 1M | — |
 | **Claude Fable 5** | 128K | 1M | Mythos-class; $10.00 / $50.00; released 2026-06-09 |
 | **Claude Mythos 5** | 128K | 1M | Mythos-class (restricted); $10.00 / $50.00; released 2026-06-09 |
+| **Kimi K3** ⭐ | — | 1M | 2.8T MoE; open weights promised by 2026-07-27; $3.00 / $15.00; released 2026-07-16 |
+| **Meta Muse Spark 1.1** ⭐ | — | 1M | Closed-weights; agentic tool and computer use; API-only; released 2026-07-09 |
 | **GPT-4.1** ⭐ | 128K | 1M | Knowledge cutoff June 2024; $2.00 / $8.00; retired from ChatGPT Feb 13, 2026; API still available; released 2026-04 |
 | **GPT-4.1 mini** ⭐ | 128K | 1M | Knowledge cutoff June 2024; $0.40 / $1.60; retired from ChatGPT Feb 13, 2026; API still available; released 2026-04 |
 | **GPT-4.1 nano** ⭐ | 128K | 1M | Knowledge cutoff June 2024; $0.10 / $0.40; retired from ChatGPT Feb 13, 2026; API still available; released 2026-04 |
@@ -262,6 +274,8 @@ Discounted pricing tiers for high-volume usage. All prices in USD per million to
 | **Claude Mythos 5** | $10.00 | $1.00 (hit) / $12.50 (5m write) | 50% off | Same pricing as Fable 5; restricted access via Project Glasswing |
 | **MiniMax M2.7** | $0.30 | — | — | Self-evolution capabilities; Agent Teams native; SWE-Pro 56.22%; 205K context; released 2026-03-18 |
 | **MiniMax M3** (≤512K) | $0.30 | $0.06 (hit) | — | Extended context (>512K): $0.60/$2.40; released 2026-06-01 |
+| **Kimi K3** ⭐ | $3.00 | $0.30 (hit, 90% cached) | — | 2.8T MoE; 1M context; open weights promised by 2026-07-27; released 2026-07-16 |
+| **Meta Muse Spark 1.1** ⭐ | API-only | — | — | Closed-weights; 1M context; agentic tool and computer use; released 2026-07-09 |
 | **Qwen3.7-Plus** | $0.40 | — | — | Released 2026-06-03; 1M context |
 | **Step 3.7 Flash** | Free | — | — | Free tier available; 1M context; released 2026-05-28 |
 | **NVIDIA Nemotron 3 Ultra** | Free | — | — | Free via NVIDIA NIM; 262K context |
@@ -312,6 +326,8 @@ Knowledge cutoff dates — the point after which a model has no training data.
 | **DeepSeek-R1** | ~Oct 2023 | Based on base model |
 | **GPT-4.1 / mini / nano** | June 2024 | Retired from ChatGPT Feb 13, 2026; API still available |
 | **GPT-4.5** | June 2024 | Retired from API July 2025; retiring from ChatGPT 2026-06-27 |
+| **Kimi K3** ⭐ | ~Jul 2025 | Approximate; not separately disclosed; released 2026-07-16 |
+| **Meta Muse Spark 1.1** ⭐ | ~Jan 2026 | Approximate; not separately disclosed; released 2026-07-09 |
 
 > Models not listed (Qwen, GLM, MiniMax, Kimi, Step, Mistral): training cutoff not publicly disclosed.
 
@@ -358,6 +374,7 @@ All frontier models support structured JSON output and function/tool calling exc
 | **xAI (Grok 4 / 4.20 / 4.3 / 4.5 / 4 Fast)** | US-focused | Oracle OCI (East/Midwest/West), Amazon Bedrock (June 2026) | Major price cuts: Grok 4.20 now $1.25/$2.50; Grok 4 Fast aliased to 4.3; Grok 4.3 on Bedrock at $1.25/$2.50; Grok-4.5 flagship at $2.00/$6.00 (500K context, text+image) |
 | **Mistral** | Global | Azure AI Foundry, AWS, GCP | — |
 | **Meta (Llama)** | Global (self-host) | All major cloud providers | Llama 4 Community License |
+| **Meta (Muse Spark 1.1)** | US-only (public preview) | Meta Model API | Closed-weights frontier multimodal reasoning model; public preview for US developers; released 2026-07-09 |
 | **StepFun** | Global | HuggingFace | Apache 2.0 open-source |
 
 
@@ -404,6 +421,7 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **Kimi K2.7 Code** ⭐ | Moonshot AI | 1T / 32B active (MoE) | 262K | Modified MIT |
 | **MiniMax M2.7** ⭐ | MiniMax | ~400B+ (MoE) | 205K | MiniMax Community |
 | **Kimi K2.6** | Moonshot AI | 1T / 32B active (MoE) | 262K | Modified MIT |
+| **Kimi K3** ⭐ | Moonshot AI | 2.8T / 16 active (MoE) | 1M | Modified MIT |
 | **Ornith-1.0** ⭐ | DeepReinforce | 9B / 31B / 35B-MoE / 397B-MoE | — | MIT |
 
 #### Deployment Options
@@ -489,6 +507,7 @@ Specialized AI models optimized for software development tasks.
 | Model | Developer | License | Hardware |
 |-------|-----------|---------|----------|
 | **Kimi K2.7 Code** ⭐ | Moonshot AI | Modified MIT | 80-160 GB VRAM |
+| **Kimi K3** ⭐ | Moonshot AI | Modified MIT | 160-320 GB VRAM |
 | **GLM-5.2** ⭐ | Zhipu AI | MIT | 80-160 GB VRAM |
 | **MiniMax M2** ⭐ | MiniMax | Apache 2.0 | 48-80 GB VRAM |
 | **MiniMax M2.1** ⭐ | MiniMax | Apache 2.0 | 48-80 GB VRAM |
@@ -563,9 +582,11 @@ Models capable of processing and generating multiple types of content: text, ima
 | **Claude Sonnet 4.5** | Anthropic | 200K | Document understanding |
 | **Claude Sonnet 5** ⭐ | Anthropic | 1M | Text and image input, 128K output, agentic coding and tool use |
 | **Llama 4 Maverick** | Meta | 128K | Open multimodal |
+| **MiniMax M3** | MiniMax | 1M | First open-weight model: frontier coding + 1M context + native image & video understanding |
+| **Kimi K3** ⭐ | Moonshot AI | 1M | Open-weight frontier model: 2.8T MoE, native vision, $3.00/$15.00 API pricing; released 2026-07-16 |
+| **Meta Muse Spark 1.1** ⭐ | Meta | 1M | Closed-weights frontier multimodal reasoning model; agentic tool and computer use; API-only; released 2026-07-09 |
 | **Gemini Omni Flash** | Google | — | Native multimodal (text+image+audio+video input, video generation), any-to-any creation |
 | **Nemotron 3 Nano Omni** | NVIDIA | 30B (3B active) | Vision, audio, language unified, 9x throughput |
-| **MiniMax M3** | MiniMax | 1M | First open-weight model: frontier coding + 1M context + native image & video understanding |
 
 #### Vision Capabilities
 
@@ -687,6 +708,8 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | **MiMo-V2-Pro** | 87.0% | — | — | — | 78.0% | — | — | — | — | — | — | — |
 | **GLM-5.1** | — | — | — | — | ~80.4% (est.) | — | — | — | — | — | — | — |
 | **Kimi K2.6** | 90.5% | 87.1% | — | 31.5–50.2% | 80.2% | — | 85.0% | 96.4% | — | 78.5% | — | — |
+| **Kimi K3** ⭐ | 93.5% | — | — | — | 88.3% | — | — | — | — | — | — | — |
+| **Meta Muse Spark 1.1** ⭐ | — | — | — | — | 61.5% | — | — | — | — | — | — | — |
 | **GLM-5.2** ⭐ | ~91.2% | — | — | — | — | 62.1% | 76.8% (MCP-Atlas) | 99.2% | — | — | — | — |
 | **MiniMax M3** | ~92.9% | — | — | — | — | — | — | — | — | — | — | — |
 | **MiniMax-M2.5** | 85.2% | — | — | — | 80.2% | 55.4% | — | 86.3% | — | — | — | — |
@@ -1001,6 +1024,7 @@ Services for accessing AI models via API. This pass prioritizes the cheapest ver
 | **OpenAI** | GPT-5.4 nano | $0.20 input / $1.25 output | OpenAI quickstart includes one free test API request | Batch and Flex drop to $0.10 / $0.625 | <a href="https://developers.openai.com/api/docs/pricing" rel="nofollow">🔗</a>, <a href="https://developers.openai.com/api/docs/quickstart" rel="nofollow">🔗</a> |
 | **Anthropic** | Claude Haiku 4.5 | $1.00 input / $5.00 output | New users receive a small amount of free credits | Lowest-cost Claude API model | <a href="https://platform.claude.com/docs/en/about-claude/pricing" rel="nofollow">🔗</a>, <a href="https://claude.com/pricing" rel="nofollow">🔗</a> |
 | **xAI** | Grok-4.5 | $2.00 input / $0.50 cached / $6.00 output | No public free tier listed on pricing page | New flagship (2026-07-08); 500K context, text+image; Grok 4.3 remains $1.25 / $2.50 | <a href="https://docs.x.ai/developers/models/grok-4.5" rel="nofollow">🔗</a> |
+| **Meta** | Meta Muse Spark 1.1 | API-only (public preview) | US-only public preview via Meta Model API | Closed-weights frontier multimodal reasoning model; agentic tool and computer use; 1M context; released 2026-07-09 | <a href="https://ai.meta.com/blog/introducing-muse-spark-meta-model-api" rel="nofollow">🔗</a> |
 
 #### Unified APIs & Aggregators
 
@@ -1968,7 +1992,7 @@ Comprehensive pricing comparisons and cost calculations.
 
 #### Model Pricing Comparison
 
-Comparative pricing across the cheapest official public APIs verified in this pass. Only providers and models rechecked against current official pricing pages are included below. As of 2026-07-16 07:03 UTC.
+Comparative pricing across the cheapest official public APIs verified in this pass. Only providers and models rechecked against current official pricing pages are included below. As of 2026-07-19 11:02 UTC.
 
 | Model | Input | Output | Cached Input | Best For | Source |
 |-------|-------|--------|--------------|----------|--------|
@@ -1981,6 +2005,8 @@ Comparative pricing across the cheapest official public APIs verified in this pa
 | **GPT-5.4 nano** | $0.20 | $1.25 | $0.02 | OpenAI lowest-cost standard model | <a href="https://developers.openai.com/api/docs/pricing" rel="nofollow">🔗</a> |
 | **Claude Haiku 4.5** | $1.00 | $5.00 | $0.10 (read) | Lowest-cost Claude model | <a href="https://claude.com/pricing" rel="nofollow">🔗</a> |
 | **GPT-5.6 Luna** | $1.00 | $6.00 | $0.10 | Cheapest current GPT-5.6 tier | <a href="https://developers.openai.com/api/docs/pricing" rel="nofollow">🔗</a> |
+| **Kimi K3** ⭐ | $3.00 | $15.00 | $0.30 (hit, 90% cached) | New open-weight frontier model (2026-07-16); 2.8T MoE, 1M context, native vision | <a href="https://www.kimi.com/blog/kimi-k3" rel="nofollow">🔗</a> |
+| **Meta Muse Spark 1.1** ⭐ | API-only | API-only | — | Closed-weights frontier multimodal reasoning; agentic tool and computer use; 1M context; released 2026-07-09 | <a href="https://ai.meta.com/blog/introducing-muse-spark-meta-model-api" rel="nofollow">🔗</a> |
 | **Grok-4.5** | $2.00 | $6.00 | $0.50 (hit) | xAI new flagship (2026-07-08); 500K context, text+image; function calling, structured outputs, reasoning | <a href="https://docs.x.ai/developers/models/grok-4.5" rel="nofollow">🔗</a> |
 | **Grok 4.3** | $1.25 | $2.50 | $0.20 | xAI flagship at the current public rate card | <a href="https://docs.x.ai/developers/pricing" rel="nofollow">🔗</a> |
 | **Claude Sonnet 5** | $2.00 intro / $3.00 standard | $10.00 intro / $15.00 standard | $0.20 intro read | Strong coding model if the budget can stretch | <a href="https://claude.com/pricing" rel="nofollow">🔗</a> |
@@ -2056,6 +2082,8 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 🤖 Anthropic | Claude | Fable 5 redeployed | 2026-06-09 00:00 UTC | 2026-07-01 00:00 UTC ⭐ | ✅ | SWE-bench 95.0% | $10.00 / $50.00 | ❌ | <a href="https://www.anthropic.com/news/redeploying-fable-5" rel="nofollow">🔗</a> |
 | 🤖 Anthropic | Claude | Sonnet 5 | 2026-06-30 00:00 UTC | 2026-06-30 00:00 UTC ⭐ | ✅ | SWE-bench 92.4%, SWE-bench Pro 63.2%, HLE 57.4% with tools | $2.00 / $10.00 intro | ❌ | <a href="https://www.anthropic.com/news/claude-sonnet-5" rel="nofollow">🔗</a> |
 | 🤖 OpenAI | GPT-5.6 | Sol / Terra / Luna | 2026-07-09 00:00 UTC | 2026-07-09 00:00 UTC ⭐ | ✅ | General availability; Sol $5/$30, Terra $2.50/$15, Luna $1/$6 | ❌ | <a href="https://openai.com/index/gpt-5-6/" rel="nofollow">🔗</a> |
+| 🇨🇳 Moonshot AI | Kimi | K3 | 2026-07-16 00:00 UTC | 2026-07-16 00:00 UTC ⭐ | ✅ | 2.8T MoE open-weight frontier; 1M context; $3.00/$15.00; 90% cache-hit discount | ✅ | <a href="https://www.kimi.com/blog/kimi-k3" rel="nofollow">🔗</a> |
+| 🇨🇳 Meta | Meta | Muse Spark 1.1 | 2026-07-09 00:00 UTC | 2026-07-09 00:00 UTC ⭐ | ✅ | Closed-weights frontier multimodal reasoning; agentic tool and computer use; 1M context; API-only | ❌ | <a href="https://ai.meta.com/blog/introducing-muse-spark-meta-model-api" rel="nofollow">🔗</a> |
 | 🚀 xAI | Grok | 4.5 | 2026-07-08 00:00 UTC | 2026-07-08 00:00 UTC ⭐ | ✅ | New frontier multimodal LLM; 500K context; $2.00/$6.00 | ❌ | <a href="https://docs.x.ai/developers/models/grok-4.5" rel="nofollow">🔗</a> |
 | 🤖 OpenAI | GPT-Live | 1 / 1 mini | 2026-07-08 00:00 UTC | 2026-07-08 00:00 UTC ⭐ | — | Full-duplex voice models powering ChatGPT Voice; GPT-5.5 backend; API pending | ❌ | <a href="https://openai.com/index/introducing-gpt-live/" rel="nofollow">🔗</a> |
 | 🇨🇳 MiniMax | M2 / M2.1 | Open-source | 2026-07-02 00:00 UTC | 2026-07-02 00:00 UTC ⭐ | ✅ | 230B/10B active MoE, 1M context, Apache 2.0 | ✅ | <a href="https://www.minimax.io/news/minimax-m2" rel="nofollow">🔗</a> |
@@ -2085,6 +2113,8 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 🏢 Company | 🤖 Model | 📅 Release Window | Notes | 🔗 Official Site |
 |:---:|---|---|---|:---:|
 | 🤖 OpenAI | GPT-5.6 | 2026-07 | Sol/Terra/Luna three-tier family; general availability; Sol $5/$30, Terra $2.50/$15, Luna $1/$6 | <a href="https://openai.com/index/gpt-5-6/" rel="nofollow">🔗</a> |
+| 🇨🇳 Moonshot AI | Kimi K3 | 2026-07 | 2.8T MoE open-weight frontier; 1M context; $3.00/$15.00; 90% cache-hit discount; open weights promised by 2026-07-27 | <a href="https://www.kimi.com/blog/kimi-k3" rel="nofollow">🔗</a> |
+| 🇨🇳 Meta | Meta Muse Spark 1.1 | 2026-07 | Closed-weights frontier multimodal reasoning; agentic tool and computer use; 1M context; API-only (Meta Model API) | <a href="https://ai.meta.com/blog/introducing-muse-spark-meta-model-api" rel="nofollow">🔗</a> |
 | 🇨🇳 MiniMax | M2 / M2.1 | 2026-07 | Open-source MoE (230B/10B active); 1M context; Apache 2.0; $0.30/$1.20 API | <a href="https://www.minimax.io/news/minimax-m2" rel="nofollow">🔗</a> |
 | 🌐 Google DeepMind | Gemini Omni Flash | 2026-06 | $0.10/s video generation; any-to-any multimodal; conversational editing | <a href="https://deepmind.google/models/gemini/" rel="nofollow">🔗</a> |
 | 🌐 Google DeepMind | Nano Banana 2 Lite | 2026-06 | Fastest Gemini Image; 4s gen; $0.034/1K images | <a href="https://deepmind.google/models/gemini/" rel="nofollow">🔗</a> |
@@ -2119,7 +2149,8 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 6 | **Mistral Small 4** | $0.15 | $0.60 | Open weights/API |
 | 7 | **Command R** | $0.15 | $0.60 | API |
 | 8 | **GPT-5.4 nano** | $0.20 | $1.25 | Proprietary |
-| 9 | **Claude Haiku 4.5** | $1.00 | $5.00 | Proprietary |
+| 9 | **Kimi K3** ⭐ | $3.00 | $15.00 | Open-weight (Modified MIT) |
+| 10 | **Claude Haiku 4.5** | $1.00 | $5.00 | Proprietary |
 | 10 | **GPT-5.6 Luna** | $1.00 | $6.00 | Proprietary |
 
 #### Sort by Performance (Coding)
@@ -2134,7 +2165,8 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 6 | **Claude Opus 4.7** | 87.6% | ❌ |
 | 7 | **GPT-5.3-Codex** | 85.0% | ❌ |
 | 8 | **GLM-5.2** ⭐ | 62.1% (SWE-bench Pro) | ✅ |
-| 9 | **Claude Opus 4.6** | 80.8% | ❌ |
+| 9 | **Kimi K3** ⭐ | 88.3% (Terminal-Bench 2.1) | ✅ |
+| 10 | **Claude Opus 4.6** | 80.8% | ❌ |
 | 10 | **Gemini 3.1 Pro** | 80.6% | ❌ |
 
 #### Sort by Context Window
@@ -2147,7 +2179,8 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 4 | **Gemini 3 Pro** | 1M+ | Research papers |
 | 5 | **Gemini 3.1 Pro** | 1M | Complex multi-document analysis |
 | 6 | **GLM-5.2** ⭐ | 1M | Frontier open-weight coding + long context |
-| 7 | **Gemini 3.5 Flash** | 1M | Fast multimodal reasoning |
+| 7 | **Kimi K3** ⭐ | 1M | 2.8T MoE open-weight frontier; native vision; $3.00/$15.00 |
+| 8 | **Gemini 3.5 Flash** | 1M | Fast multimodal reasoning |
 | 8 | **Claude Opus 4.7** | 1M | Agentic coding with full codebase |
 | 9 | **GPT-5.5 Pro** | 1.05M | Premium reasoning with long context |
 | 10 | **Grok 4.3** | 1M | Reasoning with full project context |
@@ -2218,6 +2251,9 @@ Attribution, verification sources, and methodology.
 | **MiniMax** | Speech 2.8 announcement | <a href="https://www.minimax.io/news/minimax-speech-28" rel="nofollow">minimax.io</a> |
 | **Moonshot AI** | Developer Documentation | <a href="https://platform.moonshot.ai/docs/overview" rel="nofollow">platform.moonshot.ai</a> |
 | **Moonshot AI** | Models & Pricing | <a href="https://platform.moonshot.ai/docs/pricing/chat" rel="nofollow">platform.moonshot.ai</a> |
+| **Moonshot AI** | Kimi K3 announcement | <a href="https://www.kimi.com/blog/kimi-k3" rel="nofollow">kimi.com</a> |
+| **Meta** | Llama Documentation | <a href="https://llama.meta.com" rel="nofollow">llama.meta.com</a> |
+| **Meta** | Muse Spark 1.1 announcement | <a href="https://ai.meta.com/blog/introducing-muse-spark-meta-model-api" rel="nofollow">ai.meta.com</a> |
 | **Cohere** | Developer Documentation | <a href="https://docs.cohere.com" rel="nofollow">docs.cohere.com</a> |
 | **Cohere** | Pricing overview and trial usage | <a href="https://docs.cohere.com/docs/how-does-cohere-pricing-work" rel="nofollow">docs.cohere.com</a> |
 | **Cohere** | Command R and Command A+ pricing | <a href="https://docs.cohere.com/docs/command-r" rel="nofollow">docs.cohere.com</a>, <a href="https://docs.cohere.com/docs/command-a-plus" rel="nofollow">docs.cohere.com</a> |
@@ -2283,6 +2319,8 @@ Additional context from the June 2026 research pass (supplements earlier tables;
 - **Claude Sonnet 5 launch** - Anthropic launched Sonnet 5 on 2026-06-30 00:00 UTC with 1M context, 128K output, adaptive thinking, $2.00 / $10.00 introductory pricing through 2026-08-31 00:00 UTC, and 92.4% SWE-bench Verified.
 - **Claude Fable 5 redeployment** - Anthropic restored Fable 5 and Mythos 5 access on 2026-07-01 00:00 UTC after export controls were lifted; Fable 5 is available globally, while Mythos 5 remains limited to approved Project Glasswing partners.
 - **Kimi K2.7 Code in GitHub Copilot** - Moonshot AI's open-weight coding model became generally available in GitHub Copilot model picker on July 1, 2026; first open-weight model offered in Copilot; rolled out to Pro, Pro+, and Max plans.
+- **Kimi K3** - Moonshot AI released Kimi K3 on 2026-07-16: 2.8T-parameter open-weight frontier model with 1M context, native vision, $3.00/$15.00 API pricing, 90% cache-hit discount ($0.30 cached input), and open weights promised by 2026-07-27 under a modified MIT license. Source: <a href="https://www.kimi.com/blog/kimi-k3" rel="nofollow">🔗</a>
+- **Meta Muse Spark 1.1** - Meta released Muse Spark 1.1 on 2026-07-09: closed-weights frontier multimodal reasoning model built for agentic tool and computer use, 1M context, available via Meta Model API in public preview for US developers. Source: <a href="https://ai.meta.com/blog/introducing-muse-spark-meta-model-api" rel="nofollow">🔗</a>
 - **MiniMax M2 & M2.1 open-source release** - MiniMax open-sourced MiniMax M2 (230B/10B active MoE, 1M context, Apache 2.0) and M2.1 (229B/10B active MoE, 1M context, Apache 2.0) on July 2, 2026; API priced at $0.30/$1.20 per 1M tokens; available on Hugging Face, vLLM, SGLang, and MiniMax Agent.
 - **Gemini Omni Flash and Nano Banana 2 Lite** - Google released Gemini Omni Flash for video generation ($0.10/s) and Nano Banana 2 Lite for image generation (4s generation, fastest Gemini Image model) on June 30, 2026; available in Google AI Studio, Gemini API, and Gemini Enterprise Agent Platform.
 - **GLM-5.2 open-source release** - Zhipu AI open-sourced GLM-5.2 (753B MoE, 1M context, MIT license) on 2026-06-17; available via API at $1.40/$4.40 per 1M; leads AIME 2026 at 99.2%.
@@ -2296,7 +2334,7 @@ Additional context from the June 2026 research pass (supplements earlier tables;
 
 ---
 
-**Last Updated:** 2026-07-16 07:03 UTC
+**Last Updated:** 2026-07-19 11:02 UTC
 **Maintained by:** ReadyPixels LLC
 
 ---
