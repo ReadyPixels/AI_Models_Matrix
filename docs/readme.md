@@ -6,7 +6,7 @@
 
 <a href="https://awesome.re" rel="nofollow"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
-<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--08--24%2000%3A00%20UTC-green.svg" alt="Last Updated"></a>
+<a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--09--02%2022%3A30%20UTC-green.svg" alt="Last Updated"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social" alt="Star History"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social" alt="Forks"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix/issues" rel="nofollow"><img src="https://img.shields.io/github/issues/ReadyPixels/AI_Models_Matrix" alt="Issues"></a>
@@ -21,18 +21,15 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ### 🔥 Highlights
 - **140+ AI models** from major providers (OpenAI, Anthropic, Google, Meta, xAI, Microsoft, and others)
-- **Latest pricing** and performance benchmarks (latest data through 2026-08-24 00:00 UTC)
-- **Claude Opus 5** (Anthropic, 2026-07-24): new Opus-tier flagship at unchanged $5.00 / $25.00 pricing with 1M context, 128K output, 96.0% SWE-bench Verified, and top scores on ARC-AGI 3, OSWorld 2.0, and Zapier AutomationBench; near Fable 5 performance at half the price. Source: <a href="https://www.anthropic.com/news/claude-opus-5" rel="nofollow">🔗</a>
-- **Grok 4.6** ⭐ (xAI, 2026-08-12): new frontier model for coding, agentic tasks, and knowledge work; 500K context, tiered pricing $2.00 / $6.00 under 200K prompt tokens and $4.00 / $12.00 above. Source: <a href="https://docs.x.ai/developers/models/grok-4.6" rel="nofollow">🔗</a>
-- **GLM-5.3** ⭐ (Zhipu AI, 2026-08-14): frontier coding model with emergent cyber-defense capabilities, ~50% gain over GLM-5.2 on Z.ai Code Bench, $1.40 / $4.40 pricing; open weights promised ~2026-08-28 after safety hardening. Source: <a href="https://z.ai/blog/glm-5.3" rel="nofollow">🔗</a>
-- **Gemini 3.7 Flash** ⭐ (Google, 2026-08-13): new workhorse model for coding and agents at introductory $0.75 / $3.75 through 2026-12-31; follows Gemini 3.6 Flash (2026-07-21) at the same intro price. Source: <a href="https://ai.google.dev/gemini-api/docs/changelog" rel="nofollow">🔗</a>
-- **Qwen3.8-Max GA** ⭐ (Alibaba, 2026-08-03): 2.4T-parameter flagship now generally available on Alibaba Cloud Model Studio at $2.00 / $6.00, with the open Qwen3.8-2.4T-A95B checkpoint on Hugging Face. Source: <a href="https://www.alibabacloud.com/help/en/model-studio/models" rel="nofollow">🔗</a>
-- **DeepSeek V4-Pro & V4-Flash** ⭐ (DeepSeek, 2026-08-13): V4-Pro 1.7T and V4-Flash 304B released as MIT-licensed open weights with peak/off-peak API pricing; V4-Flash-Vision-Exp followed 2026-08-21. Source: <a href="https://api-docs.deepseek.com/news" rel="nofollow">🔗</a>
-- **Kimi K3 open weights released** ⭐ (Moonshot AI, 2026-07-27): weights published under the Kimi K3 License as promised (2.8T total, 104B active parameters). Source: <a href="https://www.kimi.com/blog/kimi-k3" rel="nofollow">🔗</a>
-- **Meta Muse Spark 1.2 + Muse Code beta** ⭐ (Meta, 2026-08-05): coding-focused Spark update ($1.25 / $4.25) with the Meta Model API expanded globally, plus the Muse Code terminal agent in beta; **Muse Glimmer 30B** open weights (Apache 2.0) followed 2026-08-10. Source: <a href="https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2" rel="nofollow">🔗</a>
-- **GPT-5.6 repricing** ⭐ (OpenAI, 2026-07-30): Sol at $4.00 / $20.00 promo through 2026-11-21, Terra $2.00 / $12.00, Luna $0.20 / $1.20; context expanded to 1.05M, knowledge cutoff 2026-02-16. **GPT-5.6 Cyber** ($12.50 / $75.00) launched 2026-08-10 for Daybreak Red partners only. Source: <a href="https://openai.com/index/gpt-5-6/" rel="nofollow">🔗</a>
-- **Claude Sonnet 5 intro pricing made permanent**: the $2.00 / $10.00 introductory rate now stays; the planned 2026-09-01 increase was cancelled. Source: <a href="https://www.anthropic.com/pricing" rel="nofollow">🔗</a>
-- **MCP 2026-07-28 specification finalized** ⭐: the Model Context Protocol spec revision 2026-07-28 is final. Source: <a href="https://modelcontextprotocol.io/specification/2026-07-28" rel="nofollow">🔗</a>
+- **Latest pricing** and performance benchmarks (latest data through 2026-09-02 22:30 UTC)
+- **Gemini 3.8 Flash** ⭐ (Google, 2026-09-02): successor to Gemini 3.7 Flash, same introductory $0.75 / $3.75 through 2026-12-31, 1M context, 64K output, three effort levels; **Gemini 3.8 Flash Cyber** restricted to the new Fairwind Program. Source: <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/" rel="nofollow">🔗</a>
+- **Claude Fable 5.1 / Mythos 5.1** ⭐ (Anthropic, 2026-09-01): Mythos-class update with 75% cache-read price cut (cache reads now $0.25/MTok), 52.6% Terminal-Bench-Science, 55.8% Terminal-Bench 4.0; Claude Code v2.1.257 ships `claude-fable-5-1` as the new default Fable model. Source: <a href="https://www.anthropic.com/claude-fable-and-mythos-5-1" rel="nofollow">🔗</a>
+- **Muse Voice Transcribe** ⭐ (Meta, 2026-09-01): Meta Superintelligence Labs' first real-time audio perception model; streaming ASR, 20+ speaker diarization, endpointing, and 25 verified languages; ranks #1 on Artificial Analysis streaming STT; $0.18/audio hour on the Meta Model API. Source: <a href="https://research.meta.ai/blog/introducing-muse-voice-transcribe" rel="nofollow">🔗</a>
+- **Mercury 2.5 Preview** ⭐ (Inception Labs, 2026-08-31): diffusion reasoning LLM with 260K context, $0.04 / $0.15 per 1M input/output, ~1,107 tok/s; reasoning, tool use, and structured output on an OpenAI-compatible endpoint via OpenRouter. Source: <a href="https://openrouter.ai/inception/mercury-2.5-preview" rel="nofollow">🔗</a>
+- **Tencent Hy4 preview** ⭐ (Tencent Hunyuan, 2026-08-28): 770B/49B-active MoE with 1M context and Gated DeepSeek Sparse Attention; Apache 2.0 open weights on Hugging Face, ModelScope, and GitHub; native MTP speculative decoding. Source: <a href="https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview" rel="nofollow">🔗</a>
+- **Gemini 3.5 Transcribe** (Google, 2026-08-26): "most precise speech-to-text model" from Google; 2.6% WER on average, 85+ languages, separate `gemini-3.5-transcribe` (non-streaming) and `gemini-3.5-transcribe-live` (WebSocket) endpoints; powers Gboard Rambler and the new Chrome extension. Source: <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/" rel="nofollow">🔗</a>
+- **DeepSeek V4 peak/off-peak pricing** (2026-08-16, 16:00 UTC): V4-Pro now $0.66–$1.32 in / $1.98–$3.96 out, V4-Flash $0.22–$0.44 / $0.66–$1.32; off-peak 50% of peak (peak 01:00–04:00 and 06:00–10:00 UTC Mon–Fri). Source: <a href="https://api-docs.deepseek.com/quick_start/pricing" rel="nofollow">🔗</a>
+- **Anthropic Claude text watermarks** (effective 2026-08-02): all models released after 2026-08-02 carry an invisible numerical watermark per the EU AI Act Code of Practice on Transparency of AI-Generated Content. Source: <a href="https://www.anthropic.com/news/claude-text-watermark" rel="nofollow">🔗</a>
 - **Self-hosting guides** for open-source models
 - **Development tools** for AI application building
 
@@ -40,13 +37,14 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 | Category | #1 | #2 | #3 |
 |----------|-----|-----|-----|
-| **Coding** | Claude Opus 5 | Claude Fable 5 | Claude Sonnet 5 |
+| **Coding** | Claude Opus 5 | Claude Fable 5.1 | Claude Sonnet 5 |
 | **Reasoning** | Gemini 3.1 Pro | GPT-5.5 Pro | Qwen3.7-Max |
-| **Open Source** | Kimi K3 | DeepSeek V4-Pro | GLM-5.2 |
+| **Open Source** | Kimi K3 | DeepSeek V4-Pro | Tencent Hy4 preview |
 | **Cost Efficiency** | Llama 3.1 8B Instant | Gemini 2.5 Flash-Lite | DeepSeek-V4-Flash |
 | **Free & Budget** | Gemini 2.5 Flash-Lite | Command A+ | Mistral Small 4 |
-| **Agentic Performance** | Claude Opus 5 | Claude Fable 5 | GPT-5.6 Sol |
+| **Agentic Performance** | Claude Opus 5 | Claude Fable 5.1 | GPT-5.6 Sol |
 | **Context Window** | Gemini 3 Flash (10M) | Llama 4 Scout (10M) | Claude Opus 4.8 (1M) |
+| **Speed (Tok/s)** | Mercury 2.5 Preview | Celeris-1 | Ling 3.0 Flash |
 
 ## 📚 Documentation
 
@@ -60,8 +58,8 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 
 ## 📋 At a Glance
 
-- **Document Version**: 3.51
-- **Last Updated**: 2026-08-24 00:00 UTC
+- **Document Version**: 3.52
+- **Last Updated**: 2026-09-02 22:30 UTC
 - **Repository**: <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow">github.com/ReadyPixels/AI_Models_Matrix</a>
 - **License**: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">CC BY-NC 4.0</a>
 
@@ -135,9 +133,15 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 | **GPT-5.5 Pro** | OpenAI | 1.05M | 94.2% | 1551 | 92.3% | 100% | $30.00 / $180.00 | 2026-05-08 |
 | **Gemini 3.1 Pro** | Google | 1M | 94.3% | 1505 | 80.6% | 100% | $2.00 / $12.00 | 2026-04-26 |
 | **Gemini 3.7 Flash** ⭐ | Google | 1M | — | — | — | — | $0.75 / $3.75 (intro) | 2026-08-13 00:00 UTC ⭐ |
+| **Gemini 3.8 Flash** ⭐ | Google | 1M | — | — | — | — | $0.75 / $3.75 (intro through 2026-12-31) | 2026-09-02 00:00 UTC ⭐ |
+| **Gemini 3.8 Flash Cyber** ⚠️ | Google | 1M | — | — | — | — | TBD | 2026-09-02 00:00 UTC ⭐ |
 | **Gemini 3.6 Flash** | Google | 1M | — | — | — | — | $0.75 / $3.75 (intro) | 2026-07-21 00:00 UTC |
 | **Claude Fable 5** ⚠️ | Anthropic | 1M | 94.5% | 1510 | 95.0% | — | $10.00 / $50.00 | 2026-06-09 |
 | **Claude Mythos 5** ⚠️ | Anthropic | 1M | ~94.1% | — | 95.5% | — | $10.00 / $50.00 | 2026-06-09 |
+| **Claude Fable 5.1** ⭐ | Anthropic | 1M | — | — | 95.0%+ | — | $10.00 / $50.00 (cache reads $0.25) | 2026-09-01 00:00 UTC ⭐ |
+| **Claude Mythos 5.1** ⭐ ⚠️ | Anthropic | 1M | — | — | 95.0%+ | — | $10.00 / $50.00 (cache reads $0.25) | 2026-09-01 00:00 UTC ⭐ |
+| **Mercury 2.5 Preview** ⭐ | Inception Labs | 260K | — | — | — | — | $0.04 / $0.15 | 2026-08-31 00:00 UTC ⭐ |
+| **Tencent Hy4 preview** ⭐ | Tencent Hunyuan | 1M | — | — | — | — | TBD (open weights Apache 2.0) | 2026-08-28 00:00 UTC ⭐ |
 | **NVIDIA Nemotron 3 Ultra** | NVIDIA | 1M | 87.0% | — | — | — | Free (NVIDIA NIM) | 2026-06-05 |
 | **Kimi K3** | Moonshot AI | 1M | 93.5% | — | 88.3% (Terminal-Bench 2.1) | — | $3.00 / $15.00 | 2026-07-16 |
 | **Meta Muse Spark 1.2** ⭐ | Meta | 1M | — | — | 82.9% (Terminal-Bench 2.1) | — | $1.25 / $4.25 | 2026-08-05 00:00 UTC ⭐ |
@@ -170,6 +174,14 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 >
 > **Claude Fable 5 and Mythos 5 redeployed**: Anthropic says export controls were lifted on 2026-06-30 00:00 UTC, and access to Fable 5 and Mythos 5 was restored on 2026-07-01 00:00 UTC. Fable 5 is available globally on Claude Platform, Claude.ai, Claude Code, and Claude Cowork, with cloud partner re-enablement in progress. Mythos 5 access is restored for approved US organizations and remains limited to Project Glasswing partners. Fable 5 has a 30-day data retention requirement, uses a different tokenizer (+30% token overhead vs Opus), and is unavailable for Zero Data Retention (ZDR) agreements. Source: <a href="https://www.anthropic.com/news/redeploying-fable-5" rel="nofollow">🔗</a>
 >
+> ⭐ **Claude Fable 5.1 and Mythos 5.1** (Anthropic, 2026-09-01): Mythos-class update with unchanged base token prices ($10.00 / $50.00 per 1M), but cache reads cut 75% to **$0.25 / 1M tokens**; 5-minute cache writes $12.50, 1-hour writes $20.00. Knowledge cutoff June 2026, retirement not sooner than 2026-09-01 2027. Fable 5.1 reports 52.6% on Terminal-Bench-Science and 55.8% on Terminal-Bench 4.0; Mythos 5.1 hits 60.9% on Terminal-Bench 4.0. Both ship under the EU AI Act text watermark (invisible; released after 2026-08-02). Same weights, different safeguards. Claude Code v2.1.257 (2026-09-01) sets `claude-fable-5-1` as the new default Fable model and adds time/effort settings, `--system-prompt-snapshot`, and stronger publish-safety guidance. Source: <a href="https://www.anthropic.com/claude-fable-and-mythos-5-1" rel="nofollow">🔗</a>
+>
+> ⭐ **Mercury 2.5 Preview** (Inception Labs, 2026-08-31): latest diffusion LLM, OpenAI-compatible endpoint, 260K context, ~1,107 tok/s, $0.04 input / $0.15 output per 1M tokens, $0.004 cached input; reasoning, tool use, structured output. Available via OpenRouter as `inception/mercury-2.5-preview`. Source: <a href="https://openrouter.ai/inception/mercury-2.5-preview" rel="nofollow">🔗</a>
+>
+> ⭐ **Tencent Hy4 preview** (Tencent Hunyuan, 2026-08-28): new flagship 770B-parameter MoE with 49B active, 1M context, Gated DeepSeek Sparse Attention + IndexCache, native MTP speculative decoding, Apache 2.0 weights. 31.8% inference throughput gain reported by Tencent. Available on Tencent Cloud TokenHub, OpenRouter, and Tencent's WorkBuddy / CodeBuddy. Source: <a href="https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview" rel="nofollow">🔗</a>
+>
+> ⭐ **Gemini 3.8 Flash** (Google, 2026-09-02): successor to Gemini 3.7 Flash. 1M context, 64K output, three tunable effort levels (high/medium/low). Same introductory $0.75 / $3.75 per 1M tokens through 2026-12-31, then $1.50 / $7.50. Knowledge cutoff March 2026. Pairs with **Gemini 3.8 Flash Cyber**, the new frontier-level cybersecurity model available only through Google's **Fairwind Program** for trusted defenders. Source: <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/" rel="nofollow">🔗</a>
+>
 > ⭐ **GPT-5.6 repricing** (OpenAI, 2026-07-30): Sol dropped to $4.00 / $20.00 promotional pricing through 2026-11-21, Terra to $2.00 / $12.00, and Luna to $0.20 / $1.20 per 1M tokens; context expanded to 1.05M tokens with a 2026-02-16 knowledge cutoff. **GPT-5.6 Cyber** ($12.50 / $75.00) launched 2026-08-10 with access limited to Daybreak Red partners, so it is not listed as a general-availability row. Source: <a href="https://openai.com/index/gpt-5-6/" rel="nofollow">🔗</a>
 >
 > **Grok-4.5** (xAI, 2026-07-08): New frontier multimodal LLM — the xAI flagship route over Grok 4.3. 500K context window, text+image input and text output, with function calling, structured outputs, and reasoning. API pricing $2.00 input / $0.50 cached input / $6.00 output per 1M tokens. Released 2026-07-08; available in Palantir AIP from 2026-07-14. Source: <a href="https://docs.x.ai/developers/models/grok-4.5" rel="nofollow">🔗</a>
@@ -178,7 +190,7 @@ State-of-the-art proprietary AI models with cutting-edge capabilities from leadi
 
 ### Model Specifications 📋
 
-Detailed technical specifications, pricing, and capabilities for frontier models and notable API models. Data as of 2026-08-24 00:00 UTC.
+Detailed technical specifications, pricing, and capabilities for frontier models and notable API models. Data as of 2026-09-02 22:30 UTC.
 
 #### Output Token Limits
 
@@ -237,6 +249,10 @@ Maximum output tokens per single API request.
 | **Llama 4 Maverick** | 16K | 1M | — |
 | **Claude Fable 5** | 128K | 1M | Mythos-class; $10.00 / $50.00; released 2026-06-09 |
 | **Claude Mythos 5** | 128K | 1M | Mythos-class (restricted); $10.00 / $50.00; released 2026-06-09 |
+| **Claude Fable 5.1** ⭐ | 128K | 1M | Mythos-class update; same $10.00 / $50.00; cache reads cut 75% to $0.25; knowledge cutoff June 2026; released 2026-09-01 00:00 UTC ⭐ |
+| **Claude Mythos 5.1** ⭐ | 128K | 1M | Restricted to Glasswing, CVP, LSVP partners; same $10.00 / $50.00; released 2026-09-01 00:00 UTC ⭐ |
+| **Mercury 2.5 Preview** ⭐ | 65,536 | 260K | Diffusion reasoning LLM; OpenAI-compatible; ~1,107 tok/s; $0.04/$0.15 per 1M; released 2026-08-31 00:00 UTC ⭐ |
+| **Tencent Hy4 preview** ⭐ | 64K | 1M | 770B/49B MoE; Gated DeepSeek Sparse Attention; Apache 2.0 open weights; released 2026-08-28 00:00 UTC ⭐ |
 | **GPT-4.1** | 128K | 1M | Knowledge cutoff June 2024; $2.00 / $8.00; retired from ChatGPT Feb 13, 2026; API still available; released 2026-04 |
 | **GPT-4.1 mini** | 128K | 1M | Knowledge cutoff June 2024; $0.40 / $1.60; retired from ChatGPT Feb 13, 2026; API still available; released 2026-04 |
 | **GPT-4.1 nano** | 128K | 1M | Knowledge cutoff June 2024; $0.10 / $0.40; retired from ChatGPT Feb 13, 2026; API still available; released 2026-04 |
@@ -266,6 +282,7 @@ Discounted pricing tiers for high-volume usage. All prices in USD per million to
 | **Gemini 3.1 Pro** | $2.00 | $0.20–$0.40 + $4.50/hr storage | 50% off | Tiered by input length |
 | **Gemini 3.5 Flash** | $1.50 | $0.15 | 50% off | Released 2026-05-19; 4x faster than 3.1 Pro |
 | **Gemini 3.7 Flash** ⭐ | $0.75 (intro) | $0.075 | 50% off | Intro $0.75 / $3.75 through 2026-12-31, then $1.50 / $7.50; released 2026-08-13 00:00 UTC ⭐ |
+| **Gemini 3.8 Flash** ⭐ | $0.75 (intro) | $0.075 | 50% off | Intro $0.75 / $3.75 through 2026-12-31, then $1.50 / $7.50; 1M context; released 2026-09-02 00:00 UTC ⭐ |
 | **Gemini 3.6 Flash** | $0.75 (intro) | — | 50% off | Intro $0.75 / $3.75 through 2026-12-31, then $1.50 / $7.50; released 2026-07-21 00:00 UTC |
 | **Gemini 3.5 Flash-Lite** | $0.30 | — | 50% off | $0.30 / $2.50; most cost-efficient GA Gemini model; released 2026-07-21 00:00 UTC |
 | **Gemini 3 Flash** | $0.50 | $0.05 + $1.00/hr storage | 50% off | — |
@@ -289,6 +306,10 @@ Discounted pricing tiers for high-volume usage. All prices in USD per million to
 | **Step-3.5-Flash** | $0.10 | — | — | — |
 | **Claude Fable 5** | $10.00 | $1.00 (hit) / $12.50 (5m write) | 50% off | Batch: $5.00 in / $25.00 out; fast mode $20/$100 |
 | **Claude Mythos 5** | $10.00 | $1.00 (hit) / $12.50 (5m write) | 50% off | Same pricing as Fable 5; restricted access via Project Glasswing |
+| **Claude Fable 5.1** ⭐ | $10.00 | $0.25 (hit, 75% cut) / $12.50 (5m) / $20.00 (1h) | 50% off | Batch: $5.00 in / $25.00 out; cache reads cut from $1.00 to $0.25; knowledge cutoff June 2026; released 2026-09-01 00:00 UTC ⭐ |
+| **Claude Mythos 5.1** ⭐ | $10.00 | $0.25 (hit, 75% cut) / $12.50 (5m) / $20.00 (1h) | 50% off | Same pricing as Fable 5.1; restricted access via Glasswing, CVP, LSVP; released 2026-09-01 00:00 UTC ⭐ |
+| **Mercury 2.5 Preview** ⭐ | $0.04 | $0.004 (hit) | — | OpenAI-compatible; 260K context; ~1,107 tok/s output; released 2026-08-31 00:00 UTC ⭐ |
+| **Tencent Hy4 preview** ⭐ | TBD (open weights Apache 2.0) | — | — | 770B/49B MoE; 1M context; available on Tencent Cloud TokenHub and OpenRouter; released 2026-08-28 00:00 UTC ⭐ |
 | **MiniMax M2.7** | $0.30 | — | — | Self-evolution capabilities; Agent Teams native; SWE-Pro 56.22%; 205K context; released 2026-03-18 |
 | **MiniMax M3** (≤512K) | $0.30 | $0.06 (hit) | — | Extended context (>512K): $0.60/$2.40; released 2026-06-01 |
 | **Kimi K3** ⭐ | $3.00 | $0.30 (hit, 90% cached) | — | 2.8T MoE; 1M context; open weights released 2026-07-27 00:00 UTC ⭐ on Hugging Face (Kimi K3 License) |
@@ -314,6 +335,7 @@ Output throughput and time-to-first-token from <a href="https://artificialanalys
 | Model | Output Speed (tok/s) | TTFT | Notes |
 |-------|---------------------|------|-------|
 | **Celeris-1** ⭐ | ~1,573 | — | Diffusion LLM by Celeris; fastest model on Artificial Analysis; released 2026-07-27 00:00 UTC ⭐ |
+| **Mercury 2.5 Preview** ⭐ | ~1,107 | — | Diffusion reasoning LLM by Inception Labs; 260K context; OpenAI-compatible; released 2026-08-31 00:00 UTC ⭐ |
 | **Mercury 2** | ~927 | — | Inception Labs diffusion LLM |
 | **Ling 3.0 Flash** | ~399 | — | Among fastest models on Artificial Analysis |
 | **Gemini 3.1 Flash-Lite** | ~250 | ~2.1s | Fastest budget Google model |
@@ -334,6 +356,8 @@ Knowledge cutoff dates — the point after which a model has no training data.
 | Model | Training Cutoff | Notes |
 |-------|----------------|-------|
 | **Claude Opus 5** | May 2026 | Most recent cutoff among frontier models; released 2026-07-24 |
+| **Claude Fable 5.1** ⭐ | June 2026 | Released 2026-09-01 00:00 UTC ⭐; Anthropic watermarks post-2026-08-02 text outputs |
+| **Claude Mythos 5.1** ⭐ | June 2026 | Released 2026-09-01 00:00 UTC ⭐; same model as Fable 5.1 |
 | **Claude Sonnet 4.6** | Jan 2026 | Reliable knowledge: Aug 2025 |
 | **Claude Sonnet 5** | Jan 2026 | Reliable knowledge cutoff Jan 2026; released 2026-06-30 00:00 UTC |
 | **Claude Opus 4.7 / 4.8** | Jan 2026 | Reliable knowledge: Jan 2026 |
@@ -370,6 +394,8 @@ Knowledge cutoff dates — the point after which a model has no training data.
 | **Qwen3-Max-Thinking** | 119 | Qwen3 series |
 | **Gemini 3 Flash** | 100 | 91.8% MMMLU score across 100 languages |
 | **Gemini 3.1 Pro / 3 Pro** | 100+ | — |
+| **Gemini 3.7 Flash** | 100 | HLE-Verified 53.6% (released 2026-08-13) |
+| **Gemini 3.8 Flash** ⭐ | 100 | Same effort levels as 3.7 Flash; released 2026-09-02 00:00 UTC ⭐ |
 | **Gemini 3.1 Flash-Lite** | 100 | 91.3% MMMLU score |
 | **Llama 4 Maverick** | 12 | Output languages |
 | **Claude (all)** | Many | English-optimized; broad multilingual; Sonnet 5 supports multilingual capabilities and vision |
@@ -397,7 +423,7 @@ All frontier models support structured JSON output and function/tool calling exc
 |----------|-----------------|----------------|-------|
 | **Anthropic** | Global | AWS Bedrock, GCP Vertex AI, Microsoft Foundry | US-only inference at 1.1x via `inference_geo`; Microsoft Foundry bills via Azure Marketplace (CCUs) |
 | **OpenAI** | Global | Azure OpenAI | Data residency endpoints +10% (post-3/5/26); GPT-5.6 Cyber restricted to Daybreak Red partners (released 2026-08-10 00:00 UTC ⭐) |
-| **Google** | Global | Google AI Studio, Vertex AI | Some regional restrictions per Google terms |
+| **Google** | Global | Google AI Studio, Vertex AI | Gemini 3.8 Flash Cyber restricted to the Fairwind Program (launched 2026-09-02) for trusted defenders; Gemini 3.8 Flash GA 2026-09-02 at $0.75/$3.75 intro through 2026-12-31 |
 | **DeepSeek** | Global | Azure (R1 only, select regions) | China-based servers |
 | **Alibaba (Qwen)** | Global | Alibaba Cloud Model Studio | China-based; globally accessible |
 | **Zhipu AI (GLM)** | Global | Z.AI API | MIT license enables self-hosting anywhere |
@@ -458,6 +484,7 @@ Self-hostable models with permissive licenses or open weights for privacy, cost 
 | **Kimi K3** | Moonshot AI | 2.8T / 104B active (MoE) | 1M | Kimi K3 License |
 | **LongCat-2.0** | Meituan | 1.6T / ~48B active (MoE) | 1M | MIT |
 | **Hy3** | Tencent | 295B / 21B active (MoE) | 256K | Apache 2.0 |
+| **Hy4 preview** ⭐ | Tencent Hunyuan | 770B / 49B active (MoE) | 1M | Apache 2.0 |
 | **Ornith-1.0** | DeepReinforce | 9B / 31B / 35B-MoE / 397B-MoE | — | MIT |
 | **DeepSeek-V4-Pro** | DeepSeek | 1.7T (MoE) | 1M | MIT |
 | **Qwen3.8-27B** | Alibaba | 27B dense | 262K | Apache 2.0 |
@@ -489,8 +516,9 @@ Specialized AI models optimized for software development tasks.
 | Rank | Model | Company | SWE-bench Verified |
 |------|-------|---------|-------------------|
 | 🥇 #1 | **Claude Opus 5** | Anthropic | 96.0% |
-| 🥈 #2 | **Claude Mythos 5** ⚠️ | Anthropic | 95.5% |
-| 🥉 #3 | **Claude Fable 5** ⚠️ | Anthropic | 95.0% |
+| 🥈 #2 | **Claude Mythos 5.1** ⚠️ | Anthropic | 95.5%+ (Mythos 5.1 inherits Mythos 5 score; +60.9% Terminal-Bench 4.0) |
+| 🥉 #3 | **Claude Fable 5.1** ⭐ | Anthropic | 95.0%+ (cache reads 75% cheaper; +52.6% Terminal-Bench-Science, 55.8% Terminal-Bench 4.0) |
+| #3a | **Claude Mythos 5** ⚠️ | Anthropic | 95.5% |
 | #4 | **Claude Mythos Preview** | Anthropic | 93.9% |
 | #5 | **Claude Sonnet 5** | Anthropic | 92.4% |
 | #6 | **GPT-5.5 Pro** | OpenAI | 92.3% |
@@ -523,6 +551,10 @@ Specialized AI models optimized for software development tasks.
 | Model | Developer | Pricing | Best For |
 |-------|-----------|---------|----------|
 | **Claude Fable 5** ⚠️ | Anthropic | $10.00 / $50.00 per 1M | Mythos-class coding; SWE-bench 95.0%; restored globally 2026-07-01 00:00 UTC with stronger safeguards |
+| **Claude Fable 5.1** ⭐ | Anthropic | $10.00 / $50.00 per 1M (cache reads $0.25) | Mythos-class coding update; 95.0%+ SWE-bench; 52.6% Terminal-Bench-Science; 55.8% Terminal-Bench 4.0; cache reads 75% cheaper; released 2026-09-01 00:00 UTC ⭐ |
+| **Claude Mythos 5.1** ⭐ ⚠️ | Anthropic | $10.00 / $50.00 per 1M (cache reads $0.25) | Restricted to Glasswing/CVP/LSVP partners; 60.9% Terminal-Bench 4.0; same model as Fable 5.1; released 2026-09-01 00:00 UTC ⭐ |
+| **Mercury 2.5 Preview** ⭐ | Inception Labs | $0.04 / $0.15 per 1M | Fastest reasoning diffusion LLM; ~1,107 tok/s; 260K context; OpenAI-compatible; released 2026-08-31 00:00 UTC ⭐ |
+| **Tencent Hy4 preview** ⭐ | Tencent Hunyuan | Open weights (Apache 2.0); API on Tencent Cloud | 770B/49B MoE; 1M context; outperformed GLM 5.3 and Kimi K3 in Tencent's internal engineering eval; released 2026-08-28 00:00 UTC ⭐ |
 | **Claude Opus 5** | Anthropic | $5.00 / $25.00 per 1M | Complex agentic coding and enterprise work; 96.0% SWE-bench Verified; 1M context; released 2026-07-24 00:00 UTC |
 | **Claude Opus 4.8** | Anthropic | $5.00 / $25.00 per 1M | Agentic coding, complex tasks, best available Opus |
 | **Claude Sonnet 5** ⭐ | Anthropic | $2.00 / $10.00 per 1M intro through 2026-08-31 00:00 UTC | Agentic coding at Sonnet latency and price; 92.4% SWE-bench Verified; 63.2% SWE-bench Pro |
@@ -606,6 +638,9 @@ Models optimized for step-by-step reasoning, mathematical problem-solving, and c
 | **DeepSeek-R1** | Reasoning | 128K | $0.50 / $2.15 |
 | **Claude Sonnet 4.5** | Hybrid | 200K | $3.00 / $15.00 |
 | **Claude Sonnet 5** | Hybrid | 1M | $2.00 / $10.00 (intro pricing made permanent) |
+| **Claude Fable 5.1** ⭐ | Hybrid Reasoning | 1M | $10.00 / $50.00 (cache reads $0.25) |
+| **Claude Mythos 5.1** ⭐ ⚠️ | Hybrid Reasoning | 1M | $10.00 / $50.00 (cache reads $0.25); restricted |
+| **Mercury 2.5 Preview** ⭐ | Diffusion Reasoning | 260K | $0.04 / $0.15 |
 | **GPT-Rosalind** | Life Sciences Reasoning | 128K | Pay-per-token (Research Preview) |
 | **MAI-Thinking-1** | Reasoning | 256K | TBD (Private Preview) |
 
@@ -632,6 +667,7 @@ Models capable of processing and generating multiple types of content: text, ima
 | **MiniMax M3** | MiniMax | 1M | First open-weight model: frontier coding + 1M context + native image & video understanding |
 | **Kimi K3** | Moonshot AI | 1M | Open-weight frontier model: 2.8T MoE, native vision, $3.00/$15.00 API pricing; released 2026-07-16 |
 | **DeepSeek-V4-Flash-Vision-Exp** ⭐ | DeepSeek | 1M | Experimental vision variant of V4-Flash: image input at no price premium (images up to 384 tokens each), 284B MoE (13B active), document/chart understanding and multimodal agent workflows; released 2026-08-21 ⭐ |
+| **Muse Voice Transcribe** ⭐ | Meta Superintelligence Labs | — | Real-time audio perception (ASR + 20+ speaker diarization + endpointing); 25 verified languages at launch (70+ trained); 3.1% WER on Artificial Analysis streaming STT (rank #1, 2026-09-01); $0.18/audio hour; API + Fn-key dictation in Meta AI Mac; released 2026-09-01 00:00 UTC ⭐ |
 | **Meta Muse Spark 1.2** ⭐ | Meta | 1M | Closed-weights frontier multimodal reasoning model; agentic tool and computer use; API-only ($1.25/$4.25); Spark 1.2 + global Meta Model API expansion released 2026-08-05 ⭐ |
 | **Meta Muse Glimmer 30B** ⭐ | Meta | 128K | Open-weights (Apache 2.0) dense 30B multimodal agent model; interleaved text+image input via 1.8B perception encoder; runs on one consumer GPU; released 2026-08-10 ⭐ |
 | **Gemini Omni Flash** | Google | — | Native multimodal (text+image+audio+video input, video generation), any-to-any creation |
@@ -716,7 +752,7 @@ Comprehensive hardware specifications for self-hosting AI models.
 
 ### Comprehensive Benchmark Reference 📈
 
-Detailed benchmark scores across all major evaluations. Scores are percentages (%) unless noted. Arena Elo scores are integers. `—` = not publicly reported. Data as of 2026-08-24 00:00 UTC.
+Detailed benchmark scores across all major evaluations. Scores are percentages (%) unless noted. Arena Elo scores are integers. `—` = not publicly reported. Data as of 2026-09-02 22:30 UTC.
 
 #### Full Benchmark Table
 
@@ -735,7 +771,9 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | **Claude Sonnet 5** | — | — | — | 43.2% no tools / 57.4% tools | 92.4% | 63.2% | — | — | — | — | — | — |
 | **Claude Sonnet 4.5** | 83.4% | 88.0% | — | — | 77.2% | — | — | 87–100% | — | — | — | — |
 | **Claude Fable 5** | 94.5% | — | — | — | 95.0% | 80.3% | 29.3% (FrontierCode) | — | — | — | — | — |
+| **Claude Fable 5.1** ⭐ | — | — | — | — | 95.0%+ | — | 29.3%+ (FrontierCode) | — | — | — | — | — |
 | **Claude Mythos 5** | ~94.1% | — | — | — | 95.5% | — | — | — | — | — | — | — |
+| **Claude Mythos 5.1** ⭐ | — | — | — | — | 95.5%+ | — | — | — | — | — | — | — |
 | **Mistral Small 4** | ~71.2% | — | — | — | — | — | — | — | — | — | — | — |
 | **Mistral Medium 3.5** | — | — | — | — | 77.6% | — | — | 86.3% | — | — | — | — |
 | **GPT-5.4** | 92.0% | 94% | 1484 | 36.6–41.6% | ~80% | 57.7% | 84–88% | 88% | 73.3% | 94% | — | 50% (Pro) |
@@ -746,6 +784,7 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 | **DeepSeek-V4-Pro (Max)** | 90.1% | — | — | — | 80.6% | 55.4% | — | — | — | — | — | — |
 | **Gemini 3.5 Flash** | ~90.4% | — | — | — | 55.1% | — | — | 72.1% | 83.6% | 84.2% | 40.2% | — |
 | **Gemini 3.7 Flash** | — | — | — | 53.6% (HLE-Verified) | — | — | — | — | — | — | — | — |
+| **Gemini 3.8 Flash** ⭐ | — | — | — | — | — | — | — | — | — | — | — | — |
 | **Gemini 3 Pro** | 91.9–93.8% | 83% | 1486 | 37.5% | 76.2% | 43.3% | 49% | 98–100% | 31.1–45.1% | 81% | 88% | 38% |
 | **Gemini 3 Flash** | 90.4% | 72% | 1474 | 33.7% | 78.0% | 44% | — | — | — | 80% | 85% | — |
 | **Gemini 3 Deep Think** | ~97% | 81% | — | 48.4% | ~58% | 63% | 58% | — | 84.6% | — | — | — |
@@ -791,6 +830,10 @@ Detailed benchmark scores across all major evaluations. Scores are percentages (
 **Claude Mythos Preview** is not publicly available and is only accessible through Project Glasswing, an invitation-only partner program for cybersecurity applications. Benchmarks for this model are not publicly disclosed as of May 2026.
 
 **GPT-5.6 Cyber** (released 2026-08-10 00:00 UTC ⭐, $12.50 / $75.00) is not generally available: OpenAI restricts access to vetted partner organizations in its Daybreak Red program for cybersecurity applications. It is not accessible via standard API keys, and no public benchmark scores have been disclosed.
+
+**Claude Mythos 5.1** (released 2026-09-01 00:00 UTC ⭐) is the same underlying model as Fable 5.1, with safeguards retuned for vetted cybersecurity, life-sciences, and Project Glasswing, CVP, and LSVP partners. It is not available for self-serve purchase.
+
+**Gemini 3.8 Flash Cyber** (released 2026-09-02 00:00 UTC ⭐) is Google’s frontier-level cybersecurity model, available only to trusted defenders through the new **Fairwind Program**. Public benchmark scores have not been disclosed.
 
 #### Benchmark Glossary
 
@@ -937,8 +980,8 @@ Command-line AI tools for autonomous coding and terminal enhancement.
 | Tool | Platform | Pricing | Key Features | GitHub |
 |------|----------|---------|--------------|--------|
 | **Aider** | Windows, macOS, Linux | Free | Gold standard, Architect mode, thinking tokens | <a href="https://github.com/Aider-AI/aider" rel="nofollow">🔗</a> |
-| **Claude Code** ⭐ | macOS, Linux, Windows | Free + API | v2.1.241 (2026-08-23 ⭐); Claude Opus 5 (`claude-opus-5`, 1M context) default Opus since v2.1.219 (2026-07-24); cost estimates (/cost, --max-budget-usd); built-in Concise output style; auto-continues sessions when usage limits reset; self-hosted runners; plan mode, computer use (research preview), CLAUDE.md skills & sub-agents | <a href="https://github.com/anthropics/claude-code" rel="nofollow">🔗</a> |
-| **Codex CLI** ⭐ | Windows, macOS, Linux | Included with ChatGPT Plus/Pro/Business/Edu/Enterprise or API key | Rust-native local coding agent; sandbox, approval modes, subagents; v0.149.1 (2026-08-24 ⭐) bug fixes; v0.149.0 (2026-08-20 ⭐) interactive `codex agents` dashboard, `codex queue` messaging, /cd /pwd /cwd, expanded Vim motions; v0.148.0 (2026-08-18 ⭐) /export to Markdown, session forking, Amazon Bedrock support | <a href="https://developers.openai.com/codex/changelog" rel="nofollow">🔗</a> |
+| **Claude Code** ⭐ | macOS, Linux, Windows | Free + API | v2.1.258 (2026-09-01 ⭐); Claude Fable 5.1 (`claude-fable-5-1`, 1M context, cache reads $0.25) is the default Fable model since v2.1.257 (2026-09-01); Claude Opus 5 (`claude-opus-5`) default Opus since v2.1.219 (2026-07-24); cost estimates (/cost, --max-budget-usd); built-in Concise output style; auto-continues sessions when usage limits reset; self-hosted runners; plan mode, computer use (research preview), CLAUDE.md skills & sub-agents; `--system-prompt-snapshot` flag; time/timeZone settings | <a href="https://github.com/anthropics/claude-code" rel="nofollow">🔗</a> |
+| **Codex CLI** ⭐ | Windows, macOS, Linux | Included with ChatGPT Plus/Pro/Business/Edu/Enterprise or API key | Rust-native local coding agent; sandbox, approval modes, subagents; v0.149.2 (2026-09-01 ⭐) bug fixes; v0.149.1 (2026-08-24 ⭐) patch; v0.149.0 (2026-08-20 ⭐) interactive `codex agents` dashboard, `codex queue` messaging, /cd /pwd /cwd, expanded Vim motions; v0.148.0 (2026-08-18 ⭐) /export to Markdown, session forking, Amazon Bedrock support | <a href="https://developers.openai.com/codex/changelog" rel="nofollow">🔗</a> |
 | **Junie CLI** | Windows, macOS, Linux | Free (BYOK) | LLM-agnostic, JetBrains IDE integration (ACP), GA 2026-06-17, agentic debugging, PR review, local model support (LiteLLM/LMStudio/Ollama) | <a href="https://www.jetbrains.com/junie" rel="nofollow">🔗</a> |
 | **Goose** ⭐ | Windows, macOS, Linux | Free (Apache-2.0) | MCP, extensible, desktop app, 25+ providers; v1.47.0 (2026-08-21 ⭐): git branch indicator, streaming shell output, per-message token/cost stats | <a href="https://github.com/block/goose" rel="nofollow">🔗</a> |
 | **Grok Build** | Windows, macOS, Linux | $300/mo (SuperGrok/X Premium Plus) | Plan mode, Arena mode, 2M context window, security-focused | ❌ |
@@ -1083,7 +1126,9 @@ Services for accessing AI models via API. This pass prioritizes the cheapest ver
 | **OpenAI** | GPT-5.6 Luna | $0.20 input / $1.20 output | OpenAI quickstart includes one free test API request | Repriced 2026-07-30; Batch and Flex drop to $0.10 / $0.60; GPT-5.4 nano remains $0.20 / $1.25 | <a href="https://developers.openai.com/api/docs/pricing" rel="nofollow">🔗</a>, <a href="https://developers.openai.com/api/docs/quickstart" rel="nofollow">🔗</a> |
 | **Anthropic** | Claude Haiku 4.5 | $1.00 input / $5.00 output | New users receive a small amount of free credits | Lowest-cost Claude API model | <a href="https://platform.claude.com/docs/en/about-claude/pricing" rel="nofollow">🔗</a>, <a href="https://claude.com/pricing" rel="nofollow">🔗</a> |
 | **xAI** | Grok 4.3 | $1.25 input / $0.20 cached / $2.50 output (under 200K tokens) | No public free tier listed on pricing page | Grok 4.6 is the new flagship (2026-08-12 ⭐): $2.00 / $6.00 under 200K tokens, 500K context; Grok 4.3 (1M context) remains the cheapest xAI text model | <a href="https://docs.x.ai/developers/models" rel="nofollow">🔗</a> |
-| **Meta** | Meta Muse Spark 1.2 | $1.25 input / $4.25 output | Meta Model API globally available since 2026-08-05 ⭐ | Closed-weights frontier multimodal reasoning model; agentic tool and computer use; 1M context; Muse Code variant also available | <a href="https://ai.meta.com/blog/introducing-muse-spark-meta-model-api" rel="nofollow">🔗</a> |
+| **Meta** | Meta Muse Spark 1.2 | $1.25 input / $4.25 output | Meta Model API globally available since 2026-08-05 ⭐ | Closed-weights frontier multimodal reasoning model; agentic tool and computer use; 1M context; Muse Code variant also available; **Muse Voice Transcribe** added 2026-09-01 at $0.18/audio hour | <a href="https://ai.meta.com/blog/introducing-muse-spark-meta-model-api" rel="nofollow">🔗</a> |
+| **Inception Labs** | Mercury 2.5 Preview | $0.04 input / $0.15 output | OpenRouter preview, OpenAI-compatible endpoint | Diffusion reasoning LLM; 260K context; ~1,107 tok/s; reasoning, tool use, structured output; released 2026-08-31 00:00 UTC ⭐ | <a href="https://openrouter.ai/inception/mercury-2.5-preview" rel="nofollow">🔗</a> |
+| **Anthropic** | Claude Fable 5.1 ⭐ | $10.00 input / $50.00 output (cache reads $0.25) | New users receive a small amount of free credits | Mythos-class update; cache reads cut 75%; 1M context; June 2026 cutoff; released 2026-09-01 00:00 UTC ⭐ | <a href="https://www.anthropic.com/claude-fable-and-mythos-5-1" rel="nofollow">🔗</a> |
 
 #### Unified APIs & Aggregators
 
@@ -1107,7 +1152,7 @@ Services that aggregate multiple models through a unified API, often with load b
 | **Cerebras** | 10+ | $0.10-$1.00/1M | Wafer-scale engine: ~3,000 tok/s, 5× faster than NVIDIA Blackwell, 80–150ms TTFT |
 | **NVIDIA NIM** | 91+ | Free (cloud endpoints) / self-host | Broadest model variety: LLMs + vision + audio + bio + climate; self-hostable Docker containers |
 | **Vercel AI Gateway** ⭐ | 100+ | $5/mo free credits; paid credits at provider list rates, zero markup | Available on all plans; unified API for text, image, video, realtime, speech, embeddings, and reranking; BYOK on paid tier; model fallbacks, provider preferences, budgets, observability, and Routing Rules beta; DeepSeek V4 Flash vision support and 50% gateway discount on repriced GPT-5.6 Sol (2026-08-21 ⭐) |
-| **Mercury 2** (Inception Labs) | 1 | $0.25/$0.75/1M | Diffusion LLM; 1,009 tok/s on Blackwell; tunable reasoning; 128K context; released 2026-05-12 |
+| **Mercury 2.5 Preview** (Inception Labs) | 1 | $0.04 / $0.15 per 1M | Diffusion reasoning LLM; 260K context; ~1,107 tok/s; tunable reasoning; tool use + structured output; OpenAI-compatible endpoint; released 2026-08-31 00:00 UTC ⭐ |
 | **Anyscale** | 100+ | $0.20-$2.00/1M | OpenAI-compatible, HIPAA/SOC 2/EU data residency, enterprise contracts |
 | **Replicate** | 50+ | $0.20-$2.00/1M | Model-as-a-service, versioning, GPU rental |
 | **OctoAI** | 20+ | $0.25-$2.00/1M | High-performance inference |
@@ -1578,6 +1623,8 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 | Model | Developer | Languages | Real-time | Open Source | Pricing | Best For | GitHub |
 |-------|-----------|-----------|----------|-------------|---------|----------|--------|
 | **Ink-2** | Cartesia | 40+ | Yes (~100ms) | No | Credit-based | Real-time transcription model paired with Sonic-3.5 for voice-agent workflows; launched 2026-06-30 00:00 UTC | <a href="https://www.cartesia.ai/launch" rel="nofollow">🔗</a> |
+| **Gemini 3.5 Transcribe** ⭐ | Google | 85+ | Yes (live variant) | No | $2.00 / 1M input audio + $12.00 / 1M output text | "Most precise STT yet" — 2.6% avg WER (non-streaming), diarization + word-level timestamps; separate `gemini-3.5-transcribe` (unary) and `gemini-3.5-transcribe-live` (WebSocket); powers Gboard Rambler and Chrome extension; released 2026-08-26 00:00 UTC ⭐ | <a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe" rel="nofollow">🔗</a> |
+| **Muse Voice Transcribe** ⭐ | Meta Superintelligence Labs | 25 verified (70+ trained) | Yes (adaptive delay) | No (closed weights) | $3.00 / 1K audio minutes (~$0.18/hr) | First Meta real-time audio perception model; native streaming ASR + 20+ speaker diarization + endpointing in a single model; 3.1% WER on Artificial Analysis streaming STT (rank #1); powers Fn-key dictation in Meta AI Mac and voice input in Muse Code; released 2026-09-01 00:00 UTC ⭐ | <a href="https://research.meta.ai/blog/introducing-muse-voice-transcribe" rel="nofollow">🔗</a> |
 | **MAI-Transcribe-1.5** | Microsoft | 43 | Yes | No | API (Foundry) | SOTA on FLEURS; #3 Artificial Analysis; 5x faster than Gemini 3.1; keyword biasing; 1hr audio in <15s; released 2026-06-02 | — |
 | **Cohere Transcribe** | Cohere | 14 | No | Yes (Apache 2.0) | Free (self-host) / Model Vault | #1 HuggingFace Open ASR Leaderboard (5.42% WER); 2B Conformer; released 2026-03-26 |
 | **VibeVoice-ASR-7B** | Microsoft | 50+ | Yes (~15s for 60min audio) | Yes (MIT) | Free (self-host) | 60-min single-pass ASR; speaker diarization + timestamps; 50+ languages; structured Who/When/What output; released 2026-01-21; HuggingFace transformers integration 2026-03-06 | <a href="https://github.com/microsoft/VibeVoice" rel="nofollow">🔗</a> |
@@ -1619,12 +1666,11 @@ Text-to-speech (TTS) and speech-to-text (STT / ASR) models for voice generation,
 | **ElevenLabs** | flash-v2.5 | ~$60 (effective) | 32 | ✅ |
 | **MiniMax** | speech-2.8-turbo | $60 | 40+ | ✅ |
 | **OpenAI** | tts-1-hd | $30 | 57 | ❌ |
-
 #### Use-Case Recommendations
 
 | Use Case | Top Picks |
 |----------|-----------|
-| **Real-time voice agents** | Cartesia Sonic-3.6/3.5 (sub-90ms), Ink-2 (~100ms STT), Deepgram Flux TTS (conversation-native), Inworld Realtime TTS-2, Simba 3.2 (streaming-native) |
+| **Real-time voice agents** | Cartesia Sonic-3.6/3.5 (sub-90ms), Ink-2 (~100ms STT), Deepgram Flux TTS (conversation-native), Inworld Realtime TTS-2, Simba 3.2 (streaming-native), Muse Voice Transcribe (3.1% WER, $0.18/hr) |
 | **Long-form narration / audiobooks** | ElevenLabs v3, Gemini 3.1 Flash TTS, Fish Audio S2 Pro |
 | **Multilingual content** | Gemini 3.1 Flash TTS (70+), ElevenLabs v3 (70+), Fish Audio S2 Pro (80+), Sonic-3.5 (40+) |
 | **Emotional fidelity** | Hume Octave 2 (reads for meaning), ElevenLabs v3 (audio tags), Fish Audio S2 Pro |
@@ -2074,13 +2120,15 @@ Comprehensive pricing comparisons and cost calculations.
 
 #### Model Pricing Comparison
 
-Comparative pricing across the cheapest official public APIs verified in this pass. Only providers and models rechecked against current official pricing pages are included below. As of 2026-08-24 00:00 UTC.
+Comparative pricing across the cheapest official public APIs verified in this pass. Only providers and models rechecked against current official pricing pages are included below. As of 2026-09-02 22:30 UTC.
 
 | Model | Input | Output | Cached Input | Best For | Source |
 |-------|-------|--------|--------------|----------|--------|
 | **Llama 3.1 8B Instant** (Groq) | $0.05 | $0.08 | — | Lowest verified public direct text API price | <a href="https://groq.com/pricing" rel="nofollow">🔗</a> |
+| **Mercury 2.5 Preview** ⭐ | $0.04 | $0.15 | $0.004 (hit) | Diffusion reasoning LLM; 260K context; ~1,107 tok/s output; released 2026-08-31 00:00 UTC ⭐ | <a href="https://openrouter.ai/inception/mercury-2.5-preview" rel="nofollow">🔗</a> |
 | **GPT OSS 20B** (Groq) | $0.075 | $0.30 | $0.0375 | Cheap open-weight routing and agents | <a href="https://groq.com/pricing" rel="nofollow">🔗</a> |
 | **Gemini 2.5 Flash-Lite** | $0.10 | $0.40 | $0.01 | Cheapest verified multimodal API with an always-on free tier | <a href="https://ai.google.dev/gemini-api/docs/pricing" rel="nofollow">🔗</a> |
+| **Gemini 3.7 / 3.8 Flash** ⭐ | $0.75 (intro through 2026-12-31) | $3.75 (intro) | $0.075 | 1M context; coding + agentic workhorse; 3.8 Flash released 2026-09-02 ⭐ | <a href="https://ai.google.dev/gemini-api/docs/pricing" rel="nofollow">🔗</a> |
 | **DeepSeek-V4-Flash** | $0.22 off-peak / $0.44 peak | $0.66 off-peak / $1.32 peak | $0.007 - $0.014 (hit) | Strong price/performance for long-context work; peak hours 01:00-04:00 and 06:00-10:00 UTC weekdays | <a href="https://api-docs.deepseek.com/quick_start/pricing" rel="nofollow">🔗</a> |
 | **Mistral Small 4** | $0.15 | $0.60 | — | Low-cost coding and multimodal work | <a href="https://docs.mistral.ai/models/model-cards/mistral-small-4-0-26-03" rel="nofollow">🔗</a> |
 | **Command R** (Cohere) | $0.15 | $0.60 | — | RAG and tool use | <a href="https://docs.cohere.com/docs/command-r" rel="nofollow">🔗</a> |
@@ -2094,6 +2142,7 @@ Comparative pricing across the cheapest official public APIs verified in this pa
 | **Qwen 3.8** ⭐ | $2.00 | $6.00 | — | GA on Alibaba Cloud Model Studio 2026-08-03 ⭐; open checkpoint Qwen3.8-2.4T-A95B on Hugging Face | <a href="https://www.alibabacloud.com/help/en/model-studio/models" rel="nofollow">🔗</a> |
 | **GLM-5.3** ⭐ | $1.40 | $4.40 | — | Zhipu flagship (2026-08-14 ⭐); open weights pending ~2026-08-28 | <a href="https://docs.z.ai/" rel="nofollow">🔗</a> |
 | **Claude Sonnet 5** | $2.00 | $10.00 | $0.20 (read) | $2/$10 intro pricing made permanent; planned 2026-09-01 increase cancelled | <a href="https://claude.com/pricing" rel="nofollow">🔗</a> |
+| **Claude Fable 5.1** ⭐ | $10.00 | $50.00 | $0.25 (read, 75% cut) | Mythos-class update; cache reads $1.00 → $0.25; June 2026 cutoff; released 2026-09-01 00:00 UTC ⭐ | <a href="https://www.anthropic.com/claude-fable-and-mythos-5-1" rel="nofollow">🔗</a> |
 
 
 #### Self-Hosting vs API (Monthly)
@@ -2124,6 +2173,10 @@ Definitions of common terms used throughout the documentation.
 | **Attention Mechanism** | Neural network component focusing on relevant input parts |
 | **Benchmark** | Standardized test measuring model performance |
 | **Chain-of-Thought (CoT)** | Prompting technique showing step-by-step reasoning |
+| **Diffusion LLM (dLLM)** | LLM that generates and refines text in parallel via denoising passes instead of left-to-right autoregressive decoding (e.g. Mercury 2.5 Preview, Celeris-1) |
+| **dLLM** | See Diffusion LLM |
+| **Diarization** | Identifying and labelling distinct speakers in an audio stream (e.g. Muse Voice Transcribe handles 20+ speakers) |
+| **Watermark** | An invisible numerical signal embedded in model output to help identify AI-generated text; Anthropic applies it to Claude models released after 2026-08-02 per the EU AI Act |
 
 #### F-L
 
@@ -2166,6 +2219,11 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 🏢 Company | 🤖 Model | 📦 Version | 📅 Release Date | 🔄 Latest Updated | 💻 Coding | 📊 Benchmarks | 💰 Price | 🖥️ Self-Host | 🔗 Official Site |
 |:---:|---|---|---|---|:---:|---|---|:---:|:---:|
 | 🚀 xAI | Grok | 4.6 | 2026-08-12 00:00 UTC | 2026-08-12 00:00 UTC ⭐ | ✅ | Frontier agentic model; 500K context; tiered $2/$6 (<200K) and $4/$12 above | $2.00 / $6.00 | ❌ | <a href="https://x.ai/news/grok-4-6" rel="nofollow">🔗</a> |
+| 🌐 Google DeepMind | Gemini 3.8 Flash | Flash | 2026-09-02 00:00 UTC | 2026-09-02 00:00 UTC ⭐ | ✅ | Successor to 3.7 Flash; same introductory $0.75/$3.75 through 2026-12-31; 1M context, 64K output, three effort levels; **3.8 Flash Cyber** restricted to Fairwind Program | $0.75 / $3.75 (intro) | ❌ | <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/" rel="nofollow">🔗</a> |
+| 🤖 Anthropic | Claude | Fable 5.1 / Mythos 5.1 | 2026-09-01 00:00 UTC | 2026-09-01 00:00 UTC ⭐ | ✅ | Mythos-class update; 75% cache-read price cut ($0.25/MTok); 52.6% Terminal-Bench-Science; 55.8% Terminal-Bench 4.0 (Mythos 60.9%); 1M context; Mythos restricted to Glasswing/CVP/LSVP | $10.00 / $50.00 | ❌ | <a href="https://www.anthropic.com/claude-fable-and-mythos-5-1" rel="nofollow">🔗</a> |
+| 🦙 Meta | Muse Voice Transcribe | — | 2026-09-01 00:00 UTC | 2026-09-01 00:00 UTC ⭐ | — | First real-time audio perception model; streaming ASR + 20+ speaker diarization + endpointing; 3.1% WER (AA rank #1); 25 verified languages; $0.18/audio hour | $3.00 / 1K minutes | ❌ | <a href="https://research.meta.ai/blog/introducing-muse-voice-transcribe" rel="nofollow">🔗</a> |
+| 🧪 Inception Labs | Mercury | 2.5 Preview | 2026-08-31 00:00 UTC | 2026-08-31 00:00 UTC ⭐ | — | Diffusion reasoning LLM; 260K context; ~1,107 tok/s output; OpenAI-compatible; tool use + structured output | $0.04 / $0.15 | ❌ | <a href="https://openrouter.ai/inception/mercury-2.5-preview" rel="nofollow">🔗</a> |
+| 🇨🇳 Tencent | Hy4 preview | — | 2026-08-28 00:00 UTC | 2026-08-28 00:00 UTC ⭐ | ✅ | 770B/49B MoE; 1M context; Gated DeepSeek Sparse Attention; Apache 2.0 open weights on Hugging Face, ModelScope, GitHub | Open weights (Apache 2.0) | ✅ | <a href="https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview" rel="nofollow">🔗</a> |
 | 🇨🇳 Zhipu AI | GLM | 5.3 | 2026-08-14 00:00 UTC | 2026-08-14 00:00 UTC ⭐ | ✅ | ~50% gain over GLM-5.2 on Z.ai Code Bench; open weights pending ~2026-08-28 | $1.40 / $4.40 | ❌ | <a href="https://z.ai/blog/glm-5.3" rel="nofollow">🔗</a> |
 | 🌐 Google DeepMind | Gemini 3.7 | Flash | 2026-08-13 00:00 UTC | 2026-08-13 00:00 UTC ⭐ | ✅ | HLE-Verified 53.6%; intro $0.75/$3.75 through 2026-12-31 | $0.75 / $3.75 (intro) | ❌ | <a href="https://ai.google.dev/gemini-api/docs/changelog" rel="nofollow">🔗</a> |
 | 🇨🇳 Alibaba | Qwen3.8-Max | GA | 2026-08-03 00:00 UTC | 2026-08-03 00:00 UTC ⭐ | ✅ | GPQA 92.6%, SWE-bench Pro 67.7%; open 2.4T-A95B checkpoint on HF | $2.00 / $6.00 | ✅ | <a href="https://www.alibabacloud.com/help/en/model-studio/models" rel="nofollow">🔗</a> |
@@ -2207,6 +2265,11 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 🏢 Company | 🤖 Model | 📅 Release Window | Notes | 🔗 Official Site |
 |:---:|---|---|---|:---:|
 | 🚀 xAI | Grok 4.6 | 2026-08 | Frontier agentic model; 500K context; tiered $2/$6 and $4/$12 | <a href="https://x.ai/news/grok-4-6" rel="nofollow">🔗</a> |
+| 🌐 Google DeepMind | Gemini 3.8 Flash | 2026-09 | Successor to 3.7 Flash; same introductory $0.75/$3.75 through 2026-12-31; 3.8 Flash Cyber restricted to Fairwind Program | <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/" rel="nofollow">🔗</a> |
+| 🤖 Anthropic | Claude Fable 5.1 / Mythos 5.1 | 2026-09 | Mythos-class update; 75% cache-read price cut; June 2026 cutoff; Mythos restricted to Glasswing/CVP/LSVP | <a href="https://www.anthropic.com/claude-fable-and-mythos-5-1" rel="nofollow">🔗</a> |
+| 🦙 Meta | Muse Voice Transcribe | 2026-09 | First Meta real-time audio perception model; streaming ASR + 20+ speaker diarization + endpointing; $0.18/audio hour | <a href="https://research.meta.ai/blog/introducing-muse-voice-transcribe" rel="nofollow">🔗</a> |
+| 🧪 Inception Labs | Mercury 2.5 Preview | 2026-08 | Diffusion reasoning LLM; 260K context; ~1,107 tok/s; OpenAI-compatible | <a href="https://openrouter.ai/inception/mercury-2.5-preview" rel="nofollow">🔗</a> |
+| 🇨🇳 Tencent | Hy4 preview | 2026-08 | 770B/49B MoE; 1M context; Gated DeepSeek Sparse Attention; Apache 2.0 open weights | <a href="https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview" rel="nofollow">🔗</a> |
 | 🇨🇳 Zhipu AI | GLM-5.3 | 2026-08 | Coding + cyber-defense flagship; $1.40/$4.40; open weights pending ~2026-08-28 | <a href="https://z.ai/blog/glm-5.3" rel="nofollow">🔗</a> |
 | 🌐 Google DeepMind | Gemini 3.6 / 3.7 Flash | 2026-07 / 2026-08 | Intro $0.75/$3.75 through 2026-12-31, then $1.50/$7.50 | <a href="https://ai.google.dev/gemini-api/docs/changelog" rel="nofollow">🔗</a> |
 | 🇨🇳 Alibaba | Qwen3.8-Max | 2026-08 | GA at $2.00/$6.00; open Qwen3.8-2.4T-A95B checkpoint on Hugging Face | <a href="https://www.alibabacloud.com/help/en/model-studio/models" rel="nofollow">🔗</a> |
@@ -2244,7 +2307,8 @@ Side-by-side comparisons of AI models sorted by various criteria.
 |------|-------|-------|--------|---------|
 | 1 | **Self-hosted open weights** | $0 | $0 | Various |
 | 2 | **Llama 3.1 8B Instant** (Groq) | $0.05 | $0.08 | API |
-| 3 | **GPT OSS 20B** (Groq) | $0.075 | $0.30 | Open weights via API |
+| 3 | **Mercury 2.5 Preview** ⭐ | $0.04 | $0.15 | API (diffusion reasoning) |
+| 4 | **GPT OSS 20B** (Groq) | $0.075 | $0.30 | Open weights via API |
 | 4 | **Gemini 2.5 Flash-Lite** | $0.10 | $0.40 | Proprietary |
 | 5 | **Mistral Small 4** | $0.15 | $0.60 | Open weights/API |
 | 6 | **Command R** | $0.15 | $0.60 | API |
@@ -2260,8 +2324,8 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | Rank | Model | SWE-bench Verified | Self-Host |
 |------|-------|:------------------:|:---------:|
 | 1 | **Claude Opus 5** | 96.0% | ❌ |
-| 2 | **Claude Mythos 5** | 95.5% | ❌ |
-| 3 | **Claude Fable 5** | 95.0% | ❌ |
+| 2 | **Claude Mythos 5.1** ⭐ | 95.5%+ | ❌ |
+| 3 | **Claude Fable 5.1** ⭐ | 95.0%+ | ❌ |
 | 4 | **Claude Sonnet 5** | 92.4% | ❌ |
 | 5 | **GPT-5.5 Pro** | 92.3% | ❌ |
 | 6 | **Claude Opus 4.8** | 88.6% | ❌ |
@@ -2283,6 +2347,7 @@ Side-by-side comparisons of AI models sorted by various criteria.
 | 5 | **Gemini 3.1 Pro** | 1M | Complex multi-document analysis |
 | 6 | **GLM-5.2** | 1M | Frontier open-weight coding + long context |
 | 7 | **Kimi K3** | 1M | 2.8T MoE open-weight frontier; native vision; $3.00/$15.00 |
+| 7a | **Tencent Hy4 preview** ⭐ | 1M | 770B/49B MoE; Gated DeepSeek Sparse Attention; Apache 2.0 open weights; released 2026-08-28 |
 | 8 | **Gemini 3.5 Flash** | 1M | Fast multimodal reasoning |
 | 8 | **Claude Opus 4.7** | 1M | Agentic coding with full codebase |
 | 9 | **GPT-5.5 Pro** | 1.05M | Premium reasoning with long context |
@@ -2389,6 +2454,19 @@ Attribution, verification sources, and methodology.
 | **Microsoft** | Microsoft 365 Premium (consumer Copilot) pricing | <a href="https://www.microsoft.com/en-us/microsoft-365/premium" rel="nofollow">microsoft.com</a> |
 | **Alibaba Cloud** | Model Studio models & pricing (Qwen 3.8) | <a href="https://www.alibabacloud.com/help/en/model-studio/models" rel="nofollow">alibabacloud.com</a> |
 | **Apple** | Foundation Models 3rd Gen announcement | <a href="https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models" rel="nofollow">machinelearning.apple.com</a> |
+| **Anthropic** | Claude Fable 5.1 / Mythos 5.1 announcement | <a href="https://www.anthropic.com/claude-fable-and-mythos-5-1" rel="nofollow">anthropic.com</a> |
+| **Anthropic** | Claude text watermark (EU AI Act) | <a href="https://www.anthropic.com/news/claude-text-watermark" rel="nofollow">anthropic.com</a> |
+| **Anthropic** | Claude Code changelog (v2.1.257/v2.1.258) | <a href="https://code.claude.com/docs/en/changelog" rel="nofollow">code.claude.com</a> |
+| **Google** | Gemini 3.8 Flash and 3.8 Flash Cyber | <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/" rel="nofollow">blog.google</a> |
+| **Google** | Gemini 3.8 Flash model card | <a href="https://deepmind.google/models/model-cards/gemini-3-8-flash/" rel="nofollow">deepmind.google</a> |
+| **Google** | Gemini 3.5 Transcribe | <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/" rel="nofollow">blog.google</a> |
+| **Google** | Gemini 3.5 Transcribe API docs | <a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.5-transcribe" rel="nofollow">ai.google.dev</a> |
+| **Google** | Fairwind Program | <a href="https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/" rel="nofollow">blog.google</a> |
+| **Meta** | Muse Voice Transcribe | <a href="https://research.meta.ai/blog/introducing-muse-voice-transcribe" rel="nofollow">research.meta.ai</a> |
+| **Inception Labs** | Mercury 2.5 Preview (OpenRouter catalog) | <a href="https://openrouter.ai/inception/mercury-2.5-preview" rel="nofollow">openrouter.ai</a> |
+| **Inception Labs** | Mercury models page | <a href="https://www.inceptionlabs.ai/models" rel="nofollow">inceptionlabs.ai</a> |
+| **Tencent** | Hy4 preview press release | <a href="https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview" rel="nofollow">tencent.com</a> |
+| **Tencent** | Hy4 preview (Hugging Face) | <a href="https://huggingface.co/tencent/Hy4-preview" rel="nofollow">huggingface.co</a> |
 
 #### Benchmark Sources
 
@@ -2417,7 +2495,20 @@ Attribution, verification sources, and methodology.
 
 ### Supplemental agent & CLI notes 📎
 
-Additional context from the June 2026 research pass (supplements earlier tables; nothing below removes or supersedes prior entries).
+Additional context from the September 2026 research pass (supplements earlier tables; nothing below removes or supersedes prior entries).
+
+- **Gemini 3.8 Flash and Gemini 3.8 Flash Cyber launch** - Google released Gemini 3.8 Flash on 2026-09-02 00:00 UTC, the next iteration after 3.7 Flash, with 1M context, 64K output, and three effort levels (low/medium/high). Intro pricing is the same $0.75 / $3.75 per 1M tokens through 2026-12-31. **Gemini 3.8 Flash Cyber** is Google's frontier-level cybersecurity model and is available only through the new **Fairwind Program** for trusted defenders. Source: <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/" rel="nofollow">🔗</a>
+- **Claude Fable 5.1 and Mythos 5.1 launch** - Anthropic released Fable 5.1 and Mythos 5.1 on 2026-09-01 00:00 UTC. Same base price ($10 / $50 per 1M tokens) and 1M context, but cache reads cut 75% to $0.25 per 1M. Anthropic reports 52.6% on Terminal-Bench-Science, 55.8% on Terminal-Bench 4.0 (Fable 5.1) and 60.9% (Mythos 5.1). All Claude models released after 2026-08-02 carry an invisible numerical watermark per the EU AI Act Code of Practice on Transparency of AI-Generated Content. Mythos 5.1 is restricted to Glasswing, CVP, and LSVP partners. Source: <a href="https://www.anthropic.com/claude-fable-and-mythos-5-1" rel="nofollow">🔗</a>
+- **Muse Voice Transcribe launch** - Meta Superintelligence Labs released its first real-time audio perception model on 2026-09-01 00:00 UTC. Streams ASR, 20+ speaker diarization, and endpointing in a single model; 3.1% WER on Artificial Analysis streaming STT (rank #1). API is $3 per 1,000 audio minutes ($0.18 per hour). It powers Fn-key dictation in the Meta AI Mac app and voice input in Muse Code. Source: <a href="https://research.meta.ai/blog/introducing-muse-voice-transcribe" rel="nofollow">🔗</a>
+- **Mercury 2.5 Preview** - Inception Labs published a preview of its latest diffusion reasoning LLM on 2026-08-31 00:00 UTC via OpenRouter (`inception/mercury-2.5-preview`). 260K context, ~1,107 tok/s output, $0.04 / $0.15 per 1M tokens, $0.004 cached input. Reasoning, tool use, and structured output are supported, and the endpoint is OpenAI-compatible. Source: <a href="https://openrouter.ai/inception/mercury-2.5-preview" rel="nofollow">🔗</a>
+- **Tencent Hy4 preview open-source release** - Tencent Hunyuan released and open-sourced Hy4 preview on 2026-08-28 00:00 UTC: 770B / 49B-active MoE with 1M context, Gated DeepSeek Sparse Attention, IndexCache, iHC residual, and a native MTP layer for speculative decoding. Apache 2.0 weights on Hugging Face, ModelScope, GitHub, and GitCode. Available on Tencent Cloud TokenHub, OpenRouter, WorkBuddy, and CodeBuddy. Source: <a href="https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview" rel="nofollow">🔗</a>
+- **Gemini 3.5 Transcribe launch** - Google introduced Gemini 3.5 Transcribe on 2026-08-26 00:00 UTC, the company's "most precise STT yet." Two endpoints ship together: `gemini-3.5-transcribe` (unary, non-streaming) supports diarization and word-level timestamps; `gemini-3.5-transcribe-live` is the WebSocket streaming variant. Average WER 2.6% across 85+ languages. Powers the Gboard Rambler feature and the new Chrome extension. Source: <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/" rel="nofollow">🔗</a>
+- **Claude Code v2.1.257 and v2.1.258** - Anthropic shipped v2.1.257 on 2026-09-01 00:00 UTC, adding `claude-fable-5-1` as the default Fable model, a `timeFormat` / `timeZone` setting, an `--system-prompt-snapshot` flag, stronger auto-mode and sandbox protections, and broad fixes across sessions, Remote Control, and cloud workflows. v2.1.258 (2026-09-01 00:00 UTC) fixes a macOS 12 launch regression and remote-session permission approvals. Source: <a href="https://code.claude.com/docs/en/changelog" rel="nofollow">🔗</a>
+- **DeepSeek V4 peak/off-peak pricing** - Effective 2026-08-16 16:00 UTC, DeepSeek V4-Pro and V4-Flash moved to peak/off-peak pricing (off-peak = 50% of peak; peak 01:00–04:00 and 06:00–10:00 UTC Mon–Fri). The current V4-Flash rate is $0.22 / $0.66 off-peak, $0.44 / $1.32 peak. Source: <a href="https://api-docs.deepseek.com/quick_start/pricing" rel="nofollow">🔗</a>
+- **Claude Opus 4.1 retirement** - Anthropic retired Claude Opus 4.1 from the Claude API on 2026-08-05 (previously deprecated 2026-06-05). Pricing still listed on Anthropic's pricing page for Amazon Bedrock and Google Cloud availability. Source: <a href="https://platform.claude.com/docs/en/about-claude/models/overview" rel="nofollow">🔗</a>
+- **Anthropic Claude text watermarks** - From 2026-08-02 onward, all Claude model outputs carry an invisible numerical watermark per the EU AI Act Code of Practice on Transparency of AI-Generated Content, detectable only via Anthropic's detection API. Source: <a href="https://www.anthropic.com/news/claude-text-watermark" rel="nofollow">🔗</a>
+- **Codex CLI v0.149.2** - OpenAI shipped a patch release on 2026-09-01 00:00 UTC with bug fixes and performance improvements over v0.149.1. Source: <a href="https://developers.openai.com/codex/changelog" rel="nofollow">🔗</a>
+- **CrowdStrike Cyber Superintelligence Lab** - CrowdStrike announced the Cyber Superintelligence Lab on 2026-09-01 00:00 UTC to bring frontier AI research to cyber defense. Source: <a href="https://www.crowdstrike.com/news/" rel="nofollow">crowdstrike.com</a>
 
 - **Google I/O 2026 agent announcements** - Antigravity 2.0 (desktop + CLI + SDK) GA on 2026-05-19; Gemini Spark (24/7 personal agent) included with AI Ultra; Android CLI 1.0 stable for AI agent Android development; Gemini CLI sunset on 2026-06-18.
 - **Microsoft Build 2026** - Windows Agent Framework open-sourced (MIT); Aion 1.0 Instruct and Aion 1.0 Plan on-device SLMs announced; Windows 365 for Agents GA; Surface RTX Spark Dev Box and DGX Station for Windows announced.
@@ -2439,7 +2530,8 @@ Additional context from the June 2026 research pass (supplements earlier tables;
 
 ---
 
-**Last Updated:** 2026-08-24 00:00 UTC
+**Last Updated:** 2026-09-02 22:30 UTC
+**Document Version:** 3.52
 **Maintained by:** ReadyPixels LLC
 
 ---
