@@ -1,3 +1,15 @@
+## [2026-09-10] - Repository housekeeping - CC BY 4.0 relicense, root README, preview image
+
+### Changed
+- **License**: relicensed from CC BY-NC 4.0 to **CC BY 4.0**. `LICENSE` now carries the verbatim Creative Commons Attribution 4.0 International text so GitHub's license detection recognises it instead of reporting "NOASSERTION". Commercial reuse is now permitted with attribution. Badges, the At a Glance block, and the License section in `docs/readme.md` were updated to match. Source: <a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow">🔗</a>
+
+### Added
+- **Root `README.md`**: a landing page at the repository root so clones and `raw.githubusercontent.com` requests find a README. Covers the last-verified date, the update cadence, the sourcing order, how to submit a correction, and a section index that links into `docs/readme.md`. Model and tool content stays in `docs/readme.md` only.
+- **`assets/preview.png`**: rendered screenshot of the Top Models by Category and Frontier Models tables, shown at the top of the root README. Rendered directly from the live tables in `docs/readme.md`, so it can be regenerated after any data refresh.
+
+### Notes
+- No model, pricing, or benchmark data changed in this pass. The Last Updated timestamp in `docs/readme.md` stays at 2026-09-02 22:30 UTC because no data was re-verified.
+
 ## [2026-09-02] - Version 3.52 - Gemini 3.8 Flash, Claude Fable 5.1, Muse Voice Transcribe, Mercury 2.5, Tencent Hy4
 
 ### Added

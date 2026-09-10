@@ -5,7 +5,7 @@
 # Awesome AI Models Matrix 🧠
 
 <a href="https://awesome.re" rel="nofollow"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-<a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow"><img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg" alt="License: CC BY-NC 4.0"></a>
+<a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License: CC BY 4.0"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/badge/Last%20Updated-2026--09--02%2022%3A30%20UTC-green.svg" alt="Last Updated"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/stars/ReadyPixels/AI_Models_Matrix?style=social" alt="Star History"></a>
 <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow"><img src="https://img.shields.io/github/forks/ReadyPixels/AI_Models_Matrix?style=social" alt="Forks"></a>
@@ -61,7 +61,7 @@ Looking for the best AI models? Check out our **[Top Models by Category](#top-mo
 - **Document Version**: 3.52
 - **Last Updated**: 2026-09-02 22:30 UTC
 - **Repository**: <a href="https://github.com/ReadyPixels/AI_Models_Matrix" rel="nofollow">github.com/ReadyPixels/AI_Models_Matrix</a>
-- **License**: <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">CC BY-NC 4.0</a>
+- **License**: <a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow">CC BY 4.0</a>
 
 ## 🔍 Search & Navigation
 
@@ -2554,9 +2554,9 @@ Additional context from the September 2026 research pass (supplements earlier ta
 
 ## 📄 License
 
-<a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow"><img src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" alt="CC BY-NC 4.0"></a>
+<a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt="CC BY 4.0"></a>
 
-This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="nofollow">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow">Creative Commons Attribution 4.0 International License</a>. You are free to copy, adapt, and redistribute the data, including commercially, as long as you credit this repository.
 
 ---
 
